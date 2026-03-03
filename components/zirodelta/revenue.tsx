@@ -8,7 +8,7 @@ const services = [
     name: "Zirodelta Transparency",
     tagline: "Our performance. Your audit.",
     description:
-      "Full visibility into our own capital deployment. Every trade, every position, every P&L — recorded on-chain and publicly verifiable in real time.",
+      "Full visibility into our own capital deployment. Every trade, every position, every P&L recorded on-chain and publicly verifiable in real time.",
     features: [
       "Live P&L tracking",
       "On-chain trade history",
@@ -25,7 +25,7 @@ const services = [
     name: "Zirodelta Vault",
     tagline: "Deposit. Earn. Sleep.",
     description:
-      "Automated funding rate yield on your capital. Delta-neutral by design — no directional exposure, no liquidation risk. The engine works while you don't.",
+      "Automated funding rate yield on your capital. Delta-neutral by design with zero directional exposure and no liquidation risk. The engine works while you don&apos;t.",
     features: [
       "Automated yield generation",
       "Delta-neutral execution",
@@ -92,7 +92,7 @@ export function Revenue() {
             <span className="text-gradient">access the engine</span>
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Whether you want to watch, participate, or partner — there&apos;s a path built for you.
+            Whether you want to watch, participate, or partner, there&apos;s a path built for you.
           </p>
         </div>
 

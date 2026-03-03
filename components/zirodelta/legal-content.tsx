@@ -93,7 +93,7 @@ export function TermsOfServiceContent() {
       <p>$ZDLT is a utility token on the Solana blockchain. It does not represent equity, ownership shares, profit-sharing rights, or securities of any kind. $ZDLT has a fixed supply with no emissions or inflation.</p>
 
       <h3>7. Vault Terms</h3>
-      <p>Participation in the Zirodelta Vault is subject to additional Vault Terms available at vault.zirodelta.com. Vault deposits represent collateralized lending — depositors retain ownership of their $ZDLT and earn yield from funding rate arbitrage operations.</p>
+      <p>Participation in the Zirodelta Vault is subject to additional Vault Terms available at vault.zirodelta.com. Vault deposits represent collateralized lending. Depositors retain ownership of their $ZDLT and earn yield from funding rate arbitrage operations.</p>
 
       <h3>8. Intellectual Property</h3>
       <p>All content, code, designs, trademarks, and intellectual property related to the Services are owned by Zirodelta LLC. You may not copy, modify, distribute, or create derivative works without prior written consent.</p>
@@ -133,7 +133,7 @@ export function RiskDisclaimerContent() {
       <p>Timing differences between exchanges during position entry or exit can create brief, unintended directional exposure. While the protocol uses hedged-only execution architecture with emergency close logic, execution delays or failures across exchanges cannot be fully eliminated.</p>
 
       <h3>3. Liquidation Risk</h3>
-      <p>Extreme price movements can threaten margin on one leg of a hedged position. The protocol employs conservative leverage, automatic rebalancing, and strategy-level margin monitoring — but liquidation risk cannot be reduced to zero.</p>
+      <p>Extreme price movements can threaten margin on one leg of a hedged position. The protocol employs conservative leverage, automatic rebalancing, and strategy-level margin monitoring, but liquidation risk cannot be reduced to zero.</p>
 
       <h3>4. Exchange and Counterparty Risk</h3>
       <p>Centralized exchanges may experience downtime, API outages, withdrawal freezes, or insolvency. The protocol diversifies across 19+ venues with per-exchange exposure caps, but counterparty risk remains inherent in using centralized infrastructure.</p>

@@ -73,7 +73,7 @@ export function Protocol() {
             </h2>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
               Typical yield protocols need users to transact before they earn
-              anything. We capture funding rate spreads between exchanges — that
+              anything. We capture funding rate spreads between exchanges. That
               money flows every 8 hours whether anyone deposits or not.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
