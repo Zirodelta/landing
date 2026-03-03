@@ -33,13 +33,15 @@ export function Hero() {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-            A protocol that earns{" "}
-            <span className="text-gradient">before you deposit</span>
+          <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
+            A protocol that{" "}
+            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>earns</span>
+            <br className="hidden sm:block" />
+            {" "}<span className="text-gradient">before you deposit</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
+          <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed md:text-xl" style={{ color: '#e8e8e8' }}>
             Autonomous funding rate arbitrage across 19+ exchanges. Revenue
             exists before users. We&apos;re an execution business, not a DeFi
             app.
