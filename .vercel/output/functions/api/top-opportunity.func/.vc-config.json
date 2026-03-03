@@ -1,0 +1,18 @@
+{
+  "runtime": "edge",
+  "name": "api/top-opportunity",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [],
+  "framework": {
+    "slug": "nextjs",
+    "version": "16.1.6"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "g7dHJhBHSjBbq69hcH3Xd",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "YULl33BsmdFDk8+r5wUGQmLNzFtb8Oq2GVeGuk+v9kc=",
+    "__NEXT_PREVIEW_MODE_ID": "74dd12e1598165d85b424df5b9e91e4c",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "686e1784f330b1eb42fa51236ce8e107146126a4a354b63a3fd160f87febdf5c",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "561ca2b22c0b15a41074f1fe9b62c0da98a5a8a15411369328972494f833e6d9"
+  }
+}
