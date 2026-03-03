@@ -217,3 +217,16 @@
 .legal-content a:hover {
   text-decoration: underline;
 }
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth page transitions */
+@media (prefers-reduced-motion: no-preference) {
+  .legal-content {
+    scroll-behavior: smooth;
+  }
+}
+

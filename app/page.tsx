@@ -8,6 +8,7 @@ import { Revenue } from "@/components/zirodelta/revenue"
 import { Trust } from "@/components/zirodelta/trust"
 import { CTA } from "@/components/zirodelta/cta"
 import { Footer } from "@/components/zirodelta/footer"
+import { Reveal } from "@/components/zirodelta/reveal"
 
 export default function Page() {
   return (
@@ -15,12 +16,24 @@ export default function Page() {
       <Navbar />
       <Hero />
       <ExchangeTicker />
-      <Stats />
-      <Protocol />
-      <HowItWorks />
-      <Revenue />
-      <Trust />
-      <CTA />
+      <Reveal>
+        <Stats />
+      </Reveal>
+      <Reveal delay={50}>
+        <Protocol />
+      </Reveal>
+      <Reveal>
+        <HowItWorks />
+      </Reveal>
+      <Reveal delay={50}>
+        <Revenue />
+      </Reveal>
+      <Reveal>
+        <Trust />
+      </Reveal>
+      <Reveal direction="none">
+        <CTA />
+      </Reveal>
       <Footer />
     </main>
   )
