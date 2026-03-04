@@ -295,11 +295,10 @@ export default function DocsPage() {
               </div>
               <div className="rounded-lg border border-border bg-card/30 p-4">
                 <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-2">
-                  Class B — Vault &nbsp;|&nbsp; Class C — Pact
+                  Class B — Vault
                 </p>
                 <p className="text-sm text-muted-foreground mb-3">
-                  External capital (pooled or institutional). Net revenue after
-                  costs is distributed:
+                  Pooled external capital. Net revenue after costs is distributed:
                 </p>
                 <div className="grid grid-cols-3 gap-3">
                   <div className="rounded-md border border-border bg-background/50 p-3 text-center">
