@@ -106,10 +106,12 @@ export default function DocsPage() {
           <Phase number="0" title="Collect">
             <p>
               Connects to <Highlight>31 exchanges</Highlight> in parallel,
-              fetching current funding rates, payment intervals (1h / 4h / 8h —
-              varies by exchange and pair), and next funding timestamps for every
-              perpetual futures pair. Stores in a time-series database for
-              downstream analysis.
+              fetching current funding rates, payment intervals, and next funding
+              timestamps for every perpetual futures pair. Intervals are{" "}
+              <Highlight>fetched dynamically</Highlight> per pair — never
+              hardcoded. If an exchange changes a pair from 8h to 4h settlements,
+              the engine picks it up automatically. Stores in a time-series
+              database for downstream analysis.
             </p>
           </Phase>
 
@@ -199,14 +201,72 @@ export default function DocsPage() {
               Uses the same interval-aware spread formula as Phase 1 — no math
               contradictions between entry and exit evaluation.
             </p>
+
+            <div className="mt-3 rounded-lg border border-border bg-card/30 p-4">
+              <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                Minimum Hold Period
+              </p>
+              <p>
+                No position is closed until at least one{" "}
+                <Highlight>collecting-side settlement</Highlight> has occurred.
+                The collecting side is always the fastest-settling exchange — so
+                if the short leg settles hourly and the long leg every 8 hours,
+                the engine waits at least 1 hour before evaluating.
+              </p>
+              <p className="mt-2">
+                After collecting, if the spread looks bad: close{" "}
+                <Highlight>before</Highlight> the slow side pays — don&apos;t
+                wait to lose money. Emergency overrides (hard negative spreads)
+                bypass the hold period entirely.
+              </p>
+            </div>
           </Phase>
 
           <Phase number="4" title="Allocate">
             <p>
-              Reads scored opportunities and runs greedy knapsack allocation.
-              Checks exchange balance limits per leg, runs routing cost analysis
-              (bridge, deposit, withdrawal fees), and builds an execution plan:
-              which exchange to short, which to long, how much capital.
+              <Highlight>Position-aware</Highlight> greedy knapsack allocation.
+              Before building a plan, the engine fetches all open hedges and
+              applies three layers of intelligence:
+            </p>
+
+            <div className="mt-2 space-y-3 rounded-lg border border-border bg-card/30 p-4">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  Route Deduplication
+                </p>
+                <p>
+                  Won&apos;t open the same (symbol, short exchange, long exchange)
+                  twice. Different venue pairs for the same asset are allowed —
+                  they&apos;re independent routes with different risk profiles.
+                </p>
+              </div>
+              <div className="border-t border-border pt-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  Capacity Subtraction
+                </p>
+                <p>
+                  Deducts already-deployed capital from available exchange capacity
+                  before allocating new positions. Prevents over-concentration on
+                  a single exchange or symbol.
+                </p>
+              </div>
+              <div className="border-t border-border pt-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  Rotation Scoring
+                </p>
+                <p>
+                  When a better opportunity appears for the same asset on different
+                  venues, the engine calculates full rotation cost: exit fees +
+                  entry fees + withdrawal + deposit + bridge fees. Only rotates if
+                  the spread improvement recovers all costs within 3 days.
+                </p>
+              </div>
+            </div>
+            <p className="mt-2">
+              The allocation is <Highlight>additive only</Highlight> — it fills
+              empty slots and proposes rotations. It never closes profitable
+              positions. Closing is exclusively handled by Rebalance and the
+              Real-Time Guard.
             </p>
           </Phase>
 
@@ -267,7 +327,7 @@ export default function DocsPage() {
           <h2 className="text-xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Key Design Principles
           </h2>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <PrincipleCard title="Cash Flow Velocity > APR">
               The engine prioritizes real money movement speed over annualized
               rate projections. A lower rate with hourly settlement beats a
@@ -284,6 +344,24 @@ export default function DocsPage() {
               All spread calculations — scoring, allocation, rebalance, guard —
               use the identical interval-aware formula. The engine never enters a
               position using one model and evaluates it with another.
+            </PrincipleCard>
+            <PrincipleCard title="Additive Allocation, Subtractive Exit">
+              The farming loop only adds new positions or rotates when the math
+              proves it. Closing positions is exclusively handled by rebalance
+              and the real-time guard. This separation prevents churn — the
+              engine never closes a profitable position to reopen the same thing.
+            </PrincipleCard>
+            <PrincipleCard title="Rotation Must Pay for Itself">
+              Switching from one exchange route to another costs real money:
+              trading fees, withdrawal, deposit, and bridge costs. The engine
+              only rotates if the spread improvement recovers the full rotation
+              cost within 3 days. Small improvements are not worth the friction.
+            </PrincipleCard>
+            <PrincipleCard title="Zero Hardcoded Assumptions">
+              Funding intervals, settlement schedules, and exchange parameters
+              are all fetched dynamically. The engine never assumes a pair pays
+              every 8 hours — it asks the exchange every cycle. Data quality at
+              the source is non-negotiable.
             </PrincipleCard>
           </div>
         </section>
