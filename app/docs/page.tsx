@@ -91,9 +91,9 @@ export default function DocsPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
             Zirodelta runs an autonomous funding rate arbitrage engine called{" "}
-            <Highlight>FarmingLoop</Highlight>. It executes every 30 minutes,
-            scanning 31+ exchanges for profitable funding rate spreads and
-            managing positions algorithmically.
+            <Highlight>FarmingLoop</Highlight>. It continuously scans
+            exchanges for profitable funding rate spreads and
+            manages positions algorithmically.
           </p>
         </div>
 
@@ -105,13 +105,12 @@ export default function DocsPage() {
 
           <Phase number="0" title="Collect">
             <p>
-              Connects to <Highlight>31 exchanges</Highlight> in parallel,
+              Connects to <Highlight>dozens of exchanges</Highlight> in parallel,
               fetching current funding rates, payment intervals, and next funding
               timestamps for every perpetual futures pair. Intervals are{" "}
               <Highlight>fetched dynamically</Highlight> per pair — never
               hardcoded. If an exchange changes a pair from 8h to 4h settlements,
-              the engine picks it up automatically. Stores in a time-series
-              database for downstream analysis.
+              the engine picks it up automatically.
             </p>
           </Phase>
 
@@ -165,19 +164,12 @@ export default function DocsPage() {
               Runs 6 sequential safety checks before committing capital:
             </p>
             <ol className="mt-2 space-y-1.5 pl-4 list-decimal marker:text-primary/50">
-              <li>Consecutive failure detection — back off if 3+ cycles failed</li>
+              <li>Consecutive failure detection — back off after repeated failures</li>
               <li>Existing position health — rebalance if spreads compressed</li>
               <li>Opportunity availability — hold if no profitable deltas</li>
-              <li>
-                Quality threshold — minimum{" "}
-                <Code>3%</Code> annualized spread
-              </li>
-              <li>
-                Position count — max <Code>25</Code> concurrent hedges
-              </li>
-              <li>
-                Capital utilization — max <Code>80%</Code> deployed
-              </li>
+              <li>Quality threshold — minimum annualized spread gate</li>
+              <li>Position count — concurrent hedge limits</li>
+              <li>Capital utilization — deployment ceiling</li>
             </ol>
             <p className="mt-3">
               Decision output: <Code>enter</Code>, <Code>rebalance</Code>, or{" "}
@@ -258,7 +250,8 @@ export default function DocsPage() {
                   When a better opportunity appears for the same asset on different
                   venues, the engine calculates full rotation cost: exit fees +
                   entry fees + withdrawal + deposit + bridge fees. Only rotates if
-                  the spread improvement recovers all costs within 3 days.
+                  the spread improvement recovers all costs within a defined
+                  payback period.
                 </p>
               </div>
             </div>
@@ -356,11 +349,11 @@ export default function DocsPage() {
               higher rate with 8-hour settlement because you collect cash sooner
               and re-evaluate faster.
             </PrincipleCard>
-            <PrincipleCard title="Conservative on Mismatched Intervals">
-              When pairing exchanges with different payment schedules, the engine
-              uses the minimum rate as the spread estimate. This understates
-              projected returns but avoids overcommitting to positions with
-              timing risk.
+            <PrincipleCard title="Interval-Aware Spread Math">
+              When pairing exchanges with different payment schedules, rates
+              are normalized to a common timeframe before comparison. The engine
+              computes the actual net earning from each side of the hedge —
+              what the collecting side earns minus what the paying side costs.
             </PrincipleCard>
             <PrincipleCard title="No Entry/Exit Contradictions">
               All spread calculations — scoring, allocation, rebalance, guard —
@@ -377,7 +370,8 @@ export default function DocsPage() {
               Switching from one exchange route to another costs real money:
               trading fees, withdrawal, deposit, and bridge costs. The engine
               only rotates if the spread improvement recovers the full rotation
-              cost within 3 days. Small improvements are not worth the friction.
+              cost within a strict payback window. Small improvements are not
+              worth the friction.
             </PrincipleCard>
             <PrincipleCard title="Zero Hardcoded Assumptions">
               Funding intervals, settlement schedules, and exchange parameters
