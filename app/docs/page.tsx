@@ -279,19 +279,42 @@ export default function DocsPage() {
           </Phase>
 
           <Phase number="6" title="Split">
-            <p>Net revenue after costs is distributed:</p>
-            <div className="mt-2 grid grid-cols-3 gap-3">
-              <div className="rounded-md border border-border bg-card/30 p-3 text-center">
-                <p className="text-2xl font-bold text-primary">60%</p>
-                <p className="mt-1 text-xs">Vault Yield</p>
+            <p>
+              Revenue distribution depends on the{" "}
+              <Highlight>engine class</Highlight>:
+            </p>
+            <div className="mt-3 space-y-3">
+              <div className="rounded-lg border border-primary/20 bg-primary/5 p-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">
+                  Class A — Proprietary
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Our own capital, our own engine. <Highlight>No split</Highlight> — 100%
+                  retained. This is the core Beta-X1 instance.
+                </p>
               </div>
-              <div className="rounded-md border border-border bg-card/30 p-3 text-center">
-                <p className="text-2xl font-bold text-foreground">25%</p>
-                <p className="mt-1 text-xs">Growth & Ops</p>
-              </div>
-              <div className="rounded-md border border-border bg-card/30 p-3 text-center">
-                <p className="text-2xl font-bold text-foreground">15%</p>
-                <p className="mt-1 text-xs">Buyback & Burn</p>
+              <div className="rounded-lg border border-border bg-card/30 p-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-2">
+                  Class B — Vault &nbsp;|&nbsp; Class C — Pact
+                </p>
+                <p className="text-sm text-muted-foreground mb-3">
+                  External capital (pooled or institutional). Net revenue after
+                  costs is distributed:
+                </p>
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="rounded-md border border-border bg-background/50 p-3 text-center">
+                    <p className="text-2xl font-bold text-primary">60%</p>
+                    <p className="mt-1 text-xs">Depositor Yield</p>
+                  </div>
+                  <div className="rounded-md border border-border bg-background/50 p-3 text-center">
+                    <p className="text-2xl font-bold text-foreground">25%</p>
+                    <p className="mt-1 text-xs">Growth & Ops</p>
+                  </div>
+                  <div className="rounded-md border border-border bg-background/50 p-3 text-center">
+                    <p className="text-2xl font-bold text-foreground">15%</p>
+                    <p className="mt-1 text-xs">Buyback & Burn</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Phase>
