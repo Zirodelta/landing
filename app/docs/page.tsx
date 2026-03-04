@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Documentation",
+  title: "Documentation | Zirodelta",
   description:
     "Technical documentation for Zirodelta's autonomous funding rate arbitrage engine.",
 }

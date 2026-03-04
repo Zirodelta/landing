@@ -6,7 +6,7 @@
     "/Users/pacomolo/.npm/_npx/69f9afb961c37556/node_modules/.bin/vc",
     "build"
   ],
-  "cliVersion": "50.25.6",
+  "cliVersion": "50.26.1",
   "builds": [
     {
       "require": "@vercel/next",

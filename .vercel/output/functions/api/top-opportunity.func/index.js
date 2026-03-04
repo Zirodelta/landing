@@ -12,11 +12,11 @@
   "lowPriorityFiles": [],
   "rootMainFiles": [
     "static/chunks/203a4571910a74c2.js",
-    "static/chunks/2875cb8085e57874.js",
+    "static/chunks/08d1228a3ea1bf58.js",
     "static/chunks/ee495d04da23e614.js",
     "static/chunks/77b6a6f11a5fc22b.js",
     "static/chunks/bfffc7ec77d3b06a.js",
-    "static/chunks/turbopack-f5256ec62dbab7d2.js"
+    "static/chunks/turbopack-6cfa1bf19dc5332f.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
@@ -387,5 +387,5 @@ importScripts(...self.TURBOPACK_NEXT_CHUNK_URLS.map(c => self.TURBOPACK_WORKER_L
     fn(module, module.exports);
     return module.exports;
   }).call({}).default(
-    {"name":"app/api/top-opportunity/route","staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_global-error","regex":"^/_global\\-error(?:/)?$","routeKeys":{},"namedRegex":"^/_global\\-error(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/api/funding-rates","regex":"^/api/funding\\-rates(?:/)?$","routeKeys":{},"namedRegex":"^/api/funding\\-rates(?:/)?$"},{"page":"/api/metrics","regex":"^/api/metrics(?:/)?$","routeKeys":{},"namedRegex":"^/api/metrics(?:/)?$"},{"page":"/api/top-opportunity","regex":"^/api/top\\-opportunity(?:/)?$","routeKeys":{},"namedRegex":"^/api/top\\-opportunity(?:/)?$"},{"page":"/pact","regex":"^/pact(?:/)?$","routeKeys":{},"namedRegex":"^/pact(?:/)?$"}],"dynamicRoutes":[],"nextConfig":{"basePath":""}}
+    {"name":"app/api/top-opportunity/route","staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_global-error","regex":"^/_global\\-error(?:/)?$","routeKeys":{},"namedRegex":"^/_global\\-error(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/api/funding-rates","regex":"^/api/funding\\-rates(?:/)?$","routeKeys":{},"namedRegex":"^/api/funding\\-rates(?:/)?$"},{"page":"/api/metrics","regex":"^/api/metrics(?:/)?$","routeKeys":{},"namedRegex":"^/api/metrics(?:/)?$"},{"page":"/api/top-opportunity","regex":"^/api/top\\-opportunity(?:/)?$","routeKeys":{},"namedRegex":"^/api/top\\-opportunity(?:/)?$"},{"page":"/docs","regex":"^/docs(?:/)?$","routeKeys":{},"namedRegex":"^/docs(?:/)?$"},{"page":"/pact","regex":"^/pact(?:/)?$","routeKeys":{},"namedRegex":"^/pact(?:/)?$"}],"dynamicRoutes":[],"nextConfig":{"basePath":""}}
   )
