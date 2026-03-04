@@ -13,6 +13,7 @@ const footerLinks = {
     { label: "Whitepaper", href: "/whitepaper.pdf" },
   ],
   Resources: [
+    { label: "Documentation", href: "/docs" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Trust & Security", href: "#trust" },
     { label: "GitHub", href: "https://github.com/zirodelta" },
