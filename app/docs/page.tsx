@@ -37,7 +37,7 @@ function Phase({
 
 function Code({ children }: { children: React.ReactNode }) {
   return (
-    <code className="rounded bg-muted px-1.5 py-0.5  text-xs text-primary">
+    <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs text-primary">
       {children}
     </code>
   )
@@ -56,7 +56,7 @@ function PrincipleCard({
 }) {
   return (
     <div className="rounded-lg border border-border bg-card/50 p-5">
-      <h4 className="text-sm font-bold text-foreground mb-2">
+      <h4 className="text-sm font-bold text-foreground mb-2" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
         {title}
       </h4>
       <p className="text-sm leading-relaxed text-muted-foreground">{children}</p>
