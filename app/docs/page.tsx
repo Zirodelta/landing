@@ -1,12 +1,7 @@
-import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
-
-export const metadata: Metadata = {
-  title: "Documentation | Zirodelta",
-  description:
-    "Technical documentation for Zirodelta's autonomous funding rate arbitrage engine.",
-}
+import Image from "next/image"
+import { ArrowUpRight } from "lucide-react"
+import { Footer } from "@/components/zirodelta/footer"
 
 function Phase({
   number,
@@ -67,17 +62,22 @@ function PrincipleCard({
 export default function DocsPage() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Nav */}
+      {/* Header — logo + whitepaper, no nav links */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
-        <div className="mx-auto flex h-14 max-w-4xl items-center px-6">
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Home
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+          <Link href="/" className="flex items-center gap-2.5" aria-label="Zirodelta Home">
+            <Image src="/zirodelta-full-white.svg" alt="Zirodelta" width={160} height={32} className="h-8 w-auto" priority />
           </Link>
-        </div>
+          <a
+            href="/whitepaper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all duration-200 hover:brightness-110"
+          >
+            Read Whitepaper
+            <ArrowUpRight className="h-3.5 w-3.5" />
+          </a>
+        </nav>
       </header>
 
       <main className="mx-auto max-w-4xl px-6 py-16 lg:py-24">
@@ -366,6 +366,8 @@ export default function DocsPage() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
