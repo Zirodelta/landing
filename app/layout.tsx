@@ -211,7 +211,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} ${montserrat.variable} ${playfair.variable}`}>
-      <head>
+      <body className="font-sans antialiased">
+        {children}
+        <Analytics />
+        {/* JSON-LD Structured Data - valid in body per Google guidelines */}
         {jsonLd.map((data, i) => (
           <script
             key={`ld-${i}`}
@@ -219,10 +222,6 @@ export default function RootLayout({
             dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
           />
         ))}
-      </head>
-      <body className="font-sans antialiased">
-        {children}
-        <Analytics />
       </body>
     </html>
   )
