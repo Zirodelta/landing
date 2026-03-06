@@ -35,17 +35,17 @@ const websiteSchema = {
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-background">
-      <Script
-        id="schema-organization"
+    <>
+      {/* JSON-LD structured data - direct in JSX */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-      <Script
-        id="schema-website"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
+      <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
       <ExchangeTicker />
