@@ -9,12 +9,10 @@ import { Trust } from "@/components/zirodelta/trust"
 import { CTA } from "@/components/zirodelta/cta"
 import { Footer } from "@/components/zirodelta/footer"
 import { Reveal } from "@/components/zirodelta/reveal"
-import { ClientJsonLd } from "@/app/components/client-jsonld"
 
 export default function Page() {
   return (
     <main className="min-h-screen bg-background">
-      <ClientJsonLd />
       <Navbar />
       <Hero />
       <ExchangeTicker />
