@@ -48,7 +48,7 @@ const JSONLD = [
       {
         '@type': 'WebApplication',
         name: 'Zirodelta Transparency Dashboard',
-        url: 'https://transparency.zirodelta.com',
+        url: 'https://transparency.zirodelta.ag',
         applicationCategory: 'FinanceApplication',
         description:
           'Live performance data, balance history, and on-chain proofs for the Zirodelta protocol.',
