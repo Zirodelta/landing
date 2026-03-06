@@ -8,7 +8,7 @@ export function PrivacyPolicyContent() {
       <p className="text-xs text-muted-foreground mb-4">Effective Date: March 3, 2026 · Last Updated: March 3, 2026</p>
 
       <h3>1. Introduction</h3>
-      <p>This Privacy Policy describes how <strong>Zirodelta LLC</strong>, a Wyoming limited liability company (&ldquo;Zirodelta,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), collects, uses, stores, shares, and protects your personal information when you use our services, applications, and platforms (the &ldquo;Services&rdquo;), including the Zirodelta website at <a href="https://zirodelta.com">zirodelta.com</a>, the Transparency Dashboard at <a href="https://transparency.zirodelta.com">transparency.zirodelta.com</a>, the Zirodelta Vault at <a href="https://vault.zirodelta.com">vault.zirodelta.com</a>, and the Zirodelta Pact business inquiry form.</p>
+      <p>This Privacy Policy describes how <strong>Zirodelta LLC</strong>, a Wyoming limited liability company (&ldquo;Zirodelta,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), collects, uses, stores, shares, and protects your personal information when you use our services, applications, and platforms (the &ldquo;Services&rdquo;), including the Zirodelta website at <a href="https://zirodelta.com">zirodelta.com</a>, the Transparency Dashboard at <a href="https://transparency.zirodelta.ag">transparency.zirodelta.ag</a>, the Zirodelta Vault at <a href="https://vault.zirodelta.com">vault.zirodelta.com</a>, and the Zirodelta Pact business inquiry form.</p>
       <p>By using the Services, you consent to the data practices described in this Privacy Policy.</p>
 
       <h3>2. Information We Collect</h3>
@@ -70,7 +70,7 @@ export function TermsOfServiceContent() {
       <p className="text-xs text-muted-foreground mb-4">Effective Date: March 3, 2026 · Last Updated: March 3, 2026</p>
 
       <h3>1. Acceptance of Terms</h3>
-      <p>These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the services provided by <strong>Zirodelta LLC</strong>, a Wyoming limited liability company. The Services include the Zirodelta website (zirodelta.com), the Transparency Dashboard (transparency.zirodelta.com), the Zirodelta Vault (vault.zirodelta.com), and the Zirodelta Pact business inquiry form. By using any of the Services, you agree to be bound by these Terms.</p>
+      <p>These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the services provided by <strong>Zirodelta LLC</strong>, a Wyoming limited liability company. The Services include the Zirodelta website (zirodelta.com), the Transparency Dashboard (transparency.zirodelta.ag), the Zirodelta Vault (vault.zirodelta.com), and the Zirodelta Pact business inquiry form. By using any of the Services, you agree to be bound by these Terms.</p>
 
       <h3>2. Eligibility</h3>
       <p>You must be at least 18 years of age. You represent that you are not located in any restricted jurisdiction including: Afghanistan, China (mainland), Cuba, Iran, Iraq, North Korea, Russia, Syria, Venezuela, Yemen, and sanctioned regions of Ukraine.</p>

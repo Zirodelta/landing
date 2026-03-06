@@ -16,7 +16,7 @@ const services = [
       "Historical performance data",
     ],
     cta: "View Dashboard",
-    ctaHref: "https://transparency.zirodelta.com",
+    ctaHref: "https://transparency.zirodelta.ag",
     icon: BarChart3,
     accent: "#009B88",
     available: true,
