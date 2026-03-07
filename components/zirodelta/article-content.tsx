@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 
 export function ArticleContent({ content }: { content: string }) {
   if (!content || content.trim() === "" || content.trim() === "Content coming soon.") {
@@ -9,6 +10,7 @@ export function ArticleContent({ content }: { content: string }) {
 
   return (
     <ReactMarkdown
+      remarkPlugins={[remarkGfm]}
       components={{
         h2: ({ children }) => (
           <h2
@@ -58,6 +60,29 @@ export function ArticleContent({ content }: { content: string }) {
           >
             {children}
           </a>
+        ),
+        table: ({ children }) => (
+          <div className="overflow-x-auto my-6 rounded-lg border border-border">
+            <table className="w-full text-sm">{children}</table>
+          </div>
+        ),
+        thead: ({ children }) => (
+          <thead className="border-b border-border bg-card/80">{children}</thead>
+        ),
+        tbody: ({ children }) => <tbody>{children}</tbody>,
+        tr: ({ children }) => (
+          <tr className="border-b border-border/50 last:border-0">{children}</tr>
+        ),
+        th: ({ children }) => (
+          <th
+            className="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-foreground"
+            style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+          >
+            {children}
+          </th>
+        ),
+        td: ({ children }) => (
+          <td className="px-4 py-3 text-muted-foreground">{children}</td>
         ),
       }}
     >
