@@ -1,0 +1,122 @@
+---
+title: "Zirodelta vs Hyperliquid HLP"
+slug: "zirodelta-vs-hyperliquid-hlp"
+description: "Cross-exchange funding rate arbitrage vs single-venue market making vault. Two yield strategies, fundamentally different risk exposures."
+category: comparison
+bestFor:
+  - "Investors comparing multi-exchange arbitrage to single-venue market making"
+  - "HLP depositors wondering if diversified yield exists"
+  - "Risk managers evaluating venue concentration risk"
+notFor:
+  - "Users who want to deposit USDC on Hyperliquid for single-venue simplicity"
+  - "Traders who value Hyperliquid's ecosystem and want to support it directly"
+  - "Anyone looking for the highest possible Sharpe ratio on a single venue"
+publishedDate: "2026-03-07"
+---
+
+## The Short Answer
+
+**Hyperliquid HLP** is a protocol vault on Hyperliquid that provides liquidity through market making, performs liquidations, and earns trading fees. Deposit USDC → the vault runs strategies on Hyperliquid → you earn a share of profits. Single venue, high Sharpe ratio (~5.2), 22% CAGR over the past year.
+
+**Zirodelta** runs cross-exchange funding rate arbitrage across 19+ venues. Deposit $ZDLT as collateral → protocol captures rate spreads between exchanges → 60% of revenue in USDT. Multi-venue, market-neutral, independent of any single exchange.
+
+HLP concentrates on one excellent exchange. Zirodelta distributes across the entire exchange landscape.
+
+## How They Work
+
+### Hyperliquid HLP
+
+1. Deposit USDC into the HLP vault
+2. The vault runs multiple market making strategies on Hyperliquid's order book
+3. HLP earns from three sources:
+   - **Market making spread:** Bid-ask spreads on orders
+   - **Liquidations:** Processing trader liquidations at a profit
+   - **Trading fees:** A portion of Hyperliquid's platform fees
+4. 100% of profits distributed to depositors (no protocol take)
+5. Risks: inventory risk from market making, adverse selection from toxic flow
+
+### Zirodelta
+
+1. Deposit $ZDLT as collateral → protocol borrows USDT at 40-50% LTV
+2. USDT deploys across 19+ exchanges (Binance, OKX, Hyperliquid, dYdX, Gate, Bybit, etc.)
+3. Engine captures cross-exchange funding rate spreads — long on one exchange, short on another
+4. Revenue split: 60% depositors (USDT), 15% $ZDLT buyback and burn, 25% protocol growth
+5. Risks: exchange counterparty risk, execution timing, rate compression
+
+## Head-to-Head
+
+### Venue Risk
+
+**HLP:** All capital on Hyperliquid. If Hyperliquid has a smart contract vulnerability, a regulatory action, or a liquidity crisis, 100% of your HLP deposit is at risk. Hyperliquid is battle-tested and highly regarded, but single-venue concentration is single-venue risk.
+
+The March 2025 JELLY incident illustrated this — a market manipulation event caused HLP to take losses when the protocol had to absorb a manipulated position. The vault recovered, but it showed that single-venue events directly impact all HLP depositors.
+
+**Zirodelta:** Capital across 19+ exchanges with per-exchange caps. If one exchange fails, that portion is at risk — the rest continues operating. No single venue can cause total loss.
+
+**Winner: Zirodelta** on diversification. **HLP** on venue quality — Hyperliquid is one of the best-built exchanges in crypto.
+
+### Strategy Risk
+
+**HLP:** Market making carries **inventory risk** — the vault holds positions while providing liquidity. In sharp moves, the vault can be left holding losing inventory. Adverse selection (trading against informed flow) is an ongoing risk. The CAGR has compressed from 42% lifetime to 22% as more market makers join.
+
+**Zirodelta:** Funding rate arbitrage carries **execution risk** — brief directional exposure during hedge entry/exit. But once both legs are open, the position is fully hedged. No inventory accumulation, no adverse selection, no exposure to order flow toxicity.
+
+**Winner: Zirodelta** on risk isolation (fully hedged once entered). **HLP** on historical risk-adjusted returns (5.2 Sharpe ratio is exceptional).
+
+### Returns
+
+**HLP:** 22% CAGR over past 12 months, declining from 42% lifetime CAGR. Volatility at 4.5%, giving a Sharpe ratio of ~5.2. Returns compress as more market makers join the platform and competition increases.
+
+**Zirodelta:** Variable. Alpha results showed 11.8% in 12 days live trading. Cross-exchange rate spreads average 163% annualized across monitored pairs, though capturable yield depends on capital deployed and market conditions. Earlier stage = less track record.
+
+**Winner: HLP** on proven returns and track record. Zirodelta's opportunity set is large but less battle-tested.
+
+### Yield Source
+
+**HLP:** Earns from Hyperliquid's trading activity — spreads, liquidations, fees. If Hyperliquid trading volume drops, HLP returns drop. Directly correlated with one platform's activity.
+
+**Zirodelta:** Earns from rate differentials across the entire exchange ecosystem. If one exchange's volume drops, the engine rotates to where spreads exist. Not dependent on any single platform's success.
+
+**Winner: Zirodelta** on yield source diversification. **HLP** on simplicity and proven yield generation.
+
+### Simplicity
+
+**HLP:** Deposit USDC. Earn yield. One click. One venue. Clear dashboard showing vault performance.
+
+**Zirodelta:** Acquire $ZDLT → deposit as collateral → understand the vault/lending mechanism → receive USDT per epoch. More moving parts, more to understand.
+
+**Winner: HLP.** Simplicity matters.
+
+### Token Mechanics
+
+**HLP:** No specific token required. Deposit USDC, earn USDC. Hyperliquid has its own token (HYPE) but it's not required for HLP.
+
+**Zirodelta:** Requires $ZDLT as collateral. Fixed supply, deflationary (15% revenue buyback and burn). Creates alignment between token holders and protocol performance. Adds complexity but also adds long-term value accrual for holders.
+
+**Winner: HLP** on accessibility. **Zirodelta** on token value accrual.
+
+## When to Use HLP
+
+- You want simple, one-click USDC yield on a top-tier exchange
+- You trust Hyperliquid's infrastructure and are comfortable with single-venue exposure
+- You value the proven Sharpe ratio and established track record
+- You prefer no token requirement — just deposit stablecoins
+- You want the highest risk-adjusted returns on a single venue
+
+## When to Use Zirodelta
+
+- You want yield diversified across 19+ exchanges, not concentrated on one
+- You want market-neutral yield from rate spreads, not market making inventory risk
+- Bear market resilience matters — funding rate dispersion increases with volatility
+- You want deflationary token mechanics with revenue-funded buyback and burn
+- You believe diversification across venues is worth the added complexity
+
+## The Structural Difference
+
+HLP is a **single-venue market making vault** — it's exceptionally well-built, has a strong track record, and offers one of the best risk-adjusted yields in crypto. But it's one strategy on one exchange. Your return depends entirely on Hyperliquid's trading volume and the vault's ability to manage inventory risk.
+
+Zirodelta is a **multi-venue arbitrage protocol** — it captures rate spreads across the entire exchange landscape. Less proven, more complex, but structurally diversified. Your return depends on rate dispersion existing between exchanges — a structural feature of fragmented markets.
+
+For single-venue simplicity with proven returns: **HLP**.
+
+For multi-venue diversification with market-neutral arbitrage: **Zirodelta**.
