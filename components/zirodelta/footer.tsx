@@ -8,6 +8,7 @@ import { PrivacyPolicyContent, TermsOfServiceContent, RiskDisclaimerContent } fr
 const footerLinks = {
   Products: [
     { label: "Transparency", href: "https://transparency.zirodelta.ag" },
+    { label: "$ZDLT Hub", href: "https://zirodelta.org" },
     { label: "Vault", href: "https://vault.zirodelta.com" },
     { label: "Pact (Business)", href: "/pact" },
     { label: "Whitepaper", href: "/whitepaper.pdf" },
