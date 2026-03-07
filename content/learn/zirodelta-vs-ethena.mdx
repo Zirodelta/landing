@@ -1,17 +1,114 @@
 ---
 title: "Zirodelta vs Ethena"
 slug: "zirodelta-vs-ethena"
-description: "Multi-exchange funding rate arbitrage vs single-venue synthetic dollar. Which delta-neutral strategy fits your risk profile?"
+description: "Multi-exchange funding rate arbitrage vs single-venue synthetic dollar. Two delta-neutral strategies, fundamentally different risk architectures."
 category: comparison
 bestFor:
-  - "Allocators wanting exchange diversification"
-  - "Risk-conscious investors avoiding single-venue exposure"
-  - "Those seeking yield in any market condition"
+  - "Allocators who want exchange-diversified counterparty risk"
+  - "Investors who need yield in bear markets, not just bull runs"
+  - "Risk managers who won't accept single-venue exposure"
+  - "Funds seeking autonomous execution across 19+ exchanges"
 notFor:
-  - "Users wanting single-chain DeFi simplicity"
-  - "Small retail looking for one-click stablecoin yield"
+  - "Users wanting a DeFi-native stablecoin they can use across protocols"
+  - "Retail looking for one-click yield with instant liquidity"
+  - "Anyone who needs on-chain composability (lending, LPing with their yield token)"
 publishedDate: "2026-03-07"
-draft: true
 ---
 
-Content coming soon.
+## The Short Answer
+
+**Ethena** issues a synthetic dollar (USDe) backed by spot crypto + short perpetual futures. You deposit, get USDe, stake it for sUSDe, and earn yield from staking rewards + funding rates. It's a product — a yield-bearing stablecoin.
+
+**Zirodelta** runs autonomous funding rate arbitrage across 19+ exchanges. It doesn't issue a token or a stablecoin. It finds rate differentials between exchanges, opens delta-neutral positions on both sides, and collects the spread. It's an execution engine — a protocol that earns before anyone deposits.
+
+Both are delta-neutral. Both profit from funding rates. The similarities end there.
+
+## How They Actually Work
+
+### Ethena's Model
+
+1. User deposits ETH, stETH, or USDT → mints USDe
+2. Protocol holds the collateral and opens matching short futures positions (primarily on Binance, Bybit, OKX via custodians)
+3. Yield comes from two sources: ETH staking rewards (~3-4%) + perpetual funding rates (variable, often 5-15% in bull markets)
+4. User stakes USDe → gets sUSDe → yield accrues automatically
+5. Currently ~$6.7B TVL, sUSDe yielding ~3.5% APY
+
+### Zirodelta's Model
+
+1. Engine scans funding rates across 19+ exchanges every 45 minutes
+2. When Exchange A pays 50% annualized on POWER/USDT and Exchange B charges 2%, the engine opens long on B, short on A
+3. Delta exposure cancels out — profit comes purely from the rate differential
+4. Positions are monitored 24/7, closed when spreads compress, rotated to better opportunities
+5. Revenue exists from arbitrage before any external capital is deposited
+
+The fundamental difference: **Ethena takes one position across a few venues. Zirodelta finds the best position across all venues.**
+
+## Head-to-Head Comparison
+
+### Exchange Risk
+
+**Ethena** concentrates hedging on 3-4 major exchanges through custodians (Copper, Ceffu). If one exchange goes down — or a custodian has issues — the entire hedge on that venue is at risk. The protocol's insurance fund ($50M+) is the backstop.
+
+**Zirodelta** spreads across 19+ exchanges. If one exchange fails, that leg is isolated. The rest of the portfolio continues operating. No single venue can take down the system.
+
+**Winner: Zirodelta.** Exchange diversification is not optional in crypto after FTX.
+
+### Yield Source
+
+**Ethena** earns from ETH staking + funding rates on short positions. When funding rates go negative (bear markets), yield drops — sometimes to zero. The protocol has a reserve fund to absorb negative periods, but extended bear markets drain it. CryptoQuant warned that Ethena needs a keep rate above 32% to survive prolonged negative funding.
+
+**Zirodelta** earns purely from cross-exchange rate differentials. Funding rates don't need to be positive — they need to be *different*. When Exchange A pays +20% and Exchange B charges -5%, the spread is 25%. Bear markets often increase volatility, which increases rate dispersion across exchanges.
+
+**Winner: Zirodelta in bear markets. Ethena in calm bull markets** where funding rates are uniformly positive and staking yields add up.
+
+### Liquidity & Composability
+
+**Ethena's** USDe/sUSDe are ERC-20 tokens. You can use them across DeFi — as collateral on Aave, in Curve pools, in Pendle yield markets. This composability is a massive advantage for capital efficiency.
+
+**Zirodelta** manages positions on CEXs. Capital is deployed across exchanges, not available as a token. You can't LP with it or use it as collateral elsewhere.
+
+**Winner: Ethena.** On-chain composability is a real advantage for DeFi-native users.
+
+### Transparency
+
+**Ethena** provides an on-chain dashboard showing collateral, hedging positions, and reserve fund status. Attestations from custodians. But the actual positions live on CEXs behind custodian walls — you trust the attestation, not the chain.
+
+**Zirodelta** publishes a real-time transparency dashboard with exchange balances, open positions, and on-chain proof wallet. The treasury wallet (ZDLTVdBtzuBXAhmjN5LnYHZ8cysRH2bXuTtxBum8u34) is publicly verifiable on Solana.
+
+**Winner: Comparable.** Both have trade-offs between CEX execution and on-chain verifiability.
+
+### Scale & Track Record
+
+**Ethena:** ~$6.7B TVL. Operating since early 2024. Survived multiple market cycles. Backed by major VCs (Dragonfly, Arthur Hayes). Proven at scale.
+
+**Zirodelta:** Early stage. Sub-$1M deployed. Engine operational across 19+ exchanges with 2.8M+ data points collected. Not yet proven at institutional scale.
+
+**Winner: Ethena.** Track record matters. Zirodelta is earlier in its lifecycle.
+
+## The Real Tradeoffs
+
+### Why Choose Ethena
+- You want a yield-bearing stablecoin you can use across DeFi
+- You're comfortable with custodian-mediated exchange exposure
+- You want proven scale and VC backing
+- You need instant liquidity (7-day unstaking for sUSDe)
+- Composability matters more than exchange diversification
+
+### Why Choose Zirodelta
+- You want yield that doesn't depend on funding rates being positive
+- Exchange diversification is non-negotiable for your risk framework
+- You want autonomous execution, not a token you stake and hope
+- You care about bear market resilience — rate dispersion increases when markets panic
+- You want transparency at the position level, not the custodian level
+
+## The Structural Difference
+
+Ethena is a **product** — a synthetic dollar with yield. It works well when funding rates are positive, which they usually are in bull markets. It has composability, liquidity, and scale.
+
+Zirodelta is an **engine** — autonomous execution that finds and captures rate differentials wherever they exist. It doesn't depend on a single market condition. It profits from dispersion, not direction.
+
+The question isn't which is "better." It's which risk architecture matches your needs.
+
+If you want a DeFi-native yield-bearing stablecoin with composability: **Ethena**.
+
+If you want exchange-diversified, direction-agnostic funding rate arbitrage that runs 24/7 without human intervention: **Zirodelta**.

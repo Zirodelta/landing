@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { getArticle, getArticleSlugs } from "@/lib/learn"
+import { getArticle, getArticleSlugs, getAllArticles } from "@/lib/learn"
 import { DecisionPage } from "@/components/zirodelta/decision-page"
+import { ArticleContent } from "@/components/zirodelta/article-content"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -49,6 +50,17 @@ export default async function ArticlePage({ params }: Props) {
     notFound()
   }
 
+  // Get related articles (same category, excluding current)
+  const allArticles = getAllArticles()
+  const related = allArticles
+    .filter((a) => a.slug !== slug)
+    .slice(0, 3)
+    .map((a) => ({
+      title: a.title,
+      href: `/learn/${a.slug}`,
+      category: categoryLabels[a.category] || a.category,
+    }))
+
   return (
     <DecisionPage
       title={article.title}
@@ -59,11 +71,9 @@ export default async function ArticlePage({ params }: Props) {
       publishedDate={article.publishedDate}
       updatedDate={article.updatedDate}
       category={categoryLabels[article.category] || article.category}
+      related={related}
     >
-      {/* MDX body content will go here once articles are written */}
-      <div className="text-muted-foreground">
-        <p>This article is coming soon.</p>
-      </div>
+      <ArticleContent content={article.content} />
     </DecisionPage>
   )
 }
