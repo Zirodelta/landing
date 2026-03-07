@@ -31,7 +31,7 @@ Both are delta-neutral. Both profit from funding rates. The architecture is fund
 2. Protocol holds collateral + opens matching short futures positions (primarily Binance, Bybit, OKX via custodians like Copper/Ceffu)
 3. Yield = ETH staking rewards (~3-4%) + funding rates from short positions (variable)
 4. Stake USDe → get sUSDe → yield accrues automatically
-5. ~$6.7B TVL, sUSDe currently yielding ~3.5% APY
+5. [~$6.7B TVL](https://defillama.com/protocol/ethena), sUSDe currently yielding [~3.5% APY](https://defillama.com/protocol/ethena)
 
 This is a **same-exchange basis trade**: spot long + short perp on the same venue. Revenue depends on funding rates being positive — when longs pay shorts.
 
@@ -67,7 +67,7 @@ The fundamental difference: **Ethena captures funding rates on one exchange. Zir
 
 ### Yield in Bear Markets
 
-**Ethena** needs positive funding rates (longs pay shorts). In bear markets, funding frequently goes negative. CryptoQuant warned that Ethena needs a keep rate above 32% to survive prolonged negative funding. The reserve fund absorbs losses, but extended bears drain it.
+**Ethena** needs positive funding rates (longs pay shorts). In bear markets, funding frequently goes negative. [CryptoQuant analysis warned](https://www.coindesk.com/business/2024/04/18/usde-holders-should-monitor-ethenas-reserve-fund-to-avoid-risk-cryptoquant-warns) that Ethena needs a keep rate above 32% to survive prolonged negative funding. As [Coin Metrics detailed](https://coinmetrics.io/state-of-the-network/ethena-usde/) in their stress tests of USDe's delta-neutral mechanics, the [reserve fund](https://docs.ethena.fi/solution-overview/risks/funding-risk) absorbs losses, but extended bears drain it.
 
 **Zirodelta** profits from rate *dispersion*, not rate direction. Bull markets generate positive funding. Bear markets generate negative funding. Volatility amplifies the spreads between exchanges. The engine doesn't care which direction rates go — it cares that Exchange A and Exchange B disagree.
 
@@ -141,3 +141,11 @@ Ethena is a **synthetic dollar** — a yield-bearing stablecoin that works when 
 Zirodelta is a **cross-exchange arbitrage protocol** — an autonomous engine that captures rate spreads wherever they exist, across 19+ venues, regardless of market direction. Revenue flows through $ZDLT's deflationary flywheel: farming profits → USDT yield to depositors + buyback and burn. The risk is distributed across venues and pairs, but uses its own token as collateral.
 
 The question isn't which is better. It's which risk architecture matches your capital.
+
+## Sources
+
+1. [CoinDesk, "USDe Holders Should Monitor Ethena's Reserve Fund," Apr 18, 2024](https://www.coindesk.com/business/2024/04/18/usde-holders-should-monitor-ethenas-reserve-fund-to-avoid-risk-cryptoquant-warns) — CryptoQuant analysis, keep rate above 32%
+2. [Coin Metrics, "Ethena and the Mechanics of USDe," Oct 28, 2025](https://coinmetrics.io/state-of-the-network/ethena-usde/) — funding rate stress tests, delta-neutral mechanics analysis
+3. [DefiLlama, Ethena Protocol Data](https://defillama.com/protocol/ethena) — $6.7B TVL, sUSDe ~3.5% APY
+4. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) — reserve fund mechanics, funding risk documentation
+5. Zirodelta Whitepaper v4.2 — cross-exchange spread architecture, $ZDLT tokenomics, Beta-X1 engine, revenue distribution

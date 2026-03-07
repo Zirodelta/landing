@@ -65,7 +65,7 @@ Yield source: **cross-exchange rate dispersion.** Rates differ between exchanges
 
 **Aave risks:**
 - **Smart contract risk:** Protocol bug could drain pools. Mitigated by years of audits and battle-testing, but non-zero
-- **Bad debt risk:** If liquidations fail during extreme volatility, the protocol absorbs bad debt. Has happened (CRV incident, 2022)
+- **Bad debt risk:** If liquidations fail during extreme volatility, the protocol absorbs bad debt. This happened in the [November 2022 CRV incident](https://blockworks.co/news/aave-curve-bad-debt), when a [$40M CRV loan](https://www.amit-chaudhary.com/publication/toxic_liquidations/) created a toxic liquidation spiral that left Aave with $1.7M in bad debt
 - **Utilization risk:** If utilization hits 100%, you can't withdraw until borrowers repay or are liquidated
 - **Governance risk:** Parameter changes (LTV, interest curves) controlled by AAVE token holders
 
@@ -152,3 +152,9 @@ Zirodelta is a **market structure arbitrage protocol** — it captures rate spre
 For composable, liquid, on-chain stablecoin yield: **Aave**.
 
 For market-neutral yield from an independent, diversified source: **Zirodelta**.
+
+## Sources
+
+1. [Blockworks, "Aave Left With $1.7M in Bad Debt," Nov 23, 2022](https://blockworks.co/news/aave-curve-bad-debt) — CRV incident, bad debt details
+2. [Chaudhary, "Toxic Liquidation Spirals: Evidence from the bad debt incurred by AAVE," Jan 2023](https://www.amit-chaudhary.com/publication/toxic_liquidations/) — academic analysis of the $40M CRV loan and toxic liquidation mechanics
+3. Zirodelta Whitepaper v4.2 — cross-exchange arbitrage mechanics, vault architecture, revenue distribution

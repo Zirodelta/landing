@@ -110,7 +110,7 @@ Nothing is free. The tradeoff for no-liquidation architecture:
 
 ### Ethena (sUSDe)
 - **Liquidation possible?** No direct liquidation of depositor funds
-- **Risk instead:** USDe depeg if strategy fails, reserve fund depletion during negative funding
+- **Risk instead:** USDe depeg if strategy fails, [reserve fund](https://docs.ethena.fi/solution-overview/risks/funding-risk) depletion during negative funding
 - **What happens in stress?** Insurance fund absorbs losses. If fund depletes, USDe backing weakens.
 
 ### Zirodelta
@@ -142,3 +142,8 @@ Zirodelta inverts this. When stress hits, the protocol protects your collateral 
 The tradeoff is lower capital efficiency and reduced revenue during drawdowns. Whether that tradeoff is worth the elimination of forced liquidation depends on how you value capital preservation versus capital efficiency.
 
 For many allocators, especially those managing other people's money, "your tokens are never force-sold" is worth more than an extra few percent of yield.
+
+## Sources
+
+1. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) — reserve fund mechanics, stress scenarios
+2. Zirodelta Whitepaper v4.2 — AutoDeleverageWorkflow, vault architecture, collateral protection mechanics, SmartExit logic

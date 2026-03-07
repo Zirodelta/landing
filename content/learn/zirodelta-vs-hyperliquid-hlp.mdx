@@ -16,7 +16,7 @@ publishedDate: "2026-03-07"
 
 ## The Short Answer
 
-**Hyperliquid HLP** is a protocol vault on Hyperliquid that provides liquidity through market making, performs liquidations, and earns trading fees. Deposit USDC → the vault runs strategies on Hyperliquid → you earn a share of profits. Single venue, high Sharpe ratio (~5.2), 22% CAGR over the past year.
+**Hyperliquid HLP** is a [protocol vault](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/protocol-vaults) on Hyperliquid that provides liquidity through market making, performs liquidations, and earns trading fees. Deposit USDC → the vault runs strategies on Hyperliquid → you earn a share of profits. Single venue, [high Sharpe ratio (~5.2), 22% CAGR over the past year](https://www.reddit.com/r/defi/comments/1j0fvkd/).
 
 **Zirodelta** runs cross-exchange funding rate arbitrage across 19+ venues. Deposit $ZDLT as collateral → protocol captures rate spreads between exchanges → 60% of revenue in USDT. Multi-venue, market-neutral, independent of any single exchange.
 
@@ -49,7 +49,7 @@ HLP concentrates on one excellent exchange. Zirodelta distributes across the ent
 
 **HLP:** All capital on Hyperliquid. If Hyperliquid has a smart contract vulnerability, a regulatory action, or a liquidity crisis, 100% of your HLP deposit is at risk. Hyperliquid is battle-tested and highly regarded, but single-venue concentration is single-venue risk.
 
-The March 2025 JELLY incident illustrated this — a market manipulation event caused HLP to take losses when the protocol had to absorb a manipulated position. The vault recovered, but it showed that single-venue events directly impact all HLP depositors.
+The [March 2025 JELLY incident](https://www.coindesk.com/markets/2025/03/26/hyperliquid-delists-jellyjelly-after-vault-squeezed-in-usd13m-tussle) illustrated this — a market manipulation event caused HLP to take a [$13.5M unrealized loss](https://www.halborn.com/blog/post/explained-the-hyperliquid-hack-march-2025) when the protocol had to absorb a manipulated position. The vault recovered, but it showed that single-venue events directly impact all HLP depositors.
 
 **Zirodelta:** Capital across 19+ exchanges with per-exchange caps. If one exchange fails, that portion is at risk — the rest continues operating. No single venue can cause total loss.
 
@@ -65,7 +65,7 @@ The March 2025 JELLY incident illustrated this — a market manipulation event c
 
 ### Returns
 
-**HLP:** 22% CAGR over past 12 months, declining from 42% lifetime CAGR. Volatility at 4.5%, giving a Sharpe ratio of ~5.2. Returns compress as more market makers join the platform and competition increases.
+**HLP:** [22% CAGR over past 12 months, declining from 42% lifetime CAGR](https://www.reddit.com/r/defi/comments/1j0fvkd/). Volatility at 4.5%, giving a Sharpe ratio of ~5.2. Returns compress as more market makers join the platform and competition increases.
 
 **Zirodelta:** Variable. Alpha results showed 11.8% in 12 days live trading. Cross-exchange rate spreads average 163% annualized across monitored pairs, though capturable yield depends on capital deployed and market conditions. Earlier stage = less track record.
 
@@ -120,3 +120,11 @@ Zirodelta is a **multi-venue arbitrage protocol** — it captures rate spreads a
 For single-venue simplicity with proven returns: **HLP**.
 
 For multi-venue diversification with market-neutral arbitrage: **Zirodelta**.
+
+## Sources
+
+1. [Hyperliquid docs, Protocol Vaults](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/protocol-vaults) — HLP vault mechanics and strategy documentation
+2. [CoinDesk, "HyperLiquid Delists JELLY After Vault Squeezed in $13M Tussle," Mar 27, 2025](https://www.coindesk.com/markets/2025/03/26/hyperliquid-delists-jellyjelly-after-vault-squeezed-in-usd13m-tussle) — JELLY incident details
+3. [Halborn, "Explained: The Hyperliquid Hack (March 2025)"](https://www.halborn.com/blog/post/explained-the-hyperliquid-hack-march-2025) — $13.5M unrealized loss analysis
+4. [Reddit r/defi, "A Deep Dive into Hyperliquid's HLP Vault"](https://www.reddit.com/r/defi/comments/1j0fvkd/) — 42% lifetime CAGR, 22% 12-month CAGR, 5.2 Sharpe ratio
+5. Zirodelta Whitepaper v4.2 — cross-exchange arbitrage architecture, Beta-X1 engine, revenue distribution

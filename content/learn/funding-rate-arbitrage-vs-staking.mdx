@@ -28,13 +28,13 @@ Staking is the savings account. Funding rate arbitrage is the hedge fund strateg
 You deposit ETH (or SOL, ATOM, DOT, etc.) into a validator or liquid staking protocol. The network pays you for helping secure it.
 
 **Current yields (March 2026):**
-- ETH staking: 2-4% APY (3.3% average via Lido, Rocket Pool, Coinbase)
+- ETH staking: 2-4% APY ([3.3% average](https://www.datawallet.com/crypto/ethereum-staking-statistics-and-trends) via Lido, Rocket Pool, Coinbase) — with [1.06M validators](https://coinlaw.io/eth-staking-statistics/) securing the network
 - SOL staking: 5-7% APY (higher inflation = higher nominal yield, lower real yield)
 - ATOM: 14-20% APY (mostly inflation — real yield is 0-3%)
 
-**The catch nobody talks about:** Most staking yields are **inflationary**. The network prints new tokens to pay you. After adjusting for inflation, ETH real yield is ~2-3%, SOL is ~0-3%, and many L1s are near zero. You're earning more tokens of something that's being diluted.
+**The catch nobody talks about:** Most staking yields are **inflationary**. The network prints new tokens to pay you. According to [Spoted Crypto's analysis](https://www.spotedcrypto.com/crypto-staking-guide-2026-real-yield/), after adjusting for inflation, ETH real yield is ~2-3%, SOL is ~0-3%, and many L1s are near zero. You're earning more tokens of something that's being diluted.
 
-**Directional exposure is the real risk.** You earn 3.3% APY on ETH, but if ETH drops 30% in a bear market, you're down 27% net. Staking doesn't hedge price risk — it compounds it by locking your capital.
+**Directional exposure is the real risk.** You earn 3.3% APY on ETH — with [35.8M ETH staked representing 28.91% of total supply](https://www.datawallet.com/crypto/ethereum-staking-statistics-and-trends) — but if ETH drops 30% in a bear market, you're down 27% net. Staking doesn't hedge price risk — it compounds it by locking your capital.
 
 ## How Funding Rate Arbitrage Works
 
@@ -69,7 +69,7 @@ Zirodelta's alpha results: 11.8% return in 12 days live trading. 2.85% daily PnL
 - **Slashing** — validator misbehavior can burn your stake (rare but non-zero, especially on smaller networks).
 - **Lock-up** — ETH unstaking takes days. Some chains lock for 21+ days. Capital is illiquid during drawdowns.
 - **Smart contract risk** — liquid staking protocols (Lido, Rocket Pool) add a contract risk layer.
-- **Yield compression** — as more people stake, rewards dilute. ETH has gone from 5%+ to 3.3% as participation grew.
+- **Yield compression** — as more people stake, rewards dilute. ETH has gone from 5%+ to 3.3% as [participation grew to 28% of supply](https://coinlaw.io/eth-staking-statistics/).
 
 **Funding rate arbitrage risks:**
 - **Exchange risk** — capital lives on exchanges. An exchange failure (FTX) means loss of funds on that venue.
@@ -144,3 +144,11 @@ Staking is simple, passive, and gives you inflationary yield on an asset you're 
 Funding rate arbitrage is market-neutral, higher-yielding, and earns from structural inefficiencies between exchanges. It's the right choice if you want yield regardless of market direction and are comfortable with operational complexity and exchange risk.
 
 They're not mutually exclusive. Many allocators stake a portion of their ETH for base yield and deploy capital to funding rate strategies for market-neutral returns. The question is how much of your portfolio should be directionally exposed versus hedged.
+
+## Sources
+
+1. [Datawallet, "Ethereum Staking Statistics 2026," Jan 7, 2026](https://www.datawallet.com/crypto/ethereum-staking-statistics-and-trends) — 35.8M ETH staked, 28.91% of supply, 3.3% APY
+2. [CoinLaw, "ETH Staking Statistics 2026," Feb 2, 2026](https://coinlaw.io/eth-staking-statistics/) — 1.06M validators, 28% supply staked
+3. [Spoted Crypto, "Crypto Staking Guide 2026"](https://www.spotedcrypto.com/crypto-staking-guide-2026-real-yield/) — real yields 0-3% SOL, 2-3% ETH after inflation
+4. [ScienceDirect, "Exploring Risk and Return Profiles of Funding Rate Arbitrage on CEX and DEX," Aug 2025](https://www.sciencedirect.com/science/article/pii/S2096720925000818) — academic analysis of funding rate arbitrage risk/return profiles
+5. Zirodelta Whitepaper v4.2 — Alpha results, Beta-X1 architecture, cross-exchange spread data, revenue distribution
