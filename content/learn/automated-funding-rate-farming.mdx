@@ -1,17 +1,147 @@
 ---
 title: "Automated Funding Rate Farming"
 slug: "automated-funding-rate-farming"
-description: "From manual rate-checking across exchanges to fully autonomous 24/7 execution. What automation changes about funding rate yield."
+description: "Manual funding rate farming breaks at scale. Here's how Zirodelta automates cross-exchange rate capture across 19+ venues with zero human intervention."
 category: use-case
 bestFor:
-  - "Manual farmers tired of checking rates across 10+ exchanges"
-  - "Funds wanting 24/7 execution without human operators"
-  - "Anyone who's missed a rate flip while sleeping"
+  - "Manual funding rate farmers hitting the ceiling of what they can monitor"
+  - "Traders who know the strategy works but can't watch 19 exchanges 24/7"
+  - "Funds looking to deploy funding rate strategies without building in-house infra"
+  - "Anyone who's missed opportunities because they were asleep when rates spiked"
 notFor:
-  - "Traders who want full manual control over every position"
-  - "Users who don't trust autonomous execution systems"
+  - "Traders who enjoy the manual process and want full control over every trade"
+  - "Users who need real-time position adjustment beyond the protocol's parameters"
+  - "Anyone not comfortable delegating execution to an autonomous engine"
 publishedDate: "2026-03-07"
-draft: true
 ---
 
-Content coming soon.
+## The Short Answer
+
+Funding rate farming works. The alpha is real — cross-exchange rate spreads routinely hit 20-100%+ annualized on individual pairs. But doing it manually means watching dozens of exchanges, calculating spreads, executing both legs of a hedge within seconds, managing margin across venues, and rotating when rates shift. Funding rates settle every 8 hours. Markets don't sleep. You do.
+
+Zirodelta's Beta-X1 engine automates the entire cycle: scan → identify → execute → monitor → rotate → distribute. Every 15 minutes across 19+ exchanges. 24/7. No human in the loop.
+
+## Why Manual Funding Rate Farming Breaks
+
+### The Math Problem
+
+Funding rates are published across 19+ major exchanges, on thousands of trading pairs, resettling every 8 hours. To find the best cross-exchange spreads, you need to:
+
+1. Pull rates from every exchange simultaneously
+2. Match pairs across venues (same asset, different exchange)
+3. Compute the delta (difference between venues)
+4. Rank by profitability, adjusting for liquidity, margin requirements, and fees
+5. Execute both legs of the hedge within seconds
+6. Repeat every 8 hours, minimum
+
+That's 19 exchanges × hundreds of pairs × 3 settlements per day = tens of thousands of data points daily. No human can process this in real time.
+
+### The Timing Problem
+
+The best spreads appear and disappear in minutes. A pair showing 80% annualized delta at settlement might compress to 5% within an hour. If you're asleep, at dinner, or just not looking at the right pair — you miss it.
+
+Funding rate farming is a game of coverage: how many pairs can you monitor, how fast can you execute, and how consistently can you capture settlements. Humans cap out at watching 2-3 exchanges and a handful of pairs.
+
+### The Execution Problem
+
+Opening a cross-exchange hedge requires:
+1. Sufficient margin on both exchanges
+2. Simultaneous entry (or near-simultaneous) to avoid directional exposure
+3. Correct sizing to ensure delta neutrality
+4. Monitoring for margin health on both legs
+5. Knowing when to close — when spreads compress, when funding settles, when better opportunities appear elsewhere
+
+One mistake — one leg filled and the other rejected, one exchange lagging, one margin call you didn't see — and your "risk-free" arbitrage has directional exposure.
+
+### The Fistya Problem
+
+Zirodelta's founder, Fistya, popularized funding rate farming in Indonesia and invented the jumping method for 10,000%+ APR. He proved the strategy works spectacularly. He also proved that doing it manually, even as an expert, has a ceiling: you can't be awake for every settlement, you can't watch every exchange, and you can't scale beyond what one person can monitor.
+
+Zirodelta exists because the alpha is real but the human bottleneck is real too.
+
+## How Beta-X1 Automates It
+
+### Scan (Every 15 Minutes)
+
+36 exchange adapters pull live funding rates from centralized and decentralized venues:
+- **CEX:** Binance, OKX, Gate, Bybit, KuCoin, BitMEX, Deribit, BingX, and more
+- **DEX:** Hyperliquid, dYdX, GRVT
+
+The engine groups assets by base currency across exchanges, computes cross-exchange deltas, and ranks by `delta_score` — a composite metric that factors in rate differential, liquidity, historical stability, and margin requirements.
+
+Current coverage: 1.4M+ funding rate records stored in ClickHouse. $150B+ in open interest monitored.
+
+### Identify (Autonomous Decision)
+
+The farming decision engine evaluates:
+- Which pairs have the highest risk-adjusted delta
+- Available capital across exchanges
+- Current open positions (to avoid doubling up or conflicting hedges)
+- Exchange-specific constraints (margin requirements, position limits)
+
+This is where the "jumping method" is automated. Instead of a human scanning for the best rate and jumping between exchanges, the AI scans everything simultaneously and picks the optimal allocation.
+
+### Execute (Hedged-Only)
+
+Architectural rule: **every position is a hedge pair.** Long on Exchange A + short on Exchange B on the same asset. Single-leg exposure is architecturally impossible — the engine won't open one side without the other.
+
+Execution happens through exchange-specific adapters that handle:
+- Order type selection (limit vs market based on spread and urgency)
+- Slippage management
+- Partial fill handling
+- Entry timing to minimize brief directional exposure
+
+### Monitor (24/7)
+
+FundingGuard watches all open positions via WebSocket connections:
+- Real-time margin health on every leg
+- Debounced monitoring to avoid noise-triggered exits
+- SmartExit logic: if margin gets thin on one leg, close both legs (never leave a single leg exposed)
+- Per-exchange caps prevent over-concentration
+
+### Rotate (Every Epoch)
+
+Every 8 hours, synchronized with funding rate settlements:
+- Positions are evaluated against current market rates
+- If a pair's spread has compressed, the engine closes it and redeploys to better opportunities
+- If a pair is still printing, it stays open
+- New deposits activate, withdrawn capital is freed
+
+### Distribute
+
+Revenue from captured spreads is distributed per epoch:
+- **60% to vault depositors** (in USDT)
+- **25% to protocol growth** (infrastructure, exchange integrations)
+- **15% to $ZDLT buyback and burn** (permanent supply reduction)
+
+## Manual vs Automated: The Numbers
+
+| Metric | Manual Farmer | Zirodelta Beta-X1 |
+|---|---|---|
+| Exchanges monitored | 2-3 | 19+ |
+| Pairs evaluated per cycle | 10-20 | Thousands |
+| Execution speed | Minutes | Seconds |
+| Coverage | Waking hours only | 24/7/365 |
+| Settlements captured per day | 1-2 (you sleep through the third) | All 3 |
+| Hedge consistency | Variable (human error) | Architecturally enforced |
+| Position monitoring | Periodic manual checks | Continuous WebSocket |
+| Rotation speed | Hours (manual analysis) | Minutes (autonomous) |
+
+## What Automation Can't Fix
+
+Being honest about limitations:
+
+- **Exchange risk remains.** Capital lives on exchanges. Automation doesn't prevent exchange insolvency. Diversification across 19+ venues is the mitigation, not elimination.
+- **Spread compression in calm markets.** Low volatility means lower rate dispersion. The engine can't create spreads that don't exist. Returns are variable.
+- **Smart contract and infrastructure risk.** The engine itself is software. Bugs, downtime, and connectivity issues are real operational risks. (This is why Zirodelta publishes a transparency dashboard — so you can see exactly what the engine is doing.)
+- **Collateral reflexivity.** $ZDLT price affects collateral value, which affects deployed capital, which affects revenue. The auto-deleverage system protects depositors, but the relationship exists.
+
+## The Bottom Line
+
+Funding rate arbitrage is one of the few genuinely market-neutral yield strategies in crypto. The alpha comes from a structural feature of perpetual futures markets — the funding rate mechanism — that will exist as long as perps exist.
+
+The bottleneck has always been execution: monitoring enough exchanges, processing enough data, executing fast enough, and being awake for every settlement.
+
+Zirodelta automates the bottleneck. The strategy stays the same. The coverage, speed, and consistency become superhuman. Your $ZDLT collateral sits in the vault. Revenue arrives in USDT every 8 hours.
+
+The question isn't whether funding rate farming works. Fistya proved that years ago. The question is whether you want to do it manually on 2 exchanges, or let an engine do it across 19.
