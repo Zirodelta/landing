@@ -23,6 +23,7 @@ const footerLinks = {
     { label: "Discord", href: "https://discord.com/invite/YHW275Vpn3" },
     { label: "Twitter / X", href: "https://x.com/zirodelta" },
     { label: "Telegram", href: "https://t.me/zirodelta" },
+    { label: "Official Links", href: "https://official.zirodelta.com" },
   ],
 }
 
