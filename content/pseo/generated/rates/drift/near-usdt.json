@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rates on Drift - Perpetual Arbitrage",
+    "description": "Track NEAR/USDT funding rates on Drift DEX. 1-hour funding intervals, vAMM hybrid model, and Solana-speed execution for perpetual futures arbitrage.",
+    "keywords": [
+      "drift funding rates",
+      "near usdt perpetual",
+      "solana dex arbitrage",
+      "1 hour funding",
+      "vamm perpetual",
+      "drift protocol",
+      "near protocol trading",
+      "solana defi"
+    ]
+  },
+  "content": {
+    "intro": "Drift Protocol offers NEAR/USDT perpetual futures with hourly funding rate settlements on Solana. The exchange's vAMM and DLOB hybrid model provides unique arbitrage opportunities for NEAR Protocol's L1 token with frequent rate adjustments.",
+    "how_funding_works": "Drift calculates NEAR/USDT funding rates every hour based on the premium between perpetual and spot prices. The vAMM model ensures continuous liquidity while the DLOB captures price discovery from limit orders. JIT liquidity auctions help minimize slippage during funding rate calculations. Insurance fund backing provides additional risk protection for position holders.",
+    "why_this_pair": "NEAR Protocol's ecosystem developments create volatility patterns that generate consistent funding rate opportunities. The 1-hour settlement frequency on Drift allows for more responsive arbitrage strategies compared to traditional 8-hour cycles. NEAR's moderate trading volume provides sufficient liquidity while maintaining rate volatility for profitable arbitrage.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT on Drift typically shows funding rates ranging from -0.05% to +0.15% hourly during normal market conditions. Network upgrades and ecosystem announcements often drive sustained positive funding periods lasting 12-24 hours. During bear markets, NEAR frequently experiences negative funding rates as shorts dominate, creating opportunities for long-side arbitrage. The hourly settlement creates 24 potential rate captures daily, significantly more than traditional exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Drift's 1-hour funding cycle enables micro-arbitrage strategies unavailable on 8-hour settlement exchanges. Cross-DEX arbitrage between Drift and other Solana perpetual platforms can capture rate differentials. The vAMM model occasionally creates temporary rate spikes during low liquidity periods, offering short-term arbitrage windows. JIT auctions can be gamed for favorable entry positions before funding settlements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Solana network congestion can delay funding settlements and disrupt arbitrage timing strategies. Drift's complex liquidation mechanics involving insurance fund interventions may affect position safety calculations. Lower overall liquidity compared to major CEXs increases slippage risk for larger arbitrage positions. The vAMM model can experience price deviations during extreme market stress, potentially amplifying funding rate volatility beyond expected ranges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Drift settle NEAR/USDT funding rates?",
+        "answer": "Drift settles NEAR/USDT funding rates every hour, providing 24 settlement opportunities per day. This frequent settlement allows for more responsive arbitrage strategies compared to traditional 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What makes Drift's vAMM model unique for NEAR funding rates?",
+        "answer": "Drift combines a virtual automated market maker with a decentralized limit order book (DLOB) to calculate funding rates. This hybrid approach provides better price discovery than pure vAMM models while maintaining continuous liquidity for NEAR/USDT positions."
+      },
+      {
+        "question": "How does Solana network performance affect NEAR arbitrage on Drift?",
+        "answer": "Solana's high throughput enables near-instant trade execution, crucial for funding rate arbitrage timing. However, network congestion during peak periods can delay settlements and affect arbitrage precision. Traders should monitor Solana network status when executing time-sensitive strategies."
+      },
+      {
+        "question": "What are the typical funding rate ranges for NEAR/USDT on Drift?",
+        "answer": "NEAR/USDT funding rates on Drift typically range from -0.05% to +0.15% hourly during normal conditions. Major NEAR ecosystem events or market volatility can push rates outside this range, creating enhanced arbitrage opportunities."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ton-usdt",
+    "sui-usdt",
+    "link-usdt",
+    "ethfi-usdt",
+    "pepe-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate on Vertex - AI Token Arbitrage",
+    "description": "Track WLD/USDT perpetual funding rates on Vertex DEX. Hourly funding intervals, 0.02% maker fees, and cross-margin leverage for AI token arbitrage strategies.",
+    "keywords": [
+      "WLD funding rate",
+      "Vertex DEX",
+      "Worldcoin perpetual",
+      "AI token arbitrage",
+      "Arbitrum DEX",
+      "cross-margin trading",
+      "WLD futures"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Vertex offer unique funding rate arbitrage opportunities for Worldcoin, leveraging the exchange's hybrid DEX architecture on Arbitrum. The hourly funding intervals and low maker fees create favorable conditions for capturing rate differentials across the AI token ecosystem.",
+    "how_funding_works": "Vertex calculates WLD/USDT funding rates hourly using a mark price derived from spot exchanges and perpetual premium components. The hybrid sequencer model allows for rapid rate adjustments while maintaining on-chain settlement integrity. Cross-margin positions automatically optimize collateral efficiency across multiple perpetual contracts. Funding payments occur every hour with rates typically ranging from -0.375% to +0.375% daily.",
+    "why_this_pair": "WLD exhibits significant funding rate volatility due to its AI narrative exposure and concentrated holder base, creating profitable arbitrage windows. The token's correlation with broader AI sector sentiment generates predictable funding patterns during market cycles. Vertex's low taker fees (0.03%) make frequent position adjustments economically viable for capturing short-term rate differentials.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on Vertex typically spike above +0.2% hourly during AI market euphoria, often coinciding with ChatGPT updates or crypto AI announcements. Negative funding periods frequently occur during broader market downturns, reaching -0.15% hourly as shorts dominate positioning. The token shows distinct weekly patterns with higher positive rates during Asian trading hours due to retail interest concentration. Rate volatility increases significantly around Worldcoin protocol updates and token unlock events, creating enhanced arbitrage opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Vertex and centralized exchanges like Binance or OKX often yields 0.05-0.15% hourly rate differentials during volatile periods. Vertex's low maker fees (0.02%) enable profitable delta-neutral strategies even with smaller rate spreads. The DEX's cross-margin system allows efficient capital deployment across correlated AI tokens like FET and OCEAN for portfolio-based arbitrage. Automated strategies can exploit the predictable funding spikes during major AI sector news events using Vertex's fast settlement times."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WLD's limited trading history creates unpredictable funding rate behavior during extreme market conditions, potentially leading to unexpected losses. Vertex's sequencer centralization poses operational risk, though the Arbitrum base layer provides fallback settlement mechanisms. The token's concentrated supply distribution can cause rapid liquidity changes affecting position sizes and slippage costs. Cross-margin positions increase liquidation risk if correlated AI tokens move adversely, requiring careful position sizing and monitoring."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WLD funding rates updated on Vertex?",
+        "answer": "Vertex updates WLD/USDT funding rates every hour, with payments occurring at each hourly interval. The hybrid sequencer provides real-time rate calculations while maintaining on-chain settlement integrity for all funding transfers."
+      },
+      {
+        "question": "What's the maximum funding rate for WLD perpetuals on Vertex?",
+        "answer": "Vertex caps funding rates at ±0.375% per 8-hour period (±1.125% daily equivalent). However, WLD rarely hits these extremes, typically ranging between -0.1% to +0.25% hourly during normal market conditions."
+      },
+      {
+        "question": "Can I use cross-margin for WLD funding rate arbitrage on Vertex?",
+        "answer": "Yes, Vertex enables cross-margin by default, allowing you to use collateral from other positions to support WLD perpetual trades. This improves capital efficiency for multi-pair arbitrage strategies involving correlated AI tokens."
+      },
+      {
+        "question": "How does Vertex's hybrid DEX model affect WLD funding calculations?",
+        "answer": "Vertex's off-chain sequencer provides rapid price updates for WLD mark price calculations while the on-chain risk engine ensures accurate funding settlements. This hybrid approach reduces funding rate lag compared to pure on-chain DEXs while maintaining decentralized settlement."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jto-usdt",
+    "jup-usdt",
+    "tia-usdt",
+    "shib-usdt",
+    "avax-usdt"
+  ]
+}

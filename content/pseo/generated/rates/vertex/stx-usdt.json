@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rate on Vertex DEX | Arbitrage Guide",
+    "description": "Track STX/USDT funding rates on Vertex DEX. Hourly settlements with 0.02% taker fees on Arbitrum's hybrid DEX. Cross-margin trading available.",
+    "keywords": [
+      "STX funding rate",
+      "Vertex DEX",
+      "Stacks perpetuals",
+      "Bitcoin ecosystem arbitrage",
+      "Arbitrum trading",
+      "hourly funding",
+      "cross-margin"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on Vertex offer unique funding rate opportunities in the Bitcoin ecosystem space. As a hybrid DEX on Arbitrum, Vertex provides hourly funding settlements with competitive 0.02% taker fees for efficient arbitrage execution.",
+    "how_funding_works": "Vertex calculates funding rates hourly using a blend of mark price divergence from index and open interest imbalance. The hybrid architecture processes funding settlements on-chain through Arbitrum while maintaining fast execution via off-chain sequencer. Cross-margin is enabled by default, allowing efficient capital allocation across positions. Funding payments occur precisely at each hour mark with automatic position adjustments.",
+    "why_this_pair": "STX represents the largest Bitcoin layer-2 ecosystem token, creating distinct funding patterns driven by Bitcoin narrative cycles and DeFi adoption. The pair often exhibits higher volatility during Bitcoin upgrade cycles or Stacks network developments, leading to pronounced funding rate deviations. Mid-tier volume provides sufficient liquidity for arbitrage while avoiding the over-efficiency of major pairs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "STX/USDT funding rates on Vertex typically range from -0.05% to +0.15% hourly during normal market conditions. During Bitcoin halving periods or major Stacks network upgrades, rates have spiked above 0.3% hourly as retail interest surges. The pair shows strong correlation with BTC funding during macro moves but diverges significantly during Stacks-specific events. Weekend periods often see reduced funding pressure due to lower retail participation in ecosystem tokens."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Vertex's low 0.02% taker fees create favorable arbitrage conditions when STX funding rates diverge from centralized exchanges by more than 0.04% hourly. The hybrid DEX structure allows for rapid position adjustments without typical DEX latency concerns. Cross-margin functionality enables hedging across multiple Bitcoin ecosystem pairs simultaneously. Opportunities are most pronounced during US trading hours when Vertex liquidity peaks and funding imbalances develop."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Vertex's sequencer centralization poses operational risk during high volatility periods when funding rates are most attractive. Arbitrum network congestion can affect settlement timing despite the off-chain sequencer optimization. STX's correlation with Bitcoin means funding arbitrage positions face directional risk during major BTC moves. Lower brand recognition compared to major CEXs may result in slower liquidity recovery during market stress, extending arbitrage position hold times."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are STX funding rates updated on Vertex?",
+        "answer": "Vertex updates STX/USDT funding rates hourly with settlements occurring at the top of each hour. The hybrid architecture ensures precise timing despite being a decentralized exchange on Arbitrum."
+      },
+      {
+        "question": "What makes STX funding rates different from other altcoins?",
+        "answer": "STX funding rates are heavily influenced by Bitcoin narrative cycles and Stacks network development milestones. This creates unique seasonal patterns and event-driven spikes not seen in typical altcoins."
+      },
+      {
+        "question": "Can I use cross-margin for STX funding arbitrage on Vertex?",
+        "answer": "Yes, Vertex enables cross-margin by default, allowing you to hedge STX positions against other Bitcoin ecosystem tokens or use shared collateral across multiple arbitrage strategies efficiently."
+      },
+      {
+        "question": "What are the main risks of STX arbitrage on a DEX?",
+        "answer": "Key risks include sequencer downtime during volatile periods, Arbitrum network congestion affecting settlements, and potential liquidity gaps during market stress due to Vertex's smaller user base compared to major centralized exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "ada-usdt",
+    "ftm-usdt",
+    "arb-usdt",
+    "link-usdt"
+  ]
+}

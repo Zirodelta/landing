@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rates on Drift - Solana Perpetual Futures",
+    "description": "Track WIF/USDT funding rates on Drift DEX. Analyze hourly funding arbitrage opportunities with Solana's fastest perpetual futures platform.",
+    "keywords": [
+      "WIF funding rates",
+      "Drift DEX",
+      "Solana perpetual futures",
+      "dogwifhat trading",
+      "hourly funding arbitrage",
+      "meme coin futures",
+      "DEX funding rates",
+      "Solana DeFi"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on Drift offer unique funding rate dynamics on Solana's leading decentralized derivatives platform. Drift's hourly funding cycle and vAMM-DLOB hybrid model create distinct arbitrage patterns for the popular dogwifhat meme coin.",
+    "how_funding_works": "Drift calculates funding rates hourly using a time-weighted average of the premium between perpetual and index prices. The platform's vAMM system adjusts rates based on long/short imbalances, while JIT liquidity auctions help stabilize funding during high volatility periods. Funding payments occur every hour at the top of each hour, with rates typically ranging from -0.1% to 0.1% for WIF/USDT.",
+    "why_this_pair": "WIF perpetuals exhibit higher funding rate volatility due to meme coin speculation and retail sentiment shifts. Drift's Solana-based infrastructure provides sub-second execution speeds crucial for capturing brief funding arbitrage windows when WIF experiences rapid price movements or social media-driven trading surges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WIF/USDT funding rates on Drift show strong correlation with broader meme coin cycles and Solana ecosystem sentiment. During bull runs, funding rates frequently spike above 0.05% hourly as leveraged longs dominate, while bear markets see sustained negative rates below -0.03%. Weekend periods often exhibit reduced volatility with rates converging toward zero due to lower trading activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between Drift and centralized exchanges like Binance can yield 2-5% monthly returns during high volatility periods. Drift's hourly funding creates more frequent but smaller arbitrage windows compared to 8-hour CEX cycles. The key advantage lies in Solana's low transaction costs (typically under $0.01) making micro-arbitrage strategies viable even for smaller position sizes."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Solana network congestion during high activity can delay funding rate updates and position adjustments, creating execution risk. WIF's meme coin nature introduces significant basis risk as spot-futures spreads can widen rapidly during news events. Drift's insurance fund provides some protection, but extreme market conditions may trigger auto-deleveraging for highly leveraged positions before funding arbitrage can be unwound."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Drift update WIF/USDT funding rates?",
+        "answer": "Drift updates funding rates hourly for all perpetual contracts including WIF/USDT. Rates are calculated using the previous hour's time-weighted premium and applied at the start of each new hour."
+      },
+      {
+        "question": "What's the maximum funding rate for WIF/USDT on Drift?",
+        "answer": "Drift caps funding rates at 0.75% per hour (approximately 6,570% annually) to prevent extreme funding scenarios. However, WIF/USDT rarely approaches these limits, typically staying within ±0.1% hourly range."
+      },
+      {
+        "question": "How does Drift's JIT liquidity affect WIF funding rates?",
+        "answer": "Just-in-Time liquidity auctions help stabilize funding rates by providing additional liquidity during high volatility. This mechanism reduces extreme premium spikes that could otherwise cause funding rate volatility for meme coins like WIF."
+      },
+      {
+        "question": "Can I automate funding rate arbitrage on Drift for WIF/USDT?",
+        "answer": "Yes, Drift provides WebSocket APIs and SDK support for automated trading strategies. However, successful funding arbitrage requires careful risk management due to WIF's volatility and potential Solana network congestion during peak periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bnb-usdt",
+    "inj-usdt",
+    "sui-usdt",
+    "matic-usdt",
+    "stx-usdt"
+  ]
+}

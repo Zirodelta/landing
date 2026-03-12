@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rates on Drift - DeFi Perpetual Trading",
+    "description": "Track UNI/USDT funding rates on Drift DEX. Hourly funding settlements, Solana-based perpetual futures, and vAMM mechanics for DeFi token arbitrage.",
+    "keywords": [
+      "drift funding rates",
+      "uni usdt perpetual",
+      "solana defi trading",
+      "vamm funding",
+      "hourly funding settlement",
+      "drift protocol",
+      "uni perpetual futures",
+      "defi arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Drift offer hourly funding rate settlements through Solana's high-speed infrastructure. Drift's vAMM and DLOB hybrid model provides unique pricing dynamics for Uniswap's governance token. The protocol's 1-hour funding cycles enable more frequent arbitrage opportunities compared to traditional 8-hour settlements.",
+    "how_funding_works": "Drift calculates funding rates every hour based on the premium between perpetual and spot prices, using its virtual AMM for price discovery. The vAMM combines with a dynamic limit order book (DLOB) to determine fair value, while JIT liquidity auctions help reduce slippage during funding payments. Funding settlements occur automatically through Solana's validator network, with rates typically ranging from -0.5% to +1.2% annually for UNI/USDT. The protocol's insurance fund backs positions during extreme market conditions when funding rates spike.",
+    "why_this_pair": "UNI/USDT on Drift benefits from the token's mid-tier volatility and DeFi sector correlation, creating predictable funding rate patterns during governance events and protocol updates. The pair's moderate liquidity on Drift allows for meaningful position sizes while maintaining reasonable spreads. Uniswap's established market presence and regular development activity generate consistent interest rate differentials suitable for funding rate arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on Drift typically range from -0.3% to +0.8% annually, with spikes during Uniswap governance proposals and major DeFi market movements. The hourly settlement frequency creates 24 funding events daily, allowing arbitrageurs to capture short-term rate variations. During bull markets, UNI funding rates trend positive as traders maintain long exposure to DeFi governance tokens. Volatility clustering around Uniswap V4 announcements and fee structure changes has historically produced sustained funding rate premiums exceeding 2% annually."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Drift's 1-hour funding cycles enable delta-neutral strategies by shorting UNI perpetuals when funding rates exceed +0.5% annually while holding spot UNI tokens. Cross-exchange arbitrage becomes viable when Drift's funding rates diverge significantly from Binance or OKX 8-hour settlements. The vAMM mechanism can create temporary pricing inefficiencies during low liquidity periods, offering additional arbitrage windows. JIT liquidity auctions sometimes provide favorable entry points for funding rate positions, especially during Solana network congestion when competing arbitrageurs face execution delays."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "Solana network outages pose the primary operational risk, potentially preventing timely position adjustments during funding settlements. Drift's liquidation engine operates through a decentralized keeper network, which may experience delays during extreme volatility affecting UNI prices. The protocol's insurance fund provides additional protection, but positions exceeding 70% margin utilization face higher liquidation risks. Smart contract risks inherent to DeFi protocols require position sizing limitations, typically recommending maximum exposure of 20-30% of total capital to any single Drift perpetual pair."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does UNI/USDT funding settle on Drift?",
+        "answer": "Drift settles funding rates every hour for UNI/USDT perpetuals, creating 24 settlement events daily. This frequency is significantly higher than most centralized exchanges that settle every 8 hours, providing more opportunities for rate arbitrage."
+      },
+      {
+        "question": "What makes Drift's vAMM different for UNI funding calculations?",
+        "answer": "Drift's virtual AMM creates synthetic liquidity curves that adjust based on open interest and market conditions, affecting UNI funding rate calculations. The hybrid DLOB system provides additional price discovery mechanisms that can create unique funding rate patterns compared to orderbook-only exchanges."
+      },
+      {
+        "question": "Can Solana network issues affect UNI funding payments on Drift?",
+        "answer": "Yes, Solana network congestion or outages can delay funding settlements and position management for UNI/USDT perpetuals. Drift implements safeguards to handle network issues, but traders should monitor Solana validator performance during critical funding periods."
+      },
+      {
+        "question": "What insurance protections exist for UNI positions on Drift?",
+        "answer": "Drift maintains an insurance fund to cover potential shortfalls during liquidations of UNI perpetual positions. The fund accumulates from trading fees and liquidation penalties, providing additional security beyond individual margin requirements for all perpetual contracts including UNI/USDT."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "xrp-usdt",
+    "sol-usdt",
+    "op-usdt",
+    "pepe-usdt"
+  ]
+}

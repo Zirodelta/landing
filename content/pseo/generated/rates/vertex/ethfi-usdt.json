@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rate Arbitrage on Vertex DEX",
+    "description": "Trade ETHFI/USDT perpetual futures on Vertex DEX with hourly funding rates. Arbitrage opportunities with low 0.02% taker fees on Arbitrum.",
+    "keywords": [
+      "ETHFI funding rate",
+      "Vertex DEX",
+      "perpetual futures arbitrage",
+      "Arbitrum trading",
+      "DeFi derivatives",
+      "hourly funding",
+      "crypto arbitrage",
+      "DEX perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "Vertex offers ETHFI/USDT perpetual futures with hourly funding rate payments, leveraging its hybrid DEX architecture on Arbitrum. The platform combines on-chain risk management with off-chain sequencer speed for efficient perpetual trading.",
+    "how_funding_works": "Vertex calculates funding rates hourly based on the premium between perpetual and spot prices. Payments occur every hour at the top of each hour, with rates determined by the 1-hour TWAP of the premium index. The hybrid architecture ensures accurate price feeds while maintaining low latency execution through the off-chain sequencer. Cross-margin is enabled by default, allowing efficient capital utilization across positions.",
+    "why_this_pair": "ETHFI as EigenLayer's liquid restaking token often exhibits significant funding rate volatility due to its DeFi utility and staking rewards dynamics. The pair's smaller trading volume on Vertex can create funding rate inefficiencies compared to centralized exchanges. These discrepancies, combined with Vertex's low 0.02% taker fees, present arbitrage opportunities for traders monitoring multiple venues.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETHFI/USDT funding rates on Vertex typically range from -0.01% to 0.03% hourly, with higher volatility during EigenLayer protocol updates or restaking events. The token's DeFi narrative drives periodic funding spikes, particularly when staking yields fluctuate or new AVS integrations are announced. Volume concentration during Asian trading hours often correlates with funding rate extremes. Vertex's hourly funding frequency means rates can compound quickly during trending periods, making timing crucial for arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Vertex and centralized platforms like Binance or OKX frequently emerges due to Vertex's smaller ETHFI liquidity. The 0.02% taker fee advantage over many CEXs can offset funding rate differences of 0.005-0.01% per hour. Vertex's cross-margin system allows traders to maintain delta-neutral positions across multiple assets while capturing funding differentials. The Arbitrum bridge delay creates temporary arbitrage windows when ETHFI spot prices diverge significantly from other chains."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Vertex's sequencer centralization poses execution risk during high volatility periods, potentially affecting funding rate arbitrage timing. The platform's concentration on Arbitrum creates bridge risk for cross-chain arbitrage strategies. ETHFI's correlation with ETH staking rates and EigenLayer TVL can cause unexpected funding rate movements during protocol changes. Lower brand recognition compared to established CEXs may result in delayed arbitrage correction, extending profitable opportunities but increasing counterparty risk exposure."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ETHFI funding rates calculated on Vertex?",
+        "answer": "Vertex calculates and pays funding rates every hour at the top of each hour. This higher frequency compared to 8-hour CEX standards creates more arbitrage opportunities but requires active monitoring."
+      },
+      {
+        "question": "What are the trading fees for ETHFI/USDT perpetuals on Vertex?",
+        "answer": "Vertex charges 0.02% taker fees and 0.03% maker fees for ETHFI/USDT perpetuals. These competitive rates make funding rate arbitrage more profitable compared to higher-fee exchanges."
+      },
+      {
+        "question": "Can I use cross-margin for ETHFI funding rate strategies on Vertex?",
+        "answer": "Yes, Vertex enables cross-margin by default, allowing you to use collateral from other positions to maintain ETHFI perpetual positions. This improves capital efficiency for delta-neutral funding rate arbitrage."
+      },
+      {
+        "question": "What risks exist when trading ETHFI perpetuals on Vertex's sequencer?",
+        "answer": "The off-chain sequencer provides speed but creates centralization risk during high volatility. Sequencer downtime could prevent timely position adjustments, potentially affecting funding rate arbitrage strategies during critical market movements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bonk-usdt",
+    "ton-usdt",
+    "btc-usdt",
+    "pyth-usdt",
+    "link-usdt"
+  ]
+}

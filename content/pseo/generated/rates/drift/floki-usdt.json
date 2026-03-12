@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rates on Drift - Solana Perp Arbitrage",
+    "description": "Track FLOKI/USDT funding rates on Drift Protocol. 1-hour funding cycles, vAMM pricing, and JIT liquidity auctions for meme token perpetual futures arbitrage.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Drift Protocol",
+      "Solana perpetuals",
+      "meme token arbitrage",
+      "vAMM funding",
+      "1-hour funding cycle",
+      "JIT liquidity",
+      "DEX arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Drift Protocol offer unique funding rate opportunities through Solana's high-speed infrastructure and innovative vAMM model. Drift's 1-hour funding cycle provides more frequent arbitrage windows compared to traditional 8-hour cycles on centralized exchanges.",
+    "how_funding_works": "Drift's funding mechanism operates on 1-hour intervals, calculating rates based on the premium/discount between the perpetual price and mark price derived from multiple oracle sources. The virtual AMM (vAMM) model combined with DLOB ensures efficient price discovery while JIT liquidity auctions provide additional depth during volatile periods. Funding payments are automatically settled in USDT collateral, with rates typically ranging from -0.01% to 0.05% per hour for FLOKI.",
+    "why_this_pair": "FLOKI's meme token status creates significant volatility and sentiment-driven price movements, often resulting in pronounced funding rate premiums during trending periods. The token's active community and correlation with broader meme coin cycles make it particularly susceptible to funding rate imbalances that arbitrageurs can exploit.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT on Drift has exhibited funding rates ranging from -2% to 8% during major meme coin rallies, with sustained positive rates during viral social media campaigns. The 1-hour cycle means these elevated rates compound more frequently than traditional exchanges. During Solana ecosystem rallies, FLOKI often maintains consistent positive funding due to perpetual buyers, while bear markets typically see neutral to slightly negative rates as interest wanes."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "Traders can exploit funding rate differentials by taking opposite positions on Drift versus centralized exchanges like Binance or OKX. Drift's efficient liquidation engine and insurance fund provide additional safety margins during volatile periods. The vAMM model ensures continuous liquidity even during low-volume periods, though slippage can increase during extreme funding events. JIT liquidity auctions can provide favorable entry/exit points for larger arbitrage positions."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Solana network congestion poses the primary infrastructure risk for FLOKI arbitrage on Drift, potentially preventing timely position adjustments during high-volatility periods. The DEX's lower overall liquidity compared to major centralized exchanges can create larger spreads during funding collection periods. Traders should monitor Drift's insurance fund balance and be aware of the protocol's unique liquidation mechanics, which differ from traditional order book systems and can affect position safety margins."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does FLOKI funding settle on Drift compared to other exchanges?",
+        "answer": "Drift settles FLOKI funding every hour, providing 24 collection opportunities daily versus 3 times on most centralized exchanges. This higher frequency allows for more granular arbitrage strategies and faster capital efficiency."
+      },
+      {
+        "question": "What makes Drift's vAMM different for FLOKI funding rate calculation?",
+        "answer": "Drift's virtual AMM uses algorithmic market making combined with a decentralized limit order book, creating more stable funding rate calculations than pure AMM models. The system reduces manipulation risks common in low-liquidity meme token markets."
+      },
+      {
+        "question": "Can Solana network issues affect FLOKI funding collection on Drift?",
+        "answer": "Yes, Solana network congestion can delay funding settlements and position management. However, Drift's robust infrastructure typically maintains functionality during most network stress events, though traders should monitor network status during high-volatility periods."
+      },
+      {
+        "question": "How does FLOKI's volatility impact funding rates on Drift's system?",
+        "answer": "FLOKI's high volatility often creates significant funding premiums as sentiment-driven traders heavily favor long positions. Drift's 1-hour cycle means these premiums compound more frequently, creating enhanced arbitrage opportunities during trending periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bonk-usdt",
+    "meme-usdt",
+    "blur-usdt",
+    "uni-usdt",
+    "op-usdt"
+  ]
+}

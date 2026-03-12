@@ -10,61 +10,61 @@
     "quote": "USDT"
   },
   "seo": {
-    "title": "RUNE/USDT Funding Rates on Vertex DEX - Arbitrage Guide",
-    "description": "Track RUNE/USDT perpetual funding rates on Vertex DEX. Hourly settlements, 0.02% maker fees, cross-margin trading on Arbitrum's fastest hybrid sequencer.",
+    "title": "RUNE/USDT Funding Rates on Vertex - Arbitrage Guide",
+    "description": "Track RUNE/USDT funding rates on Vertex DEX. Hourly funding intervals with 0.02% taker fees on Arbitrum's fastest hybrid decentralized exchange platform.",
     "keywords": [
       "RUNE funding rates",
-      "Vertex DEX",
-      "DeFi perpetuals",
+      "Vertex DEX arbitrage",
+      "THORChain perpetuals",
+      "Arbitrum derivatives",
+      "DeFi funding arbitrage",
+      "RUNE/USDT perpetuals",
       "cross-margin trading",
-      "Arbitrum DEX",
-      "funding rate arbitrage",
-      "THORChain trading",
-      "hybrid sequencer"
+      "hourly funding intervals"
     ]
   },
   "content": {
-    "intro": "RUNE/USDT perpetuals on Vertex offer hourly funding settlements with competitive 0.02% maker fees through their hybrid DEX architecture. Vertex's off-chain sequencer provides sub-second execution while maintaining on-chain risk management for THORChain's native token.",
-    "how_funding_works": "Vertex calculates funding rates hourly based on the premium between perpetual and spot prices, with payments exchanged between long and short positions at settlement. The exchange's cross-margin system allows efficient capital utilization across multiple positions. Their hybrid sequencer enables real-time funding rate calculations while the on-chain risk engine ensures transparent settlement execution on Arbitrum.",
-    "why_this_pair": "RUNE exhibits significant funding rate volatility due to THORChain's role in cross-chain liquidity and DeFi yield farming trends. The token's correlation with broader DeFi narratives creates frequent premium/discount cycles, generating consistent arbitrage opportunities for experienced traders.",
+    "intro": "RUNE/USDT perpetual futures on Vertex offer unique funding rate arbitrage opportunities through the platform's hybrid architecture on Arbitrum. Vertex's hourly funding intervals and extremely low 0.02% taker fees make it attractive for capturing rate differentials on THORChain's native token.",
+    "how_funding_works": "Vertex calculates RUNE/USDT funding rates every hour based on the premium between perpetual and spot prices, with payments exchanged between long and short positions. The platform's off-chain sequencer enables near-instant order execution while maintaining on-chain settlement through Arbitrum. Cross-margin is enabled by default, allowing USDC collateral to back RUNE positions efficiently. Funding rates are typically applied at the top of each hour with minimal slippage due to the sequencer's speed.",
+    "why_this_pair": "RUNE exhibits volatile funding patterns due to its role in THORChain's cross-chain liquidity protocol, creating frequent arbitrage windows. The token's DeFi utility drives speculative interest that can push funding rates to extreme levels during market stress or major protocol updates. Vertex's low fees and hourly intervals make it ideal for capturing these short-term rate spikes against other exchanges.",
     "sections": [
       {
-        "heading": "Historical Rate Patterns",
-        "body": "RUNE funding rates on Vertex typically range from -0.5% to +2.0% during major DeFi cycles, with elevated rates coinciding with THORChain protocol updates or cross-chain volume surges. The hourly settlement frequency captures short-term momentum shifts that daily settlements miss. Rates tend to normalize within 24-48 hours unless sustained by fundamental THORChain developments or broader DeFi market movements. Weekend rates often compress due to reduced institutional activity, creating mean reversion opportunities."
+        "heading": "Historical RUNE Funding Patterns",
+        "body": "RUNE funding rates on Vertex have shown high volatility, often ranging from -0.1% to +0.2% hourly during major THORChain developments. The token experiences elevated funding during cross-chain bridge launches or liquidity mining events, as traders position for yield farming opportunities. Negative funding periods typically coincide with broader DeFi sector weakness, when RUNE's utility value gets overshadowed by risk-off sentiment. Historical data shows funding rate reversals often occur within 6-12 hour windows, making Vertex's hourly intervals well-suited for capturing these swings."
       },
       {
-        "heading": "Arbitrage Opportunities",
-        "body": "Vertex's 0.02% maker fees enable profitable arbitrage strategies when RUNE funding exceeds 0.08% hourly (1.92% daily equivalent). Cross-margin capabilities allow traders to hedge RUNE exposure against correlated DeFi tokens within the same account. The hybrid sequencer's speed advantage helps capture fleeting rate differentials between Vertex and centralized exchanges. Optimal strategies involve monitoring THORChain TVL changes and cross-chain bridge volumes as leading indicators for funding rate direction."
+        "heading": "Arbitrage Opportunities with Vertex",
+        "body": "Vertex's 0.02% taker fees create significant cost advantages for RUNE funding arbitrage compared to traditional CEXs charging 0.04-0.05%. The platform's Arbitrum base enables rapid cross-DEX arbitrage with other Arbitrum perpetual platforms like GMX or Gains Network. Traders can exploit funding rate differentials by maintaining opposite positions across platforms, particularly when Vertex rates diverge from Binance or Bybit. The hybrid architecture allows for sub-second position adjustments, crucial for managing delta exposure during volatile RUNE moves."
       },
       {
-        "heading": "Risk Considerations",
-        "body": "RUNE's volatility can exceed 15% daily during market stress, potentially overwhelming funding profits with unrealized PnL swings. Vertex's Arbitrum dependency introduces smart contract and bridge risks not present on centralized exchanges. The relatively lower liquidity compared to major CEXs can result in wider spreads during volatile periods. Sequencer centralization remains a key risk, though the on-chain fallback mechanism provides some protection against extended downtime."
+        "heading": "Risk Management Considerations",
+        "body": "RUNE's high volatility requires careful position sizing, as a 10-15% adverse move can quickly exceed several hours of funding income. Vertex's sequencer dependency introduces operational risk, though the team has maintained 99.9%+ uptime since launch. Cross-margin default means other positions can be liquidated to cover RUNE losses, requiring careful margin allocation. Smart contract risk exists despite audits, and THORChain's own protocol risks can create correlated exposure across DeFi positions."
       }
     ],
     "faq": [
       {
-        "question": "How often are RUNE funding rates updated on Vertex?",
-        "answer": "Vertex updates RUNE/USDT funding rates every hour based on real-time premium calculations. The hybrid sequencer provides continuous rate monitoring while settlements occur precisely at each hour mark."
+        "question": "How often are RUNE funding rates calculated on Vertex?",
+        "answer": "Vertex calculates and applies RUNE/USDT funding rates every hour at the top of the hour. This frequent interval allows for better capital efficiency compared to 8-hour funding cycles on most centralized exchanges."
       },
       {
-        "question": "What makes Vertex competitive for RUNE funding arbitrage?",
-        "answer": "Vertex offers 0.02% maker fees and cross-margin efficiency, significantly reducing arbitrage costs. The sub-second execution speed from their off-chain sequencer helps capture rate differentials before they normalize."
+        "question": "What makes Vertex competitive for RUNE arbitrage strategies?",
+        "answer": "Vertex offers 0.02% taker fees, significantly lower than most competitors, and near-instant execution through its off-chain sequencer. The platform's Arbitrum base also enables efficient cross-DEX arbitrage with other DeFi perpetual protocols."
       },
       {
-        "question": "Can I hedge RUNE exposure while earning funding on Vertex?",
-        "answer": "Yes, Vertex's cross-margin system allows hedging RUNE with correlated DeFi tokens like UNI or SUSHI within the same account. This enables funding collection while managing directional risk exposure."
+        "question": "Can I use different collateral types for RUNE positions on Vertex?",
+        "answer": "Vertex primarily uses USDC as collateral with cross-margin enabled by default. This allows your entire portfolio balance to back RUNE positions, but also means other assets can be liquidated if RUNE moves adversely."
       },
       {
-        "question": "What are the main risks of RUNE funding strategies on Vertex?",
-        "answer": "Primary risks include RUNE's high volatility overwhelming funding profits, Arbitrum bridge risks, and potential sequencer downtime. Limited liquidity during stress periods can also impact execution quality compared to major centralized exchanges."
+        "question": "What are the main risks when trading RUNE funding rates on Vertex?",
+        "answer": "Key risks include RUNE's high price volatility, potential sequencer downtime, smart contract risks, and correlation with broader THORChain ecosystem health. Cross-margin can amplify losses across your entire portfolio if not managed carefully."
       }
     ]
   },
   "related_pairs": [
-    "ftm-usdt",
-    "ton-usdt",
-    "ordi-usdt",
-    "matic-usdt",
-    "ldo-usdt"
+    "inj-usdt",
+    "bonk-usdt",
+    "pendle-usdt",
+    "floki-usdt",
+    "matic-usdt"
   ]
 }

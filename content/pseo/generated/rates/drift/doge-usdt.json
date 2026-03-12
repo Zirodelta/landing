@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOGE/USDT Funding Rates on Drift - Solana Perp Trading",
+    "description": "Track DOGE/USDT funding rates on Drift DEX. Hourly funding payments, vAMM pricing, and arbitrage opportunities on Solana's leading perpetual exchange.",
+    "keywords": [
+      "drift doge funding rate",
+      "solana perpetual futures",
+      "doge usdt drift",
+      "vamm funding arbitrage",
+      "solana dex trading",
+      "drift protocol rates",
+      "doge perp trading"
+    ]
+  },
+  "content": {
+    "intro": "DOGE/USDT perpetual futures on Drift offer hourly funding rate opportunities on Solana's fastest perpetual DEX. Drift's vAMM and DLOB hybrid model provides unique pricing dynamics for DOGE, combining AMM efficiency with order book depth for optimal funding rate capture.",
+    "how_funding_works": "Drift calculates funding rates hourly based on the premium between perpetual and mark price, derived from their virtual AMM system. The vAMM pricing uses concentrated liquidity curves while the DLOB provides additional depth during high volatility. Funding payments occur every hour at the top of each hour, with rates typically ranging from -0.01% to 0.03% depending on DOGE's momentum and Drift's inventory management. JIT liquidity auctions can create temporary pricing inefficiencies that affect funding rate calculations.",
+    "why_this_pair": "DOGE exhibits high funding rate volatility due to its meme coin nature and retail trading patterns, making it attractive for funding arbitrage strategies. The large trading volume on Drift's DOGE/USDT pair ensures sufficient liquidity for meaningful position sizes. Solana's sub-second block times allow for precise funding rate capture without the execution delays common on Ethereum-based perpetual platforms.",
+    "sections": [
+      {
+        "heading": "Historical DOGE Funding Patterns on Drift",
+        "body": "DOGE funding rates on Drift historically spike during meme coin rallies, often reaching 0.05-0.1% hourly during viral social media events. Weekend funding tends to be more volatile as retail traders dominate flow, creating arbitrage opportunities. Drift's vAMM responds quickly to momentum shifts, often leading to funding rate reversals within 2-3 hours of trend changes. The protocol's insurance fund helps stabilize extreme funding scenarios, preventing the cascading liquidations that can skew rates on other platforms."
+      },
+      {
+        "heading": "vAMM Arbitrage Opportunities",
+        "body": "Drift's virtual AMM creates unique arbitrage scenarios when DOGE's funding rate diverges significantly from CEX rates like Binance or Bybit. The hybrid model allows for basis trades between Drift's perpetual and spot markets during high funding periods. JIT liquidity auctions can temporarily move the mark price, creating short-term funding arbitrage windows of 1-2 minutes. Cross-exchange funding arbitrage works particularly well with DOGE due to its high correlation across venues and Solana's fast settlement times."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Solana network congestion during high activity periods can delay funding payments or position adjustments, creating timing risk for arbitrage strategies. Drift's liquidation engine uses a tiered system that may result in partial liquidations during DOGE's sharp moves, affecting position sizing. The protocol's relatively lower liquidity compared to major CEXs means slippage risk increases significantly above $50K position sizes. Smart contract risk remains present despite audits, particularly given Drift's complex liquidation and funding calculation mechanisms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does DOGE funding update on Drift?",
+        "answer": "DOGE funding rates update and settle every hour on Drift, at the top of each hour UTC. The rate calculation uses an 8-hour TWAP of the premium between perpetual and index price, but payments occur hourly."
+      },
+      {
+        "question": "What makes Drift's DOGE funding different from CEXs?",
+        "answer": "Drift uses a vAMM pricing model instead of traditional order books, creating unique funding dynamics. The protocol's JIT liquidity auctions and DLOB hybrid system can cause temporary price divergences that don't exist on centralized exchanges."
+      },
+      {
+        "question": "Can I earn funding fees by providing liquidity to Drift?",
+        "answer": "Yes, liquidity providers to Drift's vAMM pools earn a portion of trading fees and can benefit from favorable funding scenarios. LPs essentially act as the counterparty to traders' positions, earning when net positions pay funding."
+      },
+      {
+        "question": "What's the maximum position size for DOGE arbitrage on Drift?",
+        "answer": "Position limits vary based on market conditions and available liquidity, but typically range from $100K-500K for DOGE without significant slippage. Larger positions may require splitting across multiple funding periods to avoid market impact."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "ada-usdt",
+    "ena-usdt",
+    "imx-usdt",
+    "inj-usdt"
+  ]
+}

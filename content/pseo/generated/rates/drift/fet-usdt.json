@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on Drift - Solana DEX Arbitrage",
+    "description": "Track FET/USDT funding rates on Drift's Solana-based DEX. 1-hour intervals, vAMM pricing, and JIT liquidity for AI token arbitrage opportunities.",
+    "keywords": [
+      "FET funding rates",
+      "Drift DEX",
+      "Solana perpetuals",
+      "AI token arbitrage",
+      "vAMM funding",
+      "FET perpetual futures",
+      "Drift JIT liquidity"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on Drift offer unique funding rate arbitrage opportunities within Solana's high-speed ecosystem. As an AI infrastructure token, FET exhibits distinct volatility patterns that create predictable funding rate cycles on Drift's vAMM-powered platform.",
+    "how_funding_works": "Drift calculates FET/USDT funding rates every hour using its hybrid vAMM and DLOB model, where rates reflect the premium between perpetual and index prices. The platform's JIT liquidity auctions provide additional depth during volatile periods, affecting rate calculations. Insurance fund backing ensures position integrity during extreme FET price movements, while the 1-hour interval allows for more frequent arbitrage opportunities compared to 8-hour systems.",
+    "why_this_pair": "FET's position as an AI infrastructure token creates regular funding rate imbalances as speculation cycles between AI narrative peaks and corrections. Drift's Solana-based infrastructure provides sub-second execution speeds crucial for capturing brief funding rate inefficiencies in this mid-cap AI token. The combination of retail speculation and institutional AI interest generates consistent rate volatility patterns.",
+    "sections": [
+      {
+        "heading": "Historical FET Funding Rate Patterns",
+        "body": "FET funding rates on Drift typically oscillate between -0.05% and +0.15% hourly, with extreme spikes reaching ±0.5% during AI narrative cycles. Positive funding dominates during AI sector rallies as leveraged longs accumulate, while negative rates appear during broader market corrections. The token's correlation with AI announcements and partnerships creates predictable 2-3 day funding cycles. Drift's 1-hour intervals capture these rapid sentiment shifts more effectively than traditional 8-hour systems."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Cross-exchange arbitrage between Drift and centralized exchanges like Binance frequently yields 0.02-0.08% per hour during volatile periods. Drift's low maker fees (0.02%) and Solana's minimal transaction costs enable profitable micro-arbitrage strategies. JIT liquidity auctions provide enhanced execution for larger positions during funding rate spikes. The platform's insurance fund mechanism reduces liquidation risks, allowing for higher leverage in funding rate strategies."
+      },
+      {
+        "heading": "Risk Considerations for FET Funding",
+        "body": "Solana network congestion during high-activity periods can delay critical position adjustments, particularly during funding rate reversals. FET's mid-cap status creates higher slippage risks compared to major tokens, especially during rapid sentiment changes. Drift's complex liquidation mechanics involving vAMM price discovery can result in unexpected position closures during extreme volatility. Limited institutional liquidity compared to centralized exchanges increases the impact of large funding rate arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does FET funding reset on Drift?",
+        "answer": "FET funding rates reset every hour on Drift, providing 24 funding events per day compared to 3 on most centralized exchanges. This higher frequency creates more arbitrage opportunities but requires active position management."
+      },
+      {
+        "question": "What makes Drift's FET funding rates different from CEXs?",
+        "answer": "Drift uses a vAMM model that can create wider spreads between perpetual and spot prices during low liquidity periods. The Solana-based platform also attracts different trader demographics, often resulting in more extreme funding rates during AI sector movements."
+      },
+      {
+        "question": "How does JIT liquidity affect FET funding calculations?",
+        "answer": "JIT (Just-In-Time) liquidity auctions on Drift provide additional market depth during volatile periods, helping to stabilize extreme funding rates. This mechanism reduces the likelihood of funding rate spikes exceeding ±0.3% during normal market conditions."
+      },
+      {
+        "question": "What are the main risks of FET funding arbitrage on Drift?",
+        "answer": "Primary risks include Solana network instability affecting position management, lower overall liquidity compared to major CEXs, and FET's correlation with broader AI sector sentiment. Drift's perpetual-specific liquidation mechanics also require careful position sizing to avoid unexpected closures."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "meme-usdt",
+    "sui-usdt",
+    "xrp-usdt",
+    "ldo-usdt"
+  ]
+}

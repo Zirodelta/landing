@@ -12,8 +12,7 @@ interface Props {
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-  // Return empty — dynamicParams=true handles all routes on-demand
-  return []
+  return getExchanges().map((e) => ({ exchange: e.slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

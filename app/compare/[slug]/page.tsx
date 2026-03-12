@@ -10,8 +10,9 @@ interface Props {
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-  // Return empty — dynamicParams=true handles all routes on-demand
-  return []
+  // Pre-render only first 30 comparisons to stay under CF Pages limits
+  const comparisons = getAllComparisons()
+  return comparisons.slice(0, 30).map((c) => ({ slug: c.slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

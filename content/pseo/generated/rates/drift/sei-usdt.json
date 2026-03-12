@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rates on Drift - Perpetual Futures",
+    "description": "Track SEI/USDT funding rates on Drift DEX. Hourly payments, vAMM liquidity, and Solana-powered perpetual futures with institutional-grade infrastructure.",
+    "keywords": [
+      "sei funding rates",
+      "drift dex",
+      "solana perpetuals",
+      "sei usdt",
+      "funding arbitrage",
+      "vamm liquidity",
+      "crypto funding rates",
+      "sei trading"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetual futures on Drift offer hourly funding rate opportunities with the speed of Solana and the innovation of vAMM technology. Drift's hybrid Dynamic Limit Order Book (DLOB) and virtual Automated Market Maker (vAMM) provides enhanced price discovery for SEI perpetuals.",
+    "how_funding_works": "Drift calculates SEI/USDT funding rates every hour using a time-weighted average of the premium between perpetual and mark prices. The funding payment occurs automatically at the top of each hour, with longs paying shorts when the rate is positive. Drift's vAMM ensures continuous liquidity while the DLOB captures better execution prices through Just-in-Time (JIT) liquidity auctions. The platform's insurance fund provides additional protection against negative funding scenarios.",
+    "why_this_pair": "SEI, as a sector-specific Layer 1 blockchain optimized for trading, exhibits distinctive funding rate patterns due to its DeFi-focused narrative and institutional adoption cycles. The pair's mid-tier volume on Drift creates opportunities for funding rate arbitrage, particularly during SEI ecosystem announcements or broader L1 rotation periods. Drift's Solana infrastructure allows for rapid position adjustments to capitalize on funding rate discrepancies across venues.",
+    "sections": [
+      {
+        "heading": "SEI Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on Drift typically range from -0.01% to 0.03% hourly, with elevated rates during ecosystem developments and DeFi narrative cycles. Historical data shows positive funding clustering around SEI network upgrades and new protocol launches. The pair exhibits lower volatility in funding rates compared to memecoins but higher sensitivity than established L1s. Drift's hourly settlement creates more granular opportunities for arbitrage compared to traditional 8-hour cycles. Weekend periods often show compressed funding rates due to reduced institutional activity."
+      },
+      {
+        "heading": "Arbitrage Strategies",
+        "body": "Effective SEI funding arbitrage on Drift involves monitoring cross-venue rate differentials with centralized exchanges offering SEI perpetuals. The platform's 0.02% maker fees and 0.05% taker fees must be factored into arbitrage calculations alongside gas costs on Solana. JIT liquidity auctions can provide favorable entry points for large positions when combined with funding collection strategies. Traders often pair SEI funding with other L1 tokens on Drift to create market-neutral portfolios. The 1-hour funding cycle allows for more frequent rebalancing compared to traditional perpetual venues."
+      },
+      {
+        "heading": "Risk Management",
+        "body": "SEI perpetuals on Drift carry Solana network dependency risks, including potential validator issues or network congestion affecting position management. Lower liquidity compared to centralized exchanges increases slippage risks during volatile periods or large position adjustments. Drift's complex liquidation mechanics involving vAMM and DLOB interactions require careful position sizing and margin management. Smart contract risks inherent to DEX perpetuals add another layer of consideration. The insurance fund provides some protection, but users should monitor fund levels and understand the liquidation waterfall process."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does SEI funding rate calculation differ on Drift vs other DEXs?",
+        "answer": "Drift uses a hybrid vAMM-DLOB model for SEI price discovery, potentially creating different funding rates compared to pure AMM DEXs. The platform's JIT liquidity auctions and 1-hour funding cycles can result in more responsive rate adjustments to market conditions."
+      },
+      {
+        "question": "What are the gas costs for SEI funding rate arbitrage on Drift?",
+        "answer": "Solana transaction costs are typically under $0.01 per transaction, making frequent rebalancing economically viable. However, users should account for potential priority fees during network congestion and the cumulative effect of multiple transactions per strategy."
+      },
+      {
+        "question": "Can I automate SEI funding collection strategies on Drift?",
+        "answer": "Yes, Drift's on-chain architecture allows for programmatic interaction through Solana programs and SDK integration. However, automated strategies require careful implementation to handle Drift's specific mechanics like JIT auctions and the vAMM-DLOB hybrid model."
+      },
+      {
+        "question": "How does Drift's insurance fund protect SEI positions?",
+        "answer": "The insurance fund serves as a backstop for underwater positions that cannot be liquidated profitably. For SEI perpetuals, this provides protection against extreme market conditions, though the fund size and coverage should be monitored regularly as part of risk management."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "matic-usdt",
+    "xrp-usdt",
+    "bonk-usdt",
+    "floki-usdt"
+  ]
+}

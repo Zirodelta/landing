@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rates on Drift - Hourly Arbitrage",
+    "description": "Monitor PEPE/USDT funding rates on Drift DEX. Hourly funding cycles with vAMM hybrid model create unique arbitrage opportunities on Solana's fastest perps.",
+    "keywords": [
+      "drift funding rates",
+      "pepe perpetual futures",
+      "solana dex arbitrage",
+      "hourly funding",
+      "vamm model",
+      "meme coin funding",
+      "dlob liquidity",
+      "drift pepe usdt"
+    ]
+  },
+  "content": {
+    "intro": "Drift's PEPE/USDT perpetual futures offer unique funding rate arbitrage opportunities through its hybrid vAMM-DLOB model with hourly funding cycles. The combination of Solana's sub-second finality and JIT liquidity auctions creates distinct funding rate patterns compared to traditional CEX markets.",
+    "how_funding_works": "Drift calculates funding rates hourly based on the premium/discount between the perpetual contract price and the underlying PEPE spot price. The vAMM component provides baseline liquidity while the DLOB (Decentralized Limit Order Book) enables precise order matching. JIT (Just-In-Time) liquidity auctions help minimize funding rate volatility by attracting additional liquidity during high-volume periods. Traders pay or receive funding based on their position direction relative to the 8-hour TWAP rate.",
+    "why_this_pair": "PEPE/USDT exhibits high funding rate volatility due to meme coin speculation cycles and retail trader concentration. Drift's hourly funding frequency allows for more responsive arbitrage strategies compared to 8-hour cycles on CEXs. The pair's large trading volume on Drift, combined with Solana's low transaction costs, makes micro-arbitrage strategies economically viable.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Drift typically range from -0.05% to +0.15% hourly during normal market conditions. Extreme spikes above +0.3% hourly occur during viral social media events or major exchange listings. The vAMM model tends to produce more stable funding rates during low-volume periods compared to pure orderbook DEXs. Seasonal patterns show increased funding volatility during US trading hours when retail meme coin activity peaks."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Drift and Binance/OKX often yields 10-50 basis points per funding period due to differing trader demographics. Long funding arbitrage opportunities arise when Drift rates exceed CEX rates by more than 20 basis points after accounting for Solana transaction costs. The JIT auction mechanism can temporarily suppress funding rates, creating brief windows for position entry. Insurance fund contributions (0.1% of trading fees) help maintain system stability but can impact net arbitrage returns during stress periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Solana network congestion can delay funding rate calculations and position adjustments, particularly during high-volatility PEPE events. Drift's complex liquidation engine uses a Dutch auction system that may result in worse fills than traditional CEX liquidations. Lower overall liquidity compared to major CEXs means larger position sizes face increased slippage risk. The hybrid vAMM model introduces smart contract risk and potential oracle manipulation during extreme market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE/USDT funding rates calculated on Drift?",
+        "answer": "Drift calculates funding rates every hour for PEPE/USDT perpetuals. This higher frequency compared to most CEXs' 8-hour cycles allows for more responsive arbitrage strategies and reduced overnight funding exposure."
+      },
+      {
+        "question": "What makes Drift's vAMM different for PEPE funding rates?",
+        "answer": "Drift's virtual Automated Market Maker provides continuous liquidity even during low-volume periods, helping stabilize PEPE funding rates. The hybrid model combines vAMM base liquidity with DLOB precision, reducing funding rate manipulation compared to pure AMM models."
+      },
+      {
+        "question": "How do JIT auctions affect PEPE funding rate arbitrage?",
+        "answer": "Just-In-Time liquidity auctions on Drift can temporarily increase available liquidity during high PEPE volatility, potentially compressing funding rates. Arbitrageurs should monitor auction activity as it may signal optimal entry/exit timing for funding rate trades."
+      },
+      {
+        "question": "What are the transaction costs for PEPE funding arbitrage on Drift?",
+        "answer": "Drift charges 0.02% maker and 0.05% taker fees, plus approximately $0.01-0.05 in Solana transaction fees per trade. The low Solana costs make frequent rebalancing economically viable even for smaller arbitrage opportunities."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "dot-usdt",
+    "wld-usdt",
+    "atom-usdt",
+    "link-usdt"
+  ]
+}

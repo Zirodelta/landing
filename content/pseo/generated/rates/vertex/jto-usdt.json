@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on Vertex - Hourly Arbitrage",
+    "description": "Track JTO/USDT perpetual funding rates on Vertex DEX. Hourly settlements, 0.02% maker fees, and cross-margin trading for DeFi token arbitrage opportunities.",
+    "keywords": [
+      "JTO funding rates",
+      "Vertex DEX",
+      "Jito arbitrage",
+      "DeFi perpetuals",
+      "hourly funding",
+      "Arbitrum trading",
+      "cross-margin",
+      "sequencer trading"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetuals on Vertex offer hourly funding rate settlements with competitive 0.02% maker fees for liquid staking arbitrage. Vertex's hybrid architecture combines on-chain risk management with off-chain sequencer speed, making it suitable for active funding rate strategies on DeFi tokens.",
+    "how_funding_works": "Vertex calculates funding rates hourly using mark price deviation from index price, with payments exchanged between long and short positions at settlement. The exchange's cross-margin system automatically nets funding payments across all positions, reducing margin requirements. Vertex's off-chain sequencer processes funding calculations rapidly while the on-chain risk engine ensures position safety. Settlement occurs precisely every hour with immediate P&L updates to account balances.",
+    "why_this_pair": "JTO represents Jito's liquid staking protocol on Solana, creating natural funding rate volatility during Solana ecosystem events and staking yield fluctuations. The pair's moderate volume on Vertex allows for meaningful position sizes while maintaining reasonable bid-ask spreads for entry and exit. DeFi tokens like JTO often exhibit persistent funding rate premiums during bull markets as leverage demand exceeds short interest.",
+    "sections": [
+      {
+        "heading": "Historical Funding Patterns",
+        "body": "JTO/USDT funding rates on Vertex typically range from -0.01% to 0.05% hourly during normal market conditions, with spikes above 0.1% during Solana ecosystem announcements. The pair shows correlation with SOL funding rates but often trades at a premium due to liquid staking narrative appeal. Weekend periods generally see lower funding volatility as institutional activity decreases. Monthly expiration cycles for traditional options create periodic funding rate compression as arbitrageurs adjust delta hedges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage works well with JTO/USDT by going long on Vertex when funding is negative while shorting on exchanges with positive rates. Vertex's low maker fees (0.02%) and fast settlement make it competitive for high-frequency funding strategies. The exchange's cross-margin system allows efficient capital utilization when running multiple funding arbitrage positions simultaneously. Arbitrageurs can leverage Vertex's Arbitrum base to quickly move USDT between DeFi protocols for yield optimization alongside funding collection."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Vertex's sequencer centralization creates potential for execution delays during high volatility periods, affecting funding arbitrage timing precision. JTO's smaller market cap makes it susceptible to sudden price gaps that can overwhelm funding profits with mark-to-market losses. The exchange's concentration on Arbitrum means network congestion or bridge issues could impact position management capabilities. Funding rate arbitrage requires maintaining delta-neutral positions, but JTO's correlation with broader Solana ecosystem moves can create unintended directional exposure requiring active hedging."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are JTO/USDT funding rates settled on Vertex?",
+        "answer": "Funding rates are calculated and settled every hour on Vertex. Payments are automatically exchanged between long and short positions at the top of each hour, with immediate updates to account balances and cross-margin calculations."
+      },
+      {
+        "question": "What are the trading fees for JTO/USDT funding arbitrage on Vertex?",
+        "answer": "Vertex charges 0.02% for maker orders and 0.03% for taker orders on JTO/USDT perpetuals. The low maker fee structure makes it cost-effective for funding arbitrage strategies that require frequent position adjustments and neutral delta maintenance."
+      },
+      {
+        "question": "Does Vertex's cross-margin system affect JTO funding rate collection?",
+        "answer": "Yes, Vertex's cross-margin system nets funding payments across all positions in your account. This reduces overall margin requirements and allows more efficient capital utilization when running multiple funding arbitrage strategies simultaneously across different perpetual pairs."
+      },
+      {
+        "question": "What risks does Vertex's sequencer model create for JTO funding arbitrage?",
+        "answer": "The off-chain sequencer could experience delays during high volatility, potentially affecting precise timing of funding arbitrage entries and exits. However, the on-chain risk engine still protects against liquidations, and the sequencer's speed advantage generally outweighs centralization concerns for funding rate strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "avax-usdt",
+    "link-usdt",
+    "ethfi-usdt",
+    "ton-usdt",
+    "atom-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pyth-usdt",
+    "base": "PYTH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PYTH/USDT Funding Rates on Vertex - Hourly Arbitrage",
+    "description": "Track PYTH/USDT perpetual funding rates on Vertex DEX. Hourly settlements, 0.02% fees, and cross-margin trading for oracle token arbitrage opportunities.",
+    "keywords": [
+      "PYTH funding rate",
+      "Vertex DEX",
+      "oracle token arbitrage",
+      "Arbitrum perps",
+      "hourly funding",
+      "cross-margin",
+      "infrastructure token",
+      "DEX funding"
+    ]
+  },
+  "content": {
+    "intro": "PYTH/USDT perpetuals on Vertex offer unique funding rate opportunities for the oracle infrastructure token. Vertex's hybrid architecture on Arbitrum provides hourly funding settlements with exceptionally low 0.02% maker fees, making it attractive for frequent arbitrage strategies targeting oracle sector volatility.",
+    "how_funding_works": "Vertex calculates funding rates every hour using a mark price derived from external oracle feeds and internal orderbook dynamics. The hybrid sequencer model enables rapid price updates while maintaining on-chain settlement integrity. Cross-margin is enabled by default, allowing efficient capital utilization across multiple positions. Funding payments occur precisely at each hour mark, with rates typically ranging from -0.5% to +1.5% daily for PYTH during high volatility periods.",
+    "why_this_pair": "PYTH's role as an oracle infrastructure token creates distinct funding patterns correlated with DeFi activity and data demand cycles. The token often experiences sustained directional moves during oracle network expansions or major DeFi protocol integrations. Vertex's position as an emerging Arbitrum DEX means PYTH funding rates can diverge significantly from larger exchanges, creating cross-exchange arbitrage opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PYTH funding rates on Vertex have shown pronounced spikes during oracle network announcements and major DeFi protocol adoptions. The token typically exhibits higher volatility during US trading hours when institutional oracle demand peaks. Weekly patterns reveal consistent funding premiums on Sunday evenings as markets prepare for the trading week. During the Q4 2023 oracle wars period, PYTH sustained positive funding rates above 0.3% daily for over two weeks, creating substantial carry trade opportunities for short positions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Vertex's lower liquidity compared to tier-1 exchanges creates regular funding rate discrepancies of 0.1-0.3% daily equivalent. The 0.02% maker fee structure makes market-neutral strategies highly profitable when funding differentials exceed 0.15%. Cross-margin functionality allows traders to hedge PYTH exposure with correlated infrastructure tokens like LINK or API3. The hourly settlement frequency provides more granular profit-taking compared to 8-hour cycles on major exchanges, enabling compound returns on successful arbitrage strategies."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Vertex's sequencer dependency creates potential execution risks during network congestion or sequencer downtime. PYTH's oracle token characteristics make it susceptible to sudden depegging events during major DeFi exploits or oracle failures. The relatively low TVL on Vertex means large funding rate arbs can be limited by available liquidity depth. Arbitrum gas costs for deposits/withdrawals must be factored into cross-exchange strategies, particularly for smaller position sizes below $10,000."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does PYTH funding settle on Vertex?",
+        "answer": "PYTH funding rates settle every hour on Vertex, providing more frequent profit realization than the standard 8-hour cycles on most exchanges. This creates opportunities for compounding returns and more responsive rate arbitrage strategies."
+      },
+      {
+        "question": "What makes PYTH funding rates unique on Vertex compared to CEXs?",
+        "answer": "Vertex's emerging DEX status and lower liquidity often creates funding rate premiums or discounts of 0.2-0.4% daily compared to Binance or OKX. The cross-margin system and low fees make it optimal for market-neutral oracle token strategies."
+      },
+      {
+        "question": "How does Vertex's sequencer model affect PYTH funding calculations?",
+        "answer": "The hybrid sequencer provides faster price updates for mark price calculations while maintaining decentralized settlement. This reduces funding rate lag compared to pure on-chain DEXs, making rates more responsive to PYTH spot price movements."
+      },
+      {
+        "question": "What position sizes work best for PYTH funding arbitrage on Vertex?",
+        "answer": "Optimal position sizes range from $5,000 to $50,000 due to liquidity constraints. Larger positions may face slippage issues, while smaller positions get eroded by Arbitrum gas costs for cross-exchange hedging strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "w-usdt",
+    "tia-usdt",
+    "arb-usdt",
+    "ldo-usdt"
+  ]
+}
