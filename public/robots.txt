@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zirodelta.com/sitemap.xml
+Sitemap: https://zirodelta.com/sitemap-index.xml
