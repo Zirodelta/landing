@@ -51,20 +51,25 @@ export function getAllRatePages(): FundingRatePage[] {
   const dir = rateDir()
   if (!fs.existsSync(dir)) return []
 
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => {
-      const raw = fs.readFileSync(path.join(dir, f), "utf-8")
-      return JSON.parse(raw) as FundingRatePage
-    })
+  const pages: FundingRatePage[] = []
+  for (const exDir of fs.readdirSync(dir)) {
+    const exPath = path.join(dir, exDir)
+    if (!fs.statSync(exPath).isDirectory()) continue
+    for (const file of fs.readdirSync(exPath)) {
+      if (file.endsWith(".json")) {
+        const raw = fs.readFileSync(path.join(exPath, file), "utf-8")
+        pages.push(JSON.parse(raw) as FundingRatePage)
+      }
+    }
+  }
+  return pages
 }
 
 export function getRatePage(
   exchange: string,
   pair: string
 ): FundingRatePage | null {
-  const filepath = path.join(rateDir(), `${exchange}_${pair}.json`)
+  const filepath = path.join(rateDir(), exchange, `${pair}.json`)
   if (!fs.existsSync(filepath)) return null
   const raw = fs.readFileSync(filepath, "utf-8")
   return JSON.parse(raw) as FundingRatePage
