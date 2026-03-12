@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sui-usdt",
+    "base": "SUI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SUI/USDT Funding Rates on Aevo - Arbitrage Analysis",
+    "description": "Track SUI/USDT perpetual funding rates on Aevo DEX. Analyze hourly funding intervals and arbitrage opportunities on rollup-based derivatives platform.",
+    "keywords": [
+      "aevo funding rates",
+      "sui usdt perps",
+      "dex arbitrage",
+      "rollup derivatives",
+      "sui blockchain",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "options dex"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's SUI/USDT perpetuals offer unique funding rate dynamics with hourly intervals on a dedicated rollup architecture. The exchange combines options and perpetual futures trading, creating distinct arbitrage opportunities for SUI exposure. Traders can capitalize on funding rate differentials while benefiting from Aevo's off-chain order book efficiency and on-chain settlement security.",
+    "how_funding_works": "Aevo calculates SUI/USDT funding rates every hour using a time-weighted average of the premium between perpetual and spot prices. The exchange's rollup-based architecture enables faster rate adjustments compared to mainnet DEXs, with settlements occurring on-chain for transparency. Funding payments are exchanged directly between long and short position holders, with Aevo's maker-taker fee structure of 0.02%/0.05% applying to position adjustments. The platform's integrated options market can influence perpetual funding rates during high volatility periods.",
+    "why_this_pair": "SUI's status as a high-performance L1 blockchain creates natural trading interest and funding rate volatility on Aevo. The pair benefits from SUI's ecosystem growth and developer adoption, generating consistent trading volume that supports reliable funding rate patterns. Aevo's pre-launch token market history with SUI-related projects provides additional arbitrage context for experienced traders.",
+    "sections": [
+      {
+        "heading": "Historical SUI Funding Rate Patterns",
+        "body": "SUI/USDT funding rates on Aevo typically range from -0.05% to 0.15% hourly during normal market conditions. The pair experiences elevated positive funding during SUI ecosystem announcements and DeFi protocol launches, often reaching 0.3% hourly rates. Network upgrade periods and validator staking events create temporary negative funding as traders hedge exposure. Aevo's rollup architecture allows for more granular rate adjustments compared to Ethereum-based DEXs, resulting in smoother funding curves. Cross-correlation with other L1 tokens like APT and SEI influences rate movements during sector rotations."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "The most profitable SUI arbitrage opportunities occur during Asian trading hours when funding rates diverge significantly from CEX rates. Traders can exploit Aevo's options market by delta-hedging SUI calls while shorting perpetuals during high positive funding periods. The exchange's combined derivatives platform enables sophisticated strategies like synthetic future creation using options spreads. Risk management requires monitoring Aevo's rollup validator set and potential bridge delays during high network congestion. Position sizing should account for the platform's smaller liquidity pool compared to major CEXs."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Aevo's rollup centralization presents counterparty risk despite on-chain settlement guarantees, particularly during network maintenance periods. SUI's price volatility can create rapid margin calls that exceed Aevo's liquidation engine efficiency during extreme market moves. The platform's smaller liquidity pool means large arbitrage positions may face slippage and incomplete fills during funding payment windows. Smart contract risk exists in Aevo's rollup infrastructure, though the protocol has maintained consistent uptime since launch. Traders should maintain emergency exit strategies through alternative DEXs given Aevo's specialized product focus."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's rollup affect SUI funding rate calculations?",
+        "answer": "Aevo's dedicated rollup enables faster funding rate updates for SUI/USDT, with calculations occurring every hour using optimized price feeds. The rollup architecture reduces gas costs for rate adjustments while maintaining on-chain transparency through settlement batching."
+      },
+      {
+        "question": "Can I trade SUI options and perpetuals simultaneously for arbitrage?",
+        "answer": "Yes, Aevo's integrated platform allows simultaneous SUI options and perpetuals trading from the same interface. Traders can create synthetic positions using options spreads while collecting funding on opposing perpetual positions, though this requires advanced options knowledge."
+      },
+      {
+        "question": "What are the margin requirements for SUI perpetuals on Aevo?",
+        "answer": "Aevo requires initial margin of 10% for SUI/USDT perpetuals with maintenance margin at 5%. The platform uses cross-margin by default, allowing SUI positions to benefit from portfolio margining with other supported assets."
+      },
+      {
+        "question": "How does Aevo's SUI liquidity compare to major centralized exchanges?",
+        "answer": "Aevo's SUI liquidity is significantly lower than tier-1 CEXs, with typical order book depth of $50K-100K within 1% of mid-price. This limitation affects large arbitrage strategies but provides opportunities for smaller retail traders during funding rate extremes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ethfi-usdt",
+    "bonk-usdt",
+    "apt-usdt",
+    "ada-usdt",
+    "op-usdt"
+  ]
+}

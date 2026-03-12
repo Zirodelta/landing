@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on Aevo - DEX Arbitrage Analysis",
+    "description": "Monitor TIA/USDT perpetual funding rates on Aevo DEX. Analyze hourly funding intervals, rollup-based settlement, and arbitrage opportunities for Celestia.",
+    "keywords": [
+      "TIA funding rates",
+      "Aevo DEX",
+      "Celestia perpetuals",
+      "funding rate arbitrage",
+      "rollup trading",
+      "hourly funding",
+      "TIA USDT",
+      "DEX arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the exchange's rollup-based architecture and hourly funding intervals. As a modular blockchain token, TIA exhibits distinct volatility patterns that create favorable conditions for systematic funding rate strategies on this specialized DEX platform.",
+    "how_funding_works": "Aevo calculates TIA/USDT funding rates hourly using a premium index based on the perpetual's mark price versus the underlying spot price. The exchange's rollup infrastructure enables faster settlement while maintaining on-chain verification of funding payments. Funding rates are applied to open positions at each hourly interval, with payments flowing between long and short positions based on the prevailing rate direction. Aevo's off-chain order book ensures efficient price discovery while the rollup handles settlement execution.",
+    "why_this_pair": "TIA's infrastructure token characteristics create predictable funding rate patterns, particularly during network upgrade cycles and staking reward distributions. The token's moderate trading volume on Aevo allows for meaningful position sizes while maintaining reasonable slippage costs. Celestia's growing ecosystem adoption often generates sustained directional pressure that translates into consistent funding rate opportunities for arbitrageurs.",
+    "sections": [
+      {
+        "heading": "TIA Funding Rate Historical Patterns",
+        "body": "TIA/USDT funding rates on Aevo typically range from -0.05% to +0.15% during normal market conditions, with spikes during major Celestia network events. The hourly funding intervals create more frequent but smaller payments compared to traditional 8-hour cycles. Historical data shows TIA funding rates tend to correlate with broader modular blockchain narrative cycles and institutional staking flows. Rate volatility increases significantly around Celestia upgrade announcements and major ecosystem integrations, creating enhanced arbitrage windows."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Cross-exchange arbitrage between Aevo and centralized exchanges like Binance or OKX can capture funding rate differentials, particularly when Aevo's rates deviate due to its smaller liquidity pool. The rollup's fast settlement enables rapid position adjustments for delta-neutral strategies. Aevo's combined options and perpetuals ecosystem allows for sophisticated hedging structures using TIA options to reduce directional risk. Pre-launch token markets on Aevo sometimes create unique funding arbitrage setups when TIA perpetuals price in future developments differently than spot markets."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "Aevo's rollup centralization presents counterparty risk that must be factored into position sizing for TIA arbitrage strategies. Lower liquidity compared to major CEXs can result in adverse selection during volatile periods, particularly when funding rates spike. The exchange's complex product set requires careful attention to margin requirements across options and perpetuals positions. Gas costs for rollup transactions, while lower than mainnet, can erode profits from smaller funding rate captures, making position sizing crucial for profitability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are TIA funding rates calculated on Aevo?",
+        "answer": "TIA/USDT funding rates on Aevo are calculated and applied every hour, providing more frequent settlement compared to the standard 8-hour cycles on most exchanges. This creates opportunities for more precise arbitrage timing but requires active position management."
+      },
+      {
+        "question": "What makes Aevo's rollup architecture relevant for TIA arbitrage?",
+        "answer": "Aevo's rollup enables faster settlement times and lower transaction costs while maintaining on-chain verification. This is particularly beneficial for TIA arbitrage as it allows rapid position adjustments and reduces the operational overhead of maintaining delta-neutral positions across multiple venues."
+      },
+      {
+        "question": "How does TIA's infrastructure token status affect funding rates?",
+        "answer": "As a modular blockchain infrastructure token, TIA funding rates often reflect broader adoption trends and staking dynamics rather than just speculative sentiment. This creates more predictable rate patterns around network upgrades and ecosystem developments, benefiting systematic arbitrage strategies."
+      },
+      {
+        "question": "What are the liquidity constraints for TIA on Aevo?",
+        "answer": "TIA/USDT on Aevo has moderate liquidity suitable for mid-sized positions but may experience slippage during volatile periods. The smaller liquidity pool compared to major CEXs can create favorable funding rate differentials but requires careful position sizing to avoid market impact costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "wif-usdt",
+    "xrp-usdt",
+    "inj-usdt",
+    "rune-usdt",
+    "apt-usdt"
+  ]
+}

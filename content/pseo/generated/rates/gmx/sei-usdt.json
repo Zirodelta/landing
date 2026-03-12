@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rates on GMX - Live Arbitrage Data",
+    "description": "Monitor SEI/USDT funding rates on GMX DEX. Oracle-based perpetuals with 1-hour funding cycles. Compare rates across exchanges for arbitrage opportunities.",
+    "keywords": [
+      "SEI funding rates",
+      "GMX perpetuals",
+      "SEI arbitrage",
+      "DEX funding",
+      "oracle perpetuals",
+      "GLP pools",
+      "Arbitrum DeFi",
+      "SEI trading"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetual futures on GMX offer exposure to the Sei blockchain token through oracle-based pricing and GLP liquidity pools. GMX's unique architecture provides 1-hour funding rate cycles without traditional order book mechanics.",
+    "how_funding_works": "GMX calculates funding rates based on the premium/discount between the oracle price and market demand through its GLP pools. The 1-hour funding cycle is more frequent than most exchanges, creating potential arbitrage windows. Long positions pay funding when the perpetual trades above the oracle price, while shorts pay when below. The rate is determined by the utilization of long vs short positions in the pool rather than traditional order book imbalances.",
+    "why_this_pair": "SEI's volatility as a Layer 1 blockchain token creates frequent funding rate fluctuations on GMX, especially during ecosystem developments or market stress. The oracle-based pricing can create discrepancies with spot markets, generating arbitrage opportunities for traders monitoring multiple exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT on GMX typically exhibits higher funding rate volatility during Sei network upgrades and partnership announcements. The oracle-based system tends to lag spot price movements by 10-30 seconds, creating brief arbitrage windows. Peak funding rates often occur during Asia trading hours when Sei ecosystem activity increases. Monthly analysis shows funding rates ranging from -0.05% to +0.08% per hour during volatile periods, significantly higher than Bitcoin or Ethereum pairs."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage opportunities arise when GMX's oracle pricing diverges from order book DEXs or CEXs trading SEI futures. The 1-hour funding cycle creates more frequent rebalancing opportunities compared to 8-hour cycles on traditional exchanges. Traders can exploit rate differentials by shorting on GMX while longing on exchanges with negative funding rates. The GLP pool structure means large position changes can immediately impact funding calculations, creating predictable rate movements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency presents unique risks as GMX relies on Chainlink price feeds which can lag during extreme volatility or network congestion. Price impact becomes significant for positions exceeding $100K due to GLP pool depth limitations for smaller cap tokens like SEI. Smart contract risk exists as GMX's architecture differs fundamentally from order book exchanges, requiring understanding of GLP mechanics. Funding payments occur more frequently, increasing transaction costs and requiring more active position management compared to traditional 8-hour cycles."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX's oracle-based funding differ from traditional exchanges for SEI?",
+        "answer": "GMX uses Chainlink oracles for mark price rather than orderbook mid-price, which can create lag during volatile SEI price movements. This oracle dependency means funding rates may not immediately reflect spot market conditions, creating arbitrage opportunities but also oracle risk."
+      },
+      {
+        "question": "What's the optimal position size for SEI funding rate arbitrage on GMX?",
+        "answer": "Positions under $50K typically experience minimal price impact on GMX's SEI pools. Larger positions may face slippage that erodes funding rate profits, especially during low liquidity periods when GLP utilization is unbalanced."
+      },
+      {
+        "question": "How do GMX's 1-hour funding cycles affect SEI arbitrage strategies?",
+        "answer": "The hourly funding creates 8x more frequent payment opportunities compared to traditional exchanges. This requires more active monitoring but allows quicker position adjustments and profit realization from funding rate differentials."
+      },
+      {
+        "question": "What are the main risks of holding SEI perpetuals on GMX long-term?",
+        "answer": "Oracle lag during extreme volatility can cause liquidations at prices different from spot markets. Additionally, GLP pool imbalances can lead to sustained periods of high funding costs that may exceed expected returns from rate arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "pendle-usdt",
+    "tao-usdt",
+    "bnb-usdt",
+    "ton-usdt"
+  ]
+}

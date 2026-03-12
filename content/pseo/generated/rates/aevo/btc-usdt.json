@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Aevo BTC/USDT Funding Rate: Arbitrage Guide & Analytics",
+    "description": "Track Aevo BTC/USDT funding rates for arbitrage. Hourly settlements on this rollup DEX with options integration. Compare rates and optimize strategies.",
+    "keywords": [
+      "aevo funding rates",
+      "btc usdt perpetual",
+      "funding rate arbitrage",
+      "dex perps",
+      "rollup trading",
+      "hourly funding",
+      "perp arbitrage",
+      "crypto funding"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's BTC/USDT perpetual futures operate on a dedicated rollup with hourly funding rate settlements, offering unique arbitrage opportunities in the decentralized derivatives space. As Aevo's highest volume pair, BTC/USDT provides the best liquidity for funding rate strategies on this options-integrated platform.",
+    "how_funding_works": "Aevo calculates funding rates hourly using a time-weighted average of the premium between perpetual and mark prices over the previous hour. The rollup architecture enables faster settlement processing compared to mainnet DEXs, with funding payments automatically credited or debited from trader margins. Unlike traditional CEXs, Aevo's on-chain settlement provides full transparency of funding calculations while maintaining the speed advantages of off-chain order matching.",
+    "why_this_pair": "BTC/USDT on Aevo represents the platform's most liquid perpetual contract, making it ideal for funding rate arbitrage due to tighter spreads and consistent trading volume. The pair's integration with Aevo's options ecosystem creates unique cross-product arbitrage opportunities, particularly around major BTC options expiries.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "Aevo's BTC/USDT funding rates typically range between -0.1% to 0.3% hourly, with pronounced spikes during high volatility periods exceeding 1% in extreme cases. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour cycles on major CEXs. Weekend periods often show reduced funding volatility due to lower institutional activity, while options expiry weeks demonstrate increased rate fluctuations. The rollup's fast finality enables rapid position adjustments when funding rates diverge significantly from other exchanges."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "Aevo's funding rates frequently diverge from major centralized exchanges by 10-50 basis points, creating profitable arbitrage windows for traders monitoring multiple venues. The platform's 0.02%/0.05% maker/taker fee structure allows for cost-effective position management when capturing funding rate differentials. Arbitrageurs can exploit Aevo's faster settlement cycles by taking opposite positions on 8-hour funding exchanges during rate convergence periods. Integration with options markets sometimes creates temporary funding distortions around gamma hedging activities, presenting additional arbitrage opportunities for sophisticated traders."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's smaller liquidity pool compared to major CEXs increases slippage risk for large funding rate arbitrage positions, requiring careful position sizing and gradual entry strategies. The rollup's centralization concerns introduce potential settlement risks that traders must weigh against arbitrage profits. Network congestion on the underlying L1 can affect deposit/withdrawal timing, impacting capital efficiency for cross-exchange strategies. Traders should monitor Aevo's validator set and sequencer uptime to assess operational risks, while maintaining adequate collateral buffers to handle the platform's hourly funding settlements and potential liquidity gaps during volatile periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding settlement affect arbitrage strategies?",
+        "answer": "Hourly settlements provide more frequent arbitrage opportunities but require active position management and higher capital turnover. Traders can capture smaller rate differentials more often, but must account for increased transaction frequency and gas costs on the rollup."
+      },
+      {
+        "question": "What are the unique risks of funding rate arbitrage on Aevo vs CEXs?",
+        "answer": "Aevo's rollup architecture introduces sequencer risk and potential settlement delays, while smaller liquidity pools can cause higher slippage. However, on-chain transparency eliminates counterparty risk present on centralized exchanges, and the platform's options integration can provide additional hedging opportunities."
+      },
+      {
+        "question": "How does BTC/USDT liquidity on Aevo compare to other exchanges?",
+        "answer": "While Aevo's BTC/USDT has the highest liquidity on the platform, it's significantly smaller than major CEX markets. Typical spreads range 0.1-0.5 USDT, adequate for funding arbitrage but requiring careful order sizing to minimize market impact."
+      },
+      {
+        "question": "Can I use Aevo's options market alongside BTC/USDT perpetuals for enhanced arbitrage?",
+        "answer": "Yes, Aevo's integrated options and perpetuals enable sophisticated arbitrage strategies around implied vs realized volatility and delta-neutral positioning. Traders can exploit funding rate differentials while hedging directional exposure through options, creating more stable arbitrage returns."
+      }
+    ]
+  },
+  "related_pairs": [
+    "eth-usdt",
+    "op-usdt",
+    "ena-usdt",
+    "inj-usdt",
+    "trx-usdt"
+  ]
+}

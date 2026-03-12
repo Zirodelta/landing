@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on Aevo DEX - Hourly Updates",
+    "description": "Track BONK/USDT perpetual funding rates on Aevo DEX with hourly settlements. Analyze meme coin funding arbitrage opportunities on this rollup-based platform.",
+    "keywords": [
+      "BONK funding rate",
+      "Aevo DEX",
+      "meme coin perpetuals",
+      "hourly funding",
+      "rollup arbitrage",
+      "BONK/USDT",
+      "funding rate arbitrage",
+      "DEX perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on Aevo DEX offer hourly funding rate settlements, providing frequent arbitrage opportunities for this volatile meme coin. Aevo's rollup-based infrastructure enables efficient price discovery while maintaining the benefits of decentralized trading.",
+    "how_funding_works": "Aevo calculates BONK/USDT funding rates hourly based on the premium between perpetual and spot prices, with settlements occurring at minute 0 of each hour. The platform uses an off-chain order book with on-chain settlement on its dedicated rollup, ensuring faster execution while maintaining transparency. Funding payments are automatically debited or credited to trader accounts based on their position direction and size.",
+    "why_this_pair": "BONK's high volatility as a Solana-based meme coin creates frequent funding rate imbalances on Aevo, especially during social media-driven price movements. The hourly funding frequency amplifies arbitrage potential compared to 8-hour cycles on centralized exchanges, making it attractive for short-term funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT on Aevo typically exhibits extreme funding rate swings during meme coin rallies, with rates often exceeding 1% hourly during viral social media events. The rollup's efficient settlement allows for rapid rate adjustments, creating more responsive funding compared to congested Layer 1 platforms. Negative funding periods coincide with broader crypto downturns when speculative interest wanes, providing opportunities for long arbitrage positions."
+      },
+      {
+        "heading": "Arbitrage Strategy Opportunities",
+        "body": "Hourly funding settlements on Aevo enable micro-arbitrage strategies that capitalize on short-term funding rate spikes. Traders can exploit the gap between Aevo's decentralized pricing and centralized exchange funding rates, particularly during high-volatility periods when meme coin sentiment shifts rapidly. The platform's pre-launch token market feature sometimes creates unique funding arbitrage opportunities when BONK derivatives trade before spot listings on other venues."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's smaller liquidity pool compared to major centralized exchanges increases slippage risk during large arbitrage trades, requiring careful position sizing. The rollup's centralization aspects create potential technical risks, though the platform's hybrid approach balances performance with decentralization. Meme coin volatility can cause rapid funding rate reversals, making stop-loss management crucial for BONK arbitrage strategies on this platform."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are BONK/USDT funding rates updated on Aevo?",
+        "answer": "Aevo calculates and settles BONK/USDT funding rates every hour, providing 24 settlement opportunities per day. This frequent settlement cycle enables more responsive arbitrage strategies compared to traditional 8-hour funding cycles."
+      },
+      {
+        "question": "What makes Aevo's rollup infrastructure advantageous for BONK funding arbitrage?",
+        "answer": "Aevo's dedicated rollup provides faster transaction finality and lower gas costs compared to Layer 1 platforms. The off-chain order book with on-chain settlement ensures efficient price discovery while maintaining the transparency needed for accurate funding rate calculations."
+      },
+      {
+        "question": "How does BONK's meme coin status affect funding rates on Aevo?",
+        "answer": "BONK's high social sentiment correlation creates volatile funding rates that can shift rapidly during viral events. This volatility, combined with Aevo's hourly settlements, generates frequent arbitrage opportunities but requires careful risk management due to sudden rate reversals."
+      },
+      {
+        "question": "Are there liquidity considerations for BONK arbitrage on Aevo DEX?",
+        "answer": "Yes, Aevo's smaller liquidity pool compared to centralized exchanges can create higher slippage during large trades. Arbitrageurs should monitor order book depth and consider splitting larger positions across multiple settlements to minimize market impact."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "ada-usdt",
+    "xrp-usdt",
+    "fet-usdt",
+    "render-usdt"
+  ]
+}

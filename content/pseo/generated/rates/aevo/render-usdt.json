@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "render-usdt",
+    "base": "RENDER",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RENDER/USDT Funding Rates on Aevo - Arbitrage Opportunities",
+    "description": "Track RENDER/USDT perpetual funding rates on Aevo DEX. Hourly settlements, rollup performance, and AI token arbitrage strategies for advanced traders.",
+    "keywords": [
+      "RENDER funding rates",
+      "Aevo perpetuals",
+      "AI token arbitrage",
+      "hourly funding settlement",
+      "rollup DEX trading",
+      "RENDER futures",
+      "crypto funding arbitrage",
+      "Aevo trading fees"
+    ]
+  },
+  "content": {
+    "intro": "RENDER/USDT perpetuals on Aevo offer hourly funding rate settlements with competitive 0.02%/0.05% maker/taker fees. As an AI infrastructure token, RENDER exhibits unique funding patterns driven by GPU demand cycles and AI narrative momentum.",
+    "how_funding_works": "Aevo calculates RENDER/USDT funding rates hourly using an 8-hour time-weighted average price mechanism between perpetual and mark prices. Settlement occurs on-chain through Aevo's custom rollup, ensuring fast execution while maintaining decentralized verification. The exchange's off-chain order book enables efficient price discovery before on-chain settlement, reducing funding rate volatility compared to traditional AMM-based DEXs. Aevo's rollup architecture allows for sub-second funding calculations while keeping gas costs minimal for traders.",
+    "why_this_pair": "RENDER's position as a leading GPU rendering protocol creates predictable funding patterns during AI hype cycles and compute demand spikes. The token's mid-tier volume on Aevo provides sufficient liquidity for arbitrage while avoiding the extreme volatility of micro-cap AI tokens. RENDER's correlation with broader AI sector movements makes it ideal for pairs trading strategies against other infrastructure tokens.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RENDER funding rates on Aevo typically range from -0.01% to 0.03% during normal market conditions, with spikes to 0.08%+ during AI narrative peaks. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Historical data shows RENDER funding rates correlate strongly with GPU utilization announcements and AI partnership news. During bear market periods, RENDER often maintains negative funding rates due to reduced speculation and genuine utility demand from 3D rendering applications."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's rollup architecture enables near-instant position adjustments for funding rate arbitrage between RENDER perpetuals and spot holdings. Traders can exploit funding rate differentials between Aevo and centralized exchanges like Binance or OKX, particularly during AI sector volatility. The exchange's combined options and perpetuals platform allows for complex delta-neutral strategies using RENDER options to hedge perpetual positions. Cross-exchange arbitrage becomes profitable when funding rate differentials exceed combined trading fees and rollup bridge costs."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller liquidity pool for RENDER/USDT can amplify slippage during large arbitrage positions, especially during high volatility periods. The rollup's centralization concerns include sequencer downtime risk and potential MEV extraction by validators. RENDER's correlation with NVIDIA stock prices and broader AI sentiment creates systematic risk that affects funding rate predictability. Traders should monitor Aevo's bridge liquidity and rollup health metrics, as technical issues could trap funds during critical arbitrage windows requiring quick exits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding settlement affect RENDER arbitrage strategies?",
+        "answer": "Aevo's hourly funding creates 24 settlement opportunities daily compared to 3 on most exchanges. This higher frequency reduces funding rate accumulation risk but requires more active monitoring. The shorter intervals make mean reversion strategies more viable for RENDER given its moderate volatility profile."
+      },
+      {
+        "question": "What are the optimal position sizes for RENDER funding arbitrage on Aevo?",
+        "answer": "Given RENDER's mid-tier volume, positions above $50k may experience significant slippage on Aevo. Optimal sizes typically range from $5k-25k to maintain efficient execution while capturing meaningful funding differentials. Monitor the order book depth before entering larger arbitrage positions."
+      },
+      {
+        "question": "How do Aevo's trading fees impact RENDER funding arbitrage profitability?",
+        "answer": "With 0.02% maker and 0.05% taker fees, break-even funding rates need to exceed 0.07% for round-trip arbitrage trades. RENDER's typical funding volatility of 0.02-0.05% makes selective arbitrage more profitable than continuous strategies. Fee optimization through maker orders significantly improves arbitrage economics."
+      },
+      {
+        "question": "What risks exist with Aevo's rollup infrastructure for RENDER trading?",
+        "answer": "Sequencer downtime could prevent timely position adjustments during funding settlements, creating unwanted exposure. Bridge delays between Ethereum and Aevo's rollup may impact cross-exchange arbitrage timing. Monitor rollup status and maintain alternative exchange access for risk management during technical issues."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "bonk-usdt",
+    "meme-usdt",
+    "stx-usdt",
+    "doge-usdt"
+  ]
+}

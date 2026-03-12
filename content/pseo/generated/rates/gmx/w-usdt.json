@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "w-usdt",
+    "base": "W",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "W/USDT Funding Rates on GMX - Arbitrage Opportunities",
+    "description": "Track W/USDT perpetual funding rates on GMX DEX. Hourly settlements, oracle-based pricing, and liquidity pool mechanics for funding rate arbitrage.",
+    "keywords": [
+      "W USDT funding rate",
+      "GMX perpetual futures",
+      "oracle DEX arbitrage",
+      "hourly funding settlement",
+      "GLP liquidity pools",
+      "Arbitrum perps",
+      "W token arbitrage",
+      "decentralized futures"
+    ]
+  },
+  "content": {
+    "intro": "W/USDT perpetuals on GMX offer hourly funding rate settlements through the platform's oracle-based pricing mechanism. As an infrastructure token with smaller trading volumes, W exhibits distinct funding rate patterns compared to major cryptocurrencies on GMX's Arbitrum deployment.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the premium/discount between perpetual and oracle prices, with payments exchanged directly between long and short positions. The platform's oracle dependency means funding rates reflect broader market sentiment rather than orderbook imbalances. GMX's liquidity comes from GLP/GM pools, creating unique dynamics where funding costs are influenced by the overall pool composition and utilization rates.",
+    "why_this_pair": "W/USDT's infrastructure sector classification and smaller market cap create opportunities for higher funding rate volatility on GMX. The token's correlation with Arbitrum ecosystem performance can drive sustained directional bias, leading to consistent funding rate premiums or discounts that arbitrageurs can exploit.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "W/USDT on GMX has shown elevated funding rate volatility during infrastructure sector rotations and Arbitrum ecosystem developments. The hourly settlement frequency creates more granular opportunities compared to 8-hour cycles on centralized exchanges. Historical data indicates funding rates often spike during W token governance events or when infrastructure narratives gain traction. The oracle-based pricing mechanism can lag during rapid market moves, creating temporary funding rate anomalies that experienced arbitrageurs monitor closely."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "W/USDT funding rates on GMX frequently diverge from centralized exchange rates due to different user bases and liquidity sources. GMX's retail-heavy user base often creates directional bias that differs from institutional activity on CEXs. The platform's oracle dependency and hourly settlements create timing advantages for arbitrageurs who can predict rate changes before settlement. Lower trading volumes for W across DEXs mean funding rate inefficiencies persist longer than with major tokens."
+      },
+      {
+        "heading": "Oracle and Liquidity Risk Factors",
+        "body": "GMX's oracle-based pricing creates unique risks for W/USDT funding rate arbitrage, particularly during network congestion or oracle delays. The platform's dependence on GLP/GM pool liquidity means funding costs can spike if pool utilization reaches capacity limits. Price impact considerations become significant for larger arbitrage positions due to W's smaller market cap. Arbitrageurs must account for GMX's keeper network performance and potential oracle front-running when timing entries and exits around funding settlements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are W/USDT funding rates settled on GMX?",
+        "answer": "GMX settles funding rates hourly for all perpetual pairs including W/USDT. This creates 24 settlement opportunities per day, offering more frequent arbitrage chances compared to traditional 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What drives W/USDT funding rate premiums on GMX?",
+        "answer": "Funding premiums typically occur when GMX users are net long W tokens, often during infrastructure sector rallies or Arbitrum ecosystem developments. The oracle-based pricing and retail user base can create sustained directional bias that differs from spot market sentiment."
+      },
+      {
+        "question": "How does GMX's GLP pool affect W/USDT funding costs?",
+        "answer": "The GLP/GM liquidity pools provide counterparty liquidity for perpetual positions, but high pool utilization can increase borrowing costs. When the pools approach capacity limits, funding rates may increase to discourage additional positions and maintain pool balance."
+      },
+      {
+        "question": "Can oracle delays impact W/USDT funding rate calculations?",
+        "answer": "Yes, GMX's oracle dependency means funding rate calculations can lag during network congestion or rapid price movements. These delays can create temporary funding rate anomalies that arbitrageurs monitor, though they typically resolve within the next hourly settlement cycle."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "imx-usdt",
+    "atom-usdt",
+    "sui-usdt",
+    "fet-usdt"
+  ]
+}

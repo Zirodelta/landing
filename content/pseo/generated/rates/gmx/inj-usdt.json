@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "inj-usdt",
+    "base": "INJ",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "INJ/USDT Funding Rates on GMX - Perpetual Futures Guide",
+    "description": "Track INJ/USDT funding rates on GMX DEX. Hourly funding intervals, oracle-based pricing, and liquidity pool mechanics for arbitrage opportunities.",
+    "keywords": [
+      "INJ funding rates",
+      "GMX perpetual futures",
+      "DEX arbitrage",
+      "Injective Protocol",
+      "oracle-based pricing",
+      "GLP liquidity",
+      "Arbitrum trading",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "INJ/USDT perpetual futures on GMX offer unique funding rate dynamics due to the platform's oracle-based pricing and liquidity pool structure. As a leading L1 blockchain token with moderate volatility, INJ presents distinct arbitrage opportunities on this decentralized exchange.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the difference between perpetual and oracle prices, with payments occurring every hour rather than the typical 8-hour cycle. The platform uses Chainlink oracles for price feeds, which can create temporary discrepancies with spot markets during high volatility. Unlike order book exchanges, GMX's funding rates are influenced by the overall position imbalance in the GLP pool rather than just the specific INJ pair.",
+    "why_this_pair": "INJ's position as a major DeFi infrastructure token creates predictable funding patterns, especially during ecosystem announcements or network upgrades. The pair's moderate daily volume on GMX provides sufficient liquidity for arbitrage while maintaining higher funding rates than oversaturated pairs like BTC or ETH.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "INJ/USDT funding rates on GMX have historically ranged from -0.05% to +0.15% hourly during normal market conditions. The token shows increased funding volatility during Injective Protocol ecosystem developments, with rates often skewing positive during bull runs due to retail long bias. Cross-referencing with Binance and other CEX funding rates reveals GMX often trades at a 0.01-0.03% premium due to its decentralized nature and oracle dependencies. Weekend periods typically see reduced rate volatility as DeFi activity decreases."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "The most profitable INJ funding arbitrage opportunities occur when GMX rates diverge significantly from centralized exchanges like Binance or OKX. Traders can exploit GMX's hourly funding payments by taking opposite positions across exchanges, particularly effective given INJ's lower correlation with BTC during certain market phases. The key advantage is GMX's consistent liquidity through GLP pools, allowing position entry/exit without significant slippage up to moderate position sizes. However, arbitrageurs must account for Arbitrum gas costs and the 0.05%/0.07% trading fees when calculating net returns."
+      },
+      {
+        "heading": "Risk Considerations and Platform Specifics",
+        "body": "GMX's oracle dependency introduces unique risks, as sudden price gaps can trigger unexpected liquidations when oracle prices jump ahead of market prices. The platform's maximum leverage of 50x for INJ requires careful position sizing, especially given the token's occasional volatility spikes above 10% daily. Unlike traditional exchanges, GMX's counterparty is the GLP pool, meaning extreme market moves can impact overall platform liquidity and funding calculations. Traders should monitor GLP utilization rates and total open interest to gauge potential execution risks during market stress."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are INJ funding payments made on GMX?",
+        "answer": "GMX pays funding rates every hour for INJ/USDT perpetuals, unlike most exchanges that use 8-hour intervals. This creates more frequent but smaller payment amounts, allowing for more precise arbitrage timing strategies."
+      },
+      {
+        "question": "What makes INJ funding rates different from other tokens on GMX?",
+        "answer": "INJ rates are influenced by its role in the Cosmos ecosystem and DeFi infrastructure, creating predictable patterns around network upgrades and partnership announcements. The token's moderate volatility also keeps it within optimal ranges for GMX's oracle-based pricing system."
+      },
+      {
+        "question": "Can I arbitrage INJ funding rates between GMX and centralized exchanges?",
+        "answer": "Yes, but you must account for Arbitrum withdrawal times, gas costs, and GMX's 0.05%/0.07% trading fees. The hourly funding on GMX versus 8-hour cycles elsewhere can create timing advantages for skilled arbitrageurs."
+      },
+      {
+        "question": "What position sizes work best for INJ funding arbitrage on GMX?",
+        "answer": "Positions under $50k typically execute without significant price impact due to GLP pool depth. Larger sizes may face slippage that erodes funding rate profits, especially during low activity periods on weekends."
+      }
+    ]
+  },
+  "related_pairs": [
+    "dot-usdt",
+    "doge-usdt",
+    "fil-usdt",
+    "floki-usdt",
+    "btc-usdt"
+  ]
+}

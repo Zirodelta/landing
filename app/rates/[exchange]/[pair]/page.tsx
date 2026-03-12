@@ -14,23 +14,9 @@ interface Props {
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-  // Only pre-render pages that have generated content to avoid CF Pages build limits
-  const fs = await import("fs")
-  const path = await import("path")
-  const dir = path.join(process.cwd(), "content/pseo/generated/rates")
-  if (!fs.existsSync(dir)) return []
-  
-  const params: { exchange: string; pair: string }[] = []
-  for (const exDir of fs.readdirSync(dir)) {
-    const exPath = path.join(dir, exDir)
-    if (!fs.statSync(exPath).isDirectory()) continue
-    for (const file of fs.readdirSync(exPath)) {
-      if (file.endsWith(".json")) {
-        params.push({ exchange: exDir, pair: file.replace(".json", "") })
-      }
-    }
-  }
-  return params
+  // Return empty — dynamicParams=true handles all routes on-demand
+  // Pre-rendering 950+ pages hits CF Pages "Invalid string length" bundler limit
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

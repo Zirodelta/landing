@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "dot-usdt",
+    "base": "DOT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOT/USDT Funding Rates on Aevo - Perpetual Futures Analysis",
+    "description": "Track DOT/USDT funding rates on Aevo DEX. Hourly settlements, 0.02%/0.05% fees, and rollup-based perpetual futures for Polkadot funding rate arbitrage.",
+    "keywords": [
+      "DOT funding rates",
+      "Aevo perpetuals",
+      "DOT USDT futures",
+      "Polkadot funding arbitrage",
+      "DEX perpetual futures",
+      "funding rate tracking",
+      "Aevo rollup",
+      "DOT perps"
+    ]
+  },
+  "content": {
+    "intro": "DOT/USDT perpetual futures on Aevo offer hourly funding rate settlements with the unique advantage of rollup-based execution and on-chain settlement. As Polkadot's ecosystem token, DOT exhibits distinct funding patterns tied to parachain auction cycles and network upgrade announcements.",
+    "how_funding_works": "Aevo calculates funding rates hourly using a time-weighted average of the premium between perpetual and index prices. The DEX's rollup architecture enables faster settlement while maintaining decentralized verification through on-chain finality. Funding payments occur automatically at the top of each hour, with rates typically ranging from -0.01% to +0.05% for DOT/USDT based on market sentiment and open interest distribution.",
+    "why_this_pair": "DOT/USDT on Aevo presents compelling arbitrage opportunities due to the token's volatility around Polkadot governance events and parachain developments. The pair often experiences funding rate spikes during major ecosystem announcements, creating profit potential for traders positioned against the crowd. Aevo's combined options and perpetuals platform allows for sophisticated hedging strategies unique to this DEX.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOT/USDT funding rates on Aevo have shown distinct patterns correlating with Polkadot's parachain auction cycles and network upgrades. During bullish parachain onboarding periods, funding rates often turn deeply positive as long positions accumulate, reaching peaks of 0.08% hourly. Conversely, during market downturns or DOT unlock events, negative funding rates below -0.02% create opportunities for long-biased arbitrage strategies. The rollup's performance advantages become most apparent during high-volatility periods when funding calculations remain stable despite network congestion."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Aevo's unique position as both options and perpetuals DEX creates multi-layered arbitrage opportunities for DOT traders. Cross-exchange funding arbitrage works particularly well when Aevo's rates diverge from centralized exchanges during Polkadot-specific news events. The platform's pre-launch token markets also provide early positioning opportunities before major DOT ecosystem developments. Traders can exploit the hourly settlement frequency by entering positions minutes before funding payments when rate predictions show significant deviation from current levels."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Trading DOT perpetuals on Aevo carries rollup-specific risks including potential validator centralization and withdrawal delays during network stress. The smaller liquidity pool compared to major CEXs means larger positions may experience slippage during rapid DOT price movements. Funding rate arbitrage positions require careful monitoring as Aevo's rates can shift quickly due to the concentrated user base and sophisticated trader presence. The 0.05% maker fee structure also impacts profitability for high-frequency funding strategies compared to fee-rebate models on other platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do DOT funding payments occur on Aevo?",
+        "answer": "Aevo processes DOT/USDT funding payments every hour at the top of the hour. The funding rate is calculated using the previous hour's time-weighted premium and applied to all open perpetual positions automatically."
+      },
+      {
+        "question": "What makes Aevo's DOT perpetuals different from other exchanges?",
+        "answer": "Aevo combines perpetuals with options trading on its own rollup, offering faster execution and lower gas costs. The platform also features pre-launch DOT markets and integrated multi-asset strategies unavailable on traditional perpetual-only exchanges."
+      },
+      {
+        "question": "Can I hedge DOT perpetual positions with options on Aevo?",
+        "answer": "Yes, Aevo's unified platform allows traders to hedge DOT perpetual exposures using DOT options contracts. This creates sophisticated arbitrage strategies where funding rate positions can be delta-hedged through the options book."
+      },
+      {
+        "question": "What are the typical DOT funding rate ranges on Aevo?",
+        "answer": "DOT funding rates on Aevo typically range from -0.02% to +0.05% hourly under normal conditions. During major Polkadot events like parachain auctions or network upgrades, rates can spike to ±0.1% or higher as directional positioning intensifies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ton-usdt",
+    "ftm-usdt",
+    "render-usdt",
+    "trx-usdt",
+    "btc-usdt"
+  ]
+}

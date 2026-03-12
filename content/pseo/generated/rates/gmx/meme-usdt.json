@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX MEME/USDT Funding Rate - DEX Perpetual Futures",
+    "description": "Track GMX MEME/USDT funding rates for perpetual futures arbitrage on Arbitrum. Oracle-based DEX with hourly funding payments and GLP liquidity pools.",
+    "keywords": [
+      "GMX funding rate",
+      "MEME perpetual futures",
+      "DEX arbitrage",
+      "Arbitrum trading",
+      "GLP liquidity",
+      "oracle perps",
+      "hourly funding",
+      "meme token trading"
+    ]
+  },
+  "content": {
+    "intro": "GMX MEME/USDT perpetual futures offer hourly funding rate opportunities on Arbitrum's leading decentralized exchange. As an oracle-based DEX utilizing GLP liquidity pools, GMX provides unique funding dynamics compared to traditional order book exchanges.",
+    "how_funding_works": "GMX calculates funding rates every hour based on the premium/discount between perpetual and oracle prices. Funding payments occur automatically through smart contracts, with rates typically ranging from -0.1% to +0.1% per hour during normal market conditions. The oracle dependency means funding rates can diverge significantly from CEX counterparts during high volatility periods. GMX's unique liquidity model using GLP pools creates different arbitrage dynamics as traders effectively trade against the pool rather than other users.",
+    "why_this_pair": "MEME/USDT on GMX presents interesting funding opportunities due to meme token volatility and limited DEX availability. The low trading volume creates potential for sustained funding rate imbalances, especially during social media-driven price movements. Oracle lag during rapid price changes can create temporary arbitrage windows for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEME/USDT funding rates on GMX have shown extreme volatility correlating with social sentiment cycles. During meme coin rallies, funding rates frequently hit maximum bounds of +0.1% hourly as retail traders heavily favor long positions. Bear market periods see consistently negative rates as the perpetual trades at discount to spot. The hourly reset creates 24 distinct funding events daily, offering more frequent arbitrage opportunities than 8-hour CEX cycles. Historical data shows funding rate persistence often lasts 3-6 hours during trending moves."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "GMX's oracle-based pricing creates unique arbitrage scenarios when spot prices diverge from Chainlink feeds. Cross-DEX arbitrage between GMX and Uniswap V3 MEME pools can be profitable during funding rate extremes. The GLP liquidity model means large positions create predictable price impact, allowing for calculated entry/exit strategies. Gas costs on Arbitrum are manageable for positions above $10,000, making small-scale arbitrage viable. Smart contract automation can capture funding payments while delta-hedging through spot DEX trades."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Oracle dependency creates unique risks as Chainlink price feeds may lag during extreme volatility, causing unexpected liquidations. GLP pool dynamics mean available liquidity can shift rapidly, especially during market stress when LPs may exit. Smart contract risk remains as GMX V2 represents newer architecture compared to battle-tested V1. Position sizing must account for limited MEME liquidity across Arbitrum ecosystem for effective hedging. Funding rate caps prevent runaway scenarios but also limit maximum arbitrage profits compared to uncapped CEX rates."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are GMX MEME/USDT funding rates updated?",
+        "answer": "GMX updates funding rates every hour, providing 24 funding events per day compared to most CEXs' 8-hour cycles. This creates more frequent arbitrage opportunities but requires active monitoring for optimal results."
+      },
+      {
+        "question": "What makes GMX funding rates different from CEX rates?",
+        "answer": "GMX uses oracle pricing and GLP liquidity pools rather than order books, creating different supply/demand dynamics. Oracle dependency can cause rates to diverge from CEX counterparts, especially during high volatility periods when feeds may lag."
+      },
+      {
+        "question": "Can I hedge MEME positions across other Arbitrum DEXs?",
+        "answer": "Yes, Uniswap V3 and SushiSwap offer MEME spot trading on Arbitrum for delta hedging. However, liquidity is limited compared to major tokens, so position sizing must account for potential slippage during hedging operations."
+      },
+      {
+        "question": "What are the main risks of GMX MEME perpetual trading?",
+        "answer": "Key risks include oracle lag during volatility, limited hedging liquidity, and smart contract risks from newer V2 architecture. Additionally, GLP pool dynamics can affect available liquidity unexpectedly during market stress events."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "wld-usdt",
+    "sei-usdt",
+    "arb-usdt",
+    "floki-usdt"
+  ]
+}

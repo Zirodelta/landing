@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate on GMX - Live Arbitrage Data",
+    "description": "Track WLD/USDT perpetual funding rates on GMX DEX. Oracle-based pricing with 1-hour funding intervals on Arbitrum. Analyze AI token arbitrage opportunities.",
+    "keywords": [
+      "GMX funding rate",
+      "WLD perpetuals",
+      "DEX arbitrage",
+      "oracle pricing",
+      "Arbitrum perps",
+      "AI token futures",
+      "funding rate strategy",
+      "decentralized derivatives"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on GMX offer unique funding rate arbitrage opportunities through the platform's oracle-based pricing mechanism on Arbitrum. As Worldcoin's native token, WLD exhibits distinct volatility patterns that create predictable funding rate cycles on decentralized exchanges.",
+    "how_funding_works": "GMX calculates WLD/USDT funding rates hourly using Chainlink price feeds and position imbalances in the GLP pool. Long-heavy positions pay funding to shorts when WLD trades above oracle price, while shorts pay longs during bearish sentiment. The oracle-based system reduces manipulation risk but can create arbitrage gaps versus centralized exchanges during high volatility periods. Funding payments settle automatically every hour directly to trader positions.",
+    "why_this_pair": "WLD's AI narrative drives significant retail speculation, creating persistent long bias and positive funding rates on GMX. The token's relatively low market cap compared to major cryptocurrencies results in higher volatility and more extreme funding rate swings. GMX's oracle dependency can create temporary pricing disconnects from spot markets, offering arbitrage opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT on GMX typically exhibits positive funding rates averaging 0.02-0.08% hourly during bull markets, driven by retail FOMO around AI narratives. Funding rates spike above 0.15% hourly during major AI-related news or Worldcoin developments, creating profitable short opportunities. Bear market periods show negative rates of -0.05% to -0.15% hourly as leveraged longs get liquidated. The oracle-based pricing creates 2-5% arbitrage gaps during extreme moves compared to Binance spot prices."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "GMX's oracle lag creates delta-neutral opportunities when WLD moves rapidly on centralized exchanges before Chainlink updates. Traders can capture funding payments by taking opposite positions on GMX versus spot holdings on CEXs. The 1-hour funding frequency allows for precise timing of entries before rate resets. Cross-exchange arbitrage works best during high volatility periods when GMX oracle prices diverge 1-3% from real-time spot prices."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency creates smart contract risk and potential price manipulation through flash loan attacks on underlying price feeds. GMX's limited liquidity for WLD can cause significant price impact on large trades, affecting arbitrage profitability. The platform's 0.05-0.07% trading fees erode margins on frequent rebalancing strategies. Impermanent loss risk for GLP providers can affect overall platform liquidity during volatile periods, impacting funding rate calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does WLD funding rate reset on GMX?",
+        "answer": "WLD/USDT funding rates on GMX reset every hour, providing more frequent opportunities compared to the standard 8-hour cycles on most centralized exchanges. This allows for more precise arbitrage timing and risk management."
+      },
+      {
+        "question": "What causes WLD funding rates to spike on GMX?",
+        "answer": "WLD funding rate spikes typically occur during AI hype cycles, Worldcoin partnership announcements, or broader AI token rallies. The oracle-based pricing can lag real-time moves, creating temporary arbitrage opportunities when retail traders pile into leveraged longs."
+      },
+      {
+        "question": "Is GMX WLD liquidity sufficient for arbitrage strategies?",
+        "answer": "GMX WLD liquidity supports small to medium arbitrage positions but can cause significant slippage on trades above $50-100K. The GLP pool structure means liquidity varies with overall platform usage and market conditions."
+      },
+      {
+        "question": "How does GMX oracle pricing affect WLD arbitrage?",
+        "answer": "GMX uses Chainlink oracles for WLD pricing, which can lag spot prices by 1-3% during rapid moves. This creates arbitrage windows where traders can profit from price differences between GMX and centralized exchanges while collecting funding payments."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "sol-usdt",
+    "ethfi-usdt",
+    "render-usdt",
+    "pepe-usdt"
+  ]
+}

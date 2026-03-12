@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on GMX - Celestia Arbitrage Guide",
+    "description": "Monitor TIA/USDT funding rates on GMX DEX. Analyze Celestia perpetual futures funding patterns, hourly rates, and arbitrage opportunities on Arbitrum.",
+    "keywords": [
+      "GMX TIA funding",
+      "Celestia funding rates",
+      "TIA perpetual futures",
+      "DEX funding arbitrage",
+      "Arbitrum perps",
+      "oracle-based futures",
+      "GLP liquidity pools",
+      "TIA arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on GMX offer hourly funding rate settlements for Celestia, the modular blockchain infrastructure token. GMX's oracle-based model provides unique funding dynamics compared to order book exchanges, with rates determined by open interest imbalances against GLP liquidity pools.",
+    "how_funding_works": "GMX calculates TIA/USDT funding rates every hour based on the net open interest between long and short positions. When longs dominate, they pay shorts through the funding mechanism, with rates derived from Chainlink oracle prices and position imbalances. The decentralized nature means funding rates can be more volatile than centralized exchanges, especially during periods of high open interest concentration. GMX's 0.05% maker and 0.07% taker fees apply to position changes, which must be factored into arbitrage calculations.",
+    "why_this_pair": "TIA represents a growing infrastructure play in the modular blockchain space, attracting both retail and institutional interest that creates funding rate inefficiencies. The token's mid-tier volume on GMX makes it susceptible to funding rate spikes during trending movements. Celestia's role in data availability and rollup infrastructure generates consistent trading interest that maintains adequate liquidity for funding rate arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical TIA Funding Rate Patterns",
+        "body": "TIA funding rates on GMX have shown significant volatility correlating with broader modular blockchain narratives and Celestia ecosystem developments. During major network upgrades or partnership announcements, funding rates frequently spike above 0.1% hourly as directional traders accumulate long positions. The token's infrastructure nature creates sustained funding periods rather than quick reversals, with rates often maintaining elevated levels for 12-24 hour cycles. Weekend periods typically see reduced funding volatility due to lower institutional participation in the Celestia ecosystem."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Optimal TIA arbitrage windows occur when GMX funding rates diverge significantly from centralized exchanges like Binance or OKX. GMX's oracle dependency can create brief pricing discrepancies that compound funding rate advantages, especially during high volatility periods. Arbitrageurs should monitor Celestia network events and broader modular blockchain sentiment, as fundamental developments drive sustained funding rate imbalances. The hourly settlement frequency on GMX allows for more frequent capture compared to 8-hour cycles on traditional exchanges, though position sizing must account for GMX's price impact mechanics."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "GMX's oracle-based pricing introduces specific risks for TIA positions, particularly during network congestion on Arbitrum or Chainlink oracle updates. Large TIA positions face significant price impact due to the token's mid-tier liquidity depth in GM pools, potentially eroding arbitrage profits. Funding rate reversals can occur rapidly when whale positions close or new fundamental developments shift sentiment around modular blockchain infrastructure. Traders must also consider Arbitrum gas costs for frequent position adjustments and the potential for oracle delays during extreme market volatility affecting Celestia or the broader crypto market."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do TIA funding rates update on GMX compared to other exchanges?",
+        "answer": "GMX updates TIA funding rates every hour, compared to the standard 8-hour cycles on most centralized exchanges. This creates more frequent arbitrage opportunities but requires closer monitoring and potentially higher transaction costs due to Arbitrum gas fees."
+      },
+      {
+        "question": "What drives TIA funding rate spikes on GMX specifically?",
+        "answer": "TIA funding spikes typically occur during Celestia ecosystem announcements, modular blockchain narrative trends, or when large positions concentrate on one side. GMX's oracle-based model can amplify these movements compared to order book exchanges, especially with TIA's mid-tier liquidity."
+      },
+      {
+        "question": "How does GMX's GLP pool affect TIA perpetual trading?",
+        "answer": "The GLP pool provides liquidity for TIA perpetuals, but large positions can create significant price impact due to TIA's allocation within the pool. This affects both entry/exit costs and funding rate calculations, making position sizing crucial for profitable arbitrage strategies."
+      },
+      {
+        "question": "What are the key risks when trading TIA funding rates on GMX?",
+        "answer": "Primary risks include oracle dependency during volatile periods, higher fees than centralized exchanges, price impact from limited TIA liquidity in GM pools, and potential Arbitrum network congestion. Funding rate reversals can also be sudden due to whale position changes in the smaller TIA market."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tao-usdt",
+    "meme-usdt",
+    "btc-usdt",
+    "eth-usdt",
+    "avax-usdt"
+  ]
+}

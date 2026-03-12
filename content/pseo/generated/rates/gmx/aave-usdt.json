@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "aave-usdt",
+    "base": "AAVE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AAVE/USDT Funding Rates on GMX - Real-Time Arbitrage Data",
+    "description": "Track AAVE/USDT perpetual funding rates on GMX DEX. Hourly rate updates, oracle-based pricing, and arbitrage opportunities on Arbitrum ecosystem.",
+    "keywords": [
+      "AAVE funding rate",
+      "GMX perpetuals",
+      "DeFi arbitrage",
+      "Arbitrum trading",
+      "oracle pricing",
+      "GLP liquidity",
+      "decentralized futures",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "GMX's AAVE/USDT perpetual futures utilize hourly funding rate calculations based on oracle price feeds and position imbalances. The DEX's unique GLP liquidity pool mechanism allows for funding rate arbitrage without traditional order book dynamics.",
+    "how_funding_works": "GMX calculates funding rates every hour using Chainlink oracle prices and open interest ratios between long and short positions. When longs exceed shorts, long positions pay funding to shorts, and vice versa. The rate is applied immediately to position sizes, with no 8-hour delay like centralized exchanges. GMX's oracle dependency means funding rates reflect true spot-perp premium rather than order book inefficiencies.",
+    "why_this_pair": "AAVE's DeFi governance activity creates periodic funding rate spikes on GMX, especially during protocol upgrades or market stress. The token's correlation with Ethereum DeFi cycles generates predictable funding patterns that sophisticated arbitrageurs can exploit across multiple timeframes.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "AAVE funding rates on GMX typically range from -0.01% to 0.05% hourly, with extreme rates reaching ±0.1% during DeFi volatility spikes. The token shows stronger positive funding during Ethereum network upgrades when DeFi protocols gain attention. Funding tends to flip negative during broader crypto selloffs as shorts dominate. Weekend periods often see compressed funding ranges due to lower retail activity in DeFi tokens."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "GMX's hourly funding creates 24 settlement opportunities daily versus 3 on traditional exchanges, enabling granular arbitrage strategies. Traders can exploit GMX-Binance funding spreads by longing on the exchange with negative rates and shorting where rates are positive. AAVE's mid-tier volume on GMX means funding rates can persist longer than on high-liquidity pairs. The oracle-based pricing reduces basis risk compared to order book DEXs during volatile periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency creates unique risks where funding continues accruing even if Chainlink feeds lag during network congestion. GMX's 0.05-0.07% opening/closing fees require funding rate differentials above 0.12% to ensure profitability on round-trip arbitrage. GLP liquidity constraints can cause significant price impact on large AAVE positions, affecting hedge ratios. Arbitrum network costs, while low, can accumulate on frequent position adjustments required for hourly funding capture."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do AAVE funding rates update on GMX?",
+        "answer": "GMX updates AAVE/USDT funding rates every hour, creating 24 settlement periods daily. This differs from most centralized exchanges that use 8-hour cycles, providing more frequent arbitrage opportunities."
+      },
+      {
+        "question": "What causes AAVE funding rate spikes on GMX?",
+        "answer": "AAVE funding spikes typically occur during DeFi governance events, protocol upgrades, or when institutional flows create directional imbalances. The oracle-based system means rates reflect true spot premium rather than order book dynamics."
+      },
+      {
+        "question": "Can I arbitrage AAVE funding between GMX and Binance?",
+        "answer": "Yes, but account for GMX's hourly settlements versus Binance's 8-hour cycle, plus the 0.05-0.07% GMX trading fees. Successful arbitrage requires funding differentials exceeding combined transaction costs and potential oracle lag risks."
+      },
+      {
+        "question": "What's the typical AAVE funding range on GMX?",
+        "answer": "AAVE hourly funding on GMX typically ranges from -0.01% to 0.05%, with extreme events pushing rates to ±0.1%. The decentralized nature and oracle pricing create different dynamics compared to centralized exchange funding patterns."
+      }
+    ]
+  },
+  "related_pairs": [
+    "render-usdt",
+    "trx-usdt",
+    "pyth-usdt",
+    "apt-usdt",
+    "w-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rate on GMX - DEX Arbitrage Guide",
+    "description": "Track RUNE/USDT perpetual funding rates on GMX DEX. Hourly rates, oracle-based pricing, and arbitrage opportunities using GLP liquidity pools on Arbitrum.",
+    "keywords": [
+      "RUNE funding rate",
+      "GMX perpetuals",
+      "DEX arbitrage",
+      "Arbitrum futures",
+      "oracle pricing",
+      "GLP liquidity",
+      "DeFi derivatives",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on GMX offer hourly funding rate updates through a decentralized oracle-based system. As THORChain's native token, RUNE exhibits moderate volatility patterns that create consistent funding rate opportunities on this Arbitrum-based DEX.",
+    "how_funding_works": "GMX calculates funding rates every hour using Chainlink price feeds and open interest imbalances between long and short positions. Unlike traditional exchanges, GMX uses GLP liquidity pools as the counterparty, meaning funding payments flow between traders and the pool. The oracle-based pricing mechanism reduces manipulation risks but can create brief arbitrage windows when prices diverge from other exchanges. Funding rates are capped at ±0.01% per hour to limit extreme scenarios.",
+    "why_this_pair": "RUNE's connection to cross-chain DeFi creates unique funding dynamics as traders position for THORChain developments. The token's moderate trading volume on GMX provides stable liquidity without excessive slippage, making it suitable for funding rate strategies. DeFi narrative cycles often drive sustained directional bias in RUNE, creating predictable funding rate patterns.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE/USDT funding rates on GMX typically range from -0.005% to +0.008% per hour during normal market conditions. During THORChain ecosystem developments or major DeFi rallies, funding can spike above +0.01% for several consecutive hours. The hourly reset mechanism creates more frequent opportunities compared to 8-hour cycles on centralized exchanges. Bear market periods show predominantly negative funding as long interest wanes, with occasional positive spikes during oversold bounces."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between GMX and centralized exchanges like Binance or OKX can be profitable during THORChain news cycles. GMX's oracle dependency sometimes creates 1-2 minute pricing lags during high volatility, offering brief arbitrage windows. The 0.05% maker fee must be factored into profitability calculations, requiring funding rate differentials above 0.1% per hour for viable trades. GLP liquidity depth supports positions up to $50K without significant price impact."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle price lag during extreme volatility can trigger unexpected liquidations when GMX prices diverge from spot markets. GLP pool composition changes affect available liquidity, with RUNE allocation varying based on overall pool performance. Smart contract risks include potential oracle manipulation or GLP contract vulnerabilities, though GMX has maintained strong security since 2021. High network congestion on Arbitrum can delay position adjustments during critical market moments, requiring larger position margins."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do RUNE/USDT funding rates update on GMX?",
+        "answer": "Funding rates update every hour on GMX, providing more frequent adjustment opportunities compared to the 8-hour cycles common on centralized exchanges. This creates additional arbitrage possibilities but requires more active monitoring."
+      },
+      {
+        "question": "What makes GMX's oracle-based pricing different for RUNE funding?",
+        "answer": "GMX uses Chainlink price feeds rather than internal order books, which can create brief price discrepancies with other exchanges. For RUNE, this sometimes offers 1-2 minute arbitrage windows during high volatility periods when oracle updates lag market movements."
+      },
+      {
+        "question": "How does GLP liquidity affect RUNE perpetual trading?",
+        "answer": "GLP acts as the counterparty to all trades, with RUNE allocation varying based on pool composition. Sufficient liquidity typically supports positions up to $50K without major slippage, but extreme GLP imbalances can temporarily reduce available depth."
+      },
+      {
+        "question": "Are there specific risks trading RUNE perpetuals on a DEX vs CEX?",
+        "answer": "Key risks include oracle price lag during volatility, smart contract vulnerabilities, and Arbitrum network congestion. However, GMX offers benefits like no counterparty risk and transparent on-chain settlement that traditional exchanges cannot match."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "eth-usdt",
+    "ftm-usdt",
+    "pendle-usdt",
+    "atom-usdt"
+  ]
+}

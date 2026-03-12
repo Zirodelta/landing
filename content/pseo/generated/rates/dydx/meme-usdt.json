@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEME/USDT Funding Rates on dYdX DEX - Arbitrage Guide",
+    "description": "Track MEME/USDT funding rates on dYdX's Cosmos appchain. 1-hour intervals and decentralized execution for funding rate arbitrage opportunities.",
+    "keywords": [
+      "MEME funding rates",
+      "dYdX arbitrage",
+      "MEME perpetual futures",
+      "DEX funding rates",
+      "MEME/USDT",
+      "dYdX v4",
+      "meme coin futures",
+      "Cosmos perps"
+    ]
+  },
+  "content": {
+    "intro": "MEME/USDT perpetuals on dYdX v4 offer unique funding rate arbitrage opportunities through the platform's 1-hour settlement intervals. As a meme coin with high retail interest, MEME funding rates can experience significant volatility during trending periods.",
+    "how_funding_works": "dYdX v4 calculates funding rates hourly using a time-weighted average of the premium between the perpetual and index price. The platform's Cosmos appchain architecture enables faster settlement compared to traditional DEXs. Funding payments are automatically settled to trader accounts each hour, with rates typically ranging from -0.01% to 0.01% but can spike during high volatility periods.",
+    "why_this_pair": "MEME's status as a trending meme coin creates frequent funding rate imbalances on dYdX, especially during social media-driven price movements. The pair's smaller market cap and retail-heavy trading base often leads to persistent directional bias in open interest, creating consistent arbitrage opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical MEME Funding Rate Patterns",
+        "body": "MEME funding rates on dYdX have shown distinct patterns during viral social media cycles, with rates frequently exceeding 0.1% hourly during peak trending periods. Long funding rates typically dominate during meme coin rallies, while short-side premiums emerge during rapid corrections. The 1-hour intervals on dYdX v4 allow for more frequent rate adjustments compared to 8-hour cycles on centralized exchanges. Historical data shows MEME funding rates are most volatile during US trading hours when retail activity peaks."
+      },
+      {
+        "heading": "MEME Arbitrage Opportunities on dYdX",
+        "body": "The combination of dYdX's hourly funding and MEME's volatility creates multiple arbitrage strategies for experienced traders. Cross-exchange arbitrage between dYdX and CEX platforms with 8-hour funding intervals can capture rate differentials during trending periods. Delta-neutral strategies work particularly well with MEME due to consistent funding rate persistence during directional moves. The DEX nature of dYdX allows for arbitrage without KYC restrictions, though liquidity constraints require careful position sizing for larger strategies."
+      },
+      {
+        "heading": "Risk Considerations for MEME Funding Trades",
+        "body": "MEME's meme coin status introduces unique risks including extreme price volatility that can overwhelm funding rate profits during flash crashes or pumps. Liquidity on dYdX for MEME/USDT is significantly lower than major pairs, leading to potential slippage during position adjustments. The Cosmos appchain migration has reduced overall dYdX volume, making MEME liquidity even more constrained during off-peak hours. Smart contract risks specific to dYdX v4's new architecture should be considered, along with potential validator set risks inherent to the Cosmos ecosystem."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MEME funding rates updated on dYdX?",
+        "answer": "dYdX v4 updates MEME funding rates every hour, providing more frequent opportunities compared to the 8-hour cycles common on centralized exchanges. This allows for more responsive rate adjustments during volatile meme coin trending periods."
+      },
+      {
+        "question": "What's the typical funding rate range for MEME/USDT on dYdX?",
+        "answer": "MEME funding rates typically range from -0.02% to 0.05% hourly during normal market conditions, but can spike above 0.1% during viral social media events. The rates tend to be more volatile than established cryptocurrencies due to retail-driven sentiment swings."
+      },
+      {
+        "question": "How does dYdX v4's Cosmos migration affect MEME trading?",
+        "answer": "The migration to Cosmos has reduced overall liquidity for MEME/USDT, requiring more careful position sizing for funding rate strategies. However, the hourly funding intervals and decentralized execution provide unique advantages for arbitrageurs willing to work with smaller position sizes."
+      },
+      {
+        "question": "Can I arbitrage MEME funding rates between dYdX and CEX platforms?",
+        "answer": "Yes, the 1-hour vs 8-hour funding cycle difference creates arbitrage opportunities, especially during trending periods when rates persist in one direction. However, traders must account for dYdX's lower liquidity and potential bridge delays when moving funds between ecosystems."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "near-usdt",
+    "ordi-usdt",
+    "trx-usdt",
+    "ada-usdt"
+  ]
+}

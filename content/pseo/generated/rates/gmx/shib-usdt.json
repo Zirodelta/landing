@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "shib-usdt",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX SHIB/USDT Funding Rate - Live Perpetual Futures Data",
+    "description": "Track GMX SHIB/USDT perpetual futures funding rates for arbitrage opportunities. Oracle-based DEX on Arbitrum with hourly funding updates.",
+    "keywords": [
+      "GMX funding rate",
+      "SHIB perpetual futures",
+      "DeFi arbitrage",
+      "Arbitrum perps",
+      "meme coin funding",
+      "oracle-based trading",
+      "GLP liquidity",
+      "DEX funding rates"
+    ]
+  },
+  "content": {
+    "intro": "GMX's SHIB/USDT perpetual futures offer unique funding rate dynamics through its oracle-based pricing mechanism on Arbitrum. The hourly funding rate updates and GLP liquidity pool structure create distinct arbitrage opportunities compared to traditional order book exchanges. With SHIB's high volatility and meme coin appeal, funding rates often exhibit significant deviations from spot prices.",
+    "how_funding_works": "GMX calculates funding rates using Chainlink oracles for SHIB price feeds, updating every hour rather than the typical 8-hour cycle. Long positions pay funding when the perpetual trades above the oracle price, while shorts pay when below. The oracle dependency means funding rates reflect true spot-perp divergence without order book manipulation. GLP liquidity providers effectively take the opposite side of traders, earning from funding payments and price movements.",
+    "why_this_pair": "SHIB's extreme volatility and retail popularity create frequent funding rate inefficiencies on GMX that arbitrageurs can exploit. The meme coin's tendency for sudden price spikes often leads to sustained periods of high funding costs for long positions. GMX's oracle-based system provides more predictable funding calculations compared to centralized exchanges prone to basis manipulation during SHIB volatility.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SHIB funding rates on GMX typically range from -0.01% to +0.05% hourly during normal conditions, but can spike to ±0.2% during major price movements. Bullish meme coin cycles often result in persistently positive funding as retail traders maintain leveraged long positions. The oracle-based pricing creates smoother funding transitions compared to CEXs, with less extreme spikes during high volatility periods. Weekend periods frequently show compressed funding ranges due to reduced trading activity and oracle stability."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-platform arbitrage opportunities emerge when GMX funding rates diverge significantly from Binance, Bybit, or OKX rates for SHIB. The hourly funding cycle allows for more frequent position adjustments compared to 8-hour cycles elsewhere. Traders can exploit GMX's oracle lag during rapid SHIB price movements by taking opposite positions on faster-updating CEXs. The GLP liquidity structure means large funding arbitrage positions face less slippage than on lower-liquidity DEXs."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency risk is paramount - Chainlink feed disruptions or delays can cause unexpected funding calculations and settlement issues. GMX's 0.05%-0.07% trading fees are higher than most CEXs, requiring larger funding differentials to achieve profitability. Price impact on large SHIB positions can be significant despite GLP depth, especially during volatile periods. Smart contract risk and Arbitrum network congestion can affect position management during critical funding windows."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX calculate SHIB funding rates differently from CEXs?",
+        "answer": "GMX uses Chainlink oracle prices for SHIB rather than internal order books, calculating funding based on the difference between perpetual and oracle prices. This creates more stable funding rates but introduces oracle dependency risk not present on centralized exchanges."
+      },
+      {
+        "question": "What makes SHIB funding arbitrage attractive on GMX?",
+        "answer": "SHIB's high volatility combined with GMX's hourly funding cycles creates frequent arbitrage windows. The oracle-based system often lags rapid price movements, allowing traders to capture funding differentials against faster-updating centralized exchanges."
+      },
+      {
+        "question": "How do GMX's fees impact SHIB funding arbitrage profitability?",
+        "answer": "GMX's 0.05%-0.07% fees are higher than most CEXs, requiring funding rate differentials of at least 0.15% to break even on round-trip trades. However, the hourly funding frequency can compensate through more trading opportunities compared to 8-hour cycles."
+      },
+      {
+        "question": "What are the main risks of SHIB perpetuals on GMX?",
+        "answer": "Oracle manipulation or downtime can cause unexpected funding settlements, while GMX's concentrated liquidity model means large SHIB positions face significant price impact. Network congestion on Arbitrum during volatile periods can also affect position management timing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "apt-usdt",
+    "atom-usdt",
+    "jup-usdt",
+    "pyth-usdt"
+  ]
+}

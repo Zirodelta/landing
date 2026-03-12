@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rates on Aevo - Meme Coin Arbitrage",
+    "description": "Track PEPE/USDT funding rates on Aevo DEX. Hourly funding settlements with 0.02% maker fees. Analyze meme coin perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "PEPE funding rate",
+      "Aevo DEX",
+      "meme coin arbitrage",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "PEPE USDT perps",
+      "hourly funding",
+      "DEX derivatives"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT perpetual futures on Aevo offer hourly funding rate settlements for the popular meme coin derivative. Aevo's rollup-based DEX provides combined options and perpetual futures trading with off-chain order matching and on-chain settlement.",
+    "how_funding_works": "Aevo calculates PEPE/USDT funding rates every hour based on the premium between perpetual and spot prices. The exchange uses a time-weighted average price (TWAP) mechanism over the funding period to determine rate payments. Long positions pay funding when rates are positive, while shorts receive payments, with settlements occurring automatically at each hourly interval. Aevo's rollup architecture enables efficient funding calculations with reduced gas costs compared to mainnet DEXs.",
+    "why_this_pair": "PEPE's high volatility and retail trading activity create frequent funding rate imbalances on Aevo, particularly during meme coin rallies. The pair's large trading volumes generate significant arbitrage opportunities between hourly funding periods. Aevo's unique position offering both options and perpetuals allows sophisticated traders to hedge funding exposure across multiple derivative types.",
+    "sections": [
+      {
+        "heading": "Historical PEPE Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Aevo typically range from -0.5% to +2.0% during normal market conditions, with extreme spikes reaching +5.0% during viral social media events. The hourly settlement frequency creates more granular arbitrage windows compared to 8-hour funding on centralized exchanges. Funding rates often correlate with broader meme coin sentiment cycles, showing predictable patterns during weekend retail trading sessions. Aevo's smaller liquidity pool compared to major CEXs can amplify funding rate volatility during high-volume periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Cross-exchange arbitrage between Aevo and CEXs like Binance or OKX provides consistent opportunities due to Aevo's hourly vs 8-hour funding cycles. Delta-neutral strategies work effectively by longing PEPE perpetuals during negative funding periods while shorting on exchanges with positive rates. Options-perps arbitrage unique to Aevo involves selling PEPE call options while maintaining long perpetual positions to capture funding income. Automated strategies benefit from Aevo's API access and rollup efficiency for rapid position adjustments."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's rollup centralization presents infrastructure risks that could affect funding settlements during network congestion or validator issues. The exchange's smaller PEPE liquidity pool increases slippage risk when entering large arbitrage positions, especially during volatile market conditions. Smart contract risks specific to Aevo's rollup architecture require careful position sizing and exit strategy planning. Funding rate calculations may deviate from expectations during low-volume periods when TWAP mechanisms become less reliable due to sparse trading activity."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE/USDT funding rates calculated on Aevo?",
+        "answer": "Aevo calculates and settles PEPE/USDT funding rates every hour, providing more frequent arbitrage opportunities compared to the standard 8-hour cycles used by most centralized exchanges. This creates 24 settlement periods per day for active traders."
+      },
+      {
+        "question": "What makes Aevo's PEPE funding different from other exchanges?",
+        "answer": "Aevo's rollup-based architecture enables gas-efficient hourly settlements while maintaining on-chain transparency. The platform's combined options and perpetuals offering allows unique cross-product arbitrage strategies not available on perps-only exchanges."
+      },
+      {
+        "question": "Can I use Aevo's options to hedge PEPE funding rate exposure?",
+        "answer": "Yes, Aevo's integrated options market allows traders to sell PEPE call or put options while maintaining perpetual positions to create more complex funding arbitrage strategies. This combination provides additional income streams beyond basic funding rate capture."
+      },
+      {
+        "question": "What are the main risks of PEPE funding arbitrage on Aevo?",
+        "answer": "Primary risks include rollup centralization concerns, smaller liquidity pools leading to higher slippage, and smart contract risks specific to Aevo's architecture. PEPE's meme coin volatility can also create rapid funding rate changes that exceed profit margins from arbitrage positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "stx-usdt",
+    "wif-usdt",
+    "op-usdt",
+    "aave-usdt"
+  ]
+}

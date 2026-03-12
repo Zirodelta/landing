@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rate on Aevo - Perps Trading Guide",
+    "description": "Track WIF/USDT funding rates on Aevo DEX. Hourly settlements, 0.02%/0.05% fees. Optimize your meme coin perpetual futures arbitrage strategy.",
+    "keywords": [
+      "WIF funding rate",
+      "Aevo perpetual futures",
+      "meme coin arbitrage",
+      "dogwifhat perps",
+      "DEX funding rates",
+      "WIF USDT",
+      "hourly funding",
+      "arbitrage opportunities"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities in the meme coin sector. As a DEX built on its own rollup, Aevo provides hourly funding settlements with competitive fees for dogwifhat token trading.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the difference between perpetual futures and index prices, with payments exchanged directly between long and short positions. The DEX's off-chain order book enables efficient price discovery while on-chain settlement ensures transparency. Funding rates are applied automatically to open positions at the top of each hour, with no manual intervention required. The rollup architecture allows for faster settlement compared to Layer 1 alternatives.",
+    "why_this_pair": "WIF/USDT presents significant funding rate volatility due to meme coin speculation cycles and retail sentiment shifts. The pair often experiences extreme funding rates during viral social media trends, creating profitable arbitrage windows. Aevo's combined options and perpetuals platform allows sophisticated traders to hedge exposure while capturing funding rate premiums.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WIF funding rates on Aevo typically range from -0.5% to +2.0% during normal market conditions, with extreme spikes reaching +5.0% during meme coin rallies. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Historical data shows funding rates correlate strongly with Solana ecosystem momentum and broader meme coin sector performance. Weekend periods often exhibit higher volatility in funding rates due to reduced institutional participation and increased retail activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding rate arbitrage between Aevo and centralized platforms can yield significant returns during WIF volatility spikes. The DEX's lower fees (0.02% maker, 0.05% taker) compared to many centralized exchanges improve net arbitrage profitability. Aevo's pre-launch token markets sometimes create funding rate discrepancies before major listings, offering early arbitrage positioning. The platform's options integration enables complex arbitrage strategies combining funding rate capture with volatility trading."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller liquidity pools increase slippage risk during large position entries and exits, particularly during high volatility periods. The rollup's relative centralization compared to Layer 1 solutions introduces potential operational risks and dependency on sequencer uptime. WIF's meme coin nature creates extreme price volatility that can quickly turn profitable funding rate positions into losses. Traders should monitor Solana network congestion as it can affect the underlying asset's price stability and funding rate calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WIF funding rates settled on Aevo?",
+        "answer": "Aevo settles funding rates every hour for all perpetual contracts including WIF/USDT. This frequency is higher than most centralized exchanges that use 8-hour cycles, providing more frequent arbitrage opportunities."
+      },
+      {
+        "question": "What are the fees for trading WIF perpetuals on Aevo?",
+        "answer": "Aevo charges 0.02% for maker orders and 0.05% for taker orders on WIF/USDT perpetuals. These competitive rates help improve the profitability of funding rate arbitrage strategies compared to higher-fee platforms."
+      },
+      {
+        "question": "Can I use Aevo's options to hedge WIF funding rate positions?",
+        "answer": "Yes, Aevo's integrated options platform allows traders to hedge WIF perpetual positions while capturing funding rates. This strategy can protect against adverse price movements while maintaining exposure to funding rate premiums."
+      },
+      {
+        "question": "What liquidity depth should I expect for WIF on Aevo?",
+        "answer": "WIF/USDT on Aevo typically maintains moderate liquidity suitable for mid-sized positions. However, during high volatility periods, spreads may widen and depth can decrease, requiring careful position sizing and execution timing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ena-usdt",
+    "tia-usdt",
+    "op-usdt",
+    "atom-usdt",
+    "ethfi-usdt"
+  ]
+}

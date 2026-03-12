@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX NEAR/USDT Funding Rate Arbitrage | Oracle DEX Guide",
+    "description": "Analyze NEAR/USDT funding rates on GMX DEX. Oracle-based perpetuals with 1-hour intervals on Arbitrum. Understand GLP liquidity dynamics for arbitrage.",
+    "keywords": [
+      "GMX funding rate",
+      "NEAR perpetual futures",
+      "oracle DEX arbitrage",
+      "GLP liquidity",
+      "Arbitrum perps",
+      "1-hour funding",
+      "DEX arbitrage",
+      "NEAR trading"
+    ]
+  },
+  "content": {
+    "intro": "GMX's NEAR/USDT perpetual contract offers unique funding rate opportunities through its oracle-based system and GLP liquidity model. Unlike traditional order book exchanges, funding rates here reflect the balance between long/short positions against pooled liquidity rather than between traders.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the utilization of long versus short positions in the GLP pool. When NEAR longs exceed shorts, long traders pay funding to the pool (and short traders), with rates determined by position imbalance and borrowing costs. The oracle-based pricing eliminates traditional funding rate convergence mechanisms, creating distinct arbitrage patterns. Rates are applied every hour and can vary significantly from CEX funding due to GMX's unique liquidity structure.",
+    "why_this_pair": "NEAR/USDT on GMX presents compelling funding rate arbitrage due to NEAR's Layer 1 status attracting directional traders and GMX's isolated liquidity dynamics. The pair often exhibits pronounced funding rate divergence from centralized exchanges, especially during NEAR ecosystem developments or broader L1 rotations. Mid-tier volume levels create manageable price impact while maintaining sufficient liquidity for meaningful position sizes.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on GMX have shown significant volatility around NEAR protocol updates and Aurora ecosystem developments. During Q3 2024, the pair experienced sustained positive funding (0.01-0.05% hourly) as long interest dominated during NEAR's sharding improvements. Funding rates typically spike during broader L1 narratives, often reaching 0.1%+ hourly when NEAR outperforms ETH. The oracle-based system creates less frequent but more pronounced funding rate movements compared to traditional perps. Weekend periods often show reduced funding volatility due to lower trading activity affecting position imbalances."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between GMX and Binance/Bybit NEAR perpetuals frequently yields 10-20 basis points in funding rate differentials. GMX's pool-based model creates delayed reactions to rapid market movements, offering windows for rate arbitrage when NEAR experiences sudden price action. The most profitable opportunities occur when GMX funding diverges during Asian trading hours while CEX rates remain stable. Position size optimization is crucial as GMX's price impact increases non-linearly with trade size. Successful arbitrageurs often maintain 2-5x leverage to balance funding collection with liquidation risk on GMX's oracle-based system."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency represents the primary risk for NEAR/USDT positions on GMX, as Chainlink price delays can cause unexpected liquidations during volatile periods. The 0.05%/0.07% trading fees are significantly higher than CEX alternatives, requiring funding rate advantages of 15+ basis points to remain profitable after costs. GLP pool composition affects available liquidity, with NEAR positions competing for the same pool capacity as other assets. Price impact becomes substantial above $50k position sizes, limiting scalability for larger arbitrage operations. Smart contract risk and Arbitrum network congestion during high activity can delay position adjustments when rapid responses are needed."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX's oracle pricing affect NEAR funding rates compared to order book exchanges?",
+        "answer": "GMX uses Chainlink oracles for NEAR pricing, which eliminates the typical funding rate convergence mechanism found on CEX platforms. This creates unique funding patterns that often diverge from traditional exchanges, especially during rapid price movements when oracle updates lag market prices."
+      },
+      {
+        "question": "What position sizes work best for NEAR/USDT funding rate arbitrage on GMX?",
+        "answer": "Optimal position sizes range from $10k-$50k to balance funding collection with GMX's price impact model. Larger positions face exponentially increasing price impact, while smaller positions may not justify the higher trading fees compared to centralized exchanges."
+      },
+      {
+        "question": "How often should I monitor NEAR funding rates on GMX for arbitrage opportunities?",
+        "answer": "GMX updates funding rates hourly, making frequent monitoring essential during volatile periods. The best opportunities typically emerge 15-30 minutes before funding periods when position imbalances become apparent, especially during NEAR ecosystem news or broader L1 rotation periods."
+      },
+      {
+        "question": "What are the main differences between GMX and CEX funding for NEAR perpetuals?",
+        "answer": "GMX funding reflects trader positioning against pooled liquidity rather than trader-to-trader imbalances. This creates less predictable but potentially more profitable divergences, especially when NEAR's price action differs from broader market trends affecting the GLP pool composition."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "ldo-usdt",
+    "ena-usdt",
+    "wld-usdt",
+    "xrp-usdt"
+  ]
+}

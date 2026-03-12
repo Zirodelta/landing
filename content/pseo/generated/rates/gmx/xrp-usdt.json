@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "xrp-usdt",
+    "base": "XRP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX XRP/USDT Funding Rate | DEX Perpetual Futures",
+    "description": "Track XRP/USDT funding rates on GMX DEX. Hourly funding payments, oracle-based pricing, and arbitrage opportunities on Arbitrum's leading perpetual platform.",
+    "keywords": [
+      "GMX XRP funding rate",
+      "XRP perpetual futures",
+      "DEX funding rate arbitrage",
+      "Arbitrum perpetuals",
+      "XRP GMX trading",
+      "oracle-based funding",
+      "hourly funding payments",
+      "GLP liquidity pools"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers XRP/USDT perpetual futures with hourly funding rate settlements on Arbitrum, utilizing oracle-based pricing and GLP liquidity pools. The platform's unique architecture eliminates traditional order books, instead relying on Chainlink price feeds and deep liquidity from LP tokens.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the difference between the perpetual contract price and the oracle price from Chainlink. Funding payments occur every hour at the top of the hour, with rates typically ranging from -0.01% to 0.01% per hour. The oracle-based system reduces funding rate volatility compared to order book exchanges, as it doesn't rely on mark-to-index calculations. Long positions pay short positions when funding is positive, with payments processed automatically through the smart contract.",
+    "why_this_pair": "XRP/USDT on GMX benefits from consistent oracle pricing that often differs from spot market volatility, creating predictable funding rate patterns. The pair's high liquidity and moderate volatility make it suitable for funding rate arbitrage, especially when compared to CEX rates. GMX's hourly funding frequency provides more opportunities for rate capture compared to 8-hour cycles on traditional exchanges.",
+    "sections": [
+      {
+        "heading": "Historical XRP Funding Rate Patterns",
+        "body": "XRP funding rates on GMX typically oscillate between -0.005% and 0.005% per hour, with periods of sustained positive funding during bullish XRP sentiment. Historical data shows funding rates tend to spike during XRP regulatory news events, often reaching 0.01% hourly when retail sentiment drives long bias. The oracle-based pricing creates smoother funding transitions compared to order book DEXs, with less extreme rate spikes. GMX's hourly settlement means daily funding costs can accumulate to 0.12-0.24% during high volatility periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "Funding rate arbitrage on GMX involves taking opposite positions across CEXs with 8-hour funding cycles and GMX's hourly cycle. Traders can capture rate differentials by shorting XRP on GMX when funding is positive while holding spot XRP or going long on CEXs with negative funding. The oracle pricing mechanism often creates temporary disconnects from spot prices, generating additional alpha beyond pure funding rate capture. Position sizing must account for GMX's 0.05-0.07% trading fees and potential price impact on large orders through the GLP pools."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Oracle dependency represents the primary risk, as Chainlink feed failures could impact position valuations and funding calculations. Price impact through GLP pools can be significant for large XRP positions, potentially offsetting funding rate gains on size. GMX's smart contract risk and Arbitrum bridge dependencies add additional layers compared to centralized exchanges. Traders should monitor GLP utilization rates, as high utilization can increase borrowing costs and affect position profitability beyond funding payments."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are XRP funding payments settled on GMX?",
+        "answer": "XRP funding payments on GMX are settled every hour at the top of the hour. This differs from most CEXs that use 8-hour cycles, providing more frequent opportunities to capture funding rate changes."
+      },
+      {
+        "question": "What happens if Chainlink's XRP price feed fails on GMX?",
+        "answer": "GMX uses multiple oracle sources and has fallback mechanisms, but prolonged oracle failures could freeze new positions or force settlement at last known prices. Existing positions remain open but funding calculations may pause until feeds resume."
+      },
+      {
+        "question": "Can I hedge XRP funding exposure using GLP tokens?",
+        "answer": "GLP tokens provide exposure to the entire GMX liquidity pool including XRP, so they don't offer direct hedge capabilities. However, GLP yields can offset some trading costs when combined with XRP perpetual strategies."
+      },
+      {
+        "question": "How does GMX's XRP funding rate compare to Binance or Bybit?",
+        "answer": "GMX's hourly funding typically shows less volatility than CEX 8-hour rates due to oracle smoothing. However, daily cumulative funding can exceed CEX rates during trending periods, making cross-exchange arbitrage potentially profitable."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "inj-usdt",
+    "btc-usdt",
+    "meme-usdt",
+    "ada-usdt"
+  ]
+}

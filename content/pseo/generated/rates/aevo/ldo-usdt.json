@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ldo-usdt",
+    "base": "LDO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "LDO/USDT Funding Rate Arbitrage on Aevo DEX",
+    "description": "Trade LDO/USDT perpetuals on Aevo with 1-hour funding payments. Analyze Lido DAO token rates on this rollup-based options and perps DEX platform.",
+    "keywords": [
+      "LDO funding rate",
+      "Aevo DEX",
+      "Lido perpetuals",
+      "funding rate arbitrage",
+      "rollup trading",
+      "DeFi token futures",
+      "options perps platform"
+    ]
+  },
+  "content": {
+    "intro": "Aevo DEX offers LDO/USDT perpetual futures with hourly funding rate settlements on its dedicated rollup infrastructure. This platform combines options and perpetuals trading, providing unique arbitrage opportunities for Lido DAO token exposure with competitive maker fees at 0.02%.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the premium between LDO perpetual and spot prices, with settlements occurring every 60 minutes. The platform's off-chain order book processes rate calculations efficiently while maintaining on-chain settlement transparency. Funding payments are automatically debited or credited to trader positions without requiring manual intervention. Aevo's rollup architecture enables faster funding rate updates compared to traditional Layer 1 implementations.",
+    "why_this_pair": "LDO represents exposure to Ethereum's largest liquid staking protocol, making it highly sensitive to staking yield dynamics and ETH price movements. The token's correlation with DeFi sentiment creates distinct funding rate patterns, especially during periods of high staking activity or regulatory developments. Aevo's combined options-perps ecosystem allows sophisticated hedging strategies around LDO's staking reward mechanisms.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "LDO/USDT funding rates on Aevo have shown strong correlation with Ethereum staking APR changes and major protocol updates. During periods of high ETH staking inflows, LDO perpetuals typically trade at a premium, resulting in positive funding rates ranging from 0.01% to 0.05% hourly. The token's funding rates also spike during Lido governance proposals or when competitor liquid staking protocols announce major updates. Seasonal patterns emerge around Ethereum network upgrades, with funding rates becoming more volatile 2-3 weeks prior to major hard forks."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's hourly funding settlements create more frequent arbitrage windows compared to 8-hour cycles on centralized exchanges. Cross-platform arbitrage between Aevo and CEX funding rates can be profitable when rate differentials exceed 0.02% after accounting for gas costs and rollup bridge fees. The platform's options market provides additional delta-neutral strategies where traders can hedge LDO exposure while capturing funding rate premiums. Aevo's pre-launch token markets sometimes offer unique funding rate opportunities before LDO listings on other major platforms."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup-based architecture introduces bridge risk when moving funds between Layer 1 and the trading environment. The platform's smaller liquidity pool for LDO/USDT can result in wider bid-ask spreads during volatile periods, impacting funding rate arbitrage profitability. Rollup centralization concerns may affect platform reliability during high-stress market conditions. Smart contract risks specific to Aevo's combined options-perps infrastructure require careful position sizing, especially when utilizing complex multi-leg strategies involving both product types."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's 1-hour funding cycle affect LDO arbitrage strategies?",
+        "answer": "The hourly funding cycle on Aevo creates 8x more settlement opportunities compared to standard 8-hour cycles, allowing for more responsive arbitrage strategies. This frequency is particularly beneficial for LDO given its volatility around staking-related news events. However, transaction costs must be carefully managed due to the increased frequency of potential position adjustments."
+      },
+      {
+        "question": "What are the unique risks of trading LDO perpetuals on Aevo's rollup?",
+        "answer": "Aevo's rollup architecture introduces withdrawal delays when exiting positions to Layer 1, typically 7 days for optimistic rollups. The platform's smaller LDO liquidity pool can create slippage during large funding rate arbitrage positions. Additionally, rollup sequencer downtime could temporarily prevent position management during critical market movements."
+      },
+      {
+        "question": "How do Aevo's options markets impact LDO funding rates?",
+        "answer": "Aevo's integrated options market can influence LDO perpetual funding rates through sophisticated arbitrage strategies by institutional traders. Options market makers may hedge delta exposure through perpetuals, creating additional demand pressure that affects funding rate calculations. This integration can lead to more complex funding rate patterns compared to perpetual-only platforms."
+      },
+      {
+        "question": "What LDO-specific events typically cause funding rate spikes on Aevo?",
+        "answer": "Major Lido protocol updates, changes to staking withdrawal policies, and Ethereum network upgrades consistently drive LDO funding rate volatility on Aevo. Competitor announcements from liquid staking protocols like Rocket Pool or Coinbase also impact rates. Additionally, regulatory developments affecting staking or DeFi protocols can cause sustained funding rate premiums lasting several days."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "mkr-usdt",
+    "xrp-usdt",
+    "inj-usdt",
+    "ada-usdt"
+  ]
+}

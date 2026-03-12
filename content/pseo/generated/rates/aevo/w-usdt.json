@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "w-usdt",
+    "base": "W",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "W/USDT Funding Rates on Aevo - Arbitrage Guide",
+    "description": "Track W/USDT perpetual funding rates on Aevo DEX. Hourly settlements, 0.02%/0.05% fees, rollup-based performance for infrastructure token arbitrage.",
+    "keywords": [
+      "W USDT funding rate",
+      "Aevo perpetuals",
+      "DEX arbitrage",
+      "infrastructure token",
+      "hourly funding",
+      "rollup trading",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "W/USDT perpetual futures on Aevo offer hourly funding rate settlements on a dedicated rollup infrastructure. As an infrastructure token with emerging market dynamics, W presents unique funding rate patterns on this options-focused DEX platform.",
+    "how_funding_works": "Aevo calculates funding rates hourly using mark price divergence from spot indices, with settlements processed on-chain via their custom rollup. The exchange's off-chain order book enables efficient price discovery while maintaining decentralized settlement for funding payments. Funding rates typically range from -0.1% to 0.1% per hour, with automatic collection or payment based on long/short positioning. The rollup architecture reduces gas costs for frequent funding settlements compared to mainnet-based perpetuals.",
+    "why_this_pair": "W/USDT funding rates often exhibit higher volatility due to limited liquidity pools and infrastructure narrative trading patterns. The smaller market cap creates opportunities for significant funding rate deviations during trending periods. Aevo's combined options and perpetuals ecosystem can influence funding dynamics through cross-product arbitrage activities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "W/USDT funding rates on Aevo typically oscillate between -0.05% to 0.08% hourly during normal market conditions. Infrastructure narratives drive periodic spikes above 0.15% during bull phases, while bear markets see sustained negative rates below -0.1%. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour cycles on centralized exchanges. Correlation with broader infrastructure tokens like LINK and AVAX influences funding direction, especially during sector rotation events."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Aevo and centralized platforms becomes viable when funding rate differentials exceed 0.3% adjusted for fees and slippage. The 0.02% maker fee structure favors patient arbitrageurs who can provide liquidity while capturing funding premiums. Aevo's smaller liquidity pools mean funding rates can deviate significantly from major exchanges during high volatility periods. Options market activity on Aevo can create additional hedging opportunities when combined with perpetual funding rate capture strategies."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Rollup dependency introduces smart contract and sequencer risks specific to Aevo's infrastructure, requiring careful position monitoring. Limited liquidity can result in significant slippage when closing arbitrage positions, especially during market stress. Funding rate volatility increases substantially during infrastructure sector events or W-specific developments. The DEX nature means potential for smart contract bugs or rollup downtime that could impact funding settlements, requiring diversified arbitrage strategies across multiple venues."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are W/USDT funding rates settled on Aevo?",
+        "answer": "Aevo settles funding rates every hour for W/USDT perpetuals. This frequent settlement cycle provides more granular arbitrage opportunities compared to traditional 8-hour cycles, but requires active position management to optimize funding capture strategies."
+      },
+      {
+        "question": "What makes W/USDT funding rates different on Aevo compared to centralized exchanges?",
+        "answer": "Aevo's smaller liquidity pools and rollup-based architecture create more volatile funding rates for W/USDT. The combination of options and perpetuals markets can influence funding dynamics through cross-product arbitrage, often leading to larger deviations from centralized exchange rates."
+      },
+      {
+        "question": "Are there rollup-specific risks for W/USDT funding rate arbitrage on Aevo?",
+        "answer": "Yes, Aevo's custom rollup introduces sequencer dependency and potential downtime risks that could affect funding settlements. Smart contract risks are also present, requiring careful position sizing and monitoring compared to established centralized platforms."
+      },
+      {
+        "question": "How do Aevo's fees impact W/USDT funding rate arbitrage profitability?",
+        "answer": "Aevo charges 0.02% maker and 0.05% taker fees, which must be factored into arbitrage calculations. The relatively low maker fee structure favors strategies that provide liquidity while capturing funding rate differentials exceeding 0.3% to maintain profitability after transaction costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "wld-usdt",
+    "avax-usdt",
+    "arb-usdt",
+    "sei-usdt",
+    "link-usdt"
+  ]
+}

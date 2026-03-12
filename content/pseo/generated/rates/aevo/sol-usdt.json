@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sol-usdt",
+    "base": "SOL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SOL/USDT Funding Rates on Aevo - DEX Perp Analysis",
+    "description": "Track SOL/USDT funding rates on Aevo DEX. Analyze hourly rate patterns, rollup performance impact, and arbitrage opportunities for Solana perpetuals.",
+    "keywords": [
+      "SOL funding rates",
+      "Aevo DEX",
+      "Solana perpetuals",
+      "funding rate arbitrage",
+      "SOL USDT",
+      "DEX funding",
+      "rollup trading",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "SOL/USDT perpetual futures on Aevo offer hourly funding rate opportunities on a dedicated rollup infrastructure. As one of the major trading pairs on this options and perpetuals DEX, SOL/USDT benefits from Aevo's off-chain order book and on-chain settlement model.",
+    "how_funding_works": "Aevo calculates funding rates hourly using the premium between perpetual and mark prices, settling on their dedicated rollup. The exchange's hybrid architecture processes funding calculations off-chain but settles payments on-chain for transparency. Funding payments occur every hour at the top of each hour, with rates determined by the 8-hour TWAP of the premium index. Aevo's rollup infrastructure enables faster funding settlements compared to mainnet-based DEXs.",
+    "why_this_pair": "SOL/USDT represents significant volume and volatility on Aevo, making it attractive for funding rate arbitrage strategies. The pair's position as a major altcoin creates frequent funding rate imbalances during Solana ecosystem developments. Aevo's pre-launch token capabilities also mean SOL-related derivative products can influence funding dynamics.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SOL/USDT funding rates on Aevo typically range from -0.1% to 0.3% during normal market conditions, with extreme rates reaching ±1% during high volatility periods. The hourly settlement creates more frequent but smaller rate adjustments compared to 8-hour cycles on centralized exchanges. Funding rates tend to spike positive during Solana network upgrades, ecosystem announcements, or broader altcoin rallies. The pair shows strong correlation with Bitcoin funding but with higher amplitude swings due to SOL's beta characteristics."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Cross-exchange arbitrage between Aevo and centralized exchanges becomes profitable when rate differentials exceed 0.05% after accounting for trading fees. Aevo's 0.02% maker and 0.05% taker fees require careful position sizing to maintain profitability. The rollup's lower gas costs enable smaller position arbitrage compared to mainnet DEXs. Traders should monitor Aevo's liquidity depth as smaller pools can create slippage during large arbitrage positions."
+      },
+      {
+        "heading": "Risk Considerations and Platform Specifics",
+        "body": "Aevo's rollup centralization presents unique counterparty risks compared to fully decentralized protocols or centralized exchanges. Lower liquidity pools mean funding rates can be more volatile and potentially less efficient than major exchanges. The platform's focus on options trading can create additional complexity in perpetual pricing during high volatility. Smart contract risks specific to Aevo's rollup architecture should be considered alongside standard perpetual futures risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are SOL/USDT funding rates calculated on Aevo?",
+        "answer": "Aevo calculates and settles funding rates every hour for SOL/USDT perpetuals. This is more frequent than most centralized exchanges which use 8-hour cycles, potentially creating arbitrage opportunities."
+      },
+      {
+        "question": "What makes Aevo's funding mechanism different from other DEXs?",
+        "answer": "Aevo uses a hybrid model with off-chain order book matching and on-chain settlement on their dedicated rollup. This provides faster execution and lower costs while maintaining settlement transparency compared to mainnet DEXs."
+      },
+      {
+        "question": "Are there liquidity risks when trading SOL/USDT on Aevo?",
+        "answer": "Yes, Aevo has smaller liquidity pools compared to major centralized exchanges. Large positions may face slippage, and funding rates can be more volatile due to lower market depth in the SOL/USDT pair."
+      },
+      {
+        "question": "How do Aevo's trading fees impact funding rate arbitrage profitability?",
+        "answer": "With 0.02% maker and 0.05% taker fees, profitable arbitrage typically requires funding rate differentials of at least 0.05-0.1% to cover round-trip costs. The hourly settlement frequency can help accumulate smaller profitable trades over time."
+      }
+    ]
+  },
+  "related_pairs": [
+    "dot-usdt",
+    "btc-usdt",
+    "wif-usdt",
+    "pyth-usdt",
+    "atom-usdt"
+  ]
+}

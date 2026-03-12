@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rate Arbitrage on GMX DEX",
+    "description": "Analyze FLOKI/USDT perpetual futures funding rates on GMX. Hourly funding mechanics, oracle-based pricing, and GLP liquidity pool arbitrage opportunities.",
+    "keywords": [
+      "GMX FLOKI funding rate",
+      "FLOKI perpetual futures",
+      "DEX funding arbitrage",
+      "GLP liquidity pool",
+      "Arbitrum perpetuals",
+      "meme coin funding",
+      "oracle-based pricing",
+      "hourly funding rate"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on GMX utilize the platform's unique GLP liquidity pool model with hourly funding rate adjustments. As a meme coin with significant retail interest, FLOKI often exhibits pronounced funding rate imbalances on GMX due to directional trader bias and oracle-based pricing inefficiencies.",
+    "how_funding_works": "GMX calculates FLOKI/USDT funding rates hourly based on the difference between perpetual price and oracle spot price from Chainlink and other feeds. Long positions pay funding when perpetual trades above oracle price, while shorts pay when below. The GLP pool acts as counterparty to all trades, with funding flows directly between traders and the pool rather than peer-to-peer.",
+    "why_this_pair": "FLOKI's meme coin status creates frequent funding rate opportunities due to retail sentiment-driven positioning imbalances. The pair's mid-tier volume on GMX provides sufficient liquidity for arbitrage while maintaining price sensitivity to funding rate changes that larger pairs often lack.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT on GMX has shown distinct funding rate cycles correlating with meme coin market sentiment and broader crypto volatility. During bullish meme seasons, funding rates frequently exceeded +0.1% hourly as retail long bias overwhelmed the GLP pool capacity. Conversely, during bear markets or negative FLOKI news, funding rates often turned negative as short interest dominated. The oracle-based pricing system occasionally creates temporary disconnects from spot markets, particularly during high volatility periods when Chainlink price feeds lag market movements. These patterns typically show stronger funding rate extremes than similar meme coins on centralized exchanges due to GMX's unique liquidity model."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "FLOKI funding rate arbitrage on GMX requires careful consideration of the platform's price impact mechanics and GLP pool dynamics. Arbitrageurs can exploit funding rate differentials by taking opposite positions on GMX versus centralized exchanges like Binance or OKX. The key advantage is GMX's hourly funding versus 8-hour cycles elsewhere, allowing for more frequent capture opportunities. However, traders must account for GMX's dynamic spread based on pool utilization and potential slippage on larger position sizes. The most profitable setups occur when FLOKI sentiment diverges significantly from funding equilibrium, creating sustained rate imbalances that justify the higher transaction costs of DEX trading."
+      },
+      {
+        "heading": "Risk Considerations and Pool Dynamics",
+        "body": "GMX's GLP pool model introduces unique risks for FLOKI perpetual traders beyond standard funding rate exposure. Oracle dependency creates potential price manipulation risks during low liquidity periods, particularly relevant for volatile meme coins. The pool's finite liquidity means large FLOKI positions can experience significant price impact, affecting both entry/exit execution and funding rate calculations. Additionally, GLP holders effectively take the opposite side of all net FLOKI positions, creating systemic risk during extreme market moves. Traders should monitor pool utilization metrics and consider position sizing relative to total pool capacity to avoid unexpected slippage or execution delays."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does GMX update FLOKI/USDT funding rates compared to CEXs?",
+        "answer": "GMX updates FLOKI/USDT funding rates hourly, providing 8x more frequent adjustments than most centralized exchanges that use 8-hour cycles. This creates unique arbitrage windows for traders who can capture funding differentials more frequently than traditional perpetual markets."
+      },
+      {
+        "question": "What happens if FLOKI oracle prices diverge significantly from market prices?",
+        "answer": "GMX uses multiple oracle sources including Chainlink for FLOKI pricing, but significant divergences can create temporary arbitrage opportunities or risks. The platform may pause trading or adjust spreads during extreme oracle-market disconnects to protect the GLP pool from adverse selection."
+      },
+      {
+        "question": "How does FLOKI position size affect funding calculations on GMX?",
+        "answer": "Unlike order book exchanges, GMX funding calculations can be influenced by your position size due to price impact on the GLP pool. Larger FLOKI positions may experience different effective funding rates due to the dynamic pricing model and pool utilization effects."
+      },
+      {
+        "question": "Can I earn funding fees by providing liquidity to GLP for FLOKI exposure?",
+        "answer": "GLP holders receive funding payments from net long or short FLOKI positions but also bear the price risk of the underlying assets. This creates a complex risk-return profile where funding income must be weighed against potential impermanent loss and directional FLOKI exposure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "ldo-usdt",
+    "near-usdt",
+    "inj-usdt",
+    "shib-usdt"
+  ]
+}

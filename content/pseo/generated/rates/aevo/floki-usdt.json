@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rate on Aevo DEX - Arbitrage Guide",
+    "description": "Track FLOKI/USDT perpetual funding rates on Aevo DEX. 1-hour intervals, rollup performance, and meme token volatility create unique arbitrage opportunities.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Aevo DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "meme token trading",
+      "rollup DEX",
+      "1-hour funding",
+      "FLOKI USDT perps"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetuals on Aevo DEX offer unique funding rate arbitrage opportunities with 1-hour funding intervals on a high-performance rollup. Aevo's hybrid architecture combines options and perpetuals trading with off-chain order matching and on-chain settlement, creating distinct funding rate patterns for meme tokens like FLOKI.",
+    "how_funding_works": "Aevo calculates funding rates every hour based on the premium between FLOKI perpetual and index prices, with payments made between long and short positions. The exchange's rollup infrastructure enables more frequent funding calculations compared to many centralized exchanges. Aevo's integrated options market can influence funding rates as market makers hedge delta exposure across both perpetuals and options. The platform's 0.02%/0.05% fee structure affects net funding arbitrage returns, particularly during high-frequency funding rate changes.",
+    "why_this_pair": "FLOKI's meme token volatility creates pronounced funding rate swings on Aevo, often diverging significantly from rates on centralized exchanges. The token's retail-heavy trading base and social media-driven price movements generate persistent funding rate premiums during trending periods. Aevo's smaller liquidity pool compared to major CEXs can amplify funding rate disparities, creating profitable arbitrage windows for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI funding rates on Aevo typically exhibit extreme volatility during meme token rallies, with rates frequently exceeding ±200% APR during peak momentum periods. The 1-hour funding interval creates more granular rate adjustments compared to 8-hour systems, leading to sharper but shorter-duration rate spikes. Weekend periods often show reduced funding rate volatility as Aevo's retail-focused user base becomes less active. Cross-correlation analysis reveals Aevo FLOKI rates often lag major CEX movements by 15-30 minutes, creating predictable arbitrage entry points."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Funding rate arbitrage on FLOKI/USDT involves taking opposite positions on Aevo versus high-liquidity CEXs like Binance or OKX to capture rate differentials. Aevo's rollup settlement requires careful timing of position entries to avoid bridge delays affecting hedge ratios during volatile periods. The exchange's pre-launch token market expertise can create unique funding opportunities when FLOKI experiences major tokenomics changes or ecosystem developments. Optimal trade sizes typically range from $10K-100K to avoid significant slippage while maintaining adequate returns after accounting for Aevo's fee structure."
+      },
+      {
+        "heading": "Risk Management and Considerations",
+        "body": "Aevo's rollup architecture introduces smart contract risk and potential centralization concerns around the sequencer, requiring additional due diligence versus CEX arbitrage. FLOKI's meme token nature creates heightened liquidation risks during flash crashes, particularly given Aevo's smaller liquidity buffers compared to major exchanges. Cross-chain bridge risks become significant when funding positions across multiple venues, as Ethereum congestion can delay hedge adjustments. Portfolio exposure should account for Aevo's relatively nascent infrastructure and the potential for technical issues during high-volatility FLOKI events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's 1-hour funding compare to standard 8-hour cycles for FLOKI arbitrage?",
+        "answer": "Aevo's hourly funding creates more frequent but smaller rate adjustments, reducing the time-weighted average funding differential but increasing the number of potential arbitrage opportunities. This structure favors algorithmic traders who can respond quickly to rate changes versus manual arbitrageurs."
+      },
+      {
+        "question": "What are the main risks of funding rate arbitrage on Aevo versus centralized exchanges?",
+        "answer": "Key risks include rollup sequencer downtime, smaller liquidity pools leading to wider spreads during volatility, and smart contract vulnerabilities. Bridge delays can also affect hedge timing, particularly important for volatile meme tokens like FLOKI that can move rapidly."
+      },
+      {
+        "question": "How does Aevo's options market influence FLOKI perpetual funding rates?",
+        "answer": "Market makers hedging options positions can create additional demand or supply pressure on FLOKI perpetuals, influencing funding rates beyond simple spot-futures basis dynamics. High options activity often correlates with elevated funding rate volatility."
+      },
+      {
+        "question": "What position sizes work best for FLOKI funding arbitrage on Aevo?",
+        "answer": "Optimal sizes typically range from $10K-100K to balance slippage costs with meaningful returns. Larger positions may face execution challenges due to Aevo's smaller liquidity pool, while smaller positions struggle to overcome the 0.02%/0.05% fee structure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "wld-usdt",
+    "eth-usdt",
+    "pepe-usdt",
+    "stx-usdt",
+    "aave-usdt"
+  ]
+}

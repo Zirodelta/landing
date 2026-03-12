@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX PEPE/USDT Funding Rate Arbitrage & Trading Analysis",
+    "description": "Track GMX PEPE/USDT perpetual funding rates every hour. Analyze arbitrage opportunities with oracle-based pricing on Arbitrum and Avalanche networks.",
+    "keywords": [
+      "GMX PEPE funding rate",
+      "PEPE/USDT arbitrage",
+      "GMX perpetual futures",
+      "Arbitrum DeFi trading",
+      "meme coin funding rates",
+      "GLP liquidity pools",
+      "oracle-based DEX",
+      "hourly funding payments"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers PEPE/USDT perpetual futures with hourly funding rate settlements on Arbitrum and Avalanche networks. As a leading oracle-based DEX, GMX uses GLP and GM liquidity pools to facilitate trades without traditional order books, creating unique arbitrage dynamics for meme coins.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the premium/discount between perpetual and oracle prices from Chainlink feeds. Long positions pay shorts when rates are positive, with payments processed automatically every hour. The oracle-based pricing mechanism means funding rates reflect broader market sentiment rather than just GMX-specific demand, creating opportunities when other exchanges show different rate patterns.",
+    "why_this_pair": "PEPE/USDT on GMX presents compelling funding rate arbitrage opportunities due to the meme coin's high volatility and retail-driven sentiment. The hourly funding frequency allows for more granular arbitrage strategies compared to 8-hour cycles on traditional exchanges, while GMX's oracle pricing can create rate divergences during rapid PEPE price movements.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE funding rates on GMX have shown extreme volatility during meme coin hype cycles, with rates frequently exceeding ±0.5% hourly during peak trading periods. The oracle-based system tends to moderate extreme rates compared to order book exchanges, as Chainlink price feeds smooth out short-term price spikes. Historical data shows PEPE rates correlate strongly with broader meme coin sentiment, often spiking positive during retail FOMO phases and turning negative during rapid selloffs. The hourly settlement creates 24 funding events per day, providing multiple arbitrage entry and exit points."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Cross-exchange arbitrage between GMX and centralized exchanges like Binance or OKX can be profitable due to GMX's oracle pricing lag during volatile periods. Delta-neutral strategies work well on GMX by holding spot PEPE while shorting perpetuals when funding rates are significantly positive. The GLP pool structure means large trades have price impact, creating temporary funding rate distortions that sophisticated traders can exploit. Arbitrageurs should monitor the 1-hour funding countdown and execute trades 10-15 minutes before settlement to maximize rate capture."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "GMX's 0.05% opening and 0.07% closing fees significantly impact short-term arbitrage profitability, requiring funding rate differentials of at least 0.15% to break even. Oracle dependency introduces systematic risk if Chainlink feeds malfunction or experience delays during extreme volatility. The relatively low liquidity in GLP pools compared to major CEX orderbooks can cause slippage on larger position sizes. Price impact calculations are crucial as GMX's AMM-style pricing can move significantly against traders during high-volume periods, potentially offsetting funding rate profits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE funding rates updated on GMX?",
+        "answer": "GMX updates PEPE funding rates every hour, providing 24 settlement periods per day. This frequent settlement allows for more responsive arbitrage strategies compared to traditional 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What makes GMX's PEPE funding calculation different from other exchanges?",
+        "answer": "GMX uses Chainlink oracle prices rather than internal orderbook data to calculate funding rates. This creates unique arbitrage opportunities when GMX's oracle price diverges from spot market prices during volatile PEPE trading sessions."
+      },
+      {
+        "question": "Can I earn funding fees by providing liquidity to GMX's PEPE market?",
+        "answer": "Yes, GLP and GM token holders earn a portion of trading fees and funding payments. However, they also bear directional risk from the underlying PEPE exposure within the liquidity pool composition."
+      },
+      {
+        "question": "What's the maximum position size for PEPE arbitrage on GMX?",
+        "answer": "Position limits depend on available liquidity in the GLP/GM pools and current utilization rates. Large positions may experience significant price impact, reducing arbitrage profitability compared to the theoretical funding rate differential."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "avax-usdt",
+    "blur-usdt",
+    "pyth-usdt",
+    "render-usdt"
+  ]
+}

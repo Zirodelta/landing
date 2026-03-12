@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "aave-usdt",
+    "base": "AAVE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AAVE/USDT Funding Rate Arbitrage on Aevo DEX",
+    "description": "Trade AAVE/USDT perpetual futures on Aevo with hourly funding rates. Leverage Aevo's rollup-based DEX for DeFi arbitrage opportunities.",
+    "keywords": [
+      "aave funding rate",
+      "aevo exchange",
+      "defi perpetual futures",
+      "funding rate arbitrage",
+      "dex derivatives",
+      "rollup trading",
+      "aave perps",
+      "usdt pairs"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's AAVE/USDT perpetual futures offer unique funding rate arbitrage opportunities within the DeFi ecosystem. The exchange's rollup-based architecture provides hourly funding settlements with competitive 0.02%/0.05% fees for maker/taker trades.",
+    "how_funding_works": "Aevo calculates funding rates hourly using a mark price derived from spot exchanges and the perpetual's premium/discount to spot. The funding payment occurs automatically every hour between long and short positions. Aevo's off-chain order book with on-chain settlement ensures funding calculations remain transparent while maintaining fast execution speeds. The rollup infrastructure allows for more frequent funding intervals compared to traditional DEXes.",
+    "why_this_pair": "AAVE's status as a leading DeFi lending protocol creates natural hedging demand from liquidity providers and borrowers. The token's correlation with broader DeFi trends often generates funding rate premiums during DeFi rallies. Aevo's focus on options and perpetuals attracts sophisticated traders who actively manage funding exposure across DeFi assets.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "AAVE funding rates on Aevo typically range from -0.1% to 0.3% during normal market conditions, with higher volatility during DeFi sector rotations. The hourly funding frequency creates more granular arbitrage opportunities compared to 8-hour intervals on centralized exchanges. Funding premiums often spike during AAVE governance proposals or major protocol upgrades. The pair shows strong correlation with ETH funding rates due to AAVE's Ethereum-native protocol status, creating cross-asset arbitrage opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Traders can exploit funding rate differentials between Aevo and centralized exchanges like Binance or OKX, particularly during DeFi momentum shifts. Aevo's lower liquidity can create temporary funding rate dislocations that revert within 2-4 hours. The combination of options and perpetuals on the same platform enables delta-neutral strategies using AAVE options to hedge perpetual positions. Cross-rollup arbitrage opportunities emerge when Aevo's rates diverge significantly from Arbitrum or Optimism-based derivatives platforms."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup centralization poses sequencer risk that could impact funding rate calculations during network stress. Lower liquidity pools mean larger positions can significantly impact funding rates, creating slippage risk for arbitrageurs. The relatively new platform carries smart contract risk, particularly around the rollup's settlement mechanisms. Funding arbitrage positions require careful monitoring due to hourly settlements and potential for rapid rate changes during DeFi volatility spikes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding differ from other exchanges?",
+        "answer": "Aevo settles funding every hour compared to the standard 8-hour intervals on most centralized exchanges. This creates more frequent arbitrage opportunities but requires active position management to capture rate differentials effectively."
+      },
+      {
+        "question": "What are the main risks of AAVE funding arbitrage on Aevo?",
+        "answer": "Key risks include rollup centralization, lower liquidity leading to higher slippage, and smart contract risks from the relatively new platform. The hourly funding also requires more active monitoring compared to traditional 8-hour cycles."
+      },
+      {
+        "question": "Can I hedge AAVE perps with options on Aevo?",
+        "answer": "Yes, Aevo's unique combination of options and perpetuals allows traders to create delta-neutral strategies using AAVE options to hedge perpetual positions while collecting funding rates."
+      },
+      {
+        "question": "How liquid is AAVE/USDT on Aevo compared to CEXes?",
+        "answer": "Aevo typically has lower liquidity than major centralized exchanges, with tighter spreads during peak DeFi trading hours. This lower liquidity can create temporary funding rate dislocations but also increases position impact for larger trades."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "ftm-usdt",
+    "bnb-usdt",
+    "jto-usdt",
+    "ton-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "mkr-usdt",
+    "base": "MKR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MKR/USDT Funding Rate on Aevo - DeFi Perp Arbitrage",
+    "description": "Track MKR/USDT perpetual funding rates on Aevo DEX. Analyze 1-hour funding intervals, rollup performance benefits, and DeFi governance token arbitrage opportunities.",
+    "keywords": [
+      "MKR funding rate",
+      "Aevo perpetuals",
+      "DeFi arbitrage",
+      "MakerDAO perps",
+      "rollup trading",
+      "governance token funding",
+      "1-hour intervals",
+      "DEX arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "MKR/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the platform's 1-hour funding intervals and rollup-based architecture. As MakerDAO's governance token, MKR exhibits distinct funding patterns driven by DeFi governance cycles and protocol revenue dynamics.",
+    "how_funding_works": "Aevo calculates MKR/USDT funding rates every hour using a premium/discount mechanism relative to the underlying spot price. The platform's off-chain order book on its custom rollup enables efficient price discovery while maintaining on-chain settlement security. Funding payments occur automatically between long and short positions, with rates typically ranging from -0.5% to +0.5% annually depending on market sentiment toward MakerDAO governance events.",
+    "why_this_pair": "MKR funding rates often diverge significantly during governance proposals, protocol updates, and shifts in DAI demand, creating substantial arbitrage windows. The token's relatively lower liquidity compared to major cryptocurrencies can lead to more pronounced funding rate premiums. Aevo's combined options and perpetuals ecosystem allows sophisticated traders to hedge governance-related volatility while capturing funding rate differentials.",
+    "sections": [
+      {
+        "heading": "Historical MKR Funding Rate Patterns",
+        "body": "MKR funding rates on Aevo have shown strong correlation with MakerDAO governance events and DAI stability fee adjustments. During major protocol upgrades or collateral onboarding votes, funding rates frequently spike above 50% APR as traders position for governance outcomes. The 1-hour funding frequency on Aevo captures these short-term sentiment shifts more effectively than traditional 8-hour intervals. Seasonal patterns emerge around quarterly governance cycles, with funding rates typically becoming more volatile 2-3 days before major votes."
+      },
+      {
+        "heading": "Arbitrage Opportunities with Rollup Performance",
+        "body": "Aevo's dedicated rollup infrastructure provides latency advantages for MKR funding rate arbitrage, with sub-second execution enabling rapid position adjustments during rate resets. Cross-exchange arbitrage becomes viable when Aevo's MKR rates diverge from Binance or OKX by more than 10-15 basis points annually. The platform's combined derivatives ecosystem allows traders to structure complex arbitrage strategies using MKR options as hedging instruments. Pre-launch token markets on Aevo sometimes create unique funding opportunities during MakerDAO ecosystem token launches."
+      },
+      {
+        "heading": "Risk Considerations for DeFi Governance Tokens",
+        "body": "MKR perpetuals carry elevated smart contract risk due to MakerDAO's complex protocol mechanics and potential emergency shutdown scenarios. Liquidity constraints during volatile governance periods can lead to significant slippage when unwinding large funding rate arbitrage positions. Aevo's rollup centralization presents additional counterparty risk compared to fully decentralized alternatives, particularly relevant for longer-term funding strategies. Traders must monitor MakerDAO governance calendars closely, as surprise proposals can trigger rapid funding rate reversals that eliminate arbitrage profitability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's 1-hour funding affect MKR arbitrage strategies?",
+        "answer": "The 1-hour funding intervals allow more precise capture of MKR's governance-driven volatility compared to 8-hour cycles. Traders can better capitalize on short-term funding spikes around MakerDAO votes and protocol announcements."
+      },
+      {
+        "question": "What makes MKR funding rates unique on Aevo compared to CEXs?",
+        "answer": "Aevo's smaller liquidity pool for MKR creates more pronounced funding rate premiums during governance events. The DEX environment also attracts DeFi-native traders who may hold stronger directional biases, leading to more persistent funding rate imbalances."
+      },
+      {
+        "question": "How do MakerDAO governance events impact funding rates?",
+        "answer": "Major governance proposals, especially those affecting collateral ratios or stability fees, typically drive funding rates to extremes as traders position for outcomes. Emergency votes or protocol upgrades can cause funding rates to exceed 100% APR temporarily."
+      },
+      {
+        "question": "What are the rollup risks specific to MKR trading on Aevo?",
+        "answer": "Aevo's rollup dependency means MKR positions could face withdrawal delays during network issues. The centralized sequencer also poses censorship risks, particularly relevant during contentious MakerDAO governance periods when position adjustments may be time-sensitive."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "render-usdt",
+    "avax-usdt",
+    "eth-usdt",
+    "pendle-usdt"
+  ]
+}

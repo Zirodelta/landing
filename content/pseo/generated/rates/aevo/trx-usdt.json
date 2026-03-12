@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "trx-usdt",
+    "base": "TRX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TRX/USDT Funding Rates on Aevo DEX - Arbitrage Guide",
+    "description": "Track TRX/USDT funding rates on Aevo's rollup-based DEX. Hourly settlements, pre-launch markets, and arbitrage opportunities for TRON perpetual futures.",
+    "keywords": [
+      "TRX funding rate",
+      "Aevo DEX",
+      "TRON perpetual futures",
+      "arbitrage opportunities",
+      "hourly funding settlement",
+      "rollup trading",
+      "TRX USDT perps"
+    ]
+  },
+  "content": {
+    "intro": "TRX/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the platform's hourly settlement mechanism and rollup-based infrastructure. As a Layer 1 blockchain token with significant trading volume, TRON exhibits distinct funding patterns driven by institutional adoption and ecosystem growth.",
+    "how_funding_works": "Aevo calculates funding rates for TRX/USDT every hour using a time-weighted average premium between perpetual and spot prices. The rollup infrastructure enables precise settlement timing with reduced gas costs compared to mainnet DEXs. Funding payments are automatically deducted from or credited to positions at each hourly interval. The platform's off-chain order book ensures funding rate calculations reflect real-time market dynamics while maintaining on-chain settlement security.",
+    "why_this_pair": "TRX/USDT presents compelling funding arbitrage potential due to TRON's active DeFi ecosystem and consistent institutional interest. The pair's large trading volume on Aevo provides sufficient liquidity for arbitrage positions, while hourly funding cycles allow for more granular profit capture. TRON's utility in payments and DeFi creates natural demand imbalances that translate to predictable funding rate patterns.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TRX/USDT funding rates on Aevo typically range from -0.02% to 0.08% per hour, with positive rates dominating during TRON ecosystem developments and DeFi activity surges. The hourly settlement frequency creates more volatile rate swings compared to 8-hour cycles, offering frequent arbitrage windows. Historical data shows funding rates often spike during Justin Sun announcements or major TRON protocol updates. Weekend periods tend to show reduced volatility with rates converging toward neutral territory."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's combination of options and perpetuals creates unique arbitrage scenarios where TRX funding rates can be hedged through synthetic positions using options strategies. The platform's pre-launch token markets sometimes offer correlated pairs that can hedge TRX exposure while capturing funding differentials. Cross-exchange arbitrage becomes viable when Aevo's funding rates diverge significantly from centralized exchanges due to the platform's specialized user base. The 0.02% maker rebate can offset negative funding costs when providing liquidity during high-rate periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup infrastructure introduces smart contract risk and potential sequencer downtime that could affect position management during critical funding periods. The platform's smaller liquidity pool compared to major CEXs means slippage risk increases during volatile TRX price movements. Rollup centralization concerns require monitoring of validator behavior and potential MEV extraction affecting funding rate calculations. The complex product set combining options and perpetuals may create unexpected liquidation scenarios during extreme market conditions requiring sophisticated risk management."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are TRX/USDT funding rates settled on Aevo?",
+        "answer": "Aevo settles funding rates every hour for TRX/USDT perpetuals, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. This hourly mechanism allows traders to capture shorter-term funding rate movements and adjust positions more dynamically."
+      },
+      {
+        "question": "What makes Aevo's rollup different for TRX funding arbitrage?",
+        "answer": "Aevo's dedicated rollup provides faster settlement and lower costs for funding payments while maintaining Ethereum security. The off-chain order book ensures real-time price discovery affects funding calculations without gas constraints, making TRX arbitrage more efficient than mainnet alternatives."
+      },
+      {
+        "question": "Can I hedge TRX funding exposure using Aevo's options?",
+        "answer": "Yes, Aevo's integrated options platform allows sophisticated hedging strategies where TRX perpetual funding exposure can be offset through options positions. This creates unique arbitrage structures not available on perpetual-only platforms, especially during high funding rate periods."
+      },
+      {
+        "question": "What are the main risks of TRX funding arbitrage on Aevo?",
+        "answer": "Key risks include rollup-specific technical issues, lower liquidity compared to major exchanges, and potential sequencer downtime. The platform's centralized rollup structure also introduces smart contract risks that could affect position management during critical funding periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ldo-usdt",
+    "inj-usdt",
+    "fet-usdt",
+    "ada-usdt",
+    "pyth-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEME/USDT Funding Rate on Aevo - Track Arbitrage Rates",
+    "description": "Monitor MEME/USDT perpetual funding rates on Aevo DEX. Hourly settlements, meme token volatility patterns, and arbitrage opportunities with rollup efficiency.",
+    "keywords": [
+      "MEME funding rate",
+      "Aevo perpetuals",
+      "meme token arbitrage",
+      "hourly funding",
+      "DEX perps",
+      "rollup trading",
+      "USDT pairs",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "MEME/USDT perpetuals on Aevo offer unique funding rate arbitrage opportunities with hourly settlement cycles on this options and perpetuals DEX. Aevo's rollup architecture enables efficient execution for meme token volatility patterns while combining traditional perps with options strategies.",
+    "how_funding_works": "Aevo calculates MEME/USDT funding rates hourly using a combination of perpetual-spot price differences and interest rate components. The exchange's off-chain order book with on-chain settlement allows for rapid rate adjustments during meme token volatility spikes. Settlement occurs every hour at the top of each hour, with rates applied to open positions based on notional size. Aevo's maker fees of 0.02% and taker fees of 0.05% impact the effective cost of maintaining arbitrage positions across funding periods.",
+    "why_this_pair": "MEME token's extreme volatility creates frequent funding rate imbalances as retail sentiment drives perpetual premiums or discounts relative to spot prices. The smaller liquidity pool on Aevo compared to centralized exchanges can amplify these rate disparities, creating arbitrage windows. However, the hourly settlement frequency provides more opportunities to capture rate inefficiencies compared to 8-hour cycles on major CEXs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEME/USDT funding rates on Aevo typically exhibit extreme volatility during major meme coin narrative cycles, with rates frequently exceeding ±0.5% per hour during peak hype periods. The token's correlation with broader meme sector movements creates predictable funding spikes when projects like Dogecoin or Pepe experience major price movements. Historical data shows funding rates tend to normalize quickly after initial volatility bursts, often reversing within 6-12 hours. The smaller user base on Aevo means fewer arbitrageurs are actively trading these inefficiencies compared to major centralized exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Successful MEME/USDT arbitrage on Aevo requires monitoring funding rate differentials against major CEXs like Binance or Bybit, where 8-hour cycles create temporal advantages. The rollup's low latency enables rapid position adjustments when funding rates diverge significantly from comparable exchanges. Cross-exchange arbitrage works best during high volatility periods when Aevo's smaller liquidity creates pricing inefficiencies. Traders should factor in withdrawal times from the rollup and potential slippage on larger position sizes when calculating arbitrage profitability."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEME token's extreme price volatility can quickly overwhelm funding rate profits if positions aren't properly hedged across exchanges. Aevo's rollup architecture introduces additional smart contract risks and potential centralization concerns around the sequencer. The exchange's smaller liquidity pool means larger arbitrage positions can significantly impact local funding calculations. Traders must account for the complexity of Aevo's combined options and perpetuals ecosystem, where large options flows can influence perpetual funding through dealer hedging activities."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MEME/USDT funding rates calculated on Aevo?",
+        "answer": "Funding rates are calculated and settled every hour at the top of the hour. This provides more frequent arbitrage opportunities compared to the typical 8-hour cycles used by major centralized exchanges."
+      },
+      {
+        "question": "What makes MEME funding rates more volatile on Aevo compared to CEXs?",
+        "answer": "Aevo's smaller liquidity pool means fewer arbitrageurs are actively trading rate inefficiencies, allowing disparities to persist longer. The exchange's focus on retail meme traders can create sentiment-driven funding imbalances during viral market periods."
+      },
+      {
+        "question": "How do Aevo's options affect MEME perpetual funding rates?",
+        "answer": "Large options positions can influence perpetual funding through market maker hedging activities. When options dealers need to hedge significant MEME exposure, their perpetual trading can temporarily distort funding calculations on the smaller liquidity pool."
+      },
+      {
+        "question": "What are the main risks of arbitraging MEME funding rates on Aevo?",
+        "answer": "Key risks include extreme MEME price volatility overwhelming funding profits, rollup technical risks, and limited liquidity affecting position sizing. The exchange's newer infrastructure also carries additional smart contract and operational risks compared to established CEXs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "ena-usdt",
+    "blur-usdt",
+    "sei-usdt",
+    "sui-usdt"
+  ]
+}

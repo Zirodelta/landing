@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on Aevo - Perpetual Futures",
+    "description": "Track JTO/USDT funding rates on Aevo DEX. Hourly funding updates, arbitrage opportunities, and risk analysis for Jito governance token perpetuals.",
+    "keywords": [
+      "JTO funding rates",
+      "Aevo perpetual futures",
+      "Jito governance token",
+      "DEX funding arbitrage",
+      "rollup derivatives",
+      "hourly funding",
+      "Solana DeFi tokens",
+      "perpetual swaps"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on Aevo offer unique funding rate opportunities through the platform's rollup-based architecture and hourly settlement cycles. As Jito's governance token, JTO exhibits distinct volatility patterns that create potential arbitrage scenarios for sophisticated traders.",
+    "how_funding_works": "Aevo calculates funding rates hourly using premium-based methodology, where JTO perpetual prices are compared to spot indices. The exchange's off-chain order book aggregates funding rate calculations while settlements execute on their custom rollup. Funding payments occur every hour, creating more frequent opportunities compared to 8-hour cycles on other platforms. Aevo's dual options-perps structure means JTO funding rates can be influenced by options activity and gamma hedging flows.",
+    "why_this_pair": "JTO represents Solana's liquid staking ecosystem through Jito, making it sensitive to both SOL price movements and DeFi yield environment changes. The token's governance utility and staking rewards create natural long bias that often manifests in positive funding rates. Aevo's smaller liquidity pool for JTO can amplify funding rate volatility during high activity periods.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JTO funding rates on Aevo typically range from -0.05% to +0.15% hourly, with notable spikes during Solana ecosystem events or liquid staking narrative momentum. The token shows elevated funding during periods of increased staking yields or MEV reward distributions. Historical data indicates JTO funding rates correlate strongly with SOL perpetual funding, often trading at 0.7-0.9 correlation coefficient. Weekend periods tend to show reduced funding volatility due to lower institutional activity."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "JTO funding rates on Aevo frequently diverge from rates on Binance, OKX, and Bybit due to liquidity concentration differences and Aevo's hourly funding cycle. Positive funding differentials of 0.02-0.08% hourly are common when Aevo shows higher rates than 8-hour settlement exchanges. Arbitrage traders can capitalize on these spreads by shorting on Aevo while longing on lower-rate exchanges. The strategy requires careful position sizing due to Aevo's limited JTO liquidity depth."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Aevo's rollup dependency introduces potential settlement delays during network congestion or validator issues. JTO's relatively low trading volume on Aevo increases slippage risk for larger arbitrage positions. The exchange's options market integration means unexpected gamma hedging can trigger sudden funding rate spikes. Traders should monitor Jito protocol announcements and Solana network performance as these directly impact JTO volatility and funding sustainability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are JTO funding rates updated on Aevo?",
+        "answer": "Aevo calculates and applies JTO funding rates every hour, providing more frequent settlement opportunities compared to the standard 8-hour cycles used by most centralized exchanges. This hourly mechanism allows for more precise funding rate arbitrage strategies."
+      },
+      {
+        "question": "What makes JTO funding rates unique on Aevo compared to other exchanges?",
+        "answer": "Aevo's combination of options and perpetuals markets creates unique funding dynamics for JTO, as options market makers may hedge positions through perpetuals. The exchange's smaller liquidity pool also means JTO funding rates can be more volatile and present larger arbitrage spreads."
+      },
+      {
+        "question": "What are the main risks of trading JTO perpetuals on Aevo?",
+        "answer": "Key risks include limited liquidity leading to higher slippage, rollup dependency for settlements, and correlation with broader Solana ecosystem performance. The hourly funding mechanism also requires more active position management compared to longer funding cycles."
+      },
+      {
+        "question": "How does JTO's connection to Solana liquid staking affect funding rates?",
+        "answer": "JTO's role as Jito's governance token creates natural demand from liquid staking participants and MEV reward recipients. This typically results in positive funding bias, especially during periods of high Solana staking yields or increased MEV activity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "link-usdt",
+    "arb-usdt",
+    "pendle-usdt",
+    "ftm-usdt"
+  ]
+}

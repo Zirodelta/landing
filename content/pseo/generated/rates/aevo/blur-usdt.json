@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "blur-usdt",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BLUR/USDT Funding Rates on Aevo - DEX Perps Arbitrage",
+    "description": "Track BLUR/USDT funding rates on Aevo DEX. Hourly settlements, rollup-based trading with competitive rates. Monitor NFT token arbitrage opportunities.",
+    "keywords": [
+      "BLUR funding rates",
+      "Aevo DEX",
+      "NFT perpetuals",
+      "funding arbitrage",
+      "rollup trading",
+      "BLUR USDT",
+      "hourly funding",
+      "DEX perps"
+    ]
+  },
+  "content": {
+    "intro": "BLUR/USDT perpetual futures on Aevo offer unique funding rate dynamics through the platform's rollup-based infrastructure. As one of the few DEXs supporting NFT ecosystem tokens like BLUR, Aevo provides hourly funding settlements with competitive maker/taker fees of 0.02%/0.05%.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the perpetual contract's deviation from the BLUR spot price across major exchanges. The platform's off-chain order book with on-chain settlement allows for precise rate calculations without typical AMM slippage. Funding payments occur every hour, with rates automatically deducted from trader balances. The rollup architecture enables faster settlement compared to mainnet-based competitors.",
+    "why_this_pair": "BLUR's volatility as an NFT marketplace token creates frequent funding rate imbalances, especially during market cap surges or NFT volume spikes. Aevo's smaller liquidity pool for BLUR/USDT can amplify funding rate deviations, creating arbitrage windows for sophisticated traders. The hourly settlement frequency provides more opportunities compared to 8-hour standard cycles.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "BLUR funding rates on Aevo typically range from -0.5% to +2% during NFT market cycles, with extreme spikes reaching 5%+ during major marketplace announcements. The token shows inverse correlation with broader crypto markets during NFT bear cycles, creating negative funding opportunities. Weekend rates tend to compress due to lower NFT trading activity, while Tuesday-Thursday often see peak volatility aligned with marketplace feature releases."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Aevo and larger platforms like Binance or OKX can be profitable when BLUR funding diverges by >0.3%. The rollup's fast finality enables quick position adjustments within the hourly window. Pre-launch token exposure through Aevo's specialized markets can create early funding advantages before major exchange listings. Aevo's unique options-perps combination allows for sophisticated delta-hedged funding strategies."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller BLUR liquidity increases slippage risk during volatile periods, potentially eroding funding profits. The platform's rollup dependency introduces smart contract and centralization risks not present in spot arbitrage. BLUR's correlation with NFT floor prices creates additional volatility beyond typical crypto market movements. Funding rate calculations may deviate from larger exchanges due to limited price discovery, requiring careful monitoring of underlying spot markets."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are BLUR funding payments settled on Aevo?",
+        "answer": "Aevo settles funding payments every hour for BLUR/USDT perpetuals. This is more frequent than the standard 8-hour cycles used by most centralized exchanges, providing more granular funding rate exposure."
+      },
+      {
+        "question": "What makes BLUR funding rates different on Aevo versus CEXs?",
+        "answer": "Aevo's smaller liquidity pool and rollup infrastructure can create larger funding rate deviations. The platform's focus on pre-launch and niche tokens like BLUR means rates may not always align with larger exchanges during high volatility periods."
+      },
+      {
+        "question": "Can I hedge BLUR funding exposure using Aevo's options?",
+        "answer": "Yes, Aevo's unique options-perps platform allows you to hedge funding rate exposure through BLUR options. This enables delta-neutral strategies that capture funding payments while limiting directional price risk."
+      },
+      {
+        "question": "What are the main risks of BLUR funding arbitrage on Aevo?",
+        "answer": "Key risks include rollup centralization, smaller liquidity causing slippage, and BLUR's correlation with NFT market cycles. The hourly settlement frequency requires more active monitoring compared to traditional 8-hour cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "atom-usdt",
+    "xrp-usdt",
+    "fet-usdt",
+    "ena-usdt",
+    "btc-usdt"
+  ]
+}

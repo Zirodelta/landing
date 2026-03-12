@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "link-usdt",
+    "base": "LINK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "LINK/USDT Funding Rates on GMX - Hourly Perpetual Analysis",
+    "description": "Track LINK/USDT funding rates on GMX DEX with hourly settlements. Oracle-based perpetuals on Arbitrum with unique GLP liquidity pool mechanics for arbitrage.",
+    "keywords": [
+      "GMX funding rates",
+      "LINK perpetual futures",
+      "Arbitrum DEX",
+      "GLP liquidity pools",
+      "oracle-based trading",
+      "hourly funding settlement",
+      "Chainlink arbitrage",
+      "DEX perpetual swaps"
+    ]
+  },
+  "content": {
+    "intro": "GMX's LINK/USDT perpetual futures operate on Arbitrum using oracle-based pricing with hourly funding rate settlements. The platform's unique GLP liquidity pool model provides continuous liquidity for Chainlink positions without traditional order book mechanics.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the difference between perpetual and oracle prices, with payments flowing between long and short positions. The platform uses Chainlink oracles for price discovery, eliminating the need for order book depth. Funding rates are settled automatically every hour, with GLP liquidity providers earning fees from position imbalances. The oracle-based system can create unique arbitrage opportunities when GMX prices diverge from spot markets.",
+    "why_this_pair": "LINK/USDT on GMX benefits from Chainlink's infrastructure token status, creating consistent trading activity and funding rate opportunities. The oracle-based pricing model is particularly relevant for LINK given Chainlink's role in providing price feeds across DeFi. The pair typically shows moderate funding rates with occasional spikes during network upgrade announcements or broader DeFi adoption waves.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "LINK/USDT funding rates on GMX typically range from -0.01% to +0.05% hourly, with infrastructure narrative cycles driving periodic elevation. The pair shows strong correlation with broader DeFi adoption phases, often seeing positive funding during oracle adoption announcements. Historical data indicates funding rate volatility increases around Chainlink protocol upgrades and major DeFi protocol integrations. Unlike centralized exchanges, GMX's oracle-based model can create temporary disconnects from traditional funding patterns during high volatility periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "GMX's unique GLP model creates arbitrage opportunities when funding rates diverge from other exchanges trading LINK perpetuals. Traders can exploit differences between GMX's oracle prices and market prices on venues like Binance or OKX. The platform's 0.05% maker and 0.07% taker fees must be factored into arbitrage calculations, along with Arbitrum gas costs. Cross-DEX arbitrage becomes particularly profitable when GMX funding rates exceed +0.03% hourly while other venues show negative rates."
+      },
+      {
+        "heading": "Risk Considerations and Platform Mechanics",
+        "body": "Oracle dependency represents the primary risk factor, as GMX relies on Chainlink price feeds that could experience delays or manipulation during extreme volatility. The GLP liquidity model means counterparty risk shifts to the liquidity pool rather than individual traders, but this creates exposure to overall platform solvency. Price impact on large positions can be significant due to the mathematical pricing model rather than order book depth. Arbitrum network congestion can affect funding rate settlement timing, though this is rare given the L2's current capacity."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX's oracle pricing affect LINK funding rate arbitrage?",
+        "answer": "GMX uses Chainlink oracles for LINK price discovery, which can create temporary arbitrage opportunities when oracle prices lag spot market movements. This oracle dependency means funding rates may not immediately reflect rapid price changes seen on order book exchanges."
+      },
+      {
+        "question": "What makes LINK/USDT funding rates unique on GMX compared to CEXs?",
+        "answer": "GMX's GLP liquidity model and hourly settlements create different funding dynamics than traditional order book exchanges. The platform's oracle-based pricing can lead to funding rates that don't directly correlate with open interest imbalances like on Binance or Bybit."
+      },
+      {
+        "question": "How do GLP liquidity pools impact LINK perpetual trading costs?",
+        "answer": "GLP pools provide consistent liquidity but charge higher fees than order book DEXs. The mathematical pricing model means large LINK positions face price impact based on pool utilization rather than order book depth."
+      },
+      {
+        "question": "What are the optimal position sizes for LINK funding rate arbitrage on GMX?",
+        "answer": "Optimal sizes depend on current GLP utilization and price impact thresholds. Positions under $100K typically see minimal price impact, while larger sizes should monitor the platform's real-time price impact calculator before execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "blur-usdt",
+    "arb-usdt",
+    "tia-usdt",
+    "sei-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jup-usdt",
+    "base": "JUP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JUP/USDT Funding Rate Analysis on GMX - Oracle DEX Arbitrage",
+    "description": "Analyze JUP/USDT funding rates on GMX DEX. Oracle-based perpetuals with hourly settlements offer unique arbitrage patterns across Arbitrum DeFi ecosystem.",
+    "keywords": [
+      "JUP funding rate",
+      "GMX perpetuals",
+      "oracle DEX arbitrage",
+      "Arbitrum DeFi",
+      "JUP trading",
+      "DEX funding rates",
+      "GMX liquidity",
+      "DeFi arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers JUP/USDT perpetuals through its oracle-based system with hourly funding rate settlements and GLP/GM liquidity backing. The DEX model provides unique arbitrage dynamics compared to order book exchanges, particularly for DeFi tokens like JUP.",
+    "how_funding_works": "GMX calculates funding rates every hour based on the difference between perpetual price and Chainlink oracle price, not orderbook depth. Long positions pay funding when trading above oracle price, creating arbitrage opportunities during DeFi sentiment shifts. The GLP/GM liquidity model means funding costs are distributed across liquidity providers rather than concentrated market makers.",
+    "why_this_pair": "JUP's role in Solana DeFi creates cross-chain arbitrage opportunities when trading on Arbitrum-based GMX. The token's moderate volatility and growing DeFi adoption generate consistent funding rate variations, especially during Solana ecosystem events.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JUP/USDT on GMX typically exhibits funding rates between -0.01% to 0.02% during normal market conditions. Oracle-based pricing creates smoother funding transitions compared to orderbook exchanges, reducing sudden spikes. DeFi narrative cycles heavily influence long bias, with funding rates reaching 0.05% during major Solana ecosystem announcements. The hourly settlement frequency provides more granular arbitrage entry points than traditional 8-hour cycles."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "Cross-exchange arbitrage works particularly well between GMX and Binance/OKX for JUP, given oracle vs orderbook pricing differences. GMX's price impact on larger positions (>$50k) creates temporary funding rate inefficiencies that skilled arbitrageurs exploit. The Arbitrum ecosystem concentration means JUP funding rates often correlate with ARB token sentiment, creating pair-trading opportunities. Oracle dependency reduces but doesn't eliminate the need for rapid execution during high volatility periods."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Oracle risk is the primary concern, as Chainlink feed delays during extreme volatility can cause temporary pricing disconnects lasting 1-2 hours. GMX's higher trading fees (0.05%/0.07%) require wider funding rate spreads to remain profitable compared to low-fee CEX alternatives. Liquidity constraints during high volatility can increase price impact beyond expected levels, affecting position sizing strategies. Smart contract risk on Arbitrum and potential GM token depegging during market stress add additional considerations for larger arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX's oracle pricing affect JUP funding rates?",
+        "answer": "GMX uses Chainlink oracles instead of orderbook prices, creating funding rates based on oracle-to-perp price differences. This reduces noise but can create temporary disconnects during rapid JUP price movements when oracle updates lag behind market reality."
+      },
+      {
+        "question": "What's the optimal position size for JUP funding arbitrage on GMX?",
+        "answer": "Positions under $25k typically avoid significant price impact, while larger positions should account for GMX's deeper slippage on DeFi tokens. The GLP liquidity model means position limits vary with overall protocol TVL and JUP allocation within GM pools."
+      },
+      {
+        "question": "How do GMX fees impact JUP funding rate profitability?",
+        "answer": "GMX's 0.05% opening/0.07% closing fees require funding rate spreads above 0.12% for profitable trades. This is higher than most CEXs but compensated by more stable oracle-based pricing and reduced liquidation risk from sudden orderbook gaps."
+      },
+      {
+        "question": "Can I hedge JUP positions across GMX and other Arbitrum DEXs?",
+        "answer": "Limited options exist for direct JUP perpetuals on other Arbitrum DEXs, making cross-CEX hedging more common. Gains Network and Kwenta don't currently offer JUP pairs, so arbitrageurs typically hedge through Binance or OKX spot/perpetual markets."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "sei-usdt",
+    "shib-usdt",
+    "btc-usdt",
+    "pendle-usdt"
+  ]
+}

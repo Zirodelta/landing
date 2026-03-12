@@ -10,19 +10,8 @@ interface Props {
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-  const comparisons = getAllComparisons()
-  if (comparisons.length > 0) {
-    return comparisons.map((c) => ({ slug: c.slug }))
-  }
-  // Fallback: generate params from exchange pairs
-  const exchanges = getExchanges().slice(0, 8)
-  const params: { slug: string }[] = []
-  for (let i = 0; i < exchanges.length; i++) {
-    for (let j = i + 1; j < exchanges.length; j++) {
-      params.push({ slug: `${exchanges[i].slug}-vs-${exchanges[j].slug}` })
-    }
-  }
-  return params
+  // Return empty — dynamicParams=true handles all routes on-demand
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

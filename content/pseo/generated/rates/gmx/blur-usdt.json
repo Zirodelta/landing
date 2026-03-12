@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "blur-usdt",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX BLUR/USDT Funding Rate Arbitrage | Oracle DEX Guide",
+    "description": "Track BLUR/USDT funding rates on GMX's oracle-based DEX. Analyze hourly funding costs, GLP pool dynamics, and arbitrage opportunities on Arbitrum.",
+    "keywords": [
+      "GMX BLUR funding",
+      "BLUR USDT perpetual",
+      "GMX oracle rates",
+      "Arbitrum DEX arbitrage",
+      "GLP pool trading",
+      "NFT token funding",
+      "GMX hourly rates",
+      "BLUR perp trading"
+    ]
+  },
+  "content": {
+    "intro": "BLUR/USDT perpetual futures on GMX operate through an oracle-based pricing mechanism with hourly funding rate settlements. As a DEX on Arbitrum, GMX provides unique funding rate arbitrage opportunities for the Blur Protocol's native NFT marketplace token.",
+    "how_funding_works": "GMX calculates funding rates based on the difference between the oracle price and the market's skew towards long or short positions. Funding settles every hour, with rates dynamically adjusting based on open interest imbalances and oracle price deviations. The platform uses Chainlink price feeds for BLUR, ensuring funding rates reflect real market conditions across centralized exchanges.",
+    "why_this_pair": "BLUR's volatility as an NFT sector token creates frequent funding rate imbalances on GMX, especially during NFT market cycles. The token's correlation with OpenSea volumes and NFT collection floors generates unique arbitrage windows when funding rates diverge from CEX rates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BLUR funding rates on GMX typically spike during NFT market rallies, reaching 0.5-2% hourly during high volatility periods. The token shows distinct seasonal patterns, with higher funding costs during collection launches and major NFT events. Oracle-based pricing creates temporary rate divergences from order book exchanges, particularly when BLUR experiences rapid price movements that exceed typical DeFi token volatility ranges."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "GMX's GLP pool structure creates unique arbitrage scenarios when BLUR funding rates diverge significantly from Binance or OKX. Traders can exploit rate differences by holding opposite positions across GMX and centralized exchanges. The 1-hour funding frequency provides more granular opportunities compared to 8-hour CEX cycles, though higher GMX fees (0.05-0.07%) require careful position sizing for profitability."
+      },
+      {
+        "heading": "Oracle and Liquidity Risk Factors",
+        "body": "GMX's oracle dependency introduces specific risks for BLUR funding arbitrage, particularly during extreme NFT market volatility when price feeds may lag. The platform's price impact increases significantly for larger BLUR positions due to limited liquidity compared to major tokens. GLP pool composition changes can affect available liquidity for BLUR, with funding rates potentially spiking during pool rebalancing events or when the token represents a large portion of open interest."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do GMX BLUR funding rates update?",
+        "answer": "GMX updates BLUR funding rates every hour based on oracle price data and position skew. This frequent updating creates more arbitrage opportunities compared to traditional 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "question": "What drives BLUR funding rate volatility on GMX?",
+        "answer": "BLUR funding rates fluctuate based on NFT market sentiment, open interest imbalances, and oracle price deviations. High correlation with OpenSea volumes and major NFT collection activity creates predictable volatility patterns for arbitrage strategies."
+      },
+      {
+        "question": "Can I arbitrage BLUR funding between GMX and centralized exchanges?",
+        "answer": "Yes, but consider GMX's hourly vs CEX's 8-hour funding cycles, higher DEX trading fees, and potential oracle price lags during volatile periods. Profit margins require careful calculation of these cost differentials."
+      },
+      {
+        "question": "What are the main risks of BLUR funding arbitrage on GMX?",
+        "answer": "Key risks include oracle price lag during extreme volatility, limited BLUR liquidity causing high price impact, and GLP pool rebalancing events affecting available margin. Smart contract risk and Arbitrum network congestion during high NFT activity also affect execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "avax-usdt",
+    "ldo-usdt",
+    "shib-usdt",
+    "op-usdt"
+  ]
+}

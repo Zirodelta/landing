@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETH/USDT Funding Rates on Aevo - Hourly Rate Analysis",
+    "description": "Track ETH/USDT perpetual funding rates on Aevo DEX. Hourly settlements on rollup infrastructure with combined options and futures arbitrage opportunities.",
+    "keywords": [
+      "aevo funding rates",
+      "eth usdt perpetual",
+      "dex arbitrage",
+      "hourly funding",
+      "rollup trading",
+      "ethereum futures",
+      "defi perps",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's ETH/USDT perpetual features hourly funding rate settlements on their dedicated rollup infrastructure, offering unique arbitrage opportunities in the decentralized derivatives space. The platform's hybrid model combines on-chain settlement with off-chain order book matching for enhanced performance.",
+    "how_funding_works": "Aevo calculates funding rates every hour based on the 8-hour TWAP of the premium between perpetual and spot prices. The rollup architecture enables faster settlement compared to mainnet DEXs, with funding payments processed automatically through smart contracts. Unlike centralized exchanges, Aevo's transparent on-chain settlement provides verifiable funding calculations while maintaining competitive execution speeds through their off-chain matching engine.",
+    "why_this_pair": "ETH/USDT represents Aevo's highest volume perpetual contract, providing the deepest liquidity for funding rate arbitrage strategies. The hourly settlement frequency creates more frequent rebalancing opportunities compared to traditional 8-hour cycles, particularly valuable during volatile ETH market conditions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETH/USDT funding rates on Aevo typically range from -0.05% to 0.15% per hour during normal market conditions. During major ETH rallies, rates frequently spike above 0.2% hourly as long positions dominate. The platform's options activity creates unique funding dynamics, with rates often influenced by gamma hedging from market makers managing complex option portfolios. Weekend periods show reduced volatility in funding rates due to lower institutional participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's hourly funding settlements create 24 rebalancing opportunities daily, significantly more than traditional 8-hour cycles. Cross-exchange arbitrage becomes profitable when Aevo rates diverge from Binance or OKX by more than 0.03% hourly. The platform's pre-launch token markets often create funding rate premiums as traders hedge exposure to upcoming listings. Delta-neutral strategies combining ETH perpetuals with options positions can capture funding while maintaining market exposure hedging."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup dependency introduces technical risks including potential sequencer downtime and bridge vulnerabilities. The platform's smaller liquidity pool compared to major CEXs can result in higher slippage during rapid position adjustments. Funding rate calculations may be impacted by the platform's combined options and futures ecosystem, creating correlation risks not present in pure perpetual platforms. Smart contract risks specific to rollup architecture require additional due diligence for large arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding differ from 8-hour cycles?",
+        "answer": "Aevo settles funding every hour instead of the standard 8-hour cycle, creating 24 settlement opportunities daily. This higher frequency can lead to more stable rates but requires more active position management for arbitrage strategies."
+      },
+      {
+        "question": "What impact do options have on ETH perpetual funding rates?",
+        "answer": "Aevo's integrated options market creates additional hedging flows that can influence perpetual funding rates. Market makers delta-hedging options positions contribute to perpetual volume and can create funding rate premiums during high volatility periods."
+      },
+      {
+        "question": "Are there withdrawal delays for arbitrage profits on Aevo?",
+        "answer": "As a rollup-based DEX, Aevo requires bridge transactions to withdraw to mainnet, typically taking 7-14 days for challenge period completion. Traders should factor these delays into arbitrage strategy timing and capital allocation."
+      },
+      {
+        "question": "How does Aevo's rollup affect funding rate calculations?",
+        "answer": "The rollup infrastructure enables more frequent and gas-efficient funding settlements while maintaining transparent on-chain calculations. However, dependence on the sequencer means funding calculations could be delayed during rollup operational issues."
+      }
+    ]
+  },
+  "related_pairs": [
+    "floki-usdt",
+    "inj-usdt",
+    "sui-usdt",
+    "dot-usdt",
+    "bnb-usdt"
+  ]
+}

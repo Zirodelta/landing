@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ena-usdt",
+    "base": "ENA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ENA/USDT Funding Rates on Aevo - Track Arbitrage Signals",
+    "description": "Monitor ENA/USDT perpetual funding rates on Aevo DEX. Track hourly funding intervals, analyze DeFi token volatility, and identify arbitrage opportunities.",
+    "keywords": [
+      "ENA funding rates",
+      "Aevo perpetuals",
+      "DeFi token arbitrage",
+      "hourly funding",
+      "rollup trading",
+      "perpetual futures",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "ENA/USDT perpetuals on Aevo offer unique funding rate dynamics due to the token's DeFi sector positioning and the exchange's hourly funding mechanism. Aevo's rollup-based infrastructure provides efficient settlement for funding rate arbitrage strategies targeting Ethena's governance token.",
+    "how_funding_works": "Aevo calculates ENA/USDT funding rates hourly using a premium index based on the perpetual-spot price difference. The exchange's off-chain order book aggregates pricing data while on-chain settlement ensures transparent funding payments. Funding rates are applied every hour at the top of each hour, with positive rates paid by long positions to short positions when the perpetual trades above the underlying ENA spot price.",
+    "why_this_pair": "ENA represents exposure to Ethena's synthetic dollar protocol, creating funding rate volatility during DeFi market movements and protocol updates. The token's mid-tier volume on Aevo provides sufficient liquidity for funding rate arbitrage while avoiding the extreme competition seen in major pairs. ENA's correlation with DeFi sector performance creates predictable funding rate patterns during sector rotations.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ENA/USDT funding rates on Aevo typically range from -0.1% to 0.3% hourly during normal market conditions. DeFi sector rallies have historically driven funding rates above 0.5% as speculative interest increases demand for long positions. Bear market periods often see sustained negative funding rates as leveraged longs are unwound. The hourly frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage becomes profitable when Aevo's ENA funding rates deviate significantly from Binance or OKX rates due to timing differences. Aevo's hourly funding creates 8x more payment events, allowing traders to capture funding differentials that persist for shorter durations. The exchange's pre-launch token markets sometimes create temporary funding rate dislocations when ENA experiences governance proposals or protocol upgrades. Traders can exploit Aevo's lower liquidity during off-peak hours when funding rates become more volatile."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup architecture introduces smart contract risks beyond typical perpetual futures exposure when holding positions for funding collection. The exchange's smaller liquidity pool for ENA/USDT can lead to slippage during position entry/exit that erodes funding rate profits. Rollup centralization concerns create potential single points of failure that could impact funding payments or position management. Cross-chain bridge delays may complicate rapid arbitrage execution when funding rates move against positions on other exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ENA funding rates calculated on Aevo?",
+        "answer": "Aevo calculates and applies ENA/USDT funding rates every hour at the top of each hour. This creates 8 funding events per day compared to the standard 3 times daily on most centralized exchanges."
+      },
+      {
+        "question": "What makes ENA funding rates different on Aevo's rollup?",
+        "answer": "Aevo's rollup processes funding calculations off-chain with on-chain settlement, potentially creating brief delays during network congestion. The exchange's combined options and perpetuals trading can also influence ENA funding rates through cross-product arbitrage flows."
+      },
+      {
+        "question": "Can I trade ENA perpetuals before official token launch on Aevo?",
+        "answer": "Yes, Aevo often lists pre-launch markets for tokens like ENA, allowing perpetual trading before spot availability. These pre-launch periods typically show higher funding rate volatility due to price discovery mechanisms and limited arbitrage options."
+      },
+      {
+        "question": "What are the trading fees for ENA/USDT perpetuals on Aevo?",
+        "answer": "Aevo charges 0.02% maker fees and 0.05% taker fees for ENA/USDT perpetuals. These fees must be factored into funding rate arbitrage calculations alongside the hourly funding payments to determine net profitability."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "xrp-usdt",
+    "matic-usdt",
+    "apt-usdt",
+    "render-usdt"
+  ]
+}

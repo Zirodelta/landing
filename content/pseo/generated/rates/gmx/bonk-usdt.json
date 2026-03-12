@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rate on GMX - Meme Token Arbitrage",
+    "description": "Track BONK/USDT funding rates on GMX DEX. Analyze hourly payments, oracle-based pricing, and arbitrage opportunities in Solana's leading meme coin.",
+    "keywords": [
+      "BONK funding rate",
+      "GMX meme tokens",
+      "DEX arbitrage",
+      "oracle pricing",
+      "Arbitrum perpetuals",
+      "GLP liquidity",
+      "hourly funding",
+      "BONK trading"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on GMX offer unique arbitrage opportunities through the platform's oracle-based pricing and hourly funding mechanism. As a leading Solana meme token, BONK exhibits volatile funding patterns driven by retail sentiment and cross-chain trading dynamics.",
+    "how_funding_works": "GMX calculates BONK/USDT funding rates hourly based on the difference between perpetual price and oracle spot price from Chainlink feeds. Traders pay or receive funding every hour at the top of each hour, with rates typically ranging from -0.01% to +0.05% during normal market conditions. The oracle dependency means funding rates may diverge from order book exchanges, creating arbitrage windows when BONK experiences rapid price movements or when Solana network congestion affects cross-chain price discovery.",
+    "why_this_pair": "BONK's status as a high-volatility meme token creates frequent funding rate imbalances on GMX due to sentiment-driven positioning. The oracle-based pricing mechanism often lags during rapid BONK rallies or dumps, generating attractive arbitrage spreads versus centralized exchanges. Mid-tier volume provides sufficient liquidity for smaller arbitrage positions while avoiding the extreme fees of low-volume pairs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on GMX have shown distinct patterns correlating with broader meme token cycles and Solana ecosystem developments. During BONK's major rallies in late 2023, funding rates frequently exceeded +0.03% hourly as long positions dominated. Conversely, during market downturns, rates turned deeply negative as shorts accumulated. The hourly frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on traditional exchanges. Oracle lag during high volatility periods has produced funding rate spikes of 0.08-0.15% in extreme cases."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "The primary arbitrage strategy involves exploiting funding rate differentials between GMX and centralized exchanges like Binance or OKX. When GMX funding turns positive due to long bias, traders can short BONK/USDT on GMX while longing on CEXs to capture the spread. The oracle dependency creates additional opportunities when spot prices diverge from perpetual prices during network congestion. Successful execution requires monitoring cross-chain bridge delays and maintaining sufficient collateral across platforms. Position sizing should account for GMX's higher fees and potential price impact on larger trades."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Oracle dependency represents the primary risk factor, as Chainlink feed delays during extreme volatility can cause adverse price movements. GMX's 0.05-0.07% trading fees are significantly higher than order book exchanges, requiring larger funding rate differentials to maintain profitability. Price impact becomes substantial for trades exceeding $50,000 due to GLP liquidity pool mechanics. Cross-chain execution risks include bridge delays and Solana network instability affecting hedge positions. Risk mitigation involves maintaining smaller position sizes, diversifying across multiple exchanges, and implementing strict stop-loss protocols for oracle lag scenarios."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does GMX pay BONK/USDT funding rates?",
+        "answer": "GMX pays BONK/USDT funding every hour at the top of each hour, unlike most exchanges that use 8-hour cycles. This creates more frequent arbitrage opportunities but requires active position management."
+      },
+      {
+        "question": "Why do BONK funding rates differ significantly from other exchanges?",
+        "answer": "GMX uses Chainlink oracle pricing rather than its own order book, causing rates to diverge during rapid BONK price movements. Oracle lag during high volatility creates temporary arbitrage windows versus spot prices on Binance or Coinbase."
+      },
+      {
+        "question": "What's the maximum funding rate for BONK/USDT on GMX?",
+        "answer": "While GMX doesn't enforce hard caps, BONK funding rates typically range from -0.05% to +0.08% hourly during normal conditions. Extreme events have produced rates exceeding 0.15% due to oracle lag and one-sided positioning."
+      },
+      {
+        "question": "How do GMX's fees affect BONK funding rate arbitrage profitability?",
+        "answer": "GMX charges 0.05-0.07% for opening/closing positions, requiring funding rate differentials of at least 0.10-0.15% to break even after fees. The higher fee structure means only significant rate imbalances generate profitable arbitrage opportunities compared to lower-fee CEXs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "shib-usdt",
+    "tao-usdt",
+    "wld-usdt",
+    "dot-usdt",
+    "avax-usdt"
+  ]
+}

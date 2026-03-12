@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rate on dYdX - 1h Perpetual Futures",
+    "description": "Monitor STX/USDT funding rates on dYdX's Cosmos appchain. 1-hour funding intervals, 0.02%/0.05% fees. Track arbitrage opportunities on this DEX perp platform.",
+    "keywords": [
+      "STX funding rate",
+      "dYdX perpetual futures",
+      "Stacks trading",
+      "DEX arbitrage",
+      "1 hour funding",
+      "Bitcoin ecosystem",
+      "Cosmos appchain",
+      "decentralized derivatives"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on dYdX offer unique funding rate arbitrage opportunities with 1-hour settlement intervals on the platform's Cosmos appchain. As a Bitcoin ecosystem token with moderate trading volume, STX typically exhibits funding rate patterns that reflect both Bitcoin's influence and its own Layer-2 developments.",
+    "how_funding_works": "dYdX calculates funding rates hourly using a time-weighted average premium between the perpetual contract and index price over the preceding hour. The funding exchange occurs every hour at the top of each hour, with rates typically ranging from -0.01% to 0.01% per hour. Long positions pay when rates are positive, while shorts pay when negative, creating regular arbitrage windows for sophisticated traders. The Cosmos appchain architecture ensures deterministic settlement without gas fee volatility affecting funding calculations.",
+    "why_this_pair": "STX's position as a Bitcoin Layer-2 solution creates distinctive funding rate behavior driven by both Bitcoin correlation and independent Stacks ecosystem developments. The mid-tier volume ensures reasonable liquidity while avoiding the extreme rate volatility seen in smaller pairs, making it suitable for consistent funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "STX/USDT funding rates on dYdX typically range from -0.005% to 0.008% per hour, with occasional spikes during Stacks network upgrade announcements or Bitcoin halving periods. The 1-hour intervals create more frequent arbitrage opportunities compared to 8-hour funding on centralized exchanges. Historical data shows STX funding rates tend to turn positive during Bitcoin bull runs when Layer-2 narrative strengthens, but remain more stable than pure DeFi tokens. The migration to Cosmos appchain has reduced the extreme rate volatility previously seen during network congestion periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between dYdX's hourly funding and CEX 8-hour cycles creates multiple daily opportunities, particularly when Stacks-specific news causes temporary rate divergence. The 0.02% maker fee structure allows profitable arbitrage when funding rate differentials exceed 0.04% per hour. Calendar arbitrage works well around Stacks upgrade dates when funding premiums typically increase 2-4 hours before announcements. Delta-neutral strategies benefit from STX's moderate volatility, allowing position sizing that captures funding without excessive hedging costs."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "dYdX's post-migration liquidity remains below pre-Cosmos levels, increasing slippage risk during volatile STX periods, particularly around Bitcoin network events. The 1-hour funding frequency requires active monitoring and automated systems to capture optimal entry/exit points without manual intervention. STX's correlation with Bitcoin (typically 0.6-0.8) means funding strategies must account for broader crypto market movements that can quickly shift rate dynamics. Smart contract risk on the Cosmos appchain, while minimal, adds a layer of technical risk not present in centralized platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are STX/USDT funding rates updated on dYdX?",
+        "answer": "Funding rates are calculated and applied every hour on the hour. The rate is determined by the time-weighted average premium over the previous 60 minutes, providing more frequent arbitrage opportunities than traditional 8-hour funding cycles."
+      },
+      {
+        "question": "What are typical funding rate ranges for STX perpetuals on dYdX?",
+        "answer": "STX funding rates typically range from -0.005% to 0.008% per hour under normal market conditions. During high volatility or Stacks ecosystem events, rates can spike to ±0.015% per hour, creating enhanced arbitrage opportunities."
+      },
+      {
+        "question": "How does dYdX's Cosmos migration affect STX funding rate calculations?",
+        "answer": "The Cosmos appchain provides more predictable funding settlements without Ethereum gas fee volatility affecting calculations. This has generally resulted in tighter bid-ask spreads and more consistent funding rate patterns compared to the previous StarkEx implementation."
+      },
+      {
+        "question": "What minimum position size is needed for profitable STX funding arbitrage on dYdX?",
+        "answer": "Given the 0.02%/0.05% fee structure, positions should typically exceed $5,000 to generate meaningful returns after fees. The 1-hour funding frequency allows smaller positions to be profitable through multiple daily cycles compared to longer funding periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "dot-usdt",
+    "mkr-usdt",
+    "fet-usdt",
+    "sui-usdt",
+    "jto-usdt"
+  ]
+}

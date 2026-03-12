@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rate on Vertex DEX - Arbitrage Guide",
+    "description": "Track FTM/USDT perpetual funding rates on Vertex DEX. Access 1-hour funding intervals, cross-margin trading, and low fees for optimal arbitrage strategies.",
+    "keywords": [
+      "vertex dex funding rate",
+      "ftm usdt perpetual",
+      "arbitrum defi arbitrage",
+      "fantom funding rate",
+      "cross margin trading",
+      "dex perpetual futures",
+      "vertex protocol"
+    ]
+  },
+  "content": {
+    "intro": "Vertex Protocol offers FTM/USDT perpetual futures with 1-hour funding intervals and cross-margin capabilities on Arbitrum. As a hybrid DEX combining on-chain risk management with off-chain sequencer speed, Vertex provides competitive 0.02%/0.03% trading fees for funding rate arbitrage strategies.",
+    "how_funding_works": "Vertex calculates funding rates hourly based on the premium between perpetual and spot prices, with payments exchanged between long and short positions. The protocol's on-chain risk engine ensures transparent rate calculations while the off-chain sequencer enables near-instant order execution. Cross-margin is enabled by default, allowing traders to use their entire account balance as collateral across all positions. Settlement occurs automatically through Vertex's smart contracts on Arbitrum.",
+    "why_this_pair": "FTM/USDT represents exposure to Fantom's Layer-1 ecosystem with moderate trading volume suitable for funding rate arbitrage. The pair often exhibits funding rate volatility during Fantom network updates or DeFi activity spikes on the ecosystem. Vertex's low taker fees and hourly funding intervals make it attractive for capturing short-term rate differentials against other exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FTM/USDT funding rates on Vertex typically range from -0.1% to 0.3% annually, with spikes during major Fantom announcements or broader altcoin rallies. The hourly settlement frequency means rates can shift more rapidly than traditional 8-hour cycles, creating opportunities for nimble arbitrageurs. Negative funding periods often coincide with broader market downturns when shorts outnumber longs. Weekend periods frequently show reduced volatility due to lower institutional activity on Arbitrum."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Vertex's competitive fee structure (0.02% maker, 0.03% taker) enables profitable arbitrage even on smaller funding rate differentials. The hybrid DEX model provides faster execution than pure on-chain protocols while maintaining decentralized settlement. Cross-margin functionality allows efficient capital allocation across multiple arbitrage positions simultaneously. Arbitrageurs can exploit rate differentials between Vertex and centralized exchanges, particularly during high volatility periods when funding rates diverge significantly."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "The off-chain sequencer introduces centralization risk, though funds remain secured by Arbitrum's on-chain contracts. Lower liquidity compared to major centralized exchanges may impact execution during volatile periods or large position sizes. Arbitrum network congestion can affect settlement times, though this is mitigated by Vertex's optimized infrastructure. Bridge risk exists when moving funds between Ethereum mainnet and Arbitrum for initial deposits. The relatively newer protocol status means less historical data for backtesting arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Vertex's 1-hour funding cycle benefit FTM arbitrage?",
+        "answer": "The hourly funding intervals allow more frequent capture of rate changes compared to 8-hour cycles on most exchanges. This is particularly valuable for FTM given its price volatility, enabling arbitrageurs to adjust positions more responsively to funding rate movements."
+      },
+      {
+        "question": "What are the minimum position sizes for FTM/USDT on Vertex?",
+        "answer": "Vertex typically supports fractional FTM positions with minimal size requirements, though exact minimums depend on current market conditions. The cross-margin system allows efficient use of smaller account sizes across multiple positions."
+      },
+      {
+        "question": "How does Vertex's hybrid model affect FTM funding rate accuracy?",
+        "answer": "The on-chain risk engine ensures funding rate calculations remain transparent and verifiable on Arbitrum. The off-chain sequencer only affects order matching speed, not the underlying funding rate methodology or settlement."
+      },
+      {
+        "question": "Can I access FTM/USDT funding rate data via Vertex API?",
+        "answer": "Vertex provides REST and WebSocket APIs for accessing real-time and historical funding rate data. This includes hourly funding payments, predicted rates, and position-level funding calculations for automated arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "link-usdt",
+    "bnb-usdt",
+    "fet-usdt",
+    "aave-usdt"
+  ]
+}

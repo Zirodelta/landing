@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "matic-usdt",
+    "base": "MATIC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MATIC/USDT Funding Rates on GMX - Arbitrage Guide",
+    "description": "Track GMX MATIC/USDT perpetual funding rates updated hourly. Oracle-based DEX offering unique arbitrage opportunities with GLP liquidity pools.",
+    "keywords": [
+      "GMX funding rates",
+      "MATIC perpetual futures",
+      "DEX arbitrage",
+      "GLP pools",
+      "Arbitrum trading",
+      "oracle-based perps",
+      "L2 funding arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers MATIC/USDT perpetuals on Arbitrum with hourly funding rate settlements, using Chainlink oracles for price discovery. The platform's unique GLP liquidity pool structure creates distinct funding rate dynamics compared to traditional order book exchanges.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the difference between perpetual and oracle prices, with rates applied to open positions. The platform uses a weighted average of Chainlink and other price feeds, creating potential arbitrage opportunities when oracle prices diverge from spot markets. Funding payments flow between long and short positions through the GLP pool, with the protocol taking no cut of funding fees.",
+    "why_this_pair": "MATIC perpetuals on GMX benefit from strong Polygon ecosystem correlation and Layer 2 narrative trading, often showing pronounced funding rate imbalances during network upgrade cycles. The pair's large volume and volatility create frequent arbitrage opportunities, particularly when Polygon-related news drives directional bias in positioning.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MATIC/USDT on GMX has shown funding rates ranging from -0.3% to +0.8% annually, with pronounced spikes during Polygon ecosystem events like zkEVM launches or major partnership announcements. The pair typically experiences negative funding (shorts paying longs) during broader crypto downturns, as MATIC's Layer 2 narrative attracts bearish sentiment. Funding rates often correlate with Ethereum network congestion, as higher gas fees increase demand for Polygon alternatives. Weekend periods frequently show reduced funding rate volatility due to lower institutional activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "GMX's oracle-based pricing creates arbitrage opportunities when MATIC spot prices on major exchanges diverge from Chainlink feeds, particularly during high volatility periods. The hourly funding settlement allows for precise timing of position entries to capture rate differentials. Cross-DEX arbitrage becomes profitable when GMX funding rates exceed ±0.1% hourly, accounting for gas costs on Arbitrum. The platform's 0.05% maker fees and 0.07% taker fees must be factored into arbitrage calculations, with break-even rates typically around 0.15% hourly."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency presents the primary risk, as Chainlink feed delays or manipulation could impact position valuations and funding calculations. GMX's price impact mechanism can cause significant slippage on large MATIC trades, particularly when GLP pool utilization is high. Smart contract risk exists despite the protocol's battle-tested nature since 2021, with potential vulnerabilities in the funding rate calculation mechanism. Arbitrum network congestion can delay position adjustments, creating timing risks for funding rate arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MATIC funding rates updated on GMX?",
+        "answer": "GMX updates funding rates hourly for all perpetual pairs including MATIC/USDT. The rates are calculated based on the premium/discount between the perpetual price and oracle price, with settlements occurring at the top of each hour."
+      },
+      {
+        "question": "What makes GMX funding rates different from CEX rates?",
+        "answer": "GMX uses oracle-based pricing rather than order book dynamics, creating funding rates based on oracle premium/discount. This can lead to different rate patterns compared to centralized exchanges that use mark-to-market pricing from their own order books."
+      },
+      {
+        "question": "Can I arbitrage MATIC funding rates between GMX and other exchanges?",
+        "answer": "Yes, but consider GMX's oracle pricing mechanism, Arbitrum gas costs, and the 0.05%-0.07% trading fees. Profitable arbitrage typically requires funding rate differentials exceeding 0.15% hourly to account for all costs and risks."
+      },
+      {
+        "question": "What are the main risks for MATIC funding arbitrage on GMX?",
+        "answer": "Key risks include oracle feed delays or manipulation, price impact on large trades due to GLP pool mechanics, smart contract vulnerabilities, and Arbitrum network congestion affecting position timing. Always monitor GLP utilization and oracle feed health."
+      }
+    ]
+  },
+  "related_pairs": [
+    "stx-usdt",
+    "xrp-usdt",
+    "ada-usdt",
+    "fet-usdt",
+    "fil-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rate on Aevo - Bitcoin Ecosystem Arbitrage",
+    "description": "Track STX/USDT perpetual funding rates on Aevo DEX. 1-hour intervals, rollup performance, and Bitcoin ecosystem token arbitrage opportunities.",
+    "keywords": [
+      "STX funding rate",
+      "Aevo perpetuals",
+      "Bitcoin ecosystem",
+      "Stacks arbitrage",
+      "DEX funding",
+      "rollup trading",
+      "1-hour funding",
+      "STX/USDT"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on Aevo offer hourly funding rate settlements for the Bitcoin layer-2 ecosystem token. Aevo's rollup architecture provides efficient execution for Stacks funding rate arbitrage strategies with reduced gas costs compared to mainnet DEXs.",
+    "how_funding_works": "Aevo calculates STX/USDT funding rates every hour based on the premium between perpetual and spot prices. The exchange uses an off-chain order book with on-chain settlement on its custom rollup, enabling sub-second order matching while maintaining decentralized custody. Funding payments are automatically settled between long and short positions, with rates typically ranging from -0.5% to +1.5% annually during normal market conditions.",
+    "why_this_pair": "STX represents the largest Bitcoin layer-2 ecosystem, creating unique funding dynamics tied to Bitcoin development sentiment and DeFi adoption on Stacks. The pair often exhibits elevated funding rates during Bitcoin upgrade cycles or when Stacks DeFi protocols gain traction, presenting arbitrage opportunities for traders monitoring Bitcoin ecosystem catalysts.",
+    "sections": [
+      {
+        "heading": "Historical STX Funding Rate Patterns",
+        "body": "STX funding rates on Aevo typically correlate with Bitcoin network upgrade announcements and Stacks ecosystem developments. During the Bitcoin Ordinals boom, STX perpetuals maintained consistently positive funding rates of 0.3-0.8% daily as speculation drove long bias. The hourly settlement frequency allows for more responsive rate adjustments compared to 8-hour systems, reducing extreme rate spikes. Volatility clustering around Stacks Improvement Proposals (SIPs) and major DeFi launches creates predictable funding rate patterns for systematic arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "STX funding rate arbitrage on Aevo benefits from the exchange's combined options and perpetuals markets, enabling delta-neutral strategies with multiple instruments. Cross-exchange arbitrage opportunities frequently arise between Aevo and centralized exchanges due to differing settlement frequencies and liquidity depths. The rollup's low transaction costs make smaller arbitrage positions economically viable, while the unified margin system allows efficient capital utilization across STX derivatives. Pre-launch token markets on Aevo sometimes create unique funding arbitrage setups when new Stacks ecosystem tokens are listed."
+      },
+      {
+        "heading": "Risk Factors and Rollup Considerations",
+        "body": "Aevo's rollup architecture introduces sequencer risk and potential withdrawal delays during network congestion or technical issues. STX perpetuals carry specific risks from Bitcoin network upgrades that might affect Stacks functionality and token demand. The exchange's smaller liquidity pool compared to major CEXs can result in wider bid-ask spreads and increased slippage during volatile periods. Funding rate arbitrageurs should monitor Aevo's validator set and rollup health metrics, as centralization concerns around the sequencer could impact withdrawal timing and position management during adverse market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's 1-hour funding interval affect STX arbitrage strategies?",
+        "answer": "The hourly settlement provides more frequent profit realization and reduces exposure to sudden rate changes that plague 8-hour systems. This allows for tighter risk management and more responsive positioning adjustments based on Stacks ecosystem developments."
+      },
+      {
+        "question": "What makes STX funding rates unique compared to other altcoin perpetuals on Aevo?",
+        "answer": "STX rates are heavily influenced by Bitcoin network developments and Stacks-specific catalysts like smart contract deployments and DeFi protocol launches. The correlation with Bitcoin sentiment creates distinct seasonal patterns not seen in other layer-1 tokens."
+      },
+      {
+        "question": "How reliable are withdrawals from Aevo during high STX volatility periods?",
+        "answer": "Aevo's rollup typically processes withdrawals within 1-4 hours under normal conditions, but may experience delays during extreme volatility or network stress. Arbitrageurs should maintain buffer positions and avoid over-leveraging near major Stacks announcements."
+      },
+      {
+        "question": "Can I combine STX perpetuals with Aevo's options markets for enhanced arbitrage?",
+        "answer": "Yes, Aevo's unified margin system allows sophisticated strategies combining STX perpetuals with options for volatility arbitrage and enhanced delta hedging. The combined product suite enables more capital-efficient strategies than perpetuals-only platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "sol-usdt",
+    "ena-usdt",
+    "apt-usdt",
+    "xrp-usdt"
+  ]
+}

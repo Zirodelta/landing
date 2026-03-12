@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rates on Aevo - Hourly Arbitrage Guide",
+    "description": "Track NEAR/USDT perpetual funding rates on Aevo DEX. Hourly settlements, rollup performance, and arbitrage strategies for NEAR Protocol futures.",
+    "keywords": [
+      "NEAR funding rates",
+      "Aevo perpetuals",
+      "DEX arbitrage",
+      "NEAR USDT futures",
+      "rollup trading",
+      "hourly funding",
+      "options arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the platform's custom rollup infrastructure and hourly settlement cycles. As a Layer 1 protocol token with moderate trading volume, NEAR exhibits funding rate patterns that can be exploited by sophisticated traders familiar with Aevo's hybrid derivatives platform.",
+    "how_funding_works": "Aevo calculates NEAR/USDT funding rates hourly using its off-chain order book system with on-chain settlement via its dedicated rollup. The funding rate is determined by the 8-hour TWAP of the premium between the perpetual price and the mark price derived from multiple spot exchanges. Funding payments occur every hour, with long positions paying when rates are positive and receiving when negative. Aevo's rollup architecture enables faster funding calculations and settlements compared to traditional L1 DEXs, though the centralized sequencer introduces operational dependencies.",
+    "why_this_pair": "NEAR/USDT on Aevo presents compelling funding arbitrage opportunities due to NEAR's moderate volatility and the platform's options market influence on perpetual pricing. The combination of pre-launch token exposure and established NEAR markets creates pricing inefficiencies that can generate consistent funding rate premiums. Aevo's integrated options and perpetuals environment allows for complex delta-neutral strategies that traditional perp-only exchanges cannot support.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on Aevo typically range from -0.05% to 0.15% hourly, with higher volatility during protocol updates and ecosystem developments. The token's correlation with broader Layer 1 sentiment creates predictable funding spikes during alt-season rallies and developer activity announcements. Aevo's options market activity often precedes funding rate movements, as traders hedge perpetual positions with call/put spreads. The hourly settlement frequency means funding costs compound faster than 8-hour cycles, making timing crucial for profitable arbitrage entries."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Profitable NEAR funding arbitrage on Aevo emerges when rates exceed 0.08% hourly (70% APR), particularly during NEAR ecosystem catalysts or technical breakouts. The optimal strategy involves taking opposite positions on Aevo versus traditional exchanges like Binance or Bybit, capturing the funding differential while hedging spot exposure. Aevo's rollup reduces gas costs for frequent position adjustments, though liquidity constraints require careful sizing to avoid slippage. Pre-launch NEAR derivatives on Aevo can create extreme funding premiums that experienced arbitrageurs exploit before mainstream adoption."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "NEAR funding arbitrage on Aevo carries specific risks including rollup centralization, where sequencer downtime could prevent position management during volatile periods. The platform's smaller liquidity pool means large funding arbitrage positions may face execution challenges during rapid market movements. Counter-party risk exists through Aevo's insurance fund, which may be insufficient during extreme NEAR price movements or platform-wide liquidations. Traders must also consider the complexity of managing both options and perpetual exposures simultaneously, as Aevo's unified margin system can create unexpected liquidation scenarios."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding frequency affect NEAR arbitrage profitability?",
+        "answer": "Hourly funding on Aevo creates 3x more settlement opportunities than standard 8-hour cycles, allowing faster capital turnover for NEAR arbitrage. However, funding rates are proportionally smaller per payment, requiring higher precision in timing and larger position sizes to achieve meaningful profits."
+      },
+      {
+        "question": "What makes NEAR/USDT funding rates unique on Aevo compared to CEXs?",
+        "answer": "Aevo's integrated options market influences NEAR perpetual pricing through complex derivatives flows that don't exist on pure perpetual exchanges. This creates funding rate premiums when options market makers hedge positions, particularly around NEAR ecosystem events or protocol upgrades."
+      },
+      {
+        "question": "How does Aevo's rollup architecture impact NEAR funding arbitrage execution?",
+        "answer": "The dedicated rollup enables faster trade execution and lower transaction costs for frequent position adjustments in NEAR arbitrage strategies. However, rollup centralization means traders depend on Aevo's sequencer uptime and cannot exit positions if the rollup experiences technical issues."
+      },
+      {
+        "question": "What position sizing considerations apply to NEAR funding arbitrage on Aevo?",
+        "answer": "Aevo's moderate NEAR liquidity requires careful position sizing to avoid market impact when entering or exiting arbitrage trades. Positions should typically not exceed 5-10% of recent hourly volume, and traders must consider both perpetual and spot market depth when hedging on external exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "atom-usdt",
+    "imx-usdt",
+    "meme-usdt",
+    "blur-usdt"
+  ]
+}

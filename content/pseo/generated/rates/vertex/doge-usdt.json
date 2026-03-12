@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOGE/USDT Funding Rates on Vertex DEX - Arbitrage Guide",
+    "description": "Track DOGE/USDT perpetual funding rates on Vertex DEX. Explore arbitrage opportunities with 1-hour funding cycles and ultra-low 0.02% maker fees.",
+    "keywords": [
+      "DOGE funding rates",
+      "Vertex DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "DOGE/USDT",
+      "Arbitrum DEX",
+      "meme coin futures",
+      "cross-margin trading"
+    ]
+  },
+  "content": {
+    "intro": "DOGE/USDT perpetual futures on Vertex DEX offer unique funding rate arbitrage opportunities through the platform's hybrid architecture on Arbitrum. With 1-hour funding cycles and ultra-low maker fees of 0.02%, Vertex provides cost-efficient access to DOGE perpetual positions for rate harvesting strategies.",
+    "how_funding_works": "Vertex calculates DOGE/USDT funding rates hourly based on the premium between perpetual and spot prices, with payments occurring every hour at minute 00. The platform's off-chain sequencer enables real-time rate updates while the on-chain risk engine ensures settlement integrity. Cross-margin by default allows efficient capital utilization across positions. Funding payments are automatically debited or credited to your cross-margin balance without requiring manual intervention.",
+    "why_this_pair": "DOGE/USDT on Vertex exhibits significant funding rate volatility due to meme coin sentiment swings and retail trader positioning bias. The pair's large volume and active perpetual market create frequent arbitrage windows, especially during social media-driven price movements. Vertex's low fees make small rate differentials profitable for systematic strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE/USDT funding rates on Vertex typically range from -0.5% to +2% in 8-hour equivalent terms, with extreme spikes during viral social media events or major market movements. Rates tend to be positive during retail FOMO phases as long positions dominate, creating opportunities for short-side rate collection. Weekend periods often show reduced volatility but can experience sudden spikes due to lower liquidity. The 1-hour funding frequency provides more granular rate capture compared to traditional 8-hour cycles on centralized exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "Cross-exchange arbitrage between Vertex and CEXs like Binance or Bybit can be profitable when rate differentials exceed transaction costs plus slippage. Vertex's 0.02% maker fees enable profitable arbitrage on rate differentials as small as 0.1% daily. The platform's cross-margin system allows hedging spot DOGE positions against perpetual shorts to capture negative funding without directional risk. Real-time monitoring of social sentiment and CEX funding rates helps identify optimal entry points for rate arbitrage positions."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "Vertex's sequencer centralization poses operational risk, though the on-chain risk engine provides settlement guarantees. Arbitrum network congestion can affect position management during high volatility periods, requiring buffer capital for delayed transactions. DOGE's high volatility can lead to rapid PnL swings that may offset funding gains if hedging is imperfect. Liquidity concentration risk exists as Vertex has lower market depth compared to major CEXs, potentially causing slippage on large positions during stress periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are DOGE/USDT funding rates updated on Vertex?",
+        "answer": "Funding rates are calculated and paid every hour on Vertex. The rate updates continuously based on the perpetual-spot premium, with payments processed automatically at the top of each hour."
+      },
+      {
+        "question": "What are the minimum position sizes for DOGE/USDT funding rate strategies?",
+        "answer": "Vertex allows fractional DOGE positions with no explicit minimum, but economic viability for funding strategies typically requires positions above $100 due to the 0.02-0.03% fee structure and gas costs on Arbitrum."
+      },
+      {
+        "question": "Can I hedge DOGE spot positions with Vertex perpetuals for funding arbitrage?",
+        "answer": "Yes, you can hold spot DOGE and short DOGE/USDT perpetuals on Vertex to create a delta-neutral position that captures funding payments. The cross-margin system automatically manages collateral across positions."
+      },
+      {
+        "question": "How does Vertex's funding rate compare to centralized exchanges for DOGE/USDT?",
+        "answer": "Vertex rates often diverge from CEX rates due to different user bases and liquidity profiles. The 1-hour frequency provides more opportunities but requires active monitoring compared to 8-hour CEX cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "meme-usdt",
+    "inj-usdt",
+    "blur-usdt",
+    "ordi-usdt",
+    "btc-usdt"
+  ]
+}

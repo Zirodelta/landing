@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bnb-usdt",
+    "base": "BNB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BNB/USDT Funding Rates on GMX - DEX Perpetual Arbitrage",
+    "description": "Track BNB/USDT perpetual funding rates on GMX DEX. Analyze hourly oracle-based rates, arbitrage opportunities, and GLP liquidity dynamics for optimal trading.",
+    "keywords": [
+      "GMX funding rates",
+      "BNB USDT perpetual",
+      "DEX arbitrage",
+      "oracle funding",
+      "GLP liquidity",
+      "Arbitrum perps",
+      "hourly funding",
+      "decentralized perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "GMX's BNB/USDT perpetual futures offer unique funding rate dynamics through oracle-based pricing and hourly settlements. As Arbitrum's leading perpetual DEX, GMX uses GLP liquidity pools instead of order books, creating distinct arbitrage opportunities. The hourly funding mechanism provides more frequent rate adjustments compared to traditional 8-hour cycles.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the premium/discount between perpetual price and oracle price from Chainlink feeds. Long positions pay funding when perpetual trades above oracle price, while shorts pay when below. The funding payment transfers directly between traders without exchange involvement, with rates capped at ±0.05% per hour. GMX's oracle dependency eliminates traditional funding rate manipulation through order book pressure.",
+    "why_this_pair": "BNB/USDT represents significant cross-chain arbitrage potential as BNB's native BSC ecosystem often shows price divergence from Arbitrum markets. High trading volume and established liquidity make this pair suitable for larger funding rate arbitrage strategies. The major altcoin status ensures consistent interest rate differentials during market volatility periods.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "BNB/USDT funding rates on GMX typically range from -0.01% to +0.03% hourly during normal market conditions. Bull markets often show sustained positive rates as retail demand drives long bias, while major corrections can flip rates negative for extended periods. The hourly settlement creates more granular rate discovery compared to 8-hour systems. Correlation with BSC network activity and BNB utility demand often influences funding direction. Peak rates commonly occur during Binance ecosystem events or major announcements affecting BNB adoption."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage works best when GMX rates diverge significantly from Binance, OKX, or Bybit funding rates for BNB perpetuals. The hourly settlement allows for shorter-term arbitrage holds compared to 8-hour funding cycles elsewhere. GLP liquidity dynamics can create temporary premium/discount windows for rate arbitrage entry. Oracle lag during volatile periods occasionally creates brief mispricing opportunities. Consider gas costs on Arbitrum when calculating net arbitrage returns, though they remain relatively low."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency creates tail risk if Chainlink feeds experience delays or manipulation, potentially causing unexpected funding payments. GMX's 0.05-0.07% trading fees are higher than centralized exchanges, impacting arbitrage profitability margins. Price impact on large trades can be significant during low GLP liquidity periods, especially for position sizes exceeding $100K. Smart contract risk exists despite GMX's battle-tested protocol since 2021. Cross-chain bridge risks apply when arbitraging between GMX and BSC-based exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does GMX settle BNB/USDT funding payments?",
+        "answer": "GMX settles funding payments hourly for BNB/USDT perpetuals, providing more frequent rate adjustments than the industry standard 8-hour cycle. This allows for shorter-term arbitrage strategies and more responsive rate discovery."
+      },
+      {
+        "question": "What determines funding rates for BNB/USDT on GMX?",
+        "answer": "Funding rates are based on the price differential between the perpetual contract and Chainlink oracle price feeds. When the perpetual trades above oracle price, longs pay funding to shorts, and vice versa."
+      },
+      {
+        "question": "Can I arbitrage BNB funding rates between GMX and centralized exchanges?",
+        "answer": "Yes, cross-exchange arbitrage is possible by taking opposite positions when funding rate differentials exceed transaction costs. Consider GMX's higher fees, gas costs, and the hourly vs 8-hour settlement timing differences."
+      },
+      {
+        "question": "What are the risks of oracle-based funding on GMX?",
+        "answer": "Oracle dependency creates risks if Chainlink feeds experience delays, manipulation, or outages, potentially causing unexpected funding payments. However, GMX has operated reliably since 2021 with robust oracle infrastructure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pyth-usdt",
+    "pepe-usdt",
+    "ada-usdt",
+    "dot-usdt",
+    "mkr-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Funding Rates on Aevo - Gaming Token Arbitrage",
+    "description": "Track IMX/USDT perpetual funding rates on Aevo DEX. Hourly funding settlements, gaming sector volatility, and arbitrage opportunities on rollup infrastructure.",
+    "keywords": [
+      "IMX funding rates",
+      "Aevo DEX",
+      "gaming token perpetuals",
+      "IMX arbitrage",
+      "Aevo funding",
+      "gaming perps",
+      "rollup trading",
+      "IMX futures"
+    ]
+  },
+  "content": {
+    "intro": "IMX/USDT perpetual futures on Aevo offer hourly funding rate opportunities in the gaming sector. Aevo's rollup infrastructure provides efficient settlement for this gaming token with moderate trading volume and volatility patterns typical of ecosystem tokens.",
+    "how_funding_works": "Aevo calculates IMX/USDT funding rates hourly using mark price versus index price differentials. The rollup's off-chain order book aggregates pricing data while maintaining on-chain settlement integrity. Funding payments occur automatically every hour, with rates typically ranging from -0.1% to +0.3% based on long/short positioning imbalances. Aevo's combined options and perpetuals platform can create unique funding dynamics when IMX options activity influences perp positioning.",
+    "why_this_pair": "IMX represents Immutable X, a major gaming-focused Layer 2 platform, making it sensitive to gaming sector sentiment and NFT market cycles. The token's connection to GameStop partnerships and Web3 gaming adoption creates distinct volatility patterns that affect funding rates. Gaming tokens often exhibit higher funding rate volatility during sector rotations, providing arbitrage opportunities for traders monitoring ecosystem developments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "IMX/USDT funding rates on Aevo have shown correlation with gaming sector momentum and broader NFT market cycles. During gaming sector rallies, funding rates typically skew positive (+0.1% to +0.3%) as retail sentiment drives long positioning. Conversely, during market-wide corrections, gaming tokens often experience negative funding (-0.05% to -0.15%) as leveraged positions unwind. The hourly settlement frequency on Aevo allows for more granular arbitrage opportunities compared to 8-hour funding cycles on other exchanges. Gaming token funding patterns often diverge from major assets due to lower institutional participation and higher retail sentiment influence."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's rollup infrastructure enables efficient funding rate arbitrage for IMX/USDT through reduced gas costs and faster settlement. The combination of options and perpetuals markets creates unique arbitrage scenarios when implied volatility diverges from realized volatility. Traders can exploit funding rate differentials by hedging IMX spot positions against perpetual futures, particularly during gaming sector events or partnership announcements. The 0.02%/0.05% maker/taker fee structure requires funding rates above 0.1% to generate meaningful net returns after transaction costs. Cross-exchange arbitrage opportunities frequently emerge when Aevo's funding rates deviate significantly from centralized exchanges due to liquidity differences."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading IMX/USDT on Aevo involves rollup-specific risks including potential sequencer downtime and withdrawal delays during network congestion. The smaller liquidity pool compared to tier-1 exchanges increases slippage risk during large position adjustments. Gaming token volatility can create rapid funding rate changes that may not fully capture underlying risk, particularly during sector-wide derisking events. Aevo's complex product set requires understanding of options-perpetual interactions that can amplify funding rate volatility. Traders should monitor IMX's gaming sector correlation and ecosystem development risks that can create sudden liquidity shifts and funding rate spikes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are IMX/USDT funding rates updated on Aevo?",
+        "answer": "Funding rates are calculated and settled every hour on Aevo. The rate is determined by the 1-hour time-weighted average of the premium between mark price and index price. This hourly frequency provides more arbitrage opportunities compared to traditional 8-hour cycles."
+      },
+      {
+        "question": "What makes IMX funding rates different from other gaming tokens on Aevo?",
+        "answer": "IMX funding rates reflect the token's unique position as a Layer 2 gaming infrastructure play rather than a pure gaming token. This creates correlation with both gaming sector sentiment and Ethereum scaling narratives. The rates often exhibit lower volatility than speculative gaming tokens but higher sensitivity to partnership announcements."
+      },
+      {
+        "question": "Can I hedge IMX spot positions using Aevo's perpetual futures?",
+        "answer": "Yes, Aevo's rollup infrastructure makes IMX spot hedging efficient through reduced transaction costs. The platform's options market also provides additional hedging mechanisms. However, monitor the liquidity depth as IMX has moderate volume that may impact large hedge position execution."
+      },
+      {
+        "question": "What are the main risks when trading IMX funding rates on Aevo?",
+        "answer": "Key risks include rollup infrastructure dependencies, lower liquidity compared to centralized exchanges, and gaming sector volatility that can create rapid rate changes. Additionally, Aevo's complex options-perpetual ecosystem can amplify funding rate movements during high volatility periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jto-usdt",
+    "floki-usdt",
+    "sui-usdt",
+    "pendle-usdt",
+    "pepe-usdt"
+  ]
+}

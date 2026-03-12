@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on Aevo - AI Token Arbitrage",
+    "description": "Track FET/USDT funding rates on Aevo DEX. Analyze AI token funding arbitrage opportunities with hourly settlements and rollup-native performance.",
+    "keywords": [
+      "fet funding rates",
+      "aevo arbitrage",
+      "ai token futures",
+      "dex perpetuals",
+      "fet usdt funding",
+      "rollup derivatives",
+      "hourly funding",
+      "aevo fet"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on Aevo offer unique funding arbitrage opportunities in the AI token sector with hourly funding settlements. As one of the leading AI infrastructure tokens, FET exhibits distinct funding rate patterns driven by AI market sentiment and the broader machine learning narrative.",
+    "how_funding_works": "Aevo calculates FET/USDT funding rates hourly based on the premium between perpetual and spot prices, settling every hour compared to the standard 8-hour cycles on most exchanges. The exchange's rollup-native architecture enables precise premium tracking with minimal latency, while the off-chain order book provides efficient price discovery for funding rate calculations. Funding payments are automatically debited or credited to positions based on the rate direction and position size.",
+    "why_this_pair": "FET's strong correlation with AI market cycles creates pronounced funding rate volatility, making it attractive for arbitrage strategies. The token's mid-tier trading volume on Aevo provides sufficient liquidity for funding arbitrage while maintaining predictable rate patterns during AI sector momentum shifts.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET/USDT funding rates on Aevo typically range from -0.05% to +0.15% hourly during normal market conditions, with extreme spikes reaching ±0.3% during AI narrative-driven rallies. The hourly settlement cycle creates more frequent rate adjustments compared to traditional 8-hour funding, allowing for quicker arbitrage capture during volatile periods. Historical data shows FET funding rates tend to remain positive during broader AI sector uptrends, reflecting consistent long bias from retail traders following machine learning developments. Rate volatility increases significantly during major AI announcements or partnerships involving Fetch.ai's autonomous agent ecosystem."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The combination of Aevo's hourly funding settlements and FET's AI sector volatility creates multiple daily arbitrage windows for experienced traders. Cross-exchange arbitrage opportunities emerge when Aevo's FET funding rates diverge from Binance or OKX rates by more than 0.02%, factoring in Aevo's 0.02%/0.05% trading fees. Delta-neutral strategies work particularly well during AI sector news cycles when funding rates spike but underlying price movement remains range-bound. Aevo's rollup infrastructure allows for faster position adjustments compared to mainnet DEXs, enabling more responsive funding arbitrage execution."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller liquidity pool for FET/USDT compared to centralized exchanges increases slippage risk during large arbitrage position sizing, particularly above $50K notional. The rollup's relative centralization presents bridge risk and potential downtime during system upgrades, which could trap arbitrage positions during critical funding periods. FET's AI sector correlation means funding rates can remain persistently skewed during extended narrative cycles, creating carry costs for contrarian arbitrage positions. Market makers on Aevo may adjust spreads during high volatility, impacting the profitability of rapid funding arbitrage strategies that rely on tight bid-ask spreads."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FET funding rates updated on Aevo?",
+        "answer": "Aevo calculates and settles FET/USDT funding rates every hour, providing 24 funding periods per day compared to the standard 3 periods on most exchanges. This creates more frequent arbitrage opportunities but requires active position management."
+      },
+      {
+        "question": "What's the typical funding rate range for FET on Aevo?",
+        "answer": "FET funding rates on Aevo typically range from -0.05% to +0.15% per hour during normal conditions, with spikes up to ±0.3% during AI sector volatility. The hourly settlement means these rates compound 24 times daily rather than the standard 8 times."
+      },
+      {
+        "question": "How does Aevo's rollup affect FET arbitrage execution?",
+        "answer": "Aevo's dedicated rollup provides faster settlement and lower gas costs for FET position management compared to mainnet DEXs. However, bridge deposits/withdrawals to the rollup can take 10-15 minutes, requiring advance capital planning for time-sensitive arbitrage opportunities."
+      },
+      {
+        "question": "What minimum position size is needed for profitable FET funding arbitrage on Aevo?",
+        "answer": "Given Aevo's 0.02%/0.05% trading fees and typical FET funding rates of 0.05-0.10% hourly, positions above $10,000 notional generally provide sufficient profit margins. Smaller positions may struggle to overcome trading costs and potential slippage in Aevo's developing FET liquidity pool."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "sui-usdt",
+    "rune-usdt",
+    "bonk-usdt",
+    "inj-usdt"
+  ]
+}

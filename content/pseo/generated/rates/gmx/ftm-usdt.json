@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rates on GMX - Arbitrage Guide",
+    "description": "Track FTM/USDT perpetual funding rates on GMX DEX. Oracle-based trading with hourly funding payments on Arbitrum. Expert arbitrage analysis included.",
+    "keywords": [
+      "FTM funding rates",
+      "GMX perpetuals",
+      "Fantom arbitrage",
+      "DEX funding",
+      "Arbitrum trading",
+      "oracle-based futures",
+      "GLP liquidity",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "FTM/USDT perpetual futures on GMX offer unique funding rate opportunities through the platform's oracle-based pricing mechanism. As a decentralized exchange on Arbitrum, GMX provides hourly funding payments backed by GLP liquidity pools rather than traditional order books.",
+    "how_funding_works": "GMX calculates funding rates every hour based on the difference between perpetual and oracle prices, with payments occurring automatically. The platform uses Chainlink price feeds to determine fair value, making funding rates less susceptible to manipulation compared to order book exchanges. Funding is exchanged directly between long and short positions within the GLP pool, with the protocol taking no cut from these payments.",
+    "why_this_pair": "FTM/USDT presents compelling arbitrage opportunities due to Fantom's correlation with broader DeFi trends and moderate trading volume. The pair often experiences sustained funding rate imbalances during Fantom ecosystem developments or DeFi sector rotations, creating profitable carry trade setups for patient arbitrageurs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FTM/USDT funding rates on GMX typically range from -0.1% to +0.3% annually, with notable spikes during Fantom protocol launches or DeFi summer periods. The oracle-based mechanism tends to produce more stable rates than order book exchanges, though extreme market conditions can push hourly rates beyond ±0.01%. Extended periods of positive funding often coincide with Fantom DApp launches or cross-chain bridge activity, while negative rates emerge during broader L1 token selloffs."
+      },
+      {
+        "heading": "Arbitrage Strategy Considerations",
+        "body": "Successful FTM funding arbitrage on GMX requires monitoring both the perpetual position and potential spot hedge execution costs across multiple chains. The 0.05% opening fee and 0.07% closing fee must be factored into minimum profitable funding thresholds, typically requiring rates above 0.02% hourly for short-term plays. Cross-exchange arbitrage with centralized platforms can be profitable when GMX funding diverges significantly from CEX rates, though Arbitrum bridging costs and timing must be considered."
+      },
+      {
+        "heading": "Risk Management Framework",
+        "body": "Oracle dependency represents the primary risk for FTM positions on GMX, as Chainlink feed delays or manipulation could trigger unexpected liquidations. Position sizing should account for GMX's dynamic borrowing fees, which increase with pool utilization and can erode funding profits during high-demand periods. The platform's maximum leverage limits and lack of isolated margin require careful capital allocation, especially when hedging funding positions across multiple exchanges or chains."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FTM/USDT funding payments made on GMX?",
+        "answer": "GMX pays funding every hour automatically, unlike most exchanges that use 8-hour intervals. This creates more frequent but smaller payment amounts, allowing for more precise funding rate arbitrage strategies."
+      },
+      {
+        "question": "Can I hedge FTM perpetual positions with spot tokens on other chains?",
+        "answer": "Yes, but factor in Arbitrum bridge costs and timing when hedging FTM perpetuals with spot FTM on Fantom or other chains. Cross-chain arbitrage opportunities exist but require careful cost analysis including gas fees and bridge delays."
+      },
+      {
+        "question": "What makes GMX funding rates different from centralized exchanges?",
+        "answer": "GMX uses oracle prices rather than order book dynamics to calculate funding, often resulting in different rates than CEXs. The GLP pool structure and hourly payments create unique arbitrage opportunities compared to traditional 8-hour funding cycles."
+      },
+      {
+        "question": "How do GMX's borrowing fees affect FTM funding arbitrage?",
+        "answer": "Borrowing fees on GMX increase with pool utilization and are charged hourly separate from funding rates. During high demand periods, these fees can exceed funding income, making it crucial to monitor pool utilization metrics before opening positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "ton-usdt",
+    "sei-usdt",
+    "fil-usdt",
+    "doge-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ton-usdt",
+    "base": "TON",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TON/USDT Funding Rate Arbitrage on GMX - Oracle DEX Guide",
+    "description": "Trade TON/USDT perpetuals on GMX with hourly funding payments. Oracle-based pricing on Arbitrum with GLP liquidity pools for funding rate arbitrage strategies.",
+    "keywords": [
+      "TON funding rate",
+      "GMX perpetuals",
+      "oracle DEX arbitrage",
+      "GLP liquidity",
+      "Arbitrum perps",
+      "hourly funding",
+      "TON USDT",
+      "DEX funding rates"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers TON/USDT perpetual futures with hourly funding rate settlements, utilizing oracle-based pricing and deep GLP liquidity pools on Arbitrum. The platform's unique architecture eliminates traditional order book dynamics, creating distinct funding rate patterns driven by open interest imbalances against the GLP pool.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the difference between perpetual price and oracle price, with rates applied to open positions every hour. Long positions pay funding when the perpetual trades above oracle price, while shorts pay when below. The funding mechanism helps maintain price convergence between the perpetual and spot oracle feeds. Unlike traditional exchanges, GMX's funding rates can be more volatile due to the oracle-based system and concentrated liquidity provision through GLP tokens.",
+    "why_this_pair": "TON/USDT on GMX presents compelling arbitrage opportunities due to TON's high volatility and GMX's oracle-dependent pricing mechanism. The hourly funding frequency provides more granular arbitrage windows compared to 8-hour cycles on centralized exchanges. Large TON price movements often create temporary divergences between GMX oracle prices and spot market rates, generating profitable funding rate discrepancies for sophisticated arbitrageurs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TON/USDT funding rates on GMX have shown significant volatility during major TON ecosystem developments and broader crypto market movements. Rates frequently spike above 2% annually during strong uptrends as long bias accumulates against GLP pools. Weekend periods often see reduced funding volatility due to lower trading activity, while Asian trading hours typically generate the highest rate fluctuations. The oracle-based pricing can create brief but profitable rate anomalies during high volatility periods when traditional exchanges lag behind spot price movements."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "GMX's hourly funding cycles create micro-arbitrage windows when funding rates diverge from other exchanges trading TON perpetuals. Traders can exploit rate differentials by maintaining opposite positions across GMX and centralized exchanges like Binance or OKX. The oracle-based pricing system occasionally produces funding rate premiums during rapid price movements, as the system adjusts to maintain peg with spot oracles. Advanced strategies involve monitoring GLP pool utilization and open interest skew to predict funding rate direction changes before they occur."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Oracle dependency represents the primary risk for TON/USDT funding arbitrage on GMX, as oracle failures or delays can cause unexpected price gaps and funding calculations. The 0.05%-0.07% trading fees are higher than most centralized exchanges, requiring careful calculation of net arbitrage profits after fee expenses. Price impact on large trades can be significant due to GLP pool mechanics, making position sizing critical for maintaining profitability. Traders must also consider Arbitrum network congestion during high volatility periods, which can affect position management and exit timing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does GMX's oracle-based funding differ from orderbook exchanges?",
+        "answer": "GMX uses oracle prices rather than orderbook dynamics to calculate funding rates, creating different arbitrage patterns. The hourly funding cycle and oracle dependency can generate unique rate discrepancies compared to traditional 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "question": "What makes TON funding rates particularly volatile on GMX?",
+        "answer": "TON's inherent volatility combined with GMX's oracle-based pricing creates amplified funding rate swings. Large price movements can cause temporary divergences between oracle feeds and actual market prices, resulting in higher funding rate volatility than more stable assets."
+      },
+      {
+        "question": "How do GLP pools affect TON/USDT funding rate arbitrage?",
+        "answer": "GLP pool composition and utilization directly impact funding rates as traders essentially trade against the pool. High GLP utilization in one direction can skew funding rates, while pool rebalancing activities can create temporary arbitrage opportunities for alert traders."
+      },
+      {
+        "question": "What are the optimal position sizes for TON funding arbitrage on GMX?",
+        "answer": "Position sizes should account for GMX's higher fees and price impact mechanics. Generally, smaller frequent positions work better than large infrequent trades due to the platform's pool-based liquidity model and hourly funding frequency enabling more frequent profit realization."
+      }
+    ]
+  },
+  "related_pairs": [
+    "eth-usdt",
+    "fil-usdt",
+    "meme-usdt",
+    "blur-usdt",
+    "ftm-usdt"
+  ]
+}

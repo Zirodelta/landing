@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX BTC/USDT Funding Rate - DEX Perpetual Arbitrage",
+    "description": "GMX BTC/USDT perpetual funding rates update hourly. Oracle-based DEX on Arbitrum with GLP liquidity pools. Track funding arbitrage opportunities.",
+    "keywords": [
+      "GMX funding rate",
+      "BTC USDT perpetual",
+      "DEX arbitrage",
+      "Arbitrum trading",
+      "GLP liquidity",
+      "oracle perpetual",
+      "hourly funding",
+      "decentralized futures"
+    ]
+  },
+  "content": {
+    "intro": "GMX operates a unique oracle-based perpetual system for BTC/USDT where funding rates adjust hourly based on position imbalances. Unlike traditional order book exchanges, GMX uses Chainlink oracles for pricing and GLP/GM pools as counterparties to traders.",
+    "how_funding_works": "GMX calculates funding rates every hour based on the utilization of long versus short positions in the GLP/GM liquidity pools. When longs exceed shorts, long positions pay funding to the pool (and short positions receive it). The rate is derived from position imbalance rather than premium to spot prices. Maximum funding rates are capped to prevent extreme scenarios, typically around 0.01% per hour.",
+    "why_this_pair": "BTC/USDT on GMX represents the platform's most liquid perpetual market with consistent trading volume. The pair benefits from GMX's deep GLP liquidity and tends to have more stable funding rates compared to smaller cap tokens. The hourly funding frequency creates more arbitrage opportunities versus exchanges with 8-hour cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "GMX BTC/USDT funding rates typically range from -0.005% to +0.005% per hour during normal market conditions. Bull markets often see sustained positive funding as retail traders favor long positions, while bear markets can produce negative rates. The hourly reset mechanism prevents extreme rate accumulation seen on other platforms. Funding tends to be more volatile during major Bitcoin news events or when large positions are opened against the GLP pool."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The hourly funding cycle creates arbitrage potential against exchanges using 8-hour funding like Binance or Bybit. Traders can exploit rate differentials by going long on GMX when rates are negative while shorting on competing exchanges with positive rates. GMX's oracle-based pricing can also create temporary arbitrage opportunities when the oracle price diverges from spot market prices. The key advantage is accessing decentralized liquidity without KYC requirements for arbitrage strategies."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency represents the primary risk, as Chainlink price feeds could lag during extreme volatility or face manipulation attempts. The GLP pool acts as counterparty, meaning traders face pool liquidity risk rather than individual counterparty risk. Price impact becomes significant for large trades due to the pool-based model versus order book depth. Smart contract risk exists despite GMX's battle-tested track record since 2021, and Arbitrum network congestion could affect position management during high volatility periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do GMX BTC/USDT funding rates update?",
+        "answer": "GMX updates funding rates every hour based on long/short position imbalances in the GLP/GM pools. This hourly frequency is more frequent than most centralized exchanges which use 8-hour cycles."
+      },
+      {
+        "question": "What determines GMX funding rates for BTC/USDT?",
+        "answer": "Funding rates are calculated based on utilization imbalances between long and short positions against the GLP liquidity pool. When longs dominate, they pay funding to shorts and the pool. The rate depends on position skew rather than premium to index price."
+      },
+      {
+        "question": "Can I arbitrage GMX BTC funding rates against CEXs?",
+        "answer": "Yes, the hourly funding cycle creates opportunities to arbitrage against exchanges with different funding frequencies or rates. You can go long on GMX when rates are negative while shorting on exchanges with positive rates, capturing the differential."
+      },
+      {
+        "question": "What are the main risks trading BTC perpetuals on GMX?",
+        "answer": "Key risks include oracle dependency on Chainlink price feeds, smart contract risk, and price impact for large trades due to the pool-based liquidity model. Unlike order book exchanges, you trade against the GLP pool rather than other traders."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jto-usdt",
+    "pyth-usdt",
+    "floki-usdt",
+    "near-usdt",
+    "tia-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "inj-usdt",
+    "base": "INJ",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "INJ/USDT Funding Rate on Aevo - DEX Perpetual Arbitrage",
+    "description": "Track INJ/USDT funding rates on Aevo DEX. Analyze hourly funding patterns, rollup performance impact, and arbitrage opportunities on this options+perps platform.",
+    "keywords": [
+      "aevo funding rate",
+      "inj usdt perpetual",
+      "dex arbitrage",
+      "rollup perps",
+      "hourly funding",
+      "injective protocol",
+      "aevo options",
+      "l1 token funding"
+    ]
+  },
+  "content": {
+    "intro": "INJ/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the platform's hourly funding mechanism. As a DEX built on its own rollup with combined options and perpetuals markets, Aevo provides distinct funding dynamics compared to centralized exchanges.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the premium between perpetual and mark prices, with payments occurring every hour on the hour. The rollup architecture enables faster settlement while maintaining on-chain transparency for funding calculations. Funding rates are determined by the 8-hour TWAP of the premium, but payments occur more frequently than traditional 8-hour cycles. The off-chain order book provides efficient price discovery while on-chain settlement ensures funding payment integrity.",
+    "why_this_pair": "INJ/USDT represents a major L1 blockchain token with significant DeFi exposure, creating natural funding rate volatility during market moves. The pair's mid-tier volume on Aevo allows for meaningful arbitrage opportunities without excessive slippage. INJ's role in the Cosmos ecosystem and its own DeFi applications often drives directional bias that creates persistent funding premiums or discounts.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "INJ/USDT funding rates on Aevo have historically shown strong correlation with broader DeFi sentiment and Cosmos ecosystem developments. During INJ protocol upgrades or major DeFi launches, funding rates often skew positive as traders take long positions anticipating ecosystem growth. The hourly funding cycle creates more granular rate adjustments compared to 8-hour cycles, reducing extreme rate spikes but maintaining sensitivity to market sentiment. Volatility clustering around major announcements has created predictable patterns for experienced arbitrageurs. The rollup's performance during high-volatility periods has generally maintained stable funding calculations without the delays seen on congested networks."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Cross-exchange arbitrage between Aevo and centralized exchanges like Binance or OKX can be profitable due to funding rate differentials and timing mismatches. Aevo's unique hourly cycle often creates temporary rate advantages, especially during the first hour after CEX funding payments. The platform's combined options and perpetuals markets enable complex arbitrage strategies using synthetic positions to hedge funding exposure. Lower liquidity compared to major CEXs means position sizing must account for potential slippage, but also creates opportunities for informed traders to capture wider spreads. The rollup's fast settlement reduces execution risk compared to Ethereum mainnet DEXs."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Aevo's rollup centralization presents unique counterparty risk compared to fully decentralized protocols, requiring assessment of sequencer reliability and upgrade governance. Smaller liquidity pools mean larger positions face increased slippage risk, particularly during volatile periods when funding arbitrage opportunities are most attractive. The complex product set combining options and perpetuals creates potential for operational errors if traders confuse position types or settlement mechanics. Rollup bridge risks add an additional layer of consideration for capital deployment, though fast withdrawals mitigate some timing risks. Gas costs on the rollup are minimal, but bridge costs must be factored into arbitrage profitability calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does INJ/USDT funding settle on Aevo compared to other exchanges?",
+        "answer": "Aevo settles INJ/USDT funding every hour, more frequently than the standard 8-hour cycles on most centralized exchanges. This creates arbitrage opportunities during the gaps between Aevo's hourly settlements and CEX 8-hour cycles."
+      },
+      {
+        "question": "What makes Aevo's rollup architecture significant for funding rate arbitrage?",
+        "answer": "The rollup provides faster settlement and lower costs while maintaining on-chain funding calculation transparency. This reduces execution risk and enables smaller profitable arbitrage trades that wouldn't be viable on Ethereum mainnet due to gas costs."
+      },
+      {
+        "question": "How does INJ's role in the Cosmos ecosystem affect its funding rates?",
+        "answer": "INJ's position as a major DeFi-focused L1 creates directional bias during ecosystem developments, often leading to persistent funding premiums. Major protocol upgrades or DeFi launches typically drive increased long interest and positive funding rates."
+      },
+      {
+        "question": "What are the main liquidity risks when arbitraging INJ/USDT on Aevo?",
+        "answer": "Aevo's smaller liquidity pool compared to major CEXs means larger positions face slippage risk. Traders should size positions appropriately and consider using limit orders to minimize market impact, especially during volatile periods when arbitrage opportunities are most attractive."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "sol-usdt",
+    "render-usdt",
+    "link-usdt",
+    "ldo-usdt"
+  ]
+}

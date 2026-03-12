@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rate on Aevo DEX - Real-time Data",
+    "description": "Track RUNE/USDT funding rates on Aevo DEX. 1-hour intervals, rollup-based settlement, and DeFi perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "RUNE funding rate",
+      "Aevo DEX",
+      "THORChain perpetuals",
+      "DeFi funding arbitrage",
+      "rollup derivatives",
+      "crypto funding rates",
+      "RUNE USDT perps"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Aevo DEX offer unique funding rate arbitrage opportunities through the exchange's rollup-based infrastructure and 1-hour funding intervals. As THORChain's native token, RUNE exhibits distinctive funding patterns influenced by cross-chain liquidity dynamics and DeFi protocol developments.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the premium between perpetual and spot prices, settling payments on-chain through its custom rollup. The exchange's off-chain order book provides efficient price discovery while maintaining decentralized settlement for funding transfers. Traders pay or receive funding based on their position direction relative to the funding rate sign, with payments processed automatically at each hourly interval.",
+    "why_this_pair": "RUNE's role as a cross-chain liquidity protocol creates funding rate volatility driven by THORChain network activity and institutional DeFi flows. The token's mid-tier volume on Aevo provides sufficient liquidity for arbitrage while maintaining enough rate volatility to generate profitable opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical RUNE Funding Rate Patterns",
+        "body": "RUNE funding rates on Aevo typically range from -0.05% to 0.15% hourly, with significant spikes during THORChain protocol upgrades or major cross-chain volume surges. Negative funding periods often coincide with broader DeFi market corrections when leveraged long positions unwind rapidly. The 1-hour intervals create more frequent arbitrage windows compared to 8-hour systems, particularly beneficial during RUNE's characteristic volatility around protocol milestones. Historical data shows funding rate reversals often precede significant price movements by 2-4 hours."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Aevo's rollup architecture enables gas-efficient arbitrage execution for RUNE funding rate strategies, particularly when rates diverge significantly from competing exchanges like Binance or OKX. The combination of options and perpetuals on the same platform allows for sophisticated delta-neutral strategies using RUNE options to hedge perpetual positions. Traders can exploit Aevo's typically higher funding rates during DeFi bull runs by shorting RUNE perpetuals while holding spot positions on THORChain. The exchange's pre-launch token markets sometimes create funding rate premiums before RUNE listings on other platforms."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Aevo's smaller liquidity pool for RUNE creates slippage risks during large arbitrage position entries, particularly above $50,000 position sizes. The rollup's centralized sequencer introduces operational risk that could affect funding payments during network congestion or validator issues. RUNE's correlation with overall DeFi sentiment means funding rates can shift rapidly during protocol governance events or THORChain network disruptions. Traders should monitor the exchange's total value locked and daily volume to assess liquidity depth before executing large funding rate strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are RUNE funding rates calculated on Aevo?",
+        "answer": "RUNE funding rates on Aevo are calculated and paid every hour, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. The rates are determined by the premium between RUNE perpetual and spot prices over the preceding hour."
+      },
+      {
+        "question": "What makes Aevo's RUNE funding rates different from CEX platforms?",
+        "answer": "Aevo's rollup-based settlement and decentralized nature often result in higher funding rate volatility for RUNE compared to centralized exchanges. The combination with options markets and smaller liquidity pool creates unique arbitrage dynamics not found on larger platforms."
+      },
+      {
+        "question": "Can I hedge RUNE funding rate exposure using Aevo's options?",
+        "answer": "Yes, Aevo's integrated options platform allows traders to construct delta-neutral strategies by combining RUNE perpetual positions with options contracts. This enables funding rate arbitrage while minimizing directional price risk through sophisticated hedging structures."
+      },
+      {
+        "question": "What are the risks of RUNE funding arbitrage on Aevo's rollup?",
+        "answer": "Main risks include rollup sequencer downtime affecting funding settlements, lower liquidity causing slippage on large positions, and RUNE's volatility during THORChain network events. The centralized aspects of the rollup also introduce counterparty risk not present in fully decentralized alternatives."
+      }
+    ]
+  },
+  "related_pairs": [
+    "meme-usdt",
+    "bnb-usdt",
+    "aave-usdt",
+    "stx-usdt",
+    "eth-usdt"
+  ]
+}

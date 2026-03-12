@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "GMX ETH/USDT Funding Rate Analysis & Arbitrage Guide",
+    "description": "Track GMX ETH/USDT perpetual funding rates on Arbitrum. Oracle-based DEX with 1-hour funding intervals, unique GLP mechanics for arbitrage opportunities.",
+    "keywords": [
+      "GMX funding rate",
+      "ETH perpetual futures",
+      "Arbitrum DEX trading",
+      "GLP liquidity pools",
+      "oracle-based funding",
+      "decentralized perpetuals",
+      "GMX arbitrage",
+      "ETH funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers ETH/USDT perpetual futures on Arbitrum with unique oracle-based pricing and 1-hour funding intervals. The platform uses GLP liquidity pools instead of traditional order books, creating distinct funding rate dynamics compared to centralized exchanges.",
+    "how_funding_works": "GMX calculates funding rates every hour based on oracle price feeds and open interest imbalances in the GLP pool. Long positions pay funding when ETH demand exceeds shorts in the pool, with rates determined by utilization of the ETH portion of GLP. The oracle dependency means funding rates may diverge from spot-futures premiums seen on order book exchanges. Position size is limited by available ETH liquidity in the pool, affecting large funding rate arbitrage strategies.",
+    "why_this_pair": "ETH/USDT on GMX offers consistent funding rate opportunities due to high retail demand and the largest allocation within GLP pools. The oracle-based system often creates rate disparities with CEX perpetuals, especially during volatile periods when traditional futures premiums spike.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETH funding rates on GMX typically range from -0.01% to 0.05% per hour, with notable spikes during ETH rallies when long demand overwhelms the GLP pool. Unlike CEX perpetuals, GMX rates show less correlation with spot-futures basis due to oracle pricing. Weekend periods often see lower absolute rates as retail activity decreases. The 1-hour frequency creates more funding payment opportunities compared to 8-hour CEX standards, beneficial for active arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between GMX and CEX perpetuals becomes profitable when rate differentials exceed transaction costs plus bridging fees to Arbitrum. GMX's oracle-based rates often lag behind rapid CEX movements, creating temporary arbitrage windows. The platform's 0.05% maker fees must be factored into profitability calculations. Large arbitrage positions may face slippage due to GLP liquidity constraints, particularly during high volatility periods when pool utilization peaks."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Oracle dependency introduces unique risks as GMX relies on Chainlink price feeds rather than internal order book discovery. Price impact increases significantly for large positions due to finite GLP liquidity, affecting exit strategies. Arbitrum network congestion can delay funding payments and position adjustments during volatile periods. Bridge risks exist when moving capital between Ethereum mainnet and Arbitrum for cross-chain arbitrage strategies, with typical bridge times of 10-15 minutes during normal conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are GMX ETH funding rates updated?",
+        "answer": "GMX calculates and applies funding rates every hour, creating 24 funding events per day compared to 8-hour intervals on most CEXs. This higher frequency allows for more granular arbitrage opportunities but requires active position monitoring."
+      },
+      {
+        "question": "What determines ETH funding rates in GMX's GLP system?",
+        "answer": "Funding rates depend on ETH utilization within the GLP pool and open interest imbalances. When long positions exceed shorts, longs pay funding to the pool. Oracle price feeds from Chainlink determine the reference rate rather than internal order book dynamics."
+      },
+      {
+        "question": "Can large positions impact GMX ETH funding rates?",
+        "answer": "Yes, significant position sizes can move funding rates by changing the long/short balance in the GLP pool. Unlike order book exchanges with deep liquidity, GMX rates are more sensitive to individual large trades due to the pool-based model."
+      },
+      {
+        "question": "How do GMX fees affect ETH funding arbitrage profitability?",
+        "answer": "GMX charges 0.05% for opening positions and 0.07% for closing, totaling 0.12% round-trip. This fee structure requires funding rate differentials of at least 0.15-0.20% to ensure profitable arbitrage after accounting for bridge costs and gas fees."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "rune-usdt",
+    "fil-usdt",
+    "uni-usdt",
+    "avax-usdt"
+  ]
+}

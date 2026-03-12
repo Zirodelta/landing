@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rates on Aevo - Perps Arbitrage Guide",
+    "description": "Track ORDI/USDT perpetual funding rates on Aevo DEX. Analyze 1-hour funding cycles, rollup performance benefits, and BRC-20 arbitrage opportunities.",
+    "keywords": [
+      "ORDI funding rates",
+      "Aevo perpetuals",
+      "BRC-20 arbitrage",
+      "DEX funding",
+      "rollup trading",
+      "Bitcoin ecosystem",
+      "perps arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities within the Bitcoin ecosystem token space. As a leading BRC-20 token, ORDI exhibits distinct funding patterns influenced by Bitcoin network sentiment and Ordinals protocol adoption.",
+    "how_funding_works": "Aevo calculates ORDI/USDT funding rates hourly using a time-weighted average price mechanism that compares the perpetual price to the underlying spot price. The exchange's custom rollup architecture enables more frequent rate updates with lower gas costs compared to mainnet DEXs. Funding payments are automatically settled every hour, with long positions paying shorts when rates are positive and vice versa. Aevo's off-chain order book provides efficient price discovery while maintaining decentralized settlement for funding calculations.",
+    "why_this_pair": "ORDI represents the flagship BRC-20 token with significant correlation to Bitcoin price movements but distinct volatility patterns that create funding rate inefficiencies. The token's smaller market cap compared to major cryptocurrencies often results in higher funding rate volatility, presenting profitable arbitrage windows. Aevo's position as a leading DEX for emerging tokens makes it a key venue for ORDI price discovery and funding rate formation.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI/USDT funding rates on Aevo have shown significant volatility ranging from -2% to +3% during major Bitcoin ecosystem developments. The pair typically exhibits elevated funding rates during Ordinals protocol upgrades or Bitcoin halving discussions, when speculative demand increases. Negative funding rates often coincide with broader BRC-20 token selloffs or Bitcoin network congestion issues. Weekly analysis reveals that funding rates tend to normalize during Asian trading hours when DEX liquidity is typically lower. Understanding these patterns helps traders identify optimal entry and exit points for funding rate arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Aevo's hourly funding cycle for ORDI/USDT creates frequent arbitrage windows, particularly when rates diverge from centralized exchanges like Binance or OKX. Cross-venue arbitrage becomes profitable when Aevo funding rates exceed 0.1% per hour while CEX rates remain below 0.05%. The exchange's rollup infrastructure allows for rapid position adjustments with minimal slippage on smaller trade sizes. Delta-neutral strategies work effectively by holding spot ORDI while shorting perpetuals during high positive funding periods. Traders should monitor ORDI spot prices across multiple venues to identify when Aevo perpetuals trade at significant premiums or discounts."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "ORDI/USDT trading on Aevo carries rollup-specific risks including potential sequencer downtime and bridge security considerations when moving funds. The token's correlation with Bitcoin can lead to sudden funding rate reversals during major BTC price movements, requiring careful position sizing. Lower liquidity compared to major pairs means larger positions may face increased slippage and difficulty closing during volatile periods. Smart contract risk exists with Aevo's custom rollup, though the protocol has undergone multiple audits. Traders should maintain adequate collateral buffers as ORDI can gap significantly during low liquidity periods, potentially leading to forced liquidations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ORDI/USDT funding rates updated on Aevo?",
+        "answer": "Aevo updates ORDI/USDT funding rates every hour using a time-weighted average price calculation. The exchange's rollup architecture enables more frequent updates compared to mainnet DEXs, providing better price accuracy for arbitrage opportunities."
+      },
+      {
+        "question": "What makes ORDI funding rates different from other Bitcoin ecosystem tokens?",
+        "answer": "ORDI is the first and largest BRC-20 token, making it highly sensitive to Ordinals protocol developments and Bitcoin network sentiment. This creates unique funding rate patterns that often diverge from standard cryptocurrency correlations, particularly during Bitcoin ecosystem news events."
+      },
+      {
+        "question": "Can I trade ORDI perpetuals on Aevo without holding the underlying token?",
+        "answer": "Yes, Aevo's perpetual futures are cash-settled in USDT, so you don't need to hold actual ORDI tokens. However, monitoring spot ORDI prices across multiple exchanges is crucial for identifying funding rate arbitrage opportunities and understanding price divergence patterns."
+      },
+      {
+        "question": "What are the main risks of funding rate arbitrage with ORDI on Aevo?",
+        "answer": "Key risks include Aevo's rollup infrastructure dependencies, ORDI's high volatility that can cause rapid funding rate reversals, and lower liquidity that may impact large position exits. Additionally, correlation with Bitcoin price movements can create unexpected losses in delta-neutral strategies during major BTC events."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "pepe-usdt",
+    "bonk-usdt",
+    "ena-usdt",
+    "xrp-usdt"
+  ]
+}

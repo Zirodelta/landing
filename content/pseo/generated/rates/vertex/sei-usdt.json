@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rates on Vertex DEX | Arbitrage Guide",
+    "description": "Track SEI/USDT funding rates on Vertex DEX with hourly settlements. Analyze arbitrage opportunities on Arbitrum's hybrid sequencer model.",
+    "keywords": [
+      "SEI funding rates",
+      "Vertex DEX",
+      "Arbitrum perpetuals",
+      "hourly funding",
+      "cross-margin arbitrage",
+      "SEI arbitrage",
+      "hybrid DEX",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "Vertex Protocol offers SEI/USDT perpetual futures with hourly funding rate settlements on Arbitrum. The hybrid DEX architecture combines an on-chain risk engine with off-chain sequencer for rapid execution while maintaining 0.02% maker and 0.03% taker fees.",
+    "how_funding_works": "Vertex calculates funding rates every hour based on the premium between perpetual and spot prices using their hybrid on-chain/off-chain model. The on-chain risk engine ensures settlement integrity while the off-chain sequencer enables sub-second trade execution. Cross-margin is applied by default, allowing positions across different assets to offset margin requirements. Funding payments are automatically debited or credited to trader accounts at each hourly settlement.",
+    "why_this_pair": "SEI/USDT on Vertex presents unique arbitrage opportunities due to SEI's L1 blockchain volatility and Vertex's competitive fee structure. The hourly funding frequency provides more granular rate adjustments compared to traditional 8-hour cycles, enabling precise arbitrage timing. Vertex's low taker fees at 0.03% make frequent position adjustments economically viable for funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on Vertex have shown elevated volatility during network upgrade announcements and ecosystem developments. The hourly settlement cycle creates smoother rate transitions compared to traditional exchanges, reducing funding shock risks. Peak negative rates typically occur during SEI ecosystem token launches, while positive rates spike during broader L1 rallies. The hybrid architecture ensures consistent rate calculations even during high-volume periods when other DEXs experience sequencer delays."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Vertex's competitive fee structure creates profitable arbitrage windows when SEI funding rates diverge significantly from other exchanges. The cross-margin system allows traders to maintain hedged positions across multiple L1 tokens while capturing SEI funding premiums. Arbitrage opportunities frequently emerge during Asian trading hours when SEI ecosystem activity peaks. The fast sequencer execution enables traders to quickly establish positions when funding rate discrepancies appear across venues."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Vertex's sequencer centralization poses operational risks despite the on-chain settlement guarantees. Arbitrum network congestion can affect both position management and funding calculations during high-stress periods. SEI's L1 volatility creates significant mark-to-market risks that can overwhelm funding profits during adverse moves. The relatively new protocol lacks the battle-tested infrastructure of established exchanges, requiring careful position sizing and risk management protocols."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Vertex's hybrid architecture affect SEI funding rates?",
+        "answer": "Vertex's hybrid model uses an off-chain sequencer for fast execution while maintaining on-chain risk calculations. This ensures consistent funding rate calculations even during high volatility periods, as the risk engine operates independently of sequencer performance."
+      },
+      {
+        "question": "What makes SEI funding arbitrage attractive on Vertex?",
+        "answer": "Vertex offers 0.02%/0.03% fees and hourly funding settlements, making frequent position adjustments economical. The cross-margin system allows hedging across multiple L1 tokens while capturing SEI-specific funding premiums during ecosystem events."
+      },
+      {
+        "question": "How does hourly funding compare to 8-hour cycles for SEI?",
+        "answer": "Hourly settlements provide more granular rate adjustments, reducing funding shock risks during SEI volatility spikes. This creates smoother arbitrage opportunities but requires more active monitoring compared to traditional 8-hour funding cycles."
+      },
+      {
+        "question": "What are the main risks of SEI arbitrage on Vertex?",
+        "answer": "Key risks include sequencer centralization, Arbitrum network dependencies, and SEI's high L1 volatility. The protocol's relative newness also means less proven infrastructure during extreme market stress compared to established exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "dot-usdt",
+    "ethfi-usdt",
+    "wld-usdt",
+    "avax-usdt"
+  ]
+}

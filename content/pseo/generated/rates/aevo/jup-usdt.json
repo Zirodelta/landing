@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jup-usdt",
+    "base": "JUP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JUP/USDT Funding Rate on Aevo - Hourly Arbitrage",
+    "description": "Track JUP/USDT perpetual funding rates on Aevo DEX. Hourly funding intervals, rollup-based settlement, and options-perps hybrid arbitrage opportunities.",
+    "keywords": [
+      "JUP funding rate",
+      "Aevo perpetuals",
+      "Jupiter arbitrage",
+      "DeFi funding",
+      "rollup perps",
+      "hourly funding",
+      "DEX arbitrage",
+      "JUP USDT"
+    ]
+  },
+  "content": {
+    "intro": "JUP/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the platform's rollup-based architecture and hourly funding settlements. As Jupiter's governance token, JUP exhibits distinct funding patterns driven by Solana ecosystem sentiment and DeFi yield farming cycles.",
+    "how_funding_works": "Aevo calculates JUP/USDT funding rates hourly using a mark-to-index methodology, with payments settled on-chain through their custom rollup. The platform's off-chain order book enables efficient price discovery while maintaining the funding rate calculation transparency of traditional CEXs. Funding payments occur every hour at the top of each hour, with rates typically ranging from -0.01% to +0.02% for JUP pairs.",
+    "why_this_pair": "JUP/USDT funding rates on Aevo often diverge from other exchanges due to the platform's unique user base of options and perpetuals traders. The combination of Jupiter's role in Solana DeFi and Aevo's specialized derivatives focus creates opportunities for funding rate arbitrage, particularly during Solana network events or major DeFi protocol updates.",
+    "sections": [
+      {
+        "heading": "JUP Funding Rate Patterns on Aevo",
+        "body": "JUP funding rates on Aevo typically exhibit higher volatility during Solana validator updates and Jupiter protocol governance events. Historical data shows funding rates averaging +0.003% hourly during bull markets, with spikes to +0.05% during major Solana ecosystem announcements. The rollup architecture allows for more frequent rate adjustments compared to traditional DEXs, creating micro-arbitrage windows. Weekend rates tend to be more neutral due to reduced institutional trading activity, offering better entry points for long-term funding strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "Aevo's hourly funding creates 8x more settlement opportunities than traditional 8-hour cycles, ideal for high-frequency funding arbitrage. Cross-exchange arbitrage between Aevo and Binance or OKX often yields 0.01-0.03% per hour during volatile periods. The platform's combined options market provides additional hedging tools for funding strategies, allowing traders to buy protective puts while collecting funding on long perpetual positions. Gas costs on the Aevo rollup are significantly lower than Ethereum mainnet, improving arbitrage profitability for smaller position sizes."
+      },
+      {
+        "heading": "Risk Considerations for JUP Perpetuals",
+        "body": "Aevo's rollup centralization presents unique counterparty risks not found on fully decentralized platforms, though the on-chain settlement provides transparency. JUP's correlation with SOL price movements can create unexpected liquidation risks during Solana network outages or validator issues. The platform's smaller liquidity pool for JUP compared to major CEXs means funding rates can be more volatile but also more profitable for arbitrageurs. Position limits and withdrawal delays during high volatility periods may impact arbitrage strategy execution, requiring careful position sizing and timing considerations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does JUP funding settle on Aevo compared to other exchanges?",
+        "answer": "Aevo settles JUP funding rates every hour, providing 8x more frequent opportunities than the standard 8-hour cycles used by most exchanges. This hourly settlement is unique among DEXs and creates more granular arbitrage windows for active traders."
+      },
+      {
+        "question": "What makes Aevo's JUP funding calculation different from CEXs?",
+        "answer": "Aevo uses an off-chain order book for price discovery but settles funding on-chain through their rollup, combining CEX-like efficiency with DEX transparency. The platform's integrated options market also influences funding rates through put-call parity relationships unique to multi-derivative platforms."
+      },
+      {
+        "question": "Can I hedge JUP funding positions with options on Aevo?",
+        "answer": "Yes, Aevo's combined options and perpetuals platform allows sophisticated hedging strategies. You can collect funding on JUP perpetuals while purchasing protective puts, or sell calls against long perpetual positions to enhance returns. This options-perps combination is unique among major derivatives platforms."
+      },
+      {
+        "question": "What are the liquidity risks for JUP funding arbitrage on Aevo?",
+        "answer": "JUP liquidity on Aevo is lower than major CEXs, typically $1-5M in daily volume versus $50M+ on Binance. This creates higher slippage risk but also more pronounced funding rate discrepancies. Position sizes above $50K may experience significant market impact during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ordi-usdt",
+    "eth-usdt",
+    "btc-usdt",
+    "mkr-usdt",
+    "wld-usdt"
+  ]
+}

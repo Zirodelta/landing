@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rate Arbitrage on Aevo DEX",
+    "description": "Trade SEI/USDT perpetuals on Aevo's rollup-based DEX with 1-hour funding intervals. Access funding rate arbitrage opportunities with institutional-grade execution.",
+    "keywords": [
+      "SEI funding rate",
+      "Aevo perpetuals",
+      "L1 token arbitrage",
+      "hourly funding",
+      "rollup DEX",
+      "SEI futures",
+      "funding rate trading",
+      "Aevo arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through the exchange's proprietary rollup infrastructure. As a Layer-1 blockchain token, SEI exhibits distinct funding patterns driven by validator rewards and network utility demand.",
+    "how_funding_works": "Aevo calculates SEI/USDT funding rates every hour using a TWAP-based methodology that compares perpetual and index prices. The exchange's off-chain order book provides efficient price discovery while on-chain settlement ensures transparency for funding calculations. Aevo's rollup architecture enables sub-second execution speeds, critical for capturing funding rate premiums before they normalize across exchanges.",
+    "why_this_pair": "SEI's role as a trading-optimized Layer-1 creates funding asymmetries as DeFi activity fluctuates on the Sei network. The token's mid-tier volume provides sufficient liquidity for meaningful arbitrage positions while maintaining enough volatility to generate consistent funding opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on Aevo typically range from -0.05% to 0.15% per hour, with notable spikes during network upgrade announcements or major DeFi protocol launches. The pair exhibits strong correlation with broader L1 token funding trends, particularly during periods of high validator staking activity. Positive funding dominates during SEI ecosystem growth phases, while negative rates emerge during broader crypto market downturns when leveraged longs get liquidated."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Aevo and centralized exchanges like Binance or OKX frequently presents 0.02-0.08% hourly profit margins. Aevo's unique rollup infrastructure sometimes creates temporary funding disconnects from spot markets, especially during high-volatility periods. The exchange's combined options and perpetuals ecosystem can create additional arbitrage vectors through put-call parity relationships with SEI options."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's smaller liquidity pool compared to tier-1 exchanges means larger positions may experience slippage during rapid funding rate changes. The rollup's centralization aspects introduce smart contract and bridge risks that traders must factor into position sizing. SEI's correlation with Cosmos ecosystem tokens can create unexpected funding rate movements during IBC-related news or Cosmos Hub governance events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's rollup affect SEI/USDT funding calculations?",
+        "answer": "Aevo's rollup enables real-time funding calculations with minimal gas costs, updating every hour based on the 8-hour TWAP between perpetual and index prices. The off-chain order book provides more granular price data for accurate funding determinations compared to pure on-chain DEXs."
+      },
+      {
+        "question": "What makes SEI funding rates different from other L1 tokens on Aevo?",
+        "answer": "SEI's focus on trading optimization creates unique funding patterns tied to DEX volume on the Sei network. Unlike general-purpose L1s, SEI funding rates often correlate with derivatives trading activity rather than just validator economics."
+      },
+      {
+        "question": "Can I arbitrage SEI funding between Aevo and CEXs?",
+        "answer": "Yes, but consider Aevo's 0.02%/0.05% maker/taker fees versus CEX rates. The rollup's fast settlement enables quick position adjustments, but you must account for bridge delays when moving funds between Aevo and centralized exchanges."
+      },
+      {
+        "question": "What's the minimum position size for effective SEI arbitrage on Aevo?",
+        "answer": "Given Aevo's fee structure and SEI's mid-tier liquidity, positions below $10,000 often fail to generate meaningful profits after transaction costs. The exchange's institutional focus means most profitable arbitrage requires $25,000+ positions to overcome the spread and fees."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "arb-usdt",
+    "bnb-usdt",
+    "wif-usdt",
+    "atom-usdt"
+  ]
+}

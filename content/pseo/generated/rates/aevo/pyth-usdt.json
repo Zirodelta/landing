@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pyth-usdt",
+    "base": "PYTH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PYTH/USDT Funding Rates on Aevo - Real-time Arbitrage",
+    "description": "Track PYTH/USDT perpetual funding rates on Aevo DEX. Hourly funding intervals with 0.02% maker fees. Infrastructure token arbitrage opportunities.",
+    "keywords": [
+      "PYTH funding rates",
+      "Aevo perpetuals",
+      "funding rate arbitrage",
+      "infrastructure tokens",
+      "hourly funding",
+      "DEX perps",
+      "rollup trading",
+      "PYTH arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "PYTH/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities due to the oracle token's infrastructure role and Aevo's hourly funding mechanism. As a specialized DEX built on its own rollup, Aevo provides competitive trading conditions for PYTH with hourly funding intervals rather than the standard 8-hour cycles.",
+    "how_funding_works": "Aevo calculates PYTH funding rates hourly based on the premium/discount between perpetual and spot prices, with payments occurring every 60 minutes. The rollup architecture enables efficient price discovery through off-chain order matching and on-chain settlement, reducing latency in funding rate adjustments. Funding rates are determined by the 1-hour time-weighted average premium, creating more frequent arbitrage opportunities compared to traditional 8-hour cycles. Position holders pay or receive funding based on their long/short exposure and the current rate sign.",
+    "why_this_pair": "PYTH's role as an oracle infrastructure token creates distinct funding rate patterns driven by DeFi protocol demand and network utility rather than pure speculation. The token's integration across multiple chains and protocols generates unique arbitrage opportunities when funding rates diverge from underlying fundamentals. Aevo's smaller liquidity pool for PYTH can amplify funding rate movements, creating profitable arbitrage windows for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PYTH funding rates on Aevo have shown elevated volatility during oracle network upgrades and major DeFi protocol integrations. The hourly funding mechanism captures shorter-term price movements that 8-hour cycles might smooth over, particularly during periods of high oracle demand. Historical data indicates funding rates spike during network congestion or when major protocols announce PYTH oracle integrations. The infrastructure token nature creates less predictable patterns compared to pure utility or meme tokens, with rates often correlating to broader DeFi adoption cycles."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "PYTH's cross-chain presence creates arbitrage opportunities when Aevo funding rates diverge from centralized exchanges like Binance or OKX. The hourly funding cycle allows traders to capitalize on short-term rate differentials that would be unprofitable with 8-hour intervals. Aevo's 0.02% maker fees make high-frequency funding arbitrage viable when rate differentials exceed 0.1% annually. The rollup's performance advantages enable rapid position adjustments, crucial for capturing fleeting arbitrage windows in volatile oracle token markets."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup architecture introduces smart contract and bridge risks specific to the PYTH perpetual, particularly regarding oracle price feeds and settlement mechanisms. The smaller liquidity pool increases slippage risk during large position entries or exits, potentially eroding arbitrage profits. Funding rate volatility can shift rapidly during oracle network events, creating timing risks for arbitrage strategies. Cross-exchange arbitrage requires careful attention to PYTH token transfer times and potential network congestion affecting position synchronization across venues."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does PYTH funding occur on Aevo compared to other exchanges?",
+        "answer": "Aevo calculates and pays PYTH funding rates every hour, creating 24 funding events daily compared to the standard 3 events on most centralized exchanges. This higher frequency provides more opportunities to capture rate differentials but requires active monitoring."
+      },
+      {
+        "question": "What makes PYTH funding rates unique on Aevo's rollup?",
+        "answer": "Aevo's rollup processes PYTH price updates with lower latency than mainnet DEXs, leading to more responsive funding rate calculations. The off-chain order book also reduces MEV impact on funding rate manipulation compared to AMM-based perpetuals."
+      },
+      {
+        "question": "Can I arbitrage PYTH funding rates between Aevo and centralized exchanges?",
+        "answer": "Yes, but consider the 0.02% maker fees on Aevo versus typical 0.01% on CEXs, plus potential slippage in Aevo's smaller PYTH pool. Arbitrage is most profitable when rate differentials exceed combined trading costs by at least 0.05%."
+      },
+      {
+        "question": "How does PYTH's oracle token status affect funding rate patterns?",
+        "answer": "PYTH funding rates often correlate with oracle network usage and DeFi protocol adoption rather than pure price speculation. This creates unique arbitrage opportunities during network upgrades or major protocol integrations when demand fundamentals shift rapidly."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "sol-usdt",
+    "avax-usdt",
+    "doge-usdt",
+    "ena-usdt"
+  ]
+}

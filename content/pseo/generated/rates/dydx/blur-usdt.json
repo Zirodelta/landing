@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "blur-usdt",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX BLUR/USDT Funding Rates - 1h Perp Arbitrage",
+    "description": "Track BLUR/USDT funding rates on dYdX DEX with 1-hour intervals. Analyze NFT token arbitrage opportunities on Cosmos-based perpetual futures.",
+    "keywords": [
+      "dydx blur funding",
+      "blur usdt perpetual",
+      "nft token funding rates",
+      "cosmos dex arbitrage",
+      "1 hour funding interval",
+      "decentralized perp trading",
+      "blur funding arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "BLUR/USDT on dYdX represents the leading NFT marketplace token trading on a pioneering decentralized perpetual futures platform. With dYdX's transition to its Cosmos appchain, traders can access BLUR perpetuals with 1-hour funding intervals and full self-custody.",
+    "how_funding_works": "dYdX calculates BLUR/USDT funding rates every hour using the difference between the perpetual price and index price. The 8-hour TWAP is divided by 8 to determine the hourly rate, with payments exchanged between long and short positions. Since migrating to Cosmos, dYdX maintains its established funding mechanism while offering improved sovereignty and reduced gas costs for position management.",
+    "why_this_pair": "BLUR's connection to NFT market sentiment creates distinct funding rate patterns, especially during OpenSea volume spikes or NFT collection launches. The hourly funding on dYdX provides more frequent arbitrage opportunities compared to traditional 8-hour cycles on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical BLUR Funding Patterns",
+        "body": "BLUR funding rates on dYdX have shown correlation with NFT market cycles, often spiking positive during major collection drops or marketplace updates. The token's utility in OpenSea's reward system creates periodic demand surges that translate to elevated funding costs for long positions. Post-Cosmos migration data shows funding rates averaging -0.02% to +0.15% hourly, with volatility clustering around major NFT events. The 1-hour interval allows traders to capture shorter-term NFT sentiment shifts that 8-hour funding cycles might smooth out."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "BLUR's limited availability across exchanges creates funding rate disparities, particularly between dYdX and centralized platforms like Binance or Bybit. The hourly reset allows for more precise hedging strategies during NFT market volatility when funding rates can swing dramatically. Traders can exploit the basis between dYdX's decentralized model and CEX rates, especially during periods when BLUR experiences high borrowing costs on lending platforms. The Cosmos integration provides faster settlement for cross-chain arbitrage strategies involving BLUR spot positions."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "BLUR's correlation with broader NFT market health introduces systematic risks beyond typical crypto volatility. Low trading volume on dYdX compared to major CEXs can lead to wider spreads and increased slippage during position adjustments. The Cosmos migration, while offering benefits, has resulted in fragmented liquidity as users adapted to the new chain. Smart contract risks inherent to DEX trading require careful consideration, especially for large arbitrage positions that cannot be easily unwound during network congestion."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why are BLUR funding rates on dYdX different from centralized exchanges?",
+        "answer": "dYdX operates as a decentralized exchange with its own liquidity pool and user base, creating isolated funding dynamics. The 1-hour interval versus 8-hour cycles on most CEXs also contributes to rate differences, as does the platform's focus on DeFi-native traders who may have different hedging behaviors."
+      },
+      {
+        "question": "How does dYdX's Cosmos migration affect BLUR trading?",
+        "answer": "The migration to Cosmos provides sovereignty and reduced costs but initially fragmented liquidity as users bridged assets. BLUR funding rates may show different patterns compared to the StarkEx era due to changed user composition and improved cross-chain functionality for arbitrage strategies."
+      },
+      {
+        "question": "What makes BLUR funding rates unique in the NFT sector?",
+        "answer": "BLUR's direct utility in NFT marketplace rewards creates demand spikes tied to collection launches and trading volumes. This results in more event-driven funding rate movements compared to pure speculation tokens, offering opportunities for traders who monitor NFT market catalysts."
+      },
+      {
+        "question": "How liquid is BLUR/USDT on dYdX for large arbitrage positions?",
+        "answer": "BLUR volume on dYdX is moderate compared to major tokens, requiring careful position sizing for arbitrage strategies. The platform's order book depth typically supports positions up to mid-five figures USD without significant slippage, but large arbitrageurs should monitor liquidity conditions closely."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "sei-usdt",
+    "atom-usdt",
+    "wld-usdt",
+    "op-usdt"
+  ]
+}

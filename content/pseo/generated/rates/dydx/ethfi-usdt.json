@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rates on dYdX - DEX Arbitrage",
+    "description": "Track ETHFI/USDT perpetual funding rates on dYdX DEX. 1-hour intervals, 0.02% maker fees. Monitor DeFi token funding arbitrage opportunities.",
+    "keywords": [
+      "ETHFI funding rate",
+      "dYdX perpetual",
+      "DEX funding arbitrage",
+      "ETHFI USDT",
+      "decentralized perps",
+      "DeFi funding rates",
+      "Cosmos appchain trading"
+    ]
+  },
+  "content": {
+    "intro": "ETHFI/USDT perpetual futures on dYdX represent one of the few DeFi governance token derivatives available on a fully decentralized exchange. Trading on dYdX's Cosmos appchain with 1-hour funding intervals, this pair offers unique arbitrage opportunities in the growing liquid staking sector.",
+    "how_funding_works": "dYdX calculates ETHFI/USDT funding rates every hour using a time-weighted average premium between the perpetual price and underlying spot price. The exchange applies a dampening factor to prevent excessive rate volatility during low liquidity periods. Long positions pay short positions when funding is positive, encouraging price convergence through economic incentives. Settlement occurs automatically in USDT at each hourly interval without requiring manual intervention.",
+    "why_this_pair": "ETHFI represents Ether.fi's liquid staking token, making it sensitive to both Ethereum staking yield dynamics and DeFi governance speculation. The token's relatively small market cap creates opportunities for funding rate arbitrage when directional bets concentrate on one side. Limited availability across perpetual platforms amplifies these imbalances compared to major assets.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETHFI/USDT funding rates on dYdX typically range from -0.05% to 0.15% per hour during normal market conditions. The pair experiences pronounced positive funding during liquid staking narrative cycles, often exceeding 0.3% hourly when ETH staking yields shift or governance proposals generate speculation. Negative funding periods are less common but can occur during broader DeFi selloffs when shorts dominate. The 1-hour settlement frequency on dYdX means these rates compound more aggressively than 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "ETHFI funding rate arbitrage benefits from the token's limited perpetual availability, creating pricing inefficiencies between dYdX and centralized platforms. Traders can capture spreads by taking opposite positions across venues, particularly when dYdX funding diverges from Binance or OKX rates. The hourly settlement creates more frequent profit realization compared to traditional 8-hour cycles. However, arbitrageurs must account for dYdX's maker fees (0.02%) and potential slippage in the smaller ETHFI market when sizing positions."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "ETHFI's governance token nature introduces event risk from protocol upgrades, staking parameter changes, or regulatory developments affecting liquid staking. The token's correlation with ETH can shift rapidly during market stress, creating basis risk for delta-neutral strategies. Low liquidity compared to major pairs means larger positions can move the funding rate itself, reducing arbitrage efficiency. Smart contract risk exists on dYdX's Cosmos chain, though the protocol has demonstrated stability since its migration from StarkEx."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does ETHFI/USDT funding settle on dYdX?",
+        "answer": "ETHFI/USDT funding rates on dYdX settle every hour, providing more frequent profit realization than the 8-hour cycles common on centralized exchanges. This creates 24 settlement opportunities per day for funding rate arbitrage strategies."
+      },
+      {
+        "question": "What drives ETHFI funding rate spikes on dYdX?",
+        "answer": "ETHFI funding spikes typically occur during Ethereum staking narrative cycles, liquid staking protocol updates, or when governance proposals affect Ether.fi's tokenomics. The token's smaller market cap amplifies these moves compared to major assets."
+      },
+      {
+        "question": "Can I arbitrage ETHFI funding between dYdX and CEXs?",
+        "answer": "Yes, ETHFI funding arbitrage is possible between dYdX and centralized exchanges offering ETHFI perpetuals. However, traders must account for different settlement frequencies, fee structures, and potential liquidity constraints when executing cross-platform strategies."
+      },
+      {
+        "question": "What are dYdX's fees for ETHFI/USDT perpetual trading?",
+        "answer": "dYdX charges 0.02% maker fees and 0.05% taker fees for ETHFI/USDT perpetual trades. These fees apply to both opening and closing positions but not to funding rate payments, which transfer directly between traders."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pyth-usdt",
+    "wld-usdt",
+    "jto-usdt",
+    "btc-usdt",
+    "xrp-usdt"
+  ]
+}

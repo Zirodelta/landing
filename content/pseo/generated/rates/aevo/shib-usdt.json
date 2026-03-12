@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "shib-usdt",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SHIB/USDT Funding Rates on Aevo DEX - Real-time Analysis",
+    "description": "Track SHIB/USDT funding rates on Aevo's rollup DEX. Analyze hourly funding cycles, arbitrage opportunities, and meme token volatility patterns.",
+    "keywords": [
+      "SHIB funding rates",
+      "Aevo DEX",
+      "meme token arbitrage",
+      "hourly funding",
+      "perpetual futures",
+      "rollup trading",
+      "SHIB USDT",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's SHIB/USDT perpetual futures offer unique funding rate arbitrage opportunities through hourly settlements on their custom rollup infrastructure. The combination of meme token volatility and Aevo's hybrid options-perps platform creates distinct funding dynamics compared to traditional centralized exchanges.",
+    "how_funding_works": "Aevo calculates SHIB/USDT funding rates hourly using a combination of perpetual-spot price basis and interest rate differential. The rollup architecture enables faster settlement while maintaining on-chain transparency. Funding payments occur automatically at the top of each hour, with rates typically ranging from -0.5% to +2% during high volatility periods. The exchange uses an 8-hour TWAP for rate smoothing to prevent excessive funding spikes during SHIB's characteristic pump-and-dump cycles.",
+    "why_this_pair": "SHIB's extreme retail sentiment and social media-driven price movements create significant perpetual-spot basis divergences on Aevo. The pair's large trading volume combined with Aevo's unique market maker incentives often results in funding rates that deviate substantially from other exchanges. This makes SHIB/USDT particularly attractive for cross-exchange funding arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SHIB/USDT funding rates on Aevo exhibit distinct cyclical patterns tied to broader meme token sentiment waves. During bull phases, positive funding rates frequently exceed 1% per hour as retail traders heavily long the perpetual contract. Conversely, during bear markets or after major pump cycles, funding often turns deeply negative as short interest dominates. The hourly settlement mechanism on Aevo's rollup creates more frequent rate adjustments compared to 8-hour cycles elsewhere, leading to smoother but more active arbitrage opportunities. Historical data shows funding rate volatility peaks during UTC evening hours when retail activity is highest."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Aevo's SHIB/USDT funding arbitrage benefits from the exchange's lower maker fees (0.02%) and integrated options market for additional hedging. Cross-exchange arbitrage works particularly well between Aevo and major CEXs during funding rate divergences exceeding 0.3%. The rollup's fast finality enables rapid position adjustments when funding rates flip. Delta-neutral strategies combining SHIB perpetuals with call/put options on the same platform can capture funding while hedging directional risk. Market makers often exploit the pre-launch token markets on Aevo to establish positions before official SHIB listings on other exchanges."
+      },
+      {
+        "heading": "Risk Considerations and Mitigation",
+        "body": "Primary risks include Aevo's rollup centralization concerns and smaller liquidity pools leading to higher slippage during SHIB volatility spikes. The exchange's complex product set requires careful position management to avoid unintended exposure through options delta. Rollup downtime or sequencer issues could prevent timely arbitrage exits during critical market moments. Funding rate calculations may be less transparent than established CEXs, requiring additional due diligence. Risk mitigation strategies include position sizing limits, maintaining backup exchange accounts, and monitoring rollup health metrics before entering large arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do SHIB funding rates on Aevo compare to Binance or OKX?",
+        "answer": "Aevo's hourly funding cycles often show higher volatility but lower absolute rates compared to 8-hour CEX cycles. The rollup's lower liquidity means rates can spike more dramatically during SHIB social media events, creating short-term arbitrage windows of 0.5-1% between exchanges."
+      },
+      {
+        "question": "What are the main advantages of Aevo's rollup for SHIB arbitrage?",
+        "answer": "The custom rollup enables faster settlement times and lower gas costs compared to mainnet DEXs. Combined with integrated options markets, traders can implement more sophisticated delta-neutral strategies while benefiting from maker rebates on the perpetuals side."
+      },
+      {
+        "question": "How does Aevo handle SHIB funding during extreme volatility events?",
+        "answer": "Aevo implements circuit breakers and dynamic rate caps during extreme moves to prevent funding rates from exceeding ±5% per hour. The exchange may also adjust margin requirements or temporarily halt new position opening if SHIB experiences flash crashes exceeding 50% in a single hour."
+      },
+      {
+        "question": "What minimum capital is recommended for SHIB funding arbitrage on Aevo?",
+        "answer": "Due to smaller liquidity pools and 0.05% taker fees, minimum recommended capital is around $10,000 to make spreads worthwhile after transaction costs. Larger positions above $50,000 should be scaled in carefully to avoid moving the limited order book depth significantly."
+      }
+    ]
+  },
+  "related_pairs": [
+    "render-usdt",
+    "doge-usdt",
+    "sei-usdt",
+    "arb-usdt",
+    "meme-usdt"
+  ]
+}

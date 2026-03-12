@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rates on Aevo - DEX Arbitrage Analysis",
+    "description": "Track FIL/USDT perpetual funding rates on Aevo DEX. Analyze 1-hour funding cycles, rollup-based settlement, and infrastructure token arbitrage opportunities.",
+    "keywords": [
+      "FIL funding rates",
+      "Aevo DEX",
+      "infrastructure token arbitrage",
+      "perpetual futures",
+      "rollup settlement",
+      "Filecoin derivatives",
+      "1-hour funding",
+      "options DEX"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on Aevo offer unique arbitrage opportunities through the platform's 1-hour funding cycle and rollup-based architecture. As an infrastructure token with significant storage network utility, FIL exhibits distinctive funding rate patterns that differ from pure DeFi or Layer 1 tokens.",
+    "how_funding_works": "Aevo calculates FIL/USDT funding rates hourly using a time-weighted average of the premium between the perpetual and mark price. The exchange's rollup architecture enables faster settlement compared to mainnet DEXs, with funding payments processed automatically every hour. Aevo's off-chain order book ensures efficient price discovery while maintaining on-chain settlement transparency. The 0.02% maker and 0.05% taker fee structure means funding arbitrage must exceed these costs plus gas for rollup transactions.",
+    "why_this_pair": "FIL's role as a utility token for the Filecoin storage network creates unique funding dynamics driven by storage provider demand and token staking requirements. The token often shows positive funding rates during periods of increased storage demand or network upgrades. Aevo's combined options and perpetuals platform allows for sophisticated hedging strategies using both products simultaneously.",
+    "sections": [
+      {
+        "heading": "FIL Funding Rate Patterns",
+        "body": "FIL funding rates on Aevo typically correlate with Filecoin network activity and storage provider economics. During periods of high storage onboarding or network upgrades, funding rates often turn positive as demand for long exposure increases. The token's seasonal patterns around major Filecoin developments create predictable arbitrage windows. Infrastructure tokens like FIL tend to have lower funding rate volatility compared to speculative altcoins, making them suitable for consistent arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's hourly funding cycle creates more frequent arbitrage opportunities compared to 8-hour cycles on other exchanges. The rollup's low latency enables rapid position adjustments when funding rates diverge significantly from other platforms. Cross-exchange arbitrage works well between Aevo and centralized exchanges trading FIL perpetuals. The platform's options market provides additional delta-neutral strategies using covered calls or protective puts alongside perpetual positions."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller liquidity pool for FIL/USDT means larger positions may experience slippage during volatile periods. The rollup's centralized sequencer creates potential downtime risks that could prevent position adjustments. FIL's correlation with broader crypto markets can lead to unexpected funding rate movements during market stress. Traders should monitor Filecoin network metrics and storage provider activity as fundamental drivers of funding demand."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's 1-hour funding cycle affect FIL arbitrage strategies?",
+        "answer": "The hourly cycle provides more frequent rebalancing opportunities and smaller funding payments per cycle. This allows for tighter risk management and the ability to capture smaller rate differentials that might not be profitable with 8-hour cycles."
+      },
+      {
+        "question": "What makes FIL unique for funding rate arbitrage on Aevo?",
+        "answer": "FIL's utility as a storage network token creates funding demand patterns tied to Filecoin network activity rather than just speculation. This provides more predictable arbitrage opportunities around network upgrades and storage provider incentives."
+      },
+      {
+        "question": "How does Aevo's rollup architecture impact FIL trading costs?",
+        "answer": "The rollup reduces gas costs for funding settlements and position adjustments compared to mainnet DEXs. However, traders must account for potential bridge costs when moving funds to and from the Aevo rollup."
+      },
+      {
+        "question": "Can I use Aevo's options for FIL funding rate arbitrage?",
+        "answer": "Yes, Aevo's combined platform allows delta-neutral strategies using options to hedge perpetual positions. Covered calls can generate additional income while maintaining funding rate exposure, though this adds complexity to the arbitrage setup."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "trx-usdt",
+    "avax-usdt",
+    "pyth-usdt",
+    "ldo-usdt"
+  ]
+}

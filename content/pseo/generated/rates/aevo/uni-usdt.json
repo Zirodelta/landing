@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Aevo UNI/USDT Funding Rate - Hourly Arbitrage Opportunities",
+    "description": "Track UNI/USDT perpetual funding rates on Aevo DEX. Hourly settlements, on-chain execution, and DeFi governance token volatility create unique arbitrage setups.",
+    "keywords": [
+      "aevo funding rate",
+      "uni usdt perpetual",
+      "defi arbitrage",
+      "rollup trading",
+      "hourly funding",
+      "governance token futures",
+      "dex perps"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities through hourly settlements and the platform's specialized rollup infrastructure. As Uniswap's governance token, UNI exhibits distinct volatility patterns that create predictable funding rate cycles, particularly around protocol governance events and DeFi market movements.",
+    "how_funding_works": "Aevo calculates funding rates hourly using a time-weighted average of the premium between perpetual and mark prices over the settlement window. The platform's rollup architecture enables efficient on-chain settlement with reduced gas costs compared to mainnet DEXs. Funding payments occur automatically at each hour mark, with rates typically ranging from -0.05% to +0.15% for UNI/USDT during normal market conditions. The exchange's off-chain order book provides real-time rate predictions while maintaining decentralized settlement.",
+    "why_this_pair": "UNI/USDT funding rates on Aevo often diverge from centralized exchanges due to the platform's DeFi-focused user base and governance token speculation cycles. The pair's moderate liquidity creates opportunities for informed traders to capture rate differentials, especially during Uniswap protocol updates or broader DeFi market shifts. Hourly settlements provide more frequent arbitrage windows compared to 8-hour cycles on other platforms.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "UNI/USDT funding rates on Aevo have historically spiked during Uniswap V4 development announcements and DeFi summer periods, often reaching +0.25% hourly during peak speculation. The pair tends to exhibit negative funding during broader crypto bear markets when governance tokens underperform. Seasonal patterns emerge around quarterly Uniswap governance proposals, with funding typically turning positive 48-72 hours before major votes. Weekend rates generally compress due to lower DeFi trading activity, creating predictable entry points for rate arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Aevo and centralized platforms like Binance or OKX often yields 10-30 basis points spread in UNI/USDT funding rates. The platform's rollup infrastructure allows for efficient position adjustments within the hourly settlement window, enabling traders to capture rate differentials with minimal execution risk. Delta-neutral strategies work particularly well during high volatility periods when Aevo's funding rates diverge significantly from spot-perp premiums. Options market makers on Aevo also create additional funding pressure through delta hedging activities in the perpetual market."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup centralization presents unique counterparty risks not found in traditional CEX arbitrage, as sequencer downtime could prevent position adjustments during critical funding windows. UNI's governance token status creates additional volatility risk from protocol decisions and regulatory developments affecting DeFi platforms. The platform's smaller liquidity pool means large funding rate movements can occur with relatively modest position sizes, requiring careful position management. Rollup bridge risks also apply to USDT collateral, though Aevo's institutional backing provides some security assurances compared to newer rollup DEXs."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding differ from 8-hour cycles on other exchanges?",
+        "answer": "Aevo's hourly funding settlements provide 8x more opportunities for rate arbitrage compared to standard exchanges. This creates more granular profit opportunities but requires active monitoring and faster execution strategies to capture optimal rates."
+      },
+      {
+        "question": "What makes UNI funding rates unique on Aevo compared to CEX platforms?",
+        "answer": "Aevo's DeFi-native user base creates different positioning patterns for governance tokens like UNI, often leading to funding rate premiums during protocol developments. The platform's options trading integration also influences perpetual funding through delta hedging flows."
+      },
+      {
+        "question": "Can I use Aevo's rollup for cross-chain arbitrage with UNI/USDT?",
+        "answer": "Yes, Aevo's rollup enables efficient bridging for arbitrage strategies, though users must account for bridge settlement times and gas costs. The platform's institutional liquidity providers often facilitate larger arbitrage trades with competitive execution."
+      },
+      {
+        "question": "What governance events typically impact UNI funding rates on Aevo?",
+        "answer": "Major Uniswap governance proposals, protocol upgrades, and fee tier adjustments typically drive funding rate spikes on Aevo. V4 development updates and cross-chain deployment announcements also create significant rate volatility as DeFi traders position for protocol changes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "sei-usdt",
+    "atom-usdt",
+    "link-usdt",
+    "shib-usdt"
+  ]
+}

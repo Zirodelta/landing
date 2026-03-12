@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "xrp-usdt",
+    "base": "XRP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Aevo XRP/USDT Funding Rate Arbitrage - DEX Perps Guide",
+    "description": "Track XRP/USDT funding rates on Aevo DEX. Hourly settlements, rollup-based execution, and institutional arbitrage opportunities on this major pair.",
+    "keywords": [
+      "aevo funding rates",
+      "xrp usdt perpetuals",
+      "dex arbitrage",
+      "rollup trading",
+      "hourly funding",
+      "crypto derivatives",
+      "institutional perps"
+    ]
+  },
+  "content": {
+    "intro": "XRP/USDT on Aevo offers unique funding rate arbitrage opportunities through its rollup-based architecture and hourly settlement cycle. As a major altcoin pair with substantial trading volume, XRP exhibits distinct funding patterns driven by institutional flows and cross-exchange arbitrage activity.",
+    "how_funding_works": "Aevo calculates funding rates hourly using a hybrid on-chain/off-chain mechanism where rate determinations occur on the rollup but settlements reference external price feeds. The exchange's 0.02% maker and 0.05% taker fees create a cost structure that favors high-frequency arbitrageurs over retail position holders. Since Aevo operates its own rollup, funding calculations benefit from faster execution times compared to mainnet DEXs, though the centralized sequencer introduces counterparty risk. Rate calculations incorporate both interest rate differentials and premium/discount to spot, with adjustments made for the exchange's smaller liquidity pool relative to centralized competitors.",
+    "why_this_pair": "XRP/USDT represents one of the most liquid major altcoin pairs on Aevo, making it suitable for institutional arbitrage strategies that require predictable execution. The pair's correlation with traditional finance events and regulatory developments creates funding rate volatility that sophisticated traders can exploit. XRP's established market presence and regulatory clarity in certain jurisdictions drive consistent institutional interest, resulting in more stable funding patterns compared to newer altcoins.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "XRP/USDT funding rates on Aevo typically range from -0.05% to +0.15% hourly, with extreme spikes during regulatory announcements or major market moves. During the 2023 Ripple vs SEC developments, funding rates reached +0.3% hourly as retail traders heavily longed XRP across multiple exchanges. The pair exhibits mean reversion tendencies over 24-48 hour periods, with sustained directional funding lasting longer during major trend changes. Aevo's smaller liquidity pool means funding rates can be more volatile than on major CEXs like Binance or OKX, creating additional arbitrage opportunities for traders who can access multiple venues simultaneously."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between Aevo and major CEXs offers consistent opportunities due to Aevo's rollup-based execution and different trader demographics. The hourly settlement cycle creates intraday arbitrage windows, particularly during Asian trading hours when Aevo liquidity is typically lower. Institutional traders can exploit Aevo's pre-launch token markets by establishing positions ahead of major CEX listings, then arbitraging funding differentials once the token goes live on multiple venues. The exchange's combined options and perpetuals offering allows for complex arbitrage strategies using synthetic positions, though this requires sophisticated risk management due to the additional complexity."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's rollup architecture introduces smart contract risk and sequencer centralization that doesn't exist on traditional CEXs, requiring additional due diligence for large arbitrage positions. The exchange's smaller user base and liquidity pool can lead to wider bid-ask spreads during volatile periods, potentially eroding arbitrage profits if not properly managed. Withdrawal times from the rollup to mainnet Ethereum can take several hours during network congestion, creating timing risk for arbitrageurs who need to quickly rebalance positions. Regulatory uncertainty around DEX operations and the exchange's own token incentives can create additional layers of risk that must be factored into position sizing and strategy design."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Aevo's hourly funding cycle affect XRP arbitrage strategies?",
+        "answer": "The hourly cycle provides more frequent arbitrage opportunities compared to 8-hour cycles on major CEXs, but requires active monitoring and faster execution. Traders can capture smaller, more frequent rate differentials while managing overnight exposure more precisely."
+      },
+      {
+        "question": "What are the main risks of funding arbitrage on Aevo vs centralized exchanges?",
+        "answer": "Key risks include rollup sequencer centralization, smaller liquidity pools leading to slippage, and withdrawal delays to mainnet. Smart contract risk and potential regulatory changes affecting DEX operations add additional considerations not present on established CEXs."
+      },
+      {
+        "question": "How do Aevo's maker/taker fees impact XRP funding rate profitability?",
+        "answer": "The 0.02% maker fee is competitive for large arbitrage positions, but the 0.05% taker fee can significantly impact profitability for smaller trades. Successful arbitrageurs typically structure trades to capture maker rebates while minimizing taker fee exposure."
+      },
+      {
+        "question": "Can I use Aevo's options markets to hedge XRP funding rate positions?",
+        "answer": "Yes, Aevo's combined derivatives offering allows for sophisticated hedging strategies using XRP options to protect against adverse funding rate movements. This is particularly useful for longer-term funding arbitrage positions where directional risk needs to be managed."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "pepe-usdt",
+    "sui-usdt",
+    "tia-usdt",
+    "doge-usdt"
+  ]
+}

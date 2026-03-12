@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate on Aevo - Real-time Arbitrage Data",
+    "description": "Track WLD/USDT perpetual funding rates on Aevo DEX. Hourly settlements, 0.02%/0.05% fees. Analyze AI token funding rate arbitrage opportunities.",
+    "keywords": [
+      "WLD funding rate",
+      "Aevo perpetuals",
+      "Worldcoin futures",
+      "AI token arbitrage",
+      "DEX funding rates",
+      "WLD perps",
+      "hourly funding",
+      "rollup trading"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Aevo offer unique funding rate arbitrage opportunities within the AI token sector. Aevo's rollup-based architecture provides hourly funding settlements with competitive 0.02%/0.05% maker/taker fees. The exchange combines options and perpetuals on its own Layer 2, creating distinct funding rate dynamics compared to centralized exchanges.",
+    "how_funding_works": "Aevo calculates WLD/USDT funding rates hourly using an 8-hour TWAP mechanism that compares the perpetual contract price to the underlying index. The exchange's off-chain order book enables efficient price discovery while on-chain settlement ensures transparency. Funding payments occur every hour at minute 0, with rates typically ranging from -0.01% to 0.05% for WLD. Aevo's rollup infrastructure allows for lower gas costs during funding settlement compared to mainnet DEXs.",
+    "why_this_pair": "WLD's positioning as a major AI token creates significant funding rate volatility during sector rotations and news events. The token's relatively mid-tier volume on Aevo can lead to funding rate premiums or discounts compared to larger exchanges. Aevo's unique combination of options and perpetuals markets for WLD creates cross-product arbitrage opportunities that sophisticated traders can exploit.",
+    "sections": [
+      {
+        "heading": "WLD Funding Rate Patterns on Aevo",
+        "body": "WLD funding rates on Aevo typically exhibit higher volatility than established cryptocurrencies due to the token's AI narrative sensitivity and Aevo's smaller liquidity pool. Historical data shows funding rates often spike above 0.03% during AI sector rallies, particularly when OpenAI or related developments drive speculation. The hourly settlement frequency means traders can capture shorter-term sentiment shifts compared to 8-hour funding cycles on other exchanges. Pre-market and post-announcement periods frequently see the most extreme funding rate deviations, sometimes reaching 0.08% in either direction."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Cross-exchange arbitrage between Aevo and centralized platforms like Binance or OKX can be profitable when funding rate differentials exceed 0.02% after accounting for fees. Aevo's rollup settlement typically has 1-2 block confirmations, enabling faster capital rotation than mainnet DEXs. The exchange's options market can provide synthetic exposure for funding rate arbitrage, particularly using put-call parity relationships. Traders should monitor Aevo's pre-launch markets feature, as WLD funding rates often diverge significantly from spot-settled exchanges during token launch periods."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's rollup centralization presents counterparty risk that differs from both CEXs and mainnet DEXs, requiring careful position sizing. WLD's correlation with AI sector sentiment means funding rates can remain extreme longer than mean reversion models suggest. The exchange's smaller liquidity pool increases slippage risk, particularly for positions above $50,000 notional. Rollup bridging delays of 4-7 days for withdrawals to Ethereum mainnet must be factored into arbitrage capital allocation and emergency exit strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WLD funding rates updated on Aevo?",
+        "answer": "Aevo calculates and settles WLD/USDT funding rates every hour at minute 0. The rate is determined using an 8-hour time-weighted average price (TWAP) comparing the perpetual price to the underlying WLD index. This hourly settlement frequency is faster than most exchanges' 8-hour cycles."
+      },
+      {
+        "question": "What makes Aevo's WLD funding rates different from CEXs?",
+        "answer": "Aevo's rollup-based architecture and smaller liquidity pool often create funding rate premiums or discounts compared to major CEXs. The exchange's combined options and perpetuals ecosystem can influence WLD funding through cross-product flows. Additionally, Aevo's pre-launch markets feature sometimes creates unique funding dynamics during token launches."
+      },
+      {
+        "question": "Can I use WLD options on Aevo for funding rate arbitrage?",
+        "answer": "Yes, Aevo's WLD options can create synthetic perpetual exposure through put-call parity relationships, enabling funding rate arbitrage strategies. However, options have their own theta decay and implied volatility considerations that must be factored into the overall arbitrage calculation. The combined options-perpetuals ecosystem is one of Aevo's unique advantages."
+      },
+      {
+        "question": "What are the withdrawal limitations for WLD arbitrage on Aevo?",
+        "answer": "As a rollup-based DEX, Aevo requires 4-7 days for withdrawals to Ethereum mainnet through the optimistic rollup bridge. This significantly impacts arbitrage capital efficiency compared to CEXs with instant withdrawals. Traders typically maintain larger buffer positions or use Aevo as a longer-term arbitrage venue rather than for high-frequency strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "imx-usdt",
+    "ada-usdt",
+    "bnb-usdt",
+    "sei-usdt"
+  ]
+}

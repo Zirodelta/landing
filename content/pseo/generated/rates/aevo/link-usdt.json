@@ -1,0 +1,71 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "link-usdt",
+    "base": "LINK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "LINK/USDT Funding Rate on Aevo - Arbitrage Analysis",
+    "description": "Analyze LINK/USDT perpetual funding rates on Aevo DEX. Track 1-hour funding cycles, rollup performance benefits, and arbitrage opportunities for Chainlink.",
+    "keywords": [
+      "aevo",
+      "link",
+      "usdt",
+      "funding rate",
+      "arbitrage",
+      "chainlink",
+      "perpetual futures",
+      "dex",
+      "rollup"
+    ]
+  },
+  "content": {
+    "intro": "LINK/USDT on Aevo offers unique funding rate dynamics due to the platform's 1-hour funding cycles and rollup-based architecture. As a major infrastructure token with consistent institutional demand, Chainlink perpetuals provide stable arbitrage opportunities on this options-focused DEX.",
+    "how_funding_works": "Aevo calculates LINK/USDT funding rates hourly using its off-chain order book system with on-chain settlement on its custom rollup. The platform aggregates premium data from its internal matching engine and external price feeds to determine funding payments. Settlement occurs automatically through smart contracts, with rates typically ranging from -0.01% to +0.02% per hour for LINK. The rollup architecture enables faster settlement compared to mainnet-based DEXs.",
+    "why_this_pair": "LINK/USDT funding rates on Aevo tend to be more volatile due to smaller liquidity pools compared to centralized exchanges, creating arbitrage opportunities. The pair benefits from institutional LINK staking demand and DeFi protocol usage, often resulting in positive funding rates during market uptrends. Aevo's combined options and perpetuals ecosystem also creates unique hedging flows that impact funding dynamics.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "LINK/USDT funding rates on Aevo have historically shown strong correlation with broader DeFi adoption cycles and oracle service demand. During periods of high smart contract activity, funding rates trend positive as institutions hedge their LINK exposure through perpetuals. The 1-hour funding frequency creates more granular rate adjustments compared to 8-hour cycles on traditional platforms. Rate volatility typically increases during Chainlink ecosystem announcements and major partnership reveals. Monthly average rates range from -0.5% to +1.2% depending on market conditions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage with LINK/USDT is particularly effective between Aevo and major CEXs due to liquidity discrepancies and different funding calculation methods. The rollup's faster settlement enables rapid position adjustments when funding rate spreads exceed 0.05% between exchanges. Intra-DEX arbitrage opportunities also exist between Aevo's perpetual and options markets when implied volatility diverges from funding rate expectations. Automated strategies can capitalize on the predictable funding payment schedule and Aevo's transparent order book data."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Aevo's smaller LINK/USDT liquidity pool increases slippage risk during large arbitrage trades, particularly during volatile market conditions. The custom rollup introduces smart contract risk and potential centralization concerns around sequencer operations. Funding rate arbitrage strategies must account for Aevo's 0.02% maker and 0.05% taker fees, which can erode profits on smaller rate differentials. Bridge delays when moving funds to/from the rollup can impact time-sensitive arbitrage execution during rapid funding rate changes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does LINK/USDT funding settle on Aevo?",
+        "answer": "LINK/USDT funding rates are calculated and settled every hour on Aevo, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. The rollup architecture enables efficient hourly settlements without high gas costs."
+      },
+      {
+        "question": "What makes Aevo's LINK funding rates different from CEXs?",
+        "answer": "Aevo's smaller liquidity pool and combined options/perpetuals ecosystem create more volatile funding rates for LINK/USDT. The DEX structure and institutional hedging flows through options markets often result in funding rate premiums compared to centralized exchanges."
+      },
+      {
+        "question": "Can I arbitrage between Aevo's LINK options and perpetuals?",
+        "answer": "Yes, funding-volatility arbitrage is possible between LINK perpetuals and options on Aevo when implied volatility diverges from funding rate trends. This requires sophisticated strategies that account for options pricing models and perpetual funding mechanics."
+      },
+      {
+        "question": "What are the main risks of LINK funding arbitrage on Aevo?",
+        "answer": "Key risks include rollup smart contract vulnerabilities, bridge delays affecting capital efficiency, and higher slippage due to limited liquidity. The platform's relative novelty also introduces operational risks compared to established exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "meme-usdt",
+    "arb-usdt",
+    "xrp-usdt",
+    "tia-usdt",
+    "ldo-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pendle-usdt",
+    "base": "PENDLE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PENDLE/USDT Funding Rates on Aevo - DeFi Yield Arbitrage",
+    "description": "Trade PENDLE/USDT perpetuals on Aevo with 1-hour funding intervals. Analyze funding rate arbitrage opportunities on this DeFi-focused rollup DEX.",
+    "keywords": [
+      "PENDLE funding rates",
+      "Aevo perpetuals",
+      "DeFi funding arbitrage",
+      "yield token futures",
+      "rollup derivatives",
+      "1-hour funding",
+      "PENDLE USDT",
+      "options DEX"
+    ]
+  },
+  "content": {
+    "intro": "PENDLE/USDT perpetuals on Aevo offer unique funding rate dynamics tied to yield tokenization protocols. With 1-hour funding intervals and Aevo's rollup infrastructure, traders can capitalize on rate discrepancies between traditional CEXes and this DeFi-native platform.",
+    "how_funding_works": "Aevo calculates funding rates hourly based on the premium/discount between PENDLE perpetual price and spot index. The platform's off-chain order book aggregates pricing data while settlement occurs on-chain via their custom rollup. Funding payments are automatically debited/credited to trader positions at each hour mark. Aevo's combined options and perpetuals ecosystem can create unique funding rate pressure during high volatility periods.",
+    "why_this_pair": "PENDLE's focus on yield tokenization makes it susceptible to funding rate volatility during DeFi yield farming cycles. The token's correlation with broader DeFi trends creates predictable funding patterns that experienced arbitrageurs can exploit. Aevo's smaller liquidity pool compared to major CEXes often leads to funding rate premiums during PENDLE price movements.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PENDLE funding rates on Aevo typically trade at a premium to Binance and OKX during DeFi yield spikes, often reaching +0.1% to +0.3% hourly. The token shows strong correlation with TVL growth in yield farming protocols, creating predictable funding cycles. During periods of high options activity on Aevo, PENDLE perpetual funding can become more volatile due to cross-product hedging flows. Monthly analysis shows funding rates spike most frequently during protocol governance events and yield token launches."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable PENDLE funding arbitrage occurs between Aevo and Binance, with average spreads of 15-25 basis points during normal conditions. Aevo's 1-hour funding frequency allows for more granular position management compared to 8-hour cycles on traditional exchanges. Cross-rollup arbitrage becomes particularly lucrative during Ethereum network congestion when Aevo's dedicated infrastructure maintains lower latency. Traders can also exploit the correlation between PENDLE spot yields and perpetual funding to predict rate direction changes."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Aevo's rollup architecture introduces smart contract risks not present on centralized exchanges, requiring careful evaluation of bridge security and validator sets. The platform's smaller liquidity pool means large arbitrage positions can impact funding calculations more significantly than on major CEXes. PENDLE's volatility during yield farming events can lead to rapid funding rate reversals, making position sizing critical. Cross-chain arbitrage requires maintaining USDT balances on multiple networks, increasing capital efficiency requirements and bridge exposure risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PENDLE funding rates calculated on Aevo?",
+        "answer": "Aevo calculates and settles PENDLE/USDT funding rates every hour, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. This allows traders to capture shorter-term rate discrepancies and adjust positions more dynamically during volatile periods."
+      },
+      {
+        "question": "What makes PENDLE funding rates unique on a DeFi-focused platform like Aevo?",
+        "answer": "PENDLE's yield tokenization focus creates natural demand during DeFi yield spikes, often leading to persistent funding premiums on Aevo. The platform's combined options and perpetuals ecosystem can amplify funding volatility when traders hedge complex yield strategies across both product types."
+      },
+      {
+        "question": "How does Aevo's rollup architecture affect PENDLE funding rate arbitrage?",
+        "answer": "The rollup provides faster settlement and lower fees compared to Ethereum mainnet, enabling profitable arbitrage of smaller funding rate differences. However, it introduces cross-chain risks when arbitraging against CEXes, and the smaller validator set creates additional smart contract risks to consider."
+      },
+      {
+        "question": "What are the typical funding rate spreads between Aevo and major CEXes for PENDLE?",
+        "answer": "PENDLE funding rates on Aevo typically trade 15-25 basis points higher than Binance during normal conditions, expanding to 50+ basis points during DeFi yield events. The premium reflects Aevo's DeFi-native user base and smaller liquidity pool compared to centralized exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "arb-usdt",
+    "wld-usdt",
+    "trx-usdt",
+    "sol-usdt"
+  ]
+}

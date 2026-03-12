@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bnb-usdt",
+    "base": "BNB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Aevo BNB/USDT Funding Rate - DEX Perp Trading",
+    "description": "Track Aevo BNB/USDT perpetual funding rates and arbitrage opportunities on this rollup-based DEX. 1-hour intervals, 0.02%/0.05% fees.",
+    "keywords": [
+      "aevo funding rate",
+      "bnb usdt perpetual",
+      "dex funding arbitrage",
+      "aevo perp trading",
+      "rollup derivatives",
+      "funding rate tracker",
+      "bnb perpetual futures",
+      "aevo exchange"
+    ]
+  },
+  "content": {
+    "intro": "Aevo's BNB/USDT perpetual futures operate on a dedicated rollup with hourly funding rate settlements. As a DEX specializing in options and perpetuals, Aevo offers unique arbitrage opportunities through its hybrid on-chain/off-chain architecture.",
+    "how_funding_works": "Funding rates on Aevo settle every hour based on the premium between perpetual and spot prices. The rollup architecture enables faster settlement compared to mainnet DEXs while maintaining on-chain transparency. Funding calculations incorporate both internal order book data and external price feeds to determine the 8-hour TWAP used for rate determination. Long positions pay short positions when rates are positive, with payments processed automatically through the smart contract system.",
+    "why_this_pair": "BNB/USDT on Aevo benefits from strong correlation with BSC ecosystem developments and Binance announcements. The pair typically shows elevated funding rates during BNB token burns and major BSC upgrades, creating predictable arbitrage windows. Aevo's smaller liquidity pool means funding rates can diverge more significantly from larger exchanges, offering enhanced arbitrage potential for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BNB/USDT funding rates on Aevo have historically ranged from -0.15% to +0.25% during normal market conditions. Extreme rates often coincide with quarterly BNB burns, where positive rates can spike above 0.5% as traders anticipate price appreciation. During bear markets, the pair frequently exhibits negative funding rates as short interest increases. The hourly settlement frequency means rates adjust more rapidly to market sentiment changes compared to 8-hour funding systems. Cross-exchange rate differentials of 0.1-0.3% are common during high volatility periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Aevo's rollup architecture creates unique arbitrage scenarios where funding rates can diverge significantly from CEX rates due to lower liquidity depth. The combination of options and perpetuals on the same platform allows for complex delta-neutral strategies that capitalize on funding rate premiums. Traders can exploit rate differences by maintaining opposite positions on Aevo versus larger exchanges like Binance or OKX. The 0.02% maker fee structure makes frequent rebalancing economical for arbitrageurs with sufficient capital. Pre-launch token markets on Aevo also create opportunities for funding rate arbitrage ahead of major listings."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Rollup centralization presents counterparty risk despite on-chain settlement guarantees, as sequencer downtime could impact position management. Lower liquidity on Aevo means larger positions may experience significant slippage during volatile periods. The complex product mix requires careful position sizing to avoid unintended exposure to options greeks. Smart contract risk exists despite audits, particularly given the novel rollup implementation. Funding rate arbitrage profits can be quickly eroded by gas costs when bridging assets between Aevo and other chains for hedging purposes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does BNB/USDT funding settle on Aevo?",
+        "answer": "Funding settlements occur every hour on Aevo, providing 24 settlement periods per day. This is more frequent than the standard 8-hour cycles used by most perpetual futures exchanges, allowing for more responsive rate adjustments."
+      },
+      {
+        "question": "What are typical funding rate ranges for BNB/USDT on Aevo?",
+        "answer": "Normal market conditions see rates between -0.15% to +0.25% per funding period. During BNB token burns or major BSC announcements, rates can spike above 0.5% as directional bias increases significantly."
+      },
+      {
+        "question": "Can I arbitrage between Aevo and centralized exchanges?",
+        "answer": "Yes, cross-exchange arbitrage is possible but requires careful consideration of bridge costs and timing. Aevo's lower liquidity often creates rate premiums that can be captured against deeper CEX markets, though position sizing must account for slippage differences."
+      },
+      {
+        "question": "What makes Aevo's funding calculation unique?",
+        "answer": "Aevo uses its rollup architecture to combine off-chain order book data with on-chain price feeds for funding calculations. The hourly settlement frequency and hybrid architecture can create different rate dynamics compared to purely on-chain or centralized systems."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "sui-usdt",
+    "pendle-usdt",
+    "ordi-usdt",
+    "floki-usdt"
+  ]
+}

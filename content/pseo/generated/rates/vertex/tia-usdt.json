@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rate on Vertex DEX - Arbitrage Guide",
+    "description": "Track TIA/USDT perpetual funding rates on Vertex DEX. Analyze hourly rates, cross-margin opportunities, and arbitrage strategies on this Arbitrum-based exchange.",
+    "keywords": [
+      "TIA funding rate",
+      "Vertex DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "Arbitrum DEX",
+      "TIA/USDT",
+      "cross-margin trading",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on Vertex offer unique funding rate opportunities through the platform's hybrid DEX architecture on Arbitrum. With hourly funding payments and 0.02%/0.03% trading fees, Vertex provides efficient access to TIA funding rate arbitrage. The exchange's cross-margin system and fast sequencer enable responsive position management for funding rate strategies.",
+    "how_funding_works": "Vertex calculates TIA/USDT funding rates hourly using a combination of perpetual-spot price differentials and interest rate components. The platform's on-chain risk engine ensures transparent rate calculations while the off-chain sequencer enables rapid position updates. Cross-margin is enabled by default, allowing traders to efficiently manage multiple positions across different assets. Funding payments occur every hour, with rates typically ranging from -0.01% to +0.05% depending on market sentiment toward TIA.",
+    "why_this_pair": "TIA represents critical infrastructure in the modular blockchain ecosystem, creating distinct funding rate patterns driven by staking yields and ecosystem developments. The pair often experiences elevated funding rates during network upgrades or major partnership announcements. Vertex's low taker fees make TIA/USDT particularly attractive for high-frequency funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical TIA Funding Rate Patterns",
+        "body": "TIA/USDT funding rates on Vertex have shown strong correlation with broader modular blockchain narrative cycles and TIA staking reward changes. During periods of high network activity or mainnet milestones, funding rates frequently spike above 0.1% hourly as perpetual demand exceeds spot market depth. The pair typically maintains positive funding bias due to institutional long interest in infrastructure tokens. Volatility in funding rates often precedes major TIA price movements by 6-12 hours."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "Vertex's competitive fee structure creates consistent arbitrage opportunities against centralized exchanges like Binance and OKX for TIA funding rates. The platform's Arbitrum-based infrastructure enables rapid hedging through spot DEXs like Uniswap V3, often with minimal gas costs. Arbitrageurs frequently exploit 10-20 basis point funding rate differentials between Vertex and CEXs. The exchange's cross-margin system allows efficient capital allocation across multiple funding rate trades simultaneously."
+      },
+      {
+        "heading": "Risk Management on Vertex",
+        "body": "Vertex's sequencer centralization presents unique risks despite its decentralized architecture, particularly during network congestion or sequencer downtime. The platform's cross-margin system requires careful monitoring as liquidations can cascade across positions during volatile TIA funding rate spikes. Gas fee fluctuations on Arbitrum can impact profitability of funding rate strategies, especially during high network usage periods. Traders should maintain adequate collateral buffers due to TIA's infrastructure token volatility and potential for rapid funding rate changes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are TIA funding rates calculated on Vertex?",
+        "answer": "Vertex calculates and applies TIA/USDT funding rates every hour. This frequent update cycle allows for more responsive rate adjustments compared to 8-hour systems, creating additional arbitrage opportunities for active traders."
+      },
+      {
+        "question": "What makes Vertex's cross-margin beneficial for TIA funding strategies?",
+        "answer": "Vertex's default cross-margin system allows traders to use TIA positions as collateral for other trades, improving capital efficiency. This enables sophisticated funding rate strategies across multiple assets while maintaining lower margin requirements than isolated positions."
+      },
+      {
+        "question": "How do Vertex's fees compare for TIA funding rate arbitrage?",
+        "answer": "With 0.02% maker and 0.03% taker fees, Vertex offers some of the lowest trading costs for TIA perpetuals among DEXs. These competitive fees significantly improve net returns from funding rate arbitrage strategies compared to higher-fee platforms."
+      },
+      {
+        "question": "What are the main risks of TIA funding rate trading on Vertex?",
+        "answer": "Primary risks include sequencer centralization, cross-margin liquidation cascades, and Arbitrum gas fee volatility. TIA's infrastructure token status also creates exposure to broader blockchain narrative shifts that can rapidly change funding rate dynamics and position profitability."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "ena-usdt",
+    "bnb-usdt",
+    "bonk-usdt",
+    "mkr-usdt"
+  ]
+}

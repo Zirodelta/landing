@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "arb-usdt",
+    "base": "ARB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ARB/USDT Funding Rate on GMX - Live Perpetual Trading Data",
+    "description": "Track ARB/USDT funding rates on GMX DEX. Hourly funding updates, arbitrage opportunities, and oracle-based perpetual mechanics on Arbitrum network.",
+    "keywords": [
+      "ARB funding rate",
+      "GMX perpetuals",
+      "Arbitrum trading",
+      "funding rate arbitrage",
+      "oracle DEX",
+      "GLP liquidity",
+      "hourly funding",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "GMX offers ARB/USDT perpetual futures with hourly funding rate updates, utilizing its oracle-based pricing system and GLP liquidity pools. As the dominant perpetual DEX on Arbitrum, GMX provides direct exposure to ARB's native token through decentralized trading infrastructure.",
+    "how_funding_works": "GMX calculates funding rates based on the deviation between perpetual prices and oracle-fed spot prices, with payments occurring every hour. The protocol uses Chainlink and other price feeds to maintain accurate ARB pricing, while GLP holders effectively act as the counterparty to all perpetual positions. Funding rates adjust dynamically to balance long and short interest, with typical rates ranging from -0.01% to 0.01% per hour during normal market conditions.",
+    "why_this_pair": "ARB/USDT on GMX represents a unique arbitrage opportunity as it's the native token of the Arbitrum ecosystem where GMX operates. The pair often exhibits funding rate disparities compared to centralized exchanges due to GMX's oracle dependency and smaller trader base. This creates potential arbitrage windows for sophisticated traders familiar with cross-DEX strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ARB/USDT funding rates on GMX have shown distinct patterns tied to Arbitrum ecosystem developments and broader L2 adoption cycles. During network upgrades or major DeFi protocol launches on Arbitrum, funding rates often skew positive as speculation drives long interest. The hourly funding frequency creates more granular rate adjustments compared to traditional 8-hour cycles, allowing for faster equilibrium restoration. Historical data shows funding rates spiking during ARB token unlock events and correlating with overall DeFi TVL flows into Arbitrum."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "GMX's oracle-based pricing creates funding rate arbitrage opportunities when compared to order book exchanges like Binance or Bybit. The 0.05%-0.07% maker/taker fees must be factored against potential funding differentials, typically requiring rate gaps exceeding 0.02% per hour for profitability. Arbitrageurs can exploit GMX's price discovery lag during high volatility periods, particularly when ARB experiences rapid price movements. The DEX's reliance on external price feeds occasionally creates temporary mispricings that sophisticated traders can capitalize on through delta-neutral strategies."
+      },
+      {
+        "heading": "Risk Considerations and Mechanics",
+        "body": "GMX's oracle dependency introduces smart contract risk and potential price feed manipulation concerns unique to decentralized perpetuals. Slippage can be significant for larger positions due to GLP pool depth limitations, especially during volatile periods when ARB experiences major price swings. The protocol's maximum leverage limits and liquidation mechanics differ from traditional exchanges, requiring careful position sizing. Gas costs on Arbitrum, while lower than Ethereum mainnet, still impact smaller arbitrage strategies and must be calculated into overall profitability assessments."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does GMX update ARB/USDT funding rates?",
+        "answer": "GMX updates funding rates every hour for all perpetual pairs including ARB/USDT. This more frequent update cycle compared to the standard 8-hour funding allows for faster market equilibrium and creates unique arbitrage timing opportunities."
+      },
+      {
+        "question": "What makes GMX's ARB funding rates different from CEX rates?",
+        "answer": "GMX uses oracle-based pricing and GLP liquidity pools rather than order books, creating different supply/demand dynamics. The smaller trader base and Arbitrum-native audience often leads to funding rate disparities compared to major centralized exchanges trading the same pair."
+      },
+      {
+        "question": "Can I arbitrage ARB funding rates between GMX and other exchanges?",
+        "answer": "Yes, funding rate arbitrage between GMX and centralized exchanges is possible, but requires accounting for GMX's higher fees (0.05%-0.07%) and potential slippage. The strategy works best when funding differentials exceed 0.02% per hour to cover transaction costs."
+      },
+      {
+        "question": "What oracle risks affect ARB/USDT perpetuals on GMX?",
+        "answer": "GMX relies on external price feeds for ARB pricing, creating dependency risk if oracles malfunction or are manipulated. During extreme volatility, oracle price lags can temporarily disconnect perpetual prices from true market values, affecting funding rate calculations."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "btc-usdt",
+    "tia-usdt",
+    "rune-usdt",
+    "op-usdt"
+  ]
+}

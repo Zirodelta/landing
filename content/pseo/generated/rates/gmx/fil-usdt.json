@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rates on GMX - Arbitrage Guide",
+    "description": "Track FIL/USDT perpetual funding rates on GMX DEX. Hourly payments, oracle-based pricing, and arbitrage opportunities on Arbitrum's leading derivatives platform.",
+    "keywords": [
+      "FIL funding rates",
+      "GMX perpetuals",
+      "Filecoin arbitrage",
+      "DEX funding",
+      "Arbitrum derivatives",
+      "oracle-based futures",
+      "hourly funding",
+      "GLP liquidity"
+    ]
+  },
+  "content": {
+    "intro": "GMX's FIL/USDT perpetual offers hourly funding rate opportunities with oracle-based pricing and deep GLP liquidity backing. As one of the infrastructure tokens with significant storage mining activity, FIL often exhibits funding rate inefficiencies that traders can exploit.",
+    "how_funding_works": "GMX calculates funding rates hourly based on the premium/discount between perpetual and oracle prices, with payments occurring every hour on the hour. The platform uses Chainlink price feeds for FIL, ensuring accurate mark pricing without the manipulation risks of order book systems. Funding rates are capped at ±2.5% per hour, providing predictable maximum exposure while maintaining liquidity through the GLP pool mechanism.",
+    "why_this_pair": "FIL's infrastructure narrative and storage mining economics create distinct funding rate patterns compared to pure DeFi tokens. The token's utility in decentralized storage and its correlation with data storage demand often leads to sustained directional bias in perpetual markets, creating persistent funding rate arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FIL funding rates on GMX have shown notable seasonality around storage mining cycles and network upgrade events. During periods of increased storage demand or Filecoin network improvements, long funding rates often spike above 0.1% hourly for extended periods. The token's infrastructure utility creates less speculative volatility than meme coins, resulting in more predictable funding rate cycles. Historical data shows FIL funding rates tend to correlate with broader infrastructure token sentiment rather than pure crypto market movements."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "GMX's hourly funding payments create frequent arbitrage windows, especially during network upgrade announcements or storage capacity expansions. Traders can exploit funding rate differentials between GMX and centralized exchanges like Binance or OKX, where FIL often trades with different funding schedules. The oracle-based pricing on GMX eliminates front-running risks but requires monitoring for price feed delays during high volatility. Position sizing should account for GMX's 0.05% opening fees and potential price impact on larger trades through the GLP pool."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Oracle dependency presents the primary risk for FIL perpetuals on GMX, particularly during Chainlink feed outages or extreme market conditions. The platform's reliance on GLP liquidity means large FIL positions may face increased borrowing costs during periods of pool imbalance. Funding rate arbitrage positions should be sized considering GMX's dynamic fee structure, which can increase during high utilization periods. Traders must also monitor Filecoin network health and storage mining economics, as fundamental changes can create sustained funding rate trends that challenge traditional mean reversion strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do FIL funding payments occur on GMX?",
+        "answer": "GMX pays funding rates hourly for FIL/USDT perpetuals, with payments occurring at the top of each hour. This frequency is higher than most centralized exchanges, creating more opportunities for funding rate arbitrage strategies."
+      },
+      {
+        "question": "What drives FIL funding rates on GMX compared to other tokens?",
+        "answer": "FIL funding rates are influenced by storage mining economics, network upgrades, and infrastructure adoption rather than pure speculation. This creates more predictable patterns linked to Filecoin's utility as a decentralized storage platform."
+      },
+      {
+        "question": "How does GMX's oracle pricing affect FIL perpetual trading?",
+        "answer": "GMX uses Chainlink price feeds for FIL mark pricing, eliminating manipulation risks but creating potential arbitrage opportunities when the oracle price diverges from spot markets. This system provides fair pricing but may introduce brief delays during high volatility."
+      },
+      {
+        "question": "What are the fee implications for FIL funding rate arbitrage on GMX?",
+        "answer": "GMX charges 0.05% to open positions and 0.07% to close, plus dynamic borrowing fees based on GLP pool utilization. These fees must be factored into funding rate arbitrage calculations, especially for shorter-term positions where hourly funding may not cover transaction costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "apt-usdt",
+    "ena-usdt",
+    "pyth-usdt",
+    "matic-usdt"
+  ]
+}
