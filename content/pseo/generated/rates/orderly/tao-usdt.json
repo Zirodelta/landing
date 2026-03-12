@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tao-usdt",
+    "base": "TAO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TAO/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track TAO/USDT perpetual funding rates on Orderly Network's shared liquidity layer. Hourly funding settlements with 0.02%/0.05% fees across multi-chain DEX.",
+    "keywords": [
+      "TAO funding rates",
+      "Orderly Network",
+      "Bittensor perpetuals",
+      "DEX funding arbitrage",
+      "shared liquidity",
+      "NEAR DeFi",
+      "AI token futures",
+      "cross-chain perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "TAO/USDT perpetuals on Orderly Network offer unique funding rate opportunities through the platform's shared order book infrastructure. As a decentralized exchange layer powering multiple DEX frontends, Orderly provides cross-chain access to Bittensor's native token with hourly funding settlements.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and spot prices across its shared liquidity pool. The decentralized infrastructure automatically distributes payments between long and short positions at each settlement. Funding rates adjust dynamically based on position imbalances across all connected DEX frontends. The shared order book model means funding calculations incorporate liquidity from multiple sources, potentially creating more stable rate patterns than isolated DEX pools.",
+    "why_this_pair": "TAO represents Bittensor's decentralized AI network, making it a high-volatility asset with frequent funding rate spikes during AI market cycles. The token's mid-tier trading volume on Orderly creates opportunities for significant rate premiums when directional bias emerges. TAO's correlation with AI narrative cycles often generates predictable funding patterns that experienced arbitrageurs can exploit.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TAO funding rates on Orderly Network have shown extreme volatility during AI market cycles, with rates frequently exceeding ±0.5% during major news events. The shared liquidity model tends to moderate extreme rates compared to smaller DEX pools, but TAO still experiences significant premiums during bull runs. Hourly settlements create more frequent arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Rate patterns often correlate strongly with broader AI sector momentum and Bittensor network developments. Weekend periods typically show reduced volatility as institutional participation decreases across the shared order book."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The shared liquidity infrastructure creates unique cross-DEX arbitrage possibilities when funding rates diverge between Orderly and centralized exchanges. TAO's mid-tier volume means large positions can still move rates significantly, creating opportunities for informed traders. The 0.02%/0.05% fee structure on Orderly is competitive for funding rate strategies, especially during high-rate periods. Multi-chain access allows arbitrageurs to deploy capital from different ecosystems, potentially improving capital efficiency. The complex architecture sometimes creates latency advantages for sophisticated traders who understand the settlement mechanics."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "TAO's high volatility can quickly erode funding rate profits if directional exposure isn't properly hedged across venues. The shared order book model introduces counterparty risks across multiple DEX frontends that may not be immediately apparent. Smart contract risks exist at both the Orderly infrastructure layer and connected frontend applications. Liquidity fragmentation across the network can create slippage issues during volatile periods, affecting arbitrage execution. The dependence on frontend partners means access could be disrupted if primary interfaces experience technical issues."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect TAO funding rates?",
+        "answer": "The shared order book aggregates liquidity from multiple DEX frontends, which typically stabilizes funding rates compared to isolated pools. However, TAO's volatility can still create significant rate spikes when directional bias emerges across the entire network."
+      },
+      {
+        "question": "What are the advantages of TAO funding arbitrage on a DEX versus CEX?",
+        "answer": "Orderly Network offers lower fees than most centralized exchanges and provides access to cross-chain liquidity. The hourly funding settlements create more frequent arbitrage opportunities, and the decentralized nature eliminates counterparty risk from exchange insolvency."
+      },
+      {
+        "question": "How reliable is TAO liquidity on Orderly Network during market stress?",
+        "answer": "TAO maintains mid-tier volume on Orderly, but liquidity can fragment during extreme volatility as traders migrate between connected frontends. The shared order book helps maintain depth, but large positions should still be executed carefully during high-volatility periods."
+      },
+      {
+        "question": "What technical risks should I consider for TAO perpetuals on Orderly?",
+        "answer": "Key risks include smart contract vulnerabilities in the shared infrastructure, potential frontend disruptions affecting access, and the complex multi-chain architecture creating additional failure points. Always maintain alternative access routes and monitor network status across multiple frontends."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sui-usdt",
+    "ada-usdt",
+    "xrp-usdt",
+    "ldo-usdt",
+    "jup-usdt"
+  ]
+}

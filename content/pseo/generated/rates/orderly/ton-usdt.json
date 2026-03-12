@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ton-usdt",
+    "base": "TON",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TON/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track hourly TON/USDT perpetual funding rates on Orderly Network. Analyze arbitrage opportunities across the shared liquidity infrastructure.",
+    "keywords": [
+      "ton usdt funding rate",
+      "orderly network perpetuals",
+      "dex funding arbitrage",
+      "ton perpetual futures",
+      "cross-chain funding",
+      "near protocol defi",
+      "shared liquidity",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "TON/USDT perpetual futures on Orderly Network offer unique funding rate arbitrage opportunities through the protocol's shared liquidity infrastructure. As Telegram's blockchain token with substantial retail following, TON experiences pronounced sentiment-driven price movements that create persistent funding rate imbalances across exchanges.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual price and spot index across its shared order book. The protocol aggregates positions from multiple frontend partners, creating deeper liquidity that can lead to more stable funding rates compared to isolated DEX pools. Payments are settled automatically every hour, with the shared infrastructure enabling consistent execution across all connected frontends. The 0.02%/0.05% fee structure applies to funding calculations, making arbitrage costs more predictable than variable gas fee environments.",
+    "why_this_pair": "TON's strong retail community and Telegram ecosystem integration create frequent funding rate spikes during trending periods. The token's Layer 1 status and large trading volume provide sufficient liquidity for meaningful arbitrage positions. Orderly's cross-chain infrastructure allows traders to compare funding rates with other chains efficiently.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TON/USDT funding rates on Orderly Network typically range from -0.01% to 0.03% hourly, with extreme spikes reaching ±0.1% during major Telegram announcements or ecosystem developments. The shared liquidity model tends to dampen rate volatility compared to isolated DEX pools, as positions aggregate across multiple frontends. During TON's integration announcements with Telegram features, funding rates have sustained positive premiums for 24-48 hour periods. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour systems, particularly beneficial during TON's frequent retail-driven volatility cycles."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly's NEAR/EVM bridge infrastructure enables unique arbitrage strategies comparing TON funding rates across different blockchain ecosystems. The shared order book often maintains different rate dynamics than Ethereum-based perpetual DEXs due to varying user bases and liquidity sources. During periods of high Ethereum gas fees, Orderly's NEAR-based settlement can offer cost advantages for frequent funding arbitrage strategies. The protocol's white-label architecture means funding rates reflect aggregated sentiment across multiple DEX frontends, potentially creating arbitrage gaps with single-interface competitors."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "TON's strong correlation with broader crypto sentiment and Telegram's user adoption metrics creates additional fundamental risk factors beyond typical perpetual trading. The shared liquidity model introduces dependencies on frontend partner stability and NEAR network performance for position management. Orderly's complex multi-chain architecture requires monitoring bridge security and cross-chain message delays that could affect arbitrage timing. Funding rate calculations depend on reliable price feeds across the shared infrastructure, making oracle reliability crucial for accurate rate predictions during TON's volatile periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect TON/USDT funding rates?",
+        "answer": "The shared order book aggregates positions from multiple DEX frontends, creating deeper liquidity that typically results in more stable funding rates than isolated pools. This can reduce extreme rate spikes but may also limit maximum arbitrage opportunities during high volatility periods."
+      },
+      {
+        "question": "What makes TON funding arbitrage unique on cross-chain infrastructure?",
+        "answer": "TON's strong Telegram ecosystem creates retail-driven sentiment that often differs across blockchain communities. Orderly's NEAR/EVM bridge allows comparison with Ethereum-based rates, while the hourly settlement provides more frequent arbitrage windows than traditional 8-hour systems."
+      },
+      {
+        "question": "How do NEAR network conditions impact TON perpetual trading costs?",
+        "answer": "NEAR's low transaction costs benefit high-frequency funding arbitrage strategies, especially when Ethereum gas fees are elevated. However, cross-chain bridge delays during network congestion can affect position entry timing for time-sensitive arbitrage opportunities."
+      },
+      {
+        "question": "What risks come with Orderly's multi-frontend dependency for TON trading?",
+        "answer": "The shared infrastructure means funding calculations depend on all connected frontends functioning properly. If major frontend partners experience issues, it could affect liquidity depth and rate accuracy. Additionally, the complex architecture requires monitoring multiple components for optimal arbitrage execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bonk-usdt",
+    "ada-usdt",
+    "op-usdt",
+    "sui-usdt",
+    "eth-usdt"
+  ]
+}

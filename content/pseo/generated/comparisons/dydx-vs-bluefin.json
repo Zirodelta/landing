@@ -1,0 +1,88 @@
+{
+  "slug": "dydx-vs-bluefin",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand with proven track record",
+      "Cosmos appchain sovereignty for better performance",
+      "1-hour funding intervals enable frequent arbitrage"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx to Cosmos",
+      "Lower volume post-migration affecting liquidity",
+      "Limited trading pair selection compared to CEXs"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Leading perpetual DEX in Sui ecosystem",
+      "Professional trading UI with institutional features",
+      "Sub-second settlement times on Sui blockchain"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still in early adoption phase",
+      "Very limited trading pair offerings",
+      "Low overall trading volume affects rate stability"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Sui blockchain"
+    }
+  },
+  "rate_mechanics": "Both dYdX and Bluefin use 1-hour funding intervals with similar rate calculation methodologies based on premium/discount to spot prices. dYdX benefits from higher volume leading to more stable rate patterns, while Bluefin's lower liquidity can create more volatile funding rates. Both platforms use TWAP-based calculations but dYdX's mature orderbook typically produces more predictable rate movements. Settlement speed favors Bluefin due to Sui's sub-second finality versus Cosmos block times.",
+  "verdict": "dYdX remains the more established choice for funding rate arbitrage with higher liquidity and proven rate stability, despite post-migration volume challenges. Bluefin offers superior settlement speeds and a clean trading interface but lacks the volume depth needed for consistent arbitrage opportunities.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "dYdX typically provides more consistent arbitrage opportunities due to higher trading volumes and more predictable rate patterns, though both use identical 1-hour funding intervals."
+    },
+    {
+      "question": "How do settlement speeds compare between dYdX and Bluefin?",
+      "answer": "Bluefin offers faster settlement with sub-second finality on Sui, while dYdX operates on Cosmos with slightly longer block times but still maintains efficient execution."
+    },
+    {
+      "question": "Are trading fees identical on both platforms?",
+      "answer": "Yes, both platforms use the same fee structure of 0.02% for makers and 0.05% for takers, making fee costs neutral in platform selection for arbitrage."
+    },
+    {
+      "question": "Which DEX has better liquidity for large arbitrage positions?",
+      "answer": "dYdX maintains deeper liquidity pools despite post-migration volume decline, while Bluefin's emerging status in the Sui ecosystem means smaller position sizes are more suitable currently."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Bluefin: DEX Perpetual Funding Rate Comparison",
+    "description": "Compare dYdX and Bluefin perpetual futures for funding rate arbitrage. Analyze fees, settlement speeds, and liquidity depth on leading decentralized derivatives platforms.",
+    "keywords": [
+      "dydx bluefin comparison",
+      "dex perpetual funding rates",
+      "cosmos sui derivatives",
+      "decentralized futures trading",
+      "funding rate arbitrage dex",
+      "dydx vs bluefin fees",
+      "perpetual swap dex"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOGE/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track DOGE/USDT perpetual futures funding rates on Orderly Network. Hourly settlements, shared liquidity layer, and arbitrage opportunities across multi-chain DEX.",
+    "keywords": [
+      "DOGE funding rates",
+      "Orderly Network",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "DOGE USDT",
+      "DEX trading",
+      "meme coin funding",
+      "NEAR protocol"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network's DOGE/USDT perpetual futures offer unique funding rate opportunities through its shared liquidity infrastructure layer. With hourly funding settlements and 0.02%/0.05% maker/taker fees, traders can capitalize on DOGE's volatility-driven funding rate fluctuations across multiple DEX frontends.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium/discount between perpetual and spot prices across its shared order book. The rate applies to all DEX frontends using Orderly's infrastructure, creating consistent funding payments every hour. Funding is exchanged directly between long and short position holders, with no exchange intervention. The shared liquidity model means funding rates reflect aggregate sentiment across all connected DEX interfaces.",
+    "why_this_pair": "DOGE/USDT presents compelling funding rate arbitrage opportunities due to DOGE's high retail sentiment sensitivity and social media-driven price swings. The meme coin's volatility creates frequent funding rate spikes during trending periods, while Orderly's multi-chain accessibility allows arbitrage across NEAR and EVM ecosystems. The pair's large volume ensures sufficient liquidity for meaningful position sizes.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE/USDT funding rates on Orderly Network typically range from -0.1% to +0.3% during normal market conditions, with extreme spikes reaching ±1% during viral social media events. Positive funding dominates during bull runs when retail FOMO drives long bias, while negative rates emerge during rapid selloffs. Weekend periods often show reduced funding volatility due to lower social media engagement. The hourly settlement frequency captures short-term sentiment shifts more effectively than 8-hour cycles on other exchanges."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly's shared liquidity layer creates arbitrage opportunities between its funding rates and other DEX/CEX platforms trading DOGE perpetuals. Traders can exploit rate differentials by taking opposite positions across exchanges when Orderly's rates diverge significantly from market averages. The infrastructure's multi-chain support enables arbitrage between NEAR-based and EVM-compatible platforms. Monitor rate spreads of >0.05% for profitable opportunities after accounting for transaction costs and slippage."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "DOGE's meme coin volatility creates substantial liquidation risks during funding rate arbitrage strategies, requiring careful position sizing and margin management. Orderly's dependence on frontend partners introduces execution risk if primary interfaces experience downtime during critical market moves. The shared order book architecture means liquidity fragmentation across frontends can impact large position entries/exits. Set stop-losses at 15-20% adverse moves and maintain margin ratios above 25% to account for DOGE's price gaps."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are DOGE/USDT funding rates calculated on Orderly Network?",
+        "answer": "Funding rates are calculated and applied every hour on Orderly Network, providing more frequent settlement opportunities compared to traditional 8-hour cycles. This allows traders to capture shorter-term sentiment shifts in DOGE's volatile price action."
+      },
+      {
+        "question": "Can I access DOGE/USDT funding arbitrage across all Orderly frontends?",
+        "answer": "Yes, Orderly's shared order book means funding rates are consistent across all DEX frontends using their infrastructure. You can execute positions through any connected interface like WOOFi, Ref Finance, or other partners while accessing the same liquidity pool."
+      },
+      {
+        "question": "What's the minimum position size for meaningful DOGE funding arbitrage?",
+        "answer": "Due to Orderly's 0.02%/0.05% trading fees, profitable funding arbitrage typically requires positions of at least $1,000 USDT to overcome fee costs. Larger positions of $5,000+ provide better risk-adjusted returns when capturing funding rate premiums."
+      },
+      {
+        "question": "How does DOGE funding on Orderly compare to centralized exchanges?",
+        "answer": "Orderly's hourly funding often shows higher volatility than CEX 8-hour rates due to more frequent sentiment capture. The DEX structure can create rate premiums during high-volatility periods when users prefer decentralized exposure to DOGE's price movements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "rune-usdt",
+    "near-usdt",
+    "fet-usdt",
+    "meme-usdt",
+    "avax-usdt"
+  ]
+}

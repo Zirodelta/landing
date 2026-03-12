@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rates on Paradex DEX | Arbitrage Guide",
+    "description": "Track FIL/USDT perpetual funding rates on Paradex DEX. Hourly funding updates, StarkNet-based self-custodial trading with portfolio margin for Filecoin perps.",
+    "keywords": [
+      "FIL funding rates",
+      "Paradex DEX",
+      "Filecoin perpetuals",
+      "StarkNet trading",
+      "self-custodial funding",
+      "portfolio margin",
+      "FIL arbitrage",
+      "DEX funding rates"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on Paradex offer unique funding rate opportunities through the platform's StarkNet-based infrastructure and hourly funding cycle. As a self-custodial DEX built by former Jump Trading engineers, Paradex provides institutional-grade perpetual trading for Filecoin with portfolio margin capabilities.",
+    "how_funding_works": "Paradex calculates FIL/USDT funding rates hourly based on the premium between perpetual and spot prices, settling automatically through smart contracts on StarkNet. The platform uses a portfolio margin system that allows cross-collateralization across positions, potentially improving capital efficiency for funding rate strategies. Funding payments occur every hour at the top of each hour, with rates typically ranging from -0.01% to 0.01% per hour depending on market sentiment toward Filecoin storage demand.",
+    "why_this_pair": "FIL/USDT funding rates often exhibit volatility around Filecoin network upgrades and storage capacity announcements, creating arbitrage opportunities. The pair's infrastructure token characteristics mean funding rates can diverge significantly from other crypto assets during periods of network growth or technical developments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FIL/USDT funding rates on Paradex have shown strong correlation with Filecoin network utilization metrics and storage provider onboarding cycles. During periods of high storage demand or network capacity expansions, funding rates tend to turn positive as traders anticipate price appreciation. The hourly funding frequency allows for more granular arbitrage opportunities compared to 8-hour cycles on centralized exchanges. Historical data shows funding rates spike during major Filecoin improvement proposal implementations and storage provider reward adjustments."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Paradex's self-custodial nature and portfolio margin system create unique arbitrage setups for FIL/USDT funding rates. Traders can maintain spot FIL positions in hardware wallets while shorting perpetuals on Paradex to capture positive funding rates without counterparty risk. The platform's institutional infrastructure allows for larger position sizes compared to typical DEXs, making it viable for professional arbitrage strategies. Cross-margin capabilities enable traders to hedge funding positions with other assets in the same portfolio."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading FIL/USDT perpetuals on Paradex involves StarkNet blockchain risks including potential network congestion and L2 withdrawal delays. The platform's early-stage development means limited pair coverage and potentially thin orderbooks during volatile market conditions. Filecoin's storage economy dynamics can create sudden funding rate reversals that may not be predictable through traditional technical analysis. Portfolio margin, while capital efficient, can amplify losses across correlated positions if not properly managed."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding cycle affect FIL/USDT arbitrage strategies?",
+        "answer": "Hourly funding on Paradex allows for more frequent profit realization compared to 8-hour cycles elsewhere. This creates opportunities to capture short-term funding rate spikes around Filecoin network events while reducing exposure to overnight rate reversals."
+      },
+      {
+        "question": "What are the advantages of trading FIL perpetuals on a StarkNet-based DEX?",
+        "answer": "StarkNet's validity proofs ensure trade settlement integrity while maintaining self-custody of funds. Portfolio margin allows efficient capital usage across multiple positions, and the absence of KYC requirements enables permissionless access to institutional-grade perpetual trading infrastructure."
+      },
+      {
+        "question": "How does Paradex's portfolio margin system work with FIL/USDT positions?",
+        "answer": "Portfolio margin calculates risk across all positions in your account, allowing FIL/USDT positions to be collateralized by other assets. This enables more capital-efficient funding rate strategies since you can maintain larger perpetual positions relative to available collateral compared to isolated margin systems."
+      },
+      {
+        "question": "What makes FIL funding rates different from other infrastructure tokens on DEXs?",
+        "answer": "FIL's utility in the Filecoin storage network creates funding rate patterns tied to storage demand cycles rather than pure speculation. Network upgrade schedules and storage provider incentive changes can create predictable funding rate movements that differ significantly from DeFi or Layer-1 tokens."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "trx-usdt",
+    "xrp-usdt",
+    "sui-usdt",
+    "jto-usdt"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "mexc-vs-paradex",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees for rebate farming",
+      "First-to-list altcoin perpetuals",
+      "Up to 200x leverage on majors"
+    ],
+    "weaknesses": [
+      "Thin order books create slippage",
+      "Inflated volume metrics",
+      "Limited regulatory oversight"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading institutional infrastructure",
+      "Self-custodial perpetuals trading",
+      "Cross-margin portfolio system"
+    ],
+    "weaknesses": [
+      "Early-stage limited liquidity",
+      "StarkNet technical complexity",
+      "Minimal trading pairs available"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "USDT centralized",
+      "b": "USDC on-chain"
+    }
+  },
+  "rate_mechanics": "MEXC calculates funding rates every 8 hours using premium index methodology with USDT settlement, while Paradex operates hourly funding on StarkNet with USDC collateral. MEXC's longer intervals create larger rate movements but less frequent rebalancing, whereas Paradex's hourly system enables more responsive arbitrage opportunities. Both use mark-to-index pricing but Paradex's decentralized oracle system differs significantly from MEXC's centralized rate calculations.",
+  "verdict": "MEXC offers zero maker fees and broader altcoin coverage but suffers from liquidity concerns and regulatory uncertainty. Paradex provides institutional-grade self-custodial trading with hourly funding opportunities, though limited pairs and early-stage liquidity restrict arbitrage strategies currently.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "MEXC provides more trading pairs and zero maker fees for cost-effective arbitrage, while Paradex's hourly funding intervals create more frequent opportunities but with higher fees and limited pairs."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "MEXC uses traditional CEX premium indexing with 8-hour intervals and USDT settlement, while Paradex operates on-chain with hourly StarkNet-based calculations and USDC collateral."
+    },
+    {
+      "question": "What are the custody implications for funding rate strategies?",
+      "answer": "MEXC requires trusting centralized custody for deposits, while Paradex enables self-custodial trading through smart contracts, though this adds StarkNet technical complexity."
+    },
+    {
+      "question": "Which platform is better for institutional funding rate trading?",
+      "answer": "Paradex targets institutions with Jump Trading infrastructure and portfolio margin, while MEXC appeals to retail with zero maker fees but lacks institutional compliance standards."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Paradex Funding Rates: CEX vs DEX Perpetuals",
+    "description": "Compare MEXC's zero maker fees and 8h funding with Paradex's self-custodial hourly rates. Analysis of perpetual futures arbitrage opportunities on both platforms.",
+    "keywords": [
+      "MEXC funding rates",
+      "Paradex perpetuals",
+      "DEX vs CEX funding",
+      "StarkNet perpetual futures",
+      "funding rate arbitrage",
+      "zero maker fees",
+      "self-custodial trading",
+      "Jump Trading DEX"
+    ]
+  }
+}

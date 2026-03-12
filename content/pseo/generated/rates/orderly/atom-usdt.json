@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "atom-usdt",
+    "base": "ATOM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ATOM/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track ATOM/USDT perpetual funding rates on Orderly Network. Hourly rate updates, shared liquidity across DEX frontends, and cross-chain arbitrage opportunities.",
+    "keywords": [
+      "ATOM funding rates",
+      "Orderly Network",
+      "Cosmos perpetual futures",
+      "DEX funding arbitrage",
+      "shared liquidity",
+      "cross-chain trading",
+      "perpetual swaps"
+    ]
+  },
+  "content": {
+    "intro": "ATOM/USDT perpetual futures on Orderly Network offer unique funding rate dynamics through the platform's shared order book infrastructure. The hourly funding rate mechanism captures premium/discount patterns between spot and perpetual prices across multiple DEX frontends.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the 8-hour TWAP of the premium index, measuring the difference between perpetual and mark prices. The shared liquidity model means funding rates reflect aggregated demand across all connected DEX interfaces. Funding payments occur every hour at minute 0, with long positions paying shorts when rates are positive and vice versa when negative.",
+    "why_this_pair": "ATOM's position as the hub token for the Cosmos ecosystem creates distinct funding rate patterns driven by staking yield considerations and inter-chain activity. The token's moderate volatility and consistent trading volume make it suitable for funding rate arbitrage strategies on Orderly's multi-chain infrastructure.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "ATOM funding rates on Orderly Network typically range from -0.01% to 0.05% per hour, with higher positive rates during Cosmos ecosystem developments or staking reward distribution periods. The shared liquidity model tends to normalize extreme rates faster than isolated order books. Weekly patterns often show lower rates during weekends when cross-chain bridge activity decreases. Major Cosmos upgrades or validator commission changes can cause temporary rate spikes as traders adjust perpetual positions relative to staking yields."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Orderly's infrastructure enables arbitrage between funding rates across different frontend interfaces and against centralized exchanges like Binance or OKX. The 0.02% maker fee structure supports high-frequency funding rate strategies when hourly rates exceed 0.07%. Cross-chain arbitrage opportunities arise when ATOM rates diverge significantly from IBC-connected chains. Traders can leverage the shared order book to capture rate differences while maintaining consistent execution across multiple DEX frontends."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Orderly Network's dependency on frontend partners introduces counterparty risk beyond typical DEX mechanics. The complex multi-chain architecture may experience latency during network congestion, affecting funding rate calculations. ATOM's correlation with broader Cosmos ecosystem tokens can create concentrated risk during sector-wide moves. Bridge risks between NEAR and EVM chains add operational complexity for cross-chain funding strategies. The hourly funding frequency requires more active position management compared to 8-hour cycles on other platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect ATOM funding rates?",
+        "answer": "The shared order book aggregates trading activity across all connected DEX frontends, creating more stable funding rates through increased liquidity depth. This typically results in less extreme rate fluctuations compared to isolated perpetual markets."
+      },
+      {
+        "question": "What are the trading fees for ATOM perpetuals on Orderly Network?",
+        "answer": "Orderly Network charges 0.02% for maker orders and 0.05% for taker orders on ATOM/USDT perpetuals. These fees apply in addition to any frontend-specific charges from the DEX interface you're using to access Orderly's infrastructure."
+      },
+      {
+        "question": "Can I trade ATOM perpetuals across different chains through Orderly?",
+        "answer": "Yes, Orderly's multi-chain infrastructure supports ATOM perpetual trading across NEAR and EVM-compatible chains. However, you'll need to bridge assets between chains and consider cross-chain latency when executing time-sensitive funding rate strategies."
+      },
+      {
+        "question": "How does ATOM staking yield influence perpetual funding rates?",
+        "answer": "ATOM's ~10-15% annual staking yield creates a baseline cost of capital that influences perpetual funding rates. When funding rates consistently fall below the equivalent hourly staking yield, arbitrage opportunities may emerge between staking rewards and short perpetual positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "ada-usdt",
+    "avax-usdt",
+    "inj-usdt",
+    "shib-usdt"
+  ]
+}

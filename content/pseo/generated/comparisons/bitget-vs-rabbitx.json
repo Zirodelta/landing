@@ -1,0 +1,91 @@
+{
+  "slug": "bitget-vs-rabbitx",
+  "exchange_a": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.06%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Copy trading ecosystem",
+      "Fast listing of new tokens",
+      "Growing liquidity"
+    ],
+    "weaknesses": [
+      "Newer exchange with shorter track record",
+      "Customer support inconsistency",
+      "Limited institutional tools"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution",
+      "Zero gas for trading",
+      "Cross-margin"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pair selection",
+      "Early-stage protocol"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.06%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized",
+      "b": "Starknet L2"
+    }
+  },
+  "rate_mechanics": "RabbitX's 1-hour funding intervals create 8x more frequent rate adjustments compared to Bitget's standard 8-hour cycles, potentially offering more arbitrage opportunities but requiring active position management. Bitget uses traditional CEX funding mechanics with rates calculated from premium index and interest rate components. RabbitX leverages Starknet's low-cost settlement while maintaining off-chain order matching for competitive execution speeds. The hourly rebalancing on RabbitX means funding costs compound more frequently, making position timing critical for profitable arbitrage strategies.",
+  "verdict": "RabbitX offers superior funding rate arbitrage potential due to hourly intervals and lower taker fees, but Bitget provides better liquidity depth and proven infrastructure. Choose RabbitX for active funding strategies and Bitget for larger positions requiring consistent fills.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "RabbitX provides more frequent funding intervals (1 hour vs 8 hours) and slightly lower taker fees, creating more arbitrage windows. However, Bitget's higher liquidity may offer better execution for larger positions."
+    },
+    {
+      "question": "How do the funding calculation methods differ between platforms?",
+      "answer": "Bitget uses standard perpetual funding mechanics with 8-hour intervals based on premium and interest rates. RabbitX implements hourly funding calculations through Starknet settlement, allowing for more responsive rate adjustments."
+    },
+    {
+      "question": "Which platform is better for high-frequency funding strategies?",
+      "answer": "RabbitX's 1-hour funding cycles and zero gas fees make it more suitable for active funding strategies. Bitget's 8-hour intervals better suit longer-term arbitrage positions with less frequent rebalancing."
+    },
+    {
+      "question": "What are the main risks when arbitraging between these exchanges?",
+      "answer": "Key risks include RabbitX's limited liquidity for larger positions, potential bridge delays for cross-chain transfers, and Bitget's newer track record. Consider position sizing and emergency exit strategies for both platforms."
+    }
+  ],
+  "seo": {
+    "title": "Bitget vs RabbitX Funding Rates: DEX vs CEX Comparison",
+    "description": "Compare Bitget and RabbitX perpetual futures funding rates, intervals, and arbitrage opportunities. Detailed analysis of 8h vs 1h cycles for traders.",
+    "keywords": [
+      "bitget funding rates",
+      "rabbitx perpetual futures",
+      "funding rate arbitrage",
+      "starknet derivatives",
+      "dex vs cex trading",
+      "perpetual futures comparison",
+      "cross margin trading",
+      "copy trading derivatives",
+      "hourly funding rates",
+      "crypto arbitrage"
+    ]
+  }
+}

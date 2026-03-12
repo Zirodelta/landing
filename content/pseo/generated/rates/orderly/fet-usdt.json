@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on Orderly Network | AI Token Perps",
+    "description": "Track FET/USDT perpetual futures funding rates on Orderly Network DEX. Hourly funding intervals with shared liquidity across multi-chain infrastructure.",
+    "keywords": [
+      "FET funding rates",
+      "Orderly Network perpetuals",
+      "AI token futures",
+      "DEX arbitrage",
+      "shared liquidity",
+      "multi-chain trading",
+      "NEAR ecosystem",
+      "white-label DEX"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on Orderly Network offer unique funding rate opportunities through their shared order book infrastructure. As an AI infrastructure token, FET exhibits distinct volatility patterns that create arbitrage potential across Orderly's multi-chain ecosystem.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and mark prices across their shared liquidity layer. The infrastructure aggregates positions from multiple frontend partners, creating deeper liquidity pools that can stabilize funding rates compared to isolated DEX pairs. Funding payments occur every hour with rates determined by weighted average premium across all connected frontends. The shared order book model means funding rate movements reflect broader cross-chain demand rather than isolated exchange dynamics.",
+    "why_this_pair": "FET's AI sector positioning creates predictable funding rate cycles tied to AI market sentiment and development milestones. The token's moderate market cap makes it sensitive to narrative-driven flows while maintaining sufficient liquidity for meaningful position sizes. Orderly's multi-chain infrastructure captures arbitrage opportunities as FET demand shifts between different blockchain ecosystems.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET/USDT on Orderly Network has shown consistent positive funding bias during AI sector rallies, with rates averaging 0.015-0.025% hourly during trending periods. The shared liquidity model tends to moderate extreme funding spikes compared to isolated DEX pairs, creating more stable arbitrage opportunities. Weekend periods typically see funding rates compress as retail AI token interest wanes, while weekday sessions show higher volatility aligned with AI development announcements. Cross-chain arbitrage opportunities frequently emerge when FET demand concentrates on specific chains within Orderly's ecosystem."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Orderly's infrastructure creates unique arbitrage scenarios when funding rates diverge between frontend partners or when cross-chain FET demand imbalances develop. The shared order book allows traders to capture funding rate differences while benefiting from aggregated liquidity depth. AI sector correlation trades become particularly profitable when FET funding rates move inversely to broader AI tokens listed on Orderly. The 1-hour funding interval provides more frequent capture opportunities compared to 8-hour cycles on traditional exchanges."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FET's AI sector volatility requires careful position sizing due to potential gap moves on AI-related news or regulatory developments. Orderly's dependency on frontend partners introduces counterparty risk beyond typical DEX exposure, requiring monitoring of individual partner protocol health. The shared liquidity model can amplify liquidation cascades if multiple partners experience simultaneous stress events. Cross-chain bridge risks affect FET positions when arbitraging between different blockchain implementations within Orderly's ecosystem. Gas fee volatility on underlying chains can impact arbitrage profitability during network congestion periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect FET funding rates?",
+        "answer": "The shared order book aggregates FET trading activity across multiple frontend partners, creating deeper liquidity that typically results in more stable funding rates. This infrastructure reduces the impact of isolated large trades on funding calculations compared to single-exchange pairs."
+      },
+      {
+        "question": "What makes FET unique for funding rate arbitrage on Orderly?",
+        "answer": "FET's AI sector positioning creates predictable funding cycles tied to AI market sentiment, while Orderly's multi-chain infrastructure captures cross-chain arbitrage opportunities as demand shifts between different blockchain ecosystems."
+      },
+      {
+        "question": "How do frontend partner risks affect FET perpetual trading?",
+        "answer": "Since Orderly operates as infrastructure for multiple frontends, trader positions depend on both Orderly's protocol health and the specific frontend partner's reliability. This creates additional counterparty considerations beyond standard DEX risks."
+      },
+      {
+        "question": "Can I arbitrage FET funding rates between Orderly frontends?",
+        "answer": "While all frontends share the same order book, different frontends may have varying fee structures or token incentives that can create arbitrage opportunities. However, the underlying funding rates remain consistent across the shared infrastructure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "avax-usdt",
+    "apt-usdt",
+    "sol-usdt",
+    "jto-usdt"
+  ]
+}

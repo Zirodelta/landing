@@ -1,0 +1,89 @@
+{
+  "slug": "vertex-vs-paradex",
+  "exchange_a": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading pedigree",
+      "Self-custodial",
+      "Portfolio margin"
+    ],
+    "weaknesses": [
+      "Very early stage",
+      "StarkNet complexity",
+      "Minimal pair coverage"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Arbitrum L2",
+      "b": "StarkNet appchain"
+    }
+  },
+  "rate_mechanics": "Both Vertex and Paradex use hourly funding intervals with standard perpetual mechanics tied to spot-perp basis. Vertex operates on Arbitrum with a hybrid sequencer model that can create slight rate delays during high volatility. Paradex runs on StarkNet's appchain architecture, potentially offering more predictable rate calculations but with less mature infrastructure. Both exchanges use cross-margining which can affect effective funding costs through position netting.",
+  "verdict": "Vertex offers superior trading costs and proven infrastructure on Arbitrum, making it better for active arbitrageurs. Paradex brings institutional-grade architecture and Jump Trading expertise but remains unproven at scale.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Vertex currently provides more opportunities due to higher liquidity and established market presence on Arbitrum. Paradex's limited pair coverage restricts arbitrage strategies despite competitive maker fees."
+    },
+    {
+      "question": "How do the settlement mechanisms affect funding rate timing?",
+      "answer": "Vertex's Arbitrum settlement offers faster finality and lower gas costs. Paradex's StarkNet appchain provides theoretical advantages in computational efficiency but adds complexity in cross-chain arbitrage execution."
+    },
+    {
+      "question": "Which platform is more suitable for institutional funding rate strategies?",
+      "answer": "Paradex targets institutions with portfolio margin and Jump Trading backing, but Vertex's proven infrastructure and liquidity make it more practical for current institutional use cases."
+    },
+    {
+      "question": "How do the risk management systems compare for funding arbitrage?",
+      "answer": "Both offer cross-margin capabilities, but Vertex's battle-tested risk engine on Arbitrum provides more reliable liquidation mechanics. Paradex's portfolio margin could offer capital efficiency advantages once fully mature."
+    }
+  ],
+  "seo": {
+    "title": "Vertex vs Paradex: DEX Perpetual Futures Comparison",
+    "description": "Compare Vertex and Paradex perpetual futures for funding rate arbitrage. Analyze fees, settlement, and trading mechanics on Arbitrum vs StarkNet.",
+    "keywords": [
+      "vertex protocol",
+      "paradex trading",
+      "DEX perpetual futures",
+      "arbitrum derivatives",
+      "starknet trading",
+      "funding rate arbitrage",
+      "cross margin trading",
+      "perpetual swaps DEX"
+    ]
+  }
+}

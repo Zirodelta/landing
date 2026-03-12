@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rates on Paradex - DEX Arbitrage",
+    "description": "Track ETHFI/USDT funding rates on Paradex DEX. Self-custodial perps with hourly funding intervals and portfolio margin for institutional trading.",
+    "keywords": [
+      "ethfi funding rates",
+      "paradex dex",
+      "starknet perps",
+      "defi funding arbitrage",
+      "self-custodial futures",
+      "portfolio margin",
+      "jump trading"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers ETHFI/USDT perpetual futures with hourly funding rate intervals, providing frequent arbitrage opportunities for this DeFi infrastructure token. As a Starknet-based DEX built by former Jump Trading engineers, Paradex combines institutional-grade features with self-custodial security.",
+    "how_funding_works": "Paradex calculates funding rates every hour based on the premium between perpetual and spot prices, with payments automatically settled from trader balances. The exchange uses portfolio margin that considers cross-pair correlations, potentially reducing margin requirements for hedged positions. Funding payments are processed on-chain through Starknet's validity proofs, ensuring transparent settlement without counterparty risk.",
+    "why_this_pair": "ETHFI's role in Ethereum restaking creates inherent volatility that often leads to significant funding rate premiums during market stress. The token's correlation with ETH staking narratives can drive persistent directional bias in perpetual funding. Despite lower volume, ETHFI's funding rates on Paradex can diverge meaningfully from CEX rates due to the platform's institutional focus and limited retail participation.",
+    "sections": [
+      {
+        "heading": "Historical ETHFI Funding Rate Patterns",
+        "body": "ETHFI funding rates on Paradex have shown elevated volatility during restaking narrative cycles, often exceeding 0.1% hourly during peak interest periods. The token's funding premiums tend to spike during Ethereum network upgrades or when restaking protocols announce major developments. Cross-exchange arbitrage opportunities frequently emerge as Paradex's institutional user base creates different sentiment dynamics compared to retail-heavy platforms. The hourly settlement frequency allows traders to capture short-term rate spikes that might normalize quickly on traditional 8-hour funding cycles."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "Paradex's self-custodial model attracts sophisticated traders who may maintain positions longer than CEX users, leading to sustained funding rate divergences. The platform's portfolio margin system enables capital-efficient arbitrage strategies by reducing margin requirements for delta-neutral positions. Starknet's low transaction costs make it economical to execute frequent rebalancing operations during volatile funding periods. However, the exchange's limited ETHFI volume means large arbitrage positions may face execution challenges during rapid rate changes."
+      },
+      {
+        "heading": "Risk Considerations for ETHFI Trading",
+        "body": "Starknet's relative complexity introduces smart contract risks that don't exist on traditional CEXs, requiring careful due diligence of Paradex's protocol security. ETHFI's smaller market cap creates heightened liquidation risks during funding rate arbitrage, especially when using leverage. The token's correlation with broader DeFi sentiment means funding rates can shift rapidly during sector-wide deleveraging events. Paradex's early-stage status and limited trading pairs may reduce exit liquidity during market stress, potentially trapping arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding compare to other exchanges for ETHFI?",
+        "answer": "Paradex's hourly funding intervals provide 8x more frequent settlement opportunities compared to standard 8-hour cycles on major CEXs. This creates more granular arbitrage windows but also requires active monitoring to capture rate spikes before they normalize."
+      },
+      {
+        "question": "What are the advantages of self-custodial ETHFI perps on Paradex?",
+        "answer": "Self-custody eliminates counterparty risk and exchange insolvency concerns, particularly important for longer-term funding rate strategies. Portfolio margin across multiple positions can significantly reduce capital requirements compared to isolated margin systems used by most CEXs."
+      },
+      {
+        "question": "How does Starknet affect ETHFI funding rate arbitrage execution?",
+        "answer": "Starknet's validity proofs ensure transparent funding calculations and settlement, but the network's complexity may introduce execution delays during high congestion. Lower transaction costs make frequent position adjustments more economical than on Ethereum mainnet-based DEXs."
+      },
+      {
+        "question": "What volume considerations apply to ETHFI arbitrage on Paradex?",
+        "answer": "ETHFI's limited volume on Paradex means large positions may experience significant slippage and impact funding rates themselves. Traders should size positions carefully and consider the exchange's institutional user base when timing entries and exits."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ldo-usdt",
+    "doge-usdt",
+    "apt-usdt",
+    "xrp-usdt",
+    "trx-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rate Arbitrage on Phemex",
+    "description": "Track WIF/USDT perpetual funding rates on Phemex. 8-hour intervals, 0.01% maker fees. Analyze meme coin funding patterns for arbitrage opportunities.",
+    "keywords": [
+      "WIF funding rate",
+      "Phemex arbitrage",
+      "dogwifhat perpetual",
+      "meme coin funding",
+      "WIFUSDT futures",
+      "8 hour funding",
+      "Singapore exchange"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities with 8-hour settlement intervals. Phemex's low 0.01% maker fees and specialized derivatives focus make it attractive for funding rate strategies on this Solana-based meme token.",
+    "how_funding_works": "Phemex calculates WIF/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium index. The exchange caps funding rates at ±0.75% per interval to prevent extreme payouts. Funding payments occur automatically between long and short position holders, with the exchange taking no cut from these transfers.",
+    "why_this_pair": "WIF's volatile nature as a Solana meme coin creates frequent funding rate imbalances on Phemex. The pair's moderate trading volume and retail trader concentration often lead to sustained positive funding periods during bull runs. This makes WIF/USDT suitable for delta-neutral strategies when funding rates exceed 0.1% per 8-hour period.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WIF/USDT funding rates on Phemex have shown extreme volatility since listing, ranging from -0.5% to +0.75% per 8-hour period. During meme coin rallies, funding rates consistently stayed above 0.3% for weeks, creating profitable arbitrage windows. Bear market periods typically see funding rates oscillate between -0.1% to +0.1%, requiring careful timing for strategy deployment. The pair's correlation with SOL price movements often predicts funding rate direction 12-24 hours in advance."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "Optimal WIF arbitrage opportunities emerge when Phemex funding rates diverge significantly from other exchanges like Binance or OKX. Phemex's lower liquidity often causes funding rates to lag major exchanges by 4-8 hours during trending moves. The 0.01% maker fee structure allows profitable strategies when funding rates exceed 0.15% per period. Position sizing should account for WIF's 20-30% daily volatility and potential for rapid sentiment shifts in the meme coin sector."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WIF's meme coin status creates elevated risks including sudden delisting threats, extreme volatility spikes, and correlation breakdowns during market stress. Phemex's smaller user base can lead to liquidity gaps during high volatility periods, affecting exit strategies. Auto-deleveraging risk increases during extreme funding periods when position imbalances grow large. Traders should maintain position sizes under 10% of daily volume and implement stop-losses at 5% delta to prevent significant losses from hedging failures."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WIF/USDT funding rates on Phemex?",
+        "answer": "WIF funding rates on Phemex typically range from -0.3% to +0.75% per 8-hour period. During meme coin bull runs, rates often stay positive above 0.2% for extended periods. Bear markets usually see rates between -0.1% to +0.1% with occasional negative spikes during selloffs."
+      },
+      {
+        "question": "How does Phemex's 8-hour funding compare to other exchanges?",
+        "answer": "Phemex uses 8-hour intervals (3 times daily) versus the standard 1-hour funding on major exchanges. This creates arbitrage opportunities when funding rates accumulate differently across timeframes. The longer intervals can amplify both profits and risks from funding rate strategies."
+      },
+      {
+        "question": "What position limits apply to WIF/USDT on Phemex?",
+        "answer": "Phemex typically allows up to 100x leverage on WIF/USDT with position limits varying by account tier. VIP users may access higher limits, but meme coin volatility makes leverage above 5-10x extremely risky for funding strategies."
+      },
+      {
+        "question": "How liquid is WIF/USDT for arbitrage exits?",
+        "answer": "WIF/USDT liquidity on Phemex is moderate with typical spreads of 0.02-0.05% during normal conditions. During high volatility, spreads can widen to 0.1-0.3%, impacting arbitrage profitability. Best execution occurs during Asian trading hours when Phemex activity peaks."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "near-usdt",
+    "op-usdt",
+    "sol-usdt",
+    "atom-usdt"
+  ]
+}

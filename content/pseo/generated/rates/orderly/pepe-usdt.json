@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rate on Orderly Network - Hourly Rates",
+    "description": "Track PEPE/USDT perpetual futures funding rates on Orderly Network DEX. Hourly settlements, shared liquidity, and meme coin arbitrage opportunities.",
+    "keywords": [
+      "orderly network",
+      "pepe funding rate",
+      "meme coin futures",
+      "dex arbitrage",
+      "hourly funding",
+      "shared liquidity",
+      "near blockchain",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network's PEPE/USDT perpetual futures offer hourly funding rate settlements through a shared order book infrastructure that spans multiple DEX frontends. The platform's unique architecture provides deep liquidity aggregation for meme coin trading, making PEPE/USDT one of the most actively arbitraged pairs on the network.",
+    "how_funding_works": "Orderly Network calculates funding rates every hour using a time-weighted average price mechanism across its shared liquidity layer. Long positions pay funding when rates are positive, while shorts pay when negative, with settlements occurring automatically through the platform's NEAR-based infrastructure. The shared order book model means funding rates reflect aggregated sentiment across multiple frontend partners, creating more stable rate discovery than isolated DEX pools. Traders can monitor real-time funding metrics through any connected frontend interface.",
+    "why_this_pair": "PEPE/USDT demonstrates extreme funding rate volatility during meme coin cycles, often exceeding 50% APR during peak speculation periods. The pair's large volume on Orderly Network creates significant arbitrage opportunities, particularly when funding rates diverge from centralized exchanges like Binance or OKX. Orderly's hourly settlement frequency allows for more responsive arbitrage strategies compared to 8-hour funding cycles on traditional platforms.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Orderly Network have shown extreme seasonality, with positive rates averaging 15-30% APR during meme coin rallies and turning sharply negative during market corrections. The pair experienced its highest funding rates during the Q2 2024 meme coin surge, reaching peaks of 80% APR as retail traders heavily leveraged long positions. Hourly settlements create more granular rate movements compared to traditional 8-hour cycles, with intraday volatility often exceeding 200 basis points. Historical data shows funding rates tend to normalize within 24-48 hours after major price movements, presenting consistent mean reversion opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-platform arbitrage between Orderly Network and centralized exchanges frequently yields 100-500 basis points in funding rate differentials during volatile periods. The platform's shared liquidity model creates unique arbitrage scenarios where funding rates can diverge significantly from isolated AMM pools on other DEXs. Traders can exploit these differentials by maintaining opposite positions across platforms, capturing rate spreads while remaining market-neutral. The hourly settlement frequency allows for more dynamic hedging strategies, particularly when combined with spot arbitrage across the NEAR ecosystem."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Orderly Network's dependency on frontend partners introduces execution risk, as funding arbitrage strategies rely on consistent access to trading interfaces during high volatility periods. The platform's multi-chain architecture can create settlement delays during network congestion, potentially affecting funding rate calculations and position management. PEPE's extreme price volatility amplifies liquidation risk, particularly when funding rates exceed 50% APR and margin requirements tighten. Bridge risk between NEAR and EVM chains adds complexity for traders moving collateral, especially during rapid market movements when timing is critical for funding arbitrage execution."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE/USDT funding rates calculated on Orderly Network?",
+        "answer": "Orderly Network calculates and settles funding rates every hour for PEPE/USDT perpetual futures. This hourly frequency is more frequent than most centralized exchanges, allowing for more responsive arbitrage strategies and better capital efficiency for short-term funding rate trades."
+      },
+      {
+        "question": "What makes Orderly's shared liquidity model unique for PEPE funding arbitrage?",
+        "answer": "Orderly's shared order book aggregates liquidity across multiple DEX frontends, creating deeper markets and more stable funding rate discovery. This model often produces funding rates that differ significantly from isolated AMM pools, creating arbitrage opportunities between Orderly and other DEX platforms trading PEPE/USDT."
+      },
+      {
+        "question": "How do PEPE funding rates on Orderly compare to centralized exchanges?",
+        "answer": "PEPE funding rates on Orderly Network typically show higher volatility than centralized exchanges due to the retail-heavy user base and meme coin speculation patterns. During peak trading periods, Orderly's rates can diverge by 300-800 basis points from Binance or OKX, creating substantial arbitrage opportunities for sophisticated traders."
+      },
+      {
+        "question": "What are the main risks when arbitraging PEPE funding rates on Orderly Network?",
+        "answer": "Key risks include frontend dependency where trading access relies on partner interfaces, potential settlement delays during NEAR network congestion, and extreme liquidation risk due to PEPE's volatility. Additionally, cross-chain bridge risks affect collateral movement between NEAR and EVM chains during arbitrage execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "sui-usdt",
+    "atom-usdt",
+    "aave-usdt",
+    "wif-usdt"
+  ]
+}

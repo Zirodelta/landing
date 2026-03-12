@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-vertex",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs in traditional sense",
+      "Arbitrum ecosystem leader",
+      "Battle-tested since 2021"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency risk",
+      "Price impact on large trades"
+    ]
+  },
+  "exchange_b": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.03%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based",
+      "b": "Hybrid sequencer"
+    }
+  },
+  "rate_mechanics": "Both exchanges calculate funding rates hourly using similar perpetual futures mechanics based on the premium/discount to spot prices. GMX uses oracle-based pricing from Chainlink and other feeds, which can create funding rate discrepancies during high volatility periods. Vertex employs a hybrid approach with off-chain sequencer for price discovery and on-chain settlement, potentially offering more responsive funding rate adjustments. GMX's oracle dependency may lead to delayed funding rate reactions compared to Vertex's real-time sequencer model.",
+  "verdict": "Vertex offers significantly lower trading fees (0.02%/0.03% vs 0.05%/0.07%) making it more cost-effective for high-frequency funding rate arbitrage strategies. However, GMX provides greater decentralization and proven track record, with deeper liquidity for larger position sizes despite higher costs.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Vertex's lower fees (60% cheaper) make it more profitable for funding rate arbitrage, but GMX's oracle-based pricing can create temporary mispricings that experienced arbitrageurs can exploit during market volatility."
+    },
+    {
+      "question": "How do the funding rate calculations differ between GMX and Vertex?",
+      "answer": "Both use hourly funding intervals, but GMX relies on oracle feeds which may lag market movements, while Vertex's hybrid sequencer provides more responsive price discovery. This can lead to funding rate divergences between the platforms."
+    },
+    {
+      "question": "What are the liquidity differences for large funding rate positions?",
+      "answer": "GMX generally offers deeper liquidity through its GLP pools, making it better for larger arbitrage positions. Vertex's order book model may have less depth but offers better price execution for smaller to medium-sized trades."
+    },
+    {
+      "question": "Which platform is safer for funding rate arbitrage strategies?",
+      "answer": "GMX has a longer track record and more battle-tested contracts, while Vertex offers technical advantages but carries sequencer centralization risk. Both operate on Arbitrum with similar base layer security guarantees."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Vertex: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare GMX and Vertex DEX funding rates, fees, and arbitrage opportunities. Detailed analysis of oracle vs sequencer-based perpetual futures mechanics.",
+    "keywords": [
+      "GMX funding rates",
+      "Vertex DEX comparison",
+      "perpetual futures arbitrage",
+      "Arbitrum DEX fees",
+      "funding rate calculation",
+      "oracle vs sequencer",
+      "GLP liquidity pools",
+      "cross-margin trading",
+      "DEX perpetuals",
+      "funding interval comparison"
+    ]
+  }
+}

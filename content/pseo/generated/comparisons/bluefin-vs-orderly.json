@@ -1,0 +1,89 @@
+{
+  "slug": "bluefin-vs-orderly",
+  "exchange_a": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Sui ecosystem leader",
+      "Professional trading UI",
+      "Fast settlement"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still early",
+      "Limited pairs",
+      "Low overall volume"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Sui blockchain",
+      "b": "NEAR/EVM chains"
+    }
+  },
+  "rate_mechanics": "Both Bluefin and Orderly Network calculate funding rates hourly using standard perpetual futures mechanics based on the premium/discount to spot prices. Bluefin operates as a native Sui DEX with direct on-chain settlement, while Orderly Network functions as an infrastructure layer serving multiple frontend DEXs across NEAR and EVM chains. Bluefin's rates reflect its concentrated Sui ecosystem liquidity, whereas Orderly's rates benefit from aggregated liquidity across its partner DEXs. The shared order book model on Orderly can lead to more stable funding rates during volatile periods compared to Bluefin's standalone liquidity pool.",
+  "verdict": "Bluefin offers a more direct trading experience with faster Sui settlement but limited to a smaller ecosystem, while Orderly Network provides broader multi-chain access through its infrastructure approach but with added complexity. Choose Bluefin for Sui-native trading with professional features, or Orderly for multi-chain exposure and potentially more stable funding rates.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Orderly Network typically offers more stable funding rates due to its shared liquidity model across multiple DEXs, while Bluefin may have more volatile rates that could present arbitrage opportunities during Sui ecosystem growth phases."
+    },
+    {
+      "question": "How do settlement speeds compare between Bluefin and Orderly?",
+      "answer": "Bluefin settles directly on Sui with sub-second finality, while Orderly Network's settlement speed depends on the underlying blockchain of each frontend partner, ranging from NEAR's fast finality to Ethereum's slower confirmation times."
+    },
+    {
+      "question": "Which platform is better for institutional traders?",
+      "answer": "Bluefin offers a more traditional institutional-grade interface with direct market access, while Orderly Network provides infrastructure that institutional partners can white-label and customize for their specific needs."
+    },
+    {
+      "question": "What are the main risks when trading on each platform?",
+      "answer": "Bluefin carries Sui ecosystem adoption risk and lower liquidity, while Orderly Network faces infrastructure dependency risks and potential fragmentation across its partner frontends."
+    }
+  ],
+  "seo": {
+    "title": "Bluefin vs Orderly Network: Funding Rate Comparison",
+    "description": "Compare Bluefin and Orderly Network for perpetual futures funding rates. Analysis of Sui DEX vs multi-chain infrastructure for crypto arbitrage opportunities.",
+    "keywords": [
+      "bluefin funding rates",
+      "orderly network arbitrage",
+      "sui perpetual futures",
+      "dex funding comparison",
+      "crypto arbitrage rates",
+      "perpetual futures trading",
+      "defi funding rates",
+      "multi-chain arbitrage"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rates on Paradex - Arbitrage Analysis",
+    "description": "Track SEI/USDT perpetual funding rates on Paradex DEX. Analyze hourly funding patterns and arbitrage opportunities on this Starknet-based exchange.",
+    "keywords": [
+      "SEI funding rates",
+      "Paradex perpetuals",
+      "Starknet DEX arbitrage",
+      "SEI/USDT trading",
+      "crypto funding arbitrage",
+      "self-custodial perps",
+      "hourly funding",
+      "L1 token trading"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetuals on Paradex offer unique funding rate arbitrage opportunities on Starknet's high-performance infrastructure. As a self-custodial DEX built by former Jump Trading engineers, Paradex provides institutional-grade features with hourly funding settlements for this Layer-1 blockchain token.",
+    "how_funding_works": "Paradex calculates SEI/USDT funding rates hourly using a standard 8-hour TWAP methodology but settles every hour for more granular position management. The platform's portfolio margin system allows efficient capital utilization across multiple positions. Funding payments occur automatically through smart contracts on Starknet, eliminating counterparty risk while maintaining the typical long-pays-short mechanism when rates are positive.",
+    "why_this_pair": "SEI's status as a purpose-built trading blockchain creates distinct funding rate patterns due to ecosystem developments and validator economics. The token's mid-tier volume on Paradex often results in more volatile funding rates compared to major pairs, presenting arbitrage opportunities. SEI's correlation with broader DeFi trends while maintaining independent price action makes it attractive for sophisticated funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on Paradex have shown significant volatility during network upgrades and ecosystem announcements, often spiking above 0.1% hourly during high-activity periods. The pair typically experiences negative funding during broader market downturns as short interest increases. Weekend periods often see compressed funding rates due to reduced trading activity, while Asian trading hours frequently drive higher absolute rates due to SEI's regional popularity. The hourly settlement mechanism amplifies short-term rate movements compared to traditional 8-hour cycles."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "Paradex's funding rates for SEI/USDT often diverge significantly from centralized exchanges due to the platform's smaller user base and unique self-custodial model. Opportunities frequently arise when institutional flows on traditional exchanges create rate disparities of 0.05-0.15% compared to Paradex. The platform's portfolio margin system enables capital-efficient arbitrage strategies across multiple positions. However, Starknet bridge delays can impact arbitrage timing, requiring careful consideration of settlement windows and gas costs."
+      },
+      {
+        "heading": "Risk Considerations and Execution",
+        "body": "Trading SEI/USDT funding arbitrage on Paradex involves smart contract risk inherent to Starknet's relatively new infrastructure and the platform's early-stage development. Liquidity constraints can cause significant slippage during volatile periods, particularly for larger position sizes. The self-custodial nature eliminates exchange bankruptcy risk but requires active key management and understanding of Starknet wallet integration. Position sizing should account for Paradex's limited liquidity compared to major centralized exchanges and potential funding rate caps during extreme market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding settlement affect SEI/USDT arbitrage strategies?",
+        "answer": "Hourly settlements on Paradex create more frequent arbitrage opportunities but require active monitoring and faster execution. The compressed timeframes can amplify profits during rate divergences but also increase the risk of sudden reversals between settlement periods."
+      },
+      {
+        "question": "What are the unique risks of funding arbitrage on Starknet's Paradex?",
+        "answer": "Key risks include Starknet network congestion affecting transaction timing, smart contract vulnerabilities in the relatively new infrastructure, and limited liquidity causing slippage. Bridge delays when moving capital to/from other chains can also impact arbitrage timing and profitability."
+      },
+      {
+        "question": "How does SEI's blockchain focus impact its funding rate behavior on Paradex?",
+        "answer": "SEI's trading-optimized blockchain creates funding rate sensitivity to DeFi adoption metrics and validator rewards. Network upgrades and ecosystem developments often cause sudden funding rate spikes as traders position for potential price movements driven by technological improvements."
+      },
+      {
+        "question": "What position sizes are practical for SEI/USDT funding arbitrage on Paradex?",
+        "answer": "Optimal position sizes typically range from $10K-$100K due to Paradex's current liquidity constraints. Larger positions may face significant slippage during entry/exit, while smaller positions may not justify the gas costs and active management required for hourly funding capture."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jto-usdt",
+    "sol-usdt",
+    "ena-usdt",
+    "mkr-usdt",
+    "link-usdt"
+  ]
+}

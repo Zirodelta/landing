@@ -1,0 +1,91 @@
+{
+  "slug": "hyperliquid-vs-orderly",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book with sub-second finality",
+      "No KYC required for direct access",
+      "Native L1 infrastructure eliminates bridging risks"
+    ],
+    "weaknesses": [
+      "Limited to USDC settlement only",
+      "Single-chain ecosystem restricts cross-chain opportunities",
+      "Newer platform with limited operational history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity pool across multiple DEX frontends",
+      "Multi-chain support via NEAR and EVM compatibility",
+      "White-label infrastructure enables diverse trading interfaces"
+    ],
+    "weaknesses": [
+      "Indirect user experience through frontend partners",
+      "Complex multi-layer architecture increases potential failure points",
+      "Liquidity fragmentation across different frontend implementations"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Native L1 USDC",
+      "b": "Multi-chain USDC"
+    }
+  },
+  "rate_mechanics": "Both platforms calculate funding rates hourly using similar premium/discount mechanisms based on perpetual-spot price divergence. Hyperliquid's native L1 architecture enables more predictable rate calculations due to direct on-chain settlement, while Orderly's shared liquidity model can create rate variations across different frontend implementations. The key difference lies in settlement timing - Hyperliquid's sub-second finality provides more precise funding snapshots compared to Orderly's multi-chain coordination requirements.",
+  "verdict": "Hyperliquid offers superior execution certainty for funding rate arbitrage due to its native L1 infrastructure and predictable settlement mechanics, making it ideal for high-frequency strategies. Orderly Network provides broader market access through its multi-chain approach but introduces additional complexity that may impact arbitrage precision and timing.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate predictability for arbitrage?",
+      "answer": "Hyperliquid provides more predictable funding rates due to its native L1 settlement and sub-second finality, while Orderly's multi-chain architecture can introduce timing variations that affect rate calculations."
+    },
+    {
+      "question": "How do settlement mechanisms differ between the two platforms?",
+      "answer": "Hyperliquid settles directly on its native L1 with USDC, ensuring consistent timing and fees. Orderly relies on cross-chain infrastructure which can introduce variable settlement costs and timing delays across different chains."
+    },
+    {
+      "question": "Which exchange is better for multi-market funding arbitrage strategies?",
+      "answer": "Orderly Network's multi-chain support provides access to more diverse funding rate opportunities across different ecosystems, while Hyperliquid's single-chain focus limits cross-chain arbitrage but offers more reliable execution within its ecosystem."
+    },
+    {
+      "question": "How do KYC requirements affect funding rate strategies on each platform?",
+      "answer": "Hyperliquid requires no KYC for direct access, enabling immediate strategy deployment. Orderly's KYC requirements depend on the specific frontend partner, potentially creating compliance complexity for institutional arbitrage operations."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs Orderly Network: Funding Rate Comparison",
+    "description": "Compare Hyperliquid and Orderly Network for perpetual futures funding rate arbitrage. Analysis of settlement mechanics, rate predictability, and execution timing.",
+    "keywords": [
+      "hyperliquid vs orderly",
+      "funding rate arbitrage",
+      "perpetual futures dex",
+      "on-chain derivatives",
+      "crypto funding rates",
+      "dex comparison",
+      "perpetual swaps",
+      "defi derivatives",
+      "funding interval arbitrage",
+      "multi-chain derivatives"
+    ]
+  }
+}

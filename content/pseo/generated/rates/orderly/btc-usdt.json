@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BTC/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track BTC/USDT perpetual futures funding rates on Orderly Network. Hourly funding cycles, shared liquidity across DEX frontends, and arbitrage insights.",
+    "keywords": [
+      "orderly network",
+      "btc usdt funding",
+      "dex perpetual futures",
+      "funding rate arbitrage",
+      "shared liquidity",
+      "near blockchain",
+      "defi trading",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network's BTC/USDT perpetual futures utilize a shared order book infrastructure that aggregates liquidity across multiple DEX frontends on NEAR and EVM chains. The hourly funding rate mechanism balances long and short positions while leveraging the network's multi-chain liquidity layer.",
+    "how_funding_works": "Funding rates on Orderly Network reset every hour at the top of each hour, calculated using the premium/discount between perpetual futures price and mark price derived from spot exchanges. The shared order book model means funding rates apply uniformly across all frontend DEX partners accessing Orderly's infrastructure. Payments occur automatically between long and short position holders based on the 8-hour time-weighted average premium, with the network's cross-chain architecture enabling efficient settlement across supported blockchains.",
+    "why_this_pair": "BTC/USDT represents the highest volume pair on Orderly Network's shared liquidity infrastructure, making it ideal for funding rate arbitrage due to deep order books and consistent trading activity. The pair benefits from Orderly's multi-chain approach, capturing Bitcoin trading demand across NEAR and EVM ecosystems while maintaining competitive funding rates through the aggregated liquidity model.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "Orderly Network's BTC/USDT funding rates typically range from -0.01% to 0.05% hourly, translating to roughly -2.19% to 10.95% annually. During Bitcoin bull runs, funding rates often stay positive for extended periods as leverage demand increases across the shared liquidity network. The hourly reset frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Cross-chain trading activity influences rate volatility, with higher rates often coinciding with increased activity on connected DEX frontends."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Orderly's shared liquidity model creates unique arbitrage scenarios where funding rates can diverge from major centralized exchanges due to isolated DEX liquidity pools. Traders can exploit rate differentials by holding opposite positions between Orderly Network and CEXs like Binance or OKX. The 0.02% maker fee and 0.05% taker fee structure requires careful calculation of net arbitrage profits after transaction costs. Multi-chain accessibility allows for more complex arbitrage strategies involving different blockchain ecosystems and their respective Bitcoin derivatives markets."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "The shared order book dependency creates counterparty risks if frontend DEX partners experience technical issues or liquidity constraints. Cross-chain bridge risks exist when moving funds between NEAR and EVM chains for position management. Orderly's infrastructure complexity means potential single points of failure that could affect funding rate calculations or position settlements. Lower overall liquidity compared to major CEXs can result in higher slippage during volatile periods, impacting arbitrage execution. Smart contract risks are present across the multi-chain architecture supporting the shared liquidity layer."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do BTC/USDT funding rates reset on Orderly Network?",
+        "answer": "Funding rates reset every hour at the top of each hour. This higher frequency compared to traditional 8-hour cycles provides more opportunities for short-term funding rate arbitrage strategies."
+      },
+      {
+        "question": "Can I access Orderly's BTC/USDT perpetuals from different blockchain networks?",
+        "answer": "Yes, Orderly Network's shared infrastructure supports trading from both NEAR and EVM-compatible chains. You can access the same BTC/USDT order book through various frontend DEX partners regardless of your blockchain preference."
+      },
+      {
+        "question": "What makes Orderly Network's funding rates different from centralized exchanges?",
+        "answer": "Orderly uses a shared liquidity model that aggregates demand across multiple DEX frontends, potentially creating rate divergences from isolated CEX markets. The hourly reset frequency and cross-chain trading activity also contribute to unique funding rate patterns."
+      },
+      {
+        "question": "Are there additional risks when trading BTC/USDT perpetuals on Orderly Network?",
+        "answer": "Yes, beyond standard perpetual futures risks, you face smart contract risks across multiple chains, potential frontend DEX dependencies, and cross-chain bridge risks when moving funds. The complex infrastructure architecture also introduces additional technical risk factors compared to simpler centralized platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "ordi-usdt",
+    "ton-usdt",
+    "jto-usdt",
+    "ena-usdt"
+  ]
+}

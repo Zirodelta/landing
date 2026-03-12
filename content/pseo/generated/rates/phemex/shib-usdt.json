@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "shib-usdt",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SHIB/USDT Funding Rate Arbitrage on Phemex - Live Data",
+    "description": "Track SHIB/USDT perpetual funding rates on Phemex with 8-hour intervals. Analyze meme coin volatility patterns for optimal arbitrage strategies.",
+    "keywords": [
+      "SHIB funding rate",
+      "Phemex arbitrage",
+      "meme coin perpetuals",
+      "SHIB USDT futures",
+      "funding rate strategy",
+      "Shiba Inu trading",
+      "Phemex derivatives",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "SHIB/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities with 8-hour settlement intervals and competitive 0.01% maker fees. This meme coin pair experiences significant funding rate volatility during social media-driven price movements and retail trading surges.",
+    "how_funding_works": "Phemex calculates SHIB/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The exchange uses a time-weighted average price methodology with a 0.01% base rate and applies a dampening mechanism during extreme volatility. Position holders pay or receive funding based on their long/short exposure and the current funding rate at settlement times.",
+    "why_this_pair": "SHIB's high retail participation creates frequent funding rate imbalances, particularly during social media catalyzed price movements. The pair's large trading volume on Phemex provides sufficient liquidity for arbitrage execution, while the meme coin's volatility generates significant funding premiums during trending periods.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SHIB/USDT funding rates on Phemex typically range from -0.2% to +0.4% during normal market conditions, but can spike beyond ±1.0% during viral social media events or major Shiba Inu ecosystem announcements. The pair shows strong correlation with broader meme coin sentiment, often experiencing positive funding during retail FOMO periods and negative rates during bearish meme coin cycles. Weekend periods frequently see reduced funding volatility due to lower institutional participation, creating more predictable rate patterns for arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "Optimal arbitrage windows occur when SHIB funding rates exceed ±0.3% on Phemex, considering the 0.06% taker fees and 8-hour holding periods required. Cross-exchange arbitrage opportunities emerge when Phemex rates diverge significantly from Binance or OKX SHIB perpetuals, particularly during Asian trading hours when retail activity peaks. The pair's high volatility requires careful position sizing, as funding gains can be offset by adverse price movements during the 8-hour settlement window."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "SHIB's meme coin nature introduces substantial price volatility risk that can overwhelm funding rate profits, with intraday moves often exceeding 10-20% during trending periods. Liquidity gaps may occur during extreme market stress, potentially impacting exit strategies for arbitrage positions. Correlation risk with other meme coins means funding rates can shift rapidly across the entire sector, requiring diversified arbitrage approaches and careful exposure limits to avoid concentrated meme coin risk."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical SHIB/USDT funding rates on Phemex?",
+        "answer": "SHIB funding rates on Phemex typically range from -0.2% to +0.4% during normal conditions, but can exceed ±1.0% during viral social media events. The 8-hour settlement frequency provides three daily arbitrage opportunities."
+      },
+      {
+        "question": "How does Phemex's maker fee structure benefit SHIB arbitrage?",
+        "answer": "Phemex's 0.01% maker fees significantly reduce arbitrage costs compared to other exchanges charging 0.02-0.04%. This fee advantage means funding rates need only exceed ~0.02% per 8-hour period to generate net positive returns after transaction costs."
+      },
+      {
+        "question": "What triggers extreme SHIB funding rate movements on Phemex?",
+        "answer": "Major catalysts include Shiba Inu ecosystem developments, Elon Musk tweets mentioning SHIB, and broader meme coin momentum. These events can cause funding rates to spike as retail traders heavily bias toward long positions during FOMO periods."
+      },
+      {
+        "question": "How volatile is SHIB price during funding arbitrage periods?",
+        "answer": "SHIB can experience 10-20% intraday price swings during trending periods, which poses significant risk to funding arbitrage strategies. Traders must account for potential adverse price movements that could offset funding rate profits over the 8-hour settlement window."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "ena-usdt",
+    "blur-usdt",
+    "pyth-usdt",
+    "eth-usdt"
+  ]
+}

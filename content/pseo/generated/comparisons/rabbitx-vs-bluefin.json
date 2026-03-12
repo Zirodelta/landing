@@ -1,0 +1,89 @@
+{
+  "slug": "rabbitx-vs-bluefin",
+  "exchange_a": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Zero gas trading on Starknet",
+      "Cross-margin capabilities",
+      "High-performance off-chain matching"
+    ],
+    "weaknesses": [
+      "Small user base affects liquidity",
+      "Limited trading pairs",
+      "Early-stage protocol risks"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Leading Sui ecosystem perp DEX",
+      "Institutional-grade trading interface",
+      "Fast Sui network settlement"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still developing",
+      "Limited pair selection",
+      "Lower overall trading volumes"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Starknet L2",
+      "b": "Sui blockchain"
+    }
+  },
+  "rate_mechanics": "Both RabbitX and Bluefin use hourly funding rate intervals with similar calculation methods based on premium/discount to spot prices. RabbitX benefits from Starknet's zero gas costs, potentially allowing smaller arbitrage opportunities to be profitable. Bluefin's Sui-based settlement offers sub-second finality, enabling faster position adjustments. Both platforms use order book models with professional market makers, though RabbitX's cross-margin system may create different funding dynamics during volatile periods.",
+  "verdict": "Both exchanges offer competitive fee structures for funding rate arbitrage, with technical advantages on different blockchains. RabbitX suits traders prioritizing gas-free operations and cross-margin efficiency, while Bluefin appeals to those wanting Sui ecosystem exposure with institutional-grade features.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Both use identical fee structures and hourly intervals. RabbitX's zero gas costs may favor smaller arbitrage trades, while Bluefin's faster settlement enables quicker position management during rate changes."
+    },
+    {
+      "question": "How do the blockchain differences affect trading?",
+      "answer": "RabbitX uses Starknet for zero gas trading with Ethereum security, while Bluefin leverages Sui's sub-second finality. Both offer advantages depending on your trading strategy and ecosystem preference."
+    },
+    {
+      "question": "Which platform has better liquidity for perpetual futures?",
+      "answer": "Both are emerging DEXs with growing but limited liquidity compared to major centralized exchanges. RabbitX has longer market presence while Bluefin leads within the newer Sui ecosystem."
+    },
+    {
+      "question": "Are the funding rate calculations identical between platforms?",
+      "answer": "Both use standard perpetual futures funding mechanisms with hourly intervals. Minor differences may exist in premium calculations and market maker incentives, but core methodologies align with industry standards."
+    }
+  ],
+  "seo": {
+    "title": "RabbitX vs Bluefin: Perpetual Futures Comparison 2024",
+    "description": "Compare RabbitX and Bluefin DEX perpetual futures funding rates, fees, and trading features. Detailed analysis of Starknet vs Sui blockchain advantages.",
+    "keywords": [
+      "RabbitX vs Bluefin",
+      "perpetual futures DEX",
+      "funding rates comparison",
+      "Starknet trading",
+      "Sui perps",
+      "DeFi derivatives",
+      "crypto arbitrage",
+      "DEX comparison"
+    ]
+  }
+}

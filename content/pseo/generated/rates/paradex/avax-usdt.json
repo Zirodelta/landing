@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "avax-usdt",
+    "base": "AVAX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AVAX/USDT Funding Rates on Paradex - Real-time Data",
+    "description": "Track AVAX/USDT funding rates on Paradex DEX. Hourly settlements with institutional-grade perpetual futures on Starknet's self-custodial platform.",
+    "keywords": [
+      "AVAX funding rates",
+      "Paradex perpetual futures",
+      "Starknet DEX",
+      "AVAX arbitrage",
+      "self-custodial perps",
+      "institutional trading",
+      "L1 token funding",
+      "hourly funding settlement"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers AVAX/USDT perpetual futures with hourly funding rate settlements on Starknet's self-custodial infrastructure. Built by former Jump Trading engineers, the platform provides institutional-grade perpetual swaps with portfolio margin capabilities for sophisticated arbitrage strategies.",
+    "how_funding_works": "Funding rates on Paradex settle every hour based on the premium/discount between the perpetual contract price and the underlying AVAX spot price. The platform uses a time-weighted average price mechanism to calculate funding, with rates typically ranging from -0.01% to 0.375% per 8-hour period. Long positions pay funding when rates are positive, while short positions receive payments, with settlements automatically processed through smart contracts on Starknet.",
+    "why_this_pair": "AVAX/USDT represents one of the most liquid L1 token pairs for funding rate arbitrage, benefiting from Avalanche's active DeFi ecosystem and consistent trading volume. The pair often exhibits predictable funding patterns during network upgrades, subnet launches, and broader L1 rotation cycles, making it attractive for systematic arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "AVAX/USDT funding rates on Paradex have shown distinct cyclical patterns, particularly during Avalanche ecosystem developments and subnet launches. Rates typically spike positive during AVAX bull runs, reaching 0.2-0.4% per 8-hour period, while turning negative during broader market downturns. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Seasonal patterns emerge around major Avalanche announcements, with funding premiums often persisting for 24-48 hours during high momentum periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Paradex's self-custodial nature eliminates counterparty risk while enabling delta-neutral arbitrage strategies between perpetual and spot AVAX positions. The platform's portfolio margin system allows for capital-efficient cross-margining across positions, reducing collateral requirements for complex arbitrage strategies. Traders can exploit funding rate differentials between Paradex and centralized exchanges, particularly during periods of high volatility when funding rates diverge significantly. The Starknet infrastructure provides low gas costs for frequent position adjustments, making micro-arbitrage strategies economically viable."
+      },
+      {
+        "heading": "Risk Considerations and Platform Limitations",
+        "body": "Paradex's early-stage development presents liquidity risks, with AVAX/USDT order books potentially experiencing wider spreads during volatile periods compared to established centralized exchanges. The Starknet dependency introduces smart contract risks and potential network congestion during high-demand periods. Limited pair coverage means reduced cross-pair arbitrage opportunities, while the platform's institutional focus may result in higher minimum position sizes. Traders should monitor funding rate calculations carefully, as the hourly settlement mechanism can create unexpected cash flow requirements during extended arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do AVAX/USDT funding rates settle on Paradex?",
+        "answer": "Funding rates settle every hour on Paradex, providing more frequent arbitrage opportunities compared to the standard 8-hour cycles on most centralized exchanges. This creates 24 settlement periods per day for active funding rate strategies."
+      },
+      {
+        "question": "What are the typical funding rate ranges for AVAX/USDT on Paradex?",
+        "answer": "AVAX/USDT funding rates typically range from -0.05% to +0.15% per hour during normal market conditions, with extreme rates reaching ±0.5% during high volatility periods. The rates are generally more stable than smaller cap altcoins due to AVAX's established market presence."
+      },
+      {
+        "question": "Does Paradex's portfolio margin affect AVAX funding rate arbitrage?",
+        "answer": "Yes, portfolio margin allows for more capital-efficient arbitrage strategies by enabling cross-margining between AVAX perpetual and spot positions. This reduces the total collateral required for delta-neutral strategies while maintaining the same market exposure and funding rate capture potential."
+      },
+      {
+        "question": "Are there liquidity risks when trading AVAX/USDT funding arbitrage on Paradex?",
+        "answer": "Given Paradex's early stage, AVAX/USDT liquidity can be limited during volatile periods, potentially causing slippage when entering or exiting arbitrage positions. Traders should monitor order book depth and consider position sizing relative to available liquidity to minimize execution risks."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "floki-usdt",
+    "ena-usdt",
+    "op-usdt",
+    "wld-usdt"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "bluefin-vs-paradex",
+  "exchange_a": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Sui ecosystem leader with fast finality",
+      "Professional trading UI with order book",
+      "Institutional-grade matching engine"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still developing",
+      "Limited trading pair selection",
+      "Lower overall trading volume"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading engineering pedigree",
+      "Self-custodial with portfolio margin",
+      "StarkNet appchain architecture"
+    ],
+    "weaknesses": [
+      "Very early development stage",
+      "StarkNet complexity barriers",
+      "Minimal pair coverage currently"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Sui blockchain",
+      "b": "StarkNet appchain"
+    }
+  },
+  "rate_mechanics": "Both exchanges implement hourly funding rate calculations using mark-to-index price mechanisms. Bluefin leverages Sui's fast finality for real-time rate adjustments, while Paradex uses StarkNet's computational advantages for complex portfolio margin calculations. Rate volatility tends to be higher on both platforms due to lower liquidity compared to centralized exchanges. Arbitrage opportunities may exist but require consideration of each blockchain's unique settlement characteristics.",
+  "verdict": "Both represent cutting-edge DEX perpetuals technology but serve different niches. Bluefin offers more immediate trading viability with its developed Sui ecosystem, while Paradex brings institutional-grade architecture that may scale better long-term once StarkNet adoption increases.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate stability?",
+      "answer": "Both exhibit similar volatility due to early-stage liquidity. Bluefin's Sui settlement may provide slightly more predictable rates due to faster finality, while Paradex's portfolio margin could reduce funding pressure during volatile periods."
+    },
+    {
+      "question": "How do settlement speeds compare between platforms?",
+      "answer": "Bluefin benefits from Sui's sub-second finality for faster position updates. Paradex on StarkNet offers comparable speeds but with additional computational complexity that enables advanced features like portfolio margin."
+    },
+    {
+      "question": "Which platform is better for institutional arbitrage?",
+      "answer": "Paradex's Jump Trading heritage and portfolio margin make it more suitable for sophisticated strategies. However, Bluefin's order book model and current liquidity may offer more immediate arbitrage opportunities."
+    },
+    {
+      "question": "Are there significant differences in available trading pairs?",
+      "answer": "Both platforms currently offer limited pair selection compared to major CEXs. Bluefin focuses on major cryptocurrencies with some Sui ecosystem tokens, while Paradex emphasizes blue-chip perpetuals with institutional demand."
+    }
+  ],
+  "seo": {
+    "title": "Bluefin vs Paradex: DEX Perpetuals Funding Rate Comparison",
+    "description": "Compare funding rates between Bluefin (Sui) and Paradex (StarkNet) DEX perpetuals. Analysis of fees, settlement, and arbitrage opportunities for traders.",
+    "keywords": [
+      "Bluefin funding rates",
+      "Paradex perpetuals",
+      "DEX funding arbitrage",
+      "Sui perpetuals",
+      "StarkNet trading",
+      "decentralized futures",
+      "crypto funding rates",
+      "DEX comparison",
+      "perpetual swaps"
+    ]
+  }
+}

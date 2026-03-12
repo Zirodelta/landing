@@ -1,0 +1,91 @@
+{
+  "slug": "rabbitx-vs-paradex",
+  "exchange_a": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution with off-chain matching",
+      "Zero gas fees for trading",
+      "Cross-margin support"
+    ],
+    "weaknesses": [
+      "Small user base limits liquidity",
+      "Limited trading pair selection",
+      "Early-stage protocol risks"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading engineering expertise",
+      "Self-custodial architecture",
+      "Advanced portfolio margin system"
+    ],
+    "weaknesses": [
+      "Very early development stage",
+      "StarkNet technical complexity",
+      "Extremely limited pair coverage"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Starknet Layer 2",
+      "b": "Starknet Appchain"
+    }
+  },
+  "rate_mechanics": "Both RabbitX and Paradex implement hourly funding rate calculations following standard perpetual futures formulas based on the premium between perp and spot prices. RabbitX uses Starknet for settlement with off-chain order matching, potentially creating slight rate variations during high volatility. Paradex operates on a dedicated Starknet appchain which may provide more consistent rate execution but with limited market data due to low trading volume. Both platforms suffer from thin liquidity that can cause funding rates to deviate significantly from larger centralized exchanges.",
+  "verdict": "RabbitX currently offers better liquidity and trading experience despite both being early-stage Starknet DEXs. Paradex shows promise with superior engineering backing but remains too nascent for serious funding rate arbitrage strategies.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "RabbitX currently provides more reliable funding rate data due to higher trading volume, while Paradex's rates are often distorted by extremely low liquidity. Both are unsuitable for large-scale arbitrage strategies."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rates?",
+      "answer": "RabbitX's off-chain matching with Starknet settlement can create brief rate discrepancies during network congestion. Paradex's appchain approach may offer more consistent execution but lacks sufficient volume for meaningful rate discovery."
+    },
+    {
+      "question": "What are the main risks for funding rate arbitrage?",
+      "answer": "Both platforms carry smart contract risks, low liquidity leading to poor rate accuracy, and potential technical issues with Starknet infrastructure. Early-stage protocol changes could also affect funding mechanisms unexpectedly."
+    },
+    {
+      "question": "Which platform is better for institutional traders?",
+      "answer": "Neither platform currently supports institutional-grade funding rate strategies due to limited liquidity and pair selection. Paradex's portfolio margin system shows more promise for future institutional adoption once liquidity improves."
+    }
+  ],
+  "seo": {
+    "title": "RabbitX vs Paradex: Starknet DEX Funding Rates Compared",
+    "description": "Compare funding rate mechanics between RabbitX and Paradex DEXs. Analysis of fees, settlement methods, and arbitrage opportunities on Starknet perpetual futures.",
+    "keywords": [
+      "RabbitX funding rates",
+      "Paradex perpetual futures",
+      "Starknet DEX comparison",
+      "funding rate arbitrage",
+      "decentralized perps",
+      "Layer 2 trading fees",
+      "StarkNet appchain",
+      "perpetual futures DEX",
+      "funding interval comparison",
+      "cross-margin trading"
+    ]
+  }
+}

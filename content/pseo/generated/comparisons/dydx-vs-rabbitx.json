@@ -1,0 +1,89 @@
+{
+  "slug": "dydx-vs-rabbitx",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand with proven track record",
+      "Cosmos appchain sovereignty and control",
+      "1-hour funding intervals for frequent arbitrage"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx to v4",
+      "Lower volume post-migration to Cosmos",
+      "Limited pair selection compared to CEXs"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution with off-chain matching",
+      "Zero gas fees for trading operations",
+      "Cross-margin capabilities for capital efficiency"
+    ],
+    "weaknesses": [
+      "Small user base and liquidity",
+      "Limited pair selection for strategies",
+      "Early-stage protocol with execution risks"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Starknet L2"
+    }
+  },
+  "rate_mechanics": "Both dYdX v4 and RabbitX use 1-hour funding intervals, making them suitable for active funding rate arbitrage strategies. dYdX calculates rates based on premium/discount to index price on its Cosmos appchain, while RabbitX uses Starknet for settlement with off-chain order matching. The identical funding frequencies mean rate differentials between the two can create direct arbitrage opportunities. RabbitX's zero gas trading may provide slight cost advantages, but dYdX's higher liquidity typically results in tighter spreads and more stable funding rates.",
+  "verdict": "dYdX offers more established liquidity and proven infrastructure for funding rate strategies, while RabbitX provides cost-efficient execution through zero gas trading. The choice depends on whether you prioritize liquidity depth and stability (dYdX) or execution costs and speed (RabbitX).",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "dYdX typically provides more stable funding rates due to higher liquidity, while RabbitX's lower user base can create more volatile rates with potentially higher profits but increased risk."
+    },
+    {
+      "question": "How do gas costs affect profitability on each platform?",
+      "answer": "RabbitX eliminates gas costs for trading through its Starknet implementation, while dYdX v4 has minimal fees on its Cosmos appchain. Both are significantly cheaper than Ethereum mainnet alternatives."
+    },
+    {
+      "question": "What are the main technical differences for traders?",
+      "answer": "dYdX operates on its own Cosmos blockchain with on-chain settlement, while RabbitX uses off-chain matching with Starknet settlement. Both offer similar API access and trading interfaces."
+    },
+    {
+      "question": "Which platform is better for large funding rate positions?",
+      "answer": "dYdX generally handles larger positions better due to deeper liquidity and more established market maker presence. RabbitX may face slippage issues with significant position sizes."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs RabbitX: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare dYdX and RabbitX for perpetual futures funding rate arbitrage. Analysis of fees, mechanics, and profitability for DEX perp trading strategies.",
+    "keywords": [
+      "dydx rabbitx comparison",
+      "perpetual futures funding rates",
+      "DEX arbitrage trading",
+      "cosmos starknet perps",
+      "funding rate arbitrage",
+      "decentralized derivatives",
+      "crypto arbitrage strategies",
+      "perp DEX comparison"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEME/USDT Funding Rate - Orderly Network DEX Arbitrage",
+    "description": "Track MEME/USDT perpetual funding rates on Orderly Network DEX. Analyze 1-hour funding intervals across shared liquidity layer for arbitrage opportunities.",
+    "keywords": [
+      "MEME funding rate",
+      "Orderly Network arbitrage",
+      "MEME perpetual futures",
+      "DEX funding rate",
+      "MEME USDT trading",
+      "shared liquidity",
+      "cross-chain arbitrage",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "MEME/USDT perpetual futures on Orderly Network utilize hourly funding rate settlements across their shared liquidity infrastructure. The pair trades with 0.02% maker and 0.05% taker fees on this cross-chain DEX layer.",
+    "how_funding_works": "Orderly Network calculates MEME/USDT funding rates every hour using mark price divergence from spot indices. The shared order book architecture means funding rates apply uniformly across all frontend DEX partners accessing Orderly's liquidity. Settlement occurs automatically in USDT with positions marked-to-market against the aggregated order book. Cross-chain nature allows arbitrageurs to compare funding rates against NEAR and Ethereum-based exchanges simultaneously.",
+    "why_this_pair": "MEME tokens exhibit high volatility and speculative interest, creating frequent funding rate imbalances on Orderly Network. The smaller trading volume compared to major altcoins can lead to more pronounced funding rate deviations. Shared liquidity across multiple DEX frontends provides unique arbitrage opportunities not available on traditional centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEME/USDT on Orderly Network shows elevated funding rates during meme coin rallies, often exceeding 0.1% hourly during viral social media events. The shared liquidity model creates smoother rate transitions compared to isolated DEX pools. Weekend funding tends to normalize as institutional activity decreases across partner DEX frontends. Cross-chain arbitrageurs frequently exploit rate differentials between Orderly's NEAR-based settlement and Ethereum mainnet alternatives."
+      },
+      {
+        "heading": "Multi-Frontend Arbitrage Opportunities",
+        "body": "Orderly's infrastructure enables arbitrage across multiple DEX interfaces simultaneously accessing the same underlying liquidity. Traders can monitor funding rates while executing on preferred frontend partners like WOOFi or Ref Finance. The shared order book eliminates liquidity fragmentation typical in DEX trading. Cross-chain bridge delays create temporary funding rate premiums for patient arbitrageurs willing to wait for settlement windows."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "MEME token volatility can trigger rapid position liquidations despite favorable funding rates on Orderly Network. The complex architecture introduces smart contract risks across multiple chains and frontend interfaces. Smaller trading volumes may result in wider bid-ask spreads during volatile periods. Bridge congestion between NEAR and EVM chains can delay arbitrage execution and affect funding rate calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MEME/USDT funding rates updated on Orderly Network?",
+        "answer": "Funding rates settle every hour across all DEX frontends using Orderly's shared liquidity layer. The calculation uses mark price data aggregated from multiple partner exchanges to ensure accurate pricing."
+      },
+      {
+        "question": "Can I arbitrage MEME funding rates across different Orderly DEX partners?",
+        "answer": "No, all DEX frontends share the same underlying order book and funding rates. Arbitrage opportunities exist between Orderly Network and external exchanges, not between partner DEX interfaces."
+      },
+      {
+        "question": "What are the minimum position sizes for MEME/USDT funding arbitrage?",
+        "answer": "Minimum position sizes depend on the frontend DEX partner, typically ranging from $10-100 USDT equivalent. Consider the 0.05% taker fee when calculating minimum profitable arbitrage amounts."
+      },
+      {
+        "question": "How does cross-chain settlement affect MEME funding rate arbitrage?",
+        "answer": "Cross-chain operations may introduce 5-10 minute delays for position transfers between NEAR and EVM chains. This latency can impact time-sensitive arbitrage strategies but creates opportunities for patient traders."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "doge-usdt",
+    "link-usdt",
+    "ordi-usdt",
+    "op-usdt"
+  ]
+}

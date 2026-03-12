@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-drift",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Oracle-based pricing eliminates order book manipulation",
+      "GLP liquidity pools provide consistent depth",
+      "Battle-tested on Arbitrum with proven track record"
+    ],
+    "weaknesses": [
+      "Higher trading fees than order book models",
+      "Oracle dependency creates price update lag",
+      "Price impact increases with position size"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana's sub-second finality enables rapid execution",
+      "JIT liquidity auctions improve price discovery",
+      "Lower fees competitive with centralized exchanges"
+    ],
+    "weaknesses": [
+      "Solana network outages affect trading availability",
+      "Lower overall liquidity versus established CEXs",
+      "vAMM liquidation mechanics increase complexity"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based",
+      "b": "vAMM + DLOB hybrid"
+    }
+  },
+  "rate_mechanics": "GMX calculates funding rates based on oracle prices and GLP pool utilization, creating predictable but potentially higher rates during volatile periods. Drift uses a virtual AMM with decentralized limit order book hybrid, allowing for more dynamic rate adjustments through JIT liquidity auctions. Both platforms update funding every hour, but GMX's oracle dependency can create delays during network congestion while Drift benefits from Solana's consistent block times. Rate magnitude tends to be lower on Drift due to better price efficiency from the DLOB component.",
+  "verdict": "GMX offers superior reliability and battle-tested infrastructure on Arbitrum, making it suitable for larger positions despite higher fees. Drift provides better fee efficiency and faster execution on Solana, ideal for active traders willing to accept network dependency risks.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Drift typically offers better opportunities due to lower fees and faster execution, but GMX provides more predictable rates for longer-term strategies. Rate discrepancies between the two can create cross-platform arbitrage opportunities."
+    },
+    {
+      "question": "How do oracle vs vAMM pricing mechanisms affect funding rates?",
+      "answer": "GMX's oracle pricing creates more stable but potentially lagged rates, while Drift's vAMM responds faster to market movements. This can lead to temporary rate disparities that arbitrageurs can exploit."
+    },
+    {
+      "question": "Which platform is better for high-frequency funding rate strategies?",
+      "answer": "Drift's lower fees and Solana's speed make it more suitable for high-frequency strategies. However, GMX's predictable oracle updates can be advantageous for timing-based approaches."
+    },
+    {
+      "question": "What are the main risks when comparing these platforms?",
+      "answer": "GMX faces oracle dependency and higher costs, while Drift has Solana network risks and liquidity constraints. Both require careful position sizing relative to available liquidity pools."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Drift: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare GMX and Drift perpetual futures for funding rate arbitrage. Analyze fees, oracle vs vAMM mechanics, and liquidity differences between these leading DEXs.",
+    "keywords": [
+      "GMX vs Drift",
+      "perpetual futures funding rates",
+      "DEX arbitrage",
+      "Arbitrum vs Solana",
+      "oracle pricing",
+      "vAMM trading",
+      "DeFi derivatives",
+      "funding rate comparison",
+      "crypto arbitrage",
+      "decentralized perpetuals"
+    ]
+  }
+}

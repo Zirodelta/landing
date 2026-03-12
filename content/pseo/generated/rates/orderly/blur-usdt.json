@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "blur-usdt",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BLUR/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track BLUR/USDT perpetual funding rates on Orderly Network's shared liquidity layer. Hourly settlements and multi-chain arbitrage opportunities.",
+    "keywords": [
+      "BLUR funding rates",
+      "Orderly Network",
+      "NFT token futures",
+      "DEX arbitrage",
+      "shared liquidity",
+      "NEAR protocol",
+      "multi-chain trading",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "BLUR/USDT perpetual futures on Orderly Network offer unique funding rate arbitrage opportunities through its shared order book infrastructure. As a leading NFT marketplace token, BLUR exhibits distinctive funding patterns influenced by NFT market cycles and cross-DEX liquidity flows.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and spot prices across its shared liquidity layer. The infrastructure aggregates price feeds from multiple DEX frontends, creating more stable funding calculations than isolated exchanges. Funding payments occur automatically through smart contracts, with rates typically ranging from -0.1% to 0.3% during normal market conditions. The shared order book model means funding rates reflect broader multi-chain sentiment rather than isolated exchange dynamics.",
+    "why_this_pair": "BLUR's connection to NFT market volatility creates predictable funding rate patterns, especially during major NFT collection launches or marketplace updates. The token's smaller market cap on Orderly Network can lead to more pronounced funding rate deviations compared to major CEX platforms. These characteristics make BLUR/USDT attractive for traders seeking higher-yield funding rate arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BLUR/USDT funding rates on Orderly Network typically correlate with NFT market activity, showing positive rates during bull cycles and negative rates during bearish periods. The token experiences funding spikes around Blur protocol updates and airdrop events, often reaching ±0.5% hourly rates. Weekend patterns show reduced volatility due to lower NFT trading activity. The shared liquidity model creates smoother rate transitions compared to isolated DEX pools, reducing extreme funding events that plague smaller exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Orderly Network and major CEX platforms like Binance or OKX frequently yields 2-5% annual returns through funding rate differentials. The DEX's hourly funding settlements create more frequent profit-taking opportunities compared to 8-hour CEX cycles. Multi-chain accessibility through NEAR and Ethereum bridges enables complex arbitrage strategies involving spot token transfers. White-label frontend partnerships can create temporary rate discrepancies as different interfaces may show varying liquidity depths."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Bridge risks between NEAR and Ethereum networks can delay arbitrage execution during high congestion periods. The dependency on frontend partners means trading access could be affected by individual interface issues or updates. Lower overall liquidity compared to major CEX platforms increases slippage risks for larger position sizes. Smart contract risks inherent to DEX trading require careful consideration of protocol security audits and upgrade mechanisms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Orderly Network settle BLUR/USDT funding payments?",
+        "answer": "Orderly Network settles funding payments every hour for BLUR/USDT perpetuals. This more frequent settlement compared to traditional 8-hour cycles provides better capital efficiency for arbitrage strategies."
+      },
+      {
+        "question": "Can I access BLUR/USDT funding rates from multiple blockchains?",
+        "answer": "Yes, Orderly Network's infrastructure supports trading from both NEAR Protocol and Ethereum networks. The shared order book means funding rates remain consistent regardless of which chain you access the platform from."
+      },
+      {
+        "question": "What makes BLUR funding rates different on Orderly vs centralized exchanges?",
+        "answer": "Orderly's shared liquidity model and hourly settlements create more responsive funding rates to market changes. Lower overall liquidity can lead to higher rate volatility but also greater arbitrage opportunities compared to major CEX platforms."
+      },
+      {
+        "question": "Are there any specific risks with BLUR perpetuals on DEX platforms?",
+        "answer": "Main risks include bridge delays for cross-chain arbitrage, smart contract vulnerabilities, and dependency on frontend partners for platform access. Additionally, lower liquidity increases slippage risks for larger trading positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "avax-usdt",
+    "eth-usdt",
+    "ada-usdt",
+    "aave-usdt"
+  ]
+}

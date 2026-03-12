@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rates on Phemex - Arbitrage Trading",
+    "description": "Track FIL/USDT perpetual funding rates on Phemex. Leverage 8-hour funding intervals and 0.01% maker fees for profitable arbitrage opportunities.",
+    "keywords": [
+      "FIL funding rate",
+      "Phemex arbitrage",
+      "FIL perpetual futures",
+      "Filecoin funding",
+      "crypto arbitrage trading",
+      "Phemex trading fees",
+      "FIL USDT perp",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on Phemex offer structured funding rate opportunities with 8-hour payment intervals. Phemex's competitive 0.01% maker fees and contract trading focus make it attractive for funding rate arbitrage strategies targeting Filecoin's volatility patterns.",
+    "how_funding_works": "Phemex calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium over the funding period. The exchange caps funding rates at ±0.75% per interval to prevent extreme payments. Funding settlements occur automatically in USDT, with long positions paying when rates are positive and receiving payments when negative. Phemex's funding rate formula incorporates both premium and interest rate components, typically resulting in rates between -0.1% to +0.3% for FIL.",
+    "why_this_pair": "FIL perpetuals exhibit significant funding rate volatility due to Filecoin's infrastructure token status and storage mining economics. Network upgrade announcements and storage capacity changes create directional bias that translates to sustained funding rate premiums. The moderate trading volume provides sufficient liquidity for arbitrage while maintaining meaningful rate spreads between exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FIL/USDT funding rates on Phemex historically range from -0.2% to +0.4% per 8-hour period, with higher volatility during Filecoin network upgrades. Positive funding rates dominate during storage demand surges and FVM rollout phases, often sustaining +0.15% to +0.25% for multiple days. Rate reversals typically coincide with broader crypto market corrections or mining profitability concerns. Weekly funding patterns show elevated rates around Tuesday-Thursday due to institutional rebalancing in infrastructure tokens. The exchange's funding rate history demonstrates clear correlation with Filecoin's storage network metrics and developer activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities with Phemex",
+        "body": "Phemex's 0.01% maker fees create favorable conditions for funding rate arbitrage when FIL rates exceed 0.08% per interval. Cross-exchange arbitrage works well between Phemex and Binance, with typical rate differentials of 0.03% to 0.12% during trending periods. The platform's contract specialization ensures competitive execution for large arbitrage positions, though liquidity can thin during Asian off-hours. Delta-neutral strategies benefit from Phemex's precise funding calculations and reliable settlement timing. Position sizing should account for the exchange's smaller user base, with optimal arbitrage sizes typically under $50,000 to avoid market impact."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Phemex's smaller FIL market depth creates liquidation risks during sudden price movements, particularly with positions exceeding 2% of daily volume. The exchange's funding rate caps at ±0.75% can limit extreme arbitrage profits but also reduce downside exposure during volatile periods. Counterparty risk considerations include Phemex's regulatory status in Singapore and relatively newer market presence compared to tier-1 exchanges. API reliability issues have occurred during high volatility, potentially affecting automated arbitrage strategies. Storage token correlation risks mean FIL positions may experience sector-wide funding rate convergence during infrastructure narrative shifts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FIL/USDT funding rates on Phemex?",
+        "answer": "FIL funding rates on Phemex typically range from -0.1% to +0.3% per 8-hour period. During strong bullish periods or Filecoin network developments, rates can reach +0.4% to +0.5% but are capped at ±0.75% per interval."
+      },
+      {
+        "question": "How do Phemex's maker fees affect FIL funding arbitrage profitability?",
+        "answer": "Phemex's 0.01% maker fees are among the lowest for perpetual futures, requiring only 0.02% round-trip costs. This makes funding rate arbitrage profitable when FIL rates exceed 0.06% per 8-hour period, accounting for fees and slippage."
+      },
+      {
+        "question": "Does Phemex offer sufficient liquidity for large FIL arbitrage positions?",
+        "answer": "FIL/USDT liquidity on Phemex supports arbitrage positions up to $30,000-50,000 without significant market impact. Larger positions may experience slippage during low-volume periods, particularly during Asian off-hours or weekends."
+      },
+      {
+        "question": "How reliable is Phemex for automated FIL funding rate strategies?",
+        "answer": "Phemex generally provides stable API performance for automated strategies, though occasional latency spikes occur during high volatility. The exchange's funding calculations are precise and settlements occur reliably at scheduled intervals, making it suitable for systematic approaches."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "ton-usdt",
+    "eth-usdt",
+    "ftm-usdt",
+    "op-usdt"
+  ]
+}

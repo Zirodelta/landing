@@ -1,0 +1,91 @@
+{
+  "slug": "mexc-vs-gmx",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees",
+      "First-to-list many tokens",
+      "High leverage options"
+    ],
+    "weaknesses": [
+      "Thinner order books",
+      "Questionable volume reporting",
+      "Limited regulatory compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs",
+      "Arbitrum ecosystem leader",
+      "Battle-tested since 2021"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency risk",
+      "Price impact on large trades"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.05%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.07%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Traditional order book",
+      "b": "GLP/GM liquidity pools"
+    }
+  },
+  "rate_mechanics": "MEXC uses standard 8-hour funding intervals based on perpetual-spot price premium, typical for centralized exchanges. GMX operates with hourly funding calculations derived from the borrowing fees charged to traders using the GLP pool as counterparty. GMX's oracle-based pricing eliminates traditional funding rate arbitrage opportunities between long/short positions. MEXC's zero maker fees can significantly improve arbitrage profitability despite less frequent funding settlements.",
+  "verdict": "MEXC offers better fee structure for high-frequency arbitrage with zero maker fees, while GMX provides more frequent funding opportunities with hourly settlements. GMX's decentralized model eliminates counterparty risk but introduces oracle dependency and higher execution costs.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "MEXC's zero maker fees make it superior for arbitrage profitability, but GMX's hourly funding provides more frequent opportunities. The choice depends on your strategy frequency and capital efficiency needs."
+    },
+    {
+      "question": "How do the funding rate calculations differ between MEXC and GMX?",
+      "answer": "MEXC uses traditional perpetual-spot premium calculations every 8 hours. GMX charges borrowing fees to traders against the GLP pool hourly, with rates determined by pool utilization rather than position imbalances."
+    },
+    {
+      "question": "What are the liquidity differences for large arbitrage positions?",
+      "answer": "MEXC offers deeper order books for popular pairs but may have thin liquidity for newer listings. GMX provides consistent liquidity through GLP pools but charges price impact fees on larger trades."
+    },
+    {
+      "question": "Which platform is better for automated funding rate strategies?",
+      "answer": "GMX's hourly settlements and predictable oracle-based pricing suit automated strategies better. MEXC requires monitoring of order book dynamics and potential slippage on maker orders despite zero fees."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs GMX: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare MEXC's zero maker fees vs GMX's hourly funding for perpetual futures arbitrage. Detailed analysis of CEX vs DEX funding rate mechanics and profitability.",
+    "keywords": [
+      "MEXC funding rates",
+      "GMX perpetual futures",
+      "funding rate arbitrage",
+      "CEX vs DEX trading",
+      "perpetual swap fees",
+      "crypto arbitrage strategy",
+      "GLP liquidity pools",
+      "arbitrum trading",
+      "zero maker fees",
+      "hourly funding settlements"
+    ]
+  }
+}

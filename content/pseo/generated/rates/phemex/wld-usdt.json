@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Phemex - Real-Time Analysis",
+    "description": "Track WLD/USDT perpetual funding rates on Phemex. 8-hour funding cycles, 0.01% maker fees. Analysis for Worldcoin arbitrage opportunities on Singapore CEX.",
+    "keywords": [
+      "WLD funding rate",
+      "Phemex arbitrage",
+      "Worldcoin perpetual",
+      "WLD USDT",
+      "funding rate arbitrage",
+      "Phemex derivatives",
+      "WLD futures",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities with 8-hour settlement cycles. Phemex's competitive 0.01% maker fees and contract trading specialization make it attractive for systematic funding rate strategies on Worldcoin positions.",
+    "how_funding_works": "Phemex calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. Funding payments occur automatically between long and short position holders, with positive rates paid by longs to shorts. The exchange uses a time-weighted average premium calculation over the funding period to determine rates.",
+    "why_this_pair": "WLD/USDT presents unique funding rate patterns due to Worldcoin's AI sector volatility and retail trading interest. The pair often exhibits asymmetric funding premiums during AI narrative cycles, creating arbitrage opportunities for traders who can capture rate differentials across exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT funding rates on Phemex have shown significant volatility, ranging from -0.3% to +0.75% during major market moves. AI sector sentiment drives extreme funding premiums, particularly during OpenAI announcements or broader AI token rallies. The 8-hour settlement frequency allows for multiple arbitrage opportunities per day compared to daily funding exchanges. Weekend periods often see compressed funding rates due to lower trading volumes and reduced market maker activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Phemex's low 0.01% maker fees create favorable conditions for funding rate arbitrage on WLD/USDT positions. Cross-exchange arbitrage works well when Phemex rates diverge significantly from Binance or OKX funding levels. The clean UI and reliable API execution make it suitable for automated funding strategies. Market makers can capture spread and funding simultaneously due to competitive fee structure, though smaller user base may limit position sizes during volatile periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WLD's high volatility can create substantial mark-to-market risk that exceeds funding rate profits during trending markets. Phemex's smaller liquidity pool may result in slippage on larger positions, particularly during funding settlement periods. The exchange's limited altcoin perpetual selection reduces hedging options for portfolio-based strategies. Occasional liquidity gaps during Asian trading hours can impact position management and emergency exits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD/USDT funding rates on Phemex?",
+        "answer": "WLD/USDT funding rates on Phemex typically range from -0.1% to +0.3% during normal market conditions. Rates can spike to ±0.5% or higher during AI sector events or major Worldcoin developments, with 8-hour settlement providing multiple arbitrage windows daily."
+      },
+      {
+        "question": "How do Phemex's WLD funding rates compare to other exchanges?",
+        "answer": "Phemex often shows slightly higher funding rate volatility than larger exchanges due to its smaller user base and concentrated derivative focus. The 8-hour funding cycle aligns with Binance, making cross-exchange arbitrage viable, though rate convergence may be slower than on high-liquidity platforms."
+      },
+      {
+        "question": "What position sizes work best for WLD funding arbitrage on Phemex?",
+        "answer": "Optimal position sizes for WLD funding arbitrage on Phemex typically range from $10,000 to $100,000 to balance funding capture with liquidity constraints. Larger positions may experience slippage during volatile periods, while smaller positions may not justify the operational complexity of multi-exchange strategies."
+      },
+      {
+        "question": "Are there specific times when WLD funding rates are most profitable on Phemex?",
+        "answer": "WLD funding rates often peak during US market hours and Asian morning sessions when AI sector news typically breaks. The 16:00 UTC funding settlement frequently shows the highest premiums due to overlapping European and US trading activity, while 00:00 UTC settlements tend to be more compressed."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "doge-usdt",
+    "fet-usdt",
+    "wif-usdt",
+    "avax-usdt"
+  ]
+}

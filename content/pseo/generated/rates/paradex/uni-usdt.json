@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rates on Paradex - DEX Perps Trading",
+    "description": "Monitor UNI/USDT perpetual funding rates on Paradex DEX. 1-hour intervals, self-custodial trading, and portfolio margin for efficient arbitrage strategies.",
+    "keywords": [
+      "UNI funding rates",
+      "Paradex DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "StarkNet trading",
+      "DeFi perpetuals",
+      "UNI USDT",
+      "self-custodial perps"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Paradex offer unique funding rate arbitrage opportunities within the StarkNet ecosystem. As a DEX built by former Jump Trading engineers, Paradex provides self-custodial perpetual trading with 1-hour funding intervals, targeting institutional-grade DeFi participants.",
+    "how_funding_works": "Paradex calculates funding rates hourly using a TWAP-based mechanism that compares perpetual prices to UNI spot indices. The exchange's StarkNet infrastructure enables gas-efficient settlements while maintaining decentralized custody of positions. Portfolio margin allows cross-collateralization across positions, optimizing capital efficiency for multi-pair funding strategies. Funding payments occur automatically every hour without requiring manual intervention.",
+    "why_this_pair": "UNI perpetuals attract significant interest due to Uniswap's role as the leading DEX protocol, creating natural demand from governance participants and DeFi yield farmers. The token's correlation with broader DeFi sentiment often generates funding rate premiums during governance events or protocol upgrades. Paradex's institutional focus means UNI/USDT often exhibits more stable funding patterns compared to retail-heavy exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on Paradex typically range from -0.01% to 0.03% during normal market conditions, with spikes during major governance proposals or DeFi sector rotations. The 1-hour funding frequency creates more granular rate adjustments compared to 8-hour systems, reducing extreme rate compression. During UNI governance events, funding rates can surge to 0.05-0.08% as traders position for voting outcomes. The DEX structure tends to produce more volatile funding compared to centralized exchanges due to lower liquidity buffers."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between Paradex and centralized platforms like Binance or OKX can yield 0.02-0.05% per hour during rate divergences. The self-custodial nature eliminates counterparty risk but requires managing StarkNet bridge timing for capital deployment. Portfolio margin enables efficient delta-neutral strategies by using UNI spot holdings as collateral for short perpetual positions. Gas costs on StarkNet are significantly lower than Ethereum mainnet, improving the economics of frequent position adjustments."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet bridge delays can impact rapid arbitrage execution, requiring careful timing of capital movements between L1 and L2. The exchange's early-stage status means lower liquidity depth, potentially causing slippage during large position adjustments. Smart contract risks exist given Paradex's novel architecture, though the Jump Trading team's pedigree provides technical credibility. Funding rate volatility tends to be higher than established CEX platforms, requiring more active risk management and position sizing discipline."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are UNI funding rates updated on Paradex?",
+        "answer": "Paradex calculates and settles UNI/USDT funding rates every hour, providing more frequent adjustments than traditional 8-hour cycles. This creates more responsive rate discovery but requires closer monitoring for arbitrage strategies."
+      },
+      {
+        "question": "What are the margin requirements for UNI perpetuals on Paradex?",
+        "answer": "Paradex uses portfolio margin with cross-collateralization, allowing UNI spot holdings and other approved assets as collateral. Initial margin requirements vary based on position size and volatility, typically ranging from 5-15% for UNI perpetuals."
+      },
+      {
+        "question": "How does Paradex's DEX structure affect UNI funding rates?",
+        "answer": "As a DEX, Paradex funding rates reflect organic supply/demand without market maker intervention, often creating more volatile rates. The self-custodial structure attracts different trader profiles, potentially causing rate divergences from centralized exchanges."
+      },
+      {
+        "question": "What risks exist when trading UNI perpetuals on StarkNet?",
+        "answer": "Key risks include StarkNet bridge delays affecting arbitrage timing, smart contract risks from the novel architecture, and lower liquidity causing higher slippage. The early-stage nature requires careful position sizing and risk management protocols."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "shib-usdt",
+    "wld-usdt",
+    "doge-usdt",
+    "ada-usdt"
+  ]
+}

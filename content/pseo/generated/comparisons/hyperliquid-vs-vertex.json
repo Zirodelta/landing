@@ -1,0 +1,89 @@
+{
+  "slug": "hyperliquid-vs-vertex",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book on native L1",
+      "Sub-second finality with 1-hour funding",
+      "No KYC required for trading"
+    ],
+    "weaknesses": [
+      "Single-chain ecosystem limits arbitrage",
+      "USDC-only settlement",
+      "Newer platform with limited history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low 0.03% taker fees",
+      "Cross-margin by default",
+      "Fast off-chain sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum only",
+      "Lower brand recognition",
+      "Sequencer centralization risk"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.03%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Native L1",
+      "b": "Arbitrum"
+    }
+  },
+  "rate_mechanics": "Both exchanges use 1-hour funding intervals with similar TWAP-based rate calculations. Hyperliquid's native L1 provides full on-chain transparency for funding calculations, while Vertex uses a hybrid model with off-chain sequencing for speed. Rate convergence differs due to Hyperliquid's isolated ecosystem versus Vertex's Arbitrum integration. Both platforms calculate rates based on premium/discount to spot indices, but liquidity depth variations create different arbitrage opportunities.",
+  "verdict": "Vertex offers better fee efficiency for active traders with 0.03% taker fees versus Hyperliquid's 0.05%. However, Hyperliquid provides superior decentralization with its fully on-chain order book and native settlement, making it attractive for users prioritizing transparency over cost optimization.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Vertex typically provides better opportunities due to lower taker fees (0.03% vs 0.05%) and deeper liquidity from Arbitrum ecosystem integration. However, Hyperliquid's isolated nature can create unique rate divergences."
+    },
+    {
+      "question": "How do the funding rate calculations differ between platforms?",
+      "answer": "Both use 1-hour intervals with premium-based calculations, but Hyperliquid's fully on-chain execution provides more transparency. Vertex's hybrid model may have slight delays between off-chain sequencing and on-chain settlement."
+    },
+    {
+      "question": "Which platform is better for cross-exchange arbitrage strategies?",
+      "answer": "Vertex integrates better with other Arbitrum protocols for complex strategies. Hyperliquid requires bridging to its native chain, adding friction but potentially creating larger rate discrepancies to exploit."
+    },
+    {
+      "question": "What are the key risk differences for funding rate trading?",
+      "answer": "Hyperliquid offers full decentralization but single-chain risk, while Vertex has sequencer centralization risk but benefits from Arbitrum's ecosystem security and liquidity depth."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs Vertex: Funding Rate Arbitrage Comparison",
+    "description": "Compare Hyperliquid and Vertex for perpetual futures funding rate arbitrage. Analyze fees, mechanics, and opportunities on these leading DEX platforms.",
+    "keywords": [
+      "hyperliquid vertex comparison",
+      "dex funding rates",
+      "perpetual futures arbitrage",
+      "on-chain derivatives",
+      "arbitrum dex",
+      "funding rate trading",
+      "crypto arbitrage strategies",
+      "decentralized perpetuals"
+    ]
+  }
+}

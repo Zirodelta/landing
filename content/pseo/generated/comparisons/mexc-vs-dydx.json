@@ -1,0 +1,89 @@
+{
+  "slug": "mexc-vs-dydx",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees",
+      "First-to-list many tokens",
+      "High leverage options"
+    ],
+    "weaknesses": [
+      "Thinner order books",
+      "Questionable volume reporting",
+      "Limited regulatory compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized custody",
+      "b": "Self-custody on-chain"
+    }
+  },
+  "rate_mechanics": "MEXC uses standard 8-hour funding intervals with rates calculated from premium/discount to spot index, typically capped at ±0.75%. dYdX implements hourly funding on its Cosmos appchain, allowing for more frequent rate adjustments and potentially better capital efficiency. The DEX structure means funding flows directly between traders without exchange intermediation. MEXC's zero maker fees can offset funding costs for market makers, while dYdX's frequent settlements reduce overnight funding exposure.",
+  "verdict": "MEXC favors high-frequency arbitrageurs with zero maker fees and diverse altcoin pairs, while dYdX suits traders preferring hourly funding cycles and on-chain settlement. Volume and liquidity differences significantly impact execution quality between the two platforms.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "MEXC provides more altcoin pairs for rate divergences but with questionable liquidity, while dYdX offers hourly funding cycles that reduce overnight exposure risk for major pairs."
+    },
+    {
+      "question": "How do the funding calculation methods differ between MEXC and dYdX?",
+      "answer": "Both use premium/discount methodology, but dYdX's hourly calculations on Cosmos provide more frequent rate adjustments compared to MEXC's standard 8-hour intervals."
+    },
+    {
+      "question": "What are the custody implications for funding rate strategies?",
+      "answer": "MEXC requires centralized custody with counterparty risk, while dYdX offers self-custody through its Cosmos appchain, eliminating exchange bankruptcy risk."
+    },
+    {
+      "question": "Which platform has better execution for large funding arbitrage positions?",
+      "answer": "dYdX generally provides more reliable liquidity for established pairs, while MEXC's aggressive listing strategy offers more opportunities but with execution risks."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs dYdX: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare MEXC's zero maker fees and 8h funding vs dYdX's hourly funding cycles and on-chain settlement for perpetual futures arbitrage strategies.",
+    "keywords": [
+      "MEXC vs dYdX",
+      "funding rate arbitrage",
+      "perpetual futures",
+      "DEX vs CEX",
+      "hourly funding",
+      "zero maker fees",
+      "Cosmos appchain",
+      "crypto arbitrage"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tao-usdt",
+    "base": "TAO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TAO/USDT Funding Rate on Paradex - DEX Perps Arbitrage",
+    "description": "Track TAO/USDT funding rates on Paradex DEX. Self-custodial perpetual futures with hourly funding on StarkNet. Built by ex-Jump Trading engineers.",
+    "keywords": [
+      "TAO funding rate",
+      "Paradex perpetual futures",
+      "Bittensor arbitrage",
+      "StarkNet DEX",
+      "self-custodial perps",
+      "AI token funding",
+      "Paradex TAO",
+      "decentralized derivatives"
+    ]
+  },
+  "content": {
+    "intro": "TAO/USDT perpetual futures on Paradex offer unique funding rate arbitrage opportunities through a self-custodial DEX built by former Jump Trading engineers. The hourly funding settlements and portfolio margin system create distinct dynamics compared to centralized exchanges.",
+    "how_funding_works": "Paradex calculates funding rates hourly using a TWAP mechanism that compares the perpetual contract price to the underlying TAO spot index. The funding rate is settled directly through portfolio margin adjustments, eliminating the need for separate USDT transfers. Smart contracts on StarkNet automatically execute funding payments, with the rate typically ranging from -0.375% to +0.375% per 8-hour period. Portfolio margin allows efficient capital utilization across multiple positions while maintaining funding rate exposure.",
+    "why_this_pair": "TAO represents Bittensor's native token, an AI-focused blockchain with significant volatility that creates funding rate inefficiencies. The token's mid-tier volume combined with AI sector speculation often leads to prolonged periods of positive or negative funding rates. Paradex's institutional focus and limited pair coverage means TAO/USDT often trades at premium or discount to major CEX rates.",
+    "sections": [
+      {
+        "heading": "TAO Funding Rate Historical Patterns",
+        "body": "TAO funding rates on Paradex typically exhibit high volatility due to the token's AI narrative and relatively low market cap. During AI sector rallies, funding rates frequently turn positive as leveraged longs dominate, often exceeding 0.1% per hour. Conversely, during market corrections, TAO experiences sharp negative funding as positions unwind rapidly. The hourly settlement frequency means rates can shift dramatically within single trading sessions, creating both opportunities and risks for arbitrageurs. Historical data shows TAO funding rates on Paradex often diverge from CEX rates by 10-50 basis points during volatile periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Paradex's self-custodial nature creates arbitrage opportunities when funding rates diverge significantly from centralized exchanges like Binance or OKX. Traders can exploit positive funding by shorting on Paradex while going long on CEX platforms, capturing the rate differential. The portfolio margin system enables efficient capital deployment across multiple arbitrage positions simultaneously. However, arbitrageurs must account for StarkNet gas costs and potential slippage due to lower liquidity compared to tier-1 exchanges. Cross-chain bridge delays between StarkNet and other networks can impact arbitrage timing and effectiveness."
+      },
+      {
+        "heading": "Risk Considerations for TAO Perpetuals",
+        "body": "Trading TAO perpetuals on Paradex involves several unique risks beyond standard funding rate arbitrage. StarkNet's relative complexity and early-stage infrastructure create potential smart contract and network risks. TAO's correlation with broader AI sector sentiment means funding rates can remain persistently positive or negative for extended periods. The exchange's limited liquidity compared to major CEX platforms increases the risk of price gaps and forced liquidations during volatile periods. Additionally, Paradex's early-stage status means fewer market makers and potentially wider bid-ask spreads, impacting arbitrage profitability calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does TAO funding rate settlement work on Paradex's StarkNet infrastructure?",
+        "answer": "Paradex settles TAO funding rates hourly through smart contracts on StarkNet, automatically adjusting portfolio margins without requiring separate USDT transfers. The process is permissionless and transparent, with all funding calculations verifiable on-chain."
+      },
+      {
+        "question": "What makes TAO funding rates different on Paradex compared to centralized exchanges?",
+        "answer": "Paradex's limited liquidity and institutional focus often creates funding rate premiums or discounts compared to major CEX platforms. The self-custodial model and portfolio margin system also affects how funding impacts overall position management."
+      },
+      {
+        "question": "Can I arbitrage TAO funding rates between Paradex and other exchanges effectively?",
+        "answer": "Yes, but arbitrage requires careful consideration of StarkNet bridge times, gas costs, and liquidity differences. The hourly funding frequency provides more opportunities but also increases execution complexity compared to 8-hour funding cycles."
+      },
+      {
+        "question": "What are the main risks of holding TAO perpetual positions on Paradex for funding collection?",
+        "answer": "Key risks include StarkNet network risks, limited liquidity leading to potential gaps, TAO's high volatility, and the exchange's early-stage status. Portfolio margin can amplify both gains and losses across correlated positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "near-usdt",
+    "ton-usdt",
+    "pendle-usdt",
+    "bnb-usdt"
+  ]
+}

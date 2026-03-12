@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Orderly Network ETH/USDT Funding Rate Arbitrage Guide",
+    "description": "Master funding rate arbitrage on Orderly Network's ETH/USDT perpetual futures. Learn hourly funding mechanics, shared liquidity advantages, and risk strategies.",
+    "keywords": [
+      "orderly network funding rates",
+      "eth usdt perpetual futures",
+      "dex arbitrage",
+      "shared liquidity arbitrage",
+      "near protocol defi",
+      "multi-chain funding",
+      "hourly funding rates",
+      "white-label dex"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network's ETH/USDT perpetual futures offer unique arbitrage opportunities through their shared liquidity infrastructure across multiple DEX frontends. The platform's hourly funding rate settlements and 0.02%/0.05% fee structure create distinct patterns compared to centralized exchanges.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly using a time-weighted average price mechanism across their shared order book. The funding rate is determined by the premium/discount between the perpetual contract price and the underlying ETH spot price across connected frontends. Payments occur every hour at the top of each hour, with long positions paying shorts when rates are positive and vice versa. The shared liquidity model means funding rates reflect aggregated sentiment across all connected DEX platforms using Orderly's infrastructure.",
+    "why_this_pair": "ETH/USDT represents the highest liquidity pair on Orderly Network, making it ideal for funding rate arbitrage with minimal slippage impact. The pair's mega-volume status ensures consistent funding rate discovery and provides the most reliable arbitrage opportunities within the Orderly ecosystem.",
+    "sections": [
+      {
+        "heading": "ETH Funding Rate Patterns on Orderly Network",
+        "body": "Historical analysis shows ETH/USDT funding rates on Orderly Network typically range from -0.05% to +0.15% hourly during normal market conditions. During ETH bull runs, sustained positive funding rates of 0.08-0.12% hourly are common as leveraged long positions dominate. The shared liquidity model creates more stable funding rates compared to individual DEX implementations, as the aggregated order flow smooths extreme rate spikes. Funding rate reversals often occur during major ETH price movements, creating short-term arbitrage windows of 2-4 hours."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "The most profitable arbitrage opportunities emerge during ETH volatility spikes when funding rates diverge significantly from other major exchanges. Orderly's hourly settlement creates 24 daily arbitrage windows, compared to 8-hour cycles on traditional platforms. The 0.02% maker fee structure favors high-frequency arbitrageurs who can capture small funding rate differentials. Cross-chain arbitrage becomes viable when Orderly's rates deviate more than 0.03% hourly from Binance or OKX rates, accounting for withdrawal and bridging costs."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "The shared liquidity model introduces counterparty risk across multiple frontend partners, requiring diversification of exposure. Smart contract risk is elevated compared to centralized exchanges, particularly during network congestion on NEAR or connected EVM chains. Position sizing should account for potential frontend failures that could temporarily freeze access to positions. The complex multi-chain architecture can create execution delays during high volatility, making real-time hedging more challenging than on centralized platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect ETH funding rates?",
+        "answer": "The shared liquidity model aggregates order flow from multiple DEX frontends, creating more stable and accurate funding rate discovery. This typically results in less extreme funding rate spikes compared to individual DEX implementations, but may also reduce arbitrage opportunities during low volatility periods."
+      },
+      {
+        "question": "What are the gas cost implications for ETH funding rate arbitrage?",
+        "answer": "NEAR Protocol's low transaction costs make frequent position adjustments economically viable, with typical funding rate collection costing under $0.50 in gas fees. However, cross-chain bridging for arbitrage between Orderly and other exchanges can cost $5-15 depending on network congestion."
+      },
+      {
+        "question": "How reliable is ETH perpetual settlement during network congestion?",
+        "answer": "Orderly Network's architecture provides better reliability than single-chain DEXs, as it can route through multiple frontend partners. However, during extreme NEAR network congestion, funding rate settlements may experience 1-2 minute delays, which can impact time-sensitive arbitrage strategies."
+      },
+      {
+        "question": "What position limits exist for ETH funding rate arbitrage on Orderly?",
+        "answer": "Position limits vary by frontend partner but typically allow up to $1M notional for ETH/USDT. The shared liquidity model means large positions benefit from deeper aggregate order books, though individual frontend failures could temporarily restrict access to positions exceeding $100K."
+      }
+    ]
+  },
+  "related_pairs": [
+    "atom-usdt",
+    "fil-usdt",
+    "tia-usdt",
+    "jto-usdt",
+    "avax-usdt"
+  ]
+}

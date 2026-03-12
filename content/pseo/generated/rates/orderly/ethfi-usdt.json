@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track ETHFI/USDT perpetual funding rates on Orderly Network. Hourly settlements at 0.02%/0.05% fees across shared liquidity infrastructure.",
+    "keywords": [
+      "ETHFI funding rates",
+      "Orderly Network",
+      "DEX arbitrage",
+      "perpetual futures",
+      "DeFi funding",
+      "shared liquidity",
+      "NEAR protocol",
+      "EVM compatibility"
+    ]
+  },
+  "content": {
+    "intro": "ETHFI/USDT perpetual futures on Orderly Network operate through a shared order book infrastructure that connects multiple DEX frontends across NEAR and EVM chains. The hourly funding rate settlements create arbitrage opportunities leveraged across Orderly's distributed liquidity pool.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly using a shared order book mechanism that aggregates positions across all connected frontends. The platform's infrastructure layer ensures synchronized funding payments regardless of which frontend interface traders use to access ETHFI/USDT perpetuals. Funding rates are determined by the premium/discount between the perpetual price and ETHFI spot price across the network's liquidity sources.",
+    "why_this_pair": "ETHFI represents EtherFi's liquid staking token, creating unique funding dynamics driven by staking yield differentials and DeFi protocol adoption. The pair's lower liquidity on Orderly Network can lead to more volatile funding rates compared to major exchanges, presenting arbitrage opportunities for traders familiar with cross-chain liquidity mechanics.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETHFI/USDT funding rates on Orderly Network have shown correlation with broader liquid staking token trends and EtherFi protocol developments. The shared liquidity model means rates are influenced by aggregate positioning across multiple frontend partners rather than isolated trading activity. Historical data indicates higher volatility during EtherFi governance events and liquid staking narrative cycles. The hourly settlement frequency allows for more responsive rate adjustments compared to traditional 8-hour cycles."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly Network's multi-chain architecture creates unique arbitrage scenarios where ETHFI funding rates can diverge significantly from centralized exchanges. The shared order book aggregates liquidity from NEAR and EVM-compatible chains, potentially creating rate disparities exploitable through cross-DEX strategies. Traders can capitalize on funding rate differentials by maintaining positions on Orderly while hedging on CEXs with different rate cycles. The 0.02% maker fee structure supports high-frequency arbitrage strategies when funding rate spreads exceed transaction costs."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "The indirect user experience through frontend partners introduces counterparty risk beyond typical DEX exposures, as traders depend on the stability of both Orderly's infrastructure and chosen frontend interfaces. Lower ETHFI/USDT liquidity compared to major pairs can result in higher slippage during position adjustments for funding rate strategies. Smart contract risks span multiple layers including Orderly's core infrastructure, connected frontends, and cross-chain bridge dependencies. Funding rate arbitrage strategies must account for potential frontend downtime affecting position management capabilities."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect ETHFI funding rates?",
+        "answer": "The shared order book aggregates ETHFI/USDT positions across all connected frontends, creating unified funding rate calculations. This means rates reflect aggregate market sentiment rather than isolated frontend activity, potentially reducing extreme rate spikes but also limiting arbitrage opportunities from fragmented liquidity."
+      },
+      {
+        "question": "What are the risks of trading ETHFI perpetuals on a DEX infrastructure layer?",
+        "answer": "Key risks include dependency on frontend partner stability, smart contract vulnerabilities across multiple protocol layers, and potential cross-chain bridge failures affecting collateral management. The indirect access model also means traders have limited direct control over infrastructure decisions that could impact their positions."
+      },
+      {
+        "question": "How do Orderly Network's hourly funding settlements compare to other exchanges?",
+        "answer": "The hourly funding cycle provides more frequent rate adjustments than traditional 8-hour cycles, allowing quicker responses to ETHFI price movements. However, this also means higher transaction frequency for funding payments and potentially more complex arbitrage timing requirements."
+      },
+      {
+        "question": "Can I arbitrage ETHFI funding rates between Orderly frontends?",
+        "answer": "No, since all frontends share the same underlying order book and funding rate calculations, there are no rate differences between Orderly-connected interfaces. Arbitrage opportunities exist between Orderly Network and external exchanges or other DEX protocols with independent ETHFI/USDT markets."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "wif-usdt",
+    "xrp-usdt",
+    "meme-usdt",
+    "tia-usdt"
+  ]
+}

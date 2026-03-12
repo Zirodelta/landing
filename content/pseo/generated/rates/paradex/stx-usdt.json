@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rates on Paradex DEX | Perp Trading",
+    "description": "Track STX/USDT perpetual funding rates on Paradex. Hourly settlements, self-custodial trading, and Jump Trading-built infrastructure for institutional perps.",
+    "keywords": [
+      "STX funding rates",
+      "Paradex DEX",
+      "STX perpetual futures",
+      "Starknet trading",
+      "Bitcoin ecosystem",
+      "self-custodial perps",
+      "funding rate arbitrage",
+      "portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers STX/USDT perpetual futures with hourly funding rate settlements on their Starknet-based institutional DEX. Built by former Jump Trading engineers, the platform provides self-custodial trading with portfolio margin capabilities for Bitcoin ecosystem assets.",
+    "how_funding_works": "Paradex calculates STX/USDT funding rates using a time-weighted average of the premium between perpetual and spot prices. Funding payments occur every hour at 0.02% maker and 0.05% taker fees, with rates typically ranging from -0.1% to +0.2% during normal market conditions. The platform's portfolio margin system allows cross-collateralization, reducing capital requirements for multi-position strategies.",
+    "why_this_pair": "STX perpetuals attract significant funding rate volatility due to Bitcoin ecosystem narratives and limited spot liquidity across exchanges. Paradex's institutional focus creates opportunities for sophisticated arbitrageurs to capitalize on funding rate inefficiencies. The hourly settlement frequency provides more granular profit opportunities compared to 8-hour cycles on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical STX Funding Rate Patterns",
+        "body": "STX funding rates on Paradex have shown pronounced volatility during Bitcoin network upgrades and Stacks ecosystem developments. Rates frequently spike above +0.5% during bullish Bitcoin narratives, creating profitable short opportunities. The token's correlation with Bitcoin mining sentiment drives funding rate cycles that often diverge from broader altcoin patterns. Institutional participants on Paradex tend to maintain more balanced positioning compared to retail-heavy exchanges, resulting in less extreme rate swings."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "STX funding rate arbitrage on Paradex benefits from the platform's self-custodial nature, eliminating counterparty risk during extended positions. The portfolio margin system allows efficient capital allocation across multiple perpetual contracts, enhancing arbitrage returns. Cross-exchange arbitrage opportunities emerge frequently due to STX's limited liquidity on competing DEXs and Paradex's institutional user base creating unique pricing dynamics. Arbitrageurs can leverage StarkNet's low transaction costs for frequent position adjustments during volatile funding periods."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "Trading STX perpetuals on Paradex involves StarkNet smart contract risks and potential network congestion during high volatility periods. The platform's early-stage nature means limited historical data for funding rate modeling and reduced liquidity during market stress. Portfolio margin benefits come with increased complexity in risk calculations, requiring sophisticated position monitoring. STX's Bitcoin ecosystem correlation can create unexpected funding rate movements during broader crypto market events, demanding careful exposure management."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are STX funding rates calculated on Paradex?",
+        "answer": "Paradex calculates STX/USDT funding rates continuously and settles payments every hour. This higher frequency compared to traditional 8-hour cycles provides more opportunities for funding rate arbitrage strategies."
+      },
+      {
+        "question": "What makes Paradex different for STX perpetual trading?",
+        "answer": "Paradex offers self-custodial STX perpetuals with portfolio margin on StarkNet, built by former Jump Trading engineers. The institutional focus and cross-collateralization features provide unique advantages for sophisticated trading strategies."
+      },
+      {
+        "question": "Can I use portfolio margin for STX funding rate arbitrage?",
+        "answer": "Yes, Paradex's portfolio margin system allows cross-collateralization across multiple positions, reducing capital requirements for STX arbitrage strategies. This enables more efficient use of capital when running complex multi-asset funding rate plays."
+      },
+      {
+        "question": "What are the main risks of STX funding arbitrage on Paradex?",
+        "answer": "Key risks include StarkNet smart contract exposure, early-stage platform development, and STX's correlation with Bitcoin ecosystem events. The limited trading history and lower liquidity compared to established CEXs also require careful position sizing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "wif-usdt",
+    "floki-usdt",
+    "xrp-usdt",
+    "mkr-usdt",
+    "ordi-usdt"
+  ]
+}

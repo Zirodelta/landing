@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOGE/USDT Funding Rates on Phemex - Arbitrage Guide",
+    "description": "Track DOGE/USDT perpetual funding rates on Phemex. 8-hour intervals, 0.01% maker fees. Analysis of meme coin funding patterns and arbitrage opportunities.",
+    "keywords": [
+      "DOGE funding rate",
+      "Phemex arbitrage",
+      "Dogecoin perpetual",
+      "meme coin funding",
+      "8-hour intervals",
+      "Phemex fees",
+      "DOGE futures",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "DOGE/USDT perpetual futures on Phemex offer unique arbitrage opportunities due to the meme coin's volatile funding patterns and Phemex's ultra-low 0.01% maker fees. With 8-hour funding intervals and DOGE's tendency for extreme sentiment swings, traders can capitalize on significant funding rate deviations.",
+    "how_funding_works": "Phemex calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, using a time-weighted average of the premium index over the funding period. The exchange applies a dampening mechanism when rates exceed ±0.75% to prevent extreme funding charges. During high volatility periods, Phemex may implement additional risk controls including position limits and margin adjustments for DOGE contracts. The funding fee is exchanged directly between long and short position holders, with no intermediary fees charged by the exchange.",
+    "why_this_pair": "DOGE's meme coin status creates highly asymmetric funding patterns, often showing extreme positive rates during social media-driven rallies and negative rates during correction phases. The large trading volume on Phemex ensures sufficient liquidity for arbitrage execution, while the 8-hour intervals provide multiple daily opportunities to capture funding rate anomalies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE/USDT on Phemex has exhibited funding rates ranging from -2.5% to +4.8% during major market events, significantly higher than typical altcoin ranges. Social media-driven rallies consistently push funding rates above +1.5% as retail traders favor long positions, creating profitable shorting opportunities for arbitrageurs. During bear market phases, funding rates often turn negative (-0.5% to -1.2%) as leveraged longs get liquidated and shorts dominate positioning. The 8-hour interval structure allows for rapid rate adjustments compared to exchanges with longer funding periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage becomes highly profitable when Phemex DOGE/USDT funding rates deviate more than 0.3% from Binance or OKX rates, accounting for trading fees and transfer costs. Delta-neutral strategies work effectively by holding spot DOGE and shorting perpetuals when funding rates exceed +0.8%, capturing the funding payments while maintaining market-neutral exposure. Phemex's low maker fees (0.01%) make frequent position adjustments economically viable, allowing traders to dynamically hedge their exposure. The combination of high DOGE volatility and significant funding rate swings can generate 15-25% annualized returns through systematic funding arbitrage."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "DOGE's extreme volatility can create substantial mark-to-market losses that exceed funding gains, particularly during sudden price movements of 20%+ within funding periods. Phemex's relatively smaller liquidity compared to tier-1 exchanges may result in higher slippage during position entry/exit, especially for larger arbitrage sizes above $50,000. Meme coin sentiment can shift rapidly, causing funding rates to reverse unexpectedly and trap arbitrageurs in unfavorable positions. Risk management requires strict position sizing (typically <10% of portfolio per trade) and automated stop-losses to prevent funding gains from being eroded by directional exposure."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical DOGE funding rates on Phemex during bull markets?",
+        "answer": "During DOGE bull runs, Phemex funding rates typically range from +0.5% to +2.5% per 8-hour period, with extreme events reaching +4%+. These elevated rates reflect strong long bias from retail traders chasing momentum, creating lucrative shorting opportunities for arbitrageurs."
+      },
+      {
+        "question": "How does Phemex's 8-hour funding interval compare to other exchanges for DOGE?",
+        "answer": "Phemex's 8-hour intervals provide more frequent arbitrage opportunities compared to Binance's daily funding, allowing traders to capture short-term funding anomalies. However, this also means higher transaction frequency and the need for more active position management compared to longer funding cycles."
+      },
+      {
+        "question": "What position size limits should I consider for DOGE arbitrage on Phemex?",
+        "answer": "For optimal execution, keep individual DOGE arbitrage positions under $25,000-50,000 on Phemex to avoid significant slippage. The exchange's smaller liquidity pool compared to major competitors means larger trades may impact funding rates themselves, reducing arbitrage effectiveness."
+      },
+      {
+        "question": "How do Phemex's maker fees affect DOGE funding arbitrage profitability?",
+        "answer": "Phemex's 0.01% maker fees significantly enhance DOGE arbitrage profitability, requiring only 0.02% funding rate advantage to break even on round-trip trades. This low fee structure makes frequent position adjustments economically viable, crucial for managing DOGE's high volatility during funding periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bonk-usdt",
+    "apt-usdt",
+    "ordi-usdt",
+    "jup-usdt",
+    "render-usdt"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "mexc-vs-bluefin",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees for arbitrageurs",
+      "First-to-list altcoin perpetuals",
+      "Up to 200x leverage on major pairs"
+    ],
+    "weaknesses": [
+      "Thinner order books affect slippage",
+      "Volume inflation concerns",
+      "Limited regulatory oversight"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Sui blockchain fast finality",
+      "Order book model on-chain",
+      "Institutional-grade matching engine"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still developing",
+      "Limited perpetual pairs available",
+      "Lower liquidity than major CEXs"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized clearing",
+      "b": "On-chain settlement via Sui"
+    }
+  },
+  "rate_mechanics": "MEXC uses traditional 8-hour funding intervals with rates calculated from premium and interest components, often showing higher volatility due to aggressive altcoin listings. Bluefin implements hourly funding on Sui blockchain with on-chain rate calculations, providing more frequent arbitrage opportunities but requiring gas fees for position adjustments. MEXC's zero maker fees benefit funding arbitrageurs, while Bluefin's hourly intervals allow for more responsive rate corrections but higher transaction frequency.",
+  "verdict": "MEXC suits arbitrageurs targeting altcoin perpetuals with zero maker fees and established liquidity, despite volume concerns. Bluefin offers innovative on-chain perpetuals with faster funding cycles but requires comfort with Sui ecosystem limitations and lower overall volumes.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "MEXC provides zero maker fees and more diverse altcoin perpetuals, while Bluefin offers hourly funding intervals for more frequent arbitrage windows. Choice depends on preferred trading frequency and token selection."
+    },
+    {
+      "question": "How do the funding calculation methods differ between MEXC and Bluefin?",
+      "answer": "MEXC uses centralized premium calculations updated every 8 hours, while Bluefin calculates rates on-chain hourly using Sui's consensus mechanism. Bluefin's approach offers more transparency but requires understanding of on-chain mechanics."
+    },
+    {
+      "question": "What are the main risks when arbitraging between these platforms?",
+      "answer": "MEXC carries counterparty risk and potential volume inflation, while Bluefin faces smart contract risk and Sui network dependencies. Both require careful position sizing due to liquidity differences."
+    },
+    {
+      "question": "Which platform is better for institutional funding rate strategies?",
+      "answer": "MEXC offers higher leverage and established infrastructure but lacks regulatory clarity. Bluefin provides transparent on-chain operations and professional trading tools but has limited institutional adoption in the Sui ecosystem."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Bluefin: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare MEXC's zero maker fees and 8h funding with Bluefin's on-chain perpetuals and hourly rates. Analysis of CEX vs DEX arbitrage opportunities and mechanics.",
+    "keywords": [
+      "MEXC funding rates",
+      "Bluefin perpetuals",
+      "CEX vs DEX arbitrage",
+      "Sui blockchain trading",
+      "funding rate comparison",
+      "perpetual futures",
+      "zero maker fees",
+      "on-chain derivatives",
+      "arbitrage opportunities",
+      "8h vs 1h funding"
+    ]
+  }
+}

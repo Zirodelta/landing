@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ADA/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track ADA/USDT perpetual funding rates on Orderly Network DEX. Hourly settlements, 0.02% maker fees, shared liquidity across multiple frontends for arbitrage.",
+    "keywords": [
+      "ADA funding rates",
+      "Orderly Network arbitrage",
+      "DEX perpetual futures",
+      "Cardano trading",
+      "funding rate strategies",
+      "USDT pairs",
+      "DeFi derivatives",
+      "hourly settlements"
+    ]
+  },
+  "content": {
+    "intro": "ADA/USDT perpetual futures on Orderly Network offer unique funding rate arbitrage opportunities through the protocol's shared order book infrastructure. As a DEX built on NEAR with EVM compatibility, Orderly aggregates liquidity across multiple frontend partners, creating deeper markets for Cardano trading.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly using a time-weighted average of the premium between perpetual and index prices. The shared liquidity model means funding payments reflect aggregate positioning across all connected frontends, potentially creating more stable rates than isolated DEX markets. Funding settlements occur every hour at the top of each hour, with rates typically ranging from -0.01% to 0.01% for ADA/USDT during normal market conditions.",
+    "why_this_pair": "ADA/USDT represents one of the most liquid altcoin pairs for funding rate arbitrage due to Cardano's established market presence and consistent trading volume. The pair's correlation with broader DeFi trends often creates predictable funding rate patterns, especially during network upgrade cycles or staking reward adjustments that affect ADA's utility demand.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ADA/USDT funding rates on Orderly Network typically exhibit strong correlation with Cardano's development milestones and ecosystem activity. During major Cardano upgrades or DeFi protocol launches, positive funding rates often persist for 24-48 hours as long positioning increases. The shared liquidity model tends to moderate extreme rates compared to isolated DEX markets, with monthly averages typically ranging from -0.005% to 0.015%. Seasonal patterns emerge around Cardano's epoch boundaries and staking reward distributions, creating predictable arbitrage windows."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly Network's infrastructure layer creates unique arbitrage opportunities by aggregating order flow from multiple frontend partners while maintaining competitive funding rates. Rate differentials between Orderly and centralized exchanges like Binance or OKX frequently exceed 0.02% during volatile periods, sufficient to overcome the 0.05% taker fee structure. The protocol's hourly settlement frequency provides more granular arbitrage windows compared to 8-hour cycles on major CEXs. Multi-chain compatibility allows for efficient capital deployment across NEAR and Ethereum ecosystems."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading ADA/USDT perpetuals on Orderly Network requires careful consideration of DEX-specific risks including smart contract dependencies and frontend partner reliability. The shared order book model introduces counterparty risks across multiple integrated platforms, though this is mitigated by Orderly's institutional-grade infrastructure. Funding rate arbitrage strategies should account for potential slippage during NEAR network congestion and the complexity of cross-chain position management. Position sizing should consider that liquidity depth may vary significantly across different frontend partners accessing the shared book."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect ADA funding rates?",
+        "answer": "Orderly's shared order book aggregates positioning data across all connected frontends, creating more stable funding rates than isolated DEX markets. This typically results in rates closer to centralized exchange levels due to deeper liquidity and reduced manipulation risk."
+      },
+      {
+        "question": "What are the fee implications for ADA funding rate arbitrage on Orderly?",
+        "answer": "Orderly charges 0.02% maker fees and 0.05% taker fees, requiring funding rate differentials of at least 0.1% annually to be profitable after round-trip costs. The hourly settlement frequency allows for more precise entry and exit timing compared to longer settlement cycles."
+      },
+      {
+        "question": "Can I access ADA/USDT perpetuals directly on Orderly Network?",
+        "answer": "Orderly operates as an infrastructure layer, so you must access ADA/USDT perpetuals through partner frontends like WOO Network or Vertex Protocol. Each frontend may offer different UI/UX while sharing the same underlying liquidity and funding rate calculations."
+      },
+      {
+        "question": "How reliable is ADA funding rate data from Orderly's multiple frontends?",
+        "answer": "All frontends accessing Orderly's shared infrastructure report identical funding rates since calculations occur at the protocol level. However, individual frontend uptime and API reliability may vary, making it advisable to monitor rates through multiple partner platforms for consistency."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ordi-usdt",
+    "sei-usdt",
+    "avax-usdt",
+    "rune-usdt",
+    "pepe-usdt"
+  ]
+}

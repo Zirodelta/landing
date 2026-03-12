@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rates on Orderly Network | DEX Arbitrage",
+    "description": "Track FLOKI/USDT perpetual funding rates on Orderly Network. Analyze hourly rate patterns across DEX frontends for optimal arbitrage opportunities.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Orderly Network",
+      "DEX perpetual futures",
+      "NEAR protocol",
+      "meme token arbitrage",
+      "cross-chain funding",
+      "shared liquidity",
+      "perpetual swaps"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Orderly Network offer unique arbitrage opportunities through its shared order book infrastructure across multiple DEX frontends. The protocol's hourly funding settlements and cross-chain liquidity create distinct rate patterns compared to centralized exchanges.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and spot prices across its shared order book. Rates are distributed simultaneously across all frontend DEXs using Orderly's infrastructure, including WOOFi, Ref Finance, and other partner platforms. The shared liquidity model means funding rates reflect aggregated demand from multiple DEX interfaces, potentially creating more stable rate patterns than isolated DEX perpetuals.",
+    "why_this_pair": "FLOKI's high volatility and meme token characteristics often generate significant funding rate premiums during trending periods. The token's popularity across multiple chains makes Orderly's cross-chain infrastructure particularly valuable for accessing diverse liquidity sources and funding rate arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT on Orderly Network typically shows heightened funding activity during social media-driven price surges, with rates often spiking above 0.1% during peak memecoin cycles. The shared order book tends to moderate extreme rates compared to single-DEX perpetuals, as liquidity aggregation dampens volatility spikes. Historical data shows funding rates correlate strongly with FLOKI's price momentum, often turning negative during extended downtrends. Weekend sessions frequently display reduced rate volatility due to lower retail participation across Orderly's frontend partners."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly's infrastructure enables unique arbitrage strategies by comparing funding rates across different frontend DEXs accessing the same underlying order book. Traders can exploit rate differences between Orderly-based perpetuals and other DEX/CEX platforms while benefiting from shared liquidity depth. The protocol's multi-chain architecture allows for funding rate arbitrage combined with cross-chain yield strategies. Rate discrepancies often emerge during high volatility periods when different frontends experience varying user demand patterns."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Orderly Network's dependency on frontend partners creates counterparty risks beyond typical DEX exposure, as users must trust both the infrastructure layer and their chosen interface. The complex multi-chain architecture introduces bridge risks and potential settlement delays during network congestion. FLOKI's meme token status amplifies liquidation risks due to sudden price movements and low liquidity during off-peak hours. Smart contract risks span multiple protocols in Orderly's ecosystem, requiring careful assessment of each component's security audit status."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared order book affect FLOKI funding rates?",
+        "answer": "The shared order book aggregates liquidity from multiple DEX frontends, typically resulting in more stable funding rates than isolated perpetual markets. This liquidity pooling can reduce extreme rate spikes but may also limit arbitrage opportunities during low-volume periods."
+      },
+      {
+        "question": "Can I trade FLOKI perpetuals on different Orderly frontends simultaneously?",
+        "answer": "While technically possible, all Orderly-based frontends access the same underlying order book, so positions would interact with the same liquidity pool. The main differences lie in interface features, fee structures, and additional services offered by each frontend partner."
+      },
+      {
+        "question": "What are the main risks of FLOKI funding rate arbitrage on Orderly?",
+        "answer": "Primary risks include smart contract vulnerabilities across Orderly's multi-protocol ecosystem, bridge risks for cross-chain operations, and FLOKI's inherent volatility leading to potential liquidations. The dependency on frontend partners also introduces additional counterparty risks."
+      },
+      {
+        "question": "How do Orderly's hourly funding settlements compare to 8-hour CEX cycles?",
+        "answer": "Hourly settlements provide more frequent rebalancing opportunities and potentially higher annualized returns from funding rate arbitrage. However, they also require more active monitoring and may result in higher transaction costs due to increased settlement frequency compared to traditional 8-hour cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "atom-usdt",
+    "pendle-usdt",
+    "jto-usdt",
+    "bonk-usdt"
+  ]
+}

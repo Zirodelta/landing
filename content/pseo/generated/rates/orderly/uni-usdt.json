@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rates on Orderly Network - Hourly Updates",
+    "description": "Track UNI/USDT funding rates on Orderly Network DEX with hourly updates. Access shared liquidity across multiple frontends for DeFi arbitrage opportunities.",
+    "keywords": [
+      "UNI funding rates",
+      "Orderly Network",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "DEX trading",
+      "shared liquidity",
+      "DeFi governance token",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Orderly Network offer unique funding rate opportunities through the platform's shared liquidity infrastructure. As a major DeFi governance token, UNI exhibits distinct funding patterns driven by governance events and DEX volume fluctuations.",
+    "how_funding_works": "Orderly Network calculates UNI/USDT funding rates hourly using a time-weighted average price mechanism across its shared order book. The funding exchange occurs between long and short position holders based on the difference between the perpetual price and the underlying spot price. Orderly's infrastructure layer distributes this funding calculation across all connected frontend partners, ensuring consistent rates regardless of which DEX interface traders use.",
+    "why_this_pair": "UNI's role as Uniswap's governance token creates predictable funding rate spikes around major protocol votes and fee switch proposals. The token's correlation with overall DEX trading volumes makes it particularly sensitive to DeFi market cycles, often resulting in sustained funding rate imbalances during periods of high or low decentralized exchange activity.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on Orderly Network typically range from -0.01% to 0.03% during normal market conditions, with notable spikes during Uniswap governance proposals reaching 0.08-0.15%. The token shows strong correlation with broader DeFi sentiment, with funding rates often turning negative during market downturns as shorts dominate. Quarterly governance cycles create predictable patterns, with rates typically increasing 2-3 weeks before major votes. Weekend periods often see compressed funding rates due to lower overall DeFi activity and reduced arbitrage pressure."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Orderly Network's shared liquidity model creates efficient arbitrage opportunities for UNI/USDT funding rate trades across multiple DEX frontends simultaneously. The 0.02% maker fee structure makes neutral strategies profitable when funding rates exceed 0.06% annually (0.0017% per hour). Cross-exchange arbitrage with centralized platforms like Binance or OKX often yields 0.1-0.3% daily during governance periods. The platform's multi-chain infrastructure allows for complex arbitrage strategies involving UNI positions on different chains, particularly during bridge congestion periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading UNI perpetuals on Orderly Network involves exposure to the platform's shared liquidity model, where frontend partner outages can impact order execution despite the underlying infrastructure remaining operational. UNI's governance-driven volatility creates significant basis risk, with 24-hour price swings of 10-20% common during contentious votes. The token's relatively lower liquidity compared to major assets means funding rate movements can be more pronounced and persistent. Traders should monitor Uniswap protocol developments closely, as fee switch implementations or major partnerships can rapidly shift funding rate dynamics."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect UNI funding rates?",
+        "answer": "Orderly's shared order book aggregates liquidity from all frontend partners, creating deeper markets and more stable funding rates for UNI/USDT. This shared model reduces the impact of individual frontend volume fluctuations on funding calculations."
+      },
+      {
+        "question": "What makes UNI funding rates different from other DeFi tokens on Orderly?",
+        "answer": "UNI's governance utility creates unique funding patterns tied to Uniswap proposal cycles and DEX volume trends. Unlike pure DeFi protocols, UNI rates reflect both governance speculation and the underlying DEX market performance."
+      },
+      {
+        "question": "Can I access UNI funding rate data across all Orderly frontends?",
+        "answer": "Yes, funding rates are calculated at the infrastructure layer and remain consistent across all frontend partners. You can trade on any Orderly-powered DEX and receive the same funding rate calculations."
+      },
+      {
+        "question": "What's the optimal position size for UNI funding rate arbitrage on Orderly?",
+        "answer": "Position sizes should account for UNI's moderate liquidity and Orderly's shared book depth. Most effective arbitrage occurs with positions under $50,000 to minimize market impact while maintaining profitable funding rate capture."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "sui-usdt",
+    "ena-usdt",
+    "dot-usdt",
+    "matic-usdt"
+  ]
+}

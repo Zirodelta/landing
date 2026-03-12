@@ -1,0 +1,89 @@
+{
+  "slug": "drift-vs-orderly",
+  "exchange_a": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana speed and low fees",
+      "JIT liquidity auctions",
+      "Insurance fund protection"
+    ],
+    "weaknesses": [
+      "Solana network dependency",
+      "Lower liquidity vs CEXs",
+      "Complex liquidation mechanics"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain compatibility",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Solana on-chain",
+      "b": "Cross-chain via bridges"
+    }
+  },
+  "rate_mechanics": "Both Drift and Orderly use hourly funding rate calculations based on premium/discount to spot. Drift's vAMM model creates funding rates through its virtual market maker mechanism combined with DLOB order book, while Orderly's shared order book aggregates funding across multiple frontends. Drift's rates can be more volatile due to Solana's speed allowing rapid position changes, whereas Orderly's cross-chain nature may create slight delays in rate adjustments. Both platforms use similar premium/discount formulas but Drift's JIT auctions can create temporary rate spikes during high volatility.",
+  "verdict": "Drift offers superior execution speed and lower transaction costs on Solana, making it ideal for high-frequency funding rate strategies. Orderly provides broader market access through its multi-chain infrastructure but adds complexity through its layered architecture that may impact funding rate arbitrage timing.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "Drift typically provides more frequent arbitrage opportunities due to Solana's speed and lower fees, allowing rapid position adjustments. Orderly's shared liquidity model offers more stable rates but fewer quick arbitrage windows."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "Both use hourly intervals and similar premium formulas, but Drift's vAMM creates more dynamic rates through virtual market making. Orderly's shared order book provides more consistent rates across multiple frontend DEXs."
+    },
+    {
+      "question": "Which is better for large funding rate positions?",
+      "answer": "Orderly's shared liquidity layer typically supports larger positions with less slippage. Drift's JIT auctions can help with size but may create temporary rate volatility during large trades."
+    },
+    {
+      "question": "What are the main risks for funding rate strategies on each platform?",
+      "answer": "Drift faces Solana network risks and potential rate volatility from fast execution. Orderly has cross-chain bridge risks and dependency on frontend partners for optimal execution timing."
+    }
+  ],
+  "seo": {
+    "title": "Drift vs Orderly Network: Funding Rate Comparison 2024",
+    "description": "Compare Drift and Orderly Network funding rates, fees, and arbitrage opportunities. Analysis of DEX perpetual futures mechanics for traders seeking rate arbitrage.",
+    "keywords": [
+      "drift funding rates",
+      "orderly network rates",
+      "dex perpetual futures",
+      "funding rate arbitrage",
+      "solana derivatives",
+      "cross-chain trading",
+      "vamm funding",
+      "shared liquidity"
+    ]
+  }
+}

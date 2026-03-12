@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on Paradex - DEX Perps Trading",
+    "description": "Track FET/USDT funding rates on Paradex DEX. Analyze AI token arbitrage opportunities with hourly funding settlements on StarkNet's institutional perps platform.",
+    "keywords": [
+      "FET funding rates",
+      "Paradex DEX",
+      "AI token perps",
+      "StarkNet trading",
+      "funding rate arbitrage",
+      "institutional DEX",
+      "self-custodial perps",
+      "portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on Paradex offer unique funding rate dynamics within the AI token sector on StarkNet. Built by former Jump Trading engineers, Paradex implements hourly funding settlements with institutional-grade features including portfolio margin and self-custodial trading.",
+    "how_funding_works": "Paradex calculates FET/USDT funding rates every hour based on the 8-hour TWAP premium between perpetual and spot prices. The platform uses a dampening mechanism to reduce funding rate volatility, with rates typically ranging from -0.5% to +0.5% per 8-hour period. Portfolio margin allows traders to optimize capital efficiency across multiple AI token positions while maintaining self-custody of funds through StarkNet's validity proofs.",
+    "why_this_pair": "FET represents Fetch.AI's autonomous agent ecosystem, creating funding rate opportunities during AI narrative cycles and model deployment announcements. The pair's mid-tier volume on Paradex often results in persistent funding premiums during bullish AI sentiment, while the DEX's institutional focus attracts sophisticated arbitrageurs seeking uncorrelated alpha.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET/USDT funding rates on Paradex have shown strong correlation with AI sector momentum, particularly during autonomous agent adoption cycles. The hourly settlement frequency creates more granular arbitrage windows compared to traditional 8-hour cycles. Rates tend to spike positive during AI conference announcements and model releases, with historical peaks reaching +2.5% during major Fetch.AI partnership announcements. The DEX structure often maintains premiums longer than CEX counterparts due to lower arbitrageur participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Paradex's self-custodial model reduces counterparty risk for funding rate strategies while portfolio margin enables capital-efficient cross-collateralization with other AI tokens. The platform's institutional focus creates opportunities for retail arbitrageurs to capture rates before larger players enter. StarkNet's low transaction costs make frequent position adjustments economically viable, though bridge delays can impact rapid arbitrage execution. Consider pairing FET positions with broader AI basket hedges using the platform's margin system."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet bridge mechanics introduce 12-24 hour withdrawal delays that can trap capital during volatile periods, making position sizing crucial for funding strategies. Paradex's early-stage status means limited liquidity depth compared to major CEXs, potentially causing significant slippage on large trades. The platform's minimal pair coverage restricts hedging options, while smart contract risks on StarkNet remain elevated given the network's relative novelty. Monitor FET's correlation with broader AI tokens to avoid concentrated sector exposure during downturns."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding settlement affect FET arbitrage strategies?",
+        "answer": "Hourly settlements create 8x more frequent opportunities compared to traditional exchanges, allowing for more precise timing of entries and exits. However, the shorter intervals also increase monitoring requirements and transaction frequency, making automation more valuable for consistent profits."
+      },
+      {
+        "question": "What are the advantages of trading FET perpetuals on a DEX versus CEX?",
+        "answer": "Paradex offers self-custody, eliminating exchange bankruptcy risk while providing portfolio margin for capital efficiency. The institutional focus often results in more predictable funding patterns, though liquidity is generally lower than major centralized exchanges."
+      },
+      {
+        "question": "How does StarkNet's infrastructure impact FET funding rate strategies?",
+        "answer": "StarkNet's validity proofs ensure transaction finality and reduce settlement risk, while low fees enable frequent position adjustments. However, bridge delays can trap capital during volatile periods, requiring careful position sizing and timing considerations."
+      },
+      {
+        "question": "What portfolio margin benefits exist for AI token funding strategies on Paradex?",
+        "answer": "Portfolio margin allows cross-collateralization between FET and other AI tokens, improving capital efficiency for sector-focused strategies. This enables larger effective positions while maintaining adequate margin buffers across correlated assets within the AI ecosystem."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "ton-usdt",
+    "ethfi-usdt",
+    "avax-usdt",
+    "render-usdt"
+  ]
+}

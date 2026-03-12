@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rates on Bluefin - Bitcoin L2 Arbitrage",
+    "description": "Track STX/USDT perpetual funding rates on Bluefin DEX. Analyze Bitcoin ecosystem token funding patterns with 1-hour intervals and Sui-based settlement.",
+    "keywords": [
+      "STX funding rates",
+      "Bluefin DEX",
+      "Bitcoin L2 arbitrage",
+      "Sui perpetuals",
+      "Stacks funding",
+      "DEX funding rates",
+      "Bitcoin ecosystem trading",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on Bluefin offer exposure to Stacks, a Bitcoin Layer 2 network, through Sui's high-performance infrastructure. Bluefin's institutional-grade matching engine provides hourly funding rate settlements with competitive 0.02%/0.05% trading fees.",
+    "how_funding_works": "Bluefin calculates STX/USDT funding rates every hour using a premium/discount mechanism between perpetual and spot prices. The platform's Sui-based architecture enables near-instant settlement compared to Ethereum-based competitors. Long positions pay shorts when funding rates are positive, reflecting bullish sentiment toward Bitcoin ecosystem tokens. Bluefin's order book model ensures transparent price discovery without AMM slippage affecting funding calculations.",
+    "why_this_pair": "STX represents unique exposure to Bitcoin's programmability layer, creating distinct funding rate patterns compared to other altcoins. As a Bitcoin L2 token, STX often experiences funding rate divergences during Bitcoin network upgrades or ecosystem developments. The pair's moderate volume on Bluefin provides arbitrage opportunities without the extreme volatility of micro-cap tokens.",
+    "sections": [
+      {
+        "heading": "STX Funding Rate Patterns",
+        "body": "STX/USDT funding rates on Bluefin typically trend positive during Bitcoin bull markets as traders leverage exposure to Bitcoin ecosystem growth. Historical data shows funding spikes of 0.1-0.3% during Stacks protocol upgrades and Bitcoin halving periods. The hourly settlement frequency on Bluefin creates more granular arbitrage opportunities compared to 8-hour cycles on centralized exchanges. Weekend funding rates often compress due to reduced institutional activity in the Bitcoin ecosystem."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "Bluefin's STX funding rates frequently diverge from Binance and OKX due to different user bases and settlement mechanics. DEX traders on Sui often maintain longer holding periods, creating sustained funding premiums during bullish Bitcoin narratives. The 0.02% maker fee on Bluefin can offset negative funding payments when arbitraging against centralized exchanges with higher fees. Cross-chain arbitrageurs must factor Sui bridge times and costs when executing funding rate strategies."
+      },
+      {
+        "heading": "Risk Considerations for STX Arbitrage",
+        "body": "STX's correlation with Bitcoin creates liquidation risks during sudden BTC price movements, especially given leverage availability on Bluefin. The Sui ecosystem's early stage introduces smart contract risks and potential bridge vulnerabilities affecting settlement. Limited STX trading pairs on Bluefin restrict hedging options compared to major centralized exchanges. Funding rate arbitrage profits can be eroded by gas costs on Sui during network congestion, though fees remain lower than Ethereum alternatives."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are STX/USDT funding rates calculated on Bluefin?",
+        "answer": "Bluefin calculates STX/USDT funding rates every hour using the time-weighted average premium between perpetual and mark prices. This provides 24 settlement opportunities daily compared to 3 on most centralized exchanges."
+      },
+      {
+        "question": "What makes STX funding rates unique on Bluefin versus other exchanges?",
+        "answer": "Bluefin's Sui-based infrastructure attracts different trader demographics than Ethereum DEXs, often resulting in sustained funding premiums during Bitcoin ecosystem momentum. The platform's institutional focus creates less retail-driven volatility in funding calculations."
+      },
+      {
+        "question": "Can I hedge STX funding rate exposure on Bluefin?",
+        "answer": "Hedging options are limited due to Bluefin's focused pair selection. Traders typically hedge STX exposure through BTC perpetuals or cross-exchange positions rather than within the platform."
+      },
+      {
+        "question": "What are the main risks of STX funding arbitrage on Bluefin?",
+        "answer": "Primary risks include STX's high correlation with Bitcoin creating liquidation exposure, Sui bridge risks for cross-chain strategies, and limited liquidity compared to centralized exchanges affecting execution during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "blur-usdt",
+    "jup-usdt",
+    "link-usdt",
+    "mkr-usdt"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rate Arbitrage on Orderly Network DEX",
+    "description": "Track WIF/USDT perpetual futures funding rates on Orderly Network. Hourly settlements, shared liquidity across DEX frontends for arbitrage opportunities.",
+    "keywords": [
+      "WIF USDT funding rate",
+      "Orderly Network perpetuals",
+      "DEX arbitrage",
+      "dogwifhat futures",
+      "hourly funding",
+      "meme coin arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on Orderly Network offer unique arbitrage opportunities through the protocol's shared liquidity infrastructure. As a meme coin with volatile sentiment, WIF often exhibits extreme funding rate divergences across Orderly's multi-frontend ecosystem.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium/discount between perpetual and spot prices across its shared order book. The rate applies uniformly across all DEX frontends using Orderly's infrastructure, including those on NEAR and EVM chains. Settlement occurs automatically every hour, with long positions paying shorts when rates are positive, and vice versa when negative.",
+    "why_this_pair": "WIF's meme coin status creates frequent funding rate imbalances as retail sentiment drives heavy directional positioning. The token's moderate trading volume on Orderly provides sufficient liquidity for arbitrage while maintaining enough inefficiency for profitable rate exploitation.",
+    "sections": [
+      {
+        "heading": "WIF Funding Rate Patterns on Orderly Network",
+        "body": "WIF funding rates on Orderly typically range from -0.5% to +2% during normal market conditions, with extreme spikes reaching ±5% during viral meme cycles. Positive rates dominate during social media-driven pumps as retail traders open leveraged long positions. The hourly settlement frequency means arbitrageurs can capitalize on sustained directional bias more frequently than 8-hour funding cycles. Cross-chain arbitrage opportunities emerge when funding diverges between Orderly's NEAR and EVM-based frontends."
+      },
+      {
+        "heading": "Arbitrage Strategies Using Shared Liquidity",
+        "body": "Orderly's shared order book creates unique arbitrage mechanics where the same liquidity pool serves multiple DEX interfaces. Traders can exploit funding differentials by taking opposing positions across different frontend integrations while maintaining exposure to the same underlying market. The 0.02% maker fee structure favors high-frequency funding rate plays, especially when rates exceed 0.1% hourly. Delta-neutral strategies work effectively due to consistent liquidity depth across the shared infrastructure."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WIF's meme coin volatility amplifies liquidation risks despite attractive funding rates, requiring careful position sizing and margin management. Orderly's multi-chain architecture introduces smart contract risks across NEAR and EVM implementations that traders must consider. The dependency on frontend partners means user experience can vary significantly between interfaces, potentially affecting execution quality during high-volatility periods. Funding rate reversals can occur rapidly as meme coin sentiment shifts, requiring active monitoring of social media trends and on-chain metrics."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does WIF funding rate settlement work across Orderly's multi-chain frontends?",
+        "answer": "Funding settlement occurs simultaneously across all Orderly-powered DEXs regardless of the underlying blockchain. The shared order book ensures uniform rates, but transaction fees for settlement may vary between NEAR and EVM-based frontends."
+      },
+      {
+        "question": "What are typical WIF funding rates during meme coin pump cycles on Orderly?",
+        "answer": "During viral WIF pumps, funding rates commonly spike to 1-3% hourly as retail traders pile into leveraged longs. These elevated rates can persist for 6-12 hours before market makers arbitrage them down to more sustainable levels around 0.1-0.3%."
+      },
+      {
+        "question": "Can I arbitrage WIF funding rates between different Orderly frontend interfaces?",
+        "answer": "No, all Orderly-powered DEXs share the same order book and funding rates. However, you can arbitrage between Orderly and other exchanges that list WIF perpetuals, using Orderly's competitive maker fees to your advantage."
+      },
+      {
+        "question": "How does Orderly's shared liquidity affect WIF funding rate stability compared to other DEXs?",
+        "answer": "The aggregated liquidity across multiple frontends generally creates more stable funding rates than isolated DEX perpetual markets. However, WIF's meme coin nature still generates significant rate volatility during trending periods or major social media events."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "wld-usdt",
+    "uni-usdt",
+    "rune-usdt",
+    "tao-usdt"
+  ]
+}

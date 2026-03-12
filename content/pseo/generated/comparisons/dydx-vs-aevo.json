@@ -1,0 +1,90 @@
+{
+  "slug": "dydx-vs-aevo",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Custom rollup"
+    }
+  },
+  "rate_mechanics": "Both dYdX and Aevo use identical 1-hour funding intervals, but differ significantly in execution infrastructure. dYdX operates on its own Cosmos appchain with full decentralization, while Aevo uses a custom rollup with off-chain order matching. The funding rate calculations follow similar perpetual swap mechanics, but Aevo's hybrid options-perps model can create additional arbitrage complexities. dYdX's appchain sovereignty provides more predictable rate settlements, whereas Aevo's rollup architecture optimizes for speed but introduces potential centralization risks in rate determination.",
+  "verdict": "dYdX offers greater decentralization and proven perpetual futures infrastructure on its Cosmos appchain, making it ideal for traditional funding rate arbitrage. Aevo provides innovative options-perps integration with faster execution, but comes with higher complexity and centralization trade-offs that may impact funding rate predictability.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "dYdX provides more predictable funding rates due to its established infrastructure and higher historical volumes. Aevo may offer unique arbitrage opportunities through its options-perps integration but with less liquidity depth."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rate arbitrage?",
+      "answer": "dYdX's Cosmos appchain provides fully decentralized settlement with transparent rate calculations. Aevo's rollup offers faster settlement but relies on off-chain components that could impact rate execution predictability."
+    },
+    {
+      "question": "Are trading fees identical between dYdX and Aevo?",
+      "answer": "Yes, both exchanges use the same 0.02% maker and 0.05% taker fee structure. However, gas costs and settlement efficiency differ due to their distinct blockchain architectures."
+    },
+    {
+      "question": "Which platform is better for large funding rate positions?",
+      "answer": "dYdX generally offers better liquidity depth for large positions due to its established user base. Aevo may struggle with larger arbitrage positions due to its smaller liquidity pools post-launch."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Aevo: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare dYdX and Aevo perpetual futures funding rates, fees, and arbitrage opportunities. Expert analysis of DEX infrastructure and rate mechanics.",
+    "keywords": [
+      "dydx vs aevo",
+      "funding rate arbitrage",
+      "perpetual futures dex",
+      "cosmos appchain",
+      "rollup trading",
+      "decentralized derivatives",
+      "crypto arbitrage",
+      "funding intervals",
+      "perp trading comparison"
+    ]
+  }
+}

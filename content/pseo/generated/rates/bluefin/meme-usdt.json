@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEME/USDT Funding Rate Arbitrage on Bluefin DEX",
+    "description": "Track MEME/USDT funding rates on Bluefin, Sui's leading DEX. Hourly settlements and professional trading tools for meme coin arbitrage strategies.",
+    "keywords": [
+      "MEME funding rate",
+      "Bluefin arbitrage",
+      "Sui perpetuals",
+      "meme coin trading",
+      "DEX funding rates",
+      "MEME futures",
+      "perpetual arbitrage",
+      "Bluefin DEX"
+    ]
+  },
+  "content": {
+    "intro": "MEME/USDT perpetual futures on Bluefin offer unique funding rate arbitrage opportunities within the Sui ecosystem. As the leading perpetual DEX on Sui, Bluefin provides hourly funding settlements with institutional-grade execution for meme coin traders.",
+    "how_funding_works": "Bluefin calculates MEME/USDT funding rates hourly using a time-weighted average price mechanism against external spot prices. The platform's order book model ensures transparent price discovery, while funding payments are automatically settled every hour between long and short positions. Bluefin's Sui-based infrastructure enables near-instant settlement with minimal slippage, making it efficient for frequent funding arbitrage strategies.",
+    "why_this_pair": "MEME tokens typically exhibit high funding rate volatility due to speculative trading patterns and sentiment-driven price movements. Bluefin's position as the primary perpetual venue for Sui ecosystem trading creates concentrated liquidity, while the hourly funding frequency offers more arbitrage opportunities compared to 8-hour settlement exchanges.",
+    "sections": [
+      {
+        "heading": "Historical MEME Funding Rate Patterns",
+        "body": "MEME perpetual funding rates on Bluefin have shown significant volatility during viral social media cycles and major meme coin events. Positive funding rates frequently spike above 0.1% hourly during bullish meme trends, while negative rates during corrections can reach -0.05% as shorts dominate. The hourly settlement frequency creates more granular arbitrage windows compared to traditional 8-hour funding cycles. Historical data shows MEME funding rates correlate strongly with Bitcoin dominance shifts and broader risk sentiment in crypto markets."
+      },
+      {
+        "heading": "Arbitrage Strategy Implementation",
+        "body": "Effective MEME funding arbitrage on Bluefin requires monitoring cross-exchange rate differentials and Sui ecosystem liquidity flows. Traders can exploit positive funding by shorting MEME perpetuals while longing spot MEME tokens on centralized exchanges or AMMs. The strategy benefits from Bluefin's low 0.02% maker fees and fast Sui settlement times, enabling rapid position adjustments. Success depends on maintaining delta neutrality while capturing funding premiums that often exceed the combined trading costs across venues."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "MEME funding arbitrage on Bluefin carries heightened risks due to the token's volatility and the Sui ecosystem's relative infancy. Sudden funding rate reversals can occur within single hours during viral events or whale movements, requiring tight stop-losses and position sizing limits. Liquidity risk emerges during extreme volatility when MEME spot-perp basis widens significantly, potentially trapping arbitrage positions. Additionally, Sui network congestion during high activity periods could impact settlement timing, though Bluefin's infrastructure has proven resilient during stress tests."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Bluefin settle MEME funding payments?",
+        "answer": "Bluefin settles MEME/USDT funding payments every hour, providing more frequent arbitrage opportunities compared to exchanges with 8-hour cycles. This hourly frequency allows traders to capture smaller rate differentials more consistently."
+      },
+      {
+        "question": "What are typical MEME funding rates during viral meme cycles?",
+        "answer": "During viral cycles, MEME funding rates on Bluefin can spike to 0.1-0.2% hourly as long positions dominate. These elevated rates often persist for 12-24 hours before normalizing, creating substantial arbitrage windows for prepared traders."
+      },
+      {
+        "question": "How does Sui network performance affect MEME arbitrage execution?",
+        "answer": "Sui's sub-second finality enables rapid position adjustments crucial for MEME arbitrage success. However, during extreme network congestion, settlement delays could impact arbitrage timing, making position monitoring essential during high-volatility periods."
+      },
+      {
+        "question": "What minimum capital is recommended for MEME funding arbitrage on Bluefin?",
+        "answer": "Effective MEME arbitrage typically requires $10,000+ to overcome transaction costs and maintain proper risk management. Smaller positions may struggle to generate meaningful profits after accounting for Bluefin's fees and cross-exchange execution costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "ordi-usdt",
+    "sei-usdt",
+    "floki-usdt",
+    "bnb-usdt"
+  ]
+}

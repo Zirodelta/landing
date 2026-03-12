@@ -1,0 +1,89 @@
+{
+  "slug": "mexc-vs-aevo",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees for cost-effective entry",
+      "First-to-list strategy for early token access",
+      "High leverage up to 200x on select pairs"
+    ],
+    "weaknesses": [
+      "Thinner order books create slippage risk",
+      "Volume reporting transparency concerns",
+      "Limited regulatory oversight and compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Combined options and perps on single platform",
+      "Custom rollup ensures low latency execution",
+      "Pre-launch markets for unreleased tokens"
+    ],
+    "weaknesses": [
+      "Limited liquidity compared to major CEXs",
+      "Complex product suite increases learning curve",
+      "Rollup centralization poses decentralization risks"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized clearing",
+      "b": "On-chain via rollup"
+    }
+  },
+  "rate_mechanics": "MEXC uses traditional 8-hour funding cycles with rates capped at ±0.75%, making it suitable for longer-term positions but less responsive to rapid market changes. Aevo implements hourly funding settlements with typically smaller rate adjustments, allowing for more granular arbitrage opportunities but requiring active position management. MEXC's zero maker fees can offset funding costs for market makers, while Aevo's frequent settlements may compound small negative rates quickly.",
+  "verdict": "MEXC favors cost-conscious traders seeking longer funding cycles and zero maker fees, particularly for altcoin opportunities through their aggressive listing strategy. Aevo suits sophisticated traders wanting hourly funding precision and integrated options strategies, though at higher base costs and with liquidity constraints.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "MEXC provides longer 8-hour cycles suitable for swing strategies and zero maker fees, while Aevo offers hourly precision for active scalping. Choice depends on your strategy timeframe and fee sensitivity."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ between MEXC and Aevo?",
+      "answer": "Both use premium-based calculations, but MEXC applies 8-hour intervals with ±0.75% caps, while Aevo uses hourly settlements with smaller incremental adjustments. Aevo's method responds faster to market imbalances."
+    },
+    {
+      "question": "What are the key liquidity differences for funding rate trading?",
+      "answer": "MEXC offers deeper order books for major pairs but questionable volume on smaller tokens. Aevo provides transparent on-chain settlement but limited overall liquidity, requiring careful position sizing."
+    },
+    {
+      "question": "Which platform is better for automated funding rate strategies?",
+      "answer": "MEXC's traditional API and longer cycles suit systematic strategies with less frequent rebalancing. Aevo's rollup architecture offers faster execution but requires more sophisticated integration for hourly monitoring."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Aevo: Funding Rates & Perps Trading Comparison",
+    "description": "Compare MEXC's zero maker fees and 8h funding vs Aevo's hourly rates and rollup architecture. Analysis of arbitrage opportunities and trading mechanics.",
+    "keywords": [
+      "MEXC funding rates",
+      "Aevo perpetual futures",
+      "funding rate arbitrage",
+      "perps trading comparison",
+      "DEX vs CEX funding",
+      "crypto derivatives trading",
+      "funding interval strategy",
+      "perpetual swap rates"
+    ]
+  }
+}

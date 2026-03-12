@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Paradex - Perp Trading Data",
+    "description": "Track WLD/USDT perpetual funding rates on Paradex DEX. Hourly payments, institutional-grade perps on StarkNet with self-custodial trading.",
+    "keywords": [
+      "WLD funding rates",
+      "Paradex perpetuals",
+      "DEX funding arbitrage",
+      "StarkNet perps",
+      "WLD USDT trading",
+      "institutional DEX",
+      "hourly funding",
+      "self-custodial futures"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Paradex offer hourly funding rate settlements on StarkNet's institutional-grade DEX platform. Built by former Jump Trading engineers, Paradex provides self-custodial perpetual trading with portfolio margin capabilities.",
+    "how_funding_works": "Paradex calculates funding rates hourly based on the premium between WLD perpetual and spot prices across integrated oracle feeds. Long positions pay shorts when funding is positive, reflecting market sentiment toward Worldcoin's AI identity verification narrative. The exchange's StarkNet architecture enables gas-efficient settlements while maintaining decentralized custody of positions. Funding payments occur automatically at each hourly interval without requiring manual intervention.",
+    "why_this_pair": "WLD's connection to OpenAI and identity verification creates volatile funding conditions as AI market sentiment shifts rapidly. The token's relatively recent launch and concentrated holder base can drive significant funding rate swings during major AI announcements or regulatory developments. Paradex's institutional focus attracts sophisticated traders who actively arbitrage these inefficiencies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on Paradex have shown extreme volatility correlating with AI sector news cycles and OpenAI developments. During major AI announcements, funding rates frequently spike above 0.1% hourly as retail sentiment drives excessive long positioning. The token's connection to Sam Altman and Worldcoin's identity verification technology creates sustained periods of elevated funding when AI narrative momentum builds. Paradex's institutional user base tends to provide counterbalancing short pressure, creating arbitrage opportunities during sentiment extremes."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "WLD's funding rate differentials between Paradex and centralized exchanges create consistent arbitrage opportunities for sophisticated traders. Paradex's self-custodial nature often shows funding rate premiums during high volatility periods when CEX users face withdrawal delays. The hourly settlement frequency provides more granular arbitrage windows compared to 8-hour funding cycles on traditional exchanges. Portfolio margin capabilities on Paradex enable capital-efficient hedging strategies across multiple AI-related perpetuals simultaneously."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading WLD perps on Paradex requires understanding StarkNet transaction finality and potential network congestion during high activity periods. The exchange's early-stage development means limited liquidity depth compared to established platforms, potentially causing slippage during large arbitrage trades. Worldcoin's regulatory uncertainty adds fundamental risk beyond typical funding rate strategies. StarkNet's complexity may create technical barriers for traders unfamiliar with Layer 2 wallet integration and transaction sequencing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does WLD funding settle on Paradex?",
+        "answer": "WLD perpetual funding rates settle every hour on Paradex, providing more frequent arbitrage opportunities than the standard 8-hour cycles used by most centralized exchanges. This hourly frequency aligns with the platform's institutional trading focus."
+      },
+      {
+        "question": "What makes WLD funding rates volatile on Paradex?",
+        "answer": "WLD's connection to OpenAI and AI identity verification creates highly sentiment-driven trading patterns. Major AI announcements, regulatory news, or Worldcoin project updates can cause rapid funding rate swings as traders position for narrative-driven price movements."
+      },
+      {
+        "question": "Can I use portfolio margin for WLD arbitrage on Paradex?",
+        "answer": "Yes, Paradex supports portfolio margin across multiple perpetual positions, allowing capital-efficient hedging strategies. This enables sophisticated arbitrage approaches combining WLD with other AI-related tokens while reducing overall margin requirements."
+      },
+      {
+        "question": "What are the main risks of WLD funding arbitrage on Paradex?",
+        "answer": "Primary risks include StarkNet network congestion affecting settlement timing, limited liquidity depth on this early-stage DEX, and Worldcoin's regulatory uncertainty. The self-custodial nature also requires proper wallet security and StarkNet transaction management."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "jup-usdt",
+    "avax-usdt",
+    "xrp-usdt",
+    "jto-usdt"
+  ]
+}

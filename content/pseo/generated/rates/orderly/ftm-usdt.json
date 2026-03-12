@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track FTM/USDT perpetual funding rates on Orderly Network DEX. Hourly settlements, shared liquidity across multiple frontends, and multi-chain access.",
+    "keywords": [
+      "FTM funding rates",
+      "Orderly Network",
+      "DEX perpetuals",
+      "NEAR blockchain",
+      "shared order book",
+      "multi-chain trading",
+      "L1 arbitrage",
+      "DeFi futures"
+    ]
+  },
+  "content": {
+    "intro": "FTM/USDT perpetual futures on Orderly Network offer unique funding rate arbitrage opportunities through their shared liquidity infrastructure. As a DEX built on NEAR with multi-chain compatibility, Orderly aggregates order flow across multiple frontend partners, creating deeper liquidity pools for Fantom trading.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly using a time-weighted average price mechanism across its shared order book. The platform's infrastructure layer distributes funding settlements through smart contracts on NEAR, with rates typically ranging from -0.1% to 0.1% per hour. Frontend partners like WOOFi and Ref Finance access the same underlying liquidity, creating unified funding rate calculations despite multiple access points.",
+    "why_this_pair": "FTM/USDT presents compelling arbitrage opportunities due to Fantom's position as a major L1 blockchain with active DeFi ecosystems. The pair often exhibits funding rate discrepancies between Orderly's DEX environment and centralized exchanges, particularly during periods of high on-chain activity or cross-chain bridge utilization.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FTM funding rates on Orderly Network have shown distinct patterns correlating with Fantom ecosystem developments and broader L1 blockchain narratives. During Q3-Q4 2023, rates averaged 0.02% hourly with notable spikes to 0.08% during major protocol launches. The shared liquidity model tends to smooth out extreme rate variations compared to isolated DEX pools. Rate volatility typically increases during cross-chain bridge congestion periods when FTM movement between networks creates temporary supply imbalances."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly's unique position as an infrastructure layer creates arbitrage opportunities between its rates and other DEX protocols. Traders can exploit rate differentials by comparing Orderly's unified rates against fragmented liquidity on individual DEXs like SpookySwap or SpiritSwap. The platform's integration with multiple frontends allows for sophisticated multi-venue strategies. However, NEAR network transaction costs and cross-chain bridge fees must be factored into profitability calculations for meaningful arbitrage execution."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading FTM perpetuals on Orderly Network involves specific risks related to its infrastructure dependencies and multi-chain architecture. Smart contract risk spans both NEAR's base layer and the various frontend integrations accessing the shared order book. Funding rate calculations rely on price feeds that may experience latency during high network congestion. The platform's dependence on frontend partners creates potential access risks if individual interfaces experience downtime, though the underlying infrastructure remains operational across other partners."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared order book affect FTM funding rates?",
+        "answer": "The shared order book aggregates FTM trading volume across all frontend partners, creating deeper liquidity and more stable funding rates than isolated DEX pools. This unified approach typically results in funding rates that are less volatile but may lag behind rapid market movements compared to centralized exchanges."
+      },
+      {
+        "question": "What are the gas costs for FTM perpetual trading on Orderly?",
+        "answer": "Orderly Network operates on NEAR Protocol, where transaction costs are significantly lower than Ethereum, typically under $0.01 per trade. However, if you're depositing FTM from other chains, bridge fees ranging from $2-15 depending on the source network must be considered in your arbitrage calculations."
+      },
+      {
+        "question": "Can I access FTM perpetuals through multiple Orderly frontends simultaneously?",
+        "answer": "Yes, since all frontends share the same underlying order book and liquidity, you can use different interfaces like WOOFi or Ref Finance to access the same FTM/USDT perpetual contract. Your positions and funding payments remain consistent across all access points as they're settled on the same smart contracts."
+      },
+      {
+        "question": "How do funding settlements work during NEAR network congestion?",
+        "answer": "Funding settlements are processed through NEAR smart contracts every hour, but during network congestion, there may be slight delays in settlement execution. Orderly's infrastructure includes fallback mechanisms to ensure settlements occur even if individual transactions face delays, maintaining the integrity of funding rate calculations."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "near-usdt",
+    "sei-usdt",
+    "ordi-usdt",
+    "blur-usdt"
+  ]
+}

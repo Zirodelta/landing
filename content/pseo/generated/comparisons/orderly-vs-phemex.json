@@ -1,0 +1,89 @@
+{
+  "slug": "orderly-vs-phemex",
+  "exchange_a": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "exchange_b": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX",
+    "fee_tier": "0.01%/0.06%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Very low maker fees",
+      "Clean trading UI",
+      "Contract trading specialization"
+    ],
+    "weaknesses": [
+      "Smaller user base",
+      "Limited altcoin perps",
+      "Occasional liquidity gaps"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.01%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.06%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "8 hours"
+    },
+    "settlement": {
+      "a": "On-chain via NEAR/EVM",
+      "b": "Centralized clearing"
+    }
+  },
+  "rate_mechanics": "Orderly Network calculates funding rates hourly across its shared order book infrastructure, allowing for more frequent arbitrage opportunities but requiring cross-chain coordination. Phemex uses traditional 8-hour funding intervals with centralized rate calculations based on premium/discount to spot prices. Orderly's decentralized nature means rates reflect aggregated demand across multiple frontend DEXes, while Phemex rates are determined by its internal order book dynamics and external index pricing.",
+  "verdict": "Orderly Network offers more frequent funding rate updates and decentralized infrastructure, making it suitable for arbitrageurs seeking hourly opportunities across multiple chains. Phemex provides lower maker fees and simpler execution but with less frequent rate adjustments and smaller market depth.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Orderly Network's hourly funding intervals provide 8x more arbitrage opportunities than Phemex's 8-hour cycles. However, Phemex's lower maker fees (0.01% vs 0.02%) may offset the frequency advantage for larger positions."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "Orderly uses decentralized rate calculations across its shared liquidity layer, while Phemex employs centralized premium/discount calculations. Orderly's rates reflect multi-DEX demand, potentially creating more diverse rate patterns."
+    },
+    {
+      "question": "Which platform is better for cross-exchange arbitrage?",
+      "answer": "Phemex offers simpler execution and faster withdrawals for cross-exchange strategies. Orderly requires understanding its multi-chain infrastructure but provides access to broader DeFi liquidity sources."
+    },
+    {
+      "question": "What are the main risks for funding rate strategies on each platform?",
+      "answer": "Orderly carries smart contract risks and frontend dependency issues, while Phemex has counterparty risk and potential liquidity gaps during volatile periods. Orderly's complex architecture may complicate emergency exits."
+    }
+  ],
+  "seo": {
+    "title": "Orderly Network vs Phemex: Funding Rate Comparison",
+    "description": "Compare Orderly Network's 1-hour funding cycles vs Phemex's 8-hour intervals. Analyze DEX vs CEX arbitrage opportunities, fees, and execution differences.",
+    "keywords": [
+      "orderly network funding rates",
+      "phemex funding rates",
+      "dex vs cex arbitrage",
+      "perpetual futures comparison",
+      "funding rate arbitrage",
+      "orderly phemex comparison",
+      "crypto derivatives trading",
+      "funding interval comparison"
+    ]
+  }
+}

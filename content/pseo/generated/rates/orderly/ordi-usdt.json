@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rate on Orderly Network - DEX Arbitrage",
+    "description": "Track ORDI/USDT funding rates on Orderly Network DEX. Analyze 1-hour funding cycles, shared liquidity layer arbitrage opportunities across multi-chain infrastructure.",
+    "keywords": [
+      "ORDI funding rate",
+      "Orderly Network",
+      "DEX perpetual futures",
+      "BRC-20 arbitrage",
+      "cross-chain funding",
+      "shared liquidity",
+      "NEAR EVM",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network's ORDI/USDT perpetual futures offer unique arbitrage opportunities through its shared order book infrastructure across multiple DEX frontends. The platform's 1-hour funding rate cycles and multi-chain architecture create distinctive patterns compared to traditional centralized exchanges.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the 8-hour TWAP of premium between perpetual and spot prices, applied every hour at minute 0. The shared liquidity layer aggregates positions across all frontend partners, creating unified funding calculations despite distributed user interfaces. Funding payments are automatically settled in USDT with no manual intervention required, and the infrastructure's cross-chain nature allows for arbitrage opportunities between NEAR and EVM-based positions.",
+    "why_this_pair": "ORDI represents the largest BRC-20 token with inherent volatility due to Bitcoin Ordinals ecosystem dynamics, creating frequent funding rate premiums on perpetual futures. Orderly Network's smaller market size for ORDI/USDT compared to major CEXs often results in exaggerated funding rates during trend periods. The combination of hourly settlements and limited native ORDI liquidity across DEX frontends provides enhanced arbitrage potential for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI/USDT funding rates on Orderly Network typically range from -0.05% to +0.15% per hour during normal market conditions, with extreme periods reaching ±0.3% during major Bitcoin Ordinals announcements. The pair shows strong correlation with Bitcoin price movements but exhibits amplified volatility during BRC-20 ecosystem developments. Weekend periods often see reduced funding rate volatility due to lower trading activity across the shared liquidity layer. Historical data indicates that positive funding rates persist longer than negative rates, reflecting retail interest in longing emerging Bitcoin ecosystem tokens."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly Network's multi-chain infrastructure creates unique arbitrage scenarios between NEAR-based and EVM-compatible frontends accessing the same order book. Traders can exploit funding rate differentials by maintaining opposing positions on different chains while accessing identical liquidity. The 0.02% maker fee structure incentivizes market making across chains, while the shared settlement layer eliminates counterparty fragmentation. Gas fee differences between NEAR and EVM chains can impact arbitrage profitability, particularly during network congestion periods."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "The indirect user experience through frontend partners introduces additional smart contract risk and potential interface inconsistencies during volatile periods. Orderly Network's dependency on frontend partners means funding rate arbitrage strategies may be affected by individual frontend downtime or technical issues. The complex architecture requires understanding of cross-chain settlement mechanics, particularly for position management during funding payments. Lower overall liquidity compared to major CEXs increases slippage risk for larger arbitrage positions, and the 0.05% taker fee can erode profits on frequent trading strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect ORDI funding rates?",
+        "answer": "The shared order book aggregates all positions across frontend partners, creating unified funding rate calculations based on total open interest rather than individual frontend activity. This typically results in more stable funding rates compared to isolated DEX perpetual markets, but can also amplify rates during coordinated directional moves across all frontends."
+      },
+      {
+        "question": "Can I arbitrage ORDI funding rates between different Orderly frontends?",
+        "answer": "No, all frontends access the same shared order book and settlement layer, so funding rates are identical across all interfaces. However, you can arbitrage between Orderly Network and external exchanges, or exploit gas fee differences between NEAR and EVM-based frontends for position management."
+      },
+      {
+        "question": "What makes ORDI/USDT funding unique compared to other BRC-20 tokens?",
+        "answer": "ORDI as the first BRC-20 token has the highest liquidity and trading volume in the Bitcoin Ordinals ecosystem, leading to more predictable funding rate patterns. Its correlation with both Bitcoin price movements and Ordinals ecosystem developments creates distinct funding cycles that differ from traditional altcoin perpetuals."
+      },
+      {
+        "question": "How do Orderly Network's hourly funding settlements impact arbitrage strategies?",
+        "answer": "The 1-hour funding frequency allows for more granular arbitrage strategies compared to 8-hour cycles on most exchanges. This enables shorter-duration positions and more responsive hedging, but also requires more active monitoring and potentially higher transaction costs due to increased settlement frequency."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "ada-usdt",
+    "btc-usdt",
+    "tao-usdt",
+    "bonk-usdt"
+  ]
+}

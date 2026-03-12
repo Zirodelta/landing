@@ -1,0 +1,89 @@
+{
+  "slug": "dydx-vs-orderly",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain support",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "NEAR/EVM chains"
+    }
+  },
+  "rate_mechanics": "Both dYdX and Orderly Network implement 1-hour funding rate intervals, significantly more frequent than the industry-standard 8-hour cycles. dYdX calculates rates on its dedicated Cosmos appchain with direct perpetual contract settlement, while Orderly operates as a shared infrastructure layer distributing rates across multiple DEX frontends. The shared order book model of Orderly can create more efficient price discovery but may introduce latency in rate updates across different frontend implementations. Both platforms use similar premium/discount mechanisms tied to mark-to-index price differentials.",
+  "verdict": "dYdX offers a more direct trading experience with proven decentralized perpetuals infrastructure, while Orderly provides broader ecosystem integration through its shared liquidity model. Choose dYdX for established DEX trading with Cosmos sovereignty, or Orderly for multi-chain arbitrage opportunities across integrated frontends.",
+  "faq": [
+    {
+      "question": "How do funding rate calculations differ between dYdX and Orderly?",
+      "answer": "Both use 1-hour intervals and similar premium-based calculations. dYdX processes rates directly on its Cosmos appchain, while Orderly distributes calculations across its shared infrastructure to multiple DEX frontends."
+    },
+    {
+      "question": "Which platform offers better arbitrage opportunities?",
+      "answer": "Orderly's shared liquidity model across multiple frontends may create more arbitrage vectors, while dYdX offers more predictable rate mechanics on a single appchain with established volume patterns."
+    },
+    {
+      "question": "What are the key technical differences for funding rate traders?",
+      "answer": "dYdX provides direct perpetual contract interaction on Cosmos, while Orderly requires interfacing through partner DEX frontends on NEAR or EVM chains, potentially affecting execution timing and gas costs."
+    },
+    {
+      "question": "How does liquidity depth compare for funding rate strategies?",
+      "answer": "dYdX maintains concentrated liquidity on its appchain but with reduced volume post-migration, while Orderly aggregates liquidity across multiple frontends but may have fragmented depth depending on frontend adoption."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Orderly Network: DEX Funding Rates Compared",
+    "description": "Compare dYdX and Orderly Network perpetual futures funding rates. Analysis of 1-hour intervals, DEX mechanics, and arbitrage opportunities on Cosmos vs multi-chain.",
+    "keywords": [
+      "dYdX funding rates",
+      "Orderly Network perpetuals",
+      "DEX funding arbitrage",
+      "1 hour funding intervals",
+      "Cosmos perpetuals",
+      "shared liquidity DEX",
+      "decentralized futures",
+      "funding rate comparison"
+    ]
+  }
+}

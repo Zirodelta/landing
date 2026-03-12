@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "apt-usdt",
+    "base": "APT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "APT/USDT Funding Rates on Orderly Network DEX",
+    "description": "Track APT/USDT perpetual funding rates on Orderly Network's shared liquidity layer. Hourly settlements, 0.02% maker fees, cross-chain arbitrage opportunities.",
+    "keywords": [
+      "APT funding rates",
+      "Orderly Network",
+      "APT perpetual futures",
+      "DEX funding arbitrage",
+      "shared liquidity",
+      "NEAR blockchain",
+      "cross-chain trading",
+      "APT/USDT"
+    ]
+  },
+  "content": {
+    "intro": "APT/USDT perpetual futures on Orderly Network offer unique funding rate dynamics through the platform's shared order book infrastructure. With hourly funding settlements and cross-chain liquidity aggregation, traders can access consistent APT funding opportunities across multiple DEX frontends.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly using a shared order book that aggregates liquidity across all integrated frontends. The funding rate formula incorporates the premium/discount between perpetual and spot prices, with payments exchanged between long and short position holders. Since Orderly operates as an infrastructure layer on NEAR and EVM chains, funding calculations benefit from enhanced liquidity depth compared to isolated DEX implementations. The shared liquidity model ensures more stable funding rates even during volatile APT price movements.",
+    "why_this_pair": "APT represents Aptos blockchain's native token, creating funding rate opportunities driven by L1 adoption cycles and validator staking dynamics. The pair's moderate volume on Orderly Network provides sufficient liquidity for funding arbitrage while maintaining predictable settlement patterns. APT's correlation with broader L1 performance metrics often generates sustained funding rate premiums during network growth phases.",
+    "sections": [
+      {
+        "heading": "Historical APT Funding Rate Patterns",
+        "body": "APT funding rates on Orderly Network have exhibited cyclical patterns correlating with Aptos ecosystem developments and validator reward distributions. During Q3-Q4 periods, funding rates frequently turn positive as institutional interest in Aptos infrastructure increases. The shared liquidity model typically maintains funding rates within ±0.3% daily ranges, with extreme rates above ±0.5% occurring during major Aptos partnership announcements. Cross-chain arbitrageurs often target APT funding during periods when rates diverge significantly from centralized exchanges like Binance or OKX."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly Network's multi-chain architecture creates unique arbitrage opportunities when APT funding rates diverge between NEAR and EVM-compatible frontends. Traders can exploit rate differentials by maintaining positions across different frontend interfaces while benefiting from the same underlying liquidity pool. The platform's 0.02% maker fees make small funding rate differences profitable, especially when combined with gas-efficient NEAR blockchain settlements. Automated strategies often target 0.1-0.2% funding rate spreads between Orderly and major centralized exchanges during high volatility periods."
+      },
+      {
+        "heading": "Risk Considerations for APT Funding",
+        "body": "APT funding arbitrage on Orderly Network carries specific risks related to the platform's complex multi-chain infrastructure and dependency on frontend partners. Smart contract risks exist across both NEAR and EVM implementations, potentially affecting position management during funding settlements. The shared liquidity model means that issues with any major frontend partner could impact overall market depth and funding rate stability. Additionally, APT's correlation with Aptos validator economics can create unexpected funding rate spikes during network upgrades or consensus changes, requiring careful position sizing and stop-loss management."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are APT funding rates settled on Orderly Network?",
+        "answer": "APT funding rates settle every hour on Orderly Network's shared infrastructure. The settlement occurs simultaneously across all integrated frontends, ensuring consistent timing regardless of which interface you use to access the underlying order book."
+      },
+      {
+        "question": "Can I access APT perpetuals through multiple frontends on Orderly?",
+        "answer": "Yes, Orderly Network operates as an infrastructure layer serving multiple DEX frontends on NEAR and EVM chains. You can access the same APT/USDT liquidity pool through different interfaces while benefiting from shared order book depth and unified funding rate calculations."
+      },
+      {
+        "question": "What makes APT funding rates different on a shared liquidity DEX?",
+        "answer": "Orderly's shared liquidity model aggregates APT trading activity across multiple frontends, creating deeper order books and more stable funding rates compared to isolated DEX implementations. This typically results in funding rates that more closely track centralized exchange patterns while maintaining decentralized settlement."
+      },
+      {
+        "question": "Are there gas cost advantages for APT funding arbitrage on NEAR?",
+        "answer": "Yes, Orderly Network's NEAR blockchain implementation offers significantly lower gas costs compared to Ethereum-based perpetual protocols. This makes frequent position adjustments and smaller funding rate arbitrage opportunities more economically viable, especially for automated trading strategies targeting APT funding rate spreads."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "pendle-usdt",
+    "atom-usdt",
+    "tia-usdt",
+    "xrp-usdt"
+  ]
+}

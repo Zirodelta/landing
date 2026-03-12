@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rates on Phemex - Perpetual Futures",
+    "description": "Track RUNE/USDT funding rates on Phemex. 8-hour funding cycles with 0.01% maker fees. Analyze DeFi perpetual futures funding rate arbitrage opportunities.",
+    "keywords": [
+      "RUNE funding rates",
+      "Phemex perpetuals",
+      "RUNE USDT futures",
+      "funding rate arbitrage",
+      "THORChain trading",
+      "DeFi perpetual futures",
+      "Phemex funding",
+      "RUNE derivatives"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities through 8-hour payment cycles and the exchange's low 0.01% maker fees. THORChain's native token experiences significant funding rate volatility during DeFi market cycles, creating profitable arbitrage windows for sophisticated traders.",
+    "how_funding_works": "Phemex calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using an interest rate component and premium index based on the perpetual-spot price difference. The funding rate is capped at ±0.75% per payment to prevent extreme rates during volatile periods. Traders holding positions at funding time automatically pay or receive funding based on whether they're long (pays positive rates) or short (receives positive rates).",
+    "why_this_pair": "RUNE perpetuals exhibit pronounced funding rate swings due to THORChain's role in cross-chain DeFi and limited liquidity compared to major cryptocurrencies. Phemex's competitive fee structure with 0.01% maker fees makes it cost-effective to execute funding rate arbitrage strategies. The mid-tier volume provides sufficient liquidity for most arbitrage positions while maintaining funding rate inefficiencies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE/USDT funding rates on Phemex typically range from -0.3% to +0.5% per 8-hour period, with extreme rates reaching ±0.75% during major DeFi events or THORChain protocol updates. Positive funding dominates during bull markets when traders heavily leverage long positions expecting DeFi adoption growth. Rate volatility increases significantly around THORChain mainnet upgrades, liquidity mining announcements, or cross-chain partnership news. Weekend periods often show reduced rate volatility due to lower institutional trading activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "The most profitable RUNE funding arbitrage occurs during sustained positive rates above 0.2% per cycle, where traders can short perpetuals and hedge with spot RUNE holdings. Phemex's 0.01% maker fees allow for frequent position adjustments without excessive cost erosion. Cross-exchange arbitrage works effectively by shorting RUNE perpetuals on Phemex while longing on exchanges with negative or lower positive rates. Risk-neutral arbitrage requires maintaining delta-neutral positions through spot hedging or using multiple perpetual exchanges."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "RUNE's mid-tier liquidity creates slippage risks during large position entries, especially when funding rates signal imminent trend changes. Phemex's contract specifications include a maintenance margin requirement that can trigger liquidations during sudden RUNE price movements exceeding 20-30%. Funding rate reversals often coincide with broader DeFi market sentiment shifts, requiring active position monitoring around major cryptocurrency events. The exchange's smaller user base compared to Binance or Bybit can result in temporary liquidity gaps during volatile THORChain-specific news events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical RUNE funding rates on Phemex?",
+        "answer": "RUNE/USDT funding rates on Phemex typically range from -0.3% to +0.5% per 8-hour cycle. During strong DeFi bull runs or major THORChain developments, rates can reach the maximum ±0.75% cap."
+      },
+      {
+        "question": "How do Phemex's fees affect RUNE funding arbitrage profitability?",
+        "answer": "Phemex's 0.01% maker fees significantly improve arbitrage profitability compared to exchanges charging 0.02-0.04%. This fee advantage allows profitable arbitrage at lower funding rate thresholds, typically starting around 0.15% per cycle rather than 0.25%."
+      },
+      {
+        "question": "When do RUNE funding rates typically spike on Phemex?",
+        "answer": "RUNE funding rates spike during THORChain protocol upgrades, cross-chain integration announcements, and broader DeFi market rallies. Rates also increase when RUNE outperforms Bitcoin, attracting leveraged long positions from DeFi speculation."
+      },
+      {
+        "question": "What position sizes work best for RUNE funding arbitrage?",
+        "answer": "Optimal position sizes range from $10,000-$50,000 equivalent to balance funding payments with liquidity constraints. Larger positions may experience slippage on Phemex due to RUNE's mid-tier volume, while smaller positions may not justify the monitoring effort required."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "xrp-usdt",
+    "imx-usdt",
+    "fet-usdt",
+    "ton-usdt"
+  ]
+}

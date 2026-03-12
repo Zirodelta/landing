@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on Phemex - Arbitrage Guide",
+    "description": "Track BONK/USDT perpetual funding rates on Phemex exchange. Analyze 8-hour funding cycles, arbitrage opportunities, and meme coin volatility patterns.",
+    "keywords": [
+      "BONK funding rates",
+      "Phemex perpetuals",
+      "meme coin arbitrage",
+      "BONK USDT perps",
+      "funding rate arbitrage",
+      "Phemex BONK",
+      "perpetual futures",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetuals on Phemex offer unique funding rate arbitrage opportunities in the meme coin sector. Phemex's 8-hour funding intervals and 0.01% maker fees create favorable conditions for capturing funding rate premiums during BONK's volatile price movements.",
+    "how_funding_works": "Phemex calculates BONK/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium index. The funding rate is capped at ±2.3% per payment to limit extreme scenarios during meme coin volatility spikes. Long positions pay when the rate is positive, while shorts receive payment, with settlements occurring automatically in USDT.",
+    "why_this_pair": "BONK's status as a Solana meme coin generates significant retail interest and speculative positioning, often creating sustained funding rate imbalances. The pair's mid-tier trading volume on Phemex provides sufficient liquidity for arbitrage strategies while maintaining higher volatility than major cryptocurrencies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on Phemex typically exhibit extreme positive rates during meme coin rally phases, often exceeding 1% per 8-hour period when retail FOMO drives excessive long positioning. During market downturns, funding rates frequently turn negative as long liquidations create short-heavy positioning. The pair shows strong correlation with broader Solana ecosystem sentiment and social media trending patterns. Funding rate volatility tends to spike around major exchange listings and community-driven events."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage opportunities emerge when Phemex BONK funding rates deviate significantly from other venues like Binance or Bybit, particularly during high volatility periods. The optimal strategy involves taking opposite positions across exchanges when funding rate differentials exceed transaction costs and slippage. Phemex's low maker fees (0.01%) provide cost advantages for frequent rebalancing during sustained funding rate imbalances. Calendar arbitrage can be profitable by positioning before predictable events like token burns or major partnership announcements."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "BONK's meme coin nature introduces elevated liquidation risks due to sudden price gaps and reduced market depth during volatile periods. Phemex's occasional liquidity gaps can result in wider spreads and increased slippage costs, particularly during off-peak trading hours. Position sizing must account for BONK's high correlation with broader meme coin sentiment and potential cascade liquidations. Funding rate arbitrage strategies should incorporate stop-losses and avoid excessive leverage given the pair's propensity for 20-50% intraday moves during trending periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical BONK/USDT funding rates on Phemex during bull markets?",
+        "answer": "During meme coin bull phases, BONK/USDT funding rates on Phemex frequently range from 0.5% to 2% per 8-hour period as retail investors pile into long positions. These elevated rates can persist for several days during strong trending moves, creating sustained arbitrage opportunities."
+      },
+      {
+        "question": "How does Phemex's 8-hour funding schedule affect BONK arbitrage strategies?",
+        "answer": "The 8-hour intervals (00:00, 08:00, 16:00 UTC) allow for more predictable funding collection compared to exchanges with variable rates. This schedule enables arbitrageurs to optimize entry timing around funding payments and reduces the frequency of position adjustments compared to platforms with more frequent settlements."
+      },
+      {
+        "question": "What position sizes work best for BONK funding arbitrage on Phemex?",
+        "answer": "Given BONK's volatility and Phemex's occasional liquidity constraints, position sizes should typically remain under $10,000 USD equivalent to ensure efficient execution. Larger positions risk significant slippage during market stress periods when BONK experiences rapid price movements."
+      },
+      {
+        "question": "How do Phemex's maker fees impact BONK funding rate profitability?",
+        "answer": "The 0.01% maker fee on Phemex significantly improves funding arbitrage economics compared to exchanges charging 0.02-0.04%. For BONK strategies requiring frequent rebalancing, these lower fees can increase net profitability by 15-25% over time, making smaller funding rate differentials viable for arbitrage."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "jup-usdt",
+    "ada-usdt",
+    "bnb-usdt",
+    "eth-usdt"
+  ]
+}

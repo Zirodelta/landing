@@ -1,0 +1,91 @@
+{
+  "slug": "dydx-vs-vertex",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.03%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Arbitrum L2"
+    }
+  },
+  "rate_mechanics": "Both dYdX and Vertex use hourly funding rate calculations based on the perpetual-spot price premium. dYdX operates on its own Cosmos appchain with native USDC settlement and validator-based consensus for rate determination. Vertex uses a hybrid model on Arbitrum where the off-chain sequencer calculates rates but settlements occur on-chain. Both exchanges apply similar premium/discount mechanisms but Vertex's sequencer allows for more granular rate adjustments during volatile periods. The main difference lies in their underlying infrastructure rather than the fundamental funding rate formula.",
+  "verdict": "Vertex offers better economics for active traders with 0.03% taker fees versus dYdX's 0.05%, while both maintain competitive 0.02% maker rates. dYdX provides greater sovereignty through its Cosmos appchain but faces liquidity challenges post-migration, whereas Vertex benefits from Arbitrum's ecosystem while accepting sequencer centralization trade-offs.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate mechanics for arbitrage?",
+      "answer": "Both use hourly intervals, but Vertex's hybrid sequencer model allows for more responsive rate adjustments during volatile periods. dYdX's appchain provides more predictable but potentially slower rate updates due to validator consensus requirements."
+    },
+    {
+      "question": "How do trading fees compare between dYdX and Vertex?",
+      "answer": "Vertex has a clear advantage for takers at 0.03% versus dYdX's 0.05%, while both offer identical 0.02% maker fees. For funding rate arbitrage involving frequent position adjustments, Vertex's lower taker fees significantly impact profitability."
+    },
+    {
+      "question": "Which platform offers better liquidity for perpetual futures?",
+      "answer": "dYdX historically had deeper liquidity but has experienced reduced volumes post-migration to its Cosmos appchain. Vertex is growing rapidly on Arbitrum but still has lower overall volumes, though concentrated liquidity can provide competitive spreads for major pairs."
+    },
+    {
+      "question": "What are the key infrastructure differences affecting funding rates?",
+      "answer": "dYdX operates as a sovereign Cosmos appchain with validator-based consensus, while Vertex uses a hybrid model with off-chain sequencing on Arbitrum. This affects rate update frequency and the potential for MEV, with Vertex offering faster updates but dYdX providing greater decentralization."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Vertex: DEX Perpetual Futures Comparison 2024",
+    "description": "Compare dYdX and Vertex for perpetual futures trading. Analyze fees, funding rates, and platform mechanics to optimize your DEX trading strategy.",
+    "keywords": [
+      "dYdX vs Vertex",
+      "DEX perpetual futures",
+      "funding rate arbitrage",
+      "Cosmos appchain",
+      "Arbitrum DEX",
+      "perpetual swap fees",
+      "decentralized derivatives",
+      "hybrid DEX model",
+      "cross-margin trading",
+      "appchain sovereignty"
+    ]
+  }
+}

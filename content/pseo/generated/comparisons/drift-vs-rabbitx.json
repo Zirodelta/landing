@@ -1,0 +1,91 @@
+{
+  "slug": "drift-vs-rabbitx",
+  "exchange_a": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana speed and low fees",
+      "JIT liquidity auctions",
+      "Insurance fund protection"
+    ],
+    "weaknesses": [
+      "Solana network dependency",
+      "Lower liquidity vs CEXs",
+      "Complex liquidation mechanics"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution engine",
+      "Zero gas for trading",
+      "Cross-margin efficiency"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pair selection",
+      "Early-stage protocol risks"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Solana on-chain",
+      "b": "Starknet L2"
+    }
+  },
+  "rate_mechanics": "Both Drift and RabbitX use 1-hour funding intervals with TWAP-based rate calculations. Drift's vAMM hybrid model creates funding rates through its virtual liquidity mechanism, while RabbitX relies on off-chain orderbook matching with Starknet settlement. Drift's JIT auctions can create temporary rate distortions during volatile periods. RabbitX's smaller liquidity pools may result in more extreme funding rate swings compared to Drift's deeper markets.",
+  "verdict": "Drift offers superior liquidity and proven track record on Solana, making it more suitable for larger funding rate arbitrage positions. RabbitX provides zero gas costs and fast execution but lacks the depth needed for significant arbitrage opportunities.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Drift typically offers more stable arbitrage opportunities due to higher liquidity and trading volume. RabbitX may have more extreme rate swings but with limited position sizes due to smaller market depth."
+    },
+    {
+      "question": "How do settlement risks compare between Drift and RabbitX?",
+      "answer": "Drift faces Solana network congestion risks that can affect settlement timing. RabbitX uses Starknet L2 for settlement but has smart contract risks as an early-stage protocol with less battle-tested infrastructure."
+    },
+    {
+      "question": "Which platform has lower total trading costs for arbitrage?",
+      "answer": "Both have identical fee structures at 0.02%/0.05%, but RabbitX offers zero gas fees while Drift requires Solana transaction fees. However, Drift's deeper liquidity often provides better execution prices that offset gas costs."
+    },
+    {
+      "question": "How do liquidation mechanics affect funding rate positions?",
+      "answer": "Drift uses a complex multi-tier liquidation system that can create cascading effects during volatile periods. RabbitX has simpler cross-margin liquidations but limited insurance fund backing compared to Drift's established protection mechanisms."
+    }
+  ],
+  "seo": {
+    "title": "Drift vs RabbitX: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare Drift and RabbitX perpetual futures for funding rate arbitrage. Analysis of fees, settlement, liquidity, and rate mechanics for traders.",
+    "keywords": [
+      "drift vs rabbitx",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "solana dex",
+      "starknet perps",
+      "crypto derivatives",
+      "defi trading",
+      "funding rates",
+      "perp dex comparison",
+      "arbitrage trading"
+    ]
+  }
+}

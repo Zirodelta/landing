@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "arb-usdt",
+    "base": "ARB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Paradex ARB/USDT Funding Rate - Starknet DEX Perps",
+    "description": "Track ARB/USDT funding rates on Paradex, the Starknet-based institutional DEX. Hourly settlements, portfolio margin, and Jump Trading engineering.",
+    "keywords": [
+      "paradex funding rate",
+      "arb usdt perpetual",
+      "starknet dex",
+      "portfolio margin",
+      "hourly funding",
+      "arbitrum futures",
+      "institutional perps",
+      "self-custodial trading"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers ARB/USDT perpetual futures with hourly funding settlements and portfolio margin capabilities on Starknet. Built by former Jump Trading engineers, the platform provides institutional-grade infrastructure for trading Arbitrum perpetuals with 0.02% maker and 0.05% taker fees.",
+    "how_funding_works": "Paradex calculates funding rates hourly using a time-weighted average premium between perpetual and index prices over the preceding hour. The funding payment occurs at the top of each hour, with longs paying shorts when rates are positive and vice versa. Portfolio margin allows cross-margining positions, reducing capital requirements for funding rate strategies. The Starknet settlement provides on-chain transparency while maintaining low latency execution.",
+    "why_this_pair": "ARB/USDT on Paradex offers unique opportunities due to the platform's early-stage liquidity dynamics and hourly funding frequency. The pair benefits from Arbitrum's ecosystem activity creating natural long/short imbalances, while Paradex's institutional focus attracts sophisticated traders who may drive rate premiums. The self-custodial nature eliminates counterparty risk while portfolio margin enables efficient capital deployment across multiple positions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ARB/USDT funding rates on Paradex have shown volatility patterns aligned with Arbitrum ecosystem developments and broader L2 narrative cycles. During periods of high ARB token unlock events or major ecosystem announcements, funding rates have spiked above 0.05% hourly as retail traders rush to establish long positions. The platform's limited initial liquidity has amplified these rate movements compared to larger exchanges. Rates typically normalize within 24-48 hours as arbitrageurs respond to the opportunities, though the Starknet learning curve has delayed some institutional participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "Funding rate arbitrage on Paradex requires understanding Starknet wallet integration and the platform's unique portfolio margin system. Traders can capture rates by taking opposite positions on Paradex versus other exchanges, though the hourly settlement frequency increases operational complexity compared to 8-hour cycles elsewhere. The platform's early-stage status creates opportunities for larger rate differentials but requires careful position sizing due to lower liquidity depth. Portfolio margin enables capital-efficient hedging strategies, allowing traders to maintain neutral exposure while collecting funding differentials across multiple pairs simultaneously."
+      },
+      {
+        "heading": "Risk Considerations and Platform Factors",
+        "body": "Trading ARB/USDT on Paradex involves several platform-specific risks including Starknet network congestion affecting order execution and the early-stage nature of the exchange creating potential liquidity gaps. The self-custodial model eliminates exchange bankruptcy risk but requires secure wallet management and understanding of Starknet transaction mechanics. Smart contract risk exists as the platform is built on relatively new technology, while the limited trading pairs make it difficult to hedge ARB exposure efficiently. Traders should maintain smaller position sizes initially and thoroughly test withdrawal processes before committing significant capital."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does ARB funding settlement work on Paradex's hourly cycle?",
+        "answer": "ARB/USDT funding on Paradex settles every hour at the top of the hour based on the previous hour's time-weighted premium. Payments are automatically debited or credited to your margin balance, with portfolio margin calculating requirements across all positions simultaneously."
+      },
+      {
+        "question": "What are the capital requirements for ARB funding rate arbitrage?",
+        "answer": "Paradex uses portfolio margin which can reduce capital requirements by up to 80% for hedged positions compared to isolated margin. However, you'll need sufficient USDT collateral to cover both the ARB perpetual position and any hedge positions across the portfolio."
+      },
+      {
+        "question": "How does Paradex's Starknet infrastructure affect ARB trading?",
+        "answer": "Starknet provides on-chain settlement with lower fees than Ethereum mainnet, but transactions may take longer during network congestion. The platform offers sub-second execution for most orders while maintaining full self-custody of funds throughout the trading process."
+      },
+      {
+        "question": "What makes ARB funding rates different on Paradex versus other exchanges?",
+        "answer": "Paradex's institutional focus and lower retail participation can create different funding dynamics, often with less crowded arbitrage opportunities. The hourly settlement versus 8-hour cycles elsewhere also creates unique timing advantages for active funding rate traders."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "wld-usdt",
+    "jto-usdt",
+    "ethfi-usdt",
+    "avax-usdt"
+  ]
+}

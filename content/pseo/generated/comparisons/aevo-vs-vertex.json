@@ -1,0 +1,89 @@
+{
+  "slug": "aevo-vs-vertex",
+  "exchange_a": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "exchange_b": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.03%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "On-chain rollup",
+      "b": "Arbitrum L2"
+    }
+  },
+  "rate_mechanics": "Both Aevo and Vertex calculate funding rates hourly using standard perpetual swap mechanics based on premium/discount to spot. Aevo operates on its own rollup with specialized infrastructure for options and perps, potentially creating unique rate dynamics from combined product exposure. Vertex uses Arbitrum's infrastructure with a hybrid on-chain/off-chain model that may exhibit different rate volatility patterns. The funding rate calculation methodology is similar, but settlement timing and gas costs differ due to their distinct infrastructure choices.",
+  "verdict": "Vertex offers better fee economics for active traders with 0.03% taker fees versus Aevo's 0.05%, making it more suitable for high-frequency funding arbitrage. Aevo's unique rollup and combined options/perps platform may offer differentiated opportunities but with higher execution costs and potentially thinner liquidity.",
+  "faq": [
+    {
+      "question": "Which exchange has lower trading fees for funding arbitrage?",
+      "answer": "Vertex has significantly lower taker fees at 0.03% compared to Aevo's 0.05%, while maker fees are identical at 0.02%. This makes Vertex more cost-effective for frequent arbitrage trades."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "Both exchanges use standard hourly funding rate calculations based on perpetual-spot premium. However, Aevo's rollup infrastructure and combined options exposure may create unique rate dynamics compared to Vertex's Arbitrum-based system."
+    },
+    {
+      "question": "Which platform offers better liquidity for large arbitrage positions?",
+      "answer": "Vertex generally provides deeper liquidity pools due to its focus on core perpetual products, while Aevo's liquidity is spread across options and perps, potentially making large position execution more challenging."
+    },
+    {
+      "question": "Are there infrastructure risks that affect funding arbitrage?",
+      "answer": "Aevo faces rollup centralization risks and potential sequencer downtime, while Vertex depends on Arbitrum's infrastructure and its own sequencer reliability. Both have single points of failure that could impact arbitrage execution timing."
+    }
+  ],
+  "seo": {
+    "title": "Aevo vs Vertex: Perpetual Futures Funding Rates Compared",
+    "description": "Compare Aevo and Vertex DEX funding rates, fees, and arbitrage opportunities. Detailed analysis of hourly funding mechanics and execution costs.",
+    "keywords": [
+      "Aevo vs Vertex",
+      "perpetual futures funding rates",
+      "DEX arbitrage",
+      "rollup vs Arbitrum",
+      "options perps trading",
+      "funding rate comparison",
+      "crypto derivatives",
+      "DeFi perpetuals"
+    ]
+  }
+}

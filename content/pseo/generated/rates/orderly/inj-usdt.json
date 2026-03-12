@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "inj-usdt",
+    "base": "INJ",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "INJ/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track INJ/USDT perpetual funding rates on Orderly Network. Hourly settlements, 0.02%/0.05% fees, multi-chain liquidity for DeFi arbitrage strategies.",
+    "keywords": [
+      "INJ funding rates",
+      "Orderly Network",
+      "Injective perpetuals",
+      "DEX funding arbitrage",
+      "USDT pairs",
+      "DeFi futures",
+      "cross-chain trading"
+    ]
+  },
+  "content": {
+    "intro": "Orderly Network provides INJ/USDT perpetual futures through its shared liquidity infrastructure, enabling funding rate arbitrage across multiple DEX frontends. The platform's hourly funding settlements and cross-chain architecture create unique opportunities for sophisticated arbitrageurs targeting Injective Protocol's native token.",
+    "how_funding_works": "Funding rates on Orderly Network settle every hour based on the premium/discount between INJ perpetual and spot prices across its shared order book. The network aggregates liquidity from various frontend partners, creating deeper markets that can maintain more stable funding rates compared to isolated DEX pools. Traders access these markets through integrated frontends while Orderly handles the underlying settlement and risk management across NEAR and EVM chains.",
+    "why_this_pair": "INJ represents Injective Protocol's Layer-1 blockchain token, making it attractive for funding arbitrage due to its moderate volatility and strong institutional backing. The token's cross-chain nature aligns well with Orderly's multi-chain infrastructure, while its growing ecosystem of DeFi applications provides fundamental support for sustained trading interest.",
+    "sections": [
+      {
+        "heading": "Historical INJ Funding Rate Patterns",
+        "body": "INJ funding rates on Orderly Network typically range from -0.01% to +0.05% hourly, with notable spikes during protocol upgrades or major partnership announcements. The token shows distinct funding patterns around monthly unlock events and mainnet milestones, often creating brief negative funding periods as shorts anticipate selling pressure. Orderly's shared liquidity model helps dampen extreme funding rate volatility compared to isolated perpetual markets, making INJ an attractive target for consistent funding collection strategies."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly's multi-chain infrastructure enables arbitrageurs to exploit funding rate differences between NEAR-based and EVM-compatible frontends accessing the same underlying order book. INJ's native cross-chain capabilities allow for efficient capital movement between Orderly's funding markets and spot exchanges on Ethereum, Cosmos Hub, and other connected chains. The platform's 0.02% maker fees make it cost-effective for high-frequency funding strategies, particularly when combined with INJ's relatively predictable funding cycles during ecosystem developments."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading INJ perpetuals on Orderly Network requires understanding the platform's dependency on frontend partners and potential liquidity fragmentation across different access points. The token's correlation with broader Cosmos ecosystem performance can create unexpected funding rate movements during inter-blockchain communication upgrades or validator set changes. Arbitrageurs should monitor Orderly's cross-chain bridge health and maintain adequate collateral buffers, as the platform's shared order book model can lead to rapid position liquidations during network congestion events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do INJ funding rates settle on Orderly Network?",
+        "answer": "INJ funding rates on Orderly Network settle every hour, providing more frequent arbitrage opportunities compared to the standard 8-hour cycles on centralized exchanges. This hourly settlement mechanism allows for more responsive funding rate adjustments to market conditions."
+      },
+      {
+        "question": "Can I access Orderly's INJ perpetuals from multiple frontends?",
+        "answer": "Yes, Orderly's shared liquidity model means you can trade INJ/USDT perpetuals through various integrated DEX frontends while accessing the same underlying order book. Each frontend may offer different user interfaces and additional features while maintaining consistent funding rates and settlement mechanics."
+      },
+      {
+        "question": "What makes INJ funding arbitrage different on a DEX versus CEX?",
+        "answer": "DEX funding arbitrage on Orderly offers non-custodial trading and potentially less regulatory risk, but requires managing smart contract interactions and cross-chain bridge dependencies. INJ's native interoperability features make it particularly well-suited for DEX-based strategies compared to tokens requiring wrapped versions."
+      },
+      {
+        "question": "How does Orderly's cross-chain architecture affect INJ position management?",
+        "answer": "Orderly's multi-chain support allows INJ positions to be managed across NEAR and EVM networks, but arbitrageurs must account for potential cross-chain settlement delays and varying gas costs. The platform's infrastructure handles most cross-chain complexity automatically, though users should understand which chain their collateral resides on."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ordi-usdt",
+    "link-usdt",
+    "near-usdt",
+    "aave-usdt",
+    "ethfi-usdt"
+  ]
+}

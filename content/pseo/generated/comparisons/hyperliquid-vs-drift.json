@@ -1,0 +1,91 @@
+{
+  "slug": "hyperliquid-vs-drift",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book with sub-second finality",
+      "No KYC required for trading",
+      "Independent L1 blockchain reduces network risks"
+    ],
+    "weaknesses": [
+      "Limited to USDC-only settlements",
+      "Single-chain ecosystem dependency",
+      "Newer platform with shorter operational history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "JIT liquidity auctions improve execution",
+      "Insurance fund provides additional security",
+      "Solana's high throughput and low transaction costs"
+    ],
+    "weaknesses": [
+      "Dependent on Solana network stability",
+      "Lower overall liquidity compared to major CEXs",
+      "Complex vAMM-DLOB hybrid can complicate arbitrage"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "USDC on Hyperliquid L1",
+      "b": "USDC on Solana"
+    }
+  },
+  "rate_mechanics": "Both platforms calculate funding rates hourly using similar mark price to index price differentials. Hyperliquid's on-chain order book provides more transparent price discovery, while Drift's vAMM system can create temporary rate divergences during high volatility. Hyperliquid's independent L1 eliminates network congestion affecting rate calculations, whereas Drift benefits from Solana's speed but remains subject to network conditions. Both use 8-hour TWAPs for rate smoothing but Hyperliquid's implementation is fully verifiable on-chain.",
+  "verdict": "Hyperliquid offers superior transparency and network independence for funding arbitrage, making rate calculations more predictable. Drift provides better liquidity depth and JIT auctions that can improve arbitrage execution, but adds complexity through its hybrid AMM model.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "Hyperliquid's transparent on-chain order book and independent network provide more predictable rate calculations. Drift's JIT liquidity can offer better execution but with added complexity in rate mechanics."
+    },
+    {
+      "question": "How do the 1-hour funding intervals compare between platforms?",
+      "answer": "Both use identical 1-hour intervals, but Hyperliquid's calculations are fully on-chain and verifiable. Drift's rates can be influenced by Solana network conditions during high congestion periods."
+    },
+    {
+      "question": "What are the key risks for arbitrageurs on each platform?",
+      "answer": "Hyperliquid risks include USDC-only settlements and newer platform maturity. Drift faces Solana dependency risks and potential vAMM slippage during volatile periods affecting arbitrage profitability."
+    },
+    {
+      "question": "Which platform has lower overall trading costs for arbitrage?",
+      "answer": "Both charge identical maker/taker fees of 0.02%/0.05%. However, Hyperliquid eliminates gas fees through its L1 design, while Drift benefits from Solana's low transaction costs of ~$0.00025 per transaction."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs Drift: Perpetual Futures Funding Rates",
+    "description": "Compare Hyperliquid and Drift DEX funding rates for perpetual futures arbitrage. Both offer 1-hour intervals with 0.02%/0.05% fees but different mechanics.",
+    "keywords": [
+      "hyperliquid vs drift",
+      "perpetual futures funding rates",
+      "DEX arbitrage",
+      "solana perpetuals",
+      "on-chain derivatives",
+      "funding rate arbitrage",
+      "hyperliquid funding",
+      "drift protocol",
+      "perpetual swaps comparison",
+      "DEX trading fees"
+    ]
+  }
+}

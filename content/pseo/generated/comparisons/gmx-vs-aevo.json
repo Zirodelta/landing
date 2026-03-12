@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-aevo",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs in traditional sense",
+      "Arbitrum ecosystem leader with proven track record",
+      "Battle-tested protocol since 2021"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency creates potential manipulation risk",
+      "Price impact issues on large trades"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Unified options and perpetuals trading platform",
+      "Dedicated rollup infrastructure for performance",
+      "Pre-launch token markets for early access"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pools compared to established DEXs",
+      "Complex product suite may fragment liquidity",
+      "Rollup centralization concerns with validator control"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based on Arbitrum",
+      "b": "Order book on custom rollup"
+    }
+  },
+  "rate_mechanics": "GMX uses oracle-based pricing with funding rates calculated against Chainlink price feeds, creating potential arbitrage when oracle and market prices diverge. Aevo employs a traditional order book model on its custom rollup, with funding rates determined by perpetual-spot basis similar to centralized exchanges. GMX's unique GLP liquidity model means traders are essentially betting against the house, while Aevo's peer-to-peer model creates more traditional funding rate dynamics. Both use hourly funding intervals but GMX's oracle dependency can create brief arbitrage windows during high volatility.",
+  "verdict": "Aevo offers significantly lower trading fees and traditional funding rate mechanics familiar to CEX traders, making it attractive for high-frequency arbitrage strategies. GMX provides better liquidity depth and proven stability but at higher costs, making it more suitable for longer-term positions where fee impact is less critical.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Aevo typically provides better opportunities due to lower fees and traditional funding mechanics. GMX's oracle-based system can create unique arbitrage windows but higher fees reduce profitability for frequent trading."
+    },
+    {
+      "question": "How do the funding rate calculations differ between GMX and Aevo?",
+      "answer": "GMX uses oracle prices from Chainlink with funding based on utilization of long/short pools. Aevo employs perpetual-spot basis calculations similar to centralized exchanges, creating more predictable funding patterns."
+    },
+    {
+      "question": "Which platform has more reliable liquidity for large trades?",
+      "answer": "GMX generally offers deeper liquidity through its GLP pools, especially for major tokens. Aevo's order book model provides transparent depth but may have less liquidity for larger position sizes."
+    },
+    {
+      "question": "Are there infrastructure risks to consider for funding rate arbitrage?",
+      "answer": "GMX relies on Arbitrum and Chainlink oracles, creating dependencies but benefiting from proven infrastructure. Aevo's custom rollup offers performance advantages but introduces validator centralization risks that could affect settlement."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Aevo: Perpetual Futures Funding Rates Compared",
+    "description": "Compare GMX and Aevo perpetual futures funding rates, fees, and arbitrage opportunities. Detailed analysis of oracle vs order book mechanics for traders.",
+    "keywords": [
+      "GMX vs Aevo",
+      "perpetual futures funding rates",
+      "DEX funding arbitrage",
+      "GMX funding rates",
+      "Aevo perpetuals",
+      "oracle vs order book",
+      "crypto derivatives trading",
+      "funding rate comparison",
+      "DeFi perpetuals",
+      "arbitrage opportunities"
+    ]
+  }
+}

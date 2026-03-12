@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jup-usdt",
+    "base": "JUP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JUP/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track JUP/USDT perpetual funding rates on Orderly Network's shared liquidity layer. Hourly settlements, multi-chain access, 0.02% maker fees.",
+    "keywords": [
+      "JUP funding rate",
+      "Orderly Network perpetuals",
+      "DEX arbitrage",
+      "Jupiter funding",
+      "shared liquidity",
+      "NEAR DeFi",
+      "hourly funding",
+      "perp arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "JUP/USDT perpetual futures on Orderly Network benefit from the protocol's shared order book architecture, aggregating liquidity across multiple DEX frontends. With hourly funding rate settlements and mid-tier trading volume, this pair offers regular arbitrage opportunities for DeFi native traders. Orderly's infrastructure layer provides cross-chain access while maintaining competitive maker fees at 0.02%.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium/discount between perpetual and mark price across its shared order book. The funding mechanism operates consistently across all frontend partners accessing Orderly's liquidity layer, ensuring uniform rates regardless of entry point. Settlement occurs automatically every hour, with payments between long and short positions based on the 8-hour TWAP of funding rates. The shared liquidity model means funding rates reflect aggregated market sentiment across the entire Orderly ecosystem.",
+    "why_this_pair": "JUP/USDT represents Jupiter's governance token, which experiences volatility around Jupiter's product updates and Solana ecosystem developments. The pair's funding rates often diverge significantly during Jupiter airdrop announcements or major DEX feature launches, creating arbitrage windows. Orderly's multi-chain infrastructure allows traders to access JUP exposure from both NEAR and EVM chains, potentially capturing funding rate differentials across ecosystems.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JUP/USDT funding rates on Orderly Network typically range from -0.1% to +0.3% during normal market conditions, with extreme spikes reaching ±1% during major Jupiter announcements. The pair exhibits strong correlation with broader DeFi token sentiment and Solana ecosystem performance. Funding rates tend to turn negative during broader crypto downturns as shorts dominate, while positive rates emerge during DeFi rallies or Jupiter-specific catalysts. Historical data shows funding rate volatility increases significantly around Jupiter's quarterly product updates and governance proposals."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly's shared liquidity layer creates unique arbitrage opportunities as funding rates can diverge from centralized exchanges due to the DEX's DeFi-native user base. Traders often find profitable spreads between Orderly's JUP funding rates and those on major CEXes, particularly during high volatility periods. The protocol's multi-chain access allows for complex arbitrage strategies involving JUP positions across different blockchain ecosystems. Cross-frontend arbitrage within Orderly's ecosystem is limited due to shared order books, but rate differences with external markets remain significant."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading JUP perpetuals on Orderly Network involves exposure to both token volatility and DEX-specific risks including frontend dependency and potential liquidity fragmentation. The shared order book model means system-wide issues could affect all connected frontends simultaneously, requiring traders to maintain alternative access routes. Smart contract risk exists at both the Orderly protocol layer and individual frontend levels, making position monitoring across multiple interfaces essential. Funding rate arbitrage strategies should account for potential slippage during volatile periods when JUP experiences rapid price movements exceeding the shared liquidity pool's depth."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do Orderly Network's hourly funding settlements affect JUP arbitrage strategies?",
+        "answer": "Hourly settlements provide more frequent profit realization compared to 8-hour cycles on most exchanges, allowing for shorter-duration arbitrage positions. This creates opportunities to capture funding rate movements more granularly, particularly during volatile periods when JUP funding rates fluctuate rapidly within traditional 8-hour windows."
+      },
+      {
+        "question": "What are the advantages of JUP perpetual trading on a shared liquidity DEX?",
+        "answer": "Shared liquidity aggregates depth across multiple frontends, potentially providing better fill prices and reduced slippage for larger JUP positions. The architecture also offers redundancy through multiple access points, though users remain dependent on the underlying Orderly protocol infrastructure."
+      },
+      {
+        "question": "How does Orderly's multi-chain support impact JUP funding rate arbitrage?",
+        "answer": "Multi-chain access allows traders to maintain JUP perpetual positions while leveraging different blockchain ecosystems for hedging or collateral management. This can create additional arbitrage angles, particularly when gas costs or liquidity conditions vary significantly between NEAR and EVM chains."
+      },
+      {
+        "question": "What risks should traders consider when using Orderly Network for JUP funding rate strategies?",
+        "answer": "Key risks include frontend dependency (requiring backup access methods), potential smart contract vulnerabilities in the shared infrastructure, and liquidity concentration risk. Traders should also monitor for potential delays or issues in the shared order book system that could affect position management during critical periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "meme-usdt",
+    "ldo-usdt",
+    "imx-usdt",
+    "xrp-usdt",
+    "arb-usdt"
+  ]
+}

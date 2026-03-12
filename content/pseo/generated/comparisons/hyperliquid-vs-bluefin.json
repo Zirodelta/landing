@@ -1,0 +1,89 @@
+{
+  "slug": "hyperliquid-vs-bluefin",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book with sub-second finality",
+      "No KYC required for native access",
+      "1-hour funding intervals for frequent arbitrage"
+    ],
+    "weaknesses": [
+      "Single L1 ecosystem limits cross-chain opportunities",
+      "USDC-only collateral restricts portfolio strategies",
+      "Newer protocol with limited operational history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Leading perpetual DEX in Sui ecosystem",
+      "Institutional-grade matching engine performance",
+      "Fast Sui settlement enables quick position adjustments"
+    ],
+    "weaknesses": [
+      "Limited to Sui ecosystem adoption",
+      "Fewer trading pairs than established exchanges",
+      "Lower overall volume affects funding rate predictability"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Hyperliquid L1",
+      "b": "Sui blockchain"
+    }
+  },
+  "rate_mechanics": "Both exchanges use identical 1-hour funding intervals, making them suitable for short-term arbitrage strategies. Hyperliquid's on-chain order book provides transparent funding rate calculations, while Bluefin leverages Sui's fast finality for rapid position management. The key difference lies in liquidity depth - Hyperliquid typically shows higher volume which can lead to more stable funding rates, while Bluefin's rates may be more volatile due to lower liquidity but offer potential for larger spreads.",
+  "verdict": "Both exchanges offer competitive fee structures and hourly funding, making them viable for arbitrage. Hyperliquid provides better liquidity and proven stability, while Bluefin offers opportunities in the emerging Sui ecosystem with potentially higher rate volatility for skilled traders.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Hyperliquid generally provides more stable opportunities due to higher liquidity, while Bluefin may offer larger spreads but with increased volatility risk in the smaller Sui ecosystem."
+    },
+    {
+      "question": "Do both exchanges support cross-collateral margin trading?",
+      "answer": "Hyperliquid uses USDC as primary collateral with some multi-asset support, while Bluefin supports various Sui-native tokens. Both offer portfolio margin but with different underlying assets."
+    },
+    {
+      "question": "How do gas costs compare for frequent trading?",
+      "answer": "Hyperliquid's L1 offers predictable low costs, while Sui's gas fees are generally minimal. Both are significantly cheaper than Ethereum-based alternatives for high-frequency arbitrage strategies."
+    },
+    {
+      "question": "Which platform is better for institutional arbitrage strategies?",
+      "answer": "Hyperliquid currently offers better institutional infrastructure and higher liquidity. Bluefin provides professional tools but operates in a smaller ecosystem with less institutional adoption."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs Bluefin: DEX Perpetual Funding Rate Guide",
+    "description": "Compare Hyperliquid and Bluefin DEX perpetual futures for funding rate arbitrage. Analysis of fees, settlement speed, and trading opportunities on both platforms.",
+    "keywords": [
+      "hyperliquid funding rates",
+      "bluefin perpetuals",
+      "DEX arbitrage",
+      "sui perpetual futures",
+      "on-chain derivatives",
+      "funding rate comparison",
+      "perpetual futures DEX",
+      "hyperliquid vs bluefin"
+    ]
+  }
+}

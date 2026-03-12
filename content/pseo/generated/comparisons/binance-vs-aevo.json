@@ -1,0 +1,89 @@
+{
+  "slug": "binance-vs-aevo",
+  "exchange_a": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Deepest liquidity globally",
+      "Tight spreads on majors",
+      "Insurance fund over $1B"
+    ],
+    "weaknesses": [
+      "Regulatory pressure in multiple jurisdictions",
+      "Complex fee structure with BNB discounts",
+      "Withdrawal delays during high volatility"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized",
+      "b": "On-chain rollup"
+    }
+  },
+  "rate_mechanics": "Binance calculates funding rates every 8 hours using a weighted average of premium and interest rate components across its massive liquidity pool. Aevo operates on 1-hour funding intervals with rates determined by its smaller but more concentrated liquidity on its dedicated rollup. The shorter intervals on Aevo allow for more responsive rate adjustments but create more frequent transaction costs. Binance's deeper liquidity typically results in more stable funding rates, while Aevo's rates can be more volatile due to concentrated positions.",
+  "verdict": "Binance offers superior liquidity depth and stability for large funding rate arbitrage positions, making it ideal for institutional strategies. Aevo provides unique opportunities with hourly funding and combined options-perps exposure, better suited for sophisticated traders comfortable with smaller liquidity pools and rollup infrastructure.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Binance provides more stable rates with deeper liquidity for large positions, while Aevo's hourly funding creates more frequent arbitrage windows. Choice depends on position size and strategy timeframe."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "Binance uses 8-hour intervals with premium/interest rate weighting across 200+ pairs. Aevo calculates rates hourly on its rollup with smaller but concentrated liquidity pools."
+    },
+    {
+      "question": "What are the key infrastructure differences for arbitrage?",
+      "answer": "Binance operates traditional centralized infrastructure with instant execution but regulatory constraints. Aevo uses rollup technology for on-chain settlement with potential MEV considerations."
+    },
+    {
+      "question": "Which platform handles large arbitrage positions better?",
+      "answer": "Binance's deeper liquidity and $1B+ insurance fund make it superior for institutional-scale arbitrage. Aevo's smaller pools may cause significant slippage on large trades."
+    }
+  ],
+  "seo": {
+    "title": "Binance vs Aevo Funding Rates: CEX vs DEX Arbitrage Guide",
+    "description": "Compare Binance and Aevo perpetual futures funding rates. Analyze 8h vs 1h intervals, liquidity depth, and arbitrage opportunities for both CEX and DEX platforms.",
+    "keywords": [
+      "binance funding rates",
+      "aevo perpetual futures",
+      "funding rate arbitrage",
+      "cex vs dex perps",
+      "perpetual futures comparison",
+      "crypto arbitrage trading",
+      "binance vs aevo",
+      "funding interval strategies"
+    ]
+  }
+}

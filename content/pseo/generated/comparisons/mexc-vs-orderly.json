@@ -1,0 +1,89 @@
+{
+  "slug": "mexc-vs-orderly",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees",
+      "First-to-list many tokens",
+      "High leverage options"
+    ],
+    "weaknesses": [
+      "Thinner order books",
+      "Questionable volume reporting",
+      "Limited regulatory compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain support",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized clearing",
+      "b": "Smart contract settlement"
+    }
+  },
+  "rate_mechanics": "MEXC calculates funding rates every 8 hours using traditional CEX methodology with mark price vs index price differentials. Orderly Network implements hourly funding rate calculations across its shared order book infrastructure, with rates determined by on-chain algorithms. The 1-hour frequency on Orderly provides more responsive rate adjustments but requires more frequent position monitoring. MEXC's centralized approach allows for more predictable rate patterns but may lag market sentiment changes.",
+  "verdict": "MEXC offers lower fees and established CEX infrastructure but with regulatory risks and potential liquidity concerns. Orderly Network provides innovative shared DEX infrastructure with more frequent funding updates but adds complexity through its multi-layer architecture and frontend dependencies.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate predictability for arbitrage?",
+      "answer": "MEXC's 8-hour funding cycles provide more predictable patterns for traditional arbitrage strategies. Orderly's hourly updates offer more responsive rates but require active monitoring and faster execution."
+    },
+    {
+      "question": "How do the liquidity differences affect funding rate arbitrage?",
+      "answer": "MEXC's thinner order books can lead to higher slippage on larger arbitrage positions. Orderly's shared liquidity model provides better depth but execution depends on the specific frontend interface used."
+    },
+    {
+      "question": "What are the withdrawal and settlement differences?",
+      "answer": "MEXC requires standard CEX withdrawal processes with potential delays during high volume. Orderly Network offers direct wallet control but settlement complexity varies across different frontend implementations."
+    },
+    {
+      "question": "Which platform is better for high-frequency funding rate strategies?",
+      "answer": "Orderly's 1-hour funding intervals suit high-frequency strategies better, but MEXC's zero maker fees make it cost-effective for frequent position adjustments. Consider API reliability and execution speed for your specific strategy."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Orderly Network Funding Rates Comparison 2024",
+    "description": "Compare MEXC and Orderly Network perpetual futures funding rates, fees, and mechanics. CEX vs DEX infrastructure analysis for funding rate arbitrage strategies.",
+    "keywords": [
+      "MEXC funding rates",
+      "Orderly Network perpetuals",
+      "CEX vs DEX arbitrage",
+      "funding rate comparison",
+      "perpetual futures fees",
+      "crypto arbitrage",
+      "MEXC vs Orderly",
+      "funding interval differences"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "mexc-vs-vertex",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees",
+      "First-to-list many tokens",
+      "High leverage options"
+    ],
+    "weaknesses": [
+      "Thinner order books",
+      "Questionable volume reporting",
+      "Limited regulatory compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.03%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized",
+      "b": "On-chain Arbitrum"
+    }
+  },
+  "rate_mechanics": "MEXC uses traditional 8-hour funding intervals common among CEXs, calculating rates based on premium/discount to spot prices. Vertex implements hourly funding payments through its hybrid architecture, with rates determined by its on-chain risk engine while maintaining fast execution via off-chain sequencer. The 1-hour frequency on Vertex allows for more responsive rate adjustments to market conditions. Both exchanges use similar funding rate formulas but Vertex's decentralized settlement provides greater transparency in rate calculations.",
+  "verdict": "MEXC offers zero maker fees making it attractive for market makers, while Vertex provides more frequent funding payments and transparent on-chain settlement. Choose MEXC for aggressive altcoin exposure with maker rebates, or Vertex for faster funding cycles and DeFi integration.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Vertex's 1-hour funding intervals provide 8x more frequent payment opportunities compared to MEXC's 8-hour cycles. However, MEXC's zero maker fees can offset funding costs for market makers providing liquidity."
+    },
+    {
+      "question": "How do trading fees compare between MEXC and Vertex?",
+      "answer": "MEXC offers 0% maker fees with 0.03% taker fees, while Vertex charges 0.02% maker and 0.03% taker fees. MEXC is more favorable for makers, while both have identical taker costs."
+    },
+    {
+      "question": "Which platform is better for funding rate arbitrage?",
+      "answer": "Vertex's hourly funding and on-chain transparency make rate prediction easier. MEXC's wider token selection and zero maker fees benefit arbitrageurs trading less liquid pairs with larger spreads."
+    },
+    {
+      "question": "What are the main risks of each platform?",
+      "answer": "MEXC carries counterparty risk from centralized custody and potential volume manipulation. Vertex risks include Arbitrum network issues, sequencer downtime, and smart contract vulnerabilities despite being non-custodial."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Vertex: Perpetual Futures & Funding Rates",
+    "description": "Compare MEXC's zero maker fees and 8h funding vs Vertex's 1h rates and on-chain settlement. Detailed analysis of DEX vs CEX perpetual futures trading.",
+    "keywords": [
+      "MEXC Vertex comparison",
+      "perpetual futures funding rates",
+      "DEX CEX arbitrage",
+      "zero maker fees",
+      "hourly funding payments",
+      "Arbitrum perpetuals",
+      "crypto derivatives trading",
+      "funding rate arbitrage",
+      "MEXC fees",
+      "Vertex protocol"
+    ]
+  }
+}

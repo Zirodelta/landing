@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rates on Orderly Network - DEX Analysis",
+    "description": "Track NEAR/USDT perpetual funding rates on Orderly Network. Analyze hourly rate patterns, multi-chain arbitrage opportunities, and shared liquidity mechanics.",
+    "keywords": [
+      "NEAR funding rates",
+      "Orderly Network",
+      "DEX perpetuals",
+      "shared liquidity",
+      "multi-chain arbitrage",
+      "funding rate arbitrage",
+      "NEAR Protocol",
+      "perp trading"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetual futures on Orderly Network offer hourly funding rate settlements across their shared liquidity infrastructure. Orderly's white-label DEX model aggregates liquidity from multiple frontends, creating unique arbitrage dynamics for NEAR Protocol's native token.",
+    "how_funding_works": "Orderly Network calculates NEAR/USDT funding rates hourly using a premium index mechanism across their shared order book. The rate applies uniformly across all frontend partners accessing Orderly's infrastructure, including WOOFi DEX and other integrated platforms. Settlement occurs automatically at each hour mark, with rates typically ranging from -0.5% to +1.2% daily based on NEAR's market positioning relative to spot prices.",
+    "why_this_pair": "NEAR/USDT funding rates often diverge from centralized exchanges due to Orderly's shared liquidity model and NEAR ecosystem trading patterns. The pair benefits from cross-chain arbitrage opportunities as Orderly operates on both NEAR Protocol and EVM chains, creating pricing inefficiencies that experienced traders can exploit.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on Orderly typically exhibit lower volatility compared to major CEXs due to the shared liquidity mechanism. During NEAR ecosystem events like Aurora developments or NEAR Foundation announcements, rates can spike to 0.3-0.8% per 8 hours. The hourly settlement frequency creates more granular arbitrage windows but requires precise timing. Positive funding rates dominate during broader L1 narratives, while negative rates occur during market-wide deleveraging events."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly's multi-chain architecture creates unique arbitrage scenarios where NEAR funding rates differ between NEAR Protocol and Ethereum implementations. Traders can exploit rate differentials by maintaining positions across chains while hedging spot exposure through Aurora or Rainbow Bridge. The shared order book means rate convergence happens faster than traditional CEX-DEX arbitrage, requiring automated strategies. Gas costs on NEAR Protocol are significantly lower than Ethereum, improving arbitrage profitability margins."
+      },
+      {
+        "heading": "Risk Considerations and Mechanics",
+        "body": "Orderly's indirect user experience through frontend partners introduces counterparty risks not present in direct CEX trading. Smart contract risks include potential bugs in the shared liquidity layer and frontend integration vulnerabilities. Liquidity can fragment across multiple frontends during high volatility, causing temporary price dislocations. The complex architecture means troubleshooting issues requires coordination between Orderly core team and frontend partners, potentially delaying urgent position management."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect NEAR funding rates?",
+        "answer": "Orderly's shared order book pools liquidity from multiple DEX frontends, creating more stable funding rates but potentially slower price discovery. This can lead to prolonged periods where NEAR funding rates lag behind major CEX movements."
+      },
+      {
+        "question": "What are the settlement mechanics for NEAR perpetuals on Orderly?",
+        "answer": "NEAR/USDT funding settles hourly at the top of each hour using Orderly's premium index calculation. The rate applies uniformly across all frontend partners accessing the shared infrastructure."
+      },
+      {
+        "question": "Can I arbitrage NEAR funding rates between Orderly's different frontends?",
+        "answer": "No, all frontends share the same order book and funding rates. However, you can arbitrage between Orderly's NEAR and Ethereum implementations, which may have slight rate differences due to cross-chain mechanics."
+      },
+      {
+        "question": "What are the main risks of trading NEAR perpetuals on Orderly Network?",
+        "answer": "Key risks include smart contract vulnerabilities in the shared liquidity layer, dependency on frontend partner reliability, and potential liquidity fragmentation during extreme market conditions affecting NEAR Protocol ecosystem tokens."
+      }
+    ]
+  },
+  "related_pairs": [
+    "avax-usdt",
+    "aave-usdt",
+    "uni-usdt",
+    "jup-usdt",
+    "matic-usdt"
+  ]
+}

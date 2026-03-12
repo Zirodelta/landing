@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Funding Rates on Phemex - Arbitrage Analysis",
+    "description": "Track IMX/USDT perpetual funding rates on Phemex. Gaming token volatility creates arbitrage opportunities with 8-hour funding intervals and low maker fees.",
+    "keywords": [
+      "IMX funding rates",
+      "Phemex perpetual",
+      "gaming token arbitrage",
+      "funding rate strategy",
+      "IMX futures",
+      "8-hour funding",
+      "perpetual contracts"
+    ]
+  },
+  "content": {
+    "intro": "IMX/USDT perpetual contracts on Phemex offer funding rate arbitrage opportunities driven by gaming sector volatility and Immutable X ecosystem developments. Phemex's 8-hour funding intervals and 0.01% maker fees create favorable conditions for rate-based strategies. The contract's mid-tier volume provides adequate liquidity while maintaining rate volatility for profit generation.",
+    "how_funding_works": "Phemex calculates IMX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium/discount to spot price. The exchange uses a time-weighted average of the premium index over the funding period to determine rates. Funding payments occur automatically between long and short position holders, with rates typically ranging from -0.375% to +0.375% per 8-hour period. Phemex's contract specification includes 0.001 IMX minimum tick size and up to 50x leverage for position sizing flexibility.",
+    "why_this_pair": "IMX represents Immutable X, a layer-2 scaling solution for NFTs and gaming, making it sensitive to gaming market sentiment and ecosystem announcements. The token's connection to major gaming partnerships and NFT marketplace activity creates periodic funding rate spikes as retail traders take directional positions. Gaming tokens like IMX often exhibit higher funding rate volatility compared to major cryptocurrencies, providing more frequent arbitrage windows for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "IMX/USDT funding rates on Phemex have shown distinct patterns correlating with gaming sector news cycles and NFT market trends. During major gaming partnership announcements or Immutable X ecosystem updates, funding rates frequently spike above 0.2% per 8-hour period as retail long interest increases. Gaming token funding typically exhibits higher volatility during US trading hours when gaming communities are most active. Weekend periods often see reduced rate volatility as institutional activity decreases, while weekday Asian sessions show increased rate swings during gaming conference periods or major game launches."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Phemex's low 0.01% maker fees create profitable arbitrage conditions when IMX funding rates exceed 0.05% per 8-hour period, equivalent to 0.45% daily. The exchange's clean UI and reliable execution make it suitable for automated funding rate strategies using API connections. Cross-exchange arbitrage opportunities emerge when Phemex IMX rates diverge significantly from Binance or OKX, particularly during gaming sector volatility. The 8-hour funding cycle provides three daily opportunities to capture rate premiums, with optimal entry timing typically 1-2 hours before funding settlement to avoid late position crowding."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Phemex's smaller user base compared to tier-1 exchanges can result in occasional liquidity gaps during high volatility periods, potentially affecting large position entries or exits. IMX's gaming sector correlation means funding rates can shift rapidly during major industry announcements, requiring active position management. The exchange's focus on contract trading provides deep perpetual liquidity but limited spot market depth for hedging strategies. Regulatory risks specific to Singapore-based operations and potential gaming sector regulations could impact long-term trading viability for this pair."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical IMX/USDT funding rates on Phemex?",
+        "answer": "IMX funding rates on Phemex typically range from -0.1% to +0.3% per 8-hour period, with spikes above 0.5% during major gaming announcements. The gaming sector's retail-heavy trading often pushes rates positive during bullish periods."
+      },
+      {
+        "question": "How does Phemex's 8-hour funding cycle affect IMX arbitrage strategies?",
+        "answer": "The 8-hour cycle at 00:00, 08:00, and 16:00 UTC provides three daily opportunities to capture funding premiums. IMX rates often peak 2-3 hours before settlement as position interest builds, making early positioning crucial for maximizing returns."
+      },
+      {
+        "question": "What makes IMX suitable for funding rate arbitrage on Phemex?",
+        "answer": "IMX's gaming sector volatility creates frequent funding rate spikes as retail traders take directional positions on ecosystem news. Combined with Phemex's low maker fees and reliable execution, this provides consistent arbitrage opportunities for patient traders."
+      },
+      {
+        "question": "Are there liquidity risks when trading IMX perpetuals on Phemex?",
+        "answer": "Phemex maintains adequate IMX liquidity for most strategies, but large positions above $50,000 may experience slippage during high volatility periods. The exchange's smaller user base can create temporary depth issues during major gaming sector events."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "trx-usdt",
+    "sol-usdt",
+    "stx-usdt",
+    "blur-usdt"
+  ]
+}

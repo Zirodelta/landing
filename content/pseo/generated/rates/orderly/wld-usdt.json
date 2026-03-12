@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Orderly Network | Live Tracker",
+    "description": "Monitor WLD/USDT perpetual funding rates on Orderly Network. Track hourly payments, analyze arbitrage opportunities across the shared liquidity layer.",
+    "keywords": [
+      "WLD funding rates",
+      "Orderly Network perpetuals",
+      "WLD USDT arbitrage",
+      "DEX funding arbitrage",
+      "Worldcoin futures",
+      "NEAR DeFi",
+      "shared liquidity",
+      "AI token funding"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Orderly Network offer unique funding rate opportunities through the platform's shared liquidity infrastructure. With hourly funding settlements and 0.02%/0.05% maker/taker fees, traders can capitalize on Worldcoin's volatility patterns across multiple DEX frontends.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium/discount between perpetual and spot prices, distributed across its shared order book. The infrastructure layer aggregates positions from multiple frontend partners, creating deeper liquidity pools that can sustain larger arbitrage positions. Funding payments settle automatically across all connected DEX interfaces, with rates typically ranging from -0.5% to +0.5% during normal market conditions.",
+    "why_this_pair": "WLD's AI narrative and retail interest create frequent funding rate spikes, particularly during tech sector rallies or OpenAI developments. The token's mid-volume status on Orderly means less competition from institutional arbitrageurs while maintaining sufficient liquidity for meaningful position sizes. Cross-chain accessibility through NEAR and EVM compatibility enables diverse funding rate arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on Orderly Network typically spike during AI sector momentum, reaching +0.3% to +0.5% hourly during bullish periods. Weekend sessions often show negative funding as retail interest wanes, creating consistent long funding arbitrage opportunities. The shared liquidity model means rates are generally more stable than isolated DEX perpetuals, with less extreme spikes but more predictable patterns. Monthly analysis shows funding rates correlate strongly with OpenAI announcements and broader AI token movements."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Orderly's multi-frontend architecture creates natural arbitrage opportunities as different interfaces may show slight pricing discrepancies. The 1-hour funding interval allows for quick position adjustments compared to 8-hour cycles on major CEXs. Cross-chain functionality enables sophisticated arbitrage between NEAR-based and EVM-based perpetuals markets. Lower competition from institutional traders on this mid-tier AI token often leaves funding rate inefficiencies unexploited for longer periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Orderly Network's dependence on frontend partners introduces counterparty risks not present in traditional exchanges. The complex infrastructure can experience latency during high-volatility periods, affecting funding rate arbitrage execution. WLD's correlation with broader AI sentiment creates concentrated risk exposure that can quickly reverse funding rate advantages. Smart contract risks across multiple chains require careful position sizing, especially during network congestion periods that may affect settlement timing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect WLD funding rates?",
+        "answer": "The shared order book aggregates liquidity from multiple DEX frontends, creating more stable funding rates with less extreme spikes. This results in more predictable but potentially smaller arbitrage opportunities compared to isolated perpetuals markets."
+      },
+      {
+        "question": "What makes WLD funding arbitrage unique on Orderly Network?",
+        "answer": "WLD's AI token status combined with Orderly's cross-chain infrastructure creates arbitrage opportunities across NEAR and EVM ecosystems. The hourly funding settlements and mid-volume liquidity often leave rate inefficiencies unexploited longer than on major exchanges."
+      },
+      {
+        "question": "Are there additional risks with Orderly Network's DEX infrastructure?",
+        "answer": "Yes, the multi-layer architecture introduces smart contract risks across chains and dependence on frontend partners for user access. Network congestion can affect funding settlement timing, and the complex routing may experience latency during volatile periods."
+      },
+      {
+        "question": "How do Orderly Network fees impact WLD funding rate profitability?",
+        "answer": "The 0.02% maker / 0.05% taker fee structure is competitive for funding arbitrage, requiring funding rates above ~0.1% hourly to remain profitable after trading costs. The shared liquidity often provides better execution than typical DEX perpetuals with similar fee structures."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "ada-usdt",
+    "rune-usdt",
+    "tao-usdt",
+    "bonk-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "mkr-usdt",
+    "base": "MKR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MKR/USDT Funding Rates on Orderly Network | DEX Arbitrage",
+    "description": "Track MKR/USDT perpetual funding rates on Orderly Network. Analyze cross-chain DEX arbitrage opportunities with shared liquidity infrastructure.",
+    "keywords": [
+      "MKR funding rates",
+      "Orderly Network perpetuals",
+      "DEX funding arbitrage",
+      "MakerDAO trading",
+      "cross-chain funding",
+      "shared liquidity DEX",
+      "NEAR DeFi trading",
+      "MKR perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "MKR/USDT perpetual futures on Orderly Network provide access to funding rate arbitrage through their shared liquidity infrastructure. Orderly's unique cross-chain order book aggregates liquidity from multiple DEX frontends, creating deeper markets for MKR governance token trading.",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and mark prices across their shared order book. The distributed architecture means funding rates reflect aggregated sentiment from multiple DEX interfaces connected to the same liquidity layer. Settlement occurs automatically through Orderly's smart contracts, with rates typically ranging from -0.5% to +0.5% daily for MKR pairs during normal market conditions.",
+    "why_this_pair": "MKR perpetuals offer compelling funding arbitrage due to governance-driven volatility and limited perpetual availability across DEXs. The token's role in MakerDAO governance creates periodic demand spikes that can drive significant funding premiums, especially during protocol votes or DAI stability events.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MKR funding rates on Orderly typically correlate with broader DeFi governance cycles and DAI market conditions. During MakerDAO executive votes or risk parameter changes, funding premiums often exceed 0.3% daily as traders position for governance outcomes. The shared liquidity model helps stabilize rates compared to isolated DEX perpetuals, though rates remain more volatile than major tokens. Cross-chain arbitrage opportunities frequently emerge when Ethereum-based sentiment diverges from NEAR/Aurora market conditions."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "Orderly's infrastructure creates unique arbitrage potential by connecting funding rates across multiple blockchain ecosystems. Traders can exploit rate differentials between Orderly's shared book and centralized exchanges, particularly during governance events when CEX funding may lag DEX price discovery. The platform's 0.02% maker fees enhance profitability for market-making strategies that capture funding payments. Multi-chain connectivity allows arbitrageurs to hedge positions across NEAR, Aurora, and Ethereum simultaneously."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "MKR's governance token status introduces unique risks including vote-driven volatility and liquidity fragmentation during protocol upgrades. Orderly's dependency on frontend partners means interface issues could impact position management during critical funding periods. The shared order book model provides better liquidity than isolated DEX perpetuals, but still faces deeper slippage than centralized venues during high volatility. Smart contract risk spans multiple chains due to Orderly's cross-chain architecture, requiring careful consideration of bridge security and oracle reliability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect MKR funding rates?",
+        "answer": "Orderly aggregates order flow from multiple DEX frontends into a single order book, creating deeper liquidity for MKR perpetuals than isolated DEX markets. This typically results in more stable funding rates and reduced premium volatility compared to fragmented DEX liquidity."
+      },
+      {
+        "question": "Can I arbitrage MKR funding rates across Orderly's connected chains?",
+        "answer": "Yes, Orderly's cross-chain infrastructure allows arbitrage between NEAR, Aurora, and connected EVM chains. Traders can exploit rate differentials when governance events create localized demand imbalances across different blockchain ecosystems."
+      },
+      {
+        "question": "What makes MKR funding arbitrage different from other DeFi tokens on Orderly?",
+        "answer": "MKR's governance utility creates predictable volatility cycles around MakerDAO votes and DAI stability events. These governance-driven price movements often generate higher funding premiums than utility tokens, creating more profitable arbitrage windows for informed traders."
+      },
+      {
+        "question": "How do Orderly's hourly funding payments compare to CEX rates for MKR?",
+        "answer": "Orderly's hourly settlements provide more frequent arbitrage opportunities than 8-hour CEX cycles. During governance events, DEX funding often leads centralized exchange rates, allowing traders to capture rate differentials before CEX markets adjust to governance outcomes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "fil-usdt",
+    "bonk-usdt",
+    "link-usdt",
+    "fet-usdt"
+  ]
+}

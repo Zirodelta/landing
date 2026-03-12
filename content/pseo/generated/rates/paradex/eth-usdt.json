@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Paradex ETH/USDT Funding Rates - Starknet DEX Analysis",
+    "description": "Track ETH/USDT perpetual funding rates on Paradex DEX. Hourly settlements, self-custodial trading, and institutional-grade infrastructure on Starknet.",
+    "keywords": [
+      "paradex funding rates",
+      "eth usdt perpetual",
+      "starknet dex",
+      "self custodial perps",
+      "institutional arbitrage",
+      "hourly funding",
+      "jump trading dex",
+      "portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers ETH/USDT perpetual futures with hourly funding settlements on its Starknet-based DEX infrastructure. Built by former Jump Trading engineers, the platform provides self-custodial trading with institutional-grade execution for major crypto pairs.",
+    "how_funding_works": "Paradex calculates funding rates hourly using a time-weighted average premium between the perpetual contract and spot index price. The funding rate is paid between long and short position holders every hour on the hour, with rates typically ranging from -0.01% to +0.01% per hour. Positions are automatically debited or credited based on the funding direction, with all settlements occurring on-chain through Starknet's validity rollup technology.",
+    "why_this_pair": "ETH/USDT represents Paradex's most liquid trading pair, offering consistent funding rate opportunities due to high institutional participation and retail interest. The pair's deep liquidity and frequent funding settlements make it ideal for systematic arbitrage strategies, particularly given Paradex's self-custodial nature eliminating counterparty risk.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETH/USDT funding rates on Paradex typically exhibit negative bias during market downturns, reaching -0.02% hourly during major selloffs. Positive funding spikes occur during bull runs, often exceeding +0.015% per hour when ETH breaks key resistance levels. The hourly settlement frequency creates more granular arbitrage windows compared to 8-hour funding cycles on traditional exchanges. Institutional flow patterns show consistent funding normalization within 3-6 hours of extreme rate deviations, creating predictable mean reversion opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Paradex's self-custodial model eliminates withdrawal delays, enabling instant cross-exchange arbitrage execution when funding rate differentials exceed 0.005% versus Binance or OKX. Portfolio margin capabilities allow efficient capital utilization across multiple positions, reducing collateral requirements by up to 60% for delta-neutral strategies. The Starknet infrastructure provides sub-second trade execution with deterministic settlement, crucial for capturing short-lived funding rate dislocations. Arbitrageurs can exploit the hourly funding frequency by entering positions 30-45 minutes before settlement to capture rate premiums with minimal directional exposure."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Starknet's early-stage nature introduces smart contract risks not present on established CEX platforms, requiring thorough due diligence of Paradex's audit history. Limited pair coverage means funding arbitrage strategies are concentrated in major assets, reducing diversification options compared to multi-hundred pair exchanges. The DEX structure eliminates traditional exchange counterparty risk but introduces blockchain-level risks including potential network congestion affecting position management. Traders should monitor Starknet validator performance and maintain adequate gas reserves for critical position adjustments during high network activity periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding compare to 8-hour cycles on centralized exchanges?",
+        "answer": "Paradex's hourly funding creates 8x more settlement opportunities than traditional exchanges, allowing for more frequent capture of funding premiums. However, this also means funding rates are typically 1/8th the magnitude, requiring higher position sizes or leverage to achieve similar absolute returns per settlement period."
+      },
+      {
+        "question": "What are the gas costs for ETH/USDT perpetual trading on Starknet?",
+        "answer": "Starknet transaction costs for Paradex trades typically range from $0.10-$0.50 per transaction, significantly lower than Ethereum mainnet but higher than centralized exchanges. The cost structure makes funding arbitrage most profitable for positions above $10,000 notional value to maintain favorable cost-to-premium ratios."
+      },
+      {
+        "question": "How does portfolio margin work for funding rate arbitrage on Paradex?",
+        "answer": "Paradex's portfolio margin system calculates risk across all positions, allowing offsetting long/short positions to reduce total margin requirements. For delta-neutral funding strategies, this can reduce capital requirements by 40-70% compared to isolated margin, significantly improving capital efficiency for arbitrage operations."
+      },
+      {
+        "question": "What happens to funding payments during Starknet network congestion?",
+        "answer": "Funding settlements are processed on-chain and may be delayed during network congestion, but rates are locked at settlement time regardless of execution delay. Traders should monitor network status and avoid opening new funding arbitrage positions within 15 minutes of settlement during high congestion periods to prevent execution uncertainty."
+      }
+    ]
+  },
+  "related_pairs": [
+    "atom-usdt",
+    "sui-usdt",
+    "op-usdt",
+    "dot-usdt",
+    "ethfi-usdt"
+  ]
+}

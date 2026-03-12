@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "dot-usdt",
+    "base": "DOT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOT/USDT Funding Rate on Orderly Network DEX",
+    "description": "Track DOT/USDT perpetual funding rates on Orderly Network. Analyze 1-hour funding cycles, shared liquidity across DEX frontends, and arbitrage opportunities.",
+    "keywords": [
+      "dot usdt funding rate",
+      "orderly network",
+      "polkadot perpetual",
+      "dex funding arbitrage",
+      "shared liquidity",
+      "1 hour funding",
+      "multi-chain dex"
+    ]
+  },
+  "content": {
+    "intro": "DOT/USDT perpetual futures on Orderly Network operate through a shared order book infrastructure that aggregates liquidity across multiple DEX frontends. The 1-hour funding rate cycles on this multi-chain platform create unique arbitrage opportunities for traders monitoring Polkadot's funding dynamics.",
+    "how_funding_works": "Orderly Network's shared liquidity layer calculates funding rates every hour based on the premium/discount of the DOT perpetual contract relative to the spot index price. The funding payment flows between long and short positions across all connected DEX frontends simultaneously. This infrastructure design means funding rates affect positions regardless of which frontend was used to enter the trade, creating a unified funding environment across the entire Orderly ecosystem.",
+    "why_this_pair": "DOT/USDT on Orderly Network benefits from the platform's shared liquidity model, often resulting in more stable funding rates compared to isolated DEX pairs. Polkadot's established Layer 1 status and consistent trading volume make it an attractive pair for funding rate arbitrage, especially when rates diverge from centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOT/USDT funding rates on Orderly Network typically range from -0.1% to 0.1% per 8-hour period, with the 1-hour calculation providing more granular rate adjustments. During Polkadot parachain auctions and major ecosystem updates, rates can spike above 0.2% as leveraged positions accumulate. The shared liquidity model tends to dampen extreme rate volatility compared to standalone DEX implementations. Historical data shows funding rates correlate with broader DeFi sentiment and DOT staking reward changes."
+      },
+      {
+        "heading": "Cross-Chain Arbitrage Opportunities",
+        "body": "Orderly Network's multi-chain infrastructure creates arbitrage opportunities between NEAR and Ethereum-based frontends accessing the same DOT/USDT order book. Traders can exploit funding rate differences between Orderly and major CEXs like Binance or OKX, particularly during periods of high DOT volatility. The 0.02% maker fee structure makes high-frequency funding arbitrage economically viable for positions above $50,000. Cross-DEX arbitrage with other platforms like dYdX or GMX often yields 0.05-0.15% profit per funding cycle."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "The shared order book model introduces smart contract risks across multiple frontend implementations, requiring careful evaluation of each integrated DEX's security practices. Orderly Network's dependency on oracle feeds for DOT price data can create basis risk during periods of extreme market volatility. Traders must account for potential liquidity fragmentation if frontend partners experience technical issues, which could impact position management during funding payments. The 1-hour funding frequency increases capital efficiency but requires more active monitoring compared to 8-hour cycles on traditional platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect DOT funding rates?",
+        "answer": "Orderly Network aggregates all DOT/USDT positions across connected DEX frontends into a single funding calculation, creating deeper liquidity and more stable rates. This shared model typically results in less volatile funding compared to isolated DEX pairs, as the larger position pool dampens individual trader impact on rate calculations."
+      },
+      {
+        "question": "What makes DOT/USDT funding arbitrage attractive on Orderly Network?",
+        "answer": "The 1-hour funding cycles provide more frequent arbitrage opportunities compared to 8-hour standards, while the 0.02% maker fees keep costs low for high-frequency strategies. DOT's consistent volume and Orderly's multi-chain access create regular rate divergences with both CEXs and other DEXs."
+      },
+      {
+        "question": "How do I access DOT/USDT perpetuals on Orderly Network?",
+        "answer": "Users access Orderly Network through integrated frontend partners like WOOFi, NEAR DEX, or other connected platforms rather than directly. All frontends share the same order book and funding rates, but may have different UI/UX and additional features while maintaining identical trading mechanics."
+      },
+      {
+        "question": "What are the main risks of DOT funding arbitrage on Orderly Network?",
+        "answer": "Key risks include smart contract vulnerabilities across multiple frontend integrations, oracle dependency for DOT price feeds, and potential liquidity fragmentation during frontend technical issues. The complex multi-chain architecture also introduces additional operational risks compared to simpler DEX designs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pepe-usdt",
+    "tia-usdt",
+    "ton-usdt",
+    "pendle-usdt",
+    "sei-usdt"
+  ]
+}

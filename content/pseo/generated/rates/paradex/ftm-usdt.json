@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rates on Paradex - DEX Perpetuals",
+    "description": "Track FTM/USDT funding rates on Paradex DEX. Self-custodial perpetual futures with hourly settlements and portfolio margin on StarkNet.",
+    "keywords": [
+      "FTM funding rates",
+      "Paradex perpetuals",
+      "DEX funding arbitrage",
+      "StarkNet perps",
+      "FTM USDT futures",
+      "decentralized derivatives",
+      "portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "FTM/USDT perpetual futures on Paradex offer unique funding rate opportunities through self-custodial trading on StarkNet. Built by former Jump Trading engineers, Paradex provides institutional-grade perpetuals with hourly funding settlements and portfolio margin capabilities.",
+    "how_funding_works": "Paradex calculates funding rates hourly based on the difference between the perpetual contract price and FTM spot price across major exchanges. As a StarkNet-based DEX, funding payments are executed on-chain with full transparency and self-custody throughout the process. The exchange's portfolio margin system allows efficient capital utilization when holding offsetting positions across multiple perpetual contracts.",
+    "why_this_pair": "FTM perpetuals often exhibit significant funding rate volatility due to Fantom's moderate trading volumes and speculative nature. The Layer 1 blockchain's price movements can create sustained funding rate imbalances, particularly during network upgrade cycles or DeFi activity surges on Fantom.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "FTM funding rates on Paradex have shown periods of elevated positive rates during broader L1 rallies, often exceeding 0.05% hourly when retail speculation increases. The token's correlation with general smart contract platform sentiment creates predictable funding cycles during market rotations. Extended negative funding periods typically occur during broader crypto corrections when leveraged long positions are unwound. The hourly settlement frequency on Paradex provides more granular arbitrage opportunities compared to 8-hour funding cycles on other exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage with FTM/USDT becomes viable when Paradex rates diverge significantly from Binance or OKX perpetuals. The DEX structure allows maintaining neutral delta exposure while capturing funding differentials without counterparty risk. Portfolio margin enables efficient capital deployment across multiple FTM positions when funding rates align favorably. Traders can exploit temporary rate spikes during volatile periods when traditional CEX funding mechanisms lag behind rapid price movements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet's relative complexity introduces potential transaction delays during network congestion, affecting time-sensitive funding arbitrage execution. Paradex's early-stage status means lower liquidity compared to major CEX perpetuals, potentially causing slippage during position adjustments. The limited pair coverage restricts hedging options when FTM correlations shift unexpectedly. Smart contract risks inherent to DEX perpetuals require careful consideration of protocol security and potential upgrade risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding compare to other exchanges for FTM?",
+        "answer": "Paradex settles FTM funding hourly versus the standard 8-hour cycles on most CEX platforms. This creates 8x more frequent arbitrage opportunities but requires active position management to capture optimal rates."
+      },
+      {
+        "question": "What are the gas costs for FTM funding arbitrage on StarkNet?",
+        "answer": "StarkNet transaction costs are significantly lower than Ethereum mainnet but still require factoring into arbitrage calculations. The exact costs depend on network activity and the complexity of portfolio margin adjustments."
+      },
+      {
+        "question": "Can I use portfolio margin for FTM funding strategies on Paradex?",
+        "answer": "Yes, Paradex's portfolio margin system allows combining FTM positions with other perpetuals for capital efficiency. This enables more sophisticated funding strategies across correlated assets within the available pair selection."
+      },
+      {
+        "question": "What happens if StarkNet experiences downtime during funding settlements?",
+        "answer": "Network issues could delay funding payments or position adjustments, creating timing risks for arbitrage strategies. Paradex's smart contracts handle settlement automatically once network connectivity resumes, but traders should monitor for such scenarios."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "xrp-usdt",
+    "blur-usdt",
+    "bnb-usdt",
+    "wld-usdt"
+  ]
+}

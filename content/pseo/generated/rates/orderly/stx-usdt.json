@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rate on Orderly Network - DEX Arbitrage",
+    "description": "Monitor STX/USDT funding rates on Orderly Network DEX. Hourly settlements with 0.02%/0.05% fees across shared liquidity layer infrastructure.",
+    "keywords": [
+      "STX funding rate",
+      "Orderly Network",
+      "DEX perpetuals",
+      "Bitcoin ecosystem",
+      "funding arbitrage",
+      "shared liquidity",
+      "NEAR DeFi",
+      "Stacks trading"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on Orderly Network offer hourly funding rate settlements through a shared order book architecture. As the infrastructure layer for multiple DEX frontends, Orderly provides unified liquidity for Bitcoin ecosystem tokens like Stacks (STX).",
+    "how_funding_works": "Orderly Network calculates funding rates hourly based on the premium between perpetual and spot prices across its shared liquidity layer. The 8-hour TWAP mechanism ensures stable rate calculations despite potential volatility in individual frontend order flows. Funding payments are automatically settled between long and short positions, with rates typically ranging from -0.01% to 0.375% per hour. The shared order book architecture means funding rates reflect aggregate sentiment across all connected DEX frontends.",
+    "why_this_pair": "STX/USDT represents Bitcoin ecosystem sentiment and often exhibits funding rate patterns distinct from other L1 tokens due to its unique Bitcoin-secured smart contract positioning. The pair's mid-tier volume on Orderly creates opportunities for funding rate arbitrage, especially during Bitcoin upgrade cycles or DeFi expansion phases that drive Stacks adoption.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "STX/USDT funding rates on Orderly typically correlate with Bitcoin network activity and DeFi trends within the Bitcoin ecosystem. During periods of high Bitcoin mempool congestion or Stacks DeFi protocol launches, funding rates often skew positive as traders take leveraged long positions. The hourly settlement frequency creates more responsive rate adjustments compared to 8-hour systems, leading to potentially higher absolute rates but shorter duration opportunities. Historical data shows STX funding rates averaging 0.02-0.08% per hour during normal market conditions, with spikes to 0.2%+ during major Bitcoin upgrade announcements."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly's shared liquidity model creates unique arbitrage scenarios where funding rates may diverge from centralized exchanges due to DEX-specific demand patterns. Arbitrageurs can exploit rate differences between Orderly's infrastructure layer and major CEXs like Binance or OKX, particularly during periods of high DeFi activity on Stacks. The 0.02% maker / 0.05% taker fee structure requires careful position sizing to ensure profitable rate harvesting. Multi-chain accessibility through NEAR and EVM frontends enables capital-efficient arbitrage strategies across different blockchain ecosystems."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading STX perpetuals on Orderly involves infrastructure dependency risks since the platform relies on frontend partners for user access. Smart contract risks are elevated compared to traditional CEXs, though Orderly's audited shared liquidity layer provides institutional-grade security. The hourly funding settlement creates higher frequency cash flow requirements, demanding active position monitoring. Liquidity fragmentation across multiple frontends can lead to slippage during volatile periods, making large position adjustments more complex than on unified CEX platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared order book affect STX funding rates?",
+        "answer": "The shared order book aggregates liquidity from multiple DEX frontends, creating more stable funding rate calculations than individual DEX platforms. This architecture reduces rate volatility while maintaining sensitivity to Bitcoin ecosystem sentiment through consolidated STX trading activity."
+      },
+      {
+        "question": "What makes STX funding rates different from other altcoins on Orderly?",
+        "answer": "STX rates often correlate with Bitcoin network developments and DeFi adoption on the Bitcoin blockchain rather than general altcoin trends. This creates unique arbitrage opportunities when Bitcoin ecosystem events drive STX-specific demand while broader crypto markets remain stable."
+      },
+      {
+        "question": "How do Orderly's hourly settlements compare to 8-hour funding cycles?",
+        "answer": "Hourly settlements provide faster rate adjustments and shorter commitment periods, enabling more responsive arbitrage strategies. However, this creates higher transaction frequency and requires more active monitoring compared to traditional 8-hour cycles on major exchanges."
+      },
+      {
+        "question": "What are the risks of trading STX perpetuals through Orderly's infrastructure?",
+        "answer": "Key risks include dependency on frontend partners for platform access, potential smart contract vulnerabilities, and liquidity fragmentation across multiple interfaces. Additionally, the multi-chain architecture may introduce cross-chain bridging risks for position management."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "atom-usdt",
+    "dot-usdt",
+    "avax-usdt",
+    "apt-usdt"
+  ]
+}

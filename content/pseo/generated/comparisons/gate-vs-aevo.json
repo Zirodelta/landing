@@ -1,0 +1,91 @@
+{
+  "slug": "gate-vs-aevo",
+  "exchange_a": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX",
+    "fee_tier": "0.015%/0.05%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "1,700+ spot pairs with broad perpetual coverage",
+      "Low 0.015% maker fees for volume traders",
+      "12-year operational history with proven stability"
+    ],
+    "weaknesses": [
+      "Lower liquidity on micro-cap perpetuals",
+      "Complex UI overwhelming for new users",
+      "Limited deposit options for some altcoins"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Combined options and perpetuals trading platform",
+      "Custom rollup enables sub-second trade execution",
+      "Pre-launch token markets for early access"
+    ],
+    "weaknesses": [
+      "Significantly smaller liquidity versus major CEXs",
+      "Complex DeFi mechanics may confuse traders",
+      "Rollup dependency creates centralization risks"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.015%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "Every 8 hours",
+      "b": "Every 1 hour"
+    },
+    "settlement": {
+      "a": "Centralized clearing",
+      "b": "On-chain via rollup"
+    }
+  },
+  "rate_mechanics": "Gate.io uses traditional 8-hour funding intervals calculated from mark price deviation versus index, creating larger but less frequent rate adjustments. Aevo's 1-hour cycles enable more granular funding rate adjustments, potentially reducing basis risk but increasing transaction overhead. Gate.io's deeper liquidity typically results in more stable funding rates, while Aevo's hourly settlement can create more volatile rate swings during high activity periods.",
+  "verdict": "Gate.io suits traders prioritizing deep liquidity and lower maker fees across diverse perpetuals, especially for micro-cap tokens. Aevo appeals to sophisticated traders wanting hourly funding arbitrage opportunities and access to pre-launch markets, despite higher complexity and rollup dependencies.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Aevo's 1-hour funding cycles create more frequent arbitrage windows but with higher gas costs. Gate.io's 8-hour intervals offer larger rate movements but fewer opportunities, better suited for position-based strategies."
+    },
+    {
+      "question": "How do liquidity differences affect funding rate stability?",
+      "answer": "Gate.io's deeper liquidity pools result in more predictable funding rates with smaller spreads. Aevo's smaller liquidity can cause more volatile funding rates, creating both higher risk and potential reward scenarios."
+    },
+    {
+      "question": "Which platform has lower total trading costs for perpetuals?",
+      "answer": "Gate.io typically offers lower total costs with 0.015% maker fees versus Aevo's 0.02%, plus no gas fees. However, Aevo eliminates custody risks through on-chain settlement on its dedicated rollup."
+    },
+    {
+      "question": "Can I trade the same perpetual contracts on both platforms?",
+      "answer": "Gate.io offers significantly more perpetual markets including micro-cap tokens. Aevo focuses on major cryptocurrencies plus unique pre-launch markets, with a more curated selection of trading pairs."
+    }
+  ],
+  "seo": {
+    "title": "Gate.io vs Aevo: Perpetual Futures Funding Rates Compared",
+    "description": "Compare Gate.io's 8-hour funding cycles and deep liquidity against Aevo's 1-hour intervals and rollup-based settlement for perpetual futures arbitrage strategies.",
+    "keywords": [
+      "gate.io funding rates",
+      "aevo perpetual futures",
+      "funding rate arbitrage",
+      "8-hour vs 1-hour funding",
+      "CEX vs DEX perpetuals",
+      "rollup trading",
+      "perpetual futures comparison",
+      "funding interval strategies",
+      "liquidity comparison trading",
+      "on-chain settlement"
+    ]
+  }
+}

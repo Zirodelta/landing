@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Paradex DOGE/USDT Funding Rates - Perps Arbitrage Data",
+    "description": "Track Paradex DOGE/USDT perpetual funding rates with 1-hour intervals. DEX funding arbitrage opportunities on Starknet with 0.02% maker fees.",
+    "keywords": [
+      "Paradex DOGE funding",
+      "DOGE perpetual futures",
+      "DEX funding rates",
+      "Starknet perps",
+      "DOGE arbitrage",
+      "Paradex fees",
+      "crypto funding arbitrage",
+      "DOGE/USDT trading"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers DOGE/USDT perpetual futures on Starknet with hourly funding rate settlements, providing unique arbitrage opportunities in the meme coin sector. The exchange's Jump Trading heritage brings institutional-grade infrastructure to decentralized perpetual trading. DOGE's high volatility and retail interest create frequent funding rate imbalances ideal for arbitrage strategies.",
+    "how_funding_works": "Paradex calculates funding rates every hour using the premium between perpetual price and mark price, with payments exchanged between long and short positions. The platform's Starknet infrastructure enables efficient settlement without gas spikes common on Ethereum mainnet. Portfolio margin allows traders to optimize capital efficiency across multiple positions when executing funding arbitrage strategies. Self-custodial nature eliminates counterparty risk while maintaining competitive 0.02% maker fees for high-frequency funding arbitrage.",
+    "why_this_pair": "DOGE/USDT exhibits frequent funding rate volatility due to retail sentiment-driven price movements and meme coin speculation cycles. Large trading volumes on Paradex provide sufficient liquidity for meaningful arbitrage positions without significant slippage. The pair's correlation with social media trends creates predictable funding rate patterns during viral events and market euphoria phases.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE funding rates on Paradex typically range from -0.5% to +0.8% during normal market conditions, with extreme spikes during meme coin rallies reaching +2.0% or higher. Negative funding periods often coincide with broader crypto market corrections when leveraged long positions get liquidated. Weekend periods show reduced funding volatility due to lower institutional participation, while weekday sessions align with social media activity driving retail FOMO. Elon Musk tweets and similar catalysts create immediate funding spikes lasting 4-8 hours before normalizing."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between Paradex and centralized exchanges like Binance or OKX often yields 0.3-1.2% hourly returns during volatile periods. Paradex's DEX structure frequently shows funding premiums compared to CEX competitors due to different user bases and capital flows. Calendar arbitrage strategies work well around DOGE-specific events like Dogecoin Day or SpaceX launches when funding predictably spikes. The platform's portfolio margin enables efficient delta hedging through spot positions or other perpetual contracts to isolate pure funding exposure."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Starknet network congestion can delay position adjustments during high-volatility periods, increasing basis risk for time-sensitive arbitrage trades. DOGE's meme coin nature creates sudden price gaps that can trigger unexpected liquidations despite funding profitability. Early-stage platform risks include potential smart contract vulnerabilities and limited customer support compared to established centralized exchanges. Withdrawal delays to other chains for cross-exchange arbitrage can extend capital commitment periods beyond intended holding times."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Paradex settle DOGE/USDT funding payments?",
+        "answer": "Paradex settles funding payments every hour for DOGE/USDT perpetuals, providing more frequent arbitrage opportunities compared to the 8-hour standard on most centralized exchanges. This creates potential for 24 funding cycles per day versus 3 on traditional platforms."
+      },
+      {
+        "question": "What are the margin requirements for DOGE funding arbitrage on Paradex?",
+        "answer": "Paradex uses portfolio margin allowing cross-collateralization across positions, typically requiring 5-15% initial margin for DOGE depending on volatility. This enables more capital-efficient funding strategies compared to isolated margin systems on other exchanges."
+      },
+      {
+        "question": "Can I execute funding arbitrage between Paradex and CEX platforms?",
+        "answer": "Yes, but you'll need to bridge funds between Starknet and other chains, which adds time delay and gas costs. Most effective during sustained funding rate divergences lasting several hours to justify bridge transaction costs."
+      },
+      {
+        "question": "How does DOGE funding volatility compare to other meme coins on Paradex?",
+        "answer": "DOGE typically shows moderate funding volatility compared to newer meme coins due to its larger market cap and established trading patterns. However, it still exhibits higher funding variance than major cryptocurrencies like BTC or ETH during sentiment-driven rallies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "shib-usdt",
+    "jup-usdt",
+    "inj-usdt",
+    "pendle-usdt"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "kucoin-vs-aevo",
+  "exchange_a": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.06%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Strong altcoin perpetual selection",
+      "Integrated trading bot marketplace",
+      "Multiple earning products beyond trading"
+    ],
+    "weaknesses": [
+      "2023 SEC regulatory challenges",
+      "Moderate perpetual futures liquidity",
+      "Slower pace for new token listings"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Combined options and perpetuals platform",
+      "Custom rollup for enhanced performance",
+      "Pre-launch token futures markets"
+    ],
+    "weaknesses": [
+      "Limited overall liquidity depth",
+      "Complex multi-product interface",
+      "Rollup centralization dependencies"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.06%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized custody",
+      "b": "On-chain via rollup"
+    }
+  },
+  "rate_mechanics": "KuCoin uses traditional 8-hour funding intervals with rates calculated from premium index and interest rate components. Aevo implements hourly funding payments that adjust more rapidly to market conditions due to shorter intervals. KuCoin's funding rates tend to be more stable but less responsive to sudden premium changes. Aevo's hourly mechanism creates more frequent arbitrage opportunities but requires active position management. Both exchanges use mark price vs index price differentials but Aevo's rollup settlement adds an additional layer of execution risk.",
+  "verdict": "KuCoin offers better altcoin exposure and established liquidity for traditional funding rate strategies, while Aevo provides more frequent rate adjustments and innovative pre-launch markets. Choose KuCoin for stable, longer-term arbitrage positions and Aevo for active, short-term rate capture with higher frequency opportunities.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate arbitrage opportunities?",
+      "answer": "Aevo's hourly funding intervals create 8x more opportunities than KuCoin's 8-hour cycles, but KuCoin offers deeper liquidity and more stable rates for larger position sizes."
+    },
+    {
+      "question": "How do the funding rate calculation methods differ?",
+      "answer": "Both use mark-to-index premium calculations, but Aevo's hourly adjustments respond faster to market movements while KuCoin's 8-hour intervals provide more predictable rate patterns."
+    },
+    {
+      "question": "Which platform is better for automated funding rate strategies?",
+      "answer": "KuCoin's built-in trading bot marketplace offers easier automation setup, while Aevo requires custom API integration but provides more granular timing control with hourly rates."
+    },
+    {
+      "question": "What are the main risks when arbitraging between these exchanges?",
+      "answer": "KuCoin faces regulatory uncertainty and potential custody risks, while Aevo has rollup dependency risks and lower liquidity that can impact large position exits during volatile periods."
+    }
+  ],
+  "seo": {
+    "title": "KuCoin vs Aevo: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare KuCoin's 8-hour vs Aevo's 1-hour funding rates for perpetual futures arbitrage. Analyze fees, liquidity, and mechanics for optimal trading strategies.",
+    "keywords": [
+      "KuCoin funding rates",
+      "Aevo perpetual futures",
+      "funding rate arbitrage",
+      "CEX vs DEX trading",
+      "perpetual futures comparison",
+      "crypto arbitrage strategies",
+      "hourly funding rates",
+      "altcoin perpetuals",
+      "rollup DEX trading",
+      "funding interval comparison"
+    ]
+  }
+}

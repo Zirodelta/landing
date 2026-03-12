@@ -1,0 +1,91 @@
+{
+  "slug": "vertex-vs-rabbitx",
+  "exchange_a": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution",
+      "Zero gas for trading",
+      "Cross-margin"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pair selection",
+      "Early-stage protocol"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Arbitrum on-chain",
+      "b": "Starknet settlement"
+    }
+  },
+  "rate_mechanics": "Both exchanges calculate funding rates hourly using similar perpetual futures mechanisms tied to spot price premiums. Vertex processes funding through its Arbitrum-based risk engine with on-chain settlement, while RabbitX uses Starknet for final settlement with off-chain matching. The 1-hour intervals create similar arbitrage windows, though Vertex's sequencer may provide slightly faster rate updates. Cross-margin on both platforms affects position requirements for funding rate strategies.",
+  "verdict": "Vertex offers lower taker fees making it slightly better for high-frequency funding rate arbitrage, while RabbitX's zero gas trading reduces operational costs. Both are early-stage DEXs with limited liquidity compared to major CEXs, requiring careful position sizing for funding rate strategies.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rates for arbitrage?",
+      "answer": "Both use similar 1-hour funding calculations, but Vertex's lower taker fees (0.03% vs 0.05%) provide better execution costs for frequent position adjustments in funding rate strategies."
+    },
+    {
+      "question": "How do settlement differences affect funding rate trading?",
+      "answer": "Vertex settles on Arbitrum while RabbitX uses Starknet. Both offer fast execution, but network choice affects gas costs and cross-chain arbitrage opportunities with other protocols."
+    },
+    {
+      "question": "Are these DEXs suitable for large funding rate positions?",
+      "answer": "Both have limited liquidity compared to major CEXs. Large positions may face slippage issues, making them better suited for smaller-scale funding rate arbitrage strategies."
+    },
+    {
+      "question": "What are the main risks with these platforms?",
+      "answer": "Smart contract risk, limited liquidity, and early-stage protocol development. Both use sequencers creating some centralization risk despite being decentralized exchanges."
+    }
+  ],
+  "seo": {
+    "title": "Vertex vs RabbitX: DEX Perpetual Futures Comparison",
+    "description": "Compare Vertex and RabbitX perpetual futures funding rates, fees, and mechanics. Detailed analysis of these Arbitrum and Starknet-based DEXs for traders.",
+    "keywords": [
+      "vertex protocol",
+      "rabbitx",
+      "perpetual futures",
+      "funding rates",
+      "dex comparison",
+      "arbitrum",
+      "starknet",
+      "cross margin",
+      "defi trading",
+      "funding rate arbitrage"
+    ]
+  }
+}

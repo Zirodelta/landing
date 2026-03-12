@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rate Arbitrage on Phemex",
+    "description": "Analyze FLOKI/USDT perpetual futures funding rates on Phemex. Track 8-hour rate patterns, arbitrage opportunities, and low 0.01% maker fees for optimal trading.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Phemex perpetual futures",
+      "meme coin arbitrage",
+      "FLOKI USDT",
+      "funding rate arbitrage",
+      "Phemex trading fees",
+      "FLOKI derivatives",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities through 8-hour rate intervals with competitive 0.01% maker fees. As a meme coin derivative, FLOKI exhibits volatile funding patterns driven by retail sentiment and social media cycles.",
+    "how_funding_works": "Phemex calculates FLOKI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual price and index price. The rate is paid between long and short position holders, with positive rates favoring shorts and negative rates benefiting longs. Phemex caps funding rates at ±0.75% per 8-hour period to prevent extreme payments during high volatility periods.",
+    "why_this_pair": "FLOKI's meme coin status creates significant funding rate volatility as retail traders frequently over-leverage positions during trending periods. The pair's mid-tier trading volume on Phemex provides sufficient liquidity for arbitrage while maintaining occasional rate spikes that exceed market averages.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT funding rates on Phemex typically range from -0.2% to +0.4% per 8-hour period, with extreme spikes reaching the ±0.75% cap during major social media events. Positive rates dominate during meme coin rallies as retail traders heavily favor long positions, while negative rates occur during market corrections when shorts accumulate. Weekend periods often show reduced rate volatility due to lower social media activity. Rate patterns correlate strongly with Twitter mentions and Elon Musk-related news cycles affecting the broader meme coin sector."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Cross-exchange arbitrage opportunities emerge when Phemex's FLOKI funding rates diverge significantly from larger exchanges like Binance or OKX by more than 0.1% per period. Delta-neutral strategies work effectively during high volatility periods by holding opposite positions and collecting funding payments. Phemex's low 0.01% maker fees enhance arbitrage profitability compared to exchanges with higher fee structures. Calendar spreads between funding periods can capture rate mean reversion, particularly after extreme +0.75% or -0.75% cap events. Position sizing should account for FLOKI's 20x maximum leverage limit and potential gaps in order book depth."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FLOKI's meme coin volatility creates significant mark-to-market risks that can exceed funding rate profits if positions aren't properly hedged. Phemex's relatively smaller user base compared to tier-1 exchanges can result in wider spreads and reduced liquidity during Asian trading hours. Auto-deleveraging risks increase during extreme price movements as overleveraged positions get liquidated automatically. Funding rate calculations may lag during rapid price movements, creating temporary arbitrage windows but also execution risks. Monitor Phemex's maintenance margin requirements which can change during high volatility periods affecting position sustainability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FLOKI funding rates on Phemex compared to other exchanges?",
+        "answer": "FLOKI funding rates on Phemex typically trade within ±0.3% per 8-hour period, often 0.05-0.15% higher than major exchanges during bullish meme coin cycles due to retail trader concentration. Rates can reach the maximum ±0.75% cap during extreme social media-driven volatility."
+      },
+      {
+        "question": "How does Phemex's 0.01% maker fee affect FLOKI arbitrage profitability?",
+        "answer": "Phemex's low 0.01% maker fee significantly improves arbitrage margins, requiring only 0.02% funding rate differences to break even on round-trip trades. This fee advantage makes Phemex competitive for high-frequency funding rate strategies compared to exchanges charging 0.02-0.05% maker fees."
+      },
+      {
+        "question": "What is the maximum leverage for FLOKI/USDT perpetuals on Phemex?",
+        "answer": "Phemex limits FLOKI/USDT perpetual futures to 20x maximum leverage due to the token's meme coin classification and higher volatility profile. This leverage cap helps reduce systemic risk while still allowing substantial position sizing for arbitrage strategies."
+      },
+      {
+        "question": "How does Phemex handle funding rate calculations during FLOKI price gaps?",
+        "answer": "Phemex uses a time-weighted average of the premium index over the funding period to smooth out temporary price gaps. During extreme volatility, the exchange may implement additional circuit breakers or adjust the premium calculation methodology to prevent manipulated funding rates."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "tao-usdt",
+    "sol-usdt",
+    "atom-usdt",
+    "fet-usdt"
+  ]
+}

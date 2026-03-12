@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ADA/USDT Funding Rate Arbitrage on Paradex DEX",
+    "description": "Track ADA/USDT perpetual funding rates on Paradex. 1-hour intervals, self-custodial trading, portfolio margin. Analyze arbitrage opportunities on Starknet.",
+    "keywords": [
+      "ADA funding rate",
+      "Paradex arbitrage",
+      "DEX perpetuals",
+      "Starknet trading",
+      "Cardano futures",
+      "self-custodial perps",
+      "portfolio margin",
+      "institutional DEX"
+    ]
+  },
+  "content": {
+    "intro": "Paradex offers ADA/USDT perpetual futures with hourly funding rate intervals on its Starknet-based DEX. Built by former Jump Trading engineers, the platform provides institutional-grade perpetual trading with self-custodial execution and portfolio margin capabilities.",
+    "how_funding_works": "Funding rates on Paradex are calculated every hour using a time-weighted average of the premium/discount between the perpetual price and underlying index. The platform uses portfolio margin to optimize capital efficiency across positions, allowing traders to maintain larger arbitrage positions with less collateral. Settlement occurs automatically through smart contracts on Starknet, with funding payments distributed directly to trader wallets without centralized custody risk.",
+    "why_this_pair": "ADA/USDT on Paradex benefits from Cardano's large market cap and consistent institutional interest, creating predictable funding rate patterns. The pair's substantial trading volume and Paradex's hourly funding intervals provide frequent arbitrage opportunities, particularly during network upgrade announcements or DeFi protocol launches on Cardano.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ADA/USDT funding rates on Paradex typically range from -0.01% to +0.05% per hour, with higher rates during Cardano ecosystem developments. Positive funding dominates during major Cardano updates like Vasil or Chang hard forks, often exceeding +0.08% hourly for 24-48 hour periods. The pair shows strong correlation with broader altcoin sentiment, with funding rates spiking during alt seasons and turning negative during market corrections. Weekend periods generally see compressed funding rates due to reduced institutional activity on the Starknet network."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Paradex's hourly funding intervals create 24 daily arbitrage opportunities for ADA/USDT, significantly more than traditional 8-hour platforms. The platform's portfolio margin system allows traders to maintain both long and short positions across multiple pairs with optimized collateral requirements. Cross-exchange arbitrage between Paradex and centralized exchanges like Binance or OKX can be profitable when funding rate differentials exceed 0.02% per hour. The self-custodial nature eliminates counterparty risk while the Starknet infrastructure provides low gas costs for frequent position adjustments."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading ADA/USDT on Paradex involves Starknet smart contract risk and the platform's early-stage development status. Limited liquidity compared to centralized exchanges can cause slippage during large arbitrage positions, particularly during volatile periods. The hourly funding mechanism requires active monitoring as rates can shift rapidly based on Cardano ecosystem news. StarkNet network congestion could potentially delay settlement transactions, creating timing risk for time-sensitive arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ADA/USDT funding rates paid on Paradex?",
+        "answer": "Funding rates are calculated and paid every hour on Paradex, providing 24 opportunities per day compared to the standard 8-hour intervals on most centralized exchanges. This creates more frequent arbitrage opportunities for active traders monitoring funding rate differentials."
+      },
+      {
+        "question": "What makes Paradex different for ADA perpetual trading?",
+        "answer": "Paradex operates as a self-custodial DEX on Starknet with portfolio margin capabilities, eliminating counterparty risk while optimizing capital efficiency. The platform was built by former Jump Trading engineers, providing institutional-grade infrastructure with DeFi benefits."
+      },
+      {
+        "question": "Can I use portfolio margin for ADA/USDT arbitrage on Paradex?",
+        "answer": "Yes, Paradex's portfolio margin system calculates collateral requirements across all positions, allowing more capital-efficient arbitrage strategies. This enables larger position sizes for funding rate arbitrage compared to isolated margin systems used by most exchanges."
+      },
+      {
+        "question": "What are the main risks of ADA funding arbitrage on Paradex?",
+        "answer": "Key risks include Starknet smart contract vulnerabilities, limited liquidity causing slippage, and the platform's early development stage. Additionally, network congestion could delay settlements, and the hourly funding intervals require more active monitoring than traditional 8-hour cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ldo-usdt",
+    "ethfi-usdt",
+    "bnb-usdt",
+    "pendle-usdt",
+    "tia-usdt"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "rabbitx-vs-orderly",
+  "exchange_a": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution",
+      "Zero gas for trading",
+      "Cross-margin"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pair selection",
+      "Early-stage protocol"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Starknet L2",
+      "b": "NEAR/EVM chains"
+    }
+  },
+  "rate_mechanics": "Both exchanges use hourly funding rate calculations with identical intervals. RabbitX calculates rates based on its native Starknet orderbook activity, while Orderly aggregates across its shared liquidity layer spanning multiple frontend partners. RabbitX's funding rates reflect concentrated trading activity on a single interface, whereas Orderly's rates incorporate distributed volume across various DEX frontends. Settlement occurs on different layer architectures, with RabbitX using Starknet's validity proofs versus Orderly's multi-chain approach.",
+  "verdict": "RabbitX offers more direct trading control with zero gas costs but limited liquidity, while Orderly provides deeper shared liquidity at the cost of architectural complexity. For funding rate arbitrage, RabbitX may offer more predictable rate patterns due to concentrated activity, while Orderly's distributed model could provide more opportunities across different frontend interfaces.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate arbitrage opportunities?",
+      "answer": "RabbitX offers more predictable funding patterns due to concentrated orderbook activity, while Orderly's shared liquidity across multiple frontends can create diverse arbitrage opportunities. Both use hourly intervals with similar rate calculation methods."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rate execution?",
+      "answer": "RabbitX uses Starknet's validity proofs for near-instant settlement with zero gas costs, while Orderly settles across NEAR/EVM chains with varying gas requirements. This affects the speed and cost of position adjustments during rate arbitrage strategies."
+    },
+    {
+      "question": "What are the liquidity differences for funding rate arbitrage?",
+      "answer": "Orderly's shared liquidity model typically provides deeper markets across its frontend partners, while RabbitX's concentrated approach may have smaller position limits but more direct price discovery. Higher liquidity generally enables larger arbitrage positions."
+    },
+    {
+      "question": "Which platform is better for automated funding rate strategies?",
+      "answer": "RabbitX's direct API access and zero gas structure suits automated strategies better, while Orderly requires integration through specific frontend partners. Both support similar order types and funding rate data feeds for algorithmic trading."
+    }
+  ],
+  "seo": {
+    "title": "RabbitX vs Orderly Network: Funding Rate Comparison",
+    "description": "Compare RabbitX and Orderly Network perpetual futures funding rates, settlement mechanisms, and arbitrage opportunities for DeFi trading strategies.",
+    "keywords": [
+      "RabbitX funding rates",
+      "Orderly Network perpetual futures",
+      "DEX funding rate arbitrage",
+      "Starknet perps trading",
+      "NEAR DeFi derivatives",
+      "hourly funding intervals",
+      "cross-margin trading",
+      "shared liquidity DEX"
+    ]
+  }
+}

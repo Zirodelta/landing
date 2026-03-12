@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-bluefin",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs in traditional sense",
+      "Arbitrum ecosystem leader",
+      "Battle-tested since 2021"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency risk",
+      "Price impact on large trades"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Sui ecosystem leader",
+      "Professional trading UI",
+      "Fast settlement"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still early",
+      "Limited pairs",
+      "Low overall volume"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based",
+      "b": "Order book"
+    }
+  },
+  "rate_mechanics": "GMX uses oracle-based pricing with funding rates calculated against index price, sourced from Chainlink feeds and updated hourly. Bluefin employs traditional order book mechanics with funding rates derived from perpetual vs spot price differentials. GMX's oracle dependency can create basis risk during volatile periods, while Bluefin's order book model provides more granular price discovery. Both platforms update funding every hour, but GMX's rates tend to be more stable due to its pooled liquidity model versus Bluefin's market-driven approach.",
+  "verdict": "GMX offers proven stability and deep liquidity through its innovative GLP model, making it suitable for larger arbitrage positions despite higher fees. Bluefin provides competitive fee structures and professional-grade execution on Sui, but faces liquidity constraints that limit scalable arbitrage opportunities.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "GMX typically provides more stable funding rate patterns due to its oracle-based model, while Bluefin may offer higher volatility in rates but with lower trading fees. GMX's deeper liquidity makes it more suitable for larger arbitrage positions."
+    },
+    {
+      "question": "How do the settlement mechanisms affect funding rate calculations?",
+      "answer": "GMX uses Chainlink oracles for price feeds, creating potential basis risk during volatile periods. Bluefin's order book model provides real-time price discovery but depends on sufficient market depth for accurate funding rate calculations."
+    },
+    {
+      "question": "What are the key liquidity differences between these platforms?",
+      "answer": "GMX has significantly deeper liquidity through its GLP pools with over $100M TVL across supported chains. Bluefin, being newer on Sui, has limited liquidity which can create slippage issues for larger arbitrage trades."
+    },
+    {
+      "question": "Which platform is more cost-effective for frequent funding rate trades?",
+      "answer": "Bluefin offers lower trading fees at 0.02%/0.05% compared to GMX's 0.05%/0.07%, making it more cost-effective for frequent arbitrage strategies. However, GMX's higher liquidity may offset fee differences for larger position sizes."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Bluefin: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare GMX and Bluefin perpetual futures for funding rate arbitrage. Analyze fees, liquidity, settlement mechanics and arbitrage opportunities on both DEX platforms.",
+    "keywords": [
+      "GMX vs Bluefin",
+      "perpetual futures funding rates",
+      "DEX arbitrage",
+      "Arbitrum trading",
+      "Sui perpetuals",
+      "funding rate comparison",
+      "crypto arbitrage",
+      "decentralized derivatives",
+      "GMX funding",
+      "Bluefin trading"
+    ]
+  }
+}

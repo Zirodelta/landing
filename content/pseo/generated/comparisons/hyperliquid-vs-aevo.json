@@ -1,0 +1,89 @@
+{
+  "slug": "hyperliquid-vs-aevo",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book with CEX-grade performance",
+      "Sub-second finality on native L1",
+      "No KYC requirements for trading"
+    ],
+    "weaknesses": [
+      "Limited to USDC collateral only",
+      "Single-chain ecosystem dependency",
+      "Newer platform with limited operational history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Combined options and perpetuals trading platform",
+      "Custom rollup optimized for derivatives",
+      "Pre-launch token markets capability"
+    ],
+    "weaknesses": [
+      "Lower overall liquidity compared to major DEXs",
+      "Complex multi-product interface",
+      "Rollup centralization and sequencer risks"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "On-chain L1",
+      "b": "Rollup settlement"
+    }
+  },
+  "rate_mechanics": "Both Hyperliquid and Aevo use standard 1-hour funding intervals with similar fee structures. Hyperliquid's fully on-chain order book provides transparent rate calculations directly on its L1, while Aevo uses off-chain order matching with on-chain settlement on its custom rollup. The key difference lies in Hyperliquid's real-time on-chain execution versus Aevo's hybrid approach combining options and perpetuals markets.",
+  "verdict": "Hyperliquid offers superior transparency and decentralization with its fully on-chain order book, making it ideal for funding rate arbitrageurs who value on-chain verification. Aevo provides a more comprehensive derivatives trading experience but with potentially less predictable funding mechanics due to its multi-product complexity.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate transparency?",
+      "answer": "Hyperliquid provides superior transparency with its fully on-chain order book where all funding rate calculations are verifiable on-chain. Aevo's hybrid model offers less direct visibility into rate mechanics."
+    },
+    {
+      "question": "How do settlement speeds compare for funding arbitrage?",
+      "answer": "Hyperliquid offers sub-second finality on its native L1, while Aevo settles on its custom rollup with faster speeds than Ethereum mainnet but potentially higher latency than Hyperliquid's direct L1 execution."
+    },
+    {
+      "question": "Which platform has better liquidity for large funding trades?",
+      "answer": "Hyperliquid generally offers deeper liquidity for perpetual futures, while Aevo's liquidity is more fragmented across its options and perpetuals products, potentially impacting large arbitrage positions."
+    },
+    {
+      "question": "Are there collateral differences affecting funding strategies?",
+      "answer": "Hyperliquid only supports USDC collateral, limiting funding strategies to single-asset approaches. Aevo may offer more collateral options but with added complexity in cross-margin calculations."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs Aevo: DEX Perpetual Futures Comparison",
+    "description": "Compare Hyperliquid and Aevo for perpetual futures trading. Analysis of funding rates, fees, liquidity, and on-chain mechanics for crypto derivatives arbitrage.",
+    "keywords": [
+      "Hyperliquid vs Aevo",
+      "DEX perpetual futures",
+      "funding rate arbitrage",
+      "on-chain derivatives",
+      "crypto futures trading",
+      "DeFi perpetuals",
+      "funding interval comparison",
+      "derivatives DEX"
+    ]
+  }
+}

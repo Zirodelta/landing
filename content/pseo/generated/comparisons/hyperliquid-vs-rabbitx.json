@@ -1,0 +1,91 @@
+{
+  "slug": "hyperliquid-vs-rabbitx",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book",
+      "Sub-second finality",
+      "No KYC required"
+    ],
+    "weaknesses": [
+      "Single-chain ecosystem",
+      "USDC only",
+      "Limited track record"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Zero gas trading",
+      "Cross-margin support",
+      "Fast execution"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pairs",
+      "Early-stage protocol"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Native L1",
+      "b": "Starknet"
+    }
+  },
+  "rate_mechanics": "Both exchanges use identical 1-hour funding intervals and follow similar perpetual futures mechanics based on premium/discount to spot. Hyperliquid calculates rates on-chain with full transparency, while RabbitX uses off-chain matching with Starknet settlement. The hourly frequency on both platforms creates more granular rate adjustments compared to 8-hour standard intervals. Rate calculations depend on open interest imbalances and time-weighted average premiums.",
+  "verdict": "Both offer competitive fee structures and hourly funding, but serve different user bases. Hyperliquid appeals to DeFi natives seeking full decentralization, while RabbitX targets traders prioritizing gas-free execution and cross-margin flexibility.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Both use identical 1-hour intervals and similar calculation methods. Hyperliquid may have more volatile rates due to smaller liquidity pools, while RabbitX rates tend to be more stable but potentially less profitable for arbitrage."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding arbitrage?",
+      "answer": "Hyperliquid's native L1 settlement provides faster finality but requires USDC. RabbitX's Starknet settlement offers zero gas costs but introduces additional withdrawal latency that could impact arbitrage timing."
+    },
+    {
+      "question": "Which platform is better for large funding rate positions?",
+      "answer": "Hyperliquid's on-chain transparency allows better position sizing analysis, but RabbitX's cross-margin system provides more capital efficiency. Liquidity depth varies significantly between the two platforms."
+    },
+    {
+      "question": "Are there KYC differences affecting funding arbitrage?",
+      "answer": "Hyperliquid requires no KYC, enabling immediate access for funding arbitrage. RabbitX also operates without KYC currently, but both platforms may implement requirements as they mature and face regulatory pressure."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs RabbitX: Perp Funding Rates Compared",
+    "description": "Compare Hyperliquid and RabbitX perpetual futures funding rates, fees, and arbitrage opportunities. Both DEXs offer 1-hour funding intervals with different mechanics.",
+    "keywords": [
+      "hyperliquid",
+      "rabbitx",
+      "funding rates",
+      "perpetual futures",
+      "dex comparison",
+      "crypto arbitrage",
+      "1 hour funding",
+      "defi trading",
+      "perp trading",
+      "funding arbitrage"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rate on Orderly Network - DEX Arbitrage",
+    "description": "Track JTO/USDT perpetual funding rates on Orderly Network DEX. Hourly funding intervals with shared liquidity across multiple frontends for arbitrage.",
+    "keywords": [
+      "JTO funding rate",
+      "Orderly Network",
+      "DEX perpetual futures",
+      "funding rate arbitrage",
+      "JTO USDT",
+      "decentralized derivatives",
+      "Jito staking",
+      "multi-chain DEX"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on Orderly Network operate through a shared order book infrastructure that aggregates liquidity across multiple DEX frontends. With hourly funding rate settlements and 0.02%/0.05% trading fees, this pair offers unique arbitrage opportunities in the decentralized derivatives space.",
+    "how_funding_works": "Orderly Network calculates funding rates every hour based on the premium between perpetual and spot prices across its shared liquidity layer. The funding rate is applied to all open positions simultaneously across all frontend partners using the infrastructure. Since Orderly operates as a backend layer, funding rates are consistent regardless of which frontend interface traders use. The shared order book model can create interesting funding dynamics as positions from multiple DEXs contribute to the overall rate calculation.",
+    "why_this_pair": "JTO represents Jito's liquid staking protocol, creating natural demand patterns tied to Solana staking yields and validator economics. The smaller trading volume on Orderly Network can lead to more volatile funding rates compared to centralized exchanges. This volatility, combined with the DEX's unique shared liquidity model, creates arbitrage opportunities for traders monitoring rate differentials between Orderly and major CEXs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JTO/USDT funding rates on Orderly Network show correlation with Solana ecosystem events and staking yield changes. During periods of high Solana network activity or validator performance updates, funding rates tend to shift as traders position for JTO price movements. The shared order book model means that trading activity from all frontend partners influences rate calculations. Typical funding rates range from -0.1% to +0.3% per funding period, with higher volatility during ecosystem announcements. The hourly settlement frequency provides more frequent arbitrage opportunities compared to 8-hour funding cycles on other platforms."
+      },
+      {
+        "heading": "Cross-Platform Arbitrage Opportunities",
+        "body": "Funding rate differentials between Orderly Network and centralized exchanges like Binance or OKX often exceed 0.05% per hour during volatile periods. The DEX's lower liquidity can cause funding rates to diverge significantly from CEX rates, especially when large positions are opened or closed. Multi-chain accessibility through NEAR and EVM networks allows arbitrageurs to efficiently move capital between Orderly and other platforms. Success requires monitoring multiple frontend interfaces since order flow can vary between different DEX partners using Orderly's infrastructure. Transaction costs on NEAR are minimal, making small arbitrage opportunities profitable."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "The complex architecture of Orderly Network introduces unique counterparty risks as traders interact through frontend partners rather than directly with the protocol. Shared liquidity means that issues with any major frontend partner could impact overall market depth and funding rate calculations. Smart contract risks exist at both the Orderly infrastructure level and individual frontend implementations. Lower overall liquidity compared to major CEXs means position sizes must be managed carefully to avoid significant slippage. The dependency on frontend partners creates potential points of failure that could affect order execution and funding rate payments during critical arbitrage windows."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared order book affect JTO funding rates?",
+        "answer": "Orderly's shared liquidity model aggregates positions and trading activity from all frontend partners into a single order book. This means JTO funding rates reflect the combined sentiment across multiple DEX interfaces, potentially creating more stable rates than isolated DEX pairs but with unique dynamics not seen on traditional exchanges."
+      },
+      {
+        "question": "What makes JTO funding arbitrage different on a DEX versus CEX?",
+        "answer": "DEX funding arbitrage on Orderly Network involves additional smart contract risks and dependency on frontend partners for order execution. However, lower trading fees (0.02% maker) and hourly funding intervals can create more frequent arbitrage opportunities, especially when rates diverge significantly from centralized exchanges."
+      },
+      {
+        "question": "Can I access JTO perpetuals through multiple Orderly frontends?",
+        "answer": "Yes, multiple DEX frontends use Orderly's infrastructure, but they all access the same shared order book for JTO/USDT. While the trading interface may differ, funding rates and position data remain consistent across all frontend partners since they're calculated at the infrastructure layer."
+      },
+      {
+        "question": "How do NEAR network conditions impact JTO funding rate arbitrage?",
+        "answer": "Since Orderly Network operates on NEAR blockchain, network congestion or validator issues can affect order execution and funding rate payments. However, NEAR's low transaction costs and fast finality generally support efficient arbitrage operations compared to more expensive networks like Ethereum."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "jup-usdt",
+    "apt-usdt",
+    "uni-usdt",
+    "arb-usdt"
+  ]
+}

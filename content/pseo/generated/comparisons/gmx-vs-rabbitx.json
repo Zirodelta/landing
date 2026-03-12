@@ -1,0 +1,89 @@
+{
+  "slug": "gmx-vs-rabbitx",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Oracle-based pricing eliminates slippage on small trades",
+      "GLP liquidity pool model provides consistent depth",
+      "Battle-tested protocol with $500M+ TVL"
+    ],
+    "weaknesses": [
+      "Higher trading fees than order book DEXs",
+      "Oracle dependency creates MEV risks",
+      "Price impact significant on large position sizes"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Zero gas fees for trading operations",
+      "Fast execution via Starknet validity proofs",
+      "Cross-margin reduces capital requirements"
+    ],
+    "weaknesses": [
+      "Limited to 15 trading pairs currently",
+      "Small user base affects funding rate discovery",
+      "Early-stage protocol with unproven long-term stability"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Arbitrum L2",
+      "b": "Starknet validity proofs"
+    }
+  },
+  "rate_mechanics": "GMX funding rates are calculated using oracle prices and open interest imbalances in GLP pools, with rates typically ranging from -0.01% to 0.01% hourly. RabbitX uses traditional order book mechanics where funding rates reflect the premium between perpetual and mark prices, calculated from their smaller but more price-sensitive user base. GMX rates tend to be more stable due to deeper liquidity but may not reflect true market sentiment as effectively as RabbitX's order-driven model.",
+  "verdict": "GMX offers superior liquidity depth and proven stability for larger funding rate arbitrage positions, while RabbitX provides lower fees and faster execution for smaller, more frequent trades. Choose GMX for consistent funding opportunities with established infrastructure, or RabbitX for cost-efficient arbitrage with higher technical risk.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rates for arbitrage?",
+      "answer": "GMX typically offers more predictable funding rates due to its oracle-based model and deeper liquidity, while RabbitX may present more volatile opportunities due to its smaller user base and order book dynamics."
+    },
+    {
+      "question": "How do trading fees impact funding rate arbitrage profitability?",
+      "answer": "RabbitX's 0.02%/0.05% fees versus GMX's 0.05%/0.07% fees can significantly impact short-term arbitrage strategies. The 0.02-0.03% fee difference requires funding rates to be proportionally higher on RabbitX to maintain profitability."
+    },
+    {
+      "question": "What are the main technical risks when arbitraging between these platforms?",
+      "answer": "GMX carries oracle manipulation risks and potential GLP pool imbalances, while RabbitX presents early-stage protocol risks and potential liquidity gaps due to its smaller market size."
+    },
+    {
+      "question": "How does settlement speed affect funding arbitrage execution?",
+      "answer": "Both platforms settle hourly funding, but RabbitX's Starknet architecture offers faster position adjustments with zero gas costs, while GMX requires Arbitrum gas fees for position management."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs RabbitX: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare GMX and RabbitX for funding rate arbitrage. Analysis of fees, mechanics, and execution speed for perpetual futures trading strategies on both DEXs.",
+    "keywords": [
+      "GMX vs RabbitX",
+      "funding rate arbitrage",
+      "perpetual futures DEX",
+      "GMX funding rates",
+      "RabbitX trading fees",
+      "Arbitrum perpetuals",
+      "Starknet DEX",
+      "crypto arbitrage comparison"
+    ]
+  }
+}

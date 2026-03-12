@@ -1,0 +1,88 @@
+{
+  "slug": "paradex-vs-orderly",
+  "exchange_a": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading engineering pedigree",
+      "Self-custodial portfolio margin",
+      "StarkNet institutional focus"
+    ],
+    "weaknesses": [
+      "Very early stage platform",
+      "Complex StarkNet onboarding",
+      "Limited trading pairs"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity infrastructure",
+      "Multi-chain EVM/NEAR support",
+      "White-label DEX solutions"
+    ],
+    "weaknesses": [
+      "Fragmented user experience",
+      "Dependency on frontend partners",
+      "Complex multi-layer architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "StarkNet L2",
+      "b": "NEAR/EVM chains"
+    }
+  },
+  "rate_mechanics": "Both exchanges use identical 1-hour funding intervals with TWAP-based rate calculations. Paradex implements funding on StarkNet with Cairo-based smart contracts optimized for institutional portfolio margin. Orderly Network calculates rates centrally but settles across multiple chains through their infrastructure layer. Rate convergence differs as Paradex focuses on StarkNet ecosystem arbitrage while Orderly aggregates cross-chain liquidity patterns.",
+  "verdict": "Paradex targets institutional users with sophisticated portfolio margin on StarkNet, while Orderly provides infrastructure for multiple DEX frontends. Choose Paradex for institutional-grade features on StarkNet, or Orderly for broader multi-chain access through partner platforms.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Paradex may offer unique rates due to StarkNet isolation, while Orderly's multi-chain approach provides more cross-platform arbitrage vectors. Both use identical 1-hour intervals but serve different liquidity pools."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rate profitability?",
+      "answer": "Paradex settles on StarkNet L2 with lower gas costs but requires bridging. Orderly settles natively on NEAR/EVM chains, offering more direct access but potentially higher transaction costs."
+    },
+    {
+      "question": "Which platform is better for institutional funding rate strategies?",
+      "answer": "Paradex offers portfolio margin and Jump Trading-grade infrastructure designed for institutions. Orderly provides broader market access but through third-party frontends with varying institutional features."
+    },
+    {
+      "question": "How do trading fees impact net funding rate returns?",
+      "answer": "Both charge identical 0.02%/0.05% maker/taker fees, making funding rates the primary differentiator. Factor in cross-chain bridging costs for Paradex and potential frontend fees on Orderly when calculating net returns."
+    }
+  ],
+  "seo": {
+    "title": "Paradex vs Orderly Network: Funding Rate Comparison",
+    "description": "Compare Paradex and Orderly Network funding rates for perpetual futures arbitrage. Analyze 1-hour intervals, StarkNet vs multi-chain settlement, and institutional features.",
+    "keywords": [
+      "paradex funding rates",
+      "orderly network perps",
+      "starknet perpetuals",
+      "dex funding arbitrage",
+      "jump trading paradex",
+      "orderly infrastructure",
+      "multi-chain perps"
+    ]
+  }
+}

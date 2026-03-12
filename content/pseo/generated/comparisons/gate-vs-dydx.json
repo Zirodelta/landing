@@ -1,0 +1,91 @@
+{
+  "slug": "gate-vs-dydx",
+  "exchange_a": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX",
+    "fee_tier": "0.015%/0.05%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "1,700+ spot pairs with micro-cap perp coverage",
+      "Low maker fees at 0.015%",
+      "Long operational history since 2013"
+    ],
+    "weaknesses": [
+      "Lower liquidity on tail altcoin pairs",
+      "Complex UI overwhelming for new users",
+      "Ethereum-only deposits for some tokens"
+    ]
+  },
+  "exchange_b": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX perpetuals leader",
+      "Cosmos appchain with sovereign governance",
+      "1-hour funding intervals for better arbitrage"
+    ],
+    "weaknesses": [
+      "Complex migration from StarkEx L2",
+      "Significantly lower volume post-v4 launch",
+      "Limited to ~35 major cryptocurrency pairs"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.015%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "USDT collateral",
+      "b": "USDC on Cosmos"
+    }
+  },
+  "rate_mechanics": "Gate.io uses standard 8-hour funding intervals calculated from perpetual-spot price divergence, typical for CEX platforms. dYdX implements 1-hour funding on its Cosmos appchain, allowing for more frequent rate adjustments and potentially better arbitrage opportunities. Gate.io's wider token selection means more niche pairs with volatile funding rates, while dYdX focuses on major pairs with more predictable rate patterns. Both use similar mark price methodology but dYdX's decentralized nature can create unique rate dynamics during high network congestion.",
+  "verdict": "Gate.io suits traders seeking diverse altcoin exposure with competitive maker fees, while dYdX appeals to DeFi-native users prioritizing decentralization and frequent funding intervals. Gate.io's broader pair selection offers more arbitrage opportunities but with higher execution complexity.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "dYdX's 1-hour intervals provide 8x more frequent opportunities compared to Gate.io's 8-hour cycles. However, Gate.io's 1,700+ pairs offer more diverse rate variations, especially on micro-cap tokens where funding rates can reach extreme levels."
+    },
+    {
+      "question": "How do trading fees impact funding rate profits?",
+      "answer": "Gate.io's 0.015% maker fee is 25% lower than dYdX's 0.02%, providing better economics for high-frequency arbitrage strategies. Both charge identical 0.05% taker fees, making maker strategies more profitable on Gate.io."
+    },
+    {
+      "question": "What are the main liquidity differences?",
+      "answer": "Gate.io maintains deeper liquidity on major pairs but can be thin on tail altcoins. dYdX post-migration has significantly lower volumes but focuses liquidity on 35 major pairs, providing more consistent execution quality."
+    },
+    {
+      "question": "Which platform is better for institutional arbitrage?",
+      "answer": "Gate.io offers traditional CEX infrastructure with API reliability and USDT settlement familiar to institutions. dYdX provides on-chain transparency and composability but requires comfort with Cosmos ecosystem and potential smart contract risks."
+    }
+  ],
+  "seo": {
+    "title": "Gate.io vs dYdX: Perpetual Futures Funding Rate Comparison",
+    "description": "Compare Gate.io and dYdX for perpetual futures funding arbitrage. Analyze fees, funding intervals, liquidity, and trading mechanics for optimal strategy.",
+    "keywords": [
+      "Gate.io dYdX comparison",
+      "perpetual futures funding rates",
+      "crypto arbitrage trading",
+      "CEX vs DEX perpetuals",
+      "funding rate intervals",
+      "Gate.io fees",
+      "dYdX v4 trading",
+      "perpetual swap arbitrage",
+      "crypto derivatives trading",
+      "funding rate mechanics"
+    ]
+  }
+}

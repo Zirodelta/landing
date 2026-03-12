@@ -1,0 +1,91 @@
+{
+  "slug": "mexc-vs-drift",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees",
+      "First-to-list many tokens",
+      "High leverage options"
+    ],
+    "weaknesses": [
+      "Thinner order books",
+      "Questionable volume reporting",
+      "Limited regulatory compliance"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana speed and low fees",
+      "JIT liquidity auctions",
+      "Insurance fund"
+    ],
+    "weaknesses": [
+      "Solana network dependency",
+      "Lower liquidity vs CEXs",
+      "Complex liquidation mechanics"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "USDT margining",
+      "b": "USDC on-chain settlement"
+    }
+  },
+  "rate_mechanics": "MEXC uses 8-hour funding cycles typical of CEXs with rate calculations based on premium and interest components. Drift employs 1-hour funding intervals allowing for more frequent rate adjustments and better tracking of spot-perp basis. MEXC's rates can be more volatile due to longer intervals and potential manipulation in thin markets. Drift's vAMM model creates more predictable funding patterns but depends heavily on oracle accuracy. Both exchanges use mark price vs index price differentials but Drift's frequent updates reduce basis risk.",
+  "verdict": "MEXC offers zero maker fees ideal for market makers but suffers from liquidity concerns and regulatory uncertainty. Drift provides innovative DeFi mechanics with faster funding cycles but remains limited by Solana ecosystem constraints and lower overall liquidity compared to established CEXs.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate opportunities?",
+      "answer": "MEXC's 8-hour cycles can create larger rate discrepancies but with higher execution risk. Drift's 1-hour intervals offer more frequent arbitrage opportunities with better predictability but smaller rate differentials."
+    },
+    {
+      "question": "How do the fee structures impact arbitrage profitability?",
+      "answer": "MEXC's zero maker fees significantly reduce costs for market makers, while Drift's 0.02% maker fee is offset by potential MEV protection and JIT liquidity benefits. Trading volume and frequency determine which structure is more profitable."
+    },
+    {
+      "question": "What are the main technical risks for each platform?",
+      "answer": "MEXC faces counterparty risk and potential regulatory issues as a centralized exchange. Drift depends on Solana network stability and smart contract security, with additional complexity from its hybrid vAMM/DLOB model."
+    },
+    {
+      "question": "Which platform offers better liquidity for large positions?",
+      "answer": "MEXC generally provides deeper liquidity for major pairs but with quality concerns. Drift's JIT auctions can provide competitive execution for larger orders despite lower base liquidity, particularly during volatile periods."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs Drift Funding Rates: CEX vs DEX Perpetuals",
+    "description": "Compare MEXC's zero maker fees and 8h funding vs Drift's 1h intervals and Solana-based perpetuals. Detailed analysis of fees, liquidity, and arbitrage opportunities.",
+    "keywords": [
+      "MEXC funding rates",
+      "Drift protocol",
+      "perpetual futures arbitrage",
+      "Solana DEX",
+      "funding rate comparison",
+      "vAMM",
+      "CEX vs DEX",
+      "crypto derivatives",
+      "JIT liquidity",
+      "basis trading"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-paradex",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs in traditional sense",
+      "Arbitrum ecosystem leader with proven track record",
+      "Battle-tested since 2021 with strong liquidity"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency risk for price feeds",
+      "Price impact on large trades"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading pedigree with institutional focus",
+      "Self-custodial with portfolio margin support",
+      "Lower fee structure competitive with CEXs"
+    ],
+    "weaknesses": [
+      "Very early stage with limited track record",
+      "StarkNet complexity and ecosystem immaturity",
+      "Minimal trading pair coverage currently"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based",
+      "b": "Order book"
+    }
+  },
+  "rate_mechanics": "GMX uses oracle-based pricing with GLP/GM liquidity pools acting as counterparties, leading to funding rates that reflect pool imbalances rather than pure market sentiment. Paradex operates a traditional order book model with funding rates calculated from mark-to-index price differences. GMX's oracle dependency can create arbitrage opportunities when oracle prices lag spot markets, while Paradex's institutional-grade infrastructure aims for tighter spreads and more accurate funding rate discovery.",
+  "verdict": "Paradex offers superior fee structure and institutional-grade infrastructure but remains unproven with limited pair coverage. GMX provides battle-tested stability and deeper liquidity but at higher costs and with oracle-related risks that can impact funding rate accuracy.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Paradex's lower fees and order book model typically provide more accurate funding rates, while GMX's oracle-based system can create unique arbitrage opportunities when oracle prices diverge from market reality."
+    },
+    {
+      "question": "How do liquidity mechanisms differ between GMX and Paradex?",
+      "answer": "GMX uses GLP/GM pools where LPs provide liquidity against all traders, while Paradex operates a traditional order book where traders provide liquidity to each other. This affects funding rate calculations and available liquidity depth."
+    },
+    {
+      "question": "Which platform is better for institutional funding rate strategies?",
+      "answer": "Paradex targets institutional users with portfolio margin and Jump Trading expertise, while GMX serves retail with simpler mechanics. Institutions typically prefer Paradex's lower fees and familiar order book structure."
+    },
+    {
+      "question": "What are the main risks when comparing these platforms?",
+      "answer": "GMX carries oracle dependency risk and higher fees but offers proven stability. Paradex presents early-stage platform risk and StarkNet complexity but provides institutional-grade infrastructure with lower costs."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Paradex: Perpetual Futures Funding Rates Compared",
+    "description": "Compare GMX and Paradex funding rates, fees, and mechanics. Detailed analysis of oracle-based vs order book DEX perpetual futures for funding rate arbitrage strategies.",
+    "keywords": [
+      "GMX vs Paradex",
+      "perpetual futures funding rates",
+      "DEX comparison",
+      "funding rate arbitrage",
+      "GMX funding rates",
+      "Paradex trading fees",
+      "oracle vs order book",
+      "Arbitrum perpetuals",
+      "StarkNet trading",
+      "institutional perpetual futures"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Track BONK/USDT perpetual funding rates on Orderly Network. 1-hour intervals, shared liquidity layer across multiple DEX frontends for optimal arbitrage.",
+    "keywords": [
+      "BONK funding rates",
+      "Orderly Network arbitrage",
+      "DEX perpetual futures",
+      "BONK USDT funding",
+      "shared liquidity DEX",
+      "meme coin funding",
+      "multi-chain perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on Orderly Network operate through a shared order book infrastructure that aggregates liquidity across multiple DEX frontends. The 1-hour funding rate intervals create frequent arbitrage opportunities, particularly during meme coin volatility spikes that characterize BONK trading patterns.",
+    "how_funding_works": "Orderly Network calculates funding rates every hour using a shared liquidity pool that spans NEAR and EVM chains, creating unified pricing across all frontend partners. The funding mechanism relies on the premium/discount between perpetual and spot prices, with rates applied directly to position values. Since Orderly operates as an infrastructure layer, funding payments are processed uniformly across all integrated DEX platforms, ensuring consistent arbitrage opportunities regardless of which frontend you access.",
+    "why_this_pair": "BONK's meme coin status generates extreme funding rate volatility, often exceeding 0.1% hourly during trending periods on social media. The Orderly Network's shared liquidity model means BONK funding rates here often diverge from centralized exchanges, creating cross-platform arbitrage opportunities that sophisticated traders exploit for consistent alpha.",
+    "sections": [
+      {
+        "heading": "Historical BONK Funding Rate Patterns",
+        "body": "BONK funding rates on Orderly Network typically range from -0.05% to +0.2% hourly, with extreme spikes reaching 0.5% during major meme rallies. Historical data shows funding rates correlate strongly with Solana ecosystem momentum and broader meme coin sentiment cycles. The 1-hour intervals create 24 daily funding events, amplifying both positive and negative carry opportunities compared to 8-hour funding cycles on traditional exchanges. Peak funding periods often align with US trading hours when retail BONK interest surges."
+      },
+      {
+        "heading": "Arbitrage Opportunities Across DEX Frontends",
+        "body": "Orderly's infrastructure layer creates unique arbitrage dynamics where the same underlying liquidity pool serves multiple frontend interfaces, yet funding rates can vary slightly due to different user bases and trading behaviors on each platform. Sophisticated arbitrageurs monitor funding rate spreads between Orderly-powered platforms and centralized exchanges like Binance or OKX. The shared order book means position transfers between frontends are seamless, allowing rapid capital deployment when funding rate differentials exceed the 0.02% maker fee threshold."
+      },
+      {
+        "heading": "Risk Considerations for BONK Funding Arbitrage",
+        "body": "BONK's meme coin nature introduces significant liquidation risks during volatile periods, with 10-20% intraday moves common during trending cycles. The Orderly Network's cross-chain architecture adds smart contract risk and potential bridge delays when moving collateral between NEAR and EVM chains. Funding rate arbitrage requires careful position sizing since BONK's correlation with SOL ecosystem tokens can create portfolio concentration risk. Additionally, the shared liquidity model means rapid funding rate changes can occur with minimal warning when large positions enter or exit the system."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do BONK funding rates on Orderly compare to centralized exchanges?",
+        "answer": "Orderly Network's BONK funding rates typically trade at a 0.01-0.03% premium to centralized exchanges due to the DEX's retail-heavy user base and limited arbitrage capital. The 1-hour funding intervals create more frequent but smaller rate adjustments compared to the 8-hour cycles on Binance or Bybit."
+      },
+      {
+        "question": "Can I access BONK perpetuals on multiple Orderly frontends simultaneously?",
+        "answer": "Yes, since Orderly operates as a shared infrastructure layer, you can access the same BONK liquidity pool through different frontend partners like WOOFi or Near DEX. However, funding payments and position management occur at the Orderly protocol level, not the frontend level."
+      },
+      {
+        "question": "What's the minimum position size for BONK funding rate arbitrage on Orderly?",
+        "answer": "While there's no explicit minimum, practical arbitrage requires positions large enough to overcome the 0.05% taker fee structure. Most profitable funding rate strategies start around $1,000 equivalent, though this depends on the funding rate differential and holding period."
+      },
+      {
+        "question": "How does Orderly's cross-chain setup affect BONK funding rate calculations?",
+        "answer": "Funding rates are calculated uniformly across all chains since Orderly maintains a single shared order book. However, collateral movements between NEAR and EVM chains can take 1-15 minutes, potentially impacting time-sensitive arbitrage strategies during rapid funding rate changes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "sei-usdt",
+    "op-usdt",
+    "xrp-usdt",
+    "sol-usdt"
+  ]
+}

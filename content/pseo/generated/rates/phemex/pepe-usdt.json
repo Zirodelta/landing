@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rate on Phemex - Meme Coin Arbitrage",
+    "description": "Track PEPE/USDT perpetual funding rates on Phemex. 8-hour intervals, 0.01% maker fees. Analyze meme coin funding arbitrage opportunities.",
+    "keywords": [
+      "PEPE funding rate",
+      "Phemex PEPE",
+      "meme coin arbitrage",
+      "PEPE perpetual futures",
+      "funding rate arbitrage",
+      "Phemex fees",
+      "PEPE/USDT",
+      "crypto arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities in the volatile meme coin sector. As one of the largest meme tokens by volume, PEPE experiences significant funding rate fluctuations during trending periods. Phemex's 0.01% maker fees and 8-hour funding intervals create favorable conditions for capturing funding premiums.",
+    "how_funding_works": "Phemex calculates PEPE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. The funding rate is determined by the premium index, which measures the difference between the perpetual price and spot reference price. When PEPE sentiment is bullish, long positions typically pay funding to shorts, with rates potentially reaching 0.75% per 8-hour period during viral trending events. Positions must be held at the funding timestamp to receive or pay the funding fee.",
+    "why_this_pair": "PEPE/USDT on Phemex is particularly attractive for funding arbitrage due to extreme sentiment swings common in meme coins. The pair experiences rapid funding rate changes during social media trends, creating predictable patterns around market euphoria and correction phases. Phemex's maker fee rebate structure at 0.01% helps offset funding costs when maintaining hedge positions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Phemex typically range from -0.5% to +2.5% during high volatility periods. Historical data shows funding rates consistently favor shorts during major correction phases, with negative rates reaching -0.3% per 8-hour period. During bull runs triggered by social media momentum, positive funding rates can sustain above 0.5% for 48-72 hours. The most profitable arbitrage windows occur during weekend sessions when retail FOMO peaks, leading to funding rate spikes above 1.5%."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The optimal PEPE funding arbitrage strategy on Phemex involves monitoring social sentiment indicators alongside technical oversold/overbought conditions. High positive funding rates above 0.8% combined with RSI levels exceeding 70 typically signal profitable short positions. Conversely, negative funding rates below -0.2% during fear phases create opportunities for long funding collection. Phemex's low maker fees enable profitable delta-neutral strategies where traders can hedge spot PEPE holdings with short perpetual positions to collect funding payments."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "PEPE funding arbitrage on Phemex carries significant risks due to the token's extreme volatility and potential for rapid delistings. Funding rates can reverse quickly during sentiment shifts, potentially trapping positions in unfavorable funding environments. Phemex's relatively smaller liquidity pool for PEPE compared to major exchanges can result in wider spreads during high volatility, impacting hedge execution. Additionally, meme coins face regulatory scrutiny and exchange delisting risks, which could result in forced position closures and realized losses beyond funding rate considerations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical PEPE funding rates on Phemex during trending periods?",
+        "answer": "During viral trending periods, PEPE funding rates on Phemex typically range from 0.5% to 2.5% per 8-hour interval. These elevated rates usually sustain for 24-72 hours before normalizing as sentiment cools."
+      },
+      {
+        "question": "How does Phemex's maker fee structure affect PEPE funding arbitrage profitability?",
+        "answer": "Phemex's 0.01% maker fee provides significant advantages for PEPE funding strategies. The low maker fee enables profitable delta-neutral positions even when funding rates drop to 0.1-0.2% per interval, as hedging costs remain minimal."
+      },
+      {
+        "question": "What's the minimum position size for PEPE funding arbitrage on Phemex?",
+        "answer": "Phemex requires minimum contract sizes that vary with PEPE's price. Generally, positions above $500 equivalent provide meaningful funding payments while managing the impact of bid-ask spreads on hedge execution."
+      },
+      {
+        "question": "How quickly can PEPE funding rates change on Phemex?",
+        "answer": "PEPE funding rates on Phemex can shift dramatically within single 8-hour periods, especially during social media-driven events. Rates have been observed changing from +1.5% to -0.3% between consecutive funding intervals during sentiment reversals."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "aave-usdt",
+    "btc-usdt",
+    "sui-usdt",
+    "pendle-usdt"
+  ]
+}

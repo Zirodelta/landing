@@ -1,0 +1,90 @@
+{
+  "slug": "rabbitx-vs-phemex",
+  "exchange_a": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution with off-chain matching",
+      "Zero gas fees for trading",
+      "Cross-margin support"
+    ],
+    "weaknesses": [
+      "Small user base limiting liquidity",
+      "Limited perpetual pair selection",
+      "Early-stage protocol risks"
+    ]
+  },
+  "exchange_b": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX",
+    "fee_tier": "0.01%/0.06%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Very low maker fees at 0.01%",
+      "Clean intuitive trading interface",
+      "Specialized in derivatives trading"
+    ],
+    "weaknesses": [
+      "Smaller user base than top-tier CEXs",
+      "Limited altcoin perpetual offerings",
+      "Occasional liquidity gaps in minor pairs"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.01%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.06%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "8 hours"
+    },
+    "settlement": {
+      "a": "Starknet L2",
+      "b": "Centralized"
+    }
+  },
+  "rate_mechanics": "RabbitX updates funding rates hourly, creating 8x more frequent arbitrage opportunities but requiring active monitoring. Phemex uses standard 8-hour intervals aligned with major exchanges, offering predictable rate cycles but fewer entry points. RabbitX's DEX structure means rates reflect pure supply-demand without exchange intervention, while Phemex can adjust parameters during extreme market conditions. The hourly frequency on RabbitX typically results in smaller rate magnitudes but more consistent opportunities.",
+  "verdict": "RabbitX suits active arbitrageurs seeking frequent opportunities despite higher maker fees, while Phemex appeals to traders prioritizing low costs and established infrastructure. Phemex's 0.01% maker fee significantly reduces holding costs for longer arbitrage positions.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "RabbitX provides 8x more frequent opportunities with hourly funding, ideal for active strategies. Phemex offers lower costs and more predictable 8-hour cycles better suited for longer-term positions."
+    },
+    {
+      "question": "How do the trading fees impact arbitrage profitability?",
+      "answer": "Phemex's 0.01% maker fee is half of RabbitX's 0.02%, significantly reducing entry/exit costs. However, RabbitX eliminates gas fees, which can offset the difference for frequent traders."
+    },
+    {
+      "question": "Which platform has better liquidity for large arbitrage positions?",
+      "answer": "Phemex generally offers deeper liquidity due to its established user base and CEX structure. RabbitX's liquidity is growing but may not support large positions across all pairs effectively."
+    },
+    {
+      "question": "Are there settlement risks to consider between these platforms?",
+      "answer": "RabbitX uses Starknet for decentralized settlement, eliminating counterparty risk but introducing smart contract risks. Phemex relies on centralized settlement with traditional exchange custody considerations."
+    }
+  ],
+  "seo": {
+    "title": "RabbitX vs Phemex: Perpetual Futures Funding Rates",
+    "description": "Compare RabbitX hourly vs Phemex 8-hour funding rates. Analyze DEX vs CEX arbitrage opportunities, fees, and liquidity for perpetual futures trading strategies.",
+    "keywords": [
+      "RabbitX vs Phemex",
+      "funding rate arbitrage",
+      "perpetual futures",
+      "DEX trading",
+      "Starknet derivatives",
+      "crypto arbitrage",
+      "funding intervals",
+      "maker fees",
+      "perp trading"
+    ]
+  }
+}

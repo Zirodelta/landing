@@ -1,0 +1,91 @@
+{
+  "slug": "dydx-vs-drift",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand with proven track record",
+      "Cosmos appchain sovereignty and independence",
+      "1-hour funding intervals for active arbitrage"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx to Cosmos",
+      "Lower trading volume post-migration",
+      "Limited perpetual pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana's high speed and ultra-low transaction costs",
+      "JIT liquidity auctions for improved fills",
+      "Robust insurance fund for trader protection"
+    ],
+    "weaknesses": [
+      "Solana network dependency and outage risk",
+      "Lower overall liquidity compared to CEXs",
+      "Complex liquidation mechanics with vAMM/DLOB"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Solana SPL tokens"
+    }
+  },
+  "rate_mechanics": "Both exchanges use 1-hour funding intervals making them suitable for active funding rate arbitrage. dYdX calculates rates using its native orderbook on the Cosmos appchain with USDC settlement. Drift employs a hybrid vAMM and DLOB model on Solana, using mark price from its virtual AMM while settling in USDC SPL tokens. Both follow similar funding rate formulas based on premium/discount to spot prices.",
+  "verdict": "Both offer competitive 1-hour funding for arbitrage strategies with identical fee structures. dYdX provides blockchain independence but faces liquidity challenges post-migration, while Drift leverages Solana's speed but carries network dependency risk.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Both use 1-hour intervals with similar rate calculation methods. Drift may offer more volatile rates due to its vAMM model, while dYdX provides more predictable rates from pure orderbook mechanics."
+    },
+    {
+      "question": "How do transaction costs compare for funding arbitrage?",
+      "answer": "Drift has significantly lower gas costs on Solana (fractions of a cent) versus dYdX's Cosmos appchain fees. This makes Drift more suitable for frequent position adjustments in funding strategies."
+    },
+    {
+      "question": "Which platform has better liquidity for large positions?",
+      "answer": "dYdX historically had deeper liquidity but volumes dropped post-migration. Drift's JIT auctions can provide competitive fills for larger orders despite lower baseline liquidity."
+    },
+    {
+      "question": "Are there settlement or withdrawal differences?",
+      "answer": "dYdX settles natively in USDC on Cosmos requiring bridge operations for withdrawals. Drift uses Solana SPL USDC with direct access to Solana DeFi ecosystem for yield strategies."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Drift: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare dYdX and Drift perpetual futures for funding rate arbitrage. Analyze 1-hour funding intervals, fees, liquidity, and settlement mechanisms for optimal strategies.",
+    "keywords": [
+      "dydx vs drift",
+      "perpetual futures funding rates",
+      "funding rate arbitrage",
+      "solana derivatives dex",
+      "cosmos perpetuals",
+      "decentralized futures trading",
+      "vamm drift protocol",
+      "dydx v4 appchain",
+      "crypto funding arbitrage",
+      "perp dex comparison"
+    ]
+  }
+}

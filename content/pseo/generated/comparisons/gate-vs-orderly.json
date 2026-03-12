@@ -1,0 +1,89 @@
+{
+  "slug": "gate-vs-orderly",
+  "exchange_a": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX",
+    "fee_tier": "0.015%/0.05%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Widest token selection",
+      "Low maker fees",
+      "Long operational history"
+    ],
+    "weaknesses": [
+      "Lower liquidity on tail pairs",
+      "UI complexity",
+      "Ethereum-only for some deposit paths"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.015%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized",
+      "b": "Smart contract"
+    }
+  },
+  "rate_mechanics": "Gate.io operates standard 8-hour funding intervals with rates calculated using premium index methodology. Orderly Network implements 1-hour funding cycles through its shared order book infrastructure, enabling more responsive rate adjustments. Gate.io's centralized model allows for manual rate interventions during extreme volatility, while Orderly's algorithmic approach provides consistent automated calculations across all frontend partners accessing its liquidity layer.",
+  "verdict": "Gate.io suits traders seeking diverse perpetual options with established infrastructure and competitive maker fees. Orderly Network appeals to DeFi-native users prioritizing decentralization and frequent funding opportunities, though requiring comfort with multi-layer architecture complexity.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "Orderly's 1-hour intervals provide 3x more arbitrage windows than Gate.io's 8-hour cycles. However, Gate.io's broader token selection offers more diverse rate spreads across micro-cap perpetuals."
+    },
+    {
+      "question": "How do liquidity differences affect funding rate stability?",
+      "answer": "Gate.io maintains deeper liquidity on major pairs but thinner books on tail assets. Orderly's shared liquidity model provides consistent depth across frontends but depends on aggregate participation levels."
+    },
+    {
+      "question": "What are the key operational differences for funding rate traders?",
+      "answer": "Gate.io offers direct account management with traditional CEX features. Orderly requires interaction through frontend partners, adding complexity but enabling cross-chain position management through its infrastructure layer."
+    },
+    {
+      "question": "Which platform has lower total trading costs for funding arbitrage?",
+      "answer": "Gate.io offers 25% lower maker fees (0.015% vs 0.02%) but identical taker rates. Factor in gas costs for Orderly's on-chain settlements versus Gate.io's free internal transfers when calculating total arbitrage profitability."
+    }
+  ],
+  "seo": {
+    "title": "Gate.io vs Orderly: Funding Rate Trading Comparison",
+    "description": "Compare Gate.io vs Orderly Network for perpetual futures funding rates. Analysis of 8h vs 1h intervals, fees, liquidity, and arbitrage opportunities.",
+    "keywords": [
+      "Gate.io funding rates",
+      "Orderly Network perpetuals",
+      "funding rate arbitrage",
+      "CEX vs DEX trading",
+      "perpetual futures comparison",
+      "crypto funding intervals",
+      "trading fees comparison",
+      "DeFi perpetuals"
+    ]
+  }
+}

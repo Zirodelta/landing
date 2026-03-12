@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pyth-usdt",
+    "base": "PYTH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PYTH/USDT Funding Rates on Paradex - DEX Arbitrage",
+    "description": "Track PYTH/USDT perpetual funding rates on Paradex DEX. Hourly funding intervals and self-custodial trading on StarkNet for institutional arbitrage strategies.",
+    "keywords": [
+      "PYTH funding rate",
+      "Paradex DEX",
+      "StarkNet perps",
+      "oracle token arbitrage",
+      "institutional DEX",
+      "self-custodial futures",
+      "hourly funding",
+      "PYTH perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "PYTH/USDT perpetuals on Paradex offer hourly funding rate opportunities on a StarkNet-based institutional DEX. Built by former Jump Trading engineers, Paradex provides self-custodial perpetual futures trading with portfolio margin capabilities for sophisticated arbitrage strategies.",
+    "how_funding_works": "Paradex calculates funding rates every hour using a time-weighted average price mechanism against Pyth Network's own oracle feeds. The exchange's institutional-grade infrastructure processes funding payments automatically through smart contracts on StarkNet. Portfolio margin allows traders to optimize capital efficiency across multiple perpetual positions. Funding rates are determined by the premium/discount between the perpetual price and the underlying PYTH spot price from aggregated oracle sources.",
+    "why_this_pair": "PYTH tokens exhibit unique funding rate patterns due to their role as governance tokens for the Pyth Network oracle infrastructure. The token's utility in securing price feeds creates distinct demand cycles that can generate predictable funding rate imbalances. Oracle infrastructure tokens like PYTH often show different volatility patterns compared to other crypto assets, potentially offering more stable arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PYTH perpetuals on Paradex have shown relatively stable funding rates compared to major cryptocurrencies, typically ranging between -0.01% to 0.02% per hour. During major oracle network upgrades or partnership announcements, funding rates can spike to 0.05% hourly as demand increases. The token's infrastructure utility creates less speculative trading compared to meme coins, resulting in more predictable funding cycles. Weekend periods often see reduced funding volatility due to lower institutional trading activity in oracle-related assets."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage opportunities emerge when Paradex funding rates diverge significantly from Binance or OKX PYTH perpetuals. The DEX's self-custodial nature and StarkNet settlement can create temporary rate discrepancies during high volatility periods. Portfolio margin on Paradex allows arbitrageurs to maintain delta-neutral positions across multiple oracle infrastructure tokens simultaneously. Funding rate convergence typically occurs within 2-3 hours due to the relatively low trading volume and institutional focus of the platform."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet network congestion can delay funding payments and position adjustments during volatile periods. Paradex's early-stage development means lower liquidity compared to centralized exchanges, potentially causing slippage in larger arbitrage trades. The platform's minimal pair coverage limits hedging opportunities for complex arbitrage strategies. Regulatory uncertainty around DEX derivatives trading and the platform's institutional focus may restrict accessibility for retail arbitrageurs."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding compare to 8-hour cycles on other exchanges?",
+        "answer": "Paradex's hourly funding provides more frequent arbitrage opportunities but requires active monitoring. The shorter intervals can capture intraday PYTH price movements more effectively than 8-hour cycles, especially during oracle network events or governance proposals."
+      },
+      {
+        "question": "What are the gas costs for PYTH perpetual trading on StarkNet?",
+        "answer": "StarkNet gas costs are significantly lower than Ethereum mainnet but can vary based on network activity. Typical funding rate arbitrage trades cost between $0.50-2.00 in gas fees, making smaller position sizes economically viable compared to mainnet DEXes."
+      },
+      {
+        "question": "Can I use portfolio margin for PYTH funding rate arbitrage on Paradex?",
+        "answer": "Yes, Paradex's portfolio margin allows cross-margining PYTH positions with other perpetuals. This enables more capital-efficient arbitrage strategies and reduced margin requirements when maintaining hedged positions across multiple oracle infrastructure tokens."
+      },
+      {
+        "question": "How reliable is PYTH price data for funding rate calculations on Paradex?",
+        "answer": "Paradex uses Pyth Network's own oracle feeds for PYTH price data, creating a unique circular reference. This can occasionally cause minor discrepancies during network updates, but generally provides highly accurate pricing due to the direct integration with Pyth's infrastructure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "link-usdt",
+    "xrp-usdt",
+    "ton-usdt",
+    "pepe-usdt"
+  ]
+}

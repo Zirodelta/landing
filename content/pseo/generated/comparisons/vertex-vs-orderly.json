@@ -1,0 +1,87 @@
+{
+  "slug": "vertex-vs-orderly",
+  "exchange_a": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer",
+      "Multi-chain",
+      "White-label DEX infrastructure"
+    ],
+    "weaknesses": [
+      "Indirect user experience",
+      "Dependent on frontend partners",
+      "Complex architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Arbitrum L2",
+      "b": "Multi-chain"
+    }
+  },
+  "rate_mechanics": "Both Vertex and Orderly Network calculate funding rates hourly based on the premium/discount between perpetual and spot prices. Vertex operates its own orderbook directly on Arbitrum with cross-margin calculations, while Orderly provides shared liquidity infrastructure across multiple frontend DEXs. Vertex's hybrid architecture with off-chain sequencer enables faster rate updates and tighter spreads. Orderly's multi-chain design allows for arbitrage opportunities across different networks but may create latency in rate synchronization. Both platforms use similar funding rate caps and smoothing mechanisms to prevent extreme payments.",
+  "verdict": "Vertex offers better execution with lower taker fees and faster sequencer, making it ideal for active funding rate arbitrage. Orderly Network provides broader market access through its infrastructure layer but with higher execution costs and complexity.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Vertex typically offers better opportunities due to lower taker fees (0.03% vs 0.05%) and faster execution through its hybrid sequencer. However, Orderly's multi-chain access may provide unique cross-chain arbitrage possibilities."
+    },
+    {
+      "question": "How do funding rate calculations differ between Vertex and Orderly?",
+      "answer": "Both use hourly funding intervals with similar premium-based calculations. Vertex processes rates directly on Arbitrum with cross-margin support, while Orderly coordinates rates across multiple frontend partners and chains."
+    },
+    {
+      "question": "Which platform has more reliable funding rate data?",
+      "answer": "Vertex provides more direct rate transparency through its native interface. Orderly's rates depend on individual frontend implementations, which may vary in data presentation and update frequency."
+    },
+    {
+      "question": "Can I arbitrage funding rates between Vertex and Orderly?",
+      "answer": "Cross-platform arbitrage is possible but limited by different underlying assets and settlement networks. Vertex operates on Arbitrum while Orderly spans multiple chains, creating potential but complex arbitrage scenarios."
+    }
+  ],
+  "seo": {
+    "title": "Vertex vs Orderly Network Funding Rates Comparison",
+    "description": "Compare Vertex and Orderly Network perpetual futures funding rates. Analysis of fees, mechanics, and arbitrage opportunities on these DEX platforms.",
+    "keywords": [
+      "Vertex funding rates",
+      "Orderly Network perpetuals",
+      "DEX funding arbitrage",
+      "Arbitrum perpetuals",
+      "cross-margin trading",
+      "shared liquidity DEX"
+    ]
+  }
+}

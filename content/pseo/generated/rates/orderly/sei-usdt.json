@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rates on Orderly Network - DEX Arbitrage",
+    "description": "Monitor SEI/USDT perpetual funding rates on Orderly Network DEX. Hourly rate updates, shared liquidity infrastructure, and multi-chain arbitrage opportunities.",
+    "keywords": [
+      "SEI funding rates",
+      "Orderly Network",
+      "DEX perpetual futures",
+      "funding rate arbitrage",
+      "NEAR protocol",
+      "multi-chain trading",
+      "shared liquidity",
+      "white-label infrastructure"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetual futures on Orderly Network offer unique funding rate arbitrage opportunities through the protocol's shared order book infrastructure. As a Layer 1 blockchain token with moderate trading volumes, SEI exhibits periodic funding rate imbalances across Orderly's multi-chain ecosystem. The platform's 1-hour funding rate intervals and 0.02%/0.05% fee structure create distinct arbitrage windows for experienced traders.",
+    "how_funding_works": "Orderly Network calculates SEI/USDT funding rates hourly using a time-weighted average price mechanism across its shared order book. The protocol aggregates funding payments from multiple frontend partners, creating a unified rate that reflects cross-chain sentiment. Funding rates are determined by the premium/discount between the perpetual price and the underlying SEI spot index, with payments exchanged directly between long and short position holders. The shared liquidity model means funding rates can deviate significantly from centralized exchanges during periods of frontend-specific demand imbalances.",
+    "why_this_pair": "SEI/USDT presents compelling arbitrage opportunities due to SEI's role as a sector-specific Layer 1 focused on trading infrastructure. The token's correlation with broader DeFi trends creates predictable funding rate cycles, particularly during network upgrade announcements or ecosystem expansions. Orderly Network's position as infrastructure for multiple DEX frontends means SEI funding rates often lag behind centralized exchange movements, creating profitable arbitrage windows.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on Orderly Network have shown distinct patterns tied to the SEI ecosystem's development cycles. During major network upgrades or partnership announcements, rates typically turn strongly positive as retail traders accumulate long positions. The shared order book structure means rates often remain elevated for 3-6 hours longer than on centralized exchanges. Weekend periods frequently see negative funding rates as institutional activity decreases across Orderly's frontend partners. Monthly expiration cycles create predictable rate compression patterns, with funding typically normalizing 24-48 hours before major DeFi protocol updates."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "Orderly Network's unique architecture creates arbitrage opportunities between its various frontend partners and external DEXs. SEI funding rates often diverge by 0.01-0.03% from rates on traditional perpetual platforms during high volatility periods. The protocol's NEAR and EVM compatibility allows for sophisticated cross-chain arbitrage strategies using native SEI bridges. Traders can exploit rate differentials by maintaining positions across multiple Orderly frontends, though this requires careful management of gas costs and bridge delays. The shared liquidity model means large positions can influence rates across the entire network, creating opportunities for informed traders to front-run rate adjustments."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading SEI perpetuals on Orderly Network requires understanding the platform's multi-layered risk structure. Frontend partner reliability becomes crucial as technical issues with individual interfaces can prevent timely position management. The shared order book model means liquidation cascades can propagate rapidly across all connected platforms, potentially amplifying SEI's natural volatility. Bridge risks are significant for cross-chain strategies, as SEI deposits may be delayed during network congestion. Funding rate calculations can become unpredictable during extreme market stress when multiple frontends experience different liquidity conditions, requiring constant monitoring of the underlying rate methodology."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are SEI/USDT funding rates updated on Orderly Network?",
+        "answer": "Orderly Network updates SEI/USDT funding rates every hour using a time-weighted average of the premium between perpetual and spot prices. The shared order book aggregates data from all connected frontends to calculate a unified rate that applies across the entire ecosystem."
+      },
+      {
+        "question": "What makes SEI funding rate arbitrage unique on Orderly's shared infrastructure?",
+        "answer": "Orderly's shared order book means SEI funding rates reflect sentiment across multiple DEX frontends simultaneously, often creating lag compared to centralized exchanges. This infrastructure allows for arbitrage between different frontend partners and provides opportunities when cross-chain SEI sentiment diverges from the aggregated rate."
+      },
+      {
+        "question": "How do Orderly Network's fees impact SEI/USDT funding rate strategies?",
+        "answer": "Orderly charges 0.02% maker and 0.05% taker fees on SEI/USDT trades, which must be factored into funding rate arbitrage calculations. The shared liquidity model means effective fees can vary based on which frontend you use, as some partners offer fee rebates or additional incentives."
+      },
+      {
+        "question": "Can I arbitrage SEI funding rates between Orderly frontends?",
+        "answer": "While all Orderly frontends share the same order book and funding rates, different interfaces may offer varying fee structures or additional rewards. Cross-frontend arbitrage focuses more on user experience optimization and potential frontend-specific incentives rather than rate differentials."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tao-usdt",
+    "arb-usdt",
+    "avax-usdt",
+    "ada-usdt",
+    "link-usdt"
+  ]
+}

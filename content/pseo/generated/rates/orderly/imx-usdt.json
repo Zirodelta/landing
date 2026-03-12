@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Funding Rates on Orderly Network | DEX Arbitrage",
+    "description": "Track IMX/USDT perpetual funding rates on Orderly Network's shared liquidity layer. Analyze hourly funding patterns for arbitrage opportunities.",
+    "keywords": [
+      "IMX funding rate",
+      "Orderly Network arbitrage",
+      "gaming token futures",
+      "DEX perpetuals",
+      "shared liquidity",
+      "hourly funding",
+      "IMX trading"
+    ]
+  },
+  "content": {
+    "intro": "IMX/USDT perpetual futures on Orderly Network offer unique arbitrage opportunities through the platform's shared order book infrastructure. The hourly funding rate mechanism operates across multiple DEX frontends, creating cross-platform arbitrage potential.",
+    "how_funding_works": "Orderly Network calculates IMX/USDT funding rates every hour based on the premium between perpetual and spot prices across its shared liquidity layer. The funding rate is exchanged between long and short positions, with the infrastructure distributing rates across connected frontend partners. Multi-chain architecture allows for complex arbitrage strategies involving NEAR and EVM-compatible chains. The 0.02% maker and 0.05% taker fee structure impacts net arbitrage returns when combined with funding payments.",
+    "why_this_pair": "IMX represents the gaming sector within DeFi, often showing distinct funding rate patterns compared to major cryptocurrencies. Gaming tokens typically exhibit higher volatility around game launches and ecosystem developments, creating more frequent funding rate arbitrage opportunities. The shared liquidity model on Orderly Network provides deeper order books than standalone DEX implementations.",
+    "sections": [
+      {
+        "heading": "Historical IMX Funding Rate Patterns",
+        "body": "IMX funding rates on Orderly Network have shown correlation with gaming sector sentiment and Immutable X ecosystem developments. During major game announcements or NFT marketplace integrations, funding rates often turn significantly positive as speculation drives long positions. Weekend patterns differ from traditional finance assets, as gaming activity peaks can drive funding rate volatility. The hourly funding frequency creates more granular arbitrage windows compared to 8-hour cycles on centralized exchanges. Cross-chain arbitrage opportunities emerge when Ethereum-based IMX spot prices diverge from perpetual rates on Orderly's NEAR infrastructure."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Orderly Network's shared liquidity model creates arbitrage opportunities when funding rates diverge between frontend partners accessing the same order book. The infrastructure layer allows for sophisticated strategies involving spot IMX holdings on Ethereum and perpetual positions through NEAR-connected frontends. Funding rate arbitrage works best when combined with cross-DEX strategies, as Orderly's white-label partners may show different user sentiment. The hourly funding cycle provides 24 opportunities daily to capture rate discrepancies. Multi-chain capabilities enable complex hedging strategies using IMX tokens across different blockchain ecosystems."
+      },
+      {
+        "heading": "Risk Considerations and Infrastructure Dependencies",
+        "body": "Orderly Network's complex architecture introduces unique risks including frontend partner dependencies and cross-chain bridge vulnerabilities. The shared order book model means liquidity issues affect all connected platforms simultaneously, potentially limiting exit strategies during volatile periods. Gaming sector correlation risk is significant, as IMX prices can move dramatically on ecosystem news unrelated to broader crypto markets. Smart contract risks exist across multiple layers including the Orderly protocol and connected frontend implementations. Funding rate arbitrage positions may face execution delays during network congestion on either NEAR or Ethereum networks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Orderly Network's shared liquidity affect IMX funding rates?",
+        "answer": "The shared order book aggregates trading activity from multiple DEX frontends, creating deeper liquidity that typically results in more stable funding rates. However, when sentiment shifts occur across the gaming sector, the concentrated liquidity can amplify funding rate movements as positions become one-sided across all connected platforms."
+      },
+      {
+        "question": "Can I arbitrage IMX funding rates across Orderly's frontend partners?",
+        "answer": "While frontend partners share the same order book, funding rate arbitrage opportunities can emerge from different user bases and sentiment across platforms. The key is identifying when specific frontends show position imbalances that haven't yet been arbitraged by other traders."
+      },
+      {
+        "question": "What makes IMX different from other gaming tokens for funding arbitrage?",
+        "answer": "IMX benefits from strong institutional backing and established gaming partnerships, creating more predictable funding rate patterns around major announcements. The token's role in Ethereum Layer 2 scaling for gaming also correlates funding rates with broader scaling solution adoption trends."
+      },
+      {
+        "question": "How do cross-chain mechanics impact IMX arbitrage strategies?",
+        "answer": "Orderly's multi-chain infrastructure allows for sophisticated arbitrage involving IMX spot positions on Ethereum and perpetual futures on NEAR-based infrastructure. Bridge delays and fees must be factored into arbitrage calculations, but the dual-chain setup provides additional hedging opportunities not available on single-chain platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ton-usdt",
+    "tia-usdt",
+    "pyth-usdt",
+    "eth-usdt",
+    "xrp-usdt"
+  ]
+}

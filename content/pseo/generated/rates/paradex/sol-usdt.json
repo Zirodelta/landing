@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sol-usdt",
+    "base": "SOL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SOL/USDT Funding Rates on Paradex - DEX Arbitrage Guide",
+    "description": "Track SOL/USDT perpetual funding rates on Paradex DEX. Hourly settlement, self-custodial trading, and institutional-grade arbitrage opportunities.",
+    "keywords": [
+      "SOL funding rates",
+      "Paradex DEX",
+      "SOL USDT perpetual",
+      "StarkNet trading",
+      "self-custodial arbitrage",
+      "hourly funding settlement",
+      "DEX perpetuals",
+      "Jump Trading"
+    ]
+  },
+  "content": {
+    "intro": "SOL/USDT on Paradex offers unique funding rate arbitrage opportunities through the platform's hourly settlement mechanism and self-custodial structure. Built by former Jump Trading engineers on StarkNet, Paradex provides institutional-grade perpetual futures with 0.02% maker and 0.05% taker fees.",
+    "how_funding_works": "Paradex calculates funding rates every hour using a premium-based formula that compares perpetual prices to underlying SOL spot rates. The platform's StarkNet infrastructure enables gas-efficient settlements while maintaining full self-custody of positions. Portfolio margin allows traders to optimize capital efficiency across multiple positions, reducing funding rate exposure through cross-margining with other assets.",
+    "why_this_pair": "SOL/USDT represents Paradex's highest-volume trading pair, providing consistent funding rate volatility ideal for arbitrage strategies. The pair's strong correlation with broader crypto market sentiment creates predictable funding patterns during momentum shifts. Paradex's institutional focus attracts sophisticated traders, leading to more efficient price discovery and tighter spreads compared to other DEX perpetual platforms.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SOL/USDT funding rates on Paradex typically range from -0.15% to +0.25% during normal market conditions, with extreme readings reaching ±0.5% during high volatility periods. The hourly settlement creates more frequent arbitrage opportunities compared to 8-hour cycles on centralized exchanges. Weekend periods often show reduced funding volatility as institutional participation decreases. During SOL ecosystem events like major Solana upgrades or DeFi protocol launches, funding rates frequently spike above +0.3% as retail demand increases."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "Paradex's self-custodial nature eliminates counterparty risk while enabling direct wallet-to-wallet arbitrage strategies. Traders can simultaneously hold spot SOL in their StarkNet wallet while shorting SOL/USDT perpetuals to capture positive funding payments. The platform's portfolio margin system allows leveraging other assets as collateral, reducing capital requirements for funding rate strategies. Cross-DEX arbitrage opportunities exist between Paradex and other StarkNet perpetual platforms, though liquidity constraints may limit position sizes."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet's relative immaturity introduces technical risks including potential network congestion during high-activity periods. Paradex's limited trading pair coverage restricts hedging options compared to centralized exchanges with hundreds of perpetual markets. The platform's early-stage development means lower overall liquidity, potentially causing slippage during large position adjustments. Smart contract risks specific to StarkNet's Cairo language require additional due diligence, though the Jump Trading team's pedigree provides some reassurance regarding security practices."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding compare to other exchanges?",
+        "answer": "Paradex's hourly funding settlement provides 8x more arbitrage opportunities than traditional 8-hour cycles. This creates more granular rate discovery but requires active position management to capture optimal entry and exit points."
+      },
+      {
+        "question": "What are the gas costs for SOL perpetual trading on StarkNet?",
+        "answer": "StarkNet's validity proofs enable significantly lower transaction costs compared to Ethereum mainnet, typically under $0.10 per trade. However, bridging assets to/from StarkNet may incur higher costs depending on network congestion."
+      },
+      {
+        "question": "Can I use SOL as collateral for perpetual positions on Paradex?",
+        "answer": "Yes, Paradex's portfolio margin system accepts SOL as collateral for perpetual positions. This enables capital-efficient funding rate strategies where you hold spot SOL while shorting SOL perpetuals to collect funding payments."
+      },
+      {
+        "question": "How does Paradex's funding rate calculation differ from CEXs?",
+        "answer": "Paradex uses a premium-based formula similar to major centralized exchanges but with hourly recalculation. The platform sources price data from multiple DEX aggregators and oracle feeds to ensure accurate funding rate determination despite lower trading volumes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "rune-usdt",
+    "w-usdt",
+    "fil-usdt",
+    "trx-usdt",
+    "dot-usdt"
+  ]
+}

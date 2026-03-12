@@ -1,0 +1,91 @@
+{
+  "slug": "aevo-vs-rabbitx",
+  "exchange_a": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined platform",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fast execution on Starknet",
+      "Zero gas for trading",
+      "Cross-margin capabilities"
+    ],
+    "weaknesses": [
+      "Small user base",
+      "Limited pair selection",
+      "Early-stage protocol"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Custom rollup",
+      "b": "Starknet L2"
+    }
+  },
+  "rate_mechanics": "Both Aevo and RabbitX use hourly funding rate calculations based on the premium between perpetual and spot prices. Aevo's custom rollup enables faster rate updates but may show higher volatility due to lower liquidity. RabbitX leverages Starknet's infrastructure for rate calculations, potentially offering more stable rates as it scales. Both platforms use off-chain order matching with on-chain settlement, affecting funding rate precision. The lack of gas fees on RabbitX may lead to more frequent arbitrage activity, keeping funding rates closer to theoretical values.",
+  "verdict": "Aevo offers a more comprehensive DeFi derivatives experience with options integration, making it suitable for sophisticated strategies. RabbitX focuses purely on perpetual futures with superior execution speed and zero gas costs, better for high-frequency funding rate arbitrage.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate opportunities?",
+      "answer": "Aevo typically shows higher funding rate volatility due to lower liquidity, creating more arbitrage opportunities. RabbitX's zero gas fees make it more cost-effective for frequent funding rate strategies despite potentially tighter spreads."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rates?",
+      "answer": "Aevo's custom rollup allows for faster settlement and rate updates but introduces rollup risk. RabbitX uses established Starknet infrastructure, offering better decentralization but potentially slower rate adjustments during high volatility."
+    },
+    {
+      "question": "Which exchange has better liquidity for funding arbitrage?",
+      "answer": "Both platforms have limited liquidity compared to major CEXs. Aevo's multi-product approach may fragment liquidity, while RabbitX's focused perpetuals offering concentrates available liquidity in fewer markets."
+    },
+    {
+      "question": "Are there gas cost differences for funding payments?",
+      "answer": "RabbitX eliminates gas fees entirely, making it more profitable for funding rate strategies. Aevo requires gas payments on its rollup, though costs are significantly lower than Ethereum mainnet transactions."
+    }
+  ],
+  "seo": {
+    "title": "Aevo vs RabbitX: Perpetual Futures Funding Rates",
+    "description": "Compare Aevo and RabbitX DEX perpetual futures funding rates, fees, and arbitrage opportunities. Both offer hourly funding with 0.02%/0.05% fee structures.",
+    "keywords": [
+      "Aevo funding rates",
+      "RabbitX perpetual futures",
+      "DEX funding arbitrage",
+      "Starknet derivatives",
+      "rollup derivatives",
+      "hourly funding rates",
+      "perpetual futures comparison",
+      "DeFi derivatives trading",
+      "funding rate mechanics",
+      "cross-margin trading"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rates on Paradex - DEX Arbitrage",
+    "description": "Track ORDI/USDT perpetual funding rates on Paradex DEX. Hourly settlements with 0.02% maker fees. Institutional-grade self-custodial perps trading.",
+    "keywords": [
+      "ORDI funding rates",
+      "Paradex DEX",
+      "perpetual futures",
+      "StarkNet trading",
+      "BRC-20 arbitrage",
+      "self-custodial perps",
+      "hourly funding",
+      "institutional DEX"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on Paradex offer unique funding rate opportunities through StarkNet's institutional-grade DEX infrastructure. Built by former Jump Trading engineers, Paradex provides hourly funding settlements with self-custodial trading for Bitcoin Ordinals ecosystem exposure.",
+    "how_funding_works": "Paradex calculates ORDI/USDT funding rates hourly based on the premium between perpetual and mark prices derived from spot exchanges. Funding payments occur every hour at minute 0, with rates determined by the 8-hour TWAP of the premium index. The exchange uses portfolio margin allowing efficient capital utilization across positions. Self-custodial architecture means funding payments settle directly to your StarkNet wallet without counterparty risk.",
+    "why_this_pair": "ORDI represents the flagship BRC-20 token on Bitcoin, creating funding rate volatility during Ordinals market cycles and Bitcoin network congestion periods. Limited availability on institutional DEXs makes Paradex's ORDI/USDT pair valuable for arbitrageurs seeking exposure with self-custody. The hourly funding frequency provides more granular arbitrage opportunities compared to 8-hour settlement exchanges.",
+    "sections": [
+      {
+        "heading": "Historical ORDI Funding Rate Patterns",
+        "body": "ORDI funding rates on Paradex exhibit high volatility correlating with Bitcoin Ordinals adoption waves and BRC-20 token speculation cycles. During peak Ordinals activity, ORDI often trades at sustained premiums generating positive funding rates exceeding 0.5% hourly for long positions. Conversely, market corrections and Bitcoin fee spikes can drive negative funding as traders reduce Ordinals exposure. The limited liquidity typical of newer pairs amplifies these funding rate swings compared to major cryptocurrencies."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "Paradex's institutional focus creates funding rate disparities with retail-oriented exchanges, particularly during ORDI volatility spikes when funding rates can diverge significantly. Portfolio margin capabilities allow efficient capital deployment across multiple positions to capture rate differentials. The self-custodial model eliminates exchange bankruptcy risk while hourly settlements provide frequent profit realization. Arbitrageurs can exploit the limited ORDI perpetual availability by establishing offsetting positions between Paradex and centralized exchanges with different funding calculations."
+      },
+      {
+        "heading": "Risk Considerations for ORDI Trading",
+        "body": "StarkNet's relative complexity introduces technical risks including potential network congestion affecting position management during volatile periods. ORDI's correlation with Bitcoin network activity creates basis risk where funding rates may not align with traditional crypto market movements. Limited pair coverage means reduced diversification options within the Paradex ecosystem. Early-stage platform risks include potential smart contract vulnerabilities and lower liquidity compared to established centralized exchanges, requiring careful position sizing and risk management protocols."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly ORDI funding differ from 8-hour exchanges?",
+        "answer": "Paradex settles ORDI funding every hour rather than every 8 hours, providing more frequent arbitrage opportunities and faster capital turnover. This allows traders to capture short-term funding rate spikes common in volatile BRC-20 tokens without waiting for traditional settlement periods."
+      },
+      {
+        "question": "What are the custody implications for ORDI funding arbitrage on Paradex?",
+        "answer": "All ORDI positions and funding payments remain in your StarkNet wallet, eliminating counterparty risk associated with centralized exchange custody. However, this requires managing StarkNet wallet security and understanding Layer 2 withdrawal timeframes for capital mobility."
+      },
+      {
+        "question": "How does portfolio margin affect ORDI funding rate strategies?",
+        "answer": "Paradex's portfolio margin allows cross-margining ORDI positions with other assets, improving capital efficiency for funding rate arbitrage. This enables larger position sizes relative to account equity compared to isolated margin systems, but requires careful risk management across correlated positions."
+      },
+      {
+        "question": "What liquidity considerations apply to ORDI funding arbitrage on Paradex?",
+        "answer": "ORDI typically has lower liquidity than major cryptocurrencies on Paradex, potentially creating slippage when entering or exiting large funding arbitrage positions. The institutional focus may provide better depth than retail exchanges but requires monitoring order book conditions before executing strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "sol-usdt",
+    "shib-usdt",
+    "sui-usdt",
+    "imx-usdt"
+  ]
+}

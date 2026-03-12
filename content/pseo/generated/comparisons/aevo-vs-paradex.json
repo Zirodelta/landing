@@ -1,0 +1,90 @@
+{
+  "slug": "aevo-vs-paradex",
+  "exchange_a": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined trading",
+      "Dedicated rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pools",
+      "Complex product architecture",
+      "Rollup centralization risks"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading engineering expertise",
+      "Self-custodial trading model",
+      "Portfolio margin system"
+    ],
+    "weaknesses": [
+      "Very early development stage",
+      "StarkNet complexity barriers",
+      "Limited trading pair coverage"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "On-chain rollup",
+      "b": "StarkNet appchain"
+    }
+  },
+  "rate_mechanics": "Both exchanges implement hourly funding rate calculations using standard perpetual futures mechanics. Aevo's rates benefit from options flow correlation but suffer from limited liquidity depth. Paradex aims for institutional-grade rate stability through portfolio margining but lacks the trading volume for consistent rate discovery. Rate spreads tend to be wider on both platforms compared to major CEXs due to lower liquidity.",
+  "verdict": "Aevo offers more mature infrastructure with unique options-perps synergy, making it suitable for sophisticated strategies. Paradex shows promise with institutional-focused features but remains too early-stage for reliable funding rate arbitrage opportunities.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Aevo currently provides more consistent funding rate data due to higher trading volumes and established market makers. Paradex rates are less predictable given limited liquidity."
+    },
+    {
+      "question": "How do settlement mechanisms affect funding rates?",
+      "answer": "Both use Layer 2 solutions but Aevo's dedicated rollup offers faster settlement times. Paradex's StarkNet integration provides better composability but with higher technical complexity."
+    },
+    {
+      "question": "Are portfolio margins available on both platforms?",
+      "answer": "Paradex emphasizes portfolio margin as a core feature for institutional users. Aevo focuses more on cross-margining between options and perpetuals rather than traditional portfolio margining."
+    },
+    {
+      "question": "Which platform is better for high-frequency funding strategies?",
+      "answer": "Neither platform currently supports the sub-second execution speeds required for optimal funding rate arbitrage. Both have 1-hour funding intervals but lack the liquidity depth of major centralized exchanges."
+    }
+  ],
+  "seo": {
+    "title": "Aevo vs Paradex: DEX Perpetual Futures Funding Rates",
+    "description": "Compare Aevo and Paradex perpetual futures funding rates, fees, and mechanics. Expert analysis of Layer 2 DEX funding arbitrage opportunities.",
+    "keywords": [
+      "Aevo funding rates",
+      "Paradex perpetual futures",
+      "DEX funding arbitrage",
+      "Layer 2 perps trading",
+      "StarkNet derivatives",
+      "rollup futures trading",
+      "decentralized perps",
+      "funding rate comparison",
+      "options perps DEX"
+    ]
+  }
+}

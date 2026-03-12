@@ -1,0 +1,91 @@
+{
+  "slug": "vertex-vs-drift",
+  "exchange_a": {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Very low taker fees",
+      "Cross-margin by default",
+      "Fast sequencer"
+    ],
+    "weaknesses": [
+      "Concentrated on Arbitrum",
+      "Lower brand recognition",
+      "Sequencer centralization"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana speed and low fees",
+      "JIT liquidity auctions",
+      "Insurance fund"
+    ],
+    "weaknesses": [
+      "Solana network dependency",
+      "Lower liquidity vs CEXs",
+      "Complex liquidation mechanics"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Arbitrum L2",
+      "b": "Solana"
+    }
+  },
+  "rate_mechanics": "Both Vertex and Drift use hourly funding rate calculations, making them suitable for short-term arbitrage strategies. Vertex's hybrid architecture allows for faster sequencer-based execution while maintaining on-chain settlement on Arbitrum. Drift's vAMM model with JIT liquidity provides dynamic pricing that can create more funding rate volatility. The key difference lies in settlement speed - Solana's sub-second finality versus Arbitrum's ~15 minute finality affects position timing strategies.",
+  "verdict": "Vertex offers slightly better fee structure for active traders with lower taker fees, while Drift provides superior execution speed on Solana. Both are viable for funding rate arbitrage, with Vertex better suited for Arbitrum ecosystem plays and Drift excelling in high-frequency strategies requiring fast settlement.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate opportunities?",
+      "answer": "Both offer hourly funding intervals ideal for arbitrage. Vertex's cross-margin system provides better capital efficiency, while Drift's vAMM model can create more volatile funding rates with higher profit potential."
+    },
+    {
+      "question": "How do transaction costs compare for funding arbitrage?",
+      "answer": "Vertex has lower taker fees (0.03% vs 0.05%) but Arbitrum gas costs. Drift benefits from Solana's ultra-low transaction fees. For high-frequency arbitrage, Drift's cost structure is typically superior."
+    },
+    {
+      "question": "Which platform handles liquidations better for leveraged positions?",
+      "answer": "Vertex uses simpler cross-margin liquidation mechanics that are easier to predict. Drift's complex liquidation system with insurance fund provides better protection but requires deeper understanding of the mechanics."
+    },
+    {
+      "question": "How do settlement speeds affect arbitrage strategies?",
+      "answer": "Drift's sub-second Solana finality enables rapid position adjustments critical for funding rate arbitrage. Vertex's Arbitrum settlement takes longer but offers more predictable execution for planned strategies."
+    }
+  ],
+  "seo": {
+    "title": "Vertex vs Drift: DEX Perpetual Funding Rate Comparison",
+    "description": "Compare Vertex and Drift for perpetual futures funding rate arbitrage. Analyze fees, settlement speed, and rate mechanics on Arbitrum vs Solana DEX platforms.",
+    "keywords": [
+      "vertex vs drift",
+      "perpetual funding rates",
+      "dex arbitrage",
+      "arbitrum vs solana",
+      "funding rate comparison",
+      "vertex protocol",
+      "drift protocol",
+      "defi perpetuals",
+      "cross margin trading",
+      "vamm model"
+    ]
+  }
+}

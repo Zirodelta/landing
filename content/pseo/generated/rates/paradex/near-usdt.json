@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rates on Paradex - DEX Arbitrage",
+    "description": "Track NEAR/USDT perpetual funding rates on Paradex DEX. Hourly settlements, self-custodial trading, and institutional-grade perps on StarkNet.",
+    "keywords": [
+      "NEAR funding rate",
+      "Paradex DEX",
+      "StarkNet perpetuals",
+      "self-custodial arbitrage",
+      "NEAR USDT funding",
+      "institutional perps",
+      "hourly settlements"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetuals on Paradex offer self-custodial funding rate arbitrage with hourly settlements on StarkNet. Paradex's institutional-grade infrastructure provides transparent funding calculations without centralized custody risks.",
+    "how_funding_works": "Paradex calculates NEAR/USDT funding rates using a time-weighted average premium between perpetual and spot prices over the hour. Funding settlements occur every hour at the top of each hour, with rates paid between long and short holders. The exchange uses a robust oracle system and applies a dampening factor to prevent excessive rate volatility during high market stress.",
+    "why_this_pair": "NEAR Protocol's ecosystem development cycles create funding rate volatility ideal for arbitrage strategies. As a major L1 blockchain with significant DeFi activity, NEAR experiences regular sentiment shifts that manifest in perpetual funding premiums. The pair's mid-tier volume provides sufficient liquidity while maintaining rate inefficiencies that sophisticated arbitrageurs can exploit.",
+    "sections": [
+      {
+        "heading": "Historical NEAR Funding Patterns",
+        "body": "NEAR/USDT funding rates on Paradex typically range from -0.01% to 0.05% during normal market conditions. During NEAR ecosystem announcements or major partnership reveals, positive funding spikes can reach 0.1-0.3% as retail traders pile into long positions. Conversely, broader crypto bear markets often push NEAR funding negative as institutional hedging dominates the perpetual order book. The hourly settlement frequency means rate changes can compound quickly during trending moves."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Paradex's self-custodial model creates unique arbitrage setups when combined with centralized exchanges offering NEAR perpetuals. Cross-exchange funding rate spreads often exceed 0.02% due to different settlement times and oracle methodologies. Portfolio margin on Paradex enables capital-efficient strategies, allowing traders to hold offsetting positions across multiple timeframes. The StarkNet infrastructure provides fast settlement with minimal slippage for position adjustments."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "StarkNet's relative novelty introduces smart contract risks not present on established CEX platforms. Paradex's early-stage development means liquidity can be limited during high volatility periods, potentially affecting position entry/exit timing. NEAR's correlation with other L1 tokens requires careful hedging to isolate pure funding rate exposure. The exchange's minimal pair coverage limits diversification options within the same platform ecosystem."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Paradex's hourly funding settlement affect NEAR arbitrage strategies?",
+        "answer": "Hourly settlements provide more frequent profit realization compared to 8-hour cycles on major CEXs. This creates opportunities to capture short-term rate spikes during NEAR news events, but requires more active position management and gas cost consideration on StarkNet."
+      },
+      {
+        "question": "What are the custody advantages of trading NEAR perpetuals on Paradex?",
+        "answer": "Self-custodial trading eliminates counterparty risk while maintaining full control of funds. Users can implement complex arbitrage strategies without exchange withdrawal limits or KYC restrictions, though they assume full responsibility for private key security and StarkNet transaction management."
+      },
+      {
+        "question": "How do Paradex's maker/taker fees impact NEAR funding arbitrage profitability?",
+        "answer": "The 0.02%/0.05% fee structure is competitive but higher than top-tier CEXs. Successful arbitrage requires funding rate spreads exceeding 0.07% to cover round-trip costs, making this strategy most profitable during high-volatility periods when NEAR funding rates spike significantly."
+      },
+      {
+        "question": "What makes NEAR suitable for funding rate arbitrage on Paradex?",
+        "answer": "NEAR's active ecosystem creates regular sentiment-driven funding rate volatility. The token's mid-tier volume provides sufficient liquidity for position sizing while maintaining inefficiencies. NEAR's technical developments and partnership announcements frequently drive asymmetric long interest, creating profitable funding rate premiums."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "ada-usdt",
+    "apt-usdt",
+    "op-usdt",
+    "ordi-usdt"
+  ]
+}

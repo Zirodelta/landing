@@ -1,0 +1,89 @@
+{
+  "slug": "aevo-vs-bluefin",
+  "exchange_a": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined platform",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "exchange_b": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Sui ecosystem leader",
+      "Professional trading UI",
+      "Fast settlement"
+    ],
+    "weaknesses": [
+      "Sui ecosystem still early",
+      "Limited pairs",
+      "Low overall volume"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "On-chain rollup",
+      "b": "Sui blockchain"
+    }
+  },
+  "rate_mechanics": "Both Aevo and Bluefin calculate funding rates hourly using traditional perpetual futures methodology based on the premium/discount to spot prices. Aevo's rates may be more volatile due to its smaller liquidity pools and combined options market dynamics affecting price discovery. Bluefin benefits from Sui's fast finality for rate updates but may experience wider spreads due to limited market makers. Both platforms use standard 8-hour TWAP calculations for rate determination.",
+  "verdict": "Aevo offers unique advantages for traders seeking options-perps arbitrage opportunities but faces liquidity constraints. Bluefin provides a more focused perpetual trading experience with superior infrastructure but operates within the nascent Sui ecosystem with limited trading pairs.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Aevo typically offers more volatile funding rates due to smaller liquidity pools, creating arbitrage opportunities for sophisticated traders. Bluefin provides more stable rates but fewer extreme funding events."
+    },
+    {
+      "question": "How do settlement speeds compare between Aevo and Bluefin?",
+      "answer": "Bluefin leverages Sui's sub-second finality for faster settlement compared to Aevo's rollup architecture. Both offer significant speed advantages over Ethereum mainnet but Bluefin edges out in raw settlement speed."
+    },
+    {
+      "question": "Which platform is better for institutional funding rate strategies?",
+      "answer": "Bluefin's institutional-grade matching engine and professional UI make it more suitable for systematic funding rate strategies. Aevo's combined options market creates complexity that may not suit all institutional approaches."
+    },
+    {
+      "question": "Are there differences in funding rate calculation methods?",
+      "answer": "Both exchanges use standard perpetual futures funding rate calculations with hourly intervals. The main difference lies in liquidity depth affecting rate stability rather than fundamental calculation methodology."
+    }
+  ],
+  "seo": {
+    "title": "Aevo vs Bluefin: DEX Perpetual Futures Funding Rates",
+    "description": "Compare Aevo and Bluefin funding rates for perpetual futures trading. Analysis of fee structures, settlement speed, and arbitrage opportunities on these DEX platforms.",
+    "keywords": [
+      "aevo vs bluefin",
+      "funding rates comparison",
+      "perpetual futures dex",
+      "sui blockchain trading",
+      "rollup derivatives",
+      "funding rate arbitrage",
+      "dex perps comparison",
+      "crypto derivatives trading"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "paradex-vs-phemex",
+  "exchange_a": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading pedigree",
+      "Self-custodial",
+      "Portfolio margin"
+    ],
+    "weaknesses": [
+      "Very early stage",
+      "StarkNet complexity",
+      "Minimal pair coverage"
+    ]
+  },
+  "exchange_b": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX",
+    "fee_tier": "0.01%/0.06%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Very low maker fees",
+      "Clean trading UI",
+      "Contract trading specialization"
+    ],
+    "weaknesses": [
+      "Smaller user base",
+      "Limited altcoin perps",
+      "Occasional liquidity gaps"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.01%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.06%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "8 hours"
+    },
+    "settlement": {
+      "a": "StarkNet L2",
+      "b": "Centralized"
+    }
+  },
+  "rate_mechanics": "Paradex uses hourly funding rates that allow for more frequent arbitrage opportunities but require active monitoring due to faster rate adjustments. Phemex operates on traditional 8-hour intervals with standard CEX mechanics, offering predictable timing but fewer capture windows. Paradex's StarkNet settlement introduces L2 gas considerations that can impact arbitrage profitability. The hourly vs 8-hour differential creates distinct risk-reward profiles for funding rate strategies.",
+  "verdict": "Phemex offers superior maker fees and established liquidity for traditional funding arbitrage, while Paradex provides self-custodial exposure with more frequent rate updates. Phemex suits traders prioritizing cost efficiency and proven mechanics, whereas Paradex appeals to those wanting DEX benefits despite early-stage limitations.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "Paradex's hourly intervals provide 8x more funding events than Phemex's 8-hour cycles, creating more arbitrage windows but requiring constant monitoring. Phemex offers more predictable patterns with established market depth."
+    },
+    {
+      "question": "How do trading fees compare for funding arbitrage?",
+      "answer": "Phemex has lower maker fees (0.01% vs 0.02%) favoring high-frequency strategies, while Paradex offers slightly better taker fees (0.05% vs 0.06%). Consider StarkNet gas costs for Paradex settlements."
+    },
+    {
+      "question": "What are the custody differences for funding strategies?",
+      "answer": "Paradex provides self-custodial trading through StarkNet, eliminating counterparty risk but adding technical complexity. Phemex requires trusting centralized custody with streamlined operations and faster execution."
+    },
+    {
+      "question": "Which platform has better perpetual futures coverage?",
+      "answer": "Phemex offers broader perpetual coverage despite being smaller, while Paradex currently has minimal pairs due to early development. Phemex provides more diversified funding opportunities across different assets."
+    }
+  ],
+  "seo": {
+    "title": "Paradex vs Phemex: Funding Rates & Fees Compared",
+    "description": "Compare Paradex DEX hourly funding vs Phemex 8-hour cycles. Analyze maker fees, StarkNet settlement, and perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "paradex funding rates",
+      "phemex perpetual futures",
+      "DEX vs CEX arbitrage",
+      "starknet derivatives",
+      "hourly funding intervals",
+      "jump trading paradex",
+      "singapore derivatives exchange",
+      "self-custodial perps"
+    ]
+  }
+}

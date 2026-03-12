@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rate on Phemex | Arbitrage Analysis",
+    "description": "Track UNI/USDT funding rates on Phemex exchange. Analyze 8-hour cycles, arbitrage opportunities, and contract specifications for Uniswap perpetuals.",
+    "keywords": [
+      "UNI funding rate",
+      "Phemex perpetuals",
+      "Uniswap futures",
+      "funding rate arbitrage",
+      "8 hour funding",
+      "DeFi derivatives",
+      "USDT perps",
+      "contract trading"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Phemex offer funding rate arbitrage opportunities through 8-hour cycles at 00:00, 08:00, and 16:00 UTC. The contract typically shows moderate funding rate volatility aligned with Uniswap governance events and DeFi market sentiment. Phemex's 0.01% maker fee structure provides cost-effective positioning for extended arbitrage strategies.",
+    "how_funding_works": "Phemex calculates UNI/USDT funding rates every 8 hours using a time-weighted average premium between the perpetual contract price and the spot index. The funding fee is exchanged between long and short position holders based on the 8-hour rate, with positive rates indicating longs pay shorts. Phemex caps funding rates at ±0.375% per interval to prevent extreme market dislocations. The exchange sources its UNI spot index from major exchanges including Binance, OKX, and Huobi to ensure accurate price discovery.",
+    "why_this_pair": "UNI/USDT presents compelling funding rate patterns due to Uniswap's role as the leading DEX protocol with predictable governance cycles and treasury activities. The pair often exhibits positive funding during DeFi bull runs when retail traders heavily long UNI tokens. Phemex's specialized derivatives platform and low maker fees make it particularly suitable for systematic funding rate capture on this mid-cap DeFi token.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT on Phemex has historically shown funding rates ranging from -0.1% to +0.15% during normal market conditions. During the 2023 DeFi resurgence, funding rates spiked above +0.2% as retail traders aggressively longed governance tokens. Quarterly periods around Uniswap governance proposals typically see increased funding volatility due to speculative positioning. Weekend periods often show lower absolute funding rates due to reduced institutional activity and more balanced positioning."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The optimal arbitrage setup occurs when UNI/USDT funding exceeds +0.08% or drops below -0.05% on Phemex, particularly during governance events or major DEX announcements. Cross-exchange arbitrage works effectively by shorting high-funding perpetuals on Phemex while longing spot UNI or lower-funding perps on competing exchanges. Phemex's 0.01% maker rebate helps offset funding collection costs, making positions profitable at lower threshold rates. Position sizing should account for UNI's mid-cap liquidity constraints during volatile periods."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "UNI's correlation with broader DeFi movements creates basis risk when holding funding rate positions during sector rotations or regulatory news affecting decentralized exchanges. Phemex's smaller user base can lead to wider bid-ask spreads during low-volume Asian trading hours, impacting entry and exit precision. The platform's 200x maximum leverage on UNI/USDT requires careful position sizing to avoid liquidation during the token's characteristic 15-20% daily volatility ranges. Cross-collateral margin requirements should factor in UNI's tendency for gap moves during major Uniswap protocol updates."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the minimum position size for UNI/USDT funding rate arbitrage on Phemex?",
+        "answer": "Phemex requires a minimum order size of 1 UNI contract for the perpetual futures. Given the 8-hour funding cycles and typical rate ranges, positions under $500 equivalent may not generate sufficient funding income to cover trading costs effectively."
+      },
+      {
+        "question": "How does Phemex's funding rate compare to other exchanges for UNI/USDT?",
+        "answer": "Phemex typically shows funding rates within 0.01-0.02% of major exchanges like Binance and OKX. However, during high volatility periods, Phemex's smaller order book can lead to temporary premium/discount situations lasting 1-2 hours before arbitrageurs restore parity."
+      },
+      {
+        "question": "When do UNI funding rates spike highest on Phemex?",
+        "answer": "UNI funding rates peak during Uniswap governance voting periods and major DEX narrative cycles, often reaching +0.15-0.25% when retail traders anticipate token appreciation. These spikes typically occur 24-48 hours before significant protocol announcements or during broader DeFi rallies."
+      },
+      {
+        "question": "Can I use UNI tokens as collateral for funding rate strategies on Phemex?",
+        "answer": "Yes, Phemex accepts UNI as collateral in their unified margin system with a haircut applied for volatility. However, using UNI collateral for UNI/USDT funding strategies creates correlation risk and potential liquidation exposure during adverse price movements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "jup-usdt",
+    "btc-usdt",
+    "atom-usdt",
+    "sui-usdt"
+  ]
+}

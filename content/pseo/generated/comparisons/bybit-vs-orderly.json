@@ -1,0 +1,91 @@
+{
+  "slug": "bybit-vs-orderly",
+  "exchange_a": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.055%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Fast matching engine with low latency",
+      "Strong derivatives focus with unified trading accounts",
+      "Reliable infrastructure with high uptime"
+    ],
+    "weaknesses": [
+      "Smaller spot market compared to Binance",
+      "Limited fiat on-ramps for funding",
+      "Restricted access in US and UK markets"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity layer across multiple DEX frontends",
+      "Multi-chain support on NEAR and EVM",
+      "White-label infrastructure for DEX development"
+    ],
+    "weaknesses": [
+      "Indirect user experience through frontend partners",
+      "Dependent on frontend partner reliability",
+      "Complex multi-layer architecture"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.055%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "USDT/USDC",
+      "b": "USDC.e"
+    }
+  },
+  "rate_mechanics": "Bybit calculates funding rates every 8 hours using premium and interest rate components, with rates typically ranging from -0.375% to +0.375%. Orderly Network operates on 1-hour funding intervals with similar calculation methodology but more frequent adjustments. The shorter intervals on Orderly can lead to more responsive rate adjustments but may create higher transaction costs for long-term positions. Both platforms use mark price calculations to prevent manipulation, though Bybit's established infrastructure provides more historical rate data.",
+  "verdict": "Bybit offers superior user experience and infrastructure maturity for traditional perpetual futures trading, while Orderly Network provides innovative DEX infrastructure with more frequent funding rate adjustments. Choose Bybit for reliable execution and established liquidity, or Orderly for decentralized trading with hourly rate optimization.",
+  "faq": [
+    {
+      "question": "Which platform offers better funding rate arbitrage opportunities?",
+      "answer": "Orderly Network's 1-hour funding intervals provide more frequent arbitrage opportunities compared to Bybit's 8-hour cycles. However, Bybit's higher liquidity and established user base often create more predictable rate patterns for systematic strategies."
+    },
+    {
+      "question": "How do trading fees impact funding rate arbitrage profitability?",
+      "answer": "Orderly Network has slightly lower taker fees (0.05% vs 0.055%), but both platforms offer identical maker fees at 0.02%. The fee difference is minimal and typically overshadowed by funding rate spreads in arbitrage calculations."
+    },
+    {
+      "question": "What are the main infrastructure differences affecting trading?",
+      "answer": "Bybit operates as a traditional CEX with direct user accounts and proven uptime, while Orderly Network functions as a DEX infrastructure layer requiring interaction through frontend partners. This affects user experience, with Bybit offering more straightforward access but Orderly providing decentralized benefits."
+    },
+    {
+      "question": "Which platform is better for automated funding rate strategies?",
+      "answer": "Bybit's established API infrastructure and reliable uptime make it more suitable for automated strategies, despite longer funding intervals. Orderly Network's newer infrastructure and dependency on frontend partners may introduce additional complexity for automated systems."
+    }
+  ],
+  "seo": {
+    "title": "Bybit vs Orderly Network: Funding Rate Arbitrage Comparison",
+    "description": "Compare Bybit and Orderly Network for perpetual futures funding rate arbitrage. Analyze 8h vs 1h intervals, trading fees, and infrastructure differences.",
+    "keywords": [
+      "bybit funding rates",
+      "orderly network arbitrage",
+      "perpetual futures comparison",
+      "8 hour vs 1 hour funding",
+      "dex vs cex trading",
+      "funding rate intervals",
+      "crypto arbitrage platforms",
+      "derivatives trading fees",
+      "perpetual swaps comparison",
+      "funding rate mechanics"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "hyperliquid-vs-gmx",
+  "exchange_a": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Fully on-chain order book with sub-second finality",
+      "Lowest maker fees among major DEXs at 0.02%",
+      "No KYC required with CEX-grade performance"
+    ],
+    "weaknesses": [
+      "Single L1 ecosystem limits cross-chain arbitrage",
+      "USDC-only settlement restricts collateral options",
+      "Newer protocol with limited operational history"
+    ]
+  },
+  "exchange_b": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Battle-tested protocol operating since 2021",
+      "Multi-chain deployment on Arbitrum and Avalanche",
+      "GLP liquidity model eliminates traditional slippage"
+    ],
+    "weaknesses": [
+      "Higher trading fees than order book competitors",
+      "Oracle dependency creates MEV and latency risks",
+      "Price impact increases significantly on large trades"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.05%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.07%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Native L1",
+      "b": "Arbitrum/Avalanche"
+    }
+  },
+  "rate_mechanics": "Both exchanges use hourly funding rate calculations, but Hyperliquid's on-chain order book creates more responsive rate adjustments based on real-time open interest imbalances. GMX relies on oracle-based pricing which can lag during volatile periods, potentially creating arbitrage windows. Hyperliquid's native L1 settlement enables faster funding rate arbitrage execution, while GMX's multi-chain presence offers broader cross-chain opportunities despite higher latency.",
+  "verdict": "Hyperliquid offers superior fee structure and execution speed for funding rate arbitrage, making it ideal for high-frequency strategies. GMX provides better ecosystem integration and proven reliability for longer-term arbitrage positions across multiple chains.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "Hyperliquid typically offers better opportunities due to lower fees and faster execution. The 0.02% maker fee versus GMX's 0.05% significantly improves arbitrage profitability, especially for frequent trades."
+    },
+    {
+      "question": "How do oracle delays affect GMX funding rate accuracy?",
+      "answer": "GMX's oracle-based pricing can create 1-2 second delays during volatile periods, potentially causing funding rates to lag behind spot price movements. This creates brief arbitrage windows but also increases execution risk."
+    },
+    {
+      "question": "Can I arbitrage funding rates between Hyperliquid and GMX?",
+      "answer": "Cross-platform arbitrage is challenging due to different settlement chains and collateral requirements. Hyperliquid uses USDC on its native L1 while GMX operates on Arbitrum/Avalanche with various collateral types."
+    },
+    {
+      "question": "Which platform is better for large funding rate arbitrage positions?",
+      "answer": "GMX's GLP liquidity model handles large positions better without price impact, while Hyperliquid's order book may show slippage on very large trades. Consider position size when choosing platforms."
+    }
+  ],
+  "seo": {
+    "title": "Hyperliquid vs GMX: Perpetual Futures Funding Rates 2024",
+    "description": "Compare Hyperliquid and GMX funding rate arbitrage opportunities. Analysis of fees, execution speed, and profit potential for perpetual futures trading strategies.",
+    "keywords": [
+      "hyperliquid vs gmx",
+      "funding rate arbitrage",
+      "perpetual futures comparison",
+      "DEX trading fees",
+      "on-chain derivatives",
+      "arbitrum perpetuals",
+      "crypto funding rates",
+      "decentralized futures"
+    ]
+  }
+}

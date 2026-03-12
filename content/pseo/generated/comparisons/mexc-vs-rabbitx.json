@@ -1,0 +1,89 @@
+{
+  "slug": "mexc-vs-rabbitx",
+  "exchange_a": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "strengths": [
+      "Zero maker fees for improved arbitrage margins",
+      "First-to-list strategy creates unique funding opportunities",
+      "High leverage up to 200x on select pairs"
+    ],
+    "weaknesses": [
+      "Thinner order books increase slippage risk",
+      "Volume reporting accuracy concerns",
+      "Limited regulatory oversight"
+    ]
+  },
+  "exchange_b": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Hourly funding settlements enable faster rate capture",
+      "Zero gas fees for trading operations",
+      "Cross-margin efficiency for capital allocation"
+    ],
+    "weaknesses": [
+      "Limited liquidity due to small user base",
+      "Restricted to major crypto pairs only",
+      "Protocol risk as early-stage platform"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.00%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.03%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "8 hours",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Centralized clearing",
+      "b": "Starknet L2 settlement"
+    }
+  },
+  "rate_mechanics": "MEXC uses standard 8-hour funding intervals with rates typically ranging from -0.375% to +0.375% daily. RabbitX implements hourly funding settlements, allowing for more granular rate capture but with smaller individual payments. MEXC's zero maker fees provide significant cost advantages for arbitrageurs, while RabbitX's frequent settlements can compound returns more effectively during sustained rate periods. Both platforms calculate rates using similar mark-to-index methodologies, though RabbitX's DEX structure may show more volatile rates due to lower liquidity.",
+  "verdict": "MEXC offers superior cost efficiency for large arbitrage positions due to zero maker fees, making it ideal for high-volume strategies despite thinner order books. RabbitX provides faster funding capture through hourly settlements but faces liquidity constraints that limit position sizes and increase execution risk.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "MEXC typically offers more diverse opportunities due to its extensive altcoin listings and zero maker fees. RabbitX provides faster rate capture through hourly settlements but is limited to major pairs with lower liquidity."
+    },
+    {
+      "question": "How do the funding calculation methods differ between platforms?",
+      "answer": "Both use standard perpetual funding formulas based on mark-to-index price differences. MEXC applies rates every 8 hours with typical bounds, while RabbitX calculates hourly with potentially higher volatility due to DEX mechanics."
+    },
+    {
+      "question": "What are the main execution risks on each platform?",
+      "answer": "MEXC faces counterparty risk and potential volume manipulation concerns. RabbitX carries smart contract risk and liquidity constraints that may prevent large position entries or exits during volatile periods."
+    },
+    {
+      "question": "Which platform is better for automated arbitrage strategies?",
+      "answer": "MEXC's API stability and zero maker fees favor automated strategies, though order book depth should be monitored. RabbitX's hourly settlements appeal to bots but require careful liquidity assessment before execution."
+    }
+  ],
+  "seo": {
+    "title": "MEXC vs RabbitX Funding Rates: CEX vs DEX Comparison",
+    "description": "Compare MEXC's zero maker fees and 8h funding vs RabbitX's hourly settlements and DEX mechanics. Which exchange offers better perpetual futures arbitrage opportunities?",
+    "keywords": [
+      "MEXC funding rates",
+      "RabbitX perpetual futures",
+      "DEX vs CEX funding",
+      "crypto arbitrage comparison",
+      "perpetual futures fees",
+      "Starknet derivatives",
+      "funding rate arbitrage",
+      "crypto trading platforms"
+    ]
+  }
+}

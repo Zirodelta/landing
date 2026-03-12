@@ -1,0 +1,91 @@
+{
+  "slug": "aevo-vs-drift",
+  "exchange_a": {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Options + perps combined platform",
+      "Own rollup for performance",
+      "Pre-launch token markets"
+    ],
+    "weaknesses": [
+      "Smaller liquidity pool",
+      "Complex product set",
+      "Rollup centralization concerns"
+    ]
+  },
+  "exchange_b": {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Solana speed and low fees",
+      "JIT liquidity auctions",
+      "Insurance fund protection"
+    ],
+    "weaknesses": [
+      "Solana network dependency",
+      "Lower liquidity vs CEXs",
+      "Complex liquidation mechanics"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "On-chain rollup",
+      "b": "Solana on-chain"
+    }
+  },
+  "rate_mechanics": "Both Aevo and Drift use hourly funding intervals with mark-to-market pricing. Aevo leverages its custom rollup for faster settlement while maintaining Ethereum security, potentially reducing funding rate volatility. Drift's vAMM model with JIT auctions can create more dynamic funding rates that respond quickly to market imbalances. Aevo's hybrid options-perps model may see cross-product arbitrage affecting funding rates. Both platforms use insurance funds but Drift's is more established with deeper reserves.",
+  "verdict": "Aevo offers innovation with its rollup architecture and combined options-perps trading, making it suitable for sophisticated strategies but with liquidity constraints. Drift provides more mature infrastructure on Solana with better liquidity depth and proven track record, making it preferable for larger funding rate arbitrage positions.",
+  "faq": [
+    {
+      "question": "Which exchange has better funding rate opportunities?",
+      "answer": "Drift typically offers more consistent funding rate arbitrage opportunities due to higher liquidity and trading volume. Aevo's rates can be more volatile but opportunities may be less frequent due to lower activity."
+    },
+    {
+      "question": "How do settlement speeds compare for funding arbitrage?",
+      "answer": "Both settle hourly funding, but Drift benefits from Solana's sub-second finality while Aevo uses rollup batching. For arbitrage execution, Drift's faster transaction processing gives it an edge in position management."
+    },
+    {
+      "question": "Which platform has lower slippage for large positions?",
+      "answer": "Drift generally has deeper liquidity pools and better price stability for large positions. Aevo's smaller market size can lead to higher slippage, though its JIT liquidity helps somewhat."
+    },
+    {
+      "question": "Are there unique risks with each platform's funding mechanism?",
+      "answer": "Aevo carries rollup centralization risk and potential L1/L2 bridge delays. Drift faces Solana network outage risk and liquidation cascade concerns during high volatility due to its vAMM model."
+    }
+  ],
+  "seo": {
+    "title": "Aevo vs Drift: Funding Rate Arbitrage Comparison 2024",
+    "description": "Compare Aevo and Drift perpetual futures for funding rate arbitrage. Analysis of fees, liquidity, settlement speed, and arbitrage opportunities on both DEX platforms.",
+    "keywords": [
+      "aevo vs drift",
+      "funding rate arbitrage",
+      "perpetual futures DEX",
+      "solana perps",
+      "rollup trading",
+      "crypto arbitrage",
+      "vAMM trading",
+      "decentralized derivatives",
+      "funding rates comparison",
+      "perp trading platforms"
+    ]
+  }
+}

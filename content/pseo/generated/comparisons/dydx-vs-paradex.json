@@ -1,0 +1,89 @@
+{
+  "slug": "dydx-vs-paradex",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Jump Trading pedigree",
+      "Self-custodial",
+      "Portfolio margin"
+    ],
+    "weaknesses": [
+      "Very early stage",
+      "StarkNet complexity",
+      "Minimal pair coverage"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "StarkNet rollup"
+    }
+  },
+  "rate_mechanics": "Both exchanges calculate funding rates hourly using similar mark-to-index methodologies. dYdX V4 operates on its dedicated Cosmos appchain with sovereign validators determining rates through on-chain consensus. Paradex leverages StarkNet's validity proofs for rate calculations and settlements. While both use 1-hour intervals, dYdX benefits from higher liquidity leading to more stable rates, whereas Paradex's institutional focus may create different rate patterns during low retail activity periods.",
+  "verdict": "dYdX offers more proven infrastructure with established liquidity, making it suitable for consistent funding rate arbitrage opportunities. Paradex presents early-stage potential with institutional-grade features but lacks the volume and track record needed for reliable funding rate strategies.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities?",
+      "answer": "dYdX currently provides more consistent funding rate opportunities due to higher trading volumes and established market making. Paradex is too early-stage for reliable rate arbitrage strategies."
+    },
+    {
+      "question": "How do settlement mechanisms differ between these DEXs?",
+      "answer": "dYdX V4 operates on its own Cosmos appchain with native settlement, while Paradex uses StarkNet validity proofs. Both offer self-custody but dYdX has faster finality."
+    },
+    {
+      "question": "Are funding intervals the same on both platforms?",
+      "answer": "Yes, both exchanges use 1-hour funding intervals. However, dYdX's higher liquidity typically results in more predictable rate movements compared to Paradex's volatile early-stage rates."
+    },
+    {
+      "question": "Which platform is better for institutional funding strategies?",
+      "answer": "Paradex targets institutional users with portfolio margin and Jump Trading infrastructure, but dYdX's proven volume and stability make it more suitable for serious funding rate arbitrage operations currently."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs Paradex: DEX Perpetual Funding Rates Compared",
+    "description": "Compare funding rates, fees, and mechanics between dYdX V4 and Paradex DEX perpetual futures. Analysis of 1-hour intervals and settlement differences.",
+    "keywords": [
+      "dydx funding rates",
+      "paradex perpetuals",
+      "dex funding arbitrage",
+      "cosmos perps",
+      "starknet futures",
+      "decentralized perpetuals",
+      "funding rate comparison",
+      "dex arbitrage"
+    ]
+  }
+}

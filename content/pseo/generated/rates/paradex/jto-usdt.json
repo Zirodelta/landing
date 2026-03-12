@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on Paradex - DEX Perp Trading",
+    "description": "Track JTO/USDT perpetual futures funding rates on Paradex DEX. Self-custodial trading with 1-hour funding intervals on StarkNet's institutional perp platform.",
+    "keywords": [
+      "JTO funding rates",
+      "Paradex DEX",
+      "Jito perpetual futures",
+      "StarkNet trading",
+      "self-custodial perps",
+      "DeFi governance tokens",
+      "funding rate arbitrage",
+      "decentralized derivatives"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on Paradex offer exposure to Jito's liquid staking governance token through a self-custodial DEX environment. Paradex operates on StarkNet with 1-hour funding intervals and portfolio margin capabilities, targeting institutional traders seeking non-custodial derivatives exposure.",
+    "how_funding_works": "Paradex calculates funding rates every hour based on the premium between JTO perpetual price and spot index, with payments exchanged directly between long and short position holders. The DEX architecture means no centralized counterparty holds user funds, with positions and collateral managed through StarkNet smart contracts. Portfolio margin allows cross-collateralization across positions, potentially reducing funding costs for hedged strategies involving multiple Solana ecosystem tokens.",
+    "why_this_pair": "JTO represents Jito's governance token for the largest liquid staking protocol on Solana, making it sensitive to both DeFi adoption and Solana network activity. The token's relatively small market cap and concentrated holder base can create funding rate inefficiencies, particularly during periods of high Solana validator reward distribution or governance proposals.",
+    "sections": [
+      {
+        "heading": "Historical JTO Funding Rate Patterns",
+        "body": "JTO funding rates on Paradex typically range from -0.1% to 0.3% per day, with elevated positive rates during Solana network upgrades or MEV reward distributions. The token shows correlation with broader Solana DeFi momentum, often experiencing funding spikes when liquid staking adoption accelerates. Given Paradex's early stage and limited liquidity, JTO rates can be more volatile than on centralized exchanges, creating arbitrage opportunities for sophisticated traders willing to manage StarkNet bridge timing."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "JTO funding arbitrage on Paradex requires careful consideration of StarkNet bridge delays and the DEX's limited liquidity depth. Traders can exploit rate differentials between Paradex and centralized exchanges, but must account for 0.02% maker fees and potential slippage on larger positions. The self-custodial nature eliminates counterparty risk but adds complexity around position management and emergency exits during high volatility periods."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading JTO perps on Paradex involves multiple risk layers including smart contract risk, StarkNet bridge dependencies, and limited order book depth. The governance token's price volatility can exceed 20% daily during major Jito protocol updates or Solana network events. Portfolio margin benefits are offset by the complexity of managing collateral across StarkNet, requiring sophisticated understanding of the DEX's liquidation mechanics and withdrawal timeframes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Paradex update JTO/USDT funding rates?",
+        "answer": "Paradex calculates and settles JTO/USDT funding rates every hour, with payments automatically exchanged between long and short position holders through StarkNet smart contracts. This frequency is higher than most centralized exchanges but standard for DEX perpetual platforms."
+      },
+      {
+        "question": "What's the minimum position size for JTO perps on Paradex?",
+        "answer": "Paradex doesn't enforce strict minimum position sizes for JTO/USDT, but practical minimums are around $100-500 due to StarkNet gas costs and the DEX's focus on institutional traders. Smaller positions may not be economically viable given transaction costs."
+      },
+      {
+        "question": "How does Paradex's portfolio margin affect JTO funding costs?",
+        "answer": "Portfolio margin allows you to use JTO positions as collateral for other trades, potentially reducing overall funding costs through cross-margining. However, this requires maintaining adequate margin across all positions and understanding how JTO's volatility impacts your portfolio-wide margin requirements."
+      },
+      {
+        "question": "Can I exit JTO positions immediately on Paradex during funding payments?",
+        "answer": "Position exits are processed immediately on Paradex, but withdrawing USDT to other chains requires StarkNet bridge confirmation times of 15-30 minutes. This creates timing risk around funding payments, especially for short-term arbitrage strategies that rely on quick capital rotation."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "ldo-usdt",
+    "imx-usdt",
+    "eth-usdt",
+    "pepe-usdt"
+  ]
+}

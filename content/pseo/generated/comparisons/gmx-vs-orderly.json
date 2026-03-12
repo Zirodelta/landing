@@ -1,0 +1,91 @@
+{
+  "slug": "gmx-vs-orderly",
+  "exchange_a": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Oracle-based pricing eliminates traditional impermanent loss",
+      "Established Arbitrum ecosystem leader with proven track record",
+      "Deep GLP/GM pool liquidity across major asset pairs"
+    ],
+    "weaknesses": [
+      "Higher trading fees than centralized order book models",
+      "Oracle dependency creates potential manipulation risks",
+      "Significant price impact on large position sizes"
+    ]
+  },
+  "exchange_b": {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Shared liquidity infrastructure aggregates depth across frontends",
+      "Multi-chain architecture supports NEAR and EVM ecosystems",
+      "White-label infrastructure enables rapid DEX deployment"
+    ],
+    "weaknesses": [
+      "User experience varies significantly across frontend partners",
+      "Complex multi-layer architecture increases potential failure points",
+      "Success depends heavily on frontend adoption and integration"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.05%",
+      "b": "0.02%"
+    },
+    "taker": {
+      "a": "0.07%",
+      "b": "0.05%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Oracle-based",
+      "b": "Order book"
+    }
+  },
+  "rate_mechanics": "GMX uses oracle pricing with funding rates calculated against external spot prices, creating predictable rate patterns tied to market premiums. Orderly Network operates a traditional order book model where funding rates emerge from perpetual-spot basis differentials across its shared liquidity layer. GMX rates tend to be more volatile during high oracle deviation periods, while Orderly rates follow conventional perp-spot arbitrage dynamics. Both exchanges update funding every hour, but GMX's pool-based model can exhibit different rate behaviors during periods of asymmetric long/short interest.",
+  "verdict": "GMX offers battle-tested oracle-based perpetuals with unique mechanics but higher costs, making it suitable for traders prioritizing proven infrastructure over fee optimization. Orderly Network provides lower fees through shared order book liquidity but requires careful frontend selection and carries execution complexity risks inherent in its multi-layer architecture.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate opportunities for arbitrage?",
+      "answer": "Orderly Network typically provides more traditional funding rate patterns due to its order book model, while GMX's oracle-based system can create unique arbitrage opportunities during high volatility periods when oracle deviations spike."
+    },
+    {
+      "question": "How do the liquidity models affect funding rate stability?",
+      "answer": "GMX's GLP pool model provides consistent liquidity but can lead to more volatile funding rates during imbalanced positioning. Orderly's shared order book aggregates depth across frontends, generally producing more stable funding patterns similar to centralized exchanges."
+    },
+    {
+      "question": "Which platform has lower total trading costs for funding arbitrage?",
+      "answer": "Orderly Network offers significantly lower base fees (0.02%/0.05% vs 0.05%/0.07%), making it more cost-effective for high-frequency funding arbitrage strategies despite potential frontend integration complexities."
+    },
+    {
+      "question": "How do oracle risks compare between these platforms?",
+      "answer": "GMX relies heavily on Chainlink oracles for all pricing, creating single points of failure but eliminating slippage on large trades. Orderly uses oracles primarily for liquidations while market pricing comes from order books, distributing risk but potentially creating basis gaps during volatility."
+    }
+  ],
+  "seo": {
+    "title": "GMX vs Orderly Network: Perpetual Futures Comparison",
+    "description": "Compare GMX oracle-based perpetuals vs Orderly Network shared liquidity for funding rate arbitrage. Analysis of fees, mechanics, and trading costs.",
+    "keywords": [
+      "GMX vs Orderly Network",
+      "perpetual futures comparison",
+      "funding rate arbitrage",
+      "DEX perpetuals",
+      "oracle-based trading",
+      "shared liquidity",
+      "Arbitrum perpetuals",
+      "multi-chain DEX",
+      "GLP pools",
+      "order book DEX"
+    ]
+  }
+}

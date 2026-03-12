@@ -1,0 +1,91 @@
+{
+  "slug": "dydx-vs-gmx",
+  "exchange_a": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "Established DEX brand",
+      "Cosmos appchain sovereignty",
+      "1-hour funding intervals"
+    ],
+    "weaknesses": [
+      "Migration complexity from StarkEx",
+      "Lower volume post-migration",
+      "Limited pair selection"
+    ]
+  },
+  "exchange_b": {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "strengths": [
+      "No impermanent loss for LPs in traditional sense",
+      "Arbitrum ecosystem leader",
+      "Battle-tested since 2021"
+    ],
+    "weaknesses": [
+      "Higher fees than order book DEXs",
+      "Oracle dependency risk",
+      "Price impact on large trades"
+    ]
+  },
+  "fee_comparison": {
+    "maker": {
+      "a": "0.02%",
+      "b": "0.05%"
+    },
+    "taker": {
+      "a": "0.05%",
+      "b": "0.07%"
+    },
+    "funding_interval": {
+      "a": "1 hour",
+      "b": "1 hour"
+    },
+    "settlement": {
+      "a": "Cosmos appchain",
+      "b": "Arbitrum/Avalanche"
+    }
+  },
+  "rate_mechanics": "Both dYdX and GMX use hourly funding rate calculations, but their underlying mechanisms differ significantly. dYdX operates as a traditional order book DEX on its Cosmos appchain with funding rates based on perpetual-spot price differentials. GMX uses oracle-based pricing with GLP/GM liquidity pools, where funding rates are influenced by open interest imbalances and borrowing costs from the shared liquidity pool. GMX's oracle dependency creates different arbitrage dynamics compared to dYdX's pure order book model.",
+  "verdict": "dYdX offers lower trading fees and traditional order book mechanics favored by experienced traders, while GMX provides simpler oracle-based execution with deeper Arbitrum ecosystem integration. The choice depends on whether you prioritize fee efficiency or ecosystem accessibility for your funding rate arbitrage strategy.",
+  "faq": [
+    {
+      "question": "Which exchange offers better funding rate arbitrage opportunities?",
+      "answer": "dYdX typically offers tighter spreads due to lower fees, but GMX's oracle-based system can create unique arbitrage windows during high volatility periods when oracle updates lag market movements."
+    },
+    {
+      "question": "How do the funding rate calculations differ between dYdX and GMX?",
+      "answer": "dYdX uses traditional perpetual futures funding based on price premiums, while GMX incorporates borrowing costs from its GLP pool and open interest imbalances into its funding rate formula."
+    },
+    {
+      "question": "Which platform is better for high-frequency funding rate strategies?",
+      "answer": "dYdX's lower fees (0.02% maker) make it more suitable for high-frequency strategies, while GMX's 0.05% minimum fees can erode profits on frequent position changes."
+    },
+    {
+      "question": "Are there cross-chain arbitrage opportunities between these platforms?",
+      "answer": "Yes, since dYdX operates on Cosmos while GMX runs on Arbitrum/Avalanche, funding rate differentials between chains can create profitable arbitrage opportunities for sophisticated traders."
+    }
+  ],
+  "seo": {
+    "title": "dYdX vs GMX: Perpetual Futures Funding Rates Compared",
+    "description": "Compare dYdX and GMX perpetual futures for funding rate arbitrage. Analyze fees, mechanics, and opportunities on these leading decentralized derivatives platforms.",
+    "keywords": [
+      "dydx vs gmx",
+      "perpetual futures funding rates",
+      "dex derivatives comparison",
+      "funding rate arbitrage",
+      "decentralized perpetuals",
+      "cosmos vs arbitrum",
+      "gmx glp",
+      "dydx v4",
+      "perp dex trading",
+      "funding rate strategies"
+    ]
+  }
+}

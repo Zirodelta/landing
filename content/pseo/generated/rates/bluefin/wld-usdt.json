@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Bluefin DEX | Arbitrage Guide",
+    "description": "Track WLD/USDT funding rates on Bluefin DEX. Professional arbitrage opportunities on Sui's leading perpetual exchange with hourly settlements.",
+    "keywords": [
+      "WLD funding rates",
+      "Bluefin DEX",
+      "Worldcoin arbitrage",
+      "Sui perpetuals",
+      "DEX funding rate",
+      "WLD futures",
+      "hourly funding",
+      "AI token arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Bluefin DEX offer unique arbitrage opportunities within the Sui ecosystem. Bluefin's professional-grade matching engine and hourly funding settlements create frequent rate fluctuations for Worldcoin's native token. The exchange's institutional infrastructure provides reliable execution for funding rate strategies on this AI sector leader.",
+    "how_funding_works": "Bluefin calculates funding rates hourly based on the premium between WLD perpetual and spot prices across integrated price feeds. The exchange's order book model ensures transparent rate discovery without AMM-based distortions. Funding payments settle automatically every hour at :00 minutes, with rates typically ranging from -0.5% to +0.5% daily. Position holders receive or pay funding based on their side relative to the prevailing rate.",
+    "why_this_pair": "WLD exhibits high funding rate volatility due to its AI sector exposure and retail trading interest, creating regular arbitrage windows. The token's correlation with AI market sentiment generates predictable rate patterns around news cycles and market events. Bluefin's growing WLD volume and tight spreads make it an efficient venue for executing funding rate strategies on Worldcoin.",
+    "sections": [
+      {
+        "heading": "Historical WLD Funding Rate Patterns",
+        "body": "WLD funding rates on Bluefin typically spike positive during AI sector rallies, reaching +2-4% daily rates when Worldcoin momentum builds. Negative rates frequently emerge during broader market corrections or AI narrative cooling, offering attractive long funding opportunities. The token shows distinct intraday patterns with higher volatility during US trading hours. Weekend periods often see compressed rate ranges due to lower retail participation in WLD trading."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Cross-exchange arbitrage works well when Bluefin's WLD rates diverge significantly from Binance or OKX, particularly during high volatility periods. Long bias arbitrage profits from WLD's tendency toward positive funding during AI hype cycles by maintaining short positions. Delta-neutral strategies capture funding while hedging directional risk through spot holdings or options. The hourly settlement frequency enables active rate capture compared to 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WLD's high volatility can trigger margin calls during adverse price movements, requiring careful position sizing and stop management. Bluefin's DEX nature introduces smart contract risks and potential liquidity constraints during extreme market conditions. Sui network congestion could affect funding settlements, though the blockchain's speed typically ensures reliable execution. Monitor WLD's correlation with broader AI tokens as sector rotations can quickly reverse funding dynamics and arbitrage profitability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD funding rates on Bluefin compared to CEXs?",
+        "answer": "Bluefin's WLD rates often trade 0.1-0.3% daily premium to major CEXs due to its Sui-focused user base and growing liquidity. During AI sector volatility, this premium can widen to 0.5-1% daily, creating attractive arbitrage opportunities for traders with multi-exchange access."
+      },
+      {
+        "question": "How does Bluefin's hourly funding affect WLD arbitrage strategies?",
+        "answer": "The hourly settlements allow more frequent rate capture and position adjustments compared to traditional 8-hour cycles. This enables active traders to capitalize on intraday WLD momentum while reducing overnight funding risk. However, gas costs on Sui must be factored into smaller, more frequent trades."
+      },
+      {
+        "question": "What are the main risks of WLD funding arbitrage on Bluefin?",
+        "answer": "Primary risks include WLD's high price volatility potentially causing margin liquidations, smart contract risks inherent to DEX trading, and Sui ecosystem concentration risk. Additionally, WLD's correlation with AI sector sentiment can create unpredictable funding reversals during narrative shifts."
+      },
+      {
+        "question": "How liquid is WLD/USDT on Bluefin for funding rate strategies?",
+        "answer": "Bluefin maintains adequate WLD liquidity for most retail arbitrage strategies, with typical market depth supporting $50-100K trades within 1% slippage. However, institutional-size positions may experience increased impact costs compared to tier-1 CEXs, requiring careful execution timing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "rune-usdt",
+    "op-usdt",
+    "inj-usdt",
+    "jup-usdt"
+  ]
+}

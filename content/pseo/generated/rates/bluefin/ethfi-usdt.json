@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rates on Bluefin | DEX Arbitrage",
+    "description": "Track ETHFI/USDT perpetual funding rates on Bluefin DEX. Hourly settlements, 0.02% maker fees, and Sui-based order book trading for funding rate arbitrage.",
+    "keywords": [
+      "ETHFI funding rates",
+      "Bluefin DEX",
+      "Sui perpetuals",
+      "funding rate arbitrage",
+      "ETHFI USDT",
+      "DeFi perpetual futures",
+      "hourly funding",
+      "order book DEX"
+    ]
+  },
+  "content": {
+    "intro": "ETHFI/USDT perpetual futures on Bluefin offer hourly funding rate settlements on the Sui blockchain's leading perpetual DEX. Bluefin's institutional-grade matching engine provides competitive pricing for EtherFi governance token trading.",
+    "how_funding_works": "Bluefin calculates funding rates hourly using a premium/discount mechanism comparing perpetual price to mark price. Long positions pay funding when rates are positive, receiving payment when negative. The Sui blockchain enables fast settlement with sub-second finality. Funding payments are automatically credited or debited from position margins without requiring manual intervention.",
+    "why_this_pair": "ETHFI's role as a liquid staking governance token creates funding rate volatility around staking reward announcements and protocol updates. The limited trading volume on Bluefin can lead to funding rate premiums compared to centralized exchanges. EtherFi's growing TVL and institutional adoption drive interest in ETHFI perpetual positions for funding arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETHFI funding rates on Bluefin typically range from -0.1% to 0.3% hourly, with spikes during major EtherFi protocol updates or liquid staking market movements. The DEX's lower liquidity often results in 20-50 basis points premium over centralized exchanges during high volatility periods. Funding rates tend to be more positive during ETH staking yield increases and negative during broader DeFi market corrections. Weekend periods often show reduced funding rate volatility due to lower institutional activity on the Sui ecosystem."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Bluefin and major CEXs like Binance or OKX can yield 0.5-2% daily during funding rate divergences. Bluefin's 0.02% maker fees and hourly funding settlements allow for frequent position adjustments to capture rate differentials. The Sui blockchain's fast finality enables rapid position management, though users must account for bridge times when moving funds between ecosystems. Long ETHFI on Bluefin paired with short positions on higher-volume exchanges often provides the most consistent arbitrage returns."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "ETHFI's relatively low market cap creates higher slippage risk on Bluefin's order book, especially for positions above $50k. The Sui ecosystem's early stage introduces smart contract risks and potential liquidity crunches during market stress. Funding rate arbitrage requires monitoring EtherFi protocol developments that can cause sudden funding rate shifts. Bridge risk when moving funds between Sui and other chains for cross-exchange arbitrage adds operational complexity and potential delays during network congestion."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ETHFI funding rates settled on Bluefin?",
+        "answer": "Bluefin settles ETHFI/USDT funding rates every hour on the hour. This frequent settlement schedule allows traders to capture short-term funding rate opportunities and adjust positions more dynamically than the typical 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What are the trading fees for ETHFI perpetuals on Bluefin?",
+        "answer": "Bluefin charges 0.02% maker fees and 0.05% taker fees for ETHFI/USDT perpetual trades. These competitive rates, combined with the potential for earning maker rebates, help offset funding costs when running arbitrage strategies across multiple exchanges."
+      },
+      {
+        "question": "How does Bluefin's order book model affect ETHFI funding rates?",
+        "answer": "Bluefin's central limit order book provides transparent price discovery for ETHFI perpetuals, though lower liquidity compared to CEXs can create funding rate premiums. The institutional-grade matching engine ensures fair pricing, but traders should monitor order book depth when planning larger arbitrage positions."
+      },
+      {
+        "question": "What risks should I consider when trading ETHFI on Bluefin?",
+        "answer": "Key risks include Sui blockchain early-stage development, ETHFI's volatility as a governance token, and potential liquidity constraints during market stress. Additionally, cross-chain bridge risks apply when moving funds for arbitrage strategies between Bluefin and other exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "dot-usdt",
+    "wld-usdt",
+    "aave-usdt",
+    "pepe-usdt",
+    "inj-usdt"
+  ]
+}
