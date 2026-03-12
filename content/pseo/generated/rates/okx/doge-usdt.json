@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX DOGE/USDT Funding Rate Analysis & Arbitrage",
+    "description": "Track OKX DOGE/USDT perpetual funding rates. 8-hour cycles, portfolio margin support, and arbitrage opportunities on the world's largest meme coin.",
+    "keywords": [
+      "OKX DOGE funding rate",
+      "DOGE perpetual futures",
+      "Dogecoin funding arbitrage",
+      "OKX portfolio margin",
+      "meme coin funding",
+      "DOGE/USDT perps",
+      "8-hour funding"
+    ]
+  },
+  "content": {
+    "intro": "OKX DOGE/USDT perpetual futures offer robust funding rate arbitrage opportunities with 8-hour settlement cycles and portfolio margin support. As the largest meme coin by market cap, DOGE exhibits unique funding patterns driven by retail sentiment and social media cycles.",
+    "how_funding_works": "OKX calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual and spot prices. The exchange applies a dampening mechanism to prevent extreme rates, typically capping at ±2.5% for 8-hour periods. Portfolio margin users can optimize capital efficiency by cross-margining DOGE positions with other assets, reducing overall margin requirements for arbitrage strategies.",
+    "why_this_pair": "DOGE/USDT on OKX attracts significant retail interest during meme coin rallies, often creating sustained positive funding rates as leveraged longs dominate. The pair's high volatility and social media-driven price movements generate predictable funding patterns, particularly during Elon Musk tweets or broader meme coin narratives.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE funding rates on OKX exhibit strong correlation with social sentiment and broader crypto market cycles. During bull runs, funding rates consistently turn positive (+0.1% to +0.5% per 8h) as retail traders pile into long positions. Bear markets see more balanced funding, occasionally turning negative during major selloffs. Weekend periods often show elevated positive funding as retail activity peaks. The most extreme rates occur during viral social media events, with rates exceeding +1% per 8-hour period during peak FOMO phases."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "OKX's portfolio margin mode enables efficient DOGE funding rate arbitrage by allowing cross-margining with spot DOGE holdings. Traders can short DOGE perpetuals while holding spot DOGE, collecting positive funding payments without directional exposure. The exchange's API supports automated funding rate collection strategies with sub-second execution capabilities. Optimal entry points typically occur when funding rates exceed +0.3% per 8-hour period, providing attractive risk-adjusted returns after accounting for OKX's 0.02% maker fees."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "DOGE's extreme volatility requires careful position sizing and stop-loss management in funding rate strategies. Sudden price movements can create significant unrealized losses that offset funding income, particularly during liquidation cascades. OKX's automatic deleveraging system may close positions during extreme market stress, disrupting long-term funding collection strategies. Traders should monitor portfolio margin utilization closely, as DOGE's high volatility can rapidly consume available margin during adverse price movements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are DOGE funding rates calculated on OKX?",
+        "answer": "OKX calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. Payments are exchanged between long and short position holders based on the calculated rate at these settlement times."
+      },
+      {
+        "question": "Can I use portfolio margin for DOGE funding rate arbitrage on OKX?",
+        "answer": "Yes, OKX's portfolio margin mode allows you to cross-margin DOGE perpetual positions with spot DOGE holdings and other assets. This significantly improves capital efficiency for delta-neutral funding rate strategies by reducing overall margin requirements."
+      },
+      {
+        "question": "What are typical DOGE funding rates during bull markets on OKX?",
+        "answer": "During bull markets, DOGE funding rates on OKX typically range from +0.1% to +0.5% per 8-hour period. Extreme events like viral social media mentions can push rates above +1% per period as retail traders heavily favor long positions."
+      },
+      {
+        "question": "How does OKX prevent extreme funding rates for DOGE?",
+        "answer": "OKX employs a dampening mechanism that typically caps funding rates at ±2.5% per 8-hour period. This prevents extreme funding costs while still allowing rates to reflect genuine supply and demand imbalances in the perpetual futures market."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "tao-usdt",
+    "bonk-usdt",
+    "w-usdt",
+    "btc-usdt"
+  ]
+}

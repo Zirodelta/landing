@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on Bybit - Real-Time Analysis",
+    "description": "Track TIA/USDT perpetual funding rates on Bybit. 8-hour funding cycles, competitive rates for arbitrage strategies. Live data and historical patterns.",
+    "keywords": [
+      "TIA funding rates",
+      "Bybit TIA/USDT",
+      "Celestia funding arbitrage",
+      "perpetual futures",
+      "8-hour funding",
+      "derivatives trading",
+      "infrastructure tokens"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities within Celestia's modular blockchain ecosystem. Bybit's 8-hour funding cycles provide three daily settlement windows, enabling precise timing for rate capture strategies across this infrastructure token's derivatives market.",
+    "how_funding_works": "Bybit calculates TIA/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the mark price premium over the index price. The funding fee exchanges hands directly between long and short position holders, with Bybit's matching engine automatically debiting/crediting accounts at settlement. Rate caps of ±0.75% per funding period protect against extreme market conditions while maintaining market efficiency.",
+    "why_this_pair": "TIA represents Celestia's modular blockchain infrastructure, creating unique funding dynamics driven by institutional adoption patterns and validator staking flows. The token's mid-tier volume on Bybit generates consistent funding rate volatility, particularly during network upgrade announcements or major partnerships that affect validator economics and token utility demand.",
+    "sections": [
+      {
+        "heading": "Historical TIA Funding Rate Patterns",
+        "body": "TIA funding rates on Bybit have exhibited distinct cycles correlating with Celestia network milestones and broader modular blockchain adoption trends. During Q2 2024, rates averaged +0.015% per 8-hour period during bullish infrastructure narratives, while periods of DeFi rotation saw negative rates reaching -0.025%. The token's funding patterns often diverge from major cryptocurrencies due to its specialized use case in data availability and consensus layers. Arbitrageurs benefit from TIA's tendency toward sustained directional funding bias during ecosystem development phases, creating multi-day rate capture opportunities."
+      },
+      {
+        "heading": "TIA Arbitrage Opportunities on Bybit",
+        "body": "Bybit's deep TIA/USDT orderbook and competitive 0.02% maker fees create favorable conditions for funding rate arbitrage strategies. Cross-platform arbitrage opportunities frequently emerge between Bybit and spot markets during funding settlement windows, particularly when institutional flows drive perpetual premiums. The exchange's unified trading account enables efficient capital rotation between TIA perpetuals and USDT lending markets for enhanced yield optimization. Advanced traders leverage Bybit's API for automated funding rate monitoring and position sizing based on 8-hour rate forecasts and historical volatility patterns."
+      },
+      {
+        "heading": "Risk Management for TIA Funding Strategies",
+        "body": "TIA's infrastructure token classification introduces specific risks including regulatory uncertainty around modular blockchain frameworks and validator centralization concerns that can trigger sharp price movements. Position sizing should account for TIA's correlation with broader infrastructure narratives and potential ecosystem-specific events like mainnet upgrades or major validator set changes. Bybit's mark price methodology helps mitigate manipulation risks, but traders must monitor Celestia governance proposals and network parameter changes that could affect token economics. Funding rate strategies should incorporate stop-loss mechanisms for underlying price exposure while maintaining delta-neutral positioning across the 8-hour funding cycles."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical TIA funding rates on Bybit?",
+        "answer": "TIA funding rates on Bybit typically range from -0.03% to +0.04% per 8-hour period, with average rates around +0.01% during neutral market conditions. Rates can spike during Celestia ecosystem events or broader infrastructure token rotations."
+      },
+      {
+        "question": "How does Bybit calculate TIA mark price for funding?",
+        "answer": "Bybit uses a composite index of major spot exchanges including Binance, OKX, and others to determine TIA's fair value. The mark price incorporates funding basis and is updated every second to ensure accurate funding rate calculations for the 8-hour settlement cycles."
+      },
+      {
+        "question": "Can I use Bybit's unified account for TIA funding arbitrage?",
+        "answer": "Yes, Bybit's unified trading account allows seamless capital allocation between TIA perpetuals, spot trading, and USDT lending within the same margin pool. This enables sophisticated arbitrage strategies combining funding rate capture with cross-market opportunities."
+      },
+      {
+        "question": "What's the minimum position size for TIA funding strategies?",
+        "answer": "Bybit requires minimum order values of $1 USDT for TIA perpetuals, making the exchange accessible for smaller arbitrage positions. However, funding fees are most cost-effective with positions above $1,000 due to the fixed 0.02%/0.055% trading fee structure."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "xrp-usdt",
+    "bnb-usdt",
+    "ethfi-usdt",
+    "aave-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "dot-usdt",
+    "base": "DOT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX DOT/USDT Funding Rate - Polkadot Perpetual Futures",
+    "description": "Track OKX DOT/USDT perpetual funding rates updated every 8 hours. Access real-time data for Polkadot funding rate arbitrage opportunities.",
+    "keywords": [
+      "OKX DOT funding rate",
+      "Polkadot perpetual futures",
+      "DOT USDT arbitrage",
+      "OKX funding arbitrage",
+      "DOT funding rate",
+      "Polkadot futures",
+      "crypto funding rate"
+    ]
+  },
+  "content": {
+    "intro": "OKX's DOT/USDT perpetual futures provide funding rate arbitrage opportunities with 8-hour settlement intervals at 00:00, 08:00, and 16:00 UTC. Polkadot's status as a leading interoperability L1 blockchain creates consistent trading volume and funding rate volatility on OKX's institutional-grade platform.",
+    "how_funding_works": "OKX calculates DOT/USDT funding rates using the premium index between perpetual and spot prices, with payments exchanged between long and short position holders every 8 hours. The exchange applies a dampening factor to prevent extreme rates and uses time-weighted average pricing during the final hour before settlement. OKX's portfolio margin mode allows efficient capital allocation across multiple positions, enhancing funding rate strategies. Position holders can view upcoming funding costs in real-time through OKX's advanced trading interface.",
+    "why_this_pair": "DOT/USDT represents one of the largest L1 blockchain tokens by market cap, generating substantial perpetual futures volume on OKX with frequent funding rate fluctuations. Polkadot's active parachain ecosystem and staking mechanics create natural long bias that often results in positive funding rates for arbitrage opportunities. The pair's high liquidity on OKX ensures minimal slippage when executing funding rate strategies across large position sizes.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOT/USDT funding rates on OKX typically range from -0.05% to +0.15% per 8-hour period, with notable spikes during Polkadot ecosystem announcements and parachain slot auctions. Historical data shows sustained positive funding periods of 2-4 weeks during bull markets, driven by leveraged long positions from DOT staking yield arbitrage strategies. The pair exhibits lower funding volatility compared to smaller cap altcoins but higher than major pairs like BTC/USDT. Funding rate patterns often correlate with Polkadot's quarterly parachain auction cycles and major ecosystem developments. Weekend periods frequently show compressed funding rates due to reduced institutional activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "OKX's DOT/USDT perpetual offers systematic arbitrage opportunities during periods of sustained positive funding, particularly when rates exceed 0.1% per 8-hour period. Traders can profit by shorting the perpetual while holding spot DOT, capturing funding payments while maintaining market-neutral exposure. The strategy becomes more attractive when combined with DOT staking rewards on Polkadot's native network, creating dual yield streams. OKX's portfolio margin system allows efficient leverage management across the arbitrage position, reducing capital requirements. High-frequency opportunities emerge during funding settlement periods when basis trading creates short-term price dislocations."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "DOT/USDT funding rate arbitrage on OKX carries basis risk from price divergence between perpetual and spot markets, particularly during high volatility periods around Polkadot network upgrades. Funding rate reversals can occur rapidly during market stress, converting profitable positions to loss-making within single settlement periods. OKX's 8-hour funding intervals create overnight exposure that may not align with spot market hedging availability on other venues. Position sizing must account for OKX's liquidation mechanisms and portfolio margin requirements, especially during periods of elevated DOT price volatility. Regulatory changes affecting either OKX operations or Polkadot network status could impact position viability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical DOT/USDT funding rates on OKX?",
+        "answer": "DOT/USDT funding rates on OKX typically range from -0.05% to +0.15% per 8-hour period, with an average positive rate of approximately 0.02-0.05%. Rates can spike above 0.2% during strong bullish sentiment or major Polkadot ecosystem events."
+      },
+      {
+        "question": "How does OKX calculate DOT perpetual funding rates?",
+        "answer": "OKX calculates DOT funding rates using the time-weighted average premium between the perpetual contract price and the underlying spot index over the final hour before each 8-hour settlement. The exchange applies dampening factors to prevent extreme rates and uses multiple spot price sources for the index calculation."
+      },
+      {
+        "question": "Can I use OKX portfolio margin for DOT funding arbitrage?",
+        "answer": "Yes, OKX's portfolio margin mode allows cross-collateralization between DOT perpetual positions and other assets, reducing capital requirements for funding rate arbitrage strategies. This enables more efficient capital allocation compared to isolated margin trading."
+      },
+      {
+        "question": "What's the minimum position size for DOT/USDT perpetuals on OKX?",
+        "answer": "OKX sets the minimum order size for DOT/USDT perpetuals at 0.1 DOT, with position increments of 0.1 DOT thereafter. The contract multiplier is 1, meaning each contract represents 1 DOT token."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "doge-usdt",
+    "matic-usdt",
+    "ldo-usdt",
+    "stx-usdt"
+  ]
+}

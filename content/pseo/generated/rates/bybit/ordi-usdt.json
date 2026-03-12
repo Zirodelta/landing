@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rate Arbitrage on Bybit | Live Rates",
+    "description": "Trade ORDI/USDT perpetual futures on Bybit with 8-hour funding intervals. Capitalize on funding rate arbitrage opportunities in this Bitcoin ordinals token.",
+    "keywords": [
+      "ordi funding rate",
+      "bybit ordi perpetual",
+      "ordi usdt arbitrage",
+      "bitcoin ordinals futures",
+      "bybit funding arbitrage",
+      "ordi derivatives",
+      "8 hour funding",
+      "ordinals token trading"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the Bitcoin ordinals ecosystem. As the first BRC-20 token, ORDI exhibits unique funding dynamics driven by its connection to Bitcoin network activity and ordinals marketplace trends.",
+    "how_funding_works": "Bybit calculates ORDI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual and mark prices. The funding rate is capped at ±0.75% to prevent extreme payments during high volatility. When funding is positive, long positions pay shorts; when negative, shorts pay longs. Bybit's unified margin account allows traders to use cross-collateral for funding rate strategies without separate position management.",
+    "why_this_pair": "ORDI's relatively small trading volume compared to major cryptocurrencies can lead to more pronounced funding rate imbalances, especially during Bitcoin ordinals hype cycles. The token's correlation with Bitcoin network congestion and NFT marketplace activity creates predictable funding patterns. Bybit's competitive maker fees of 0.02% make it cost-effective to maintain hedged positions for funding arbitrage.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI funding rates on Bybit typically range from -0.3% to +0.5% during normal market conditions, with extreme spikes during ordinals marketplace booms reaching ±0.75% caps. The token shows strong correlation with Bitcoin network activity, often exhibiting positive funding when Bitcoin transaction fees surge due to ordinals minting. Weekend periods frequently see negative funding rates as retail interest wanes, creating consistent arbitrage windows. Historical data shows funding rate volatility peaks during major ordinals collection launches or Bitcoin halvings when network attention intensifies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "ORDI funding arbitrage works best during ordinals ecosystem events when spot-futures basis diverges significantly from other exchanges. Traders can exploit Bybit's 8-hour intervals by timing entries before high-impact ordinals news or Bitcoin network congestion periods. Cross-exchange arbitrage with ORDI spot positions on OKX or Binance while holding opposite Bybit perpetual positions can capture both funding payments and basis differentials. The strategy requires monitoring Bitcoin mempool congestion and ordinals marketplace volume as leading indicators for funding direction."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "ORDI's small market cap creates significant price volatility that can overwhelm funding income if positions aren't properly hedged. Bybit's 50x maximum leverage for ORDI increases liquidation risks during flash moves common in smaller altcoins. Funding arbitrage positions should maintain adequate margin buffers as ORDI can gap 10-20% on major ordinals ecosystem developments. Auto-deleveraging risk is higher during extreme market conditions due to ORDI's limited liquidity compared to major perpetual contracts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ORDI funding rates on Bybit?",
+        "answer": "ORDI funding rates on Bybit typically range from -0.3% to +0.5% during normal conditions, with caps at ±0.75%. Rates often spike during Bitcoin ordinals marketplace activity or network congestion periods."
+      },
+      {
+        "question": "How does Bybit's ORDI perpetual compare to other exchanges?",
+        "answer": "Bybit offers competitive ORDI perpetual trading with 8-hour funding intervals and up to 50x leverage. The exchange's unified margin system allows efficient cross-collateral management for arbitrage strategies compared to isolated margin requirements on some competitors."
+      },
+      {
+        "question": "When is the best time to trade ORDI funding arbitrage?",
+        "answer": "Optimal timing coincides with Bitcoin network congestion periods and major ordinals collection launches when funding premiums spike. Weekend periods often show negative funding rates, creating predictable arbitrage opportunities for prepared traders."
+      },
+      {
+        "question": "What risks are specific to ORDI funding arbitrage?",
+        "answer": "ORDI's small market cap creates high price volatility that can exceed funding income. The token's correlation with Bitcoin ordinals ecosystem creates concentrated risk during market downturns affecting the entire BRC-20 space."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "blur-usdt",
+    "sui-usdt",
+    "jup-usdt",
+    "w-usdt"
+  ]
+}

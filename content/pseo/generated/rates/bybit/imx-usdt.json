@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Funding Rates on Bybit - Arbitrage Guide",
+    "description": "Track IMX/USDT perpetual funding rates on Bybit. Analyze 8-hour funding cycles, gaming token volatility, and arbitrage opportunities with competitive fees.",
+    "keywords": [
+      "IMX funding rates",
+      "Bybit perpetual",
+      "gaming token arbitrage",
+      "funding rate strategy",
+      "IMX futures",
+      "crypto derivatives",
+      "perpetual futures",
+      "Bybit trading"
+    ]
+  },
+  "content": {
+    "intro": "IMX/USDT perpetual futures on Bybit offer exposure to Immutable X's gaming ecosystem through 8-hour funding cycles. As a mid-tier gaming token, IMX frequently exhibits funding rate inefficiencies driven by retail sentiment around NFT gaming trends. Bybit's robust derivatives infrastructure makes it an optimal venue for capitalizing on these funding rate movements.",
+    "how_funding_works": "Bybit calculates IMX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The platform uses a time-weighted average price methodology over the funding period to determine rates. Long positions pay shorts when rates are positive, while shorts pay longs during negative funding periods. Bybit caps funding rates at ±0.75% to prevent extreme scenarios during high volatility.",
+    "why_this_pair": "IMX perpetuals exhibit pronounced funding rate cycles due to gaming sector sentiment and retail speculation around NFT marketplaces. The token's mid-tier liquidity creates opportunities for larger funding rate deviations compared to major cryptocurrencies. Gaming token narratives often drive sustained directional bias in perpetual positioning, creating predictable funding rate patterns for arbitrageurs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "IMX/USDT funding rates on Bybit typically range from -0.3% to +0.4% during normal market conditions. Gaming sector rallies often produce sustained positive funding periods lasting 3-5 days as retail traders pile into long positions. Conversely, broader market downturns see funding rates turn consistently negative as leveraged longs get liquidated. The pair shows increased funding rate volatility during major gaming announcements, token unlocks, and NFT market sentiment shifts. Weekend periods often exhibit lower funding rate magnitudes due to reduced institutional activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Funding rate arbitrage with IMX/USDT works best during gaming narrative-driven rallies when funding rates exceed +0.2% consistently. Traders can short IMX perpetuals while holding spot IMX to collect funding payments from over-leveraged longs. The strategy requires monitoring gaming sector catalysts, token unlock schedules, and broader NFT market sentiment. Position sizing should account for IMX's moderate liquidity and potential for gap movements during low Asian trading hours. Bybit's competitive maker fees of 0.02% enhance arbitrage profitability compared to higher-fee exchanges."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "IMX funding rate arbitrage carries specific risks related to gaming sector volatility and token utility changes. Partnership announcements or major game launches can trigger sustained price movements that overwhelm funding rate profits. The pair's correlation with broader gaming tokens like AXS and SAND can amplify portfolio concentration risk. Liquidity constraints during extreme market stress may prevent efficient position adjustments. Traders should monitor Immutable X's development roadmap and major gaming partnerships that could shift long-term demand dynamics for the token."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical IMX/USDT funding rates on Bybit?",
+        "answer": "IMX/USDT funding rates on Bybit typically range from -0.3% to +0.4% during normal conditions. During gaming sector rallies, rates can spike above +0.5% as retail traders crowd into long positions. Bear markets often see sustained negative rates around -0.2% to -0.4%."
+      },
+      {
+        "question": "How does Bybit's 8-hour funding cycle affect IMX arbitrage strategies?",
+        "answer": "Bybit's 8-hour cycles at 00:00, 08:00, and 16:00 UTC provide three daily opportunities to collect funding payments. IMX's gaming sector exposure means funding rates often cluster around major announcement times, typically during US/EU business hours. The longer 8-hour periods allow for more stable arbitrage positions compared to 1-hour funding cycles."
+      },
+      {
+        "question": "What position limits apply to IMX/USDT perpetuals on Bybit?",
+        "answer": "Bybit sets dynamic position limits for IMX/USDT based on account verification level and recent trading volume. Standard accounts typically face limits around 100,000-500,000 USDT notional value. VIP accounts receive higher limits suitable for institutional-scale funding rate arbitrage strategies."
+      },
+      {
+        "question": "How does gaming sector volatility impact IMX funding rate consistency?",
+        "answer": "Gaming sector news creates significant funding rate volatility for IMX/USDT as retail sentiment shifts rapidly. Major gaming partnerships or NFT marketplace updates can sustain positive funding for days. Conversely, gaming sector corrections often trigger quick reversals to negative funding as leveraged positions unwind."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "rune-usdt",
+    "eth-usdt",
+    "ldo-usdt",
+    "pyth-usdt"
+  ]
+}

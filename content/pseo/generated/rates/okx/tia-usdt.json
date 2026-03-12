@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on OKX - Arbitrage Opportunities",
+    "description": "Track TIA/USDT perpetual funding rates on OKX every 8 hours. Analyze modular blockchain infrastructure token funding patterns for arbitrage profits.",
+    "keywords": [
+      "TIA funding rate",
+      "OKX perpetual futures",
+      "Celestia funding arbitrage",
+      "TIA/USDT OKX",
+      "modular blockchain funding",
+      "8 hour funding cycles",
+      "infrastructure token arbitrage",
+      "OKX portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on OKX offer funding rate arbitrage opportunities with 8-hour settlement cycles. As Celestia's native token representing modular blockchain infrastructure, TIA exhibits distinct funding patterns driven by staking rewards and institutional adoption trends.",
+    "how_funding_works": "OKX calculates TIA/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The exchange uses a time-weighted average price mechanism with a ±0.375% funding rate cap per period. Portfolio margin mode allows cross-collateral optimization, reducing margin requirements when holding both long and short positions across different assets. OKX's robust API infrastructure enables automated funding rate monitoring and position management.",
+    "why_this_pair": "TIA funding rates often diverge significantly from major assets due to limited cross-exchange arbitrage and concentrated institutional interest in modular blockchain infrastructure. The token's staking mechanism creates natural supply constraints, leading to persistent funding premiums during bullish sentiment. Mid-tier volume levels on OKX provide arbitrage opportunities without the intense competition seen in top-tier pairs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TIA/USDT funding rates on OKX have shown consistent positive bias during infrastructure narrative cycles, with rates frequently exceeding +0.2% per 8-hour period. The pair exhibits heightened volatility around Celestia network upgrades and modular blockchain ecosystem developments. Unlike established assets, TIA funding correlates strongly with developer activity metrics and validator participation rates. Weekend periods typically see reduced funding pressure as institutional traders reduce exposure, creating mean reversion opportunities for retail arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between OKX and Binance TIA perpetuals offers the most consistent opportunities, with funding differentials often exceeding 0.1% per cycle. Calendar spread arbitrage using OKX's quarterly futures alongside perpetuals can capture term structure inefficiencies common in infrastructure tokens. The exchange's portfolio margin system enables delta-neutral strategies combining TIA positions with correlated modular blockchain tokens. Automated strategies benefit from OKX's advanced order types and API rate limits optimized for high-frequency funding rate monitoring."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "TIA's relatively low market cap creates gap risk during major ecosystem announcements or broader crypto market stress events. The token's correlation with Ethereum scaling narratives introduces systematic risk that pure funding arbitrage cannot hedge. OKX's 100x maximum leverage on TIA perpetuals requires careful position sizing to avoid liquidation during volatility spikes. Regulatory uncertainty around modular blockchain infrastructure could impact funding dynamics, particularly affecting institutional flow patterns that drive persistent rate premiums."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical TIA funding rates on OKX compared to other exchanges?",
+        "answer": "TIA funding rates on OKX typically range from +0.01% to +0.25% per 8-hour cycle, often trading at a premium to Binance due to OKX's strong institutional presence in infrastructure tokens. During bullish cycles, rates can reach the +0.375% cap."
+      },
+      {
+        "question": "How does OKX's portfolio margin affect TIA funding arbitrage?",
+        "answer": "Portfolio margin mode reduces initial margin requirements by up to 80% when holding offsetting positions, enabling larger arbitrage positions with the same capital. This is particularly beneficial for TIA strategies that hedge with other Cosmos ecosystem tokens."
+      },
+      {
+        "question": "What's the minimum position size for TIA funding arbitrage on OKX?",
+        "answer": "OKX requires a minimum order size of 0.1 TIA with 0.001 TIA increments. Given typical funding rates, profitable arbitrage generally requires positions above $1,000 to overcome trading fees and funding rate uncertainty."
+      },
+      {
+        "question": "How do Celestia network upgrades impact TIA funding patterns?",
+        "answer": "Major Celestia upgrades typically increase funding rates 24-48 hours before implementation as traders establish long exposure. Post-upgrade periods often see funding normalization as speculative interest subsides and utility-driven demand stabilizes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "doge-usdt",
+    "ordi-usdt",
+    "floki-usdt",
+    "ena-usdt"
+  ]
+}

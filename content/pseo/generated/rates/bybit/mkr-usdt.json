@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "mkr-usdt",
+    "base": "MKR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MKR/USDT Funding Rates on Bybit - Perpetual Futures",
+    "description": "Track MKR/USDT funding rates on Bybit for DeFi arbitrage opportunities. 8-hour intervals, 0.02% maker fees, reliable infrastructure for perpetual trading.",
+    "keywords": [
+      "MKR funding rate",
+      "Bybit perpetual",
+      "DeFi arbitrage",
+      "MakerDAO trading",
+      "funding rate arbitrage",
+      "perpetual futures",
+      "USDT pairs",
+      "derivatives trading"
+    ]
+  },
+  "content": {
+    "intro": "MKR/USDT perpetual futures on Bybit offer structured exposure to MakerDAO governance token price movements with 8-hour funding intervals. Bybit's derivatives-focused platform provides competitive maker fees at 0.02% and reliable execution for DeFi token arbitrage strategies.",
+    "how_funding_works": "Bybit calculates MKR/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval with a 0.01% dampening factor applied when the premium falls within ±0.05%. Long positions pay shorts when rates are positive, reflecting bullish perpetual sentiment relative to spot markets.",
+    "why_this_pair": "MKR exhibits significant funding rate volatility during DeFi market cycles and governance events, creating arbitrage opportunities between Bybit perpetuals and spot markets. The token's mid-tier liquidity and governance-driven price movements often result in persistent funding premiums during bull markets. Bybit's unified margin system allows efficient capital deployment across MKR positions and hedging instruments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MKR funding rates on Bybit typically range from -0.3% to +0.4% during normal market conditions, with extreme readings reaching ±0.75% during DeFi boom cycles. Governance proposal announcements and DeFi TVL changes drive the most significant rate deviations. Funding rates tend to spike positive during broad DeFi rallies as retail traders crowd into long positions. The 8-hour interval structure allows for strategic position timing around known governance events and protocol updates."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MKR funding arbitrage works best when Bybit perpetual rates exceed 0.2% per 8-hour period, equivalent to 9.9% APR assuming rate persistence. Cross-exchange opportunities arise between Bybit perpetuals and MKR spot markets on Coinbase Pro or Binance during funding collection times. The strategy involves shorting overpriced perpetuals while holding spot MKR, capturing both funding payments and potential convergence profits. Bybit's fast execution and competitive fees make it suitable for high-frequency funding collection strategies during volatile periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MKR's governance token nature creates unique risks including voting-related price gaps and smart contract upgrade volatility that can overwhelm funding profits. The token's correlation with ETH and broader DeFi metrics means funding rates often persist longer than mean-reversion models predict. Liquidity during Asian trading hours can thin significantly, creating execution slippage risks for large arbitrage positions. Position sizing should account for MKR's tendency toward 20-30% daily volatility during market stress periods and potential delays in cross-exchange transfers during network congestion."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What's the minimum position size for MKR perpetuals on Bybit?",
+        "answer": "Bybit sets the minimum order size at 0.1 MKR for the MKR/USDT perpetual contract. Position increments follow 0.001 MKR tick sizes, allowing for precise position management in funding rate strategies."
+      },
+      {
+        "question": "How do MKR governance events affect Bybit funding rates?",
+        "answer": "Major governance proposals and executive votes typically drive funding rates positive 24-48 hours before implementation as traders position for potential price moves. Historical data shows funding spikes of 0.4-0.6% during significant protocol upgrades or collateral additions."
+      },
+      {
+        "question": "Can I use cross-margin for MKR funding arbitrage on Bybit?",
+        "answer": "Yes, Bybit's unified margin account allows cross-collateralization between MKR perpetual positions and other assets. This enables capital-efficient arbitrage strategies but requires careful risk management due to potential liquidation cascades during volatile periods."
+      },
+      {
+        "question": "What's the typical spread between MKR spot and perpetual on Bybit?",
+        "answer": "During normal conditions, the spread ranges from 0.02-0.08% but can widen to 0.3-0.5% during funding collection periods or major DeFi events. The spread directly influences funding rate calculations and arbitrage profitability."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "bnb-usdt",
+    "sui-usdt",
+    "inj-usdt",
+    "tao-usdt"
+  ]
+}

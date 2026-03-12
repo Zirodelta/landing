@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rates on Binance - Arbitrage Guide",
+    "description": "Track FIL/USDT perpetual funding rates on Binance for arbitrage opportunities. 8-hour intervals, deep liquidity, and infrastructure token volatility patterns.",
+    "keywords": [
+      "FIL funding rate",
+      "Binance perpetual",
+      "Filecoin arbitrage",
+      "USDT perps",
+      "crypto funding arbitrage",
+      "FIL futures",
+      "Binance funding",
+      "perpetual swap rates"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on Binance offer funding rate arbitrage opportunities through Filecoin's infrastructure token characteristics. Binance's 8-hour funding intervals and deep liquidity make it ideal for capturing rate discrepancies. The pair exhibits moderate volatility patterns typical of storage protocol tokens.",
+    "how_funding_works": "Binance calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual price and mark price. Long positions pay short positions when funding is positive, reflecting bullish sentiment. The exchange applies a dampening factor to prevent extreme rates, typically capping at ±2.5% per funding period. Settlement occurs automatically in USDT margin accounts.",
+    "why_this_pair": "FIL exhibits distinct funding patterns due to its utility in decentralized storage markets and enterprise adoption cycles. Infrastructure tokens like Filecoin often show asymmetric funding behavior during network upgrade periods and storage demand fluctuations. The pair's mid-tier volume provides sufficient liquidity while maintaining occasional rate inefficiencies for arbitrage capture.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FIL/USDT funding rates on Binance have historically ranged from -0.5% to +1.8% per 8-hour period, with average rates clustering around +0.01% annually. Storage network events like Plus upgrades and Filecoin Virtual Machine launches create funding spikes as speculation increases. Weekend periods often show compressed rates due to reduced institutional activity. The token's correlation with broader infrastructure plays leads to predictable funding cycles during sector rotations."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Primary arbitrage opportunities emerge when FIL funding rates diverge significantly from spot-futures basis on other exchanges. Binance's maker rebates of 0.02% help offset funding costs during negative rate periods. Cross-exchange arbitrage works best when Binance shows extreme positive funding while OKX or Bybit display neutral rates. Position sizing should account for FIL's 20-30% daily volatility and potential for rapid funding reversals during network announcements."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FIL's storage utility creates unique risks including regulatory scrutiny of data storage protocols and competition from Web3 infrastructure projects. The token's relatively low market cap compared to ETH or BTC amplifies funding rate volatility during whale movements. Binance's insurance fund provides protection against extreme liquidations, but FIL's correlation with tech sector sentiment requires careful position monitoring. Consider reducing exposure during Filecoin network governance votes and major storage partnership announcements that can trigger rapid price movements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FIL/USDT funding rates on Binance?",
+        "answer": "FIL/USDT funding rates typically range from -0.1% to +0.3% per 8-hour period, averaging slightly positive due to retail long bias. Extreme rates above ±1% occur during major storage network events or broader crypto market volatility."
+      },
+      {
+        "question": "How does Binance's FIL funding compare to other exchanges?",
+        "answer": "Binance generally shows higher funding rates than OKX or Bybit during bullish periods due to retail participation. The exchange's deeper liquidity means more stable rates during normal market conditions, with less frequent extreme spikes compared to smaller platforms."
+      },
+      {
+        "question": "When do FIL funding arbitrage opportunities peak?",
+        "answer": "Opportunities typically peak during Filecoin network upgrades, enterprise storage announcements, or broad infrastructure token rallies. Asian trading hours often show higher positive funding due to retail demand, creating arbitrage potential against Western markets."
+      },
+      {
+        "question": "What position sizes work best for FIL funding arbitrage?",
+        "answer": "Optimal position sizes range from $10K-$100K depending on current rates and volatility. Larger positions above $500K may impact funding calculations during low volume periods, while very small positions under $1K don't justify transaction costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "btc-usdt",
+    "uni-usdt",
+    "ethfi-usdt",
+    "eth-usdt"
+  ]
+}

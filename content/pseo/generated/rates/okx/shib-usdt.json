@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "shib-usdt",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX SHIB/USDT Funding Rates - Perpetual Futures Analytics",
+    "description": "Track OKX SHIB/USDT perpetual futures funding rates for arbitrage opportunities. 8-hour cycles with detailed analytics for meme coin trading strategies.",
+    "keywords": [
+      "OKX SHIB funding rates",
+      "SHIB perpetual futures",
+      "meme coin arbitrage",
+      "OKX funding arbitrage",
+      "SHIB futures trading",
+      "crypto funding analytics",
+      "perpetual swap rates",
+      "OKX derivatives"
+    ]
+  },
+  "content": {
+    "intro": "OKX SHIB/USDT perpetual futures offer funding rate arbitrage opportunities on one of crypto's largest meme coin markets. The 8-hour funding cycle creates predictable rate patterns, especially during SHIB's high volatility periods. Large trading volumes ensure adequate liquidity for substantial funding rate positions.",
+    "how_funding_works": "OKX calculates SHIB/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the time-weighted average premium between perpetual and spot prices. The rate is capped at ±0.75% per funding interval to prevent extreme payments. OKX's portfolio margin mode allows efficient capital utilization across multiple SHIB positions. Funding payments occur automatically in USDT, with positions requiring sufficient margin balance to cover potential payments.",
+    "why_this_pair": "SHIB/USDT generates significant funding rate volatility due to retail trader sentiment and meme coin speculation cycles. High trading volumes on OKX ensure minimal slippage when entering arbitrage positions, while the pair's correlation with broader crypto markets creates predictable funding patterns. The large market cap and established derivatives interest make SHIB suitable for substantial funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SHIB/USDT funding rates on OKX typically range from -0.3% to +0.4% during normal market conditions, with extreme rates reaching ±0.75% during major price movements. Positive funding dominates during retail FOMO periods, often coinciding with social media trends or broader meme coin rallies. Weekend sessions frequently show lower absolute rates due to reduced institutional activity. The pair exhibits strong correlation with Ethereum gas prices, as high network costs can temporarily suppress SHIB trading activity and funding rate volatility."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between OKX and other major venues like Binance or Bybit becomes profitable when funding rate differentials exceed 0.15% after accounting for fees. Long-short neutral strategies work effectively during high volatility periods when funding rates consistently favor one direction. OKX's portfolio margin allows leveraging funding arbitrage across multiple SHIB-related pairs simultaneously. Market makers can capture funding premiums by maintaining delta-neutral positions while earning the 8-hour rate differential."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "SHIB's high volatility can trigger margin calls despite hedged positions if correlations break down temporarily. Funding rate reversals often occur rapidly during sentiment shifts, requiring active monitoring of position exposure. OKX's auto-deleveraging system may force close positions during extreme market stress, potentially disrupting arbitrage strategies. Large position sizes should account for the pair's tendency toward gap moves during low-liquidity Asian trading sessions, which can create temporary funding rate distortions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical SHIB/USDT funding rates on OKX?",
+        "answer": "SHIB/USDT funding rates on OKX typically range from -0.3% to +0.4% during normal conditions, with caps at ±0.75%. Rates tend toward positive during retail buying pressure and can spike significantly during meme coin rallies or major SHIB developments."
+      },
+      {
+        "question": "How does OKX calculate SHIB funding payments?",
+        "answer": "OKX calculates funding every 8 hours using the time-weighted average premium between SHIB perpetual and index prices. Payments occur automatically in USDT at 00:00, 08:00, and 16:00 UTC, with long positions paying when rates are positive."
+      },
+      {
+        "question": "Can I use portfolio margin for SHIB funding arbitrage on OKX?",
+        "answer": "Yes, OKX's portfolio margin mode allows efficient capital utilization for SHIB funding strategies by netting exposures across related positions. This enables larger arbitrage positions with reduced margin requirements compared to isolated margin mode."
+      },
+      {
+        "question": "What minimum position size is practical for SHIB funding arbitrage?",
+        "answer": "Given OKX's 0.02%/0.05% trading fees, minimum viable positions typically start around $5,000 to generate meaningful profits after costs. Larger positions benefit from economies of scale, though liquidity constraints may affect execution above $50,000 during low-volume periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fet-usdt",
+    "ton-usdt",
+    "tia-usdt",
+    "eth-usdt",
+    "op-usdt"
+  ]
+}

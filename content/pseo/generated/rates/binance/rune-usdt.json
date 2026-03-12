@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rates on Binance - THORChain Perpetual",
+    "description": "Track RUNE/USDT funding rates on Binance for perpetual futures arbitrage. 8-hour funding cycles with deep liquidity for THORChain position strategies.",
+    "keywords": [
+      "RUNE funding rates",
+      "Binance perpetual futures",
+      "THORChain arbitrage",
+      "RUNE/USDT trading",
+      "crypto funding rates",
+      "DeFi token funding",
+      "perpetual futures strategy",
+      "Binance RUNE"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Binance offer funding rate arbitrage opportunities tied to THORChain's cross-chain liquidity protocol. With 8-hour funding cycles and mid-tier trading volumes, RUNE positions benefit from Binance's deep institutional liquidity. The pair typically shows higher volatility during DeFi market cycles, creating potential funding rate imbalances.",
+    "how_funding_works": "Binance calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per 8-hour period with interest rate component typically at 0.01%. When RUNE perpetual trades above spot price, long positions pay funding to shorts, and vice versa. Funding payments are automatically settled from your futures wallet balance without affecting position size.",
+    "why_this_pair": "RUNE funding rates often diverge significantly during THORChain protocol updates and DeFi yield farming cycles. The token's utility in cross-chain swaps creates periodic demand spikes that aren't immediately reflected in perpetual pricing. Mid-tier volume means funding rates can swing more dramatically than major pairs, offering higher potential returns for informed arbitrageurs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE funding rates on Binance have historically ranged from -0.5% to +0.4% per 8-hour period during major DeFi cycles. The token typically sees positive funding during THORChain mainnet upgrades and cross-chain bridge integrations when spot demand exceeds perpetual positioning. Negative funding periods often coincide with broader DeFi selloffs when leveraged longs get liquidated. Monthly average funding has varied between -0.02% and +0.15% depending on protocol development milestones and overall DeFi sentiment."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RUNE funding arbitrage works best during protocol announcements when spot buying pressure creates sustained positive funding rates above 0.1% per cycle. Cross-exchange arbitrage opportunities exist between Binance and smaller CEXs that may not adjust perpetual pricing as quickly. The optimal strategy involves shorting RUNE perpetuals on Binance while holding spot RUNE during positive funding periods. Risk-adjusted returns improve when combining with THORChain native yield opportunities, though this requires managing cross-chain bridge risks."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RUNE's mid-tier liquidity means larger positions face increased slippage during volatile periods, especially around THORChain governance votes or protocol exploits. The token's correlation with broader DeFi markets can create sudden funding rate reversals during market stress. Auto-deleveraging risk increases when RUNE experiences sharp moves above 20% daily, as Binance may forcibly close positions to maintain system stability. Regulatory risks around DeFi tokens could impact perpetual availability, making position sizing and exit strategies crucial for long-term funding rate strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What affects RUNE funding rates on Binance most?",
+        "answer": "THORChain protocol development news and DeFi market cycles have the strongest impact on RUNE funding rates. Major cross-chain integrations or yield farming launches typically drive positive funding as spot demand exceeds perpetual positioning. Broader crypto market sentiment and Bitcoin correlation also influence rates during high volatility periods."
+      },
+      {
+        "question": "How does RUNE liquidity compare to major pairs on Binance?",
+        "answer": "RUNE/USDT maintains moderate liquidity with typical spreads of 0.02-0.05% during normal market conditions. While significantly lower than BTC or ETH pairs, the liquidity is sufficient for positions up to $50,000 without major slippage. Order book depth decreases notably during Asian trading hours and weekend periods."
+      },
+      {
+        "question": "Can I hedge RUNE funding positions with THORChain native staking?",
+        "answer": "Yes, holding RUNE in THORChain liquidity pools while shorting RUNE perpetuals on Binance can create delta-neutral funding arbitrage. However, this strategy introduces smart contract risks, impermanent loss from pool participation, and cross-chain bridge risks when moving funds. The native yield must exceed these additional risks to be profitable."
+      },
+      {
+        "question": "What's the optimal position size for RUNE funding arbitrage?",
+        "answer": "Position sizes between $5,000-$25,000 typically offer the best risk-adjusted returns for RUNE funding strategies on Binance. Larger positions face increased slippage and auto-deleveraging risk, while smaller positions may not justify the monitoring overhead. Consider RUNE's 24-hour trading volume when sizing positions to maintain easy exit liquidity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pepe-usdt",
+    "xrp-usdt",
+    "arb-usdt",
+    "doge-usdt",
+    "wif-usdt"
+  ]
+}

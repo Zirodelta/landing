@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rates on Bybit - Arbitrage Analysis",
+    "description": "Track PEPE/USDT perpetual funding rates on Bybit. Analyze 8-hour funding cycles, meme token volatility patterns, and arbitrage opportunities.",
+    "keywords": [
+      "PEPE funding rates",
+      "Bybit perpetual futures",
+      "meme token arbitrage",
+      "funding rate trading",
+      "PEPE derivatives",
+      "crypto arbitrage",
+      "perpetual swaps",
+      "funding cycle analysis"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT on Bybit operates with 8-hour funding cycles, creating frequent arbitrage opportunities due to the meme token's high volatility and retail trader concentration. The pair consistently shows funding rate extremes during trending moves, making it attractive for funding rate arbitrage strategies.",
+    "how_funding_works": "Bybit calculates PEPE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual and mark price. The exchange's unified trading account allows seamless hedging across spot and derivatives positions without additional margin requirements. Position funding is automatically debited or credited based on your long/short exposure at settlement time, with rates typically ranging from -0.75% to +0.75% during extreme market conditions.",
+    "why_this_pair": "PEPE's meme token status creates unique funding rate patterns driven by retail FOMO and fear cycles rather than institutional flow. The token's high volatility often leads to persistent funding rate imbalances as traders maintain directional bias longer than fundamental tokens. Bybit's deep PEPE liquidity and reliable infrastructure make it ideal for capturing these funding premiums through delta-neutral strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE funding rates on Bybit exhibit extreme cyclical behavior correlating with social media trends and meme coin market cycles. During bull runs, funding rates frequently exceed +0.3% per 8-hour period as retail traders heavily favor long positions. Conversely, during selloffs, funding rates can drop below -0.2% as leveraged longs are forced to close. The token shows distinct weekend patterns where funding rates tend to normalize due to reduced trading activity. Historical data indicates PEPE funding rates are 40% more volatile than major cryptocurrencies, creating consistent arbitrage windows."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable PEPE funding arbitrage occurs during trending moves when funding rates persist at extremes for multiple cycles. Long funding arbitrage works by shorting PEPE perpetuals while buying spot, collecting positive funding payments during bullish periods. Short funding arbitrage involves the reverse strategy during bearish periods when shorts pay longs. Bybit's competitive 0.02% maker fees and unified margin system reduce execution costs compared to multi-exchange strategies. Optimal position sizing typically ranges from 10-50x leverage depending on funding rate magnitude and volatility."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "PEPE's extreme volatility can quickly erode funding profits through delta exposure if hedges become imbalanced. The token's susceptibility to sudden delistings or regulatory actions creates tail risk not present in established cryptocurrencies. Bybit's auto-deleveraging system may force position closure during extreme volatility, disrupting arbitrage strategies. Funding rate reversals can occur rapidly during sentiment shifts, requiring dynamic position management. Risk limits should account for PEPE's potential for multi-day trending moves that can accumulate significant delta exposure despite hedging efforts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical PEPE funding rates on Bybit during bull markets?",
+        "answer": "During strong bull markets, PEPE funding rates on Bybit typically range from +0.1% to +0.5% per 8-hour cycle. Extreme FOMO periods can push rates above +0.75%, though Bybit's rate caps prevent rates from exceeding ±0.75% per funding period."
+      },
+      {
+        "question": "How does Bybit's PEPE liquidity compare for funding arbitrage?",
+        "answer": "Bybit maintains deep PEPE/USDT liquidity with typical order book depth exceeding $500k within 0.5% of mid price. This liquidity supports arbitrage positions up to $100k without significant slippage, making it suitable for institutional funding strategies."
+      },
+      {
+        "question": "Can I use Bybit's unified margin for PEPE funding arbitrage?",
+        "answer": "Yes, Bybit's unified trading account allows you to hold spot PEPE and short PEPE perpetuals under the same margin calculation. This eliminates the need for separate funding and reduces capital requirements for delta-neutral funding strategies by approximately 30-50%."
+      },
+      {
+        "question": "What's the minimum position size for profitable PEPE funding arbitrage on Bybit?",
+        "answer": "Considering Bybit's 0.02%/0.055% fee structure and PEPE's typical funding rates, minimum profitable positions start around $1,000 notional value. Smaller positions may not generate sufficient funding income to offset trading fees and spread costs during position establishment."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "ada-usdt",
+    "eth-usdt",
+    "doge-usdt",
+    "shib-usdt"
+  ]
+}

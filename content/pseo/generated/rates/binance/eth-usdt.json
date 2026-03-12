@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETH/USDT Funding Rates on Binance - Arbitrage Guide",
+    "description": "Track ETH/USDT perpetual funding rates on Binance. Deep liquidity, 8-hour intervals, and tight spreads make this pair ideal for funding rate arbitrage strategies.",
+    "keywords": [
+      "ETH USDT funding rate",
+      "Binance perpetual futures",
+      "funding rate arbitrage",
+      "ethereum funding",
+      "crypto arbitrage",
+      "binance futures",
+      "perpetual swap funding",
+      "ETH arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "ETH/USDT perpetual futures on Binance offer one of the most liquid markets for funding rate arbitrage, with over $2 billion in daily volume. Binance's 8-hour funding intervals and deep order books create consistent arbitrage opportunities for sophisticated traders.",
+    "how_funding_works": "Binance calculates ETH/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between the perpetual price and mark price. The funding rate is capped at ±0.75% per interval to prevent extreme payments. Long positions pay shorts when funding is positive, and vice versa when negative, with payments occurring automatically at funding time.",
+    "why_this_pair": "ETH/USDT represents the second-largest crypto perpetual market, offering exceptional liquidity depth and minimal slippage for large arbitrage positions. The pair's high institutional interest creates predictable funding rate patterns, especially during DeFi activity spikes and options expiry dates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETH/USDT funding rates on Binance typically range from -0.1% to +0.3% per 8-hour period, with significant spikes during network upgrades or DeFi yield farming frenzies. During the 2021 DeFi summer, rates peaked at +0.75% repeatedly as leverage demand surged. Bear markets generally see negative funding as shorts dominate, creating profitable opportunities for long arbitrage positions. The pair shows strong correlation with ETH staking yields, often trading at premiums when staking rewards exceed funding costs."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "ETH/USDT funding arbitrage works best during high volatility periods when rates exceed 0.15% per interval, generating 1.35% weekly returns when annualized. Cross-exchange arbitrage between Binance and smaller venues like Bybit or OKX can capture spreads of 0.05-0.20% per funding period. Delta-neutral strategies involve holding spot ETH while shorting perpetuals, collecting funding payments while maintaining zero directional exposure. Professional arbitrageurs often use Binance's portfolio margin to optimize capital efficiency across multiple ETH-based positions."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Funding rate arbitrage on ETH/USDT faces liquidation risk if positions move beyond maintenance margins, particularly during flash crashes or network congestion events. Binance's insurance fund provides some protection, but extreme volatility can still cause forced liquidations before funding collection. Regulatory risks include potential restrictions on perpetual futures trading in certain jurisdictions, which could impact liquidity. Additionally, ETH's transition to proof-of-stake has reduced some historical volatility patterns, potentially affecting future funding rate opportunities."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ETH/USDT funding rates on Binance?",
+        "answer": "ETH/USDT funding rates typically range from -0.1% to +0.3% per 8-hour period. During high demand periods, rates can reach the maximum cap of ±0.75%, while bear markets often see negative rates as short interest dominates."
+      },
+      {
+        "question": "How much capital is needed for effective ETH arbitrage on Binance?",
+        "answer": "Minimum $10,000 is recommended for meaningful ETH/USDT funding arbitrage due to trading fees and position management overhead. Professional strategies typically require $100,000+ to achieve efficient portfolio margin utilization and diversification across multiple funding intervals."
+      },
+      {
+        "question": "Can I automate ETH funding rate arbitrage on Binance?",
+        "answer": "Yes, Binance's API supports automated funding rate arbitrage through programmatic order placement and position management. Many traders use Python scripts or specialized bots to monitor rates and execute delta-neutral strategies automatically across funding periods."
+      },
+      {
+        "question": "What happens if ETH gaps during funding collection?",
+        "answer": "Binance uses mark prices to prevent manipulation, but large ETH price gaps can still impact arbitrage positions. The exchange's insurance fund helps protect against extreme losses, though positions may still face liquidation if gaps exceed maintenance margin requirements before funding payments are collected."
+      }
+    ]
+  },
+  "related_pairs": [
+    "imx-usdt",
+    "doge-usdt",
+    "blur-usdt",
+    "bnb-usdt",
+    "ada-usdt"
+  ]
+}

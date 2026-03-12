@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ADA/USDT Funding Rates on Bybit - Perpetual Futures",
+    "description": "Track ADA/USDT funding rates on Bybit for arbitrage opportunities. 8-hour cycles, competitive rates, and reliable infrastructure for Cardano perp trading.",
+    "keywords": [
+      "ADA funding rates",
+      "Bybit perpetual futures",
+      "Cardano arbitrage",
+      "USDT margined contracts",
+      "crypto funding rate",
+      "Bybit ADA",
+      "perpetual swap rates",
+      "derivatives trading"
+    ]
+  },
+  "content": {
+    "intro": "ADA/USDT perpetual futures on Bybit offer consistent funding rate arbitrage opportunities with 8-hour settlement cycles at 00:00, 08:00, and 16:00 UTC. Bybit's robust matching engine and deep liquidity make it ideal for capturing funding rate differentials on Cardano positions.",
+    "how_funding_works": "Bybit calculates funding rates using a time-weighted average of the premium between ADA perpetual and spot prices over the 8-hour period. The funding rate is capped at +/-0.75% per cycle to prevent extreme rates. When funding is positive, long positions pay shorts; when negative, shorts pay longs. Bybit's unified trading account allows seamless cross-margining between spot ADA and perpetual positions for delta-neutral arbitrage strategies.",
+    "why_this_pair": "ADA/USDT shows consistent funding rate patterns due to Cardano's established market presence and steady retail interest. As a top-10 cryptocurrency with strong institutional backing, ADA maintains sufficient liquidity depth for large arbitrage positions. The pair's moderate volatility creates predictable funding premiums during trending markets while avoiding the extreme rates seen in smaller altcoins.",
+    "sections": [
+      {
+        "heading": "Historical ADA Funding Rate Patterns",
+        "body": "ADA/USDT funding rates on Bybit typically range from -0.1% to +0.3% per 8-hour cycle, with positive rates dominating during bull markets. Historical analysis shows funding rates spike above 0.5% during major Cardano ecosystem announcements or broader crypto rallies. The pair exhibits lower volatility in funding compared to newer L1 tokens, making it suitable for conservative arbitrage strategies. Weekend periods often see reduced funding premiums due to lower retail trading activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "The most profitable ADA arbitrage opportunities occur when Bybit's funding rates diverge significantly from spot exchanges like Binance or Coinbase. Traders can execute delta-neutral strategies by going long ADA spot and short ADA perpetuals when funding exceeds 0.2% per cycle. Bybit's low maker fees (0.02%) and fast settlement make it efficient for frequent position adjustments. The exchange's API supports automated trading strategies for systematic funding rate capture across multiple cycles."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "ADA funding rate arbitrage on Bybit carries basis risk when spot and perpetual prices diverge beyond expected ranges during high volatility periods. Position sizing should account for Bybit's maintenance margin requirements and potential funding rate reversals during market stress. Cross-exchange arbitrage requires monitoring withdrawal limits and network congestion on Cardano, which can impact hedge execution timing. Traders should maintain adequate USDT collateral as funding payments are settled in the quote currency regardless of position direction."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ADA funding rates on Bybit?",
+        "answer": "ADA/USDT funding rates on Bybit typically range from -0.05% to +0.25% per 8-hour cycle. During bullish periods, rates can reach 0.4-0.6%, while bearish markets may see negative rates around -0.1% to -0.2%."
+      },
+      {
+        "question": "How does Bybit calculate ADA perpetual funding rates?",
+        "answer": "Bybit uses a time-weighted average premium between ADA perpetual and index prices over each 8-hour period. The rate is capped at +/-0.75% and includes an interest rate component of 0.03% per cycle to account for USDT borrowing costs."
+      },
+      {
+        "question": "Can I hedge ADA perpetual positions with spot on Bybit?",
+        "answer": "Yes, Bybit's unified trading account allows cross-margining between ADA spot and perpetual positions. This enables delta-neutral arbitrage strategies where you can long spot ADA and short ADA perpetuals to capture funding without directional exposure."
+      },
+      {
+        "question": "What's the minimum position size for ADA perpetuals on Bybit?",
+        "answer": "Bybit's minimum order size for ADA/USDT perpetuals is 1 ADA with a minimum notional value of 5 USDT. The tick size is 0.0001 USDT, allowing precise entry and exit pricing for arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "sol-usdt",
+    "jto-usdt",
+    "xrp-usdt",
+    "pyth-usdt"
+  ]
+}

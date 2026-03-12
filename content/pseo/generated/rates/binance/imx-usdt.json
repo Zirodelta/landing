@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Binance Funding Rates & Perpetual Arbitrage",
+    "description": "Track IMX/USDT funding rates on Binance with 8-hour intervals. Analyze gaming token funding patterns for perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "IMX funding rates",
+      "Binance perpetual futures",
+      "gaming token arbitrage",
+      "IMX USDT funding",
+      "crypto funding arbitrage",
+      "perpetual swap rates",
+      "Immutable X trading",
+      "Binance futures funding"
+    ]
+  },
+  "content": {
+    "intro": "IMX/USDT perpetual futures on Binance offer funding rate arbitrage opportunities in the gaming sector, with rates calculated every 8 hours at 00:00, 08:00, and 16:00 UTC. As a leading gaming infrastructure token, IMX exhibits unique funding patterns influenced by gaming market sentiment and NFT ecosystem developments.",
+    "how_funding_works": "Binance calculates IMX/USDT funding rates using a time-weighted average of the premium index over the previous 8-hour period, with a base rate component of 0.01%. When the perpetual price trades above spot (positive premium), long positions pay funding to short positions. The funding fee is applied only to positions held at the 8-hour funding timestamps, allowing traders to enter and exit before funding collection to avoid fees.",
+    "why_this_pair": "IMX funding rates often spike during gaming and NFT market cycles, creating lucrative arbitrage windows when rates exceed 0.1% per 8-hour period. The gaming sector's episodic volatility generates frequent funding rate imbalances, particularly during major game launches or Immutable X partnership announcements.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "IMX/USDT funding rates typically range from -0.05% to 0.15% per 8-hour period, with gaming market catalysts driving rates to extremes of ±0.3%. During Q1 2024 gaming rallies, sustained positive funding above 0.2% created consistent arbitrage opportunities for over two weeks. Gaming sector rotations often produce predictable funding cycles, with rates inverting during bear phases when short interest dominates. Weekend funding tends to compress toward neutral as gaming activity peaks and institutional arbitrageurs scale back operations."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "IMX funding arbitrage becomes profitable when 8-hour rates exceed 0.08%, accounting for Binance's 0.02% maker fees and potential slippage on position adjustments. Cross-exchange arbitrage with spot buying often yields superior returns when Binance funding exceeds rates on competing platforms by 0.05% or more. Gaming token correlations create basket arbitrage opportunities, particularly when IMX funding diverges significantly from other gaming tokens like AXS or SAND. Optimal position sizing should account for IMX's mid-tier liquidity, with positions above $50,000 requiring careful execution to avoid market impact."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "IMX's gaming sector exposure creates unique risks during broader market downturns, when correlations with major cryptocurrencies can spike unexpectedly. Regulatory announcements affecting gaming or NFT sectors can trigger rapid deleveraging, causing funding rates to swing from positive to deeply negative within hours. Binance's insurance fund provides protection against extreme liquidation events, but IMX's volatility requires conservative leverage ratios below 3:1 for funding rate strategies. Monitor Immutable X ecosystem developments and gaming partnership announcements, as these catalysts can sustain elevated funding premiums for extended periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical IMX funding rates on Binance?",
+        "answer": "IMX/USDT funding rates on Binance typically range from -0.05% to 0.15% per 8-hour period. During gaming sector rallies, rates can exceed 0.3%, while bear markets often see sustained negative funding below -0.1%."
+      },
+      {
+        "question": "When are IMX funding payments collected on Binance?",
+        "answer": "Binance collects IMX/USDT funding payments at 00:00, 08:00, and 16:00 UTC every day. Only positions held at these exact timestamps are subject to funding fees, allowing strategic entry and exit timing."
+      },
+      {
+        "question": "How does IMX liquidity affect funding arbitrage?",
+        "answer": "IMX maintains mid-tier liquidity on Binance with typical spreads of 0.02-0.05%. Positions above $50,000 may experience slippage, requiring careful execution strategies and potentially limiting maximum arbitrage position sizes."
+      },
+      {
+        "question": "What gaming sector events impact IMX funding rates?",
+        "answer": "Major game launches on Immutable X, NFT marketplace developments, and gaming partnership announcements typically drive IMX funding rates higher. Gaming sector rotations and regulatory concerns about NFTs can cause rapid funding rate reversals."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "sei-usdt",
+    "ethfi-usdt",
+    "tao-usdt",
+    "bonk-usdt"
+  ]
+}

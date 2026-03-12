@@ -1,0 +1,71 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bybit ETH/USDT Perpetual Funding Rate Analysis",
+    "description": "Analyze Bybit ETH/USDT perpetual funding rates with 8-hour cycles. Track arbitrage opportunities with reliable infrastructure and competitive rates.",
+    "keywords": [
+      "bybit",
+      "eth usdt",
+      "funding rate",
+      "perpetual futures",
+      "arbitrage",
+      "derivatives",
+      "crypto trading",
+      "funding fee",
+      "bybit funding"
+    ]
+  },
+  "content": {
+    "intro": "Bybit's ETH/USDT perpetual contract offers one of the most liquid derivative trading environments with funding rates calculated every 8 hours. As a leading derivatives exchange, Bybit provides consistent rate patterns that make ETH perpetuals attractive for funding rate arbitrage strategies.",
+    "how_funding_works": "Bybit calculates funding rates at 00:00, 08:00, and 16:00 UTC using the time-weighted average premium between the perpetual price and mark price over the previous 8-hour period. The funding fee is exchanged directly between long and short position holders based on their position size. Bybit's unified trading account allows seamless margin management across positions, while the exchange's robust matching engine ensures minimal slippage during funding exchanges.",
+    "why_this_pair": "ETH/USDT perpetual on Bybit typically exhibits moderate funding rate volatility, making it ideal for predictable arbitrage strategies. The pair's massive trading volume ensures tight spreads and minimal market impact when establishing hedge positions. Ethereum's strong institutional adoption creates consistent directional pressure that often results in sustainable funding rate imbalances.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "Bybit's ETH/USDT funding rates historically range between -0.3% to +0.5% per funding period during normal market conditions. Bull markets typically see sustained positive funding rates of 0.01-0.1% per 8-hour cycle as leveraged longs dominate. During market stress, funding can spike above 0.2% per period, creating significant arbitrage opportunities. Weekend periods often show reduced funding volatility due to lower institutional activity and decreased leverage demand."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "Profitable arbitrage opportunities emerge when Bybit's ETH funding rates deviate significantly from spot-perpetual basis or cross-exchange funding differentials. Long-term negative funding periods present opportunities to collect fees while holding leveraged long positions, particularly when combined with spot hedges. Cross-exchange arbitrage becomes viable when Bybit's rates differ by more than 0.05% from competitors like Binance or OKX. The 8-hour funding cycle provides sufficient time for position adjustments and risk management."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "Funding rate arbitrage on Bybit carries execution risks during high volatility periods when ETH price gaps significantly between funding payments. Liquidation risk increases if leveraged positions move against you before funding collection, requiring careful position sizing and stop-loss management. Bybit's maintenance margin requirements can change during volatile periods, potentially forcing position closures. Cross-exchange arbitrage adds counterparty risk and requires monitoring withdrawal limits and processing times across platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ETH/USDT funding rates on Bybit?",
+        "answer": "Bybit's ETH/USDT funding rates typically range from -0.1% to +0.3% per 8-hour period during normal conditions. During bull markets or high leverage periods, rates can reach 0.5% or higher per funding cycle."
+      },
+      {
+        "question": "How does Bybit's unified trading account affect funding arbitrage?",
+        "answer": "Bybit's unified account allows you to use the same collateral for perpetual positions and spot hedges, improving capital efficiency. This reduces the total margin required for delta-neutral arbitrage strategies compared to isolated margin systems."
+      },
+      {
+        "question": "When are funding payments exchanged on Bybit ETH perpetuals?",
+        "answer": "Funding payments occur every 8 hours at 00:00, 08:00, and 16:00 UTC. You must hold positions at the exact funding time to receive or pay the funding fee based on your position direction."
+      },
+      {
+        "question": "What's the minimum position size for effective ETH funding arbitrage on Bybit?",
+        "answer": "For meaningful returns, positions should typically be at least $10,000 notional value to overcome trading fees (0.02-0.055% per side). Smaller positions may not generate sufficient funding income to justify the execution and hedging costs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "dot-usdt",
+    "tia-usdt",
+    "tao-usdt",
+    "pendle-usdt",
+    "mkr-usdt"
+  ]
+}

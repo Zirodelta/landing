@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rate Arbitrage on Bybit Exchange",
+    "description": "Track RUNE/USDT perpetual funding rates on Bybit. 8-hour intervals, competitive rates, and arbitrage opportunities for THORChain's native token.",
+    "keywords": [
+      "RUNE funding rate",
+      "Bybit perpetual futures",
+      "THORChain arbitrage",
+      "funding rate trading",
+      "RUNE USDT derivatives",
+      "crypto funding arbitrage",
+      "Bybit trading fees"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour payment intervals and competitive maker/taker fees of 0.02%/0.055%. THORChain's native token exhibits volatile funding patterns due to its DeFi utility and cross-chain bridge functionality.",
+    "how_funding_works": "Bybit calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the Premium Index formula. The funding rate is capped at ±0.75% per payment to prevent extreme volatility. Long positions pay short positions when funding is positive, reflecting market sentiment toward RUNE's price direction. Bybit's unified trading account allows seamless capital allocation between spot RUNE holdings and perpetual positions for delta-neutral strategies.",
+    "why_this_pair": "RUNE exhibits higher funding rate volatility compared to major cryptocurrencies due to its smaller market cap and DeFi-focused use cases. THORChain's cross-chain liquidity protocol creates unique demand patterns that often disconnect perpetual futures pricing from spot markets. This divergence generates consistent arbitrage opportunities, particularly during network upgrades or yield farming events.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE funding rates on Bybit typically range from -0.3% to +0.5% per 8-hour period, with spikes during THORChain protocol updates or major DeFi events. Positive funding dominates during bullish DeFi cycles when traders leverage long RUNE positions for yield farming exposure. Negative funding periods often coincide with broader crypto market downturns or THORChain network maintenance windows. The pair shows distinct seasonality with higher volatility during US trading hours when DeFi activity peaks."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Delta-neutral strategies work effectively with RUNE due to frequent funding rate imbalances exceeding Bybit's 0.055% taker fees. Traders can short RUNE perpetuals while holding spot RUNE when funding rates exceed +0.1% per payment. Cross-exchange arbitrage between Bybit and Binance RUNE perpetuals often yields 0.05-0.15% per funding cycle. The unified account structure allows instant hedging between spot and derivatives positions without additional margin requirements."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "RUNE's mid-tier trading volume creates higher slippage risk during volatile periods, particularly for positions exceeding $50,000. THORChain's cross-chain bridge functionality introduces smart contract risks that can trigger rapid price movements independent of Bitcoin correlation. Funding rate strategies require monitoring THORChain governance proposals and network upgrades that may affect RUNE demand. Position sizing should account for RUNE's higher volatility compared to major cryptocurrencies, with typical daily ranges of 5-15%."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical RUNE funding rates on Bybit?",
+        "answer": "RUNE funding rates on Bybit typically range from -0.3% to +0.5% per 8-hour cycle, with higher volatility during DeFi market movements. Rates above +0.2% per cycle often present profitable arbitrage opportunities when combined with spot RUNE holdings."
+      },
+      {
+        "question": "How does THORChain's protocol affect RUNE funding rates?",
+        "answer": "THORChain network upgrades and cross-chain bridge activity directly impact RUNE demand, creating funding rate imbalances. Major protocol updates often trigger 24-48 hour periods of elevated funding volatility as traders position for potential price movements."
+      },
+      {
+        "question": "What position sizes work best for RUNE funding arbitrage on Bybit?",
+        "answer": "Positions under $25,000 minimize slippage impact while maintaining profitable funding rate capture. Bybit's RUNE/USDT perpetual typically handles this size efficiently during normal market conditions without significant price impact."
+      },
+      {
+        "question": "How do Bybit's RUNE funding rates compare to other exchanges?",
+        "answer": "Bybit's RUNE funding rates often trade 0.05-0.1% higher than Binance during bullish DeFi periods due to its derivatives-focused user base. This premium creates cross-exchange arbitrage opportunities for sophisticated traders with multi-exchange setups."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "wld-usdt",
+    "ldo-usdt",
+    "fet-usdt",
+    "ordi-usdt"
+  ]
+}

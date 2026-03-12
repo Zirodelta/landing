@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rate Arbitrage on Bybit Exchange",
+    "description": "Track FLOKI/USDT funding rates on Bybit for perpetual futures arbitrage. 8-hour funding intervals, competitive rates, and reliable execution infrastructure.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Bybit perpetual futures",
+      "FLOKI USDT arbitrage",
+      "8-hour funding interval",
+      "meme coin derivatives",
+      "crypto funding arbitrage",
+      "Bybit trading fees",
+      "FLOKI perpetual"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour payment intervals at 00:00, 08:00, and 16:00 UTC. As a meme coin derivative, FLOKI typically experiences higher funding rate volatility compared to major cryptocurrencies, creating potential arbitrage scenarios.",
+    "how_funding_works": "Bybit calculates FLOKI/USDT funding rates using a time-weighted average of the premium between perpetual and mark prices over the 8-hour period. The exchange applies a 0.01% funding rate cap in either direction to prevent extreme rates. Funding payments are exchanged directly between long and short position holders, with Bybit acting as the intermediary. The unified trading account system allows seamless cross-collateralization across FLOKI perpetual and spot positions.",
+    "why_this_pair": "FLOKI/USDT presents unique arbitrage opportunities due to its meme coin status driving retail sentiment-based trading patterns. The pair often exhibits funding rate spikes during viral social media campaigns or major announcements. Mid-tier trading volume provides sufficient liquidity for arbitrage execution while maintaining the volatility needed for profitable rate differentials.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT funding rates on Bybit typically range from -0.75% to +0.75% during normal market conditions, with occasional spikes beyond ±1.5% during meme coin rallies. The pair shows strong correlation with broader meme coin sentiment cycles, often experiencing prolonged positive funding during retail FOMO periods. Historical data indicates funding rates tend to normalize within 48-72 hours after extreme events. Weekend periods frequently show reduced funding rate volatility due to lower institutional participation in meme coin derivatives."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "Cross-exchange arbitrage between Bybit's FLOKI/USDT perpetual and spot markets becomes profitable when funding rates exceed 0.25% due to the 0.02% maker fee structure. Delta-neutral strategies work effectively during high implied volatility periods when funding rates deviate significantly from the risk-free rate. The 8-hour funding interval provides sufficient time for position adjustments and risk management. Bybit's fast matching engine and reliable infrastructure minimize execution risks during volatile meme coin trading sessions."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FLOKI's meme coin nature introduces elevated volatility risks that can exceed funding rate profits during adverse price movements. Position sizing should account for potential 20-30% daily price swings and corresponding margin requirements. Funding rate reversals can occur rapidly during sentiment shifts, requiring active monitoring of social media trends and whale movements. The relatively smaller market cap compared to major cryptocurrencies increases susceptibility to manipulation and sudden liquidity gaps."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FLOKI/USDT funding rates on Bybit?",
+        "answer": "FLOKI/USDT funding rates on Bybit typically range from -0.75% to +0.75% during normal conditions, with the 8-hour interval meaning annual rates can vary significantly. During meme coin rallies, rates may spike above ±1.5% as retail traders heavily favor long positions."
+      },
+      {
+        "question": "How does Bybit's unified account affect FLOKI funding arbitrage?",
+        "answer": "Bybit's unified trading account allows you to use FLOKI spot holdings as collateral for perpetual positions, enabling efficient delta-neutral arbitrage strategies. This reduces capital requirements and simplifies portfolio management compared to isolated margin systems."
+      },
+      {
+        "question": "What makes FLOKI funding rates more volatile than major cryptocurrencies?",
+        "answer": "FLOKI's meme coin status drives sentiment-based trading patterns with less institutional participation and higher retail concentration. This creates more extreme long/short imbalances during viral events, leading to funding rate spikes that major cryptocurrencies rarely experience."
+      },
+      {
+        "question": "How reliable is Bybit's infrastructure during FLOKI volatility spikes?",
+        "answer": "Bybit maintains stable performance during FLOKI volatility with its robust matching engine handling high-frequency meme coin trading. The exchange rarely experiences downtime during viral meme coin events, though order book depth may thin during extreme price movements requiring careful position sizing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "shib-usdt",
+    "sol-usdt",
+    "doge-usdt",
+    "pendle-usdt",
+    "meme-usdt"
+  ]
+}

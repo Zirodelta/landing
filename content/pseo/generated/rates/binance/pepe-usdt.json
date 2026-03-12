@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rates on Binance - Meme Coin Arbitrage",
+    "description": "Track PEPE/USDT perpetual futures funding rates on Binance. High volatility meme coin with frequent rate spikes creates arbitrage opportunities every 8 hours.",
+    "keywords": [
+      "PEPE funding rates",
+      "Binance perpetuals",
+      "meme coin arbitrage",
+      "PEPE futures",
+      "funding rate strategy",
+      "USDT pairs",
+      "crypto arbitrage",
+      "Binance fees"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT perpetual futures on Binance offer unique funding rate arbitrage opportunities driven by meme coin speculation and retail sentiment. Binance's deep liquidity and 8-hour funding intervals create predictable patterns for experienced arbitrageurs.",
+    "how_funding_works": "Binance calculates PEPE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. When PEPE futures trade above spot (positive funding), long positions pay shorts, creating opportunities for delta-neutral strategies. The rate is capped at ±0.75% per funding period, with typical ranges between -0.5% to +2% during high volatility periods.",
+    "why_this_pair": "PEPE's meme coin status creates extreme funding rate volatility as retail traders pile into long positions during hype cycles, often pushing rates above 1% per 8-hour period. The large trading volume on Binance ensures tight spreads and minimal slippage for arbitrage execution.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Binance show distinct patterns correlated with social media trends and market sentiment cycles. During major meme coin rallies, positive funding rates often exceed 1.5% per period for multiple consecutive intervals, creating sustained arbitrage opportunities. Negative funding typically occurs during broader crypto market downturns when leveraged longs get liquidated. Weekend periods often see reduced volatility in funding rates due to lower retail participation."
+      },
+      {
+        "heading": "Arbitrage Strategy Execution",
+        "body": "Optimal PEPE funding rate arbitrage requires monitoring premium convergence 1-2 hours before each 8-hour settlement. Enter short perpetual positions when funding exceeds 0.5% while simultaneously buying equivalent PEPE spot to maintain delta neutrality. Binance's maker fees of 0.02% and taker fees of 0.05% must be factored into profitability calculations. Position sizing should account for PEPE's high volatility and potential for rapid price gaps that can temporarily disrupt hedge ratios."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "PEPE's extreme volatility creates unique risks for funding rate arbitrage, including basis risk when spot and futures prices diverge beyond normal ranges. Sudden volume spikes can cause temporary liquidity gaps, making it difficult to maintain precise hedge ratios. Binance's insurance fund provides some protection against exchange counterparty risk, but meme coin delisting risk remains a consideration. Set stop-losses on delta exposure and monitor funding rate caps to avoid being trapped in positions during extreme market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical PEPE/USDT funding rates on Binance during bull markets?",
+        "answer": "During PEPE bull runs, funding rates frequently range from 0.5% to 2% per 8-hour period on Binance, with some extreme periods reaching the 0.75% cap. These elevated rates can persist for days during strong meme coin narratives, creating extended arbitrage windows."
+      },
+      {
+        "question": "How does Binance's fee structure affect PEPE funding arbitrage profitability?",
+        "answer": "Binance charges 0.02% maker and 0.05% taker fees on PEPE perpetuals, plus spot trading fees. For funding arbitrage to be profitable, the 8-hour rate should exceed 0.15% to cover round-trip costs and provide meaningful returns after accounting for execution risks."
+      },
+      {
+        "question": "What position sizes work best for PEPE funding rate arbitrage on Binance?",
+        "answer": "Optimal position sizes for PEPE arbitrage range from $10,000-$100,000 to balance fee efficiency with execution risk. Larger positions may face slippage during volatile periods, while smaller positions get eroded by fixed trading costs on Binance."
+      },
+      {
+        "question": "How often do PEPE funding rates turn negative on Binance?",
+        "answer": "PEPE funding rates turn negative approximately 20-30% of the time on Binance, typically during broader crypto bear markets or after major meme coin sell-offs. Negative rates rarely exceed -0.3% per period, offering less attractive arbitrage opportunities than positive rate spikes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "ftm-usdt",
+    "ethfi-usdt",
+    "ada-usdt",
+    "jto-usdt"
+  ]
+}

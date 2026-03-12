@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "arb-usdt",
+    "base": "ARB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ARB/USDT Funding Rates on Bybit - Arbitrum Trading",
+    "description": "Track ARB/USDT perpetual funding rates on Bybit. Real-time arbitrage opportunities for Arbitrum futures with 8-hour funding cycles and competitive rates.",
+    "keywords": [
+      "ARB funding rate",
+      "Bybit perpetual",
+      "Arbitrum futures",
+      "funding rate arbitrage",
+      "ARB USDT",
+      "Layer 2 trading",
+      "derivatives arbitrage",
+      "perpetual swap"
+    ]
+  },
+  "content": {
+    "intro": "ARB/USDT perpetual futures on Bybit offer significant funding rate arbitrage opportunities due to Arbitrum's growing DeFi ecosystem and institutional adoption. Bybit's 8-hour funding cycles and robust derivatives infrastructure make it a preferred venue for ARB funding rate strategies. The exchange's competitive maker/taker fees of 0.02%/0.055% enhance profitability for frequent arbitrage operations.",
+    "how_funding_works": "Bybit calculates ARB/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index and interest rate differential. The funding rate is capped at ±0.75% per interval to prevent extreme market conditions from creating unsustainable rates. Long position holders pay the funding rate when positive, while short holders receive payments, with settlements occurring automatically in USDT. Bybit's unified trading account allows seamless cross-margining between ARB perpetuals and other assets for capital efficiency.",
+    "why_this_pair": "ARB perpetuals exhibit high funding rate volatility due to the token's relatively recent launch and growing Layer 2 ecosystem adoption. The pair's large trading volume on Bybit creates consistent arbitrage opportunities as funding rates frequently diverge from other exchanges. Institutional interest in Arbitrum scaling solutions drives sustained directional bias in perpetual positioning, leading to predictable funding rate patterns ideal for systematic arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "ARB/USDT funding rates on Bybit have shown distinct patterns since launch, with positive rates averaging 0.05-0.15% during bull cycles as leveraged longs dominate positioning. The pair experiences funding rate spikes above 0.3% during major Arbitrum ecosystem announcements or DeFi protocol launches. Negative funding rates typically occur during broader market corrections, reaching -0.2% as shorts increase and long liquidations cascade. Weekend periods often show reduced volatility in funding rates due to lower institutional participation and decreased arbitrage activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Bybit and Binance ARB perpetuals frequently yields 0.1-0.5% per funding period due to different user bases and capital flows. Spot-perp arbitrage opportunities emerge when Bybit's ARB perpetual trades at significant premiums to Coinbase or Binance spot prices, particularly during high funding rate periods. Calendar spread arbitrage using Bybit's quarterly futures alongside perpetuals can capture basis differentials during volatile periods. Delta-neutral strategies combining ARB perpetual shorts with ARB spot holdings on other exchanges provide consistent yield when funding rates remain elevated."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "ARB's price volatility can exceed 20% daily during market stress, creating significant mark-to-market risk for leveraged funding rate positions despite delta-neutral intentions. Bybit's auto-deleveraging system may force position closures during extreme market conditions, disrupting long-term arbitrage strategies and creating unexpected transaction costs. Funding rate convergence risk exists when multiple arbitrageurs enter similar positions, quickly eliminating rate differentials and reducing profitability. Regulatory uncertainty around Layer 2 tokens adds systemic risk to ARB-based strategies, as policy changes could impact trading volumes and funding rate stability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ARB/USDT funding rates on Bybit?",
+        "answer": "ARB/USDT funding rates on Bybit typically range from -0.1% to +0.3% per 8-hour period, with higher rates during bullish periods when long interest dominates. Extreme market conditions can push rates to the ±0.75% caps, though this is uncommon."
+      },
+      {
+        "question": "How does Bybit's unified account benefit ARB arbitrage?",
+        "answer": "Bybit's unified trading account allows cross-margining ARB perpetuals with other assets, reducing capital requirements for delta-neutral strategies. This enables more efficient use of collateral when running multiple arbitrage positions across different pairs simultaneously."
+      },
+      {
+        "question": "When do ARB funding rates reset on Bybit?",
+        "answer": "ARB/USDT funding rates reset every 8 hours at 00:00, 08:00, and 16:00 UTC. Positions held at these timestamps automatically pay or receive funding based on the calculated rate and position size."
+      },
+      {
+        "question": "What's the minimum position size for ARB arbitrage on Bybit?",
+        "answer": "Bybit requires a minimum order size of 1 ARB for perpetual contracts, making small-scale arbitrage accessible. However, profitable arbitrage typically requires larger positions to overcome trading fees and funding rate thresholds."
+      }
+    ]
+  },
+  "related_pairs": [
+    "blur-usdt",
+    "trx-usdt",
+    "tia-usdt",
+    "btc-usdt",
+    "ordi-usdt"
+  ]
+}

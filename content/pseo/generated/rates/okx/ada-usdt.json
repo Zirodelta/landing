@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX ADA/USDT Funding Rate - Perpetual Futures Arbitrage",
+    "description": "Track ADA/USDT funding rates on OKX. Monitor 8-hour funding cycles, historical patterns, and arbitrage opportunities for Cardano perpetual futures trading.",
+    "keywords": [
+      "OKX funding rate",
+      "ADA USDT perpetual",
+      "Cardano futures",
+      "funding rate arbitrage",
+      "OKX perpetual swap",
+      "ADA funding",
+      "crypto arbitrage",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "OKX's ADA/USDT perpetual futures contract offers funding rate arbitrage opportunities through its 8-hour funding cycle structure. As one of the largest Layer 1 tokens by market cap, Cardano perpetuals attract significant trading volume and diverse funding rate patterns.",
+    "how_funding_works": "OKX calculates ADA/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual price and spot index. The funding rate typically ranges from -0.375% to +0.375% per payment, with most settlements falling between -0.01% to +0.01%. Long positions pay shorts when rates are positive, while shorts pay longs during negative funding periods. OKX's Portfolio Margin mode allows cross-collateralization with other positions to optimize capital efficiency during funding rate strategies.",
+    "why_this_pair": "ADA/USDT perpetuals on OKX frequently exhibit predictable funding patterns due to Cardano's retail popularity and institutional adoption cycles. The pair's large trading volume ensures tight bid-ask spreads and minimal slippage when executing arbitrage positions. OKX's deep ADA spot and perpetual liquidity makes it ideal for delta-neutral funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ADA/USDT funding rates on OKX typically turn positive during Cardano ecosystem announcements and network upgrades, often reaching +0.05% to +0.15% per 8-hour period. During broader crypto bear markets, rates frequently stay negative for weeks, providing consistent income for long perpetual positions. The pair shows strong correlation with Bitcoin funding rates but often maintains positive premiums 2-3 days longer during bullish cycles. Weekly patterns show slightly higher rates on Monday-Tuesday as retail traders open weekend positions."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "The most profitable ADA funding arbitrage opportunities occur when rates exceed ±0.02% while spot-perp basis remains under 0.1%. OKX's Portfolio Margin allows combining ADA perpetual positions with spot holdings or other altcoin collateral for enhanced capital efficiency. Cross-exchange arbitrage between OKX and Binance ADA perpetuals can capture rate differentials of 0.01-0.03% when funding cycles align differently. The 0.02% maker fee structure means positions need funding rates above 0.025% for profitable long-term strategies."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "ADA's higher volatility compared to Bitcoin creates basis risk between spot hedges and perpetual positions, especially during Cardano-specific news events. OKX's auto-deleveraging system can force-close funding arbitrage positions during extreme market stress when account margins fall below maintenance requirements. Portfolio Margin mode reduces this risk but requires maintaining diverse collateral positions. Funding rate reversals can happen rapidly during market regime changes, making 24-48 hour position monitoring essential for ADA strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ADA/USDT funding rates on OKX?",
+        "answer": "ADA funding rates on OKX typically range from -0.01% to +0.02% per 8-hour cycle during normal market conditions. During strong bullish sentiment, rates can reach +0.05% to +0.10%, while bear markets often see sustained negative rates of -0.005% to -0.02%."
+      },
+      {
+        "question": "How does OKX's Portfolio Margin affect ADA funding strategies?",
+        "answer": "Portfolio Margin allows using other crypto holdings as collateral for ADA perpetual positions, increasing capital efficiency by 20-30%. This enables larger funding arbitrage positions with the same account balance and provides flexibility to maintain positions during temporary drawdowns without forced liquidation."
+      },
+      {
+        "question": "What's the minimum position size for ADA funding arbitrage on OKX?",
+        "answer": "OKX's minimum ADA perpetual contract size is 1 ADA, but profitable funding strategies typically require positions of at least 10,000-50,000 ADA to overcome the 0.02%-0.05% trading fees. Smaller positions can be viable during periods of sustained high funding rates above 0.05%."
+      },
+      {
+        "question": "How often do ADA funding rates change direction on OKX?",
+        "answer": "ADA funding rates on OKX typically maintain the same direction for 3-7 consecutive payments during trending markets. Rate reversals often occur around key technical levels or major Cardano ecosystem announcements, with the most volatile periods showing direction changes every 1-2 funding cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "ton-usdt",
+    "mkr-usdt",
+    "jto-usdt",
+    "bnb-usdt"
+  ]
+}

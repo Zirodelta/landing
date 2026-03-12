@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX ETH/USDT Funding Rates - Arbitrage Trading Guide",
+    "description": "Track OKX ETH/USDT perpetual funding rates every 8 hours. Discover arbitrage opportunities with portfolio margin mode and multi-exchange strategies.",
+    "keywords": [
+      "OKX funding rates",
+      "ETH USDT perpetual",
+      "funding rate arbitrage",
+      "OKX portfolio margin",
+      "ETH funding history",
+      "perpetual futures",
+      "crypto arbitrage",
+      "OKX trading"
+    ]
+  },
+  "content": {
+    "intro": "OKX ETH/USDT perpetual futures charge funding every 8 hours at 00:00, 08:00, and 16:00 UTC, with rates typically ranging from -0.15% to +0.15%. The pair benefits from OKX's portfolio margin system, allowing efficient capital utilization across multiple positions for sophisticated arbitrage strategies.",
+    "how_funding_works": "OKX calculates funding rates using a premium index that compares the perpetual price to the ETH spot index. Long positions pay funding when rates are positive, shorts pay when negative. The 8-hour interval provides more frequent arbitrage opportunities compared to Binance's daily funding. OKX's portfolio margin mode allows traders to net positions across different instruments, reducing overall margin requirements for complex arbitrage setups.",
+    "why_this_pair": "ETH/USDT on OKX offers exceptional liquidity with minimal slippage, making it ideal for large arbitrage positions. The pair's high trading volume ensures stable funding rates without extreme volatility. OKX's institutional-grade API enables automated funding rate monitoring and execution across multiple exchanges simultaneously.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "OKX ETH/USDT funding rates exhibit strong correlation with market sentiment and ETH price movements. During bull markets, rates typically stay positive between 0.01% to 0.08%, while bear markets see negative rates from -0.01% to -0.05%. Funding spikes above 0.1% often occur during major ETH rallies or liquidation cascades. The 8-hour frequency means rates adjust more quickly to market conditions compared to daily funding exchanges. Weekly analysis shows funding tends to be highest during US trading hours and lowest during Asian sessions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between OKX and Binance ETH perpetuals frequently yields 0.02-0.05% profit per funding period due to rate differentials. OKX's portfolio margin allows traders to maintain larger positions with the same capital, amplifying returns. Calendar spread arbitrage using OKX quarterly futures against perpetuals can capture funding rate premiums during high volatility periods. The exchange's deep liquidity enables arbitrage positions up to $10M+ without significant market impact. Multi-chain wallet integration facilitates rapid USDT transfers for cash-and-carry arbitrage with spot markets."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "OKX's portfolio margin system can lead to complex liquidation scenarios where ETH position losses affect other holdings. Funding rate reversals can occur rapidly during volatile periods, turning profitable positions into losses within hours. The exchange's auto-deleveraging system may close profitable arbitrage positions during extreme market stress. Regulatory uncertainty around OKX operations in certain jurisdictions creates counterparty risk for large positions. API rate limits and potential system downtime during high volatility can prevent timely position adjustments, especially critical during funding collection periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does OKX portfolio margin affect ETH/USDT funding arbitrage?",
+        "answer": "Portfolio margin allows netting of ETH positions across different instruments, reducing overall margin requirements by up to 85%. This enables larger arbitrage positions with the same capital and allows complex multi-leg strategies combining perpetuals, futures, and options."
+      },
+      {
+        "question": "What's the typical funding rate range for ETH/USDT on OKX?",
+        "answer": "Normal market conditions see rates between -0.05% to +0.08% per 8-hour period. Extreme conditions can push rates to ±0.15%, typically during major price movements or liquidation events lasting 1-2 funding periods."
+      },
+      {
+        "question": "Can I automate funding rate arbitrage on OKX?",
+        "answer": "Yes, OKX provides institutional-grade REST and WebSocket APIs with real-time funding rate data. The API supports automated position management, though rate limits apply during high-frequency trading periods."
+      },
+      {
+        "question": "How does OKX ETH funding compare to other major exchanges?",
+        "answer": "OKX's 8-hour funding cycles provide more frequent arbitrage opportunities than Binance's daily funding. Rates often diverge from Bybit and Binance by 0.01-0.03%, creating consistent arbitrage opportunities for automated systems."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "blur-usdt",
+    "sei-usdt",
+    "link-usdt",
+    "wif-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on Bybit - Real-Time Analysis",
+    "description": "Track BONK/USDT perpetual futures funding rates on Bybit. Analyze 8-hour funding intervals and arbitrage opportunities for this meme coin derivative.",
+    "keywords": [
+      "BONK funding rates",
+      "Bybit perpetual futures",
+      "BONK USDT arbitrage",
+      "meme coin funding",
+      "8 hour funding intervals",
+      "derivatives trading",
+      "funding rate strategy",
+      "Solana meme tokens"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the volatile meme coin sector. As Solana's leading dog-themed token, BONK exhibits significant funding rate fluctuations during market momentum shifts. Bybit's 8-hour funding intervals and competitive fee structure make it suitable for capturing these rate differentials.",
+    "how_funding_works": "Bybit calculates BONK/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. The funding rate is determined by the 8-hour time-weighted average premium with interest rate components. When funding rates are positive, long position holders pay shorts, creating arbitrage opportunities for traders who can hedge their spot BONK holdings. Bybit caps funding rates at ±2% to prevent extreme scenarios during volatile periods.",
+    "why_this_pair": "BONK's meme coin volatility creates frequent funding rate imbalances as retail sentiment drives asymmetric positioning. High short interest during bear markets often results in negative funding rates, rewarding long positions. The pair's mid-tier volume on Bybit ensures sufficient liquidity for arbitrage strategies while maintaining meaningful rate variations.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on Bybit typically range from -0.5% to +1.5% during normal market conditions. During major Solana ecosystem rallies, positive funding rates can spike above 2% as leveraged longs dominate positioning. Conversely, during broader crypto selloffs, negative funding rates below -0.3% become common as shorts accumulate. The token's correlation with SOL price movements creates predictable funding rate cycles around Solana network developments. Weekly analysis shows funding rates tend to normalize faster than other meme coins due to BONK's established trading patterns."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable BONK funding arbitrage occurs when rates exceed ±0.2% while maintaining delta-neutral positions through spot hedging. Bybit's unified trading account allows seamless capital allocation between spot BONK and perpetual contracts for efficient arbitrage execution. Cross-exchange arbitrage opportunities arise when Bybit's BONK funding rates diverge significantly from Binance or OKX rates. Traders can optimize returns by timing entries around Solana network upgrades or major meme coin narratives that drive asymmetric positioning. The 8-hour settlement frequency provides multiple daily opportunities to capture rate differentials."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "BONK's extreme volatility poses liquidation risks even in hedged positions due to sudden price gaps that can occur outside trading hours. Funding rate arbitrage requires careful position sizing as BONK can experience 20%+ daily moves that impact margin requirements. Slippage during hedge execution becomes significant during high volatility periods when spot-perp spreads widen rapidly. Traders must account for Bybit's 0.055% taker fees when calculating net arbitrage returns, especially for shorter-duration positions. Risk management should include stop-losses on the arbitrage spread rather than individual legs to prevent adverse selection during execution."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical BONK funding rates on Bybit?",
+        "answer": "BONK/USDT funding rates on Bybit typically range from -0.5% to +1.5% during normal conditions, with rates calculated every 8 hours. During high volatility periods or strong trending moves, rates can exceed ±2% as Bybit's rate caps activate."
+      },
+      {
+        "question": "How does Bybit's BONK funding compare to other exchanges?",
+        "answer": "Bybit generally offers competitive BONK funding rates similar to Binance and OKX, with occasional divergences of 0.1-0.3% creating cross-exchange arbitrage opportunities. The 8-hour settlement frequency aligns with industry standards for consistent arbitrage execution."
+      },
+      {
+        "question": "Can I hedge BONK perpetual positions with spot on Bybit?",
+        "answer": "Yes, Bybit's unified trading account allows direct hedging of BONK perpetual positions with spot BONK holdings. This enables delta-neutral funding rate arbitrage strategies, though traders should account for the 0.1% spot trading fees when calculating profitability."
+      },
+      {
+        "question": "What risks exist with BONK funding rate arbitrage?",
+        "answer": "Primary risks include BONK's extreme volatility causing liquidations despite hedging, execution slippage during volatile periods, and funding rate convergence reducing profitability. Position sizing should account for potential 20%+ daily price moves and margin requirements across both legs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "ordi-usdt",
+    "ethfi-usdt",
+    "link-usdt",
+    "sui-usdt"
+  ]
+}

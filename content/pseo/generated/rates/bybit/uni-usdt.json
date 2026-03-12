@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Bybit Funding Rates - Arbitrage Opportunities",
+    "description": "Track UNI/USDT perpetual funding rates on Bybit. Analyze 8-hour funding cycles, historical patterns, and arbitrage opportunities for Uniswap token trading.",
+    "keywords": [
+      "UNI funding rates",
+      "Bybit perpetuals",
+      "funding rate arbitrage",
+      "UNI USDT",
+      "Uniswap futures",
+      "8 hour funding",
+      "DeFi arbitrage",
+      "crypto funding"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Bybit offer regular funding rate arbitrage opportunities through 8-hour cycles. Uniswap's token exhibits moderate volatility patterns that create predictable funding rate premiums during DeFi market movements. Bybit's efficient matching engine ensures consistent execution for funding rate strategies.",
+    "how_funding_works": "Bybit calculates UNI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The funding rate is determined by the 8-hour time-weighted average premium and interest rate component. Long positions pay funding when rates are positive, while short positions receive funding, with payments occurring automatically at funding intervals. Bybit caps funding rates at ±0.75% to prevent extreme scenarios.",
+    "why_this_pair": "UNI/USDT shows distinct funding rate patterns tied to DeFi sector momentum and governance events. The token's mid-tier trading volume creates opportunities for funding rate dislocations without excessive slippage. Uniswap's role as a leading DEX makes UNI sensitive to broader DeFi trends, generating predictable funding rate cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on Bybit typically range from -0.2% to +0.4% during normal market conditions, with spikes to +1% during DeFi euphoria periods. The token exhibits higher positive funding rates during DEX volume surges and governance proposals. Weekend periods often show reduced funding premiums due to lower institutional activity. Historical data indicates funding rates above +0.3% tend to revert within 2-3 cycles."
+      },
+      {
+        "heading": "Arbitrage Execution Strategies",
+        "body": "Optimal UNI funding rate arbitrage involves monitoring the 1-hour mark before funding intervals when premiums typically peak. Bybit's unified account allows efficient margin utilization across spot and derivatives positions for delta-neutral strategies. The 0.02% maker rebate on perpetuals helps offset funding costs when building positions. Cross-collateral functionality enables using UNI itself as margin for leveraged arbitrage positions."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "UNI's correlation with ETH can create basis risk during divergent moves between assets. Governance events and protocol upgrades may cause sudden volatility spikes that impact funding calculations. Bybit's insurance fund provides additional protection, but extreme market conditions can still cause auto-deleveraging. Position sizing should account for UNI's 24-hour average true range of approximately 8-12% during volatile periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are UNI/USDT funding rates calculated on Bybit?",
+        "answer": "Bybit calculates UNI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. The rate is based on the 8-hour time-weighted average premium between the perpetual contract and spot price index."
+      },
+      {
+        "question": "What's the typical funding rate range for UNI perpetuals?",
+        "answer": "UNI/USDT funding rates normally range from -0.2% to +0.4% on Bybit during standard market conditions. During DeFi sector rallies or major governance events, rates can spike above +1% temporarily."
+      },
+      {
+        "question": "Can I use UNI tokens as collateral for funding rate arbitrage?",
+        "answer": "Yes, Bybit's unified account allows using UNI tokens directly as cross-collateral for perpetual positions. This enables efficient delta-neutral strategies without requiring additional USDT margin for arbitrage trades."
+      },
+      {
+        "question": "How does Bybit's funding rate compare to other exchanges for UNI?",
+        "answer": "Bybit typically offers competitive UNI funding rates due to its strong derivatives focus and efficient price discovery. The 8-hour funding cycle provides more frequent arbitrage opportunities compared to exchanges with daily funding intervals."
+      }
+    ]
+  },
+  "related_pairs": [
+    "blur-usdt",
+    "meme-usdt",
+    "jup-usdt",
+    "sol-usdt",
+    "w-usdt"
+  ]
+}

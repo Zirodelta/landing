@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate Arbitrage on Binance",
+    "description": "Trade WLD/USDT perpetual futures on Binance for funding rate arbitrage. 8-hour cycles, deep liquidity, and AI token volatility create profit opportunities.",
+    "keywords": [
+      "WLD funding rate",
+      "Binance perpetual futures",
+      "funding rate arbitrage",
+      "WLD USDT",
+      "crypto arbitrage",
+      "Worldcoin futures",
+      "AI token funding",
+      "8 hour funding"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Binance offer compelling funding rate arbitrage opportunities due to the AI token's retail popularity and volatility patterns. Binance's 8-hour funding cycles and deep liquidity pool make it an ideal venue for capturing funding premiums on this Worldcoin derivative.",
+    "how_funding_works": "Binance calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and mark prices. The funding rate is capped at ±2.5% per period, with most WLD sessions ranging from 0.01% to 0.5%. Long positions pay when funding is positive, short positions pay when negative, creating predictable arbitrage windows during high retail activity periods.",
+    "why_this_pair": "WLD exhibits unique funding patterns due to its AI narrative appeal and concentrated retail interest, often generating sustained positive funding rates during market rallies. The token's mid-tier volume provides sufficient liquidity for substantial positions while maintaining enough volatility to create meaningful funding differentials across exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT funding rates on Binance have historically spiked during AI market cycles and major Worldcoin announcements, reaching the 2.5% cap during peak periods. The pair typically maintains positive funding during bull markets due to retail long bias, with rates averaging 0.15-0.35% per 8-hour period. Weekend periods often see reduced funding as retail activity decreases, creating opportunities for reverse arbitrage strategies. The token's correlation with broader AI sector movements makes funding rates somewhat predictable during sector rotations."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange funding arbitrage between Binance and smaller venues often yields 0.1-0.3% per cycle when WLD funding diverges significantly. Delta-neutral strategies work effectively due to Binance's tight bid-ask spreads and reliable order execution during funding collection periods. The AI token narrative creates sentiment-driven funding spikes that can be captured through systematic long/short positioning ahead of funding timestamps. High-frequency traders can exploit the predictable funding pattern changes that occur around Worldcoin ecosystem updates and partnership announcements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WLD's mid-tier liquidity can create slippage risks during large position adjustments, particularly in volatile market conditions when funding rates are most attractive. The token's sensitivity to AI sector sentiment creates correlation risks that can overwhelm funding profits during sharp directional moves. Binance's margin requirements may increase during high volatility periods, affecting position sizing for funding rate strategies. Regulatory uncertainty around Worldcoin's iris-scanning model adds fundamental risk that could impact long-term funding rate patterns and exchange availability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes WLD funding rates on Binance unique compared to other AI tokens?",
+        "answer": "WLD funding rates exhibit higher volatility due to concentrated retail interest and the token's controversial biometric verification model. Binance's large retail user base amplifies these patterns, creating more pronounced funding spikes than other AI tokens with primarily institutional flows."
+      },
+      {
+        "question": "How does Binance's 8-hour funding cycle affect WLD arbitrage strategies?",
+        "answer": "The 8-hour cycle aligns well with global trading sessions, allowing arbitrageurs to capture funding during Asian, European, and US market hours when WLD activity peaks. This timing creates three distinct opportunities daily to benefit from retail sentiment-driven funding divergences."
+      },
+      {
+        "question": "What position sizes are optimal for WLD funding arbitrage on Binance?",
+        "answer": "Positions between $10K-$100K typically provide the best risk-adjusted returns, offering meaningful funding collection while maintaining manageable slippage costs. Larger positions may face execution challenges during volatile periods when funding opportunities are most attractive."
+      },
+      {
+        "question": "How do Worldcoin announcements impact Binance WLD funding rates?",
+        "answer": "Major Worldcoin ecosystem updates typically drive 2-5x increases in funding rates for 24-48 hours as retail traders establish directional positions. These events create predictable arbitrage windows for traders who monitor the project's development timeline and partnership announcements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "stx-usdt",
+    "inj-usdt",
+    "doge-usdt",
+    "trx-usdt",
+    "near-usdt"
+  ]
+}

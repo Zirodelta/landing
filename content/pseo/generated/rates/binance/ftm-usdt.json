@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rate Arbitrage on Binance",
+    "description": "Track FTM/USDT perpetual futures funding rates on Binance. 8-hour settlement cycles with deep liquidity for Layer-1 blockchain token arbitrage strategies.",
+    "keywords": [
+      "FTM funding rate",
+      "Binance perpetual futures",
+      "Fantom arbitrage",
+      "USDT perpetual swap",
+      "crypto funding rate",
+      "Layer-1 token trading",
+      "Binance FTM futures",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FTM/USDT perpetual futures on Binance offer funding rate arbitrage opportunities through the exchange's tri-daily settlement mechanism at 00:00, 08:00, and 16:00 UTC. As Fantom's native token, FTM exhibits distinct funding patterns influenced by DeFi activity on the Fantom Opera network and broader Layer-1 competition dynamics.",
+    "how_funding_works": "Binance calculates FTM/USDT funding rates using the 8-hour TWAP interest rate differential between longs and shorts, with rates typically ranging from -0.375% to +0.375% per funding period. The exchange's insurance fund automatically covers any funding payment shortfalls, ensuring reliable settlement even during extreme market volatility. Position holders pay or receive funding based on their side relative to the rate direction, with payments processed exactly at each 8-hour interval regardless of when positions were opened.",
+    "why_this_pair": "FTM/USDT presents compelling arbitrage opportunities due to Fantom's mid-tier market cap creating more volatile funding rate swings compared to major cryptocurrencies. The pair benefits from Binance's deep liquidity pools and tight spreads, typically maintaining bid-ask spreads under 0.02% during active trading hours. FTM's correlation with DeFi trends and smart contract platform narratives often creates directional bias in perpetual futures positioning, leading to sustained funding rate imbalances.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FTM/USDT funding rates on Binance have historically exhibited pronounced cyclical behavior during Layer-1 narrative cycles, with rates frequently exceeding +0.1% during bullish Fantom ecosystem developments. The pair typically shows negative funding rates during broader crypto downturns, as short interest increases amid reduced DeFi activity on Fantom Opera. Weekly funding rate volatility often ranges between 0.05% to 0.3%, creating multiple arbitrage entry points for sophisticated traders. Seasonal patterns emerge around major Fantom protocol launches and partnership announcements, with funding rates spiking 24-48 hours before significant network upgrades."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "Optimal FTM/USDT arbitrage opportunities typically arise when funding rates exceed ±0.05% per 8-hour period, equivalent to annualized rates above 54.75%. Cross-exchange arbitrage between Binance and other major derivatives platforms often yields additional alpha, particularly when combined with spot market delta hedging. The pair's moderate volatility allows for leveraged arbitrage strategies up to 10x without excessive liquidation risk during normal market conditions. Entry timing around 30 minutes before funding settlement maximizes rate capture while minimizing directional exposure to FTM price movements."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FTM/USDT arbitrage carries specific risks related to Fantom network performance and smart contract vulnerabilities that can trigger rapid depegging events. Binance's auto-deleveraging system may force position closures during extreme funding rate periods, particularly when FTM experiences >20% daily moves. Correlation risk with other Layer-1 tokens means funding rate strategies should account for broader smart contract platform sentiment shifts. Position sizing should remain conservative given FTM's lower market cap compared to Bitcoin or Ethereum, with maximum exposure limited to 2-3% of portfolio value per funding cycle."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FTM/USDT funding rates on Binance?",
+        "answer": "FTM/USDT funding rates on Binance typically range from -0.1% to +0.2% per 8-hour period during normal market conditions. Rates above ±0.05% generally indicate profitable arbitrage opportunities, with extreme rates exceeding ±0.3% occurring during major Fantom ecosystem events or broader crypto market stress."
+      },
+      {
+        "question": "How does Binance calculate FTM perpetual funding rates?",
+        "answer": "Binance uses a premium index methodology comparing the FTM/USDT perpetual price to the underlying spot index, combined with an interest rate component. The funding rate equals the 8-hour time-weighted average of (Perpetual Price - Index Price) / Index Price, capped at ±0.375% per funding interval."
+      },
+      {
+        "question": "What's the minimum position size for FTM/USDT funding arbitrage?",
+        "answer": "Binance requires a minimum order size of 1 FTM for perpetual futures, but practical arbitrage strategies typically start at 1,000 FTM (~$300-800 depending on price) to overcome trading fees. Position sizes below $1,000 may not generate sufficient funding payments to cover the 0.02%-0.05% trading fees plus potential slippage."
+      },
+      {
+        "question": "Can I use cross-margin for FTM funding rate strategies on Binance?",
+        "answer": "Yes, Binance supports cross-margin mode for FTM/USDT perpetuals, allowing shared margin across multiple positions. However, isolated margin is generally preferred for funding rate arbitrage to limit risk exposure and maintain precise position control. Cross-margin can be beneficial when running multiple Layer-1 token arbitrage strategies simultaneously."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "wld-usdt",
+    "bnb-usdt",
+    "btc-usdt",
+    "pepe-usdt"
+  ]
+}

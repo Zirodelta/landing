@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bybit BTC/USDT Funding Rate Arbitrage Guide",
+    "description": "Master funding rate arbitrage on Bybit's BTC/USDT perpetual futures. 8-hour intervals, competitive rates, and proven strategies for consistent profits.",
+    "keywords": [
+      "bybit funding rate",
+      "btc usdt perpetual",
+      "funding rate arbitrage",
+      "bybit derivatives",
+      "bitcoin funding",
+      "crypto arbitrage",
+      "perpetual futures",
+      "bybit trading"
+    ]
+  },
+  "content": {
+    "intro": "Bybit's BTC/USDT perpetual futures contract offers one of the most liquid funding rate arbitrage opportunities in crypto derivatives. With 8-hour funding intervals and consistently competitive rates, this flagship pair attracts institutional and retail arbitrageurs seeking stable yield generation. The contract's deep liquidity and Bybit's robust matching engine make it ideal for both manual and automated funding rate strategies.",
+    "how_funding_works": "Bybit calculates funding rates for BTC/USDT every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme volatility. Long positions pay short positions when the rate is positive (indicating perpetual trading above spot), while shorts pay longs during negative funding periods. Payments are automatically settled in USDT without affecting your position size.",
+    "why_this_pair": "BTC/USDT represents the highest volume perpetual contract globally, providing unmatched liquidity for large funding rate arbitrage positions. The pair's massive open interest ensures minimal slippage when entering or exiting positions. Bitcoin's established correlation patterns and funding rate predictability make this contract particularly suitable for systematic arbitrage strategies across multiple market cycles.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "Bybit's BTC/USDT funding rates typically range from -0.1% to +0.2% per 8-hour period, with extreme bull markets pushing rates above +0.5%. During 2023-2024, positive funding dominated 70% of intervals, creating consistent short arbitrage opportunities. Weekend periods often show lower funding rates due to reduced retail activity. The contract exhibits strong mean reversion, with sustained high funding periods (>0.3%) typically correcting within 24-48 hours, making timing strategies particularly effective."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable strategies involve shorting Bybit perpetuals while longing spot BTC or futures on exchanges with lower funding rates. Cross-exchange arbitrage yields 5-15% annualized returns during normal market conditions, scaling to 30%+ during high volatility periods. Delta-neutral strategies work best with position sizes between $10K-$1M to optimize funding collection while maintaining adequate liquidity. Automated strategies can capture micro-opportunities by monitoring funding rate predictions and executing trades 30-60 minutes before settlement times."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Key risks include basis convergence during volatile periods, potential liquidation if hedging positions move independently, and counterparty risk across multiple exchanges. Bybit's insurance fund provides additional protection, but positions should maintain 200%+ margin ratios to avoid forced liquidation during extreme moves. Funding rate reversals can occur suddenly during major news events, turning profitable positions negative. Consider partial position sizing and diversification across multiple contracts to minimize concentration risk while maintaining steady yield generation."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What's the minimum position size for effective BTC/USDT funding arbitrage on Bybit?",
+        "answer": "While Bybit allows positions as small as 0.001 BTC, effective funding arbitrage typically requires minimum positions of 0.1-0.5 BTC ($4K-$20K) to generate meaningful returns after accounting for trading fees and hedging costs. Larger positions up to 100 BTC can be accommodated due to the contract's deep liquidity."
+      },
+      {
+        "question": "How does Bybit's unified account affect funding rate strategies?",
+        "answer": "Bybit's unified trading account allows cross-margining between spot and derivatives positions, improving capital efficiency for funding arbitrage. You can use spot BTC holdings as margin for short perpetual positions, reducing the capital required for delta-neutral strategies. This feature particularly benefits traders implementing multi-pair arbitrage across Bybit's derivatives suite."
+      },
+      {
+        "question": "What tools does Bybit provide for monitoring BTC funding rates?",
+        "answer": "Bybit offers real-time funding rate displays, historical data charts, and predicted rates for the next interval. The platform's API provides programmatic access to funding data for automated strategies. Additionally, Bybit's mobile app includes push notifications for significant funding rate changes, helping traders time their entries and exits more effectively."
+      },
+      {
+        "question": "How do Bybit's maker/taker fees impact funding arbitrage profitability?",
+        "answer": "With maker fees at 0.02% and taker fees at 0.055%, fee optimization is crucial for funding arbitrage profitability. Using limit orders to achieve maker rebates significantly improves returns, especially for frequent position adjustments. The fee structure favors strategies that provide liquidity, making gradual position building more cost-effective than market orders during high-funding periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "w-usdt",
+    "mkr-usdt",
+    "avax-usdt",
+    "stx-usdt",
+    "tia-usdt"
+  ]
+}

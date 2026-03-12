@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rates on Bybit | Perpetual Futures",
+    "description": "Track NEAR/USDT funding rates on Bybit. 8-hour intervals, 0.02% maker fees. Analyze arbitrage opportunities in NEAR Protocol perpetual futures.",
+    "keywords": [
+      "NEAR funding rates",
+      "Bybit perpetuals",
+      "NEAR USDT futures",
+      "funding rate arbitrage",
+      "NEAR Protocol derivatives",
+      "Bybit trading fees",
+      "perpetual swap rates"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's robust derivatives infrastructure and competitive 0.02% maker fees make it attractive for NEAR Protocol traders seeking consistent funding income.",
+    "how_funding_works": "Bybit calculates NEAR/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. The exchange applies a dampening mechanism with ±0.375% boundaries around the interest rate component. Funding payments occur automatically between long and short position holders based on the 8-hour TWAP of the premium rate. Bybit's unified trading account allows seamless margin allocation across NEAR positions and other derivatives.",
+    "why_this_pair": "NEAR Protocol's mid-tier trading volume creates moderate funding rate volatility, often ranging from -0.2% to +0.3% during trending markets. The L1 blockchain's institutional adoption and developer activity generate sustained directional interest, leading to predictable funding patterns. NEAR's correlation with broader Layer 1 tokens provides diversification benefits for multi-pair funding strategies.",
+    "sections": [
+      {
+        "heading": "Historical NEAR Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on Bybit typically oscillate between -0.15% and +0.25% during normal market conditions. Bull markets often see sustained positive funding above +0.1% for 3-5 day periods as retail demand drives long bias. Bear markets frequently produce negative funding below -0.05% as shorts dominate and long liquidations create temporary premium discounts. Weekend periods show reduced volatility with funding rates converging toward the 0.01% daily interest rate baseline."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "NEAR funding arbitrage works best during ecosystem events like protocol upgrades or major partnership announcements when directional bias peaks. Traders can capture 8-16% annualized returns by shorting NEAR perpetuals during sustained positive funding while hedging with spot purchases or long positions on competing exchanges. Cross-exchange arbitrage between Bybit and OKX often yields 0.02-0.08% per funding cycle due to timing differences and user base variations. Position sizing should account for NEAR's 15-25% daily volatility and potential gap risks during low liquidity Asian hours."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "NEAR's mid-tier liquidity can create slippage issues during large position adjustments, particularly outside US trading hours. The token's correlation with SOL and AVAX means sector-wide moves can trigger coordinated liquidations across L1 perpetuals. Bybit's auto-deleveraging system may close profitable funding positions during extreme volatility, requiring dynamic position management. Traders should monitor NEAR's staking unlock schedules and ecosystem treasury activities that can create unexpected selling pressure and funding rate reversals."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical NEAR funding rates on Bybit during bull markets?",
+        "answer": "During bull markets, NEAR/USDT funding rates on Bybit typically range from +0.05% to +0.30% per 8-hour period. Sustained positive funding above +0.15% often occurs for 72-120 hours during strong uptrends, creating profitable shorting opportunities for arbitrage traders."
+      },
+      {
+        "question": "How does Bybit's NEAR perpetual compare to spot trading for arbitrage?",
+        "answer": "Bybit's NEAR perpetual offers leverage up to 50x and 8-hour funding payments, while spot requires full capital allocation. The perpetual's funding mechanism provides consistent income streams during trending markets, but spot positions avoid liquidation risk and funding payment uncertainty during volatile periods."
+      },
+      {
+        "question": "What's the optimal position size for NEAR funding arbitrage on Bybit?",
+        "answer": "Optimal NEAR position sizes on Bybit typically range from 0.1% to 2% of portfolio value per trade, depending on funding rate magnitude and volatility. Positions above $50,000 may experience slippage during entry/exit, while smaller positions under $5,000 may not justify the monitoring overhead for 8-hour funding cycles."
+      },
+      {
+        "question": "When do NEAR funding rates typically turn negative on Bybit?",
+        "answer": "NEAR funding rates on Bybit commonly turn negative during broader crypto bear markets, major unlock events, or when shorts exceed 60% of open interest. Negative rates below -0.1% often persist for 24-48 hours during cascading liquidations or ecosystem-specific bad news affecting NEAR Protocol adoption."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "rune-usdt",
+    "meme-usdt",
+    "shib-usdt",
+    "avax-usdt"
+  ]
+}
