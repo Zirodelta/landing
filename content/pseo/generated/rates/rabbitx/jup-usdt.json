@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jup-usdt",
+    "base": "JUP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JUP/USDT Funding Rate - RabbitX Perpetual Futures",
+    "description": "Track JUP/USDT funding rates on RabbitX DEX. Hourly settlements with 0.02%/0.05% fees. Analyze arbitrage opportunities on Starknet-based perpetual futures.",
+    "keywords": [
+      "JUP funding rate",
+      "RabbitX perpetual",
+      "DEX arbitrage",
+      "Starknet trading",
+      "Jupiter funding",
+      "cross-margin",
+      "off-chain matching",
+      "hourly settlement"
+    ]
+  },
+  "content": {
+    "intro": "JUP/USDT perpetual futures on RabbitX offer hourly funding rate settlements with institutional-grade execution on Starknet. The pair represents Jupiter's governance token against USDT, providing exposure to one of Solana's leading DEX aggregators. RabbitX's hybrid architecture combines off-chain matching with on-chain settlement for optimal performance.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a premium/discount mechanism based on the perpetual contract's price deviation from the underlying spot price. The platform's off-chain matching engine provides real-time price discovery while Starknet handles settlement with zero gas costs for traders. Cross-margin functionality allows efficient capital utilization across multiple positions. Funding payments occur automatically every hour at the top of each hour, with rates typically ranging from -0.5% to +0.5% daily.",
+    "why_this_pair": "JUP/USDT attracts significant interest due to Jupiter's central role in Solana's DeFi ecosystem as the dominant swap aggregator. The token's utility in governance and revenue sharing creates distinct funding rate patterns compared to pure speculation tokens. RabbitX's low maker fees (0.02%) make it particularly attractive for delta-neutral strategies when funding rates exceed the borrowing costs.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JUP funding rates on RabbitX typically correlate with broader Solana ecosystem momentum and Jupiter protocol developments. During high activity periods in Solana DeFi, JUP perpetuals often trade at premiums, resulting in positive funding rates that benefit short position holders. The hourly settlement frequency provides more granular opportunities compared to 8-hour cycles on traditional exchanges. Rate volatility tends to spike around Jupiter DAO proposals, token unlocks, and major Solana network upgrades. Historical data shows funding rates oscillating between -2% and +3% annually during volatile periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's unique position as a Starknet-based DEX creates arbitrage opportunities when funding rates diverge from centralized exchanges trading JUP perpetuals. The platform's maker rebate structure (0.02%) can effectively subsidize funding arbitrage strategies when combined with favorable rates. Cross-margin capabilities allow traders to maintain market-neutral positions across multiple pairs simultaneously. Gas-free trading eliminates the friction typically associated with frequent position adjustments. Arbitrageurs should monitor rate differentials exceeding 0.1% daily to account for execution costs and slippage."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading JUP perpetuals on RabbitX carries specific risks related to the protocol's early-stage development and limited liquidity depth compared to established exchanges. Funding rate volatility can exceed expectations during Solana network congestion or Jupiter protocol incidents. The platform's smaller user base may result in temporary liquidity gaps that impact large position entries or exits. Cross-margin positions amplify both opportunities and risks, requiring careful monitoring of overall portfolio exposure. Smart contract risks associated with Starknet and RabbitX's novel architecture should be considered, though the protocol has undergone multiple security audits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are JUP funding rates updated on RabbitX?",
+        "answer": "Funding rates are calculated and applied hourly on RabbitX, occurring at the top of each hour. This frequency provides more opportunities for rate arbitrage compared to traditional 8-hour cycles. The calculation uses a time-weighted average premium over the preceding hour."
+      },
+      {
+        "question": "What makes RabbitX different for JUP perpetual trading?",
+        "answer": "RabbitX offers zero gas fees for trading through Starknet integration, combined with institutional-grade off-chain matching. The platform's cross-margin system and low maker fees (0.02%) create favorable conditions for funding rate strategies. Early access to Starknet's scaling benefits provides competitive execution speeds."
+      },
+      {
+        "question": "Can I use cross-margin for JUP funding arbitrage on RabbitX?",
+        "answer": "Yes, RabbitX's cross-margin system allows you to maintain multiple positions using shared collateral, including funding arbitrage strategies across different pairs. This capital efficiency advantage lets you maximize returns from funding rate differentials while maintaining proper risk management across your portfolio."
+      },
+      {
+        "question": "What are the main risks of JUP perpetual trading on RabbitX?",
+        "answer": "Key risks include the platform's early-stage status, limited liquidity compared to major exchanges, and potential smart contract risks on Starknet. JUP's correlation with Solana ecosystem developments can cause unexpected funding rate spikes. The cross-margin system requires careful position sizing to avoid liquidation cascades."
+      }
+    ]
+  },
+  "related_pairs": [
+    "blur-usdt",
+    "link-usdt",
+    "ordi-usdt",
+    "inj-usdt",
+    "xrp-usdt"
+  ]
+}

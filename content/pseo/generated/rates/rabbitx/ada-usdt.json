@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ADA/USDT Funding Rates on RabbitX - Real-Time Analysis",
+    "description": "Track ADA/USDT perpetual funding rates on RabbitX DEX. Hourly funding intervals, cross-margin support, and zero gas trading for efficient rate arbitrage.",
+    "keywords": [
+      "ADA funding rates",
+      "RabbitX perpetuals",
+      "Cardano futures",
+      "DEX funding arbitrage",
+      "Starknet trading",
+      "ADA USDT perps",
+      "hourly funding",
+      "cross-margin"
+    ]
+  },
+  "content": {
+    "intro": "ADA/USDT perpetual futures on RabbitX offer hourly funding rate settlements with cross-margin capabilities on Starknet infrastructure. The pair benefits from zero gas trading costs, making frequent position adjustments for funding arbitrage more profitable than traditional CEX alternatives.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the premium/discount between ADA perpetual price and spot index. Long positions pay funding when rates are positive (perp trading above spot), while shorts receive payments. Settlement occurs automatically without gas fees due to RabbitX's off-chain matching engine. Cross-margin allows traders to use ADA positions as collateral for other perpetual contracts simultaneously.",
+    "why_this_pair": "ADA/USDT shows consistent funding rate volatility due to Cardano's active DeFi ecosystem and staking dynamics affecting spot demand. The large trading volume creates arbitrage opportunities when institutional flows cause temporary premium divergences between perpetual and spot markets.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ADA funding rates on RabbitX typically range from -0.05% to +0.15% per hour during normal market conditions. During Cardano ecosystem announcements or major network upgrades, rates can spike to +0.3% as speculation drives perpetual premiums. The hourly settlement frequency captures short-term sentiment shifts more effectively than 8-hour funding cycles on competing exchanges. Weekend periods often show negative funding as retail long interest decreases while automated trading maintains short hedges."
+      },
+      {
+        "heading": "Cross-Margin Arbitrage Opportunities",
+        "body": "RabbitX's cross-margin system enables sophisticated funding strategies by using ADA positions as collateral for correlated trades on other Cardano ecosystem tokens. Traders can maintain delta-neutral exposure while collecting funding from multiple perpetual contracts simultaneously. The zero gas environment allows micro-adjustments to hedge ratios without transaction cost erosion. Optimal strategies involve pairing ADA longs with shorts on high-beta altcoins when funding rates diverge significantly from historical correlations."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Early-stage protocol risks include potential smart contract vulnerabilities and lower liquidity during extreme market stress compared to established CEXs. RabbitX's limited user base can create wider bid-ask spreads during volatile periods, impacting funding arbitrage profitability. Cross-margin positions require careful monitoring as correlated liquidation risks exist across multiple perpetual contracts. The Starknet settlement mechanism, while efficient, introduces additional technical dependencies that traders must account for in their risk models."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does RabbitX settle ADA/USDT funding rates?",
+        "answer": "RabbitX settles funding rates every hour for ADA/USDT perpetuals. This frequent settlement captures short-term price movements more effectively than traditional 8-hour cycles, providing more arbitrage opportunities for active traders."
+      },
+      {
+        "question": "Can I use cross-margin for ADA funding rate strategies on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin across all perpetual contracts including ADA/USDT. You can use your ADA position as collateral for other trades, enabling complex delta-neutral strategies that collect funding from multiple pairs simultaneously."
+      },
+      {
+        "question": "What are the trading fees for ADA/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% for maker orders and 0.05% for taker orders on ADA/USDT perpetuals. Additionally, there are zero gas fees for trading due to the off-chain matching engine, making frequent position adjustments for funding arbitrage more cost-effective."
+      },
+      {
+        "question": "How does RabbitX's Starknet infrastructure affect ADA funding calculations?",
+        "answer": "RabbitX uses Starknet for settlement while maintaining off-chain order matching, ensuring fast execution without compromising decentralization. Funding rate calculations are performed off-chain using real-time price feeds, with settlements batched and processed on Starknet for transparency and security."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "avax-usdt",
+    "ordi-usdt",
+    "floki-usdt",
+    "shib-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FTM/USDT Funding Rates on Bluefin | Perpetual Arbitrage",
+    "description": "Track FTM/USDT funding rates on Bluefin DEX. Exploit 1-hour funding cycles on Sui's fastest perpetual exchange with institutional-grade execution.",
+    "keywords": [
+      "FTM funding rates",
+      "Bluefin DEX",
+      "Sui perpetual futures",
+      "FTM arbitrage",
+      "Fantom funding",
+      "DEX funding rates",
+      "Bluefin trading",
+      "L1 token arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FTM/USDT perpetual futures on Bluefin offer unique funding rate arbitrage opportunities within the Sui ecosystem's leading DEX. The 1-hour funding cycle provides frequent arbitrage windows for L1 tokens like Fantom, particularly during ecosystem developments or market volatility.",
+    "how_funding_works": "Bluefin calculates funding rates hourly using a 15-minute TWAP of the premium between perpetual price and spot index. The exchange's order book model and institutional matching engine ensure precise rate calculations without the slippage common to AMM-based perpetuals. Settlement occurs instantly on Sui, enabling rapid position adjustments. Rates are capped at ±0.75% per funding period to prevent extreme scenarios.",
+    "why_this_pair": "FTM represents a mid-tier L1 with moderate volatility that creates predictable funding patterns during ecosystem updates or DeFi integrations. Bluefin's position as the dominant Sui perpetual exchange provides the most liquid FTM futures market within this ecosystem. The hourly funding frequency allows for more granular arbitrage strategies compared to 8-hour cycles on other platforms.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "FTM funding rates on Bluefin typically range from -0.01% to +0.05% per hour, with spikes during Fantom ecosystem announcements or broader L1 narratives. Positive rates dominate during bullish L1 cycles when traders maintain long bias. Weekend periods often see compressed rates due to lower activity. The 1-hour cycle creates more frequent but smaller magnitude rate changes compared to traditional 8-hour funding, resulting in smoother arbitrage opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Successful FTM arbitrage on Bluefin involves monitoring rate predictions 15 minutes before each hourly settlement. Traders can exploit rate differentials between Bluefin and centralized exchanges like Binance or OKX, particularly when Sui ecosystem sentiment diverges from general L1 trends. The DEX structure means fewer algorithmic funding traders compete for opportunities. Cross-collateral support enables efficient hedging strategies without multiple wallet management."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Primary risks include Bluefin's relatively low TVL creating potential liquidity crunches during volatile periods. Sui network congestion, while rare, could delay settlements during critical arbitrage windows. The exchange's early stage means fewer risk management tools compared to established platforms. FTM's correlation with broader L1 tokens can create systematic risk when multiple positions move unfavorably. Smart contract risk exists as Bluefin's codebase is newer than battle-tested alternatives."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Bluefin calculate FTM funding rates?",
+        "answer": "Bluefin calculates FTM/USDT funding rates every hour using a 15-minute time-weighted average price. This frequent calculation provides more arbitrage opportunities compared to the standard 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What are typical FTM funding rate ranges on Bluefin?",
+        "answer": "FTM funding rates on Bluefin typically range from -0.01% to +0.05% per hour during normal market conditions. Rates can spike to the ±0.75% cap during significant Fantom ecosystem events or extreme market volatility periods."
+      },
+      {
+        "question": "How does Sui network performance affect FTM arbitrage?",
+        "answer": "Sui's sub-second finality enables rapid position adjustments for FTM arbitrage strategies. However, network congestion during high activity periods could delay trade execution, making timing-sensitive funding arbitrage more challenging."
+      },
+      {
+        "question": "Can I use cross-collateral for FTM positions on Bluefin?",
+        "answer": "Yes, Bluefin supports cross-collateral trading, allowing you to use various assets as margin for FTM/USDT positions. This feature simplifies portfolio management and enables more efficient hedging strategies for funding rate arbitrage."
+      }
+    ]
+  },
+  "related_pairs": [
+    "op-usdt",
+    "bnb-usdt",
+    "uni-usdt",
+    "ada-usdt",
+    "sei-usdt"
+  ]
+}

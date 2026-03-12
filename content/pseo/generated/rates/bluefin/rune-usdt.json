@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rate Arbitrage on Bluefin DEX",
+    "description": "Track RUNE/USDT perpetual funding rates on Bluefin DEX. Hourly settlements and Sui-based infrastructure create unique arbitrage opportunities.",
+    "keywords": [
+      "RUNE funding rate",
+      "Bluefin DEX",
+      "THORChain arbitrage",
+      "Sui perpetuals",
+      "DeFi funding",
+      "RUNE USDT",
+      "hourly funding",
+      "DEX trading"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Bluefin offer unique funding rate arbitrage opportunities within the Sui ecosystem. The hourly funding settlements and institutional-grade matching engine provide efficient price discovery for THORChain's native token. Bluefin's order book model enables sophisticated trading strategies for RUNE's cross-chain DeFi exposure.",
+    "how_funding_works": "Bluefin calculates RUNE/USDT funding rates hourly using the time-weighted average premium between perpetual and index prices. The exchange sources price data from multiple CEX and DEX feeds to determine the fair value rate. Funding payments are automatically settled every hour at minute 00, with long positions paying short positions when rates are positive. Sui's fast finality ensures immediate settlement without the delays common on other L1 networks.",
+    "why_this_pair": "RUNE exhibits significant funding rate volatility due to its cross-chain bridging utility and DeFi yield farming cycles. The token's price sensitivity to Bitcoin movements and THORChain protocol updates creates frequent funding rate divergences across exchanges. Bluefin's position as the leading Sui perpetuals platform often shows different funding patterns compared to Ethereum-based competitors.",
+    "sections": [
+      {
+        "heading": "RUNE Funding Rate Historical Patterns",
+        "body": "RUNE funding rates on Bluefin typically range from -0.05% to 0.15% hourly during normal market conditions. During THORChain protocol upgrades or major DeFi yield farming events, rates can spike above 0.30% as traders position for directional moves. The token shows strong correlation with broader DeFi sentiment, with negative funding rates during market downturns often persisting for 12-24 hours. Cross-chain bridge utilization directly impacts funding rate volatility, especially during periods of high Bitcoin network activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "RUNE funding rate arbitrage on Bluefin benefits from the exchange's low 0.02% maker fees and efficient order matching. Traders can exploit rate differentials between Bluefin and major CEX platforms like Binance or OKX, which often settle funding every 8 hours versus Bluefin's hourly model. The Sui blockchain's 400ms finality enables rapid position adjustments when funding rates shift unexpectedly. Most profitable opportunities occur during Asian trading hours when RUNE volume peaks and rate divergences widen."
+      },
+      {
+        "heading": "Risk Management and Platform Considerations",
+        "body": "RUNE's high volatility requires careful position sizing, with most arbitrage strategies limiting exposure to 2-3x leverage on Bluefin. The exchange's relatively lower TVL compared to established platforms creates potential liquidity constraints during high volatility periods. Sui network dependency introduces smart contract risk, though Bluefin's institutional-grade architecture has maintained stable operations. Cross-exchange arbitrage requires monitoring THORChain network status, as protocol issues can cause rapid funding rate convergence across all platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Bluefin settle RUNE/USDT funding payments?",
+        "answer": "Bluefin settles RUNE/USDT funding payments every hour at minute 00 UTC. This more frequent settlement compared to 8-hour cycles on most CEX platforms creates unique arbitrage windows for active traders."
+      },
+      {
+        "question": "What makes RUNE funding rates volatile on Bluefin?",
+        "answer": "RUNE's role in cross-chain liquidity and THORChain protocol updates drive funding rate volatility. The token's correlation with Bitcoin and DeFi yield cycles, combined with Bluefin's hourly settlements, amplifies rate fluctuations compared to less frequent funding cycles."
+      },
+      {
+        "question": "Can I arbitrage RUNE funding rates between Bluefin and centralized exchanges?",
+        "answer": "Yes, rate differentials between Bluefin's hourly settlements and CEX 8-hour cycles create arbitrage opportunities. However, you must account for withdrawal times, cross-chain bridge delays, and the risk of rate convergence during execution."
+      },
+      {
+        "question": "What are the main risks of RUNE funding rate arbitrage on Bluefin?",
+        "answer": "Primary risks include RUNE's high price volatility, Bluefin's lower liquidity during stress periods, and Sui network dependency. THORChain protocol risks can also cause rapid position moves that impact funding rate strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "tia-usdt",
+    "pendle-usdt",
+    "wif-usdt",
+    "atom-usdt"
+  ]
+}

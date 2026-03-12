@@ -11,27 +11,24 @@ interface Props {
   params: Promise<{ exchange: string; pair: string }>
 }
 
-export const dynamicParams = true
+export const dynamicParams = false
 
 export async function generateStaticParams() {
-  // Pre-render a limited set to stay under CF Pages bundle limits (~500 route cap)
-  // dynamicParams=true means un-prerendered pages still work on-demand
+  // Pre-render all pages with generated JSON content
   const fs = await import("fs")
   const path = await import("path")
   const dir = path.join(process.cwd(), "content/pseo/generated/rates")
   if (!fs.existsSync(dir)) return []
 
-  const MAX_PAGES = 100 // Keep under CF Pages string length limit
   const params: { exchange: string; pair: string }[] = []
-  for (const exDir of fs.readdirSync(dir)) {
+  for (const exDir of fs.readdirSync(dir).sort()) {
     const exPath = path.join(dir, exDir)
     if (!fs.statSync(exPath).isDirectory()) continue
-    for (const file of fs.readdirSync(exPath)) {
-      if (file.endsWith(".json") && params.length < MAX_PAGES) {
+    for (const file of fs.readdirSync(exPath).sort()) {
+      if (file.endsWith(".json")) {
         params.push({ exchange: exDir, pair: file.replace(".json", "") })
       }
     }
-    if (params.length >= MAX_PAGES) break
   }
   return params
 }

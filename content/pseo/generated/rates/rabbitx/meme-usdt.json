@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEME/USDT Funding Rates on RabbitX DEX | Perpetual Futures",
+    "description": "Track MEME/USDT funding rates on RabbitX DEX. Hourly funding payments, Starknet-based execution, and arbitrage opportunities in meme coin perpetuals.",
+    "keywords": [
+      "MEME funding rates",
+      "RabbitX perpetuals",
+      "DEX funding arbitrage",
+      "Starknet perps",
+      "meme coin futures",
+      "hourly funding",
+      "cross-margin trading",
+      "off-chain matching"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers MEME/USDT perpetual futures with hourly funding rate settlements, leveraging Starknet's zero-gas trading environment for efficient meme coin speculation. The platform's off-chain matching engine enables fast execution while maintaining decentralized settlement, making it suitable for active funding rate strategies.",
+    "how_funding_works": "RabbitX calculates funding rates every hour using a premium/discount mechanism between the perpetual price and spot index. Long positions pay funding when rates are positive, short positions pay when negative, with settlements occurring automatically without gas costs due to Starknet integration. The exchange's cross-margin system allows efficient capital utilization across positions, while the 0.02% maker and 0.05% taker fees impact net funding profitability.",
+    "why_this_pair": "MEME/USDT on RabbitX presents unique arbitrage opportunities due to meme coins' volatile sentiment-driven price movements that often create funding rate imbalances. The hourly funding frequency provides more granular arbitrage windows compared to 8-hour cycles, while the small trading volume can lead to exaggerated funding rates during viral meme cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEME/USDT funding rates on RabbitX have shown extreme volatility correlating with social media trends and market sentiment cycles. During meme coin rallies, funding rates frequently spike above 0.1% per hour as retail traders heavily favor long positions. The hourly settlement creates rapid oscillations between positive and negative rates, particularly during Asian trading hours when meme coin activity peaks. Historical data shows funding rates ranging from -0.5% to +0.8% per hour during high volatility periods, significantly exceeding traditional crypto assets."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "RabbitX's zero-gas environment enables profitable arbitrage on smaller funding rate discrepancies that would be unprofitable on other platforms. Traders can exploit funding rate imbalances by holding opposite positions on RabbitX versus centralized exchanges like Binance or OKX. The platform's cross-margin system allows efficient hedging strategies where traders can offset MEME exposure with other positions while collecting funding payments. Fast execution speeds reduce slippage risk when entering time-sensitive arbitrage positions during funding rate spikes."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risk and potential liquidity constraints during extreme market conditions. The limited user base can result in wide bid-ask spreads and poor execution for larger position sizes, particularly problematic for meme coins with inherent volatility. Funding rate strategies require careful position sizing due to MEME's price sensitivity to social sentiment and potential for rapid, unpredictable moves. Traders must account for the platform's 0.05% taker fees when calculating net funding profitability, as frequent position adjustments can erode gains."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MEME/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles funding rates every hour for MEME/USDT perpetuals. This frequent settlement provides more arbitrage opportunities compared to traditional 8-hour cycles but requires active monitoring of position exposure."
+      },
+      {
+        "question": "What are typical funding rates for MEME/USDT during high volatility?",
+        "answer": "During meme coin rallies or social media viral events, MEME/USDT funding rates can reach 0.3-0.8% per hour on RabbitX. These extreme rates reflect heavy long bias among retail traders and create lucrative short-side arbitrage opportunities for informed traders."
+      },
+      {
+        "question": "Does RabbitX charge gas fees for funding rate settlements?",
+        "answer": "No, RabbitX operates on Starknet which enables zero-gas trading and settlements. Funding rate payments are processed automatically without additional transaction costs, making micro-arbitrage strategies more viable compared to Ethereum-based DEXs."
+      },
+      {
+        "question": "How does MEME liquidity on RabbitX compare to major exchanges?",
+        "answer": "RabbitX has significantly lower MEME/USDT liquidity compared to centralized exchanges like Binance or OKX. This creates both opportunities for higher funding rates and risks of poor execution, requiring careful position sizing and gradual entry/exit strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "w-usdt",
+    "link-usdt",
+    "bonk-usdt",
+    "pyth-usdt"
+  ]
+}

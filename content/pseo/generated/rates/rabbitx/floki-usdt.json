@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rate on RabbitX - DEX Perpetual Futures",
+    "description": "Track FLOKI/USDT funding rates on RabbitX DEX. Hourly settlements, zero gas trading on Starknet. Optimize funding rate arbitrage for this meme token pair.",
+    "keywords": [
+      "FLOKI funding rate",
+      "RabbitX perpetuals",
+      "DEX arbitrage",
+      "Starknet trading",
+      "meme token funding",
+      "hourly settlement",
+      "cross-margin trading",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on RabbitX offer unique funding rate arbitrage opportunities through Starknet's zero-gas infrastructure. With hourly funding settlements and 0.02%/0.05% maker/taker fees, traders can capture funding differentials efficiently. RabbitX's off-chain order matching enables precise entry and exit timing for meme token volatility.",
+    "how_funding_works": "RabbitX calculates FLOKI/USDT funding rates hourly using a time-weighted average price against the underlying spot index. The funding payment occurs automatically at each hour mark, with long positions paying shorts when rates are positive. Settlement happens instantly through Starknet's Layer 2 infrastructure without gas costs for position adjustments. Cross-margin support allows traders to optimize capital efficiency across multiple positions while managing funding exposure.",
+    "why_this_pair": "FLOKI's meme token characteristics create significant funding rate volatility, often reaching extreme positive or negative levels during trending periods. The pair's mid-tier volume on RabbitX provides sufficient liquidity for meaningful arbitrage positions while maintaining competitive spreads. Hourly settlements offer more frequent opportunities to capture rate changes compared to 8-hour funding cycles on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical FLOKI Funding Patterns",
+        "body": "FLOKI funding rates on RabbitX typically range from -0.1% to +0.3% hourly during normal market conditions, with extreme events pushing rates beyond ±0.5%. Positive funding dominates during social media-driven rallies as retail traders heavily favor long positions. Weekend periods often show reduced funding volatility due to lower trading activity. The hourly settlement frequency means daily funding costs can accumulate to 2-7% APR during trending periods, creating substantial arbitrage opportunities for patient traders."
+      },
+      {
+        "heading": "DEX Arbitrage Advantages",
+        "body": "RabbitX's zero gas trading environment eliminates the transaction cost friction that typically reduces funding arbitrage profitability on Layer 1 protocols. The exchange's off-chain matching engine provides faster execution than traditional DEXs while maintaining decentralized settlement. Cross-margin capabilities allow traders to hedge FLOKI exposure with correlated meme tokens or major crypto pairs. Lower maker fees at 0.02% improve arbitrage economics compared to many centralized exchanges charging 0.02-0.04% per side."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FLOKI's high volatility can quickly erode funding gains through adverse price movements, particularly during liquidation cascades in thin order books. RabbitX's smaller user base means reduced liquidity during market stress, potentially widening spreads and impacting exit strategies. The protocol's early-stage nature introduces smart contract risks not present with established centralized exchanges. Traders should monitor mark price deviations from spot markets, as RabbitX's price discovery may lag during rapid FLOKI movements, affecting funding calculations and arbitrage timing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FLOKI funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles FLOKI/USDT funding rates every hour using a time-weighted average price methodology. This hourly frequency provides more opportunities to capture rate changes compared to traditional 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What are typical FLOKI funding rate ranges on RabbitX DEX?",
+        "answer": "FLOKI funding rates typically range from -0.1% to +0.3% per hour during normal conditions, but can spike beyond ±0.5% during viral social media events. Daily funding costs often reach 2-7% APR during trending periods, making arbitrage strategies particularly profitable."
+      },
+      {
+        "question": "How does RabbitX's zero gas trading affect FLOKI funding arbitrage?",
+        "answer": "Zero gas costs on Starknet eliminate transaction friction that traditionally reduces funding arbitrage profitability. This allows traders to enter and exit positions more frequently to capture optimal funding rates without worrying about Ethereum mainnet gas fees eroding profits."
+      },
+      {
+        "question": "What liquidity risks exist for FLOKI perpetuals on RabbitX?",
+        "answer": "RabbitX has a smaller user base compared to major centralized exchanges, which can result in wider spreads and reduced liquidity during market stress. The limited order book depth may impact large position entries and exits, particularly during FLOKI's volatile price movements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "mkr-usdt",
+    "link-usdt",
+    "atom-usdt",
+    "apt-usdt"
+  ]
+}

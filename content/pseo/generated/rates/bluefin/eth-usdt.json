@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bluefin ETH/USDT Funding Rate - Sui DEX Arbitrage",
+    "description": "Track ETH/USDT perpetual funding rates on Bluefin DEX. Hourly settlements on Sui with institutional-grade matching engine for funding rate arbitrage.",
+    "keywords": [
+      "bluefin funding rate",
+      "eth usdt perpetual",
+      "sui dex arbitrage",
+      "hourly funding settlement",
+      "perpetual futures funding",
+      "bluefin trading fees",
+      "sui ecosystem trading",
+      "eth funding arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "Bluefin's ETH/USDT perpetual features hourly funding rate settlements on the Sui blockchain, offering unique arbitrage opportunities through its order book model. As Sui's leading perpetual DEX, Bluefin combines institutional-grade matching with fast settlement times for active funding rate traders.",
+    "how_funding_works": "Bluefin calculates funding rates every hour based on the premium/discount of the perpetual price relative to the ETH spot index. Long positions pay funding when rates are positive, while shorts receive payments, with settlements occurring automatically through smart contracts on Sui. The exchange uses a time-weighted average of the premium over each hour, with rates typically ranging from -0.1% to 0.1% per funding period. Bluefin's order book model ensures transparent price discovery without AMM slippage affecting funding rate calculations.",
+    "why_this_pair": "ETH/USDT on Bluefin offers compelling funding rate arbitrage due to high retail interest in ETH perpetuals and the exchange's position as Sui's primary perpetual trading venue. The hourly funding frequency creates more opportunities compared to 8-hour cycles, while Bluefin's institutional infrastructure attracts sophisticated traders who create predictable funding patterns.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "Bluefin's ETH/USDT funding rates typically exhibit pronounced positive skew during bullish ETH momentum, often reaching 0.05-0.08% hourly as retail long bias intensifies. During major ETH rallies, funding can spike to 0.15%+ per hour as leveraged longs dominate order flow. Conversely, sharp ETH corrections trigger negative funding periods averaging -0.02% to -0.05% hourly as shorts become overcrowded. The hourly settlement frequency means these extreme rates compound quickly, creating substantial arbitrage opportunities during trending market conditions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Bluefin's ETH/USDT pair offers delta-neutral funding arbitrage through spot-perp strategies, particularly effective given Sui's fast settlement and low gas costs. Traders can exploit persistent positive funding by shorting ETH perps on Bluefin while holding spot ETH, collecting hourly payments. Cross-exchange arbitrage opportunities emerge when Bluefin's funding diverges significantly from major CEX rates due to its isolated liquidity pool. The exchange's 0.02% maker fee structure allows profitable arbitrage even during moderate funding rate periods of 0.03-0.04% hourly."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Bluefin's position within the early Sui ecosystem creates liquidity risks during volatile periods, potentially causing funding rates to diverge dramatically from other exchanges. The DEX's lower overall volume compared to major CEX platforms means large positions can significantly impact funding calculations. Bridge risks between Sui and other chains complicate hedging strategies, while smart contract risks inherent to DeFi protocols require careful position sizing. Additionally, Bluefin's limited trading pairs reduce hedging options compared to established exchanges with comprehensive derivatives offerings."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are funding rates settled on Bluefin ETH/USDT?",
+        "answer": "Bluefin settles funding rates every hour for ETH/USDT perpetuals, providing more frequent arbitrage opportunities than traditional 8-hour cycles. This creates 24 settlement periods per day where traders can collect or pay funding based on their position direction."
+      },
+      {
+        "question": "What are typical funding rate ranges for ETH/USDT on Bluefin?",
+        "answer": "Normal market conditions see funding rates between -0.05% to +0.05% per hour, but extreme moves can push rates to ±0.15% hourly during high volatility. The rates tend to skew positive during ETH rallies due to retail long bias on the platform."
+      },
+      {
+        "question": "How does Bluefin's Sui infrastructure affect funding arbitrage?",
+        "answer": "Sui's fast finality and low transaction costs enable efficient arbitrage execution, while the blockchain's parallel processing supports high-frequency funding strategies. However, bridge limitations to other chains can complicate cross-platform arbitrage compared to Ethereum-based DEXs."
+      },
+      {
+        "question": "What trading fees apply to ETH/USDT funding arbitrage on Bluefin?",
+        "answer": "Bluefin charges 0.02% maker fees and 0.05% taker fees for ETH/USDT perpetuals, requiring funding rates above these thresholds for profitable arbitrage. The relatively low maker fees support market-making strategies that capture funding while providing liquidity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "btc-usdt",
+    "atom-usdt",
+    "op-usdt",
+    "shib-usdt"
+  ]
+}

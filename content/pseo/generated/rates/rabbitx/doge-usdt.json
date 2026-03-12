@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX DOGE/USDT Funding Rate | 1-Hour Arbitrage Guide",
+    "description": "Track DOGE/USDT funding rates on RabbitX DEX. Hourly funding intervals, zero gas trading, and cross-margin support for optimal arbitrage strategies.",
+    "keywords": [
+      "RabbitX DOGE funding rate",
+      "DOGE perpetual futures",
+      "DEX funding arbitrage",
+      "Starknet perps",
+      "DOGE-USDT trading",
+      "hourly funding rates",
+      "zero gas trading",
+      "meme coin arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers DOGE/USDT perpetual futures with 1-hour funding intervals, leveraging Starknet's L2 infrastructure for zero gas trading. The platform's off-chain matching engine enables fast execution for funding rate arbitrage on this high-volume meme coin pair.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using the premium/discount between DOGE perpetual price and spot index price across multiple exchanges. Funding payments occur automatically every hour without gas fees due to Starknet settlement. The platform's cross-margin system allows traders to efficiently manage capital across multiple positions while capturing funding rate differentials. Long positions pay funding when rates are positive, while short positions receive payments, with settlement happening seamlessly through the DEX's smart contract infrastructure.",
+    "why_this_pair": "DOGE/USDT generates significant funding rate volatility due to its meme coin status and retail trading patterns, creating frequent arbitrage opportunities. The pair's large trading volume on RabbitX provides sufficient liquidity for meaningful position sizes. High social media influence and speculative trading often create sustained funding rate imbalances that experienced arbitrageurs can exploit.",
+    "sections": [
+      {
+        "heading": "DOGE Funding Rate Patterns",
+        "body": "DOGE funding rates on RabbitX typically spike during social media-driven rallies, often reaching 0.5-2% per funding period when retail FOMO drives excessive long positioning. Weekend trading often shows different patterns compared to weekdays, with funding rates becoming more volatile during low-liquidity periods. Elon Musk tweets or major crypto market moves can cause immediate funding rate spikes lasting 8-24 hours. Historical data shows DOGE funding rates are particularly sensitive to Bitcoin correlation breaks and broader meme coin sector rotations."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fees enable profitable arbitrage on smaller funding rate differentials that would be unprofitable on Ethereum mainnet exchanges. The 1-hour funding intervals provide 24 daily opportunities compared to 8-hour intervals on other platforms, allowing for more granular strategy execution. Cross-margin support allows traders to hedge DOGE exposure with other pairs while collecting funding, reducing directional risk. The platform's fast execution speed helps capture funding rates before they normalize, particularly important for DOGE's volatile rate environment."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's smaller user base means lower liquidity compared to centralized exchanges, potentially impacting large position entries and exits during volatile periods. The DEX's early-stage protocol status introduces smart contract risks and potential technical issues during high-stress market conditions. DOGE's high volatility can lead to rapid unrealized P&L changes that may trigger margin calls before funding payments occur. Limited pair selection restricts hedging options, requiring careful position sizing when DOGE moves independently of other available assets on the platform."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are DOGE funding rates updated on RabbitX?",
+        "answer": "RabbitX calculates and applies DOGE/USDT funding rates every hour, providing 24 funding periods per day. This higher frequency compared to traditional 8-hour cycles creates more opportunities for arbitrage strategies."
+      },
+      {
+        "question": "What are typical DOGE funding rates during meme coin rallies?",
+        "answer": "During viral social media events or broader meme coin pumps, DOGE funding rates on RabbitX often range from 0.2% to 1.5% per hour as retail traders heavily favor long positions. These elevated rates can persist for 12-48 hours depending on market sentiment."
+      },
+      {
+        "question": "Can I hedge DOGE exposure while collecting funding on RabbitX?",
+        "answer": "Yes, RabbitX's cross-margin system allows you to open offsetting positions in correlated pairs like BTC or ETH to hedge directional DOGE risk while maintaining the funding rate arbitrage position."
+      },
+      {
+        "question": "How does RabbitX's zero gas trading affect DOGE funding arbitrage profitability?",
+        "answer": "Zero gas fees significantly improve small-scale arbitrage profitability by eliminating transaction costs that typically consume 10-30% of funding payments. This allows profitable strategies on funding rates as low as 0.05% per period that would be unprofitable on mainnet DEXs."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "arb-usdt",
+    "btc-usdt",
+    "atom-usdt",
+    "fil-usdt"
+  ]
+}

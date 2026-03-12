@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rate Arbitrage on RabbitX DEX",
+    "description": "Track FIL/USDT funding rates on RabbitX DEX. Hourly funding intervals and Starknet settlement create unique arbitrage opportunities for Filecoin perpetual trading.",
+    "keywords": [
+      "FIL funding rate",
+      "RabbitX arbitrage",
+      "Filecoin perpetual",
+      "DEX funding",
+      "Starknet trading",
+      "FIL/USDT rate",
+      "crypto arbitrage",
+      "perp funding"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers FIL/USDT perpetual futures with hourly funding intervals on its Starknet-powered DEX. The platform's off-chain matching engine enables efficient funding rate arbitrage for Filecoin positions. Zero gas fees for trading provide cost advantages for high-frequency funding rate strategies.",
+    "how_funding_works": "RabbitX calculates FIL/USDT funding rates hourly based on the premium/discount to spot prices across integrated price feeds. Funding exchanges occur every hour at minute :00, with rates determined by the 8-hour TWAP of the premium index. Long positions pay when funding is positive, shorts pay when negative. The platform's Starknet settlement ensures transparent rate calculations while maintaining fast execution through off-chain order matching.",
+    "why_this_pair": "FIL/USDT presents compelling funding rate opportunities due to Filecoin's infrastructure utility driving variable demand patterns. The token's correlation with storage network growth and Web3 adoption creates funding rate volatility that differs from typical DeFi tokens. RabbitX's hourly funding intervals provide more frequent arbitrage opportunities compared to standard 8-hour cycles on other platforms.",
+    "sections": [
+      {
+        "heading": "Historical FIL Funding Rate Patterns",
+        "body": "FIL funding rates on RabbitX typically range from -0.1% to +0.3% per hour during normal market conditions. Storage demand cycles and Filecoin network upgrades often drive sustained positive funding periods lasting 24-72 hours. Network capacity expansions and miner onboarding events historically correlate with funding rate spikes above +0.5% hourly. The infrastructure nature of FIL creates less speculative funding compared to meme tokens, resulting in more predictable rate patterns suitable for systematic arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities on RabbitX",
+        "body": "RabbitX's zero gas fee structure significantly improves FIL funding arbitrage profitability by eliminating transaction costs for position adjustments. The platform's hourly funding cycle creates 24 settlement opportunities daily, allowing for granular risk management compared to 8-hour cycles. Cross-margin capabilities enable efficient capital utilization across multiple positions when arbitraging FIL against other infrastructure tokens. The DEX's smaller user base can result in funding rates that deviate more significantly from CEX rates, creating larger arbitrage spreads for informed traders."
+      },
+      {
+        "heading": "Risk Considerations for FIL Trading",
+        "body": "RabbitX's limited liquidity compared to major CEXs can amplify slippage during volatile Filecoin price movements, impacting arbitrage execution. The early-stage protocol carries smart contract risks despite Starknet's security model, requiring careful position sizing. FIL's correlation with broader storage and Web3 infrastructure sectors means funding rates can shift rapidly during sector rotations. The platform's smaller trading volume may result in wider bid-ask spreads during network congestion or major Filecoin ecosystem events, affecting the precision of funding rate arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does FIL funding settle on RabbitX?",
+        "answer": "FIL/USDT funding rates settle every hour on RabbitX, providing 24 funding cycles per day. This higher frequency compared to standard 8-hour cycles creates more opportunities for active arbitrage strategies and risk management."
+      },
+      {
+        "question": "What makes RabbitX's FIL funding different from CEXs?",
+        "answer": "RabbitX offers zero gas fees for trading and uses Starknet for settlement, reducing arbitrage costs significantly. The DEX's smaller user base often results in funding rates that deviate more from market consensus compared to major centralized exchanges."
+      },
+      {
+        "question": "How does Filecoin's infrastructure focus affect funding rates?",
+        "answer": "FIL's utility in decentralized storage creates funding patterns tied to network growth rather than pure speculation. This results in more sustained funding trends during storage demand cycles and less volatile rates compared to meme or gaming tokens."
+      },
+      {
+        "question": "What risks should I consider for FIL arbitrage on RabbitX?",
+        "answer": "Key risks include limited liquidity causing slippage, early-stage protocol risks, and potential smart contract vulnerabilities. The platform's smaller volume can also lead to wider spreads during volatile market conditions affecting arbitrage precision."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "blur-usdt",
+    "trx-usdt",
+    "tao-usdt",
+    "sol-usdt"
+  ]
+}

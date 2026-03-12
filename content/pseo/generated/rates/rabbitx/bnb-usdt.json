@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bnb-usdt",
+    "base": "BNB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BNB/USDT Funding Rate on RabbitX DEX - Perp Trading",
+    "description": "Trade BNB/USDT perpetual futures on RabbitX DEX with hourly funding rates. Access fast Starknet-based execution and cross-margin trading features.",
+    "keywords": [
+      "BNB perpetual futures",
+      "RabbitX funding rate",
+      "DEX perp trading",
+      "Starknet derivatives",
+      "BNB/USDT arbitrage",
+      "decentralized futures",
+      "funding rate strategy",
+      "cross-margin perps"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers BNB/USDT perpetual futures trading on a high-performance DEX built on Starknet, featuring hourly funding rate calculations and zero gas fees for trading. The platform combines off-chain matching with on-chain settlement to deliver fast execution for major crypto pairs like BNB.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a time-weighted average price (TWAP) mechanism that compares perpetual contract prices to the underlying BNB spot price. Long positions pay funding to short positions when the funding rate is positive, indicating the perpetual trades at a premium to spot. The Starknet-based settlement ensures funding payments are processed efficiently without gas costs for individual traders. Cross-margin functionality allows BNB/USDT positions to benefit from portfolio-wide collateral management.",
+    "why_this_pair": "BNB/USDT represents one of the most liquid cryptocurrency pairs, making it ideal for funding rate arbitrage strategies due to consistent volume and predictable rate patterns. The pair's strong correlation with broader crypto market sentiment creates regular funding rate imbalances that experienced traders can exploit. RabbitX's low trading fees of 0.02%/0.05% make multiple position adjustments economically viable for funding rate capture strategies.",
+    "sections": [
+      {
+        "heading": "Historical BNB Funding Rate Patterns",
+        "body": "BNB funding rates on perpetual platforms typically range from -0.01% to 0.03% during normal market conditions, with extreme rates reaching ±0.1% during high volatility periods. The asset shows strong correlation with Bitcoin funding patterns but often exhibits unique spikes during BSC ecosystem events or Binance-related news. RabbitX's hourly funding frequency provides more granular arbitrage opportunities compared to traditional 8-hour cycles. Historical analysis shows BNB funding rates tend to normalize quickly after extreme moves, creating mean reversion opportunities for skilled arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities on RabbitX",
+        "body": "RabbitX's zero gas fee structure makes micro-arbitrage strategies viable, allowing traders to capitalize on small funding rate differentials without worrying about transaction costs eating into profits. The platform's fast execution enables real-time hedging between RabbitX perpetuals and spot BNB positions on centralized exchanges. Cross-margin capabilities allow traders to efficiently manage multiple funding rate strategies across different pairs simultaneously. The DEX nature of RabbitX means funding rates can occasionally deviate from centralized exchanges, creating unique arbitrage windows for sophisticated traders."
+      },
+      {
+        "heading": "Risk Considerations for BNB Perps",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risk and potential liquidity constraints during extreme market conditions. BNB's price volatility can lead to rapid funding rate changes that may not be immediately reflected in hedging positions, creating basis risk. The platform's limited user base compared to major centralized exchanges can result in wider spreads and reduced arbitrage efficiency. Traders should monitor Starknet network stability and RabbitX's oracle reliability, as disruptions could impact funding rate calculations and settlement processes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are BNB/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and applies funding rates every hour for BNB/USDT perpetual contracts. This hourly frequency provides more frequent arbitrage opportunities compared to the 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What are the trading fees for BNB/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX charges maker fees of 0.02% and taker fees of 0.05% for BNB/USDT perpetual futures. Additionally, there are no gas fees for trading due to the platform's Starknet-based architecture with off-chain matching."
+      },
+      {
+        "question": "Can I use cross-margin for BNB funding rate strategies on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin functionality, allowing your BNB/USDT positions to share collateral with other positions in your portfolio. This enables more efficient capital utilization when running multiple funding rate arbitrage strategies simultaneously."
+      },
+      {
+        "question": "How does RabbitX's DEX nature affect BNB funding rate arbitrage?",
+        "answer": "As a DEX, RabbitX funding rates can sometimes diverge from centralized exchanges due to different user bases and liquidity pools. This creates unique arbitrage opportunities but also introduces additional basis risk that traders need to manage carefully."
+      }
+    ]
+  },
+  "related_pairs": [
+    "shib-usdt",
+    "op-usdt",
+    "pyth-usdt",
+    "bonk-usdt",
+    "sui-usdt"
+  ]
+}

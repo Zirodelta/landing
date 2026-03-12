@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "atom-usdt",
+    "base": "ATOM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX ATOM/USDT Funding Rates - DEX Perp Trading",
+    "description": "Track ATOM/USDT funding rates on RabbitX DEX. Hourly funding intervals with low fees and zero gas trading on Starknet-based perpetual futures platform.",
+    "keywords": [
+      "RabbitX funding rates",
+      "ATOM USDT perpetual",
+      "DEX funding arbitrage",
+      "Starknet perps",
+      "Cosmos funding",
+      "cross-margin trading",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers ATOM/USDT perpetual futures with hourly funding rate settlements on its Starknet-based DEX platform. The exchange provides zero gas trading with cross-margin capabilities, making it attractive for funding rate arbitrage despite its smaller user base.",
+    "how_funding_works": "RabbitX calculates funding rates every hour using a standard premium/discount mechanism between the perpetual and spot prices. Payments are exchanged between long and short positions based on the 8-hour TWAP of the funding rate. The platform's off-chain matching engine ensures efficient price discovery while Starknet handles settlement with minimal gas costs. Cross-margin functionality allows traders to optimize capital efficiency across multiple positions.",
+    "why_this_pair": "ATOM/USDT represents the native token of Cosmos Hub, a Layer 1 blockchain known for interoperability through IBC protocol. The pair typically exhibits moderate volatility with funding rates that can vary significantly during Cosmos ecosystem developments or staking reward changes. RabbitX's hourly funding intervals provide more frequent arbitrage opportunities compared to the standard 8-hour cycles on other exchanges.",
+    "sections": [
+      {
+        "heading": "ATOM Funding Rate Patterns",
+        "body": "ATOM funding rates on RabbitX tend to correlate with broader Cosmos ecosystem developments and staking yield changes. During major IBC protocol upgrades or new chain launches, funding rates often skew positive as traders anticipate price appreciation. The hourly settlement mechanism creates more granular rate adjustments compared to traditional 8-hour cycles. Rates typically range from -0.1% to +0.3% in normal market conditions, with extreme events pushing rates beyond ±0.5%. Staking rewards around 10-15% annually can influence perpetual demand as traders compare funding costs to staking yields."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas trading environment makes micro-arbitrage strategies more viable for ATOM/USDT funding rate discrepancies. The platform's cross-margin system allows efficient capital deployment across multiple positions to capture rate differentials. Traders can exploit the hourly funding cycle by opening positions just before high-rate periods and closing before payments. The DEX's smaller user base sometimes creates pricing inefficiencies compared to centralized exchanges, offering additional arbitrage potential. However, lower liquidity means larger positions may experience more slippage."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risks that traders must evaluate alongside funding rate opportunities. The platform's limited pair selection means reduced hedging options compared to larger exchanges. Lower liquidity can result in wider bid-ask spreads during volatile periods, impacting arbitrage profitability. Cross-margin positions require careful monitoring as Cosmos ecosystem events can create correlated moves across positions. The DEX's reliance on Starknet infrastructure adds an additional layer of technical risk that traders should consider."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ATOM funding rates updated on RabbitX?",
+        "answer": "RabbitX calculates and settles ATOM/USDT funding rates every hour, providing more frequent opportunities compared to the standard 8-hour cycles on most exchanges. The actual payment is based on the 8-hour TWAP of these hourly rates."
+      },
+      {
+        "question": "What are the trading fees for ATOM/USDT on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for ATOM/USDT perpetual futures trading. There are no gas fees for trading due to the platform's off-chain matching engine and Starknet settlement layer."
+      },
+      {
+        "question": "How does cross-margin work for ATOM positions on RabbitX?",
+        "answer": "Cross-margin allows your entire account balance to serve as collateral for ATOM/USDT positions, improving capital efficiency. This means profits from other positions can offset losses on ATOM trades, but also increases overall account risk."
+      },
+      {
+        "question": "What's the typical funding rate range for ATOM/USDT on RabbitX?",
+        "answer": "ATOM funding rates typically range from -0.1% to +0.3% during normal market conditions. During major Cosmos ecosystem events or high volatility periods, rates can exceed ±0.5%, creating significant arbitrage opportunities."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "stx-usdt",
+    "pyth-usdt",
+    "matic-usdt",
+    "mkr-usdt"
+  ]
+}

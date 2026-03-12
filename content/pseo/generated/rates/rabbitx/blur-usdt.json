@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "blur-usdt",
+    "base": "BLUR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BLUR/USDT Funding Rates on RabbitX - DEX Perp Trading",
+    "description": "Track BLUR/USDT funding rates on RabbitX DEX. Hourly funding, zero gas fees, Starknet settlement. Analyze NFT token funding rate arbitrage opportunities.",
+    "keywords": [
+      "BLUR funding rates",
+      "RabbitX DEX",
+      "NFT token perps",
+      "Starknet trading",
+      "hourly funding",
+      "zero gas arbitrage",
+      "cross-margin",
+      "DEX perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "BLUR/USDT perpetual futures on RabbitX offer unique funding rate arbitrage opportunities with hourly settlements and zero gas trading on Starknet. As the native token of the leading NFT marketplace, BLUR exhibits distinct funding patterns tied to NFT market cycles and protocol developments.",
+    "how_funding_works": "RabbitX calculates BLUR/USDT funding rates hourly using the premium/discount between perpetual and spot prices. Payments occur automatically through the platform's cross-margin system without gas costs due to off-chain order matching and Starknet batch settlement. Long positions pay funding when rates are positive (perp trading above spot), while shorts receive payments, with the exchange applying a 0.02% maker and 0.05% taker fee structure that doesn't affect funding calculations.",
+    "why_this_pair": "BLUR's funding rates often diverge significantly during NFT market volatility and Blur protocol updates, creating arbitrage windows. The token's correlation with Ethereum NFT trading volumes and marketplace competition generates predictable funding patterns that sophisticated traders exploit through RabbitX's fast execution engine.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "BLUR funding rates on RabbitX typically spike during major NFT collection launches and Blur airdrop announcements, often reaching +0.1% to +0.3% hourly during bull phases. Negative funding periods coincide with broader NFT market downturns or competitive pressure from OpenSea initiatives. The hourly settlement frequency means rates can shift rapidly, especially around Blur's seasonal incentive program launches. Traders should monitor correlation with ETH gas prices and overall NFT trading volume, as these metrics often predict BLUR funding direction 2-4 hours ahead of rate adjustments."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between RabbitX BLUR perps and spot markets becomes profitable when funding exceeds transaction costs plus opportunity cost of capital. Given RabbitX's zero gas structure, the main cost consideration is the 0.02%-0.05% trading fees versus potential funding income. Delta-neutral strategies work best during sustained directional funding trends, particularly when BLUR exhibits +0.05% hourly rates for 8+ consecutive periods. Advanced traders often pair BLUR positions with correlated NFT tokens or ETH positions to hedge directional risk while capturing funding differentials."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract and liquidity risks specific to Starknet infrastructure. BLUR's relatively small trading volume on the platform can lead to increased slippage during volatile periods, potentially eroding funding gains. The token's high correlation with NFT sentiment creates cascade risk during market stress, where funding rates may not compensate for underlying price volatility. Traders should size positions conservatively given RabbitX's limited user base and monitor the platform's total value locked, as significant outflows could impact execution quality and funding rate stability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are BLUR funding payments settled on RabbitX?",
+        "answer": "BLUR funding payments occur every hour on RabbitX, with rates calculated based on the premium between perpetual and spot prices. The automated settlement happens through the cross-margin system without requiring gas fees due to Starknet's batch processing."
+      },
+      {
+        "question": "What makes BLUR funding rates volatile on RabbitX?",
+        "answer": "BLUR rates fluctuate based on NFT market sentiment, Blur protocol announcements, and trading volume on the underlying marketplace. The token's connection to Ethereum NFT activity and seasonal airdrop cycles creates predictable volatility patterns that impact funding calculations."
+      },
+      {
+        "question": "Can I use cross-margin for BLUR positions on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin for BLUR/USDT positions, allowing you to use your entire account balance as collateral. This feature is particularly useful for funding rate strategies where you want to maximize capital efficiency while maintaining multiple positions across different assets."
+      },
+      {
+        "question": "How does RabbitX's Starknet integration affect BLUR trading costs?",
+        "answer": "Starknet settlement eliminates gas costs for BLUR trades on RabbitX, making funding rate arbitrage more profitable since you only pay the 0.02% maker or 0.05% taker fees. The off-chain matching engine ensures fast execution while batch settlements reduce overall transaction costs compared to mainnet alternatives."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "avax-usdt",
+    "sol-usdt",
+    "wld-usdt",
+    "tia-usdt"
+  ]
+}

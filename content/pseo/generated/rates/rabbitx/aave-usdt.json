@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "aave-usdt",
+    "base": "AAVE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AAVE/USDT Funding Rates on RabbitX | DeFi Perp Trading",
+    "description": "Track AAVE/USDT funding rates on RabbitX DEX. Hourly settlements, zero gas fees, and cross-margin trading for DeFi perpetual futures arbitrage.",
+    "keywords": [
+      "AAVE funding rate",
+      "RabbitX perpetual",
+      "DeFi arbitrage",
+      "Starknet trading",
+      "AAVE/USDT perp",
+      "zero gas DEX",
+      "hourly funding",
+      "cross-margin"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers AAVE/USDT perpetual futures with hourly funding rate settlements and zero gas trading through Starknet infrastructure. This DeFi token pair provides opportunities for funding rate arbitrage with RabbitX's fast execution and cross-margin capabilities.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the premium between AAVE perpetual price and spot price across major exchanges. Long positions pay funding when rates are positive, while shorts receive payments when negative. Settlement occurs instantly through Starknet's Layer 2 infrastructure with no gas fees for traders. The exchange uses off-chain order matching with on-chain settlement to ensure fast execution while maintaining decentralization.",
+    "why_this_pair": "AAVE perpetuals often exhibit funding rate volatility due to DeFi governance events, protocol updates, and lending market dynamics. The token's correlation with broader DeFi sentiment creates opportunities for rate arbitrage, especially during high volatility periods when premium gaps emerge between RabbitX and centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "AAVE funding rates on RabbitX typically range from -0.1% to 0.15% hourly during normal market conditions. During DeFi bull runs, positive funding can spike above 0.2% as leveraged longs dominate, while bear markets often see sustained negative rates. Governance proposals and protocol upgrades frequently trigger 2-4 hour periods of elevated funding volatility. Weekend periods show reduced funding rate fluctuations due to lower trading activity, but major DeFi announcements can break this pattern."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable AAVE arbitrage opportunities occur during rapid price movements when RabbitX's funding diverges from Binance or OKX rates by more than 0.05% hourly. Cross-exchange arbitrage works by taking opposite positions on RabbitX versus centralized exchanges when rate differentials exceed transaction costs. RabbitX's zero gas fees provide an advantage for frequent position adjustments compared to other DEXs. Monitor funding 15-30 minutes before each hourly settlement to capture optimal entry timing."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's smaller liquidity pool means AAVE/USDT can experience wider spreads during volatile periods, impacting arbitrage profitability. The protocol's early-stage development introduces smart contract risks and potential downtime during Starknet upgrades. Cross-margin requirements may force position liquidations if AAVE moves aggressively against leveraged arbitrage positions. Limited trading pairs restrict hedging options compared to major centralized exchanges, requiring careful position sizing and risk management."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does RabbitX settle AAVE funding rates?",
+        "answer": "RabbitX settles AAVE/USDT funding rates every hour on the hour. This frequent settlement provides more opportunities for rate capture compared to 8-hour cycles on most centralized exchanges."
+      },
+      {
+        "question": "What are the trading fees for AAVE perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for AAVE/USDT perpetuals. There are no gas fees for trading due to Starknet's Layer 2 infrastructure, making frequent arbitrage strategies more cost-effective."
+      },
+      {
+        "question": "Can I use cross-margin for AAVE funding rate arbitrage on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin trading for AAVE/USDT positions. This allows you to use your entire account balance as collateral, improving capital efficiency for arbitrage strategies but requiring careful risk management."
+      },
+      {
+        "question": "How does RabbitX calculate AAVE funding rates compared to CEXs?",
+        "answer": "RabbitX uses a premium-based calculation comparing AAVE perpetual prices to spot prices from major exchanges. The hourly calculation method differs from 8-hour weighted averages used by most centralized exchanges, creating arbitrage opportunities during rate transitions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "stx-usdt",
+    "shib-usdt",
+    "sui-usdt",
+    "xrp-usdt"
+  ]
+}

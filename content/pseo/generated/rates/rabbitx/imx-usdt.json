@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "imx-usdt",
+    "base": "IMX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "IMX/USDT Funding Rates on RabbitX - Hourly Arbitrage",
+    "description": "Monitor IMX/USDT funding rates on RabbitX DEX. Hourly settlements with 0.02% maker fees. Leverage Starknet's zero-gas trading for gaming token arbitrage.",
+    "keywords": [
+      "IMX funding rates",
+      "RabbitX perpetual futures",
+      "gaming token arbitrage",
+      "Starknet DEX",
+      "hourly funding settlements",
+      "IMX perp trading",
+      "cross-margin arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers IMX/USDT perpetual futures with hourly funding rate settlements, making it attractive for short-term arbitrage strategies in gaming tokens. The Starknet-based DEX provides zero gas fees for position adjustments, enabling frequent rebalancing without transaction cost erosion.",
+    "how_funding_works": "RabbitX calculates funding rates hourly based on the premium/discount between the perpetual and mark price. Long positions pay funding when rates are positive, while short positions receive payments. The exchange uses off-chain order matching with Starknet settlement, allowing for precise rate calculations without blockchain congestion affecting timing. Cross-margin functionality lets traders maintain multiple positions across gaming tokens while optimizing capital efficiency.",
+    "why_this_pair": "IMX exhibits volatile funding patterns due to its gaming sector correlation and moderate trading volume. The token's price movements often lag broader market sentiment, creating temporary funding rate inefficiencies. Gaming tokens like IMX frequently experience asymmetric positioning during NFT market cycles, leading to sustained funding rate imbalances ideal for arbitrage.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "IMX funding rates on RabbitX have shown distinct cyclical behavior tied to gaming market sentiment and NFT activity. During gaming sector rallies, long bias creates consistently positive funding rates averaging 0.05-0.15% hourly. Conversely, during market downturns, short positioning dominance can push rates negative for extended periods. The hourly settlement frequency means rate changes reflect real-time sentiment shifts more accurately than 8-hour cycles on other exchanges. Gaming token volatility creates opportunities for rates to spike above 0.3% during major announcements or partnerships."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fee structure makes micro-arbitrage strategies viable for IMX funding rate capture. Traders can exploit rate divergences between RabbitX and centralized exchanges by maintaining opposite positions across platforms. The cross-margin system allows for delta-neutral strategies using correlated gaming tokens as hedges. Hourly settlements provide 24 daily opportunities to capture funding payments, compared to 3 times daily on traditional exchanges. The early-stage protocol nature sometimes creates wider spreads and higher funding premiums during volatile gaming market periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's limited liquidity pool for IMX creates slippage risks during large position adjustments, particularly problematic for sizable arbitrage operations. The exchange's early-stage status introduces smart contract risks and potential technical issues that could affect position management. Gaming token volatility can lead to rapid funding rate reversals, potentially trapping arbitrageurs in unfavorable positions. Cross-margin exposure across multiple gaming tokens increases correlation risk during sector-wide selloffs. The small user base means lower overall open interest, making large positions more likely to influence funding calculations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are IMX funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles IMX funding rates every hour, providing 24 settlement opportunities daily. This frequent settlement cycle allows for more responsive rate adjustments compared to 8-hour cycles on centralized exchanges."
+      },
+      {
+        "question": "What are the trading fees for IMX perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for IMX perpetual futures. Additionally, there are zero gas fees for trading due to the Starknet infrastructure, making frequent position adjustments cost-effective for arbitrage strategies."
+      },
+      {
+        "question": "Can I use cross-margin for IMX arbitrage strategies on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin functionality, allowing you to maintain IMX positions alongside other gaming tokens using shared margin. This enables sophisticated hedging strategies and capital efficiency optimization across correlated gaming sector positions."
+      },
+      {
+        "question": "What liquidity risks exist for IMX trading on RabbitX?",
+        "answer": "IMX liquidity on RabbitX is moderate compared to major exchanges, which can create slippage during large trades. The exchange's growing but still limited user base means order book depth may be insufficient for substantial arbitrage positions, particularly during volatile gaming market conditions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "dot-usdt",
+    "ftm-usdt",
+    "sei-usdt",
+    "w-usdt"
+  ]
+}

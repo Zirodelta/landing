@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETH/USDT Funding Rate on RabbitX - Arbitrage Guide",
+    "description": "Track ETH/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, zero gas trading on Starknet with 0.02% maker fees for funding arbitrage.",
+    "keywords": [
+      "ETH USDT funding rate",
+      "RabbitX perpetual",
+      "Starknet DEX arbitrage",
+      "ETH funding arbitrage",
+      "perp funding rates",
+      "DEX perpetuals",
+      "Starknet trading",
+      "ETH perp funding"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers ETH/USDT perpetual futures with hourly funding rate settlements on Starknet, providing unique arbitrage opportunities for DeFi traders. The platform's off-chain matching engine delivers CEX-like performance while maintaining decentralized settlement and zero gas costs for position management.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a time-weighted average of the premium between ETH perp price and spot index over the funding period. The protocol uses multiple price feeds including centralized exchanges to determine the fair value index price. Funding payments occur automatically at each hour mark, with long positions paying short positions when rates are positive. Cross-margin positions allow efficient capital utilization across multiple ETH positions while maintaining funding rate exposure.",
+    "why_this_pair": "ETH/USDT represents the largest trading pair on RabbitX with consistent funding rate volatility driven by Ethereum's market dynamics and institutional demand. The pair's deep liquidity relative to other RabbitX markets provides stable funding rate patterns suitable for systematic arbitrage strategies. ETH's correlation with broader DeFi activity creates predictable funding rate cycles during network congestion and major protocol launches.",
+    "sections": [
+      {
+        "heading": "ETH Funding Rate Patterns on RabbitX",
+        "body": "ETH funding rates on RabbitX typically range from -0.01% to 0.05% per hour, with significant spikes during network upgrades and DeFi summer periods. The hourly settlement frequency creates more granular opportunities compared to 8-hour funding cycles on centralized exchanges. Historical data shows ETH funding rates correlate strongly with gas price fluctuations and staking yield differentials. During high volatility periods, funding rates can exceed 0.1% hourly as traders rush to hedge exposure on the limited liquidity DEX environment."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "RabbitX's zero gas trading environment enables micro-arbitrage strategies between funding payments without the transaction cost burden of mainnet operations. Traders can exploit funding rate differentials between RabbitX and centralized exchanges by maintaining opposite positions across platforms. The cross-margin system allows efficient capital deployment across multiple timeframes within the same ETH position. Starknet's fast finality enables real-time position adjustments as funding rates approach settlement periods, particularly valuable during the 5-minute window before hourly payments."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risk and potential liquidity constraints during extreme market conditions that could impact funding rate arbitrage profitability. The limited user base means funding rates may deviate significantly from major exchanges during low activity periods, creating both opportunities and execution risks. Cross-margin positions require careful monitoring as ETH volatility can quickly erode arbitrage profits through unrealized losses on the underlying position. Bridge delays between Starknet and mainnet can create temporary capital lockup risks when rebalancing arbitrage positions across multiple platforms."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ETH funding payments settled on RabbitX?",
+        "answer": "RabbitX settles ETH/USDT funding payments every hour on the hour. This frequency is higher than most centralized exchanges which typically use 8-hour cycles, creating unique arbitrage timing opportunities for active traders."
+      },
+      {
+        "question": "What are the trading fees for ETH funding rate arbitrage on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for ETH/USDT perpetuals. The zero gas environment means no additional transaction costs for position management, making small funding rate arbitrage strategies economically viable compared to mainnet alternatives."
+      },
+      {
+        "question": "How does RabbitX calculate the ETH funding rate?",
+        "answer": "RabbitX uses a time-weighted average premium between the ETH perpetual price and spot index price over the funding period. The index price aggregates multiple centralized exchange feeds to ensure fair valuation despite the DEX's potentially limited liquidity depth."
+      },
+      {
+        "question": "What risks are specific to ETH funding arbitrage on RabbitX?",
+        "answer": "Key risks include Starknet bridge delays affecting cross-platform arbitrage, limited liquidity causing funding rate volatility, and smart contract risk from the early-stage protocol. The small user base can also create unpredictable funding rate patterns during low activity periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pepe-usdt",
+    "ordi-usdt",
+    "ldo-usdt",
+    "ena-usdt",
+    "doge-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on RabbitX - AI Token Arbitrage",
+    "description": "Track WLD/USDT funding rates on RabbitX DEX. Hourly settlements, 0.02% maker fees, and Starknet-powered execution for efficient AI token arbitrage.",
+    "keywords": [
+      "WLD funding rates",
+      "RabbitX arbitrage",
+      "Worldcoin perpetuals",
+      "DEX funding",
+      "AI token trading",
+      "Starknet perps",
+      "crypto arbitrage",
+      "DeFi futures"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetuals on RabbitX offer unique funding rate arbitrage opportunities through the platform's hourly settlement mechanism and zero gas fee structure. As Worldcoin's native token experiences significant volatility tied to AI market sentiment, funding rates often deviate from other exchanges, creating arbitrage windows.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the premium between perpetual and mark prices, with payments exchanged between long and short positions. The platform's Starknet-based settlement ensures instant execution without gas costs, while off-chain order matching provides minimal slippage. Cross-margin capabilities allow efficient capital allocation across multiple positions. Funding payments are automatically debited or credited to trader balances at each hourly interval.",
+    "why_this_pair": "WLD exhibits heightened funding rate volatility due to its connection to AI sector hype cycles and relatively lower liquidity compared to major cryptocurrencies. The token's association with OpenAI's Sam Altman creates sudden demand spikes that often result in funding rate premiums exceeding 0.1% hourly. RabbitX's fast execution and zero gas fees make it particularly suitable for capturing these short-lived arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on RabbitX have shown significant correlation with AI-related news cycles and OpenAI announcements. During major AI developments, hourly rates have spiked to 0.15-0.3%, compared to typical ranges of 0.01-0.05%. The token exhibits stronger funding rate momentum than established cryptocurrencies, with sustained periods of positive or negative bias lasting 12-24 hours. Weekend trading often sees reduced funding rate volatility due to lower institutional participation in AI sector speculation."
+      },
+      {
+        "heading": "Arbitrage Opportunity Identification",
+        "body": "Optimal arbitrage windows occur when RabbitX funding rates diverge more than 0.05% from centralized exchanges like Binance or OKX. The platform's hourly settlement frequency provides more granular opportunities compared to 8-hour cycles on traditional exchanges. Traders can exploit RabbitX's zero gas advantage by rapidly entering and exiting positions when funding differentials exceed trading costs. Cross-margin functionality enables simultaneous long/short strategies across correlated AI tokens to hedge directional risk while capturing funding spreads."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WLD's beta correlation to broader crypto markets increases during high volatility periods, requiring careful position sizing relative to total portfolio exposure. The relatively small user base on RabbitX can lead to sudden liquidity gaps during extreme market movements, potentially causing slippage beyond expected levels. Early-stage protocol risks include potential smart contract vulnerabilities and lower insurance fund coverage compared to established exchanges. Funding rate arbitrage positions should maintain strict stop-losses due to WLD's tendency for gap movements following AI sector news."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does RabbitX's hourly funding compare to 8-hour cycles on other exchanges?",
+        "answer": "RabbitX's hourly funding settlements provide 8x more frequent arbitrage opportunities compared to traditional exchanges. This higher frequency allows traders to capture short-term funding rate spikes that might be averaged out over longer settlement periods."
+      },
+      {
+        "question": "What makes WLD funding rates more volatile than other tokens?",
+        "answer": "WLD's funding volatility stems from its AI sector association and lower market cap relative to established cryptocurrencies. News related to OpenAI, AI regulation, or Sam Altman's activities can cause sudden demand spikes that dramatically impact funding rates within hours."
+      },
+      {
+        "question": "Can I use cross-margin for WLD arbitrage strategies on RabbitX?",
+        "answer": "Yes, RabbitX's cross-margin system allows you to use unrealized PnL from other positions as margin for WLD trades. This enables more capital-efficient arbitrage strategies and the ability to hedge with correlated AI tokens while maintaining funding rate positions."
+      },
+      {
+        "question": "What are the main risks of funding arbitrage with WLD on a DEX?",
+        "answer": "Key risks include lower liquidity leading to slippage, smart contract vulnerabilities in early-stage protocols, and WLD's high correlation to AI sector sentiment causing unexpected directional moves. The smaller user base compared to CEXs can also result in temporary liquidity gaps during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "eth-usdt",
+    "pepe-usdt",
+    "jto-usdt",
+    "sei-usdt",
+    "aave-usdt"
+  ]
+}

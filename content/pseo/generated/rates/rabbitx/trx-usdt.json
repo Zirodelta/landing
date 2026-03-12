@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "trx-usdt",
+    "base": "TRX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TRX/USDT Funding Rates on RabbitX - DEX Arbitrage Guide",
+    "description": "Monitor TRX/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, 0.02% maker fees, and Starknet-powered execution for funding rate arbitrage.",
+    "keywords": [
+      "TRX funding rates",
+      "RabbitX DEX",
+      "TRON perpetuals",
+      "DEX arbitrage",
+      "Starknet trading",
+      "hourly funding",
+      "TRX USDT perps",
+      "cross-margin"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers TRX/USDT perpetual futures with hourly funding rate settlements on Starknet infrastructure. The platform's off-chain matching engine provides fast execution while maintaining DEX principles for TRON trading.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using the premium/discount between TRX perpetual and spot prices. The exchange uses a time-weighted average price (TWAP) mechanism with 8-hour lookback periods. Funding payments occur automatically at each hour mark, with rates typically ranging from -0.5% to +0.5% annually. Cross-margin positions allow efficient capital utilization across multiple funding rate strategies.",
+    "why_this_pair": "TRX exhibits significant funding rate volatility due to its large retail following and frequent DeFi activity spikes. The token's high transaction volume on TRON network creates regular premium/discount cycles, offering consistent arbitrage opportunities. RabbitX's zero gas fees make TRX funding rate strategies more profitable than on traditional DEXs.",
+    "sections": [
+      {
+        "heading": "Historical TRX Funding Rate Patterns",
+        "body": "TRX funding rates on RabbitX typically range from -0.2% to +0.8% daily, with extreme spikes during TRON ecosystem announcements. The pair shows strong correlation with Bitcoin funding rates but often maintains higher volatility. Weekend periods frequently see negative funding rates as retail traders close positions, creating predictable arbitrage windows. Monthly analysis reveals TRX funding rates average 15-20% higher volatility than major pairs like BTC or ETH."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "RabbitX's 0.02% maker fees and hourly funding settlements create favorable conditions for TRX funding rate arbitrage. Traders can capitalize on funding rate divergences between RabbitX and centralized exchanges like Binance or OKX. The platform's cross-margin system allows simultaneous long/short positions across different timeframes. Optimal entry points occur when funding rates exceed 0.1% hourly, providing 876% annualized returns before fees."
+      },
+      {
+        "heading": "Risk Factors and Mitigation Strategies",
+        "body": "TRX's correlation with broader crypto markets can cause sudden funding rate reversals during market stress. RabbitX's relatively small liquidity pool increases slippage risk during volatile periods, particularly for positions above $50,000. Smart contract risks exist as RabbitX operates on Starknet's newer infrastructure, though the protocol has undergone multiple audits. Position sizing should account for TRX's 40-60% higher volatility compared to Bitcoin, with stop-losses set at 2-3% to manage gap risk during funding rate reversals."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does RabbitX calculate TRX funding rates differently from CEXs?",
+        "answer": "RabbitX uses on-chain TWAP data with 8-hour lookback periods, while most CEXs use shorter 1-hour windows. This creates smoother funding rate transitions but can lag during rapid TRX price movements. The hourly settlement frequency is higher than most DEXs but matches major centralized exchanges."
+      },
+      {
+        "question": "What's the minimum position size for TRX funding rate arbitrage on RabbitX?",
+        "answer": "Positions as small as $100 are viable due to zero gas fees, but optimal returns require $1,000+ to overcome the 0.02%/0.05% trading fees. Cross-margin functionality allows leveraging smaller amounts across multiple funding rate strategies simultaneously."
+      },
+      {
+        "question": "How does Starknet settlement affect TRX funding rate timing?",
+        "answer": "Starknet's L2 architecture ensures funding payments process within 2-3 minutes of each hour mark. Off-chain matching means funding calculations aren't affected by network congestion, providing more predictable settlement times than other Layer 2 solutions."
+      },
+      {
+        "question": "Can I hedge TRX funding exposure with other assets on RabbitX?",
+        "answer": "RabbitX's cross-margin system allows hedging TRX funding exposure against correlated assets like BTC or ETH perpetuals. However, the limited pair selection means sophisticated portfolio hedging strategies require external exchanges for complete risk management."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "render-usdt",
+    "fil-usdt",
+    "bnb-usdt",
+    "ton-usdt"
+  ]
+}

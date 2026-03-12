@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX PEPE/USDT Funding Rates & Arbitrage",
+    "description": "Track PEPE/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, zero gas trading, and cross-margin support for meme coin arbitrage strategies.",
+    "keywords": [
+      "PEPE funding rate",
+      "RabbitX perpetuals",
+      "meme coin arbitrage",
+      "DEX funding rates",
+      "PEPE USDT perp",
+      "Starknet trading",
+      "hourly funding",
+      "zero gas DEX"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT perpetuals on RabbitX offer unique funding rate arbitrage opportunities through the platform's innovative Starknet-based architecture. With hourly funding settlements and zero gas fees for trading, traders can capitalize on meme coin volatility without the typical DEX overhead costs.",
+    "how_funding_works": "RabbitX calculates PEPE/USDT funding rates hourly using a time-weighted average price mechanism combined with interest rate differentials. The platform's off-chain matching engine ensures efficient price discovery while Starknet settlement provides security. Funding payments occur automatically every hour, with rates typically ranging from -0.01% to 0.375% during high volatility periods. Cross-margin support allows traders to optimize capital efficiency across positions.",
+    "why_this_pair": "PEPE's high volatility and substantial retail interest create frequent funding rate imbalances ideal for arbitrage strategies. The meme coin's price swings often lead to skewed positioning, generating consistent funding premiums or discounts. RabbitX's zero gas structure makes frequent rebalancing economically viable for smaller position sizes.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on RabbitX have shown distinct patterns correlating with broader meme coin cycles and social sentiment waves. During bullish meme coin rallies, funding rates frequently spike above 0.2% hourly as long positions dominate. Conversely, during market corrections, negative funding rates below -0.1% are common as shorts increase. The hourly settlement frequency creates more granular arbitrage windows compared to 8-hour funding cycles on centralized exchanges. Weekend periods typically show reduced volatility in funding rates due to lower retail participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas trading enables profitable arbitrage even on smaller funding rate differentials compared to other DEXs. The platform's fast execution allows traders to quickly establish delta-neutral positions when funding rates diverge significantly from CEX counterparts. Cross-margin functionality enables efficient capital deployment across multiple perpetual positions simultaneously. The relatively small user base can create pricing inefficiencies that sophisticated arbitrageurs can exploit. Starknet's instant finality ensures arbitrage positions can be established without blockchain confirmation delays."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risks not present on established centralized exchanges. The limited user base can result in reduced liquidity during volatile periods, potentially impacting arbitrage exit strategies. Starknet dependency creates additional technical risk layers that traders must consider. The platform's smaller market maker presence may lead to wider spreads during extreme market conditions. Regulatory uncertainty surrounding DEX perpetuals trading adds compliance considerations for institutional participants."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles PEPE/USDT funding rates every hour, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. This hourly mechanism allows for more responsive rate adjustments during volatile meme coin price movements."
+      },
+      {
+        "question": "What are the trading fees for PEPE/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for PEPE/USDT perpetual trades, with zero gas costs due to Starknet's architecture. The absence of gas fees makes frequent rebalancing strategies economically viable for funding rate arbitrage."
+      },
+      {
+        "question": "Can I use cross-margin for PEPE/USDT funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin trading for PEPE/USDT perpetuals, allowing you to use collateral across multiple positions efficiently. This feature is particularly useful for delta-neutral funding rate arbitrage strategies that require hedging across different assets."
+      },
+      {
+        "question": "How does RabbitX's Starknet integration affect funding rate arbitrage?",
+        "answer": "Starknet provides instant finality for trades while keeping costs minimal, enabling rapid position adjustments for funding rate arbitrage. The off-chain matching engine ensures fast execution while maintaining the security benefits of on-chain settlement for final trade confirmation."
+      }
+    ]
+  },
+  "related_pairs": [
+    "blur-usdt",
+    "arb-usdt",
+    "xrp-usdt",
+    "bonk-usdt",
+    "dot-usdt"
+  ]
+}

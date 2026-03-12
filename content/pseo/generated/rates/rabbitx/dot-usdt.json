@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "dot-usdt",
+    "base": "DOT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOT/USDT Funding Rates on RabbitX | Perpetual Futures",
+    "description": "Track DOT/USDT funding rates on RabbitX DEX. Analyze Polkadot perpetual futures arbitrage opportunities with hourly funding updates and Starknet settlement.",
+    "keywords": [
+      "DOT funding rates",
+      "RabbitX perpetual futures",
+      "Polkadot arbitrage",
+      "DEX funding rate",
+      "Starknet perps",
+      "DOT USDT trading",
+      "crypto funding arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers DOT/USDT perpetual futures with hourly funding rate updates on its Starknet-based DEX platform. The exchange's zero gas trading and cross-margin system enables efficient funding rate arbitrage strategies for Polkadot positions.",
+    "how_funding_works": "RabbitX calculates DOT funding rates every hour using the premium index between perpetual and spot prices. The platform's off-chain matching engine settles funding payments through Starknet, providing fast execution without gas fees. Cross-margin functionality allows traders to optimize capital efficiency across multiple positions while managing funding obligations.",
+    "why_this_pair": "DOT/USDT represents significant arbitrage potential due to Polkadot's active ecosystem and price volatility during parachain auctions and governance events. The large trading volume creates substantial funding rate movements, particularly during network upgrades and staking reward distributions.",
+    "sections": [
+      {
+        "heading": "Historical DOT Funding Rate Patterns",
+        "body": "DOT funding rates on RabbitX typically range from -0.1% to 0.3% during normal market conditions. Parachain auction periods historically drive rates above 0.5% as traders position for DOT price movements. The hourly funding frequency creates more granular arbitrage opportunities compared to 8-hour funding cycles on centralized exchanges. Network upgrade announcements and staking ratio changes significantly impact funding rate volatility."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "RabbitX's zero gas fees enable micro-arbitrage strategies between funding periods, especially effective during high volatility events. Cross-margin functionality allows traders to hedge DOT exposure while capturing funding premiums across multiple timeframes. The platform's fast settlement through Starknet reduces execution risk compared to traditional DEX perpetuals. Arbitrageurs often exploit rate differences between RabbitX and centralized exchanges during ecosystem events."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "RabbitX's early-stage protocol presents smart contract risks despite Starknet's security features. Limited liquidity compared to major CEX platforms can create slippage during position adjustments. The hourly funding schedule requires active monitoring to avoid unexpected rate spikes during Polkadot governance proposals. Traders should account for the exchange's smaller user base when planning large arbitrage positions that might impact market depth."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does RabbitX calculate DOT funding rates compared to other exchanges?",
+        "answer": "RabbitX uses hourly funding calculations based on the premium between DOT perpetual and spot prices. This differs from most exchanges that use 8-hour cycles, creating unique arbitrage windows for active traders."
+      },
+      {
+        "question": "What are the advantages of trading DOT perpetuals on RabbitX versus centralized exchanges?",
+        "answer": "RabbitX offers zero gas trading fees and cross-margin capabilities, making it cost-effective for frequent position adjustments. The Starknet settlement provides fast execution while maintaining DEX benefits like non-custodial trading."
+      },
+      {
+        "question": "How do Polkadot network events affect DOT funding rates on RabbitX?",
+        "answer": "Parachain auctions, governance proposals, and staking reward distributions typically increase DOT funding rate volatility. These events drive directional trading that creates premium imbalances between perpetual and spot prices."
+      },
+      {
+        "question": "What risks should I consider when arbitraging DOT funding rates on RabbitX?",
+        "answer": "Key risks include smart contract vulnerabilities due to the protocol's early stage, limited liquidity affecting large positions, and the need for active monitoring due to hourly funding cycles. Always assess position size relative to available market depth."
+      }
+    ]
+  },
+  "related_pairs": [
+    "avax-usdt",
+    "jto-usdt",
+    "bonk-usdt",
+    "ordi-usdt",
+    "btc-usdt"
+  ]
+}

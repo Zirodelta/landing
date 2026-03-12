@@ -7,12 +7,18 @@ interface Props {
   params: Promise<{ slug: string }>
 }
 
-export const dynamicParams = true
+export const dynamicParams = false
 
 export async function generateStaticParams() {
-  // Pre-render only first 30 comparisons to stay under CF Pages limits
-  const comparisons = getAllComparisons()
-  return comparisons.slice(0, 30).map((c) => ({ slug: c.slug }))
+  // Generate all comparison slugs from exchange pairs
+  const exchanges = getExchanges()
+  const params: { slug: string }[] = []
+  for (let i = 0; i < exchanges.length; i++) {
+    for (let j = i + 1; j < exchanges.length; j++) {
+      params.push({ slug: `${exchanges[i].slug}-vs-${exchanges[j].slug}` })
+    }
+  }
+  return params
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

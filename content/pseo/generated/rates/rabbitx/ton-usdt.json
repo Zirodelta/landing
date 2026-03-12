@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ton-usdt",
+    "base": "TON",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TON/USDT Funding Rate - RabbitX Perps Arbitrage",
+    "description": "Track TON/USDT funding rates on RabbitX DEX. Analyze hourly funding arbitrage opportunities with zero gas fees and cross-margin trading on Starknet.",
+    "keywords": [
+      "TON funding rate",
+      "RabbitX perps",
+      "DEX arbitrage",
+      "Starknet trading",
+      "TON futures",
+      "funding rate arbitrage",
+      "decentralized perpetuals",
+      "TON USDT"
+    ]
+  },
+  "content": {
+    "intro": "TON/USDT perpetual futures on RabbitX offer unique funding rate arbitrage opportunities within the Starknet ecosystem. The DEX's hourly funding intervals and zero gas trading environment create distinct patterns compared to centralized exchanges.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a premium/discount mechanism between the perpetual and mark price. The off-chain matching engine processes funding payments without gas costs, while Starknet handles final settlement. Cross-margin positions allow efficient capital allocation across funding rate strategies. The 0.02% maker and 0.05% taker fees apply to position entries but not funding payments.",
+    "why_this_pair": "TON's Layer 1 blockchain status and large trading volumes create significant funding rate volatility, especially during network developments or ecosystem growth phases. The pair's popularity on RabbitX makes it suitable for consistent arbitrage opportunities despite the DEX's smaller user base.",
+    "sections": [
+      {
+        "heading": "Historical TON Funding Rate Patterns",
+        "body": "TON/USDT funding rates on RabbitX typically range from -0.05% to +0.15% hourly, with extreme spikes during major Telegram ecosystem announcements. Network upgrade periods often drive positive funding as traders position for growth. The hourly reset creates more frequent arbitrage windows compared to 8-hour CEX cycles. Weekend periods show reduced volatility due to lower DEX participation."
+      },
+      {
+        "heading": "RabbitX Arbitrage Opportunities",
+        "body": "The DEX's zero gas structure enables profitable arbitrage even on smaller funding rate differentials. Cross-margin capabilities allow hedging TON spot positions against perp funding without additional collateral. Limited liquidity occasionally creates funding rate premiums compared to major CEXs like Binance or OKX. Early-stage protocol status means fewer sophisticated arbitrageurs, potentially extending profitable opportunities."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Smart contract risk remains elevated given RabbitX's early development stage on Starknet. Limited pair selection restricts hedging options compared to established CEXs. The small user base can amplify funding rate swings during volatile periods. Position sizing should account for potential liquidity gaps and the DEX's evolving risk parameters. Monitor Starknet network stability as settlement delays could impact arbitrage timing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are TON/USDT funding rates updated on RabbitX?",
+        "answer": "RabbitX updates TON/USDT funding rates every hour, providing more frequent arbitrage opportunities than traditional 8-hour cycles. The exact payment occurs at each hour mark UTC."
+      },
+      {
+        "question": "What are the gas costs for funding rate arbitrage on RabbitX?",
+        "answer": "RabbitX charges zero gas fees for trading operations including funding payments. Only Starknet settlement transactions require minimal gas, significantly reducing arbitrage costs compared to Ethereum-based DEXs."
+      },
+      {
+        "question": "Can I use cross-margin for TON funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin trading allowing you to hedge TON spot positions against perpetual funding without additional collateral. This improves capital efficiency for arbitrage strategies."
+      },
+      {
+        "question": "How does RabbitX's TON liquidity compare to major exchanges?",
+        "answer": "RabbitX has moderate TON/USDT liquidity suitable for smaller arbitrage positions. The limited user base means less competition but also potentially wider spreads during volatile periods compared to tier-1 exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "ada-usdt",
+    "sui-usdt",
+    "link-usdt",
+    "w-usdt"
+  ]
+}

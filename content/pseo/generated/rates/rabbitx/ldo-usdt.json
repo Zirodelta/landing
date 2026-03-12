@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ldo-usdt",
+    "base": "LDO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX LDO/USDT Funding Rate - DEX Arbitrage Guide",
+    "description": "Trade LDO/USDT perpetuals on RabbitX DEX with hourly funding. Zero gas fees, Starknet settlement. Analyze funding rate arbitrage opportunities.",
+    "keywords": [
+      "RabbitX LDO funding rate",
+      "DEX perpetual futures",
+      "Starknet trading",
+      "LDO arbitrage",
+      "zero gas trading",
+      "hourly funding",
+      "cross margin"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers LDO/USDT perpetual futures with hourly funding rate calculations on its Starknet-based DEX platform. The exchange provides zero gas trading with off-chain order matching and on-chain settlement for efficient capital deployment. LDO's correlation with Ethereum staking trends creates distinct funding rate patterns compared to major cryptocurrencies.",
+    "how_funding_works": "RabbitX calculates funding rates every hour using a time-weighted average price (TWAP) mechanism that compares the perpetual price to the spot index. The funding exchange occurs between long and short positions based on the premium or discount to spot price. Settlement happens on Starknet with zero gas costs for traders, allowing for frequent position adjustments. Cross-margin functionality enables efficient capital utilization across multiple positions on the platform.",
+    "why_this_pair": "LDO perpetuals often exhibit elevated funding rates during Ethereum staking narrative cycles and liquid staking protocol developments. The token's mid-tier volume creates opportunities for funding rate imbalances, especially during periods of asymmetric positioning. RabbitX's hourly funding frequency provides more granular arbitrage opportunities compared to traditional 8-hour cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "LDO funding rates on RabbitX typically range from -0.1% to +0.3% hourly during normal market conditions, with spikes reaching ±1.0% during major staking events or Lido governance proposals. The token shows strong correlation with ETH staking yields and regulatory developments around liquid staking derivatives. Funding rates tend to skew positive during bull markets as retail traders take leveraged long positions on staking narratives. Weekend periods often see reduced volatility and more balanced funding rates due to lower trading activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's hourly funding cycles create frequent arbitrage windows, particularly when LDO spot prices diverge from perpetual premiums during volatile periods. The zero gas fee structure allows profitable arbitrage on smaller rate discrepancies that would be uneconomical on other platforms. Cross-margin functionality enables traders to hedge LDO positions against ETH or other correlated assets within the same account. Opportunities often arise during Ethereum network upgrades, Lido protocol updates, or broader DeFi liquidity shifts affecting staking token demand."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "LDO's relatively lower liquidity compared to major cryptocurrencies can result in higher slippage during large position entries or exits on RabbitX. The early-stage nature of the platform presents smart contract risks and potential liquidity constraints during extreme market conditions. Starknet's novel architecture, while offering benefits, introduces additional technical risks and potential settlement delays during network congestion. Traders should monitor Lido's total value locked (TVL) and Ethereum staking ratio changes as fundamental drivers of LDO price volatility."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does LDO funding rate update on RabbitX?",
+        "answer": "LDO funding rates on RabbitX update every hour, providing more frequent settlement compared to traditional 8-hour cycles. This allows for more granular arbitrage strategies and quicker adaptation to market changes."
+      },
+      {
+        "question": "What are typical LDO funding rate ranges on RabbitX?",
+        "answer": "LDO funding rates typically range from -0.1% to +0.3% hourly during normal conditions, with spikes to ±1.0% during major staking events. Rates tend to skew positive during bull markets due to leveraged long positioning."
+      },
+      {
+        "question": "Are there gas fees for LDO perpetual trading on RabbitX?",
+        "answer": "RabbitX offers zero gas fees for trading LDO perpetuals due to its off-chain matching engine and Starknet settlement layer. This makes frequent position adjustments and funding rate arbitrage more cost-effective."
+      },
+      {
+        "question": "How does cross-margin work with LDO positions on RabbitX?",
+        "answer": "Cross-margin allows your LDO perpetual positions to share margin with other assets in your RabbitX account. This enables more efficient capital utilization and the ability to hedge LDO exposure against ETH or other correlated DeFi tokens."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ton-usdt",
+    "sol-usdt",
+    "floki-usdt",
+    "xrp-usdt",
+    "eth-usdt"
+  ]
+}

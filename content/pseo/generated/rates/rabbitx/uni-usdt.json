@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX UNI/USDT Funding Rate | DEX Perpetual Trading",
+    "description": "Analyze UNI/USDT funding rates on RabbitX DEX. Track hourly funding costs, arbitrage opportunities, and DeFi token dynamics on Starknet-powered platform.",
+    "keywords": [
+      "RabbitX UNI funding rate",
+      "UNI USDT perpetual",
+      "DEX funding arbitrage",
+      "Starknet perp trading",
+      "DeFi funding rates",
+      "cross margin trading",
+      "hourly funding",
+      "DEX arbitrage opportunities"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers UNI/USDT perpetual futures with hourly funding settlements on its Starknet-based DEX infrastructure. The platform's zero gas trading model and cross-margin system create unique funding rate dynamics compared to centralized exchanges.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a premium/discount model based on the perpetual price versus UNI spot rates. Funding payments occur automatically every hour at minute 00, with long positions paying shorts when rates are positive. The platform's off-chain matching engine ensures efficient price discovery while Starknet settlement provides transparency. Cross-margin accounts allow funding payments to be netted across all open positions.",
+    "why_this_pair": "UNI exhibits moderate volatility patterns that often create predictable funding cycles, especially during DeFi narrative shifts or governance events. RabbitX's competitive maker fees (0.02%) and zero gas costs make it attractive for funding rate arbitrage on mid-cap DeFi tokens. The hourly funding frequency provides more frequent arbitrage opportunities compared to 8-hour cycles on other platforms.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on RabbitX typically range from -0.1% to +0.3% per hour during normal market conditions. The token shows elevated funding during DeFi summer periods and governance proposal announcements, often reaching +0.5% hourly when retail interest peaks. Negative funding rates frequently occur during broader market downturns when short interest dominates. Weekend periods generally exhibit lower absolute funding rates due to reduced trading activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "RabbitX's smaller user base can lead to funding rate inefficiencies compared to major CEXs, creating arbitrage windows. The platform's cross-margin system allows traders to maintain hedge positions across multiple pairs while collecting funding. Zero gas costs eliminate the friction typically associated with DEX arbitrage strategies. Optimal arbitrage timing often coincides with the hour before funding settlements when rate predictions become more accurate."
+      },
+      {
+        "heading": "Risk Considerations and Platform Factors",
+        "body": "RabbitX's early-stage protocol status introduces smart contract and liquidity risks not present on established CEXs. The limited user base can result in wider spreads during volatile periods, impacting arbitrage profitability. Starknet's sequencer dependency creates potential settlement delays during network congestion. Traders should monitor the platform's total value locked and trading volume to assess liquidity depth before executing large funding arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are UNI funding rates updated on RabbitX?",
+        "answer": "RabbitX calculates and applies UNI/USDT funding rates every hour on the hour. This hourly frequency provides more frequent arbitrage opportunities compared to the standard 8-hour funding cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What makes RabbitX unique for UNI perpetual trading?",
+        "answer": "RabbitX offers zero gas trading through its Starknet infrastructure and cross-margin capabilities across all positions. The platform's off-chain matching with on-chain settlement provides fast execution while maintaining transparency for UNI perpetual trades."
+      },
+      {
+        "question": "Are there minimum position sizes for UNI funding collection?",
+        "answer": "RabbitX doesn't enforce strict minimum position sizes for funding collection, but positions must be above the platform's dust threshold. Cross-margin accounts allow funding to be collected across all open positions regardless of individual position sizes."
+      },
+      {
+        "question": "How does RabbitX's UNI liquidity compare to major exchanges?",
+        "answer": "RabbitX currently has lower UNI/USDT liquidity compared to major CEXs due to its smaller user base. However, this can create funding rate inefficiencies that present arbitrage opportunities for informed traders willing to accept the platform's early-stage risks."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "doge-usdt",
+    "ena-usdt",
+    "fet-usdt",
+    "stx-usdt"
+  ]
+}

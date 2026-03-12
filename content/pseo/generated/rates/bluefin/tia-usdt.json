@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rate on Bluefin DEX - Arbitrage Guide",
+    "description": "Track TIA/USDT perpetual funding rates on Bluefin DEX. Hourly settlements, Sui-based infrastructure, and institutional-grade matching for funding arbitrage.",
+    "keywords": [
+      "TIA funding rate",
+      "Bluefin DEX",
+      "Celestia perpetual",
+      "Sui DEX arbitrage",
+      "TIA USDT funding",
+      "decentralized perpetuals",
+      "Bluefin trading",
+      "Celestia derivatives"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on Bluefin offer hourly funding rate settlements on Sui's high-performance blockchain infrastructure. As Celestia's modular blockchain narrative gains traction, TIA funding rates reflect both ecosystem growth and institutional adoption patterns.",
+    "how_funding_works": "Bluefin calculates TIA/USDT funding rates every hour using the premium index between perpetual and spot prices across multiple venues. The exchange's institutional-grade matching engine processes funding calculations on-chain through Sui's consensus mechanism. Funding payments occur automatically at each hourly interval, with rates typically ranging from -0.01% to 0.01% for TIA positions.",
+    "why_this_pair": "TIA represents a leading infrastructure play in the modular blockchain space, creating unique funding rate dynamics driven by validator staking demand and ecosystem development cycles. Bluefin's position as the primary Sui ecosystem DEX provides early access to TIA funding opportunities before broader market adoption.",
+    "sections": [
+      {
+        "heading": "Historical TIA Funding Rate Patterns",
+        "body": "TIA funding rates on Bluefin have shown distinct cycles correlated with Celestia mainnet milestones and airdrop events. During TIA's initial launch phase, funding rates frequently spiked above 0.05% hourly as retail demand outpaced institutional supply. Recent patterns show more stable rates in the 0.01-0.02% range during normal market conditions. Negative funding periods typically occur during broader crypto market downturns or when large TIA unlock events approach."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "TIA funding arbitrage on Bluefin benefits from the exchange's low 0.02% maker fees and fast Sui settlement times under 1 second. Cross-exchange arbitrage works particularly well pairing Bluefin TIA longs with shorts on Binance or OKX during positive funding periods. The key advantage lies in Bluefin's decentralized nature allowing larger position sizes without KYC limitations. Traders should monitor TIA staking rewards (around 15-20% APY) as this creates a natural floor for funding rate expectations."
+      },
+      {
+        "heading": "Risk Management and Market Dynamics",
+        "body": "TIA's mid-tier trading volume creates higher funding rate volatility compared to major pairs like BTC or ETH. Sui ecosystem risks include potential network congestion during high-activity periods, though Bluefin's institutional infrastructure has proven resilient. Position sizing should account for TIA's correlation with broader L1 token movements and potential airdrops from Celestia ecosystem projects. Always maintain hedged exposure when holding overnight positions due to TIA's emerging market status."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes TIA funding rates different on Bluefin compared to centralized exchanges?",
+        "answer": "Bluefin's TIA funding rates reflect pure decentralized market dynamics without centralized exchange manipulation or preferential market maker rates. The Sui-based settlement provides transparent on-chain funding calculations that can't be gamed by exchange operators."
+      },
+      {
+        "question": "How does TIA staking affect perpetual funding rates on Bluefin?",
+        "answer": "TIA's native staking yield of 15-20% creates opportunity cost for traders, generally pushing funding rates positive as longs compensate shorts for not staking. This dynamic is more pronounced on DEXs like Bluefin where institutional arbitrageurs are less dominant."
+      },
+      {
+        "question": "What are the optimal position sizes for TIA funding arbitrage on Bluefin?",
+        "answer": "TIA's mid-tier liquidity on Bluefin typically supports $10K-50K positions without significant slippage. Larger positions may require splitting across multiple funding periods or pairing with centralized exchange hedges to maintain market neutrality."
+      },
+      {
+        "question": "How do Celestia network upgrades impact TIA funding rates?",
+        "answer": "Major Celestia upgrades and ecosystem announcements typically drive positive funding rate spikes as speculative demand increases. Bluefin traders often see 2-4 hour advance notice in funding rate movements before centralized exchanges react to the news flow."
+      }
+    ]
+  },
+  "related_pairs": [
+    "apt-usdt",
+    "ada-usdt",
+    "ftm-usdt",
+    "ordi-usdt",
+    "shib-usdt"
+  ]
+}

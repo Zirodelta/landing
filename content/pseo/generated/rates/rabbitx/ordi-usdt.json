@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rate on RabbitX - DEX Perp Trading",
+    "description": "Track ORDI/USDT perpetual futures funding rates on RabbitX DEX. Hourly funding cycles, zero gas trading, and Starknet settlement for BRC-20 arbitrage.",
+    "keywords": [
+      "ORDI funding rate",
+      "RabbitX perpetuals",
+      "DEX funding arbitrage",
+      "BRC-20 futures",
+      "Starknet perps",
+      "ORDI USDT",
+      "hourly funding",
+      "cross-margin trading"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on RabbitX offer hourly funding rate settlements for the leading BRC-20 token. This Starknet-based DEX provides zero gas trading with 0.02% maker and 0.05% taker fees, making it suitable for funding rate arbitrage strategies despite limited liquidity.",
+    "how_funding_works": "RabbitX calculates ORDI/USDT funding rates hourly based on the premium between perpetual and spot prices. Long positions pay funding when rates are positive, while shorts receive payments when negative. The exchange uses off-chain matching with Starknet settlement, ensuring fast execution without network gas costs. Cross-margin functionality allows traders to optimize capital efficiency across positions.",
+    "why_this_pair": "ORDI represents the flagship BRC-20 token, often experiencing significant funding rate fluctuations due to Bitcoin ecosystem speculation and limited liquidity. The hourly funding cycles on RabbitX create more frequent arbitrage opportunities compared to 8-hour cycles on centralized exchanges. However, traders must consider the exchange's early-stage status and smaller user base when sizing positions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI/USDT funding rates on RabbitX have shown high volatility during BRC-20 narrative cycles, with rates frequently exceeding ±0.1% per hour during major Bitcoin ordinal events. The pair exhibits strong correlation with Bitcoin momentum and ordinal marketplace activity. During quiet periods, funding rates typically range between ±0.01% hourly. The DEX's limited liquidity can amplify rate extremes compared to centralized exchanges, creating both opportunities and risks for arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "The hourly funding cycle creates 24 opportunities daily for rate arbitrage, significantly more than traditional 8-hour cycles. RabbitX's zero gas costs enable profitable micro-arbitrage strategies that would be uneconomical on Ethereum-based DEXs. Cross-margin functionality allows hedging ORDI exposure while capturing funding rate differences. However, the limited order book depth requires careful position sizing to avoid significant slippage. Arbitrageurs should monitor funding rate differentials between RabbitX and major centralized exchanges like Binance or OKX."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "RabbitX's early-stage protocol carries smart contract risks and potential liquidity constraints during volatile periods. The small user base means limited natural hedging flow, potentially leading to sustained funding rate imbalances. ORDI's inherent volatility as a BRC-20 token adds directional risk to funding rate strategies. Traders must account for the 0.02%/0.05% trading fees when calculating net funding arbitrage returns. The DEX's reliance on off-chain matching introduces potential operational risks during high-stress market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ORDI/USDT funding rates paid on RabbitX?",
+        "answer": "Funding rates are calculated and paid every hour on RabbitX, providing 24 funding events per day. This frequent settlement cycle offers more arbitrage opportunities compared to the standard 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What makes RabbitX unique for ORDI perpetual trading?",
+        "answer": "RabbitX offers zero gas trading through Starknet settlement while maintaining fast off-chain order matching. The cross-margin system allows efficient capital utilization, and the DEX structure provides an alternative to centralized exchanges for ORDI exposure."
+      },
+      {
+        "question": "Are there minimum position sizes for ORDI funding rate arbitrage?",
+        "answer": "RabbitX doesn't enforce strict minimum sizes, but the limited liquidity in ORDI/USDT means smaller positions are more practical. The 0.02% maker fee requires careful calculation to ensure funding rate arbitrage remains profitable after trading costs."
+      },
+      {
+        "question": "How does ORDI volatility affect funding rate strategies on RabbitX?",
+        "answer": "ORDI's high volatility as a BRC-20 token can create large funding rate imbalances but also introduces directional risk. The limited liquidity on RabbitX can amplify both funding opportunities and hedging difficulties during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ena-usdt",
+    "rune-usdt",
+    "jto-usdt",
+    "wld-usdt",
+    "xrp-usdt"
+  ]
+}

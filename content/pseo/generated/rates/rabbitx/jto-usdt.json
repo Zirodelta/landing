@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on RabbitX - DEX Arbitrage Data",
+    "description": "Track JTO/USDT funding rates on RabbitX DEX. Hourly settlements, zero gas trading, and cross-margin support for DeFi governance token arbitrage opportunities.",
+    "keywords": [
+      "JTO funding rate",
+      "RabbitX perpetuals",
+      "DeFi funding arbitrage",
+      "Starknet perps",
+      "JTO futures",
+      "DEX arbitrage",
+      "hourly funding",
+      "cross-margin"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on RabbitX offer unique funding rate arbitrage opportunities through the platform's Starknet-based infrastructure. The hourly funding settlements and zero gas trading costs create distinct arbitrage conditions for Jito's governance token compared to traditional CEX platforms.",
+    "how_funding_works": "RabbitX calculates JTO/USDT funding rates every hour using a time-weighted average price mechanism that considers both mark price and index price deviations. The platform's off-chain matching engine processes funding calculations instantly while Starknet handles final settlement with zero gas costs for traders. Cross-margin support allows efficient capital allocation across multiple positions. Funding payments occur precisely at the top of each hour with automatic position adjustments.",
+    "why_this_pair": "JTO represents Jito's liquid staking governance token, creating funding rate volatility driven by Solana staking demand and governance events. The relatively small trading volume on RabbitX compared to major CEXs often results in funding rate disparities exceeding 0.1% per hour. DeFi-focused traders on RabbitX tend to hold longer positions during governance periods, creating predictable funding rate patterns.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JTO/USDT funding rates on RabbitX typically range from -0.05% to +0.15% per hour, with notable spikes during Jito governance votes and Solana network upgrades. The pair exhibits positive funding bias during MEV reward distribution periods when liquid staking demand increases. Weekend sessions often show lower volatility with funding rates clustering around +0.01% to +0.03% hourly. Cross-referencing with Solana validator performance metrics helps predict funding direction shifts 2-4 hours in advance."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable JTO funding arbitrage occurs between RabbitX and Binance/OKX, particularly during US trading hours when DEX activity peaks. Zero gas costs on RabbitX eliminate the typical 0.001-0.003% transaction overhead found on other platforms. Cross-margin functionality enables hedging multiple Solana ecosystem tokens simultaneously while capturing JTO funding premiums. Alert systems tracking funding rate differentials above 0.08% between RabbitX and CEXs typically yield 15-25% monthly returns net of trading fees."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's limited JTO/USDT liquidity can cause significant slippage during large funding arbitrage positions, particularly above $50,000 trade sizes. The platform's early-stage development introduces smart contract risks and potential settlement delays during network congestion. Starknet's dependency creates additional technical risk layers compared to established CEX infrastructure. Small user base means reduced market depth and higher volatility during off-peak hours, requiring careful position sizing and timing strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does RabbitX's hourly funding affect JTO arbitrage strategies?",
+        "answer": "Hourly funding settlements provide more frequent arbitrage opportunities compared to 8-hour cycles on major CEXs. This allows for shorter holding periods and reduced directional risk exposure. However, positions must be actively managed every hour to capture optimal funding rate differentials."
+      },
+      {
+        "question": "What makes JTO funding rates volatile on RabbitX?",
+        "answer": "JTO volatility stems from its governance utility in Jito's liquid staking protocol and relatively low trading volume on DEX platforms. Governance votes, MEV reward distributions, and Solana network events create predictable funding rate spikes. Limited arbitrageurs on RabbitX amplify these movements."
+      },
+      {
+        "question": "Are there liquidity risks trading JTO perpetuals on RabbitX?",
+        "answer": "Yes, JTO/USDT maintains lower liquidity than major pairs, with typical market depth of $100,000-300,000 on each side. Large positions above $25,000 may experience 0.1-0.3% slippage. Off-peak hours see reduced liquidity, making entry and exit timing crucial for arbitrage profitability."
+      },
+      {
+        "question": "How do Starknet gas savings impact JTO funding arbitrage returns?",
+        "answer": "Zero gas costs eliminate the typical $5-15 transaction fees per funding cycle, improving net returns by approximately 0.02-0.05% per hour. This advantage is most significant for smaller arbitrage positions under $10,000 where gas costs would otherwise consume 20-50% of funding profits on other platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "avax-usdt",
+    "inj-usdt",
+    "op-usdt",
+    "xrp-usdt"
+  ]
+}

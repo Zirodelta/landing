@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on RabbitX - Real-time Arbitrage",
+    "description": "Track FET/USDT funding rates on RabbitX DEX. Hourly settlements, 0.02% maker fees, zero gas trading. Analyze AI token funding patterns for arbitrage.",
+    "keywords": [
+      "FET funding rate",
+      "RabbitX perpetual",
+      "FET arbitrage",
+      "Starknet DEX",
+      "AI token funding",
+      "FET futures",
+      "DEX arbitrage",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on RabbitX offer unique arbitrage opportunities through hourly funding rate settlements. As a Starknet-based DEX with zero gas trading costs, RabbitX enables efficient funding rate strategies for AI tokens like Fetch.ai.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the price differential between FET perpetual futures and spot prices. The platform uses off-chain order matching with on-chain settlement on Starknet, allowing for real-time funding rate updates without gas fees for position adjustments. Cross-margin support enables efficient capital allocation across multiple funding positions. Funding payments occur automatically at settlement with no manual intervention required.",
+    "why_this_pair": "FET/USDT funding rates often exhibit volatility due to AI sector speculation and relatively lower liquidity compared to major cryptocurrencies. This creates frequent arbitrage windows between RabbitX and centralized exchanges. The hourly settlement frequency on RabbitX provides more granular profit capture compared to 8-hour cycles on traditional platforms.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET funding rates on RabbitX have shown strong correlation with AI sector sentiment and broader crypto market movements. During AI hype cycles, funding rates frequently turn negative as shorts dominate, creating opportunities for long arbitrage positions. The hourly calculation provides 8x more frequent settlement opportunities compared to standard 8-hour cycles. Weekend periods often show reduced volatility but maintain consistent arbitrage spreads due to lower trading volumes across DEX platforms."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fee structure significantly reduces arbitrage costs compared to mainnet DEXs, making smaller funding rate differentials profitable. Cross-margin functionality allows simultaneous long/short positions across multiple AI tokens for market-neutral strategies. The early-stage nature of RabbitX often creates pricing inefficiencies versus established exchanges like Binance or OKX. Arbitrageurs can exploit the 0.02% maker rebate structure by providing liquidity while capturing funding differentials."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Limited liquidity on RabbitX increases slippage risk during volatile market conditions, particularly for larger position sizes. The protocol's early development stage introduces smart contract risks and potential technical issues during high-volume periods. FET's correlation with broader AI sector movements can create sudden funding rate reversals that catch arbitrageurs off-guard. Starknet network congestion during peak usage could delay settlement execution and impact time-sensitive arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FET funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates FET/USDT funding rates every hour, providing 8 settlement opportunities per day. This higher frequency compared to traditional 8-hour cycles allows for more granular profit capture and reduced exposure to rate reversals."
+      },
+      {
+        "question": "What are the trading fees for FET arbitrage on RabbitX?",
+        "answer": "RabbitX charges 0.02% for makers and 0.05% for takers, with zero gas fees due to Starknet integration. Makers actually receive rebates, making funding rate arbitrage more profitable compared to gas-heavy mainnet alternatives."
+      },
+      {
+        "question": "Can I use cross-margin for FET funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin trading which allows you to use collateral across multiple positions. This enables sophisticated arbitrage strategies where you can hedge FET exposure with other AI tokens or maintain market-neutral positions while capturing funding differentials."
+      },
+      {
+        "question": "What liquidity risks exist for FET on RabbitX?",
+        "answer": "As an early-stage DEX, RabbitX has limited FET liquidity compared to major centralized exchanges. This can result in higher slippage during volatile periods and may limit position sizes for larger arbitrage operations, particularly during AI sector news events."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "ldo-usdt",
+    "btc-usdt",
+    "eth-usdt",
+    "mkr-usdt"
+  ]
+}

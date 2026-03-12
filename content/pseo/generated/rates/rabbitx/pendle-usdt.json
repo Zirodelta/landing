@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pendle-usdt",
+    "base": "PENDLE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PENDLE/USDT Funding Rates on RabbitX - DEX Perpetuals",
+    "description": "Track PENDLE/USDT perpetual funding rates on RabbitX DEX. Hourly funding cycles, zero gas fees, and cross-margin trading for efficient arbitrage.",
+    "keywords": [
+      "PENDLE funding rate",
+      "RabbitX perpetuals",
+      "DEX funding arbitrage",
+      "Starknet trading",
+      "PENDLE futures",
+      "yield farming arbitrage",
+      "DeFi perp trading",
+      "hourly funding cycles"
+    ]
+  },
+  "content": {
+    "intro": "PENDLE/USDT perpetual futures on RabbitX offer unique arbitrage opportunities through hourly funding rate settlements on Starknet. RabbitX's zero gas fee structure and cross-margin system enable efficient capital deployment for yield farming token arbitrage strategies.",
+    "how_funding_works": "RabbitX calculates PENDLE/USDT funding rates hourly using a premium index that compares perpetual prices to spot rates. The DEX uses off-chain matching with Starknet settlement, allowing funding payments without gas fees. Long positions pay funding when rates are positive, while shorts receive payments, with settlements occurring every hour at minute zero.",
+    "why_this_pair": "PENDLE's yield farming focus creates funding rate volatility as traders position around protocol token distributions and staking rewards. The token's correlation with DeFi yield cycles generates predictable funding patterns, especially during high APY periods when long bias increases.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PENDLE/USDT funding rates on RabbitX typically range from -0.01% to 0.05% per hour, with spikes during yield farming campaigns. The pair shows strong positive funding bias during PENDLE token unlock events and protocol governance votes. Funding rates often correlate with broader DeFi token performance, particularly during periods of high staking yields. Historical data shows funding rate reversals frequently occur around major protocol updates or partnership announcements."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's hourly funding cycles create frequent arbitrage windows for PENDLE/USDT traders. The zero gas fee structure allows profitable arbitrage on smaller funding rate differentials compared to other DEXs. Cross-margin functionality enables efficient capital utilization when hedging PENDLE spot positions against perpetual contracts. Traders can exploit funding rate premiums during high volatility periods when PENDLE experiences significant price movements related to yield farming rewards."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "PENDLE's mid-tier liquidity can create slippage issues during large funding rate arbitrage positions on RabbitX. The token's sensitivity to DeFi yield changes adds fundamental risk beyond typical funding rate strategies. RabbitX's early-stage protocol status introduces smart contract risks and potential liquidity constraints during market stress. Limited pair selection means fewer hedging options, requiring careful position sizing to manage PENDLE-specific volatility risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does PENDLE/USDT funding settle on RabbitX?",
+        "answer": "PENDLE/USDT perpetuals on RabbitX settle funding payments every hour at the top of the hour. This frequent settlement cycle provides more opportunities for arbitrage compared to 8-hour funding cycles on other exchanges."
+      },
+      {
+        "question": "What are typical PENDLE funding rates on RabbitX?",
+        "answer": "PENDLE/USDT funding rates generally range from -0.01% to 0.05% per hour on RabbitX. Rates tend to be positive during yield farming seasons and can spike above 0.1% during major protocol events or token unlock periods."
+      },
+      {
+        "question": "Does RabbitX charge gas fees for PENDLE funding payments?",
+        "answer": "No, RabbitX operates on Starknet with zero gas fees for all trading activities including funding payments. This makes smaller funding rate arbitrage strategies more profitable compared to mainnet DEXs that charge gas fees."
+      },
+      {
+        "question": "How liquid is PENDLE/USDT on RabbitX for arbitrage?",
+        "answer": "PENDLE/USDT maintains mid-tier liquidity on RabbitX suitable for moderate-sized arbitrage positions. Larger positions may experience slippage, so traders should monitor order book depth and consider position sizing relative to available liquidity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "op-usdt",
+    "render-usdt",
+    "dot-usdt",
+    "fet-usdt"
+  ]
+}

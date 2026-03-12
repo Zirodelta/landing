@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on RabbitX - DEX Perpetual",
+    "description": "Track BONK/USDT funding rates on RabbitX DEX. Hourly settlements, zero gas trading, and cross-margin support for efficient arbitrage opportunities.",
+    "keywords": [
+      "BONK funding rates",
+      "RabbitX perpetuals",
+      "DEX arbitrage",
+      "Starknet trading",
+      "meme coin futures",
+      "cross-margin",
+      "hourly funding",
+      "zero gas"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on RabbitX offer unique funding rate arbitrage opportunities through the platform's Starknet-based architecture. With hourly funding settlements and zero gas fees for trading, traders can efficiently capture funding rate imbalances in this volatile meme coin pair.",
+    "how_funding_works": "RabbitX implements hourly funding rate settlements for BONK/USDT, calculated using a time-weighted average price mechanism. The platform's off-chain matching engine processes funding payments instantly while settlement occurs on Starknet L2. Cross-margin functionality allows traders to optimize capital efficiency when holding offsetting positions across multiple pairs. Zero gas fees eliminate the friction typically associated with frequent position adjustments required for funding rate strategies.",
+    "why_this_pair": "BONK's meme coin volatility often creates substantial funding rate premiums as retail sentiment drives long bias in perpetual markets. The pair's mid-tier volume on RabbitX provides adequate liquidity for arbitrage while maintaining the rate volatility that makes funding strategies profitable. RabbitX's early-stage status means less sophisticated competition for funding rate opportunities compared to established exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on RabbitX typically exhibit strong correlation with social media sentiment and broader meme coin narratives. During viral rallies, funding rates frequently spike above 0.1% hourly as retail traders heavily favor long positions. The DEX nature of RabbitX means funding rates can deviate significantly from CEX rates during high volatility periods. Weekend sessions often show reduced funding pressure as institutional activity decreases, creating arbitrage windows for patient traders."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Mechanics",
+        "body": "RabbitX's zero gas fee structure enables high-frequency funding rate capture strategies that would be unprofitable on other DEXs. Traders can execute delta-neutral positions by shorting BONK perpetuals when funding is positive while hedging with spot BONK or correlated assets. The platform's cross-margin system allows efficient capital deployment across multiple funding strategies simultaneously. Arbitrage between RabbitX and CEX funding rates often presents opportunities due to the platform's smaller user base and unique settlement mechanics."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "RabbitX's limited user base creates liquidity risks during extreme market conditions when large positions may face difficulty closing. The platform's early-stage nature introduces smart contract risks and potential technical issues that could impact funding settlements. Starknet's dependency means network congestion or technical problems could affect position management capabilities. BONK's meme coin status brings inherent volatility risks that can quickly turn profitable funding positions into significant losses if not properly hedged."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are BONK/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles funding rates every hour for BONK/USDT perpetuals. The rate is determined using a time-weighted average price mechanism that compares the perpetual price to the underlying index price over the funding interval."
+      },
+      {
+        "question": "What are the trading fees for BONK perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for BONK/USDT perpetual trading. However, the platform offers zero gas fees for all trading operations, significantly reducing the total cost of executing funding rate arbitrage strategies."
+      },
+      {
+        "question": "Can I use cross-margin for BONK funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin functionality allowing you to use collateral across multiple positions simultaneously. This enables efficient capital utilization when running delta-neutral funding strategies across different pairs or when hedging BONK exposure."
+      },
+      {
+        "question": "How does RabbitX's Starknet integration affect funding settlements?",
+        "answer": "Funding settlements are processed through Starknet L2 which provides fast, low-cost finality compared to Ethereum mainnet. While the off-chain matching engine enables instant trade execution, final settlement security comes from Starknet's proven infrastructure with minimal fees."
+      }
+    ]
+  },
+  "related_pairs": [
+    "jup-usdt",
+    "link-usdt",
+    "ordi-usdt",
+    "ethfi-usdt",
+    "eth-usdt"
+  ]
+}

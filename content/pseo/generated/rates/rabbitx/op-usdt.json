@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "op-usdt",
+    "base": "OP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OP/USDT Funding Rates on RabbitX - Arbitrage Opportunities",
+    "description": "Track OP/USDT perpetual funding rates on RabbitX DEX. Hourly funding payments, zero gas trading, and cross-margin support for funding rate arbitrage.",
+    "keywords": [
+      "OP/USDT funding rate",
+      "RabbitX perpetual",
+      "DEX arbitrage",
+      "Starknet futures",
+      "hourly funding",
+      "Optimism trading",
+      "cross-margin perps",
+      "DeFi funding rates"
+    ]
+  },
+  "content": {
+    "intro": "OP/USDT perpetual futures on RabbitX offer hourly funding rate settlements with zero gas costs for position management. The pair benefits from Optimism's Layer 2 ecosystem growth and RabbitX's high-performance matching engine built on Starknet infrastructure.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the premium between perpetual and spot prices, with payments exchanged directly between long and short position holders. The DEX uses off-chain order matching with on-chain settlement on Starknet, eliminating gas fees for trading operations. Cross-margin functionality allows traders to use their entire account balance as collateral, improving capital efficiency for funding rate strategies across multiple positions.",
+    "why_this_pair": "OP/USDT represents significant arbitrage potential due to Optimism's role as a major Ethereum Layer 2 solution with substantial TVL and ecosystem activity. The pair's large trading volume creates consistent funding rate fluctuations, while RabbitX's 0.02% maker rebates can offset funding costs during neutral arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "OP/USDT funding rates on RabbitX typically range from -0.01% to 0.03% per hour, with elevated rates during major Optimism ecosystem announcements or governance proposals. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour cycles on centralized exchanges. Positive funding dominates during bull markets as leveraged longs pay shorts, while bear markets often see negative funding as shorts compensate long holders. Weekend periods frequently show reduced funding volatility due to lower institutional activity."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas trading enables cost-effective delta-neutral strategies by pairing OP perpetuals with spot holdings on other platforms. The 0.02% maker rebate structure can generate additional yield when providing liquidity while maintaining funding rate positions. Cross-margin support allows traders to capture funding on multiple correlated pairs simultaneously, maximizing capital efficiency. However, the platform's smaller user base may limit funding rate extremes compared to major centralized exchanges, requiring careful strategy sizing."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risks and potential liquidity constraints during volatile periods. The limited pair selection may restrict hedging options for complex arbitrage strategies involving OP ecosystem tokens. Starknet's rollup architecture, while efficient, adds dependency on Layer 2 infrastructure and potential withdrawal delays during network congestion. Traders should monitor the platform's growing but still nascent liquidity pools and consider position sizing relative to available market depth for both entries and exits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are OP/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and applies funding rates every hour for OP/USDT perpetuals, providing more frequent settlement opportunities compared to traditional 8-hour cycles. This allows for more responsive arbitrage strategies and better capital efficiency."
+      },
+      {
+        "question": "What are the trading fees for OP/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% for maker orders and 0.05% for taker orders on OP/USDT perpetuals, with makers actually receiving rebates. Trading operations incur zero gas fees due to the platform's off-chain matching and Starknet settlement architecture."
+      },
+      {
+        "question": "Can I use cross-margin for OP/USDT funding rate arbitrage?",
+        "answer": "Yes, RabbitX supports cross-margin trading, allowing your entire account balance to serve as collateral for OP/USDT positions. This improves capital efficiency for funding rate strategies and enables simultaneous arbitrage across multiple perpetual pairs."
+      },
+      {
+        "question": "What risks should I consider when trading OP perpetuals on RabbitX?",
+        "answer": "Key risks include RabbitX's early-stage protocol status, potential smart contract vulnerabilities, and limited liquidity compared to established centralized exchanges. Additionally, Starknet's Layer 2 dependency may affect withdrawal timing during network congestion periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "eth-usdt",
+    "sei-usdt",
+    "link-usdt",
+    "ton-usdt",
+    "ethfi-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ena-usdt",
+    "base": "ENA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ENA/USDT Funding Rates on RabbitX - DeFi Perp Arbitrage",
+    "description": "Track ENA/USDT perpetual funding rates on RabbitX DEX. Hourly funding with zero gas fees and cross-margin support for efficient DeFi arbitrage strategies.",
+    "keywords": [
+      "ENA funding rates",
+      "RabbitX perpetuals",
+      "DeFi arbitrage",
+      "Starknet trading",
+      "ENA perpetual futures",
+      "zero gas trading",
+      "hourly funding",
+      "cross-margin trading"
+    ]
+  },
+  "content": {
+    "intro": "ENA/USDT perpetuals on RabbitX offer unique arbitrage opportunities through the platform's Starknet-based architecture and hourly funding settlements. The zero gas fee structure makes this pair particularly attractive for high-frequency funding rate strategies that would be cost-prohibitive on traditional Layer 1 exchanges.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a time-weighted average price mechanism between the perpetual contract and underlying spot price. The Starknet settlement layer enables instantaneous funding payments without gas costs, while the off-chain matching engine provides precise rate calculations. Cross-margin functionality allows traders to optimize capital efficiency across multiple positions, making funding rate collection more capital-efficient than isolated margin systems.",
+    "why_this_pair": "ENA as a DeFi governance token exhibits significant funding rate volatility due to its correlation with broader DeFi sentiment and yield farming activities. The relatively mid-tier trading volume creates opportunities for funding rate inefficiencies, while the token's utility in the Ethena ecosystem drives sustained trading interest and consistent funding rate generation.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ENA/USDT funding rates on RabbitX typically range from -0.05% to 0.15% in normal market conditions, with extreme spikes reaching ±0.5% during DeFi market volatility. The hourly settlement creates more granular opportunities compared to 8-hour cycles on centralized exchanges. Funding rates tend to correlate strongly with USDe yield fluctuations and broader DeFi token performance. Weekend periods often show reduced funding rate volatility due to lower institutional trading activity. The token's relatively recent launch means historical data is limited, but patterns suggest funding rates are more volatile than established DeFi tokens like AAVE or UNI."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fee structure enables profitable arbitrage on smaller funding rate differentials that would be unprofitable on Ethereum mainnet. Cross-margin functionality allows traders to simultaneously hold long ENA perpetuals while shorting on other exchanges to capture funding rate spreads. The hourly funding cycle provides more frequent arbitrage opportunities compared to traditional 8-hour cycles. Traders can exploit temporary funding rate spikes during DeFi news events or protocol updates affecting the Ethena ecosystem. The DEX's early-stage nature may create temporary inefficiencies as market makers establish optimal pricing algorithms."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's limited liquidity compared to major centralized exchanges can lead to significant slippage during position unwinding, especially for larger arbitrage sizes. The early-stage protocol carries smart contract risks and potential technical issues that could affect position management. Cross-margin positions amplify liquidation risks if ENA experiences sharp price movements correlated with funding rate spikes. The small user base means funding rates may not always reflect broader market sentiment accurately. Traders should monitor Starknet network stability and maintain exit strategies for potential technical disruptions affecting the trading infrastructure."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does RabbitX settle funding payments for ENA/USDT?",
+        "answer": "RabbitX settles funding payments every hour for all perpetual contracts including ENA/USDT. This more frequent settlement compared to 8-hour cycles on most exchanges provides additional arbitrage opportunities and more granular funding rate exposure."
+      },
+      {
+        "question": "What are the typical gas costs for funding rate arbitrage on RabbitX?",
+        "answer": "RabbitX operates with zero gas fees for trading activities thanks to its Starknet architecture. This eliminates the gas cost barrier that often makes small funding rate arbitrage unprofitable on Ethereum-based exchanges, enabling strategies on smaller rate differentials."
+      },
+      {
+        "question": "Can I use cross-margin for ENA/USDT funding rate strategies on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin functionality which allows you to use collateral across multiple positions including ENA/USDT. This enables more capital-efficient funding rate strategies where you can simultaneously manage multiple perpetual positions with shared collateral."
+      },
+      {
+        "question": "What is the minimum position size for ENA/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX typically allows small minimum position sizes suitable for retail traders, though exact minimums may vary based on current liquidity. The zero gas fee structure makes even small positions viable for funding rate strategies that would be unprofitable on high-fee platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "aave-usdt",
+    "mkr-usdt",
+    "meme-usdt",
+    "btc-usdt"
+  ]
+}

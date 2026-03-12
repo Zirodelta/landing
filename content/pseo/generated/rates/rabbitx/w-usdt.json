@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "w-usdt",
+    "base": "W",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX W/USDT Funding Rates - Arbitrage Trading Guide",
+    "description": "Track W/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, cross-margin support, and zero gas fees for infrastructure token arbitrage.",
+    "keywords": [
+      "W/USDT funding rate",
+      "RabbitX arbitrage",
+      "Wormhole perpetual futures",
+      "DEX funding rates",
+      "Starknet trading",
+      "cross-margin arbitrage",
+      "hourly funding",
+      "infrastructure token rates"
+    ]
+  },
+  "content": {
+    "intro": "W/USDT perpetual futures on RabbitX offer unique funding rate opportunities for the Wormhole protocol token. The DEX's hourly funding settlements and cross-margin system provide distinct advantages for arbitrage strategies involving infrastructure tokens.",
+    "how_funding_works": "RabbitX calculates W/USDT funding rates hourly using its off-chain matching engine with Starknet settlement. The funding payment occurs between long and short positions based on the rate differential between perpetual and spot prices. Cross-margin support allows traders to efficiently manage multiple positions while zero gas fees eliminate transaction costs that typically eat into funding rate profits. The fast execution engine ensures minimal slippage when entering or exiting arbitrage positions.",
+    "why_this_pair": "W token's role as critical bridge infrastructure creates periodic funding rate imbalances, especially during cross-chain activity surges. The relatively small trading volume on RabbitX can amplify these rate movements, creating more pronounced arbitrage opportunities compared to larger exchanges. Infrastructure tokens like W often exhibit unique funding patterns tied to protocol usage rather than pure speculation.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "W/USDT funding rates on RabbitX typically range from -0.1% to +0.3% hourly, with infrastructure-driven volatility creating distinct patterns. During major bridge activity or cross-chain events, rates can spike above 1% annually as demand for long exposure increases. The hourly settlement frequency means rate changes occur more rapidly than traditional 8-hour cycles, requiring active monitoring. Negative rates often persist during market downturns when short interest dominates, creating opportunities for long-biased arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's cross-margin system enables efficient W/USDT funding rate arbitrage by allowing traders to hedge positions across multiple pairs simultaneously. Zero gas fees make small, frequent arbitrage trades profitable that would be uneconomical on other DEX platforms. The early-stage protocol status means fewer sophisticated arbitrageurs, potentially leaving rate inefficiencies unexploited for longer periods. Fast execution speeds allow for precise entry and exit timing to capture optimal funding payments before rate corrections."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Limited W/USDT liquidity on RabbitX increases slippage risk during position entry and exit, particularly for larger arbitrage sizes. The small user base means potential for sudden liquidity disappearance during volatile periods, trapping arbitrage positions. Early-stage protocol risks include smart contract vulnerabilities and potential changes to funding rate mechanisms as the platform evolves. Infrastructure token exposure adds correlation risk to broader DeFi ecosystem performance, which can override pure funding rate considerations during systemic events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are W/USDT funding rates updated on RabbitX?",
+        "answer": "RabbitX updates W/USDT funding rates every hour, providing more frequent settlement opportunities compared to traditional 8-hour cycles. The rates are calculated using the platform's off-chain matching engine and settled on Starknet."
+      },
+      {
+        "question": "What are the trading fees for W/USDT arbitrage on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for W/USDT trading, with zero gas costs due to the Starknet architecture. This fee structure makes frequent arbitrage trades more profitable than gas-heavy alternatives."
+      },
+      {
+        "question": "Can I use cross-margin for W/USDT funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin trading which allows you to hedge W/USDT positions against other pairs in your portfolio. This feature is particularly useful for managing risk while capturing funding rate opportunities across multiple infrastructure tokens."
+      },
+      {
+        "question": "What is the typical liquidity depth for W/USDT on RabbitX?",
+        "answer": "W/USDT maintains moderate liquidity depth on RabbitX, suitable for small to medium-sized arbitrage positions. However, the limited user base means liquidity can vary significantly during volatile periods, requiring careful position sizing for larger strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "link-usdt",
+    "meme-usdt",
+    "doge-usdt",
+    "pepe-usdt"
+  ]
+}

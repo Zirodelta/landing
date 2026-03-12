@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "sol-usdt",
+    "base": "SOL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SOL/USDT Funding Rates on RabbitX - Arbitrage Analysis",
+    "description": "Track SOL/USDT funding rates on RabbitX DEX. Hourly funding settlements, Starknet-powered execution, and cross-margin arbitrage opportunities for Solana traders.",
+    "keywords": [
+      "RabbitX funding rates",
+      "SOL USDT perpetuals",
+      "Starknet DEX arbitrage",
+      "SOL funding rate",
+      "decentralized perp trading",
+      "Solana funding arbitrage",
+      "cross-margin SOL trading",
+      "hourly funding settlement"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers SOL/USDT perpetual futures with hourly funding rate settlements on Starknet infrastructure. The platform's off-chain matching engine provides fast execution for SOL funding rate arbitrage while maintaining decentralized settlement. Zero gas trading costs make small-scale arbitrage strategies viable on this emerging DEX.",
+    "how_funding_works": "RabbitX calculates SOL/USDT funding rates every hour using a premium/discount mechanism relative to spot SOL prices. The platform's Starknet integration enables gas-free position adjustments, allowing traders to respond quickly to funding rate changes. Cross-margin functionality lets arbitrageurs optimize capital efficiency by using SOL positions as collateral for other trades. Settlement occurs on-chain through Starknet's validity proofs, ensuring transparent funding rate distributions.",
+    "why_this_pair": "SOL/USDT attracts significant funding rate volatility due to Solana's active ecosystem and retail trading patterns. The pair's mega trading volume provides liquidity depth for substantial arbitrage positions without excessive slippage. RabbitX's hourly funding frequency creates more arbitrage opportunities compared to 8-hour cycles on traditional exchanges.",
+    "sections": [
+      {
+        "heading": "SOL Funding Rate Historical Patterns",
+        "body": "SOL/USDT funding rates on RabbitX typically range from -0.01% to 0.03% hourly during normal market conditions. Ecosystem events like Solana hackathons, major DeFi protocol launches, or network upgrades often push rates above 0.05% as retail traders increase long exposure. Negative funding periods frequently occur during broader crypto corrections when SOL faces selling pressure. The hourly settlement means daily funding can accumulate to 0.5-1.2% during trending periods. RabbitX's early-stage user base can create funding rate outliers compared to established exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities on RabbitX",
+        "body": "RabbitX's zero gas trading enables micro-arbitrage strategies where traders capture small funding differentials between SOL perpetuals across exchanges. The platform's cross-margin system allows using SOL spot holdings as collateral while shorting SOL/USDT perpetuals to capture positive funding. Fast Starknet settlements reduce the time lag between funding rate changes and position adjustments. Limited liquidity compared to major CEXs means larger arbitrage opportunities exist but with higher execution risk. Early adopters benefit from less competition for funding rate arbitrage strategies."
+      },
+      {
+        "heading": "Risk Considerations for SOL Trading",
+        "body": "RabbitX's early-stage protocol carries smart contract risks and potential liquidity constraints during volatile SOL price movements. The platform's smaller user base means funding rates can be less efficient compared to established exchanges, creating both opportunities and risks. SOL's correlation with broader Solana ecosystem events adds fundamental risk beyond pure funding rate considerations. Cross-margin positions require careful monitoring as SOL price volatility affects collateral requirements. Limited trading pairs on RabbitX means reduced hedging options compared to full-service exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are SOL/USDT funding rates calculated on RabbitX?",
+        "answer": "RabbitX calculates and settles SOL/USDT funding rates every hour, providing 24 funding events per day. This high frequency creates more arbitrage opportunities compared to the standard 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "Can I use SOL tokens as collateral for perpetual trading on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin functionality allowing SOL tokens to serve as collateral for SOL/USDT perpetual positions. This enables strategies like holding spot SOL while shorting SOL perpetuals to capture positive funding rates without additional capital requirements."
+      },
+      {
+        "question": "What are the trading fees for SOL/USDT arbitrage strategies?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for SOL/USDT perpetuals, with zero gas costs due to Starknet infrastructure. The absence of gas fees makes frequent rebalancing viable for funding rate arbitrage strategies that require multiple position adjustments."
+      },
+      {
+        "question": "How does RabbitX's liquidity compare for SOL perpetuals?",
+        "answer": "RabbitX has growing but limited liquidity for SOL/USDT compared to major exchanges like Binance or OKX. While this creates larger funding rate arbitrage opportunities, it also means higher slippage for substantial position sizes and potential execution difficulties during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "jup-usdt",
+    "fet-usdt",
+    "btc-usdt",
+    "eth-usdt"
+  ]
+}

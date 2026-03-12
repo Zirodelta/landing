@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on RabbitX - Arbitrage Guide",
+    "description": "Track TIA/USDT funding rates on RabbitX DEX. 1-hour funding cycles, zero gas fees, and cross-margin support for efficient arbitrage strategies.",
+    "keywords": [
+      "TIA funding rate",
+      "RabbitX arbitrage",
+      "Celestia perpetual",
+      "DEX funding",
+      "Starknet trading",
+      "TIA futures",
+      "perp arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetuals on RabbitX offer unique arbitrage opportunities through the platform's 1-hour funding cycles and zero gas fee structure. As a Starknet-based DEX with off-chain matching, RabbitX provides fast execution for funding rate strategies on Celestia's native token.",
+    "how_funding_works": "RabbitX calculates funding rates hourly based on the premium between TIA perpetual and spot prices across integrated price feeds. The platform's Starknet settlement ensures funding payments are processed efficiently without gas costs for traders. Cross-margin support allows traders to optimize capital allocation across multiple positions while maintaining funding rate exposure.",
+    "why_this_pair": "TIA perpetuals exhibit significant funding rate volatility due to Celestia's infrastructure narrative and modular blockchain adoption cycles. The token's correlation with broader infrastructure plays and staking dynamics creates predictable funding patterns during network upgrades and ecosystem developments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TIA funding rates on RabbitX have shown strong positive bias during Celestia ecosystem announcements and modular blockchain adoption waves. The 1-hour funding frequency captures intraday sentiment shifts more granularly than 8-hour cycles on centralized exchanges. Rates typically range from -0.05% to +0.15% during normal conditions, with spikes above +0.3% during major ecosystem developments or staking reward adjustments."
+      },
+      {
+        "heading": "Cross-DEX Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fee structure creates favorable conditions for funding rate arbitrage against CEX platforms like Binance and OKX. The 1-hour funding cycle allows for more frequent position adjustments compared to traditional 8-hour cycles. Traders can exploit funding rate differentials by maintaining opposite positions on RabbitX and centralized exchanges, capturing the spread while hedging directional exposure."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "RabbitX's smaller user base can lead to reduced liquidity during volatile periods, potentially impacting large arbitrage positions. The platform's early-stage nature requires careful monitoring of smart contract risks and potential protocol updates. Cross-margin functionality, while beneficial for capital efficiency, requires proper risk controls to prevent cascading liquidations across multiple TIA positions during funding rate convergence events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does TIA funding work on RabbitX compared to centralized exchanges?",
+        "answer": "RabbitX uses 1-hour funding intervals versus the standard 8-hour cycles on most CEXs. This creates more opportunities to capture funding rate changes but requires active monitoring. The zero gas fee structure makes frequent position adjustments economically viable."
+      },
+      {
+        "question": "What are typical TIA funding rates on RabbitX?",
+        "answer": "TIA funding rates typically range from -0.05% to +0.15% during normal market conditions. During Celestia ecosystem events or major staking updates, rates can spike above +0.3% as speculative interest increases."
+      },
+      {
+        "question": "Can I use cross-margin for TIA funding rate strategies?",
+        "answer": "Yes, RabbitX supports cross-margin which allows efficient capital allocation across multiple TIA positions. This enables sophisticated funding rate strategies but requires careful risk management to prevent account-wide liquidations."
+      },
+      {
+        "question": "How does RabbitX's Starknet integration affect TIA trading?",
+        "answer": "Starknet settlement provides fast execution with zero gas fees for TIA trades. Off-chain order matching ensures low latency for funding rate arbitrage strategies, though the smaller user base may impact liquidity during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "atom-usdt",
+    "btc-usdt",
+    "aave-usdt",
+    "trx-usdt",
+    "ftm-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bluefin DOGE/USDT Funding Rates - Sui DEX Arbitrage",
+    "description": "Track Bluefin DOGE/USDT funding rates with hourly settlements. Analyze arbitrage opportunities on Sui's leading perpetual DEX with low 0.02% maker fees.",
+    "keywords": [
+      "Bluefin DOGE funding rates",
+      "Sui perpetual arbitrage",
+      "DOGE/USDT funding",
+      "DEX funding rates",
+      "Bluefin arbitrage",
+      "Sui DeFi rates",
+      "DOGE perp trading",
+      "crypto funding arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "Bluefin's DOGE/USDT perpetual futures on Sui blockchain offer unique funding rate arbitrage opportunities with hourly settlements and institutional-grade execution. As Sui ecosystem's leading perpetual DEX, Bluefin provides professional-level trading infrastructure for DOGE funding strategies.",
+    "how_funding_works": "Bluefin calculates funding rates hourly based on the premium between perpetual price and DOGE spot index, using a time-weighted average to prevent manipulation. Long positions pay funding when rates are positive, while short positions receive payments, with settlements processed automatically every hour on Sui's fast finality network. The exchange's order book model ensures transparent price discovery, while Sui's low gas costs make frequent funding collections economically viable even for smaller positions.",
+    "why_this_pair": "DOGE's high retail sentiment volatility creates significant funding rate fluctuations, especially during meme coin rallies when retail traders pile into leveraged longs. Bluefin's hourly funding frequency provides more opportunities to capture rate changes compared to 8-hour cycles, while the Sui ecosystem's early stage means less arbitrage competition than established venues.",
+    "sections": [
+      {
+        "heading": "DOGE Funding Rate Patterns on Bluefin",
+        "body": "DOGE funding rates on Bluefin typically spike during social media-driven rallies when retail sentiment overwhelms institutional hedging activity. Historical data shows rates can exceed 0.5% hourly during peak euphoria periods, particularly when Elon Musk tweets or broader meme coin narratives emerge. The hourly settlement cycle means these elevated rates persist for shorter durations compared to traditional exchanges, creating rapid-fire arbitrage windows. Correlation analysis reveals DOGE funding often leads other meme tokens by 2-4 hours, providing cross-asset arbitrage signals."
+      },
+      {
+        "heading": "Sui DEX Arbitrage Opportunities",
+        "body": "Bluefin's position as Sui's dominant perpetual DEX creates unique arbitrage opportunities against centralized exchanges due to isolated liquidity pools and different user bases. The professional UI attracts sophisticated traders while Sui's DeFi ecosystem brings yield farmers seeking leverage, creating funding rate divergences. Cross-chain arbitrage becomes profitable when Bluefin rates deviate significantly from Binance or OKX, though bridge costs and timing must be factored. The 0.02% maker fees and fast Sui settlements enable high-frequency funding strategies that wouldn't be economical on Ethereum-based DEXs."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Sui blockchain's early stage presents both opportunities and risks, including potential network congestion during high-activity periods that could affect funding settlements. Bluefin's limited trading pairs mean fewer hedging options compared to major centralized exchanges, requiring careful position sizing and external hedge management. Smart contract risks exist despite audits, while the exchange's lower overall volume can lead to slippage during large funding rate arbitrage positions. DOGE's notorious volatility can trigger liquidations even in supposedly neutral funding strategies if position sizing isn't conservative enough."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Bluefin settle DOGE/USDT funding rates?",
+        "answer": "Bluefin settles DOGE/USDT funding rates every hour, providing more frequent opportunities compared to the standard 8-hour cycles on most exchanges. This hourly frequency allows traders to capture shorter-term funding rate fluctuations and adjust positions more dynamically."
+      },
+      {
+        "question": "What makes DOGE funding rates volatile on Sui DEXs like Bluefin?",
+        "answer": "DOGE's high retail trader concentration and meme coin status create extreme sentiment swings that drive funding rate volatility. On Sui DEXs, the smaller trader base and isolated liquidity can amplify these effects, while social media events trigger rapid position changes that aren't immediately arbitraged away."
+      },
+      {
+        "question": "Can I arbitrage between Bluefin and centralized exchanges?",
+        "answer": "Yes, but you'll need to account for cross-chain bridge times and costs when moving DOGE between Sui and other networks. The strategy works best when funding rate differentials exceed bridge costs plus slippage, typically during high-volatility periods when rates diverge significantly."
+      },
+      {
+        "question": "What are the main risks of funding arbitrage on Bluefin?",
+        "answer": "Key risks include Sui network congestion affecting settlement timing, smart contract vulnerabilities in early DEX protocols, and DOGE's high volatility potentially triggering liquidations. The exchange's lower volume can also create slippage issues when entering or exiting large arbitrage positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "ada-usdt",
+    "mkr-usdt",
+    "dot-usdt",
+    "link-usdt"
+  ]
+}

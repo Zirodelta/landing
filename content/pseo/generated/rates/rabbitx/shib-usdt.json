@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "shib-usdt",
+    "base": "SHIB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SHIB/USDT Funding Rate on RabbitX | Perpetual Futures",
+    "description": "Track SHIB/USDT funding rates on RabbitX DEX. Hourly settlements, zero gas fees, and cross-margin trading for meme coin perpetual futures arbitrage.",
+    "keywords": [
+      "SHIB funding rate",
+      "RabbitX perpetual futures",
+      "meme coin arbitrage",
+      "SHIB USDT",
+      "Starknet DEX",
+      "hourly funding settlement",
+      "zero gas trading",
+      "cross-margin SHIB"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers SHIB/USDT perpetual futures with hourly funding rate settlements and zero gas trading on Starknet. The exchange's off-chain matching engine provides fast execution for high-volume meme coin trading.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using mark price divergence from spot indices, with payments exchanged between long and short positions at each settlement. The platform's Starknet integration enables gas-free position adjustments while maintaining decentralized settlement. Cross-margin support allows efficient capital utilization across SHIB positions and other pairs.",
+    "why_this_pair": "SHIB/USDT generates significant funding rate volatility due to retail sentiment swings and large trading volumes across meme coin cycles. The pair's high leverage demand creates frequent arbitrage opportunities between RabbitX and CEX platforms.",
+    "sections": [
+      {
+        "heading": "Historical SHIB Funding Rate Patterns",
+        "body": "SHIB funding rates on RabbitX typically swing between -0.05% to +0.15% during normal market conditions, with extreme spikes reaching ±0.5% during viral social media events. The hourly settlement frequency helps capture rapid sentiment shifts common in meme coin trading. Historical data shows strongest positive funding during Elon Musk tweets or major exchange listings, while negative rates often coincide with broader crypto market corrections. The pair exhibits higher funding volatility than major altcoins due to retail-heavy positioning."
+      },
+      {
+        "heading": "Arbitrage Opportunities with Zero Gas Costs",
+        "body": "RabbitX's zero gas structure creates unique arbitrage advantages for SHIB funding rate trading compared to Ethereum-based competitors. Traders can rapidly adjust positions without worrying about network congestion costs that plague other DEX platforms. The 0.02%/0.05% maker/taker fee structure often allows profitable arbitrage when funding rate differentials exceed 0.1% compared to Binance or OKX. Cross-margin functionality enables sophisticated strategies combining SHIB positions with correlated meme coins like BONK or PEPE."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "SHIB's extreme price volatility can trigger rapid liquidations even with favorable funding rates, requiring careful position sizing on RabbitX's cross-margin system. The platform's early-stage nature means lower liquidity during high volatility periods, potentially impacting large position exits. Smart contract risks exist despite Starknet's security features, and the limited user base can create temporary funding rate distortions. Traders should monitor spot-perp basis closely as SHIB's high correlation with broader meme coin sentiment can cause rapid reversals."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does RabbitX's hourly SHIB funding settlement compare to 8-hour cycles?",
+        "answer": "RabbitX's 1-hour funding cycles allow more responsive arbitrage opportunities for SHIB's volatile sentiment swings. This shorter cycle helps capture rapid funding rate changes that 8-hour settlements on traditional exchanges might miss during viral meme coin events."
+      },
+      {
+        "question": "What are the main risks of SHIB funding arbitrage on a DEX like RabbitX?",
+        "answer": "Key risks include smart contract vulnerabilities, lower liquidity during market stress, and the platform's early development stage. SHIB's extreme volatility can also cause rapid liquidations that override funding rate profits."
+      },
+      {
+        "question": "Can I use cross-margin for SHIB positions on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin trading allowing you to use collateral from other positions to maintain SHIB trades. This is particularly useful for funding rate strategies that require position adjustments based on market sentiment shifts."
+      },
+      {
+        "question": "How reliable is SHIB funding rate data on RabbitX compared to major CEX platforms?",
+        "answer": "RabbitX funding rates generally track major exchanges but can show temporary deviations due to lower trading volumes. The hourly settlement provides more granular data points, though extreme rates should be verified against Binance or OKX for accuracy."
+      }
+    ]
+  },
+  "related_pairs": [
+    "bnb-usdt",
+    "apt-usdt",
+    "near-usdt",
+    "bonk-usdt",
+    "atom-usdt"
+  ]
+}

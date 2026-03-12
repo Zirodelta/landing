@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "arb-usdt",
+    "base": "ARB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bluefin ARB/USDT Funding Rate - DEX Perpetual Trading",
+    "description": "Track ARB/USDT funding rates on Bluefin DEX. Hourly settlements, Sui-based perpetual futures with institutional-grade matching engine for arbitrage.",
+    "keywords": [
+      "bluefin arb funding rate",
+      "arb usdt perpetual",
+      "sui dex funding",
+      "arbitrum funding rate",
+      "dex arbitrage",
+      "bluefin perpetuals",
+      "arb perp trading",
+      "sui ecosystem funding"
+    ]
+  },
+  "content": {
+    "intro": "Bluefin's ARB/USDT perpetual contract offers hourly funding rate settlements on Sui's high-performance blockchain. As the leading perpetual DEX in the Sui ecosystem, Bluefin provides institutional-grade order book matching for Arbitrum token trading with competitive 0.02%/0.05% maker/taker fees.",
+    "how_funding_works": "Bluefin calculates funding rates hourly using an 8-hour TWAP (Time Weighted Average Price) mechanism that compares the perpetual contract price to the ARB spot price index. The funding rate is capped at ±0.75% per hour to prevent extreme scenarios. Payments are exchanged directly between long and short position holders at each hourly settlement, with the exchange taking no cut of funding payments. Sui's fast finality enables near-instant funding settlements compared to other blockchain-based perpetual exchanges.",
+    "why_this_pair": "ARB/USDT on Bluefin attracts significant funding rate arbitrage interest due to Arbitrum's role as a major L2 scaling solution and the pair's substantial trading volume. The hourly settlement frequency creates more opportunities for arbitrage compared to 8-hour cycles on centralized exchanges. Bluefin's position as the dominant Sui DEX means ARB funding rates often diverge from rates on other platforms, creating cross-platform arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ARB/USDT funding rates on Bluefin have historically ranged from -0.1% to +0.3% hourly during normal market conditions, with extreme rates reaching the ±0.75% caps during high volatility periods. The pair typically shows positive funding rates during Arbitrum ecosystem announcements and negative rates during broader market downturns. Bluefin's hourly settlements often show more frequent rate changes compared to 8-hour cycles, with rates oscillating around the daily average. Weekend periods generally show lower absolute funding rates due to reduced trading activity in the Sui ecosystem."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-platform arbitrage opportunities frequently emerge between Bluefin's hourly ARB funding rates and 8-hour rates on centralized exchanges like Binance and OKX. The Sui blockchain's fast transaction finality enables rapid position adjustments within the hour-long funding periods. Bluefin's relatively lower liquidity compared to tier-1 CEXs can cause funding rate premiums during high demand periods. Arbitrageurs can exploit the time lag between Bluefin's hourly settlements and traditional exchanges' 8-hour cycles, particularly during trending market conditions. The DEX structure eliminates counterparty risk but requires managing bridge delays when moving capital between Sui and other ecosystems."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Bluefin's early-stage ecosystem presents liquidity risks during volatile periods, with potential for significant slippage on large positions. Sui blockchain dependency means network upgrades or outages directly impact trading and funding settlements. The limited number of trading pairs compared to established exchanges can create concentration risk for diversified arbitrage strategies. Bridge risks exist when moving capital between Sui and other blockchains for cross-platform arbitrage. While Bluefin offers professional-grade infrastructure, the DEX model requires users to manage their own wallet security and transaction signing for all funding settlements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ARB funding rates settled on Bluefin?",
+        "answer": "Bluefin settles ARB/USDT funding rates every hour, providing more frequent arbitrage opportunities compared to the standard 8-hour cycles used by most centralized exchanges. This hourly settlement is enabled by Sui's fast blockchain finality."
+      },
+      {
+        "question": "What are the funding rate caps for ARB/USDT on Bluefin?",
+        "answer": "Bluefin caps funding rates at ±0.75% per hour for ARB/USDT to prevent extreme funding scenarios. This translates to a maximum daily funding rate of approximately ±18% under continuous extreme conditions, though such scenarios are rare in practice."
+      },
+      {
+        "question": "Can I withdraw ARB tokens directly from Bluefin positions?",
+        "answer": "No, Bluefin ARB/USDT is a cash-settled perpetual contract denominated in USDT. All profits and losses are settled in USDT, and you cannot take delivery of actual ARB tokens. Physical ARB must be acquired through spot markets or bridges to Sui."
+      },
+      {
+        "question": "How does Bluefin's ARB funding compare to centralized exchanges?",
+        "answer": "Bluefin's hourly settlements often create different funding dynamics compared to 8-hour cycles on CEXs. Rates may be more volatile but also create more frequent arbitrage opportunities. The Sui ecosystem's smaller size can lead to rate divergences from major exchanges during low liquidity periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "jto-usdt",
+    "dot-usdt",
+    "ordi-usdt",
+    "wif-usdt"
+  ]
+}

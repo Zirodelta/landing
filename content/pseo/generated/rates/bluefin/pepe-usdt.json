@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "PEPE/USDT Funding Rates on Bluefin DEX - Sui Perpetuals",
+    "description": "Trade PEPE/USDT perpetual futures on Bluefin DEX with hourly funding rates. Sui-based order book DEX with institutional-grade matching engine.",
+    "keywords": [
+      "bluefin dex",
+      "pepe usdt funding rates",
+      "sui perpetual futures",
+      "meme coin arbitrage",
+      "dex funding rates",
+      "pepe perpetuals",
+      "sui defi",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "PEPE/USDT perpetual futures on Bluefin DEX offer hourly funding rate settlements on Sui blockchain infrastructure. As Sui's leading perpetual exchange, Bluefin provides institutional-grade order book matching for meme coin derivatives trading.",
+    "how_funding_works": "Bluefin calculates funding rates hourly using mark price divergence from spot indexes, with payments exchanged directly between long and short position holders. The DEX's on-chain settlement ensures transparent funding calculations without centralized custody risks. Funding rates are displayed in real-time through Bluefin's professional trading interface, with automatic position adjustments every hour.",
+    "why_this_pair": "PEPE's high volatility and retail trading interest create frequent funding rate imbalances, particularly during meme coin hype cycles. The pair's large trading volume on Bluefin makes it suitable for funding rate arbitrage strategies despite the DEX's relatively early stage.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on Bluefin typically range from -0.1% to 0.3% during normal market conditions, with extreme spikes during viral social media events. Positive funding dominates during meme coin rallies as retail traders heavily favor long positions. Weekend periods often show reduced funding volatility due to lower overall trading activity. The hourly settlement frequency creates more granular arbitrage opportunities compared to 8-hour cycles on centralized exchanges."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-DEX arbitrage between Bluefin and centralized exchanges becomes profitable when funding rate differentials exceed 0.05% after accounting for transaction costs. Sui's fast finality enables rapid position adjustments for funding rate capture strategies. The 0.02% maker fee structure supports high-frequency funding arbitrage when combined with fee rebates. Arbitrageurs should monitor Bluefin's relatively lower liquidity, which can cause temporary price premiums during high volatility periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Sui ecosystem risks include potential network congestion during high activity periods and smart contract vulnerabilities inherent to newer blockchain infrastructure. Bluefin's order book model requires sufficient market depth for large position entries without significant slippage. PEPE's meme coin nature introduces extreme volatility risks that can overwhelm funding rate profits during adverse price movements. Limited trading pairs on Bluefin may constrain hedging options compared to established centralized exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE/USDT funding rates settled on Bluefin?",
+        "answer": "Funding rates are calculated and settled every hour on Bluefin DEX. This hourly frequency provides more frequent arbitrage opportunities compared to the typical 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What are the trading fees for PEPE/USDT perpetuals on Bluefin?",
+        "answer": "Bluefin charges 0.02% maker fees and 0.05% taker fees for PEPE/USDT perpetual futures. These competitive rates support funding rate arbitrage strategies, especially when qualifying for maker rebates through limit orders."
+      },
+      {
+        "question": "Can I withdraw funds immediately after funding settlements on Bluefin?",
+        "answer": "Yes, Sui's fast finality enables near-instant fund withdrawals after funding settlements on Bluefin DEX. This quick settlement capability is advantageous for arbitrage strategies requiring rapid capital redeployment across multiple exchanges."
+      },
+      {
+        "question": "How does Bluefin's order book model affect PEPE funding rates?",
+        "answer": "Bluefin's order book model provides transparent price discovery for PEPE perpetuals, but lower liquidity compared to CEX alternatives can create temporary funding rate premiums. The institutional-grade matching engine ensures fair execution during high-volume periods when funding imbalances occur."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "btc-usdt",
+    "ordi-usdt",
+    "ton-usdt",
+    "apt-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "mkr-usdt",
+    "base": "MKR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MKR/USDT Funding Rates on RabbitX - Perp Trading",
+    "description": "Track MKR/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, zero gas trading, and cross-margin support for efficient arbitrage.",
+    "keywords": [
+      "MKR funding rates",
+      "RabbitX perpetuals",
+      "Starknet DEX",
+      "MakerDAO futures",
+      "DeFi perp trading",
+      "funding rate arbitrage",
+      "MKR USDT",
+      "cross-margin trading"
+    ]
+  },
+  "content": {
+    "intro": "MKR/USDT perpetual futures on RabbitX offer unique arbitrage opportunities with hourly funding rate settlements on Starknet. The combination of MakerDAO's governance token volatility and RabbitX's zero gas fee structure creates compelling conditions for funding rate strategies.",
+    "how_funding_works": "RabbitX calculates MKR/USDT funding rates hourly using a premium index based on the perpetual-spot price differential. Funding payments are exchanged directly between long and short positions without affecting the protocol's treasury. The Starknet-based settlement ensures instant execution while off-chain matching provides competitive rates. Cross-margin functionality allows traders to optimize capital efficiency across multiple positions.",
+    "why_this_pair": "MKR exhibits pronounced funding rate volatility due to governance events, protocol updates, and DeFi sector sentiment shifts. The token's mid-tier volume on RabbitX creates opportunities for savvy arbitrageurs to capitalize on rate imbalances. MKR's correlation with broader DeFi trends often generates predictable funding patterns during protocol announcements or governance proposals.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MKR funding rates on RabbitX typically range from -0.5% to +0.8% annually, with significant spikes during governance events. Rate volatility peaks around quarterly governance cycles when MKR holders vote on protocol parameters. The hourly settlement frequency captures short-term rate movements more effectively than 8-hour systems. Historical data shows negative rates often persist for 24-48 hours during bearish DeFi sentiment, creating consistent arbitrage windows."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's zero gas fee structure enables high-frequency funding rate strategies that would be unprofitable on other platforms. The most effective approach involves monitoring rate divergences between RabbitX and major CEXs like Binance or OKX. Cross-margin functionality allows simultaneous long/short positions to hedge directional risk while capturing rate differentials. Optimal position sizing typically ranges from 0.1-0.5 BTC equivalent to balance impact and opportunity."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "MKR's governance-driven volatility requires careful position monitoring during proposal voting periods. RabbitX's early-stage status introduces counterparty risk despite Starknet's security guarantees. Limited liquidity compared to tier-1 exchanges can cause slippage during large position adjustments. Traders should implement stop-losses at 2-3% to protect against adverse funding rate reversals and maintain reserve capital for unexpected rate spikes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are MKR funding rates settled on RabbitX?",
+        "answer": "MKR/USDT funding rates settle every hour on RabbitX, providing more frequent arbitrage opportunities compared to the standard 8-hour cycles used by most exchanges. This hourly frequency allows for more precise rate capture strategies."
+      },
+      {
+        "question": "What makes MKR funding rates unique on Starknet?",
+        "answer": "RabbitX leverages Starknet's zero gas environment to eliminate transaction costs from funding rate strategies. The Layer 2 settlement provides instant execution while maintaining Ethereum's security, making micro-arbitrage strategies economically viable."
+      },
+      {
+        "question": "Can I use cross-margin for MKR funding rate arbitrage?",
+        "answer": "Yes, RabbitX supports cross-margin trading for MKR perpetuals, allowing you to hedge directional exposure while capturing funding rate differentials. This feature is essential for delta-neutral arbitrage strategies."
+      },
+      {
+        "question": "What's the typical funding rate range for MKR/USDT?",
+        "answer": "MKR funding rates on RabbitX typically fluctuate between -0.5% and +0.8% annually, with occasional spikes during governance events or major DeFi developments. Rates tend to be more volatile than major cryptocurrencies due to MKR's governance utility."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pyth-usdt",
+    "apt-usdt",
+    "bonk-usdt",
+    "ethfi-usdt",
+    "avax-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "aave-usdt",
+    "base": "AAVE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AAVE/USDT Funding Rates on Bluefin | Live Arbitrage Data",
+    "description": "Track AAVE/USDT perpetual funding rates on Bluefin DEX. Hourly settlements, Sui-based infrastructure, professional order book matching for DeFi arbitrage.",
+    "keywords": [
+      "AAVE funding rates",
+      "Bluefin DEX",
+      "Sui perpetuals",
+      "DeFi arbitrage",
+      "AAVE perpetual futures",
+      "hourly funding",
+      "order book DEX",
+      "Bluefin trading"
+    ]
+  },
+  "content": {
+    "intro": "AAVE/USDT perpetual futures on Bluefin offer hourly funding rate settlements on Sui's high-performance blockchain infrastructure. As a leading DeFi governance token, AAVE demonstrates significant funding rate volatility during protocol upgrades and market stress periods.",
+    "how_funding_works": "Bluefin calculates funding rates every hour using a premium-based mechanism that compares perpetual prices to spot indices. The exchange's institutional-grade matching engine processes funding payments automatically through Sui's fast finality, typically settling within 2-3 seconds. Long positions pay shorts when funding is positive, with rates capped at ±0.75% to prevent extreme scenarios. Bluefin's order book model ensures transparent price discovery compared to AMM-based perpetual protocols.",
+    "why_this_pair": "AAVE perpetuals exhibit elevated funding rate premiums during DeFi market cycles, governance proposals, and institutional adoption phases. The token's correlation with broader DeFi trends creates predictable funding patterns, particularly around protocol v3 developments and lending market expansions.",
+    "sections": [
+      {
+        "heading": "Historical AAVE Funding Rate Patterns",
+        "body": "AAVE funding rates on Bluefin typically range from -0.1% to +0.3% hourly during normal market conditions. During DeFi summer periods and major protocol announcements, rates can spike above 0.5% as retail traders take leveraged long positions. The token shows strong correlation with ETH funding rates but often trades at 20-40% higher premiums due to its smaller market cap. Weekend sessions frequently see negative funding as institutional traders reduce DeFi exposure, creating consistent arbitrage opportunities for patient traders."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "AAVE funding arbitrage works best when Bluefin rates diverge significantly from Binance or OKX by more than 0.05% hourly. Traders can short AAVE on Bluefin while longing on centralized exchanges to capture rate differentials. Sui's fast settlement enables rapid position adjustments, though liquidity constraints may require splitting large orders across multiple funding periods. Cross-exchange arbitrage becomes most profitable during governance voting periods when AAVE exhibits high volatility and funding premiums."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "AAVE's relatively low liquidity on Bluefin creates slippage risks for positions above $50,000, requiring careful order sizing. The token's high correlation with DeFi sector rotations means funding arbitrage can quickly turn directional during market stress. Bridge risks between Sui and other ecosystems add execution complexity for cross-exchange strategies. Traders should monitor AAVE protocol governance calendars, as major proposals often trigger sustained funding rate spikes that can persist for multiple settlement periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are AAVE funding rates calculated on Bluefin?",
+        "answer": "Bluefin calculates AAVE/USDT funding rates every hour at the top of each hour UTC. Settlement occurs immediately after calculation through Sui's fast consensus mechanism, typically within 2-3 seconds of the funding timestamp."
+      },
+      {
+        "question": "What's the typical funding rate range for AAVE perpetuals?",
+        "answer": "AAVE funding rates on Bluefin typically range from -0.1% to +0.3% per hour during normal conditions. During DeFi narrative cycles or major AAVE protocol developments, rates can exceed 0.5% hourly as leveraged interest increases significantly."
+      },
+      {
+        "question": "How does Bluefin's order book model affect AAVE funding calculations?",
+        "answer": "Bluefin's order book provides transparent price discovery for AAVE funding calculations, unlike AMM-based perpetuals. The institutional matching engine ensures tighter spreads and more accurate funding rates that reflect true market sentiment rather than liquidity pool imbalances."
+      },
+      {
+        "question": "Are there minimum position sizes for AAVE funding arbitrage on Bluefin?",
+        "answer": "Bluefin doesn't enforce minimum position sizes, but effective funding arbitrage typically requires positions above $5,000 due to gas costs and spread impacts. Positions above $50,000 may experience slippage in AAVE markets given the current liquidity depth on Sui ecosystem."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "btc-usdt",
+    "pendle-usdt",
+    "trx-usdt",
+    "dot-usdt"
+  ]
+}

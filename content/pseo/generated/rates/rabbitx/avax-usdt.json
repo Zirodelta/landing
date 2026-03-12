@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "avax-usdt",
+    "base": "AVAX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "AVAX/USDT Funding Rate on RabbitX - DEX Arbitrage Guide",
+    "description": "Track AVAX/USDT perpetual funding rates on RabbitX DEX. Hourly settlements, zero gas trading, and cross-margin support for funding rate arbitrage strategies.",
+    "keywords": [
+      "AVAX funding rate",
+      "RabbitX DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "Starknet",
+      "AVAX perpetual",
+      "cross-margin",
+      "hourly funding"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers AVAX/USDT perpetual futures with hourly funding rate settlements on Starknet infrastructure. The DEX provides zero gas trading with off-chain matching and on-chain settlement, making it cost-effective for frequent funding rate arbitrage operations.",
+    "how_funding_works": "AVAX funding rates on RabbitX settle every hour based on the 8-hour time-weighted average premium between perpetual and mark prices. The exchange uses cross-margin positions allowing traders to utilize full account balance for funding strategies. Settlement occurs on Starknet with zero gas costs for position adjustments, while the off-chain matching engine provides fast execution for rate-sensitive trades.",
+    "why_this_pair": "AVAX exhibits significant funding rate volatility due to its role as a Layer 1 blockchain with active DeFi ecosystem usage patterns. The token's price movements often correlate with broader DeFi sentiment and subnet activity, creating frequent funding rate imbalances that arbitrageurs can exploit through RabbitX's low-cost structure.",
+    "sections": [
+      {
+        "heading": "Historical AVAX Funding Rate Patterns",
+        "body": "AVAX funding rates on RabbitX typically range from -0.5% to +1.2% annually, with elevated rates during subnet launches and major ecosystem updates. The hourly settlement mechanism captures shorter-term imbalances compared to 8-hour systems. Funding rates often spike during AVAX staking rewards distributions and major partnership announcements. Weekend periods frequently show negative rates as retail sentiment cools, creating consistent arbitrage windows for professional traders."
+      },
+      {
+        "heading": "RabbitX Arbitrage Opportunities",
+        "body": "Zero gas trading on RabbitX enables micro-arbitrage strategies impossible on Ethereum-based DEXs, with position adjustments costing only maker/taker fees. Cross-margin functionality allows leveraged funding strategies using AVAX or USDT collateral without separate margin requirements. The platform's 0.02% maker rebate can offset negative carry positions during extended arbitrage periods. Fast Starknet settlement reduces timing risk compared to slower Layer 2 solutions."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "RabbitX's smaller user base creates lower liquidity compared to major centralized exchanges, increasing slippage risk during volatile AVAX moves. The early-stage protocol carries smart contract risks despite Starknet's security model. Limited trading pairs restrict hedging options if AVAX correlation breaks down with other assets. Position sizing should account for the exchange's growing but still limited depth, particularly during funding rate settlements when trading activity peaks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do AVAX funding rates settle on RabbitX?",
+        "answer": "AVAX funding rates settle every hour on RabbitX, providing more frequent arbitrage opportunities compared to traditional 8-hour cycles. This allows traders to capture shorter-term premium imbalances and adjust positions more responsively to market conditions."
+      },
+      {
+        "question": "What are the trading fees for AVAX funding rate strategies?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for AVAX/USDT trades, with no gas costs due to Starknet infrastructure. Maker rebates effectively reduce costs for limit order strategies commonly used in funding rate arbitrage."
+      },
+      {
+        "question": "Can I use cross-margin for AVAX funding rate positions?",
+        "answer": "Yes, RabbitX supports cross-margin trading allowing your entire account balance to back AVAX perpetual positions. This enables higher leverage for funding rate strategies while maintaining unified risk management across all positions."
+      },
+      {
+        "question": "What's the typical AVAX funding rate range on RabbitX?",
+        "answer": "AVAX funding rates typically range from -0.5% to +1.2% annually on RabbitX, with extreme rates reaching ±3% during major market events or ecosystem announcements. Hourly settlements mean these rates apply more frequently than on other platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ethfi-usdt",
+    "jto-usdt",
+    "xrp-usdt",
+    "fil-usdt",
+    "imx-usdt"
+  ]
+}

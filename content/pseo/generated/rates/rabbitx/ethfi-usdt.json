@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ethfi-usdt",
+    "base": "ETHFI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETHFI/USDT Funding Rate on RabbitX - DeFi Perp DEX",
+    "description": "Track ETHFI/USDT funding rates on RabbitX DEX. Zero gas trading with 1-hour funding intervals on Starknet-powered perpetuals exchange.",
+    "keywords": [
+      "ETHFI funding rate",
+      "RabbitX perpetuals",
+      "DeFi futures",
+      "Starknet DEX",
+      "zero gas trading",
+      "funding arbitrage",
+      "ETHFI USDT",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "ETHFI/USDT perpetual futures on RabbitX offer unique funding rate opportunities on a high-performance DEX built on Starknet. With 1-hour funding intervals and zero gas fees for trading, RabbitX provides an efficient environment for funding rate arbitrage strategies. The exchange's off-chain matching engine ensures fast execution while maintaining decentralized settlement.",
+    "how_funding_works": "RabbitX calculates funding rates every hour based on the premium between perpetual and spot prices, using a time-weighted average price methodology. Long positions pay funding when rates are positive, while short positions receive payments, with settlements occurring automatically without gas costs. The exchange's Starknet architecture enables efficient cross-margin calculations, allowing traders to optimize capital utilization across positions. Funding payments are processed instantly through the protocol's smart contract system.",
+    "why_this_pair": "ETHFI represents the governance token of ether.fi, a leading liquid staking protocol, making it susceptible to DeFi narrative-driven volatility and funding rate fluctuations. The token's relatively small trading volume on RabbitX can lead to more pronounced funding rate deviations compared to major pairs. These characteristics create potential arbitrage opportunities for traders who can efficiently manage positions across centralized and decentralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETHFI/USDT on RabbitX has exhibited volatile funding rates correlating with broader DeFi token sentiment and liquid staking adoption cycles. During periods of high DeFi activity, funding rates tend to skew positive as retail traders take leveraged long positions. The 1-hour funding frequency creates more granular rate adjustments compared to 8-hour cycles on traditional exchanges. Historical data shows funding rates ranging from -0.5% to +2.0% during significant market events, with sustained periods above +0.1% hourly during bull markets."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RabbitX's smaller user base and limited liquidity can create funding rate discrepancies compared to major centralized exchanges trading ETHFI perpetuals. The zero gas fee structure makes it economically viable to maintain hedged positions for capturing small funding rate differentials. Traders can exploit rate convergence by going long on RabbitX when rates are excessively negative while shorting on exchanges with positive rates. Cross-margin functionality allows efficient capital allocation across multiple positions to maximize funding income while maintaining market-neutral exposure."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RabbitX's early-stage protocol status introduces smart contract risks and potential liquidity constraints during volatile market conditions. The exchange's limited pair selection means fewer hedging options compared to established platforms, concentrating risk in fewer positions. Starknet's L2 architecture, while efficient, creates potential bridge risks when moving funds between layers. Traders must consider the protocol's smaller insurance fund and limited trading history when sizing positions for funding rate strategies, particularly during periods of extreme market stress."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ETHFI/USDT funding rates updated on RabbitX?",
+        "answer": "RabbitX updates funding rates every hour for all perpetual pairs including ETHFI/USDT. This more frequent settlement compared to 8-hour cycles on other exchanges allows for more responsive rate adjustments to market conditions."
+      },
+      {
+        "question": "What are the trading fees for ETHFI/USDT on RabbitX?",
+        "answer": "RabbitX charges 0.02% for maker orders and 0.05% for taker orders on ETHFI/USDT perpetuals. Additionally, there are zero gas fees for trading due to the Starknet L2 infrastructure, making frequent position adjustments more cost-effective."
+      },
+      {
+        "question": "Can I use cross-margin for ETHFI funding rate strategies on RabbitX?",
+        "answer": "Yes, RabbitX supports cross-margin trading, allowing you to use unrealized PnL from other positions as collateral for ETHFI/USDT trades. This feature is particularly useful for funding rate arbitrage strategies where you maintain multiple hedged positions across different pairs."
+      },
+      {
+        "question": "What is the minimum position size for ETHFI/USDT on RabbitX?",
+        "answer": "RabbitX typically requires minimum position sizes equivalent to approximately $10 USD value for ETHFI/USDT perpetuals. The exact minimum varies based on the current token price and may be adjusted by the protocol based on market conditions and liquidity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "link-usdt",
+    "stx-usdt",
+    "sei-usdt",
+    "jup-usdt"
+  ]
+}

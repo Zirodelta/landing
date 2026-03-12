@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RabbitX BTC/USDT Funding Rate Arbitrage | Starknet DEX",
+    "description": "Analyze BTC/USDT funding rates on RabbitX DEX with hourly settlements. Zero-gas trading on Starknet with cross-margin leverage for efficient arbitrage.",
+    "keywords": [
+      "RabbitX funding rates",
+      "BTC USDT perpetual",
+      "Starknet DEX",
+      "funding rate arbitrage",
+      "zero gas trading",
+      "cross margin",
+      "hourly funding",
+      "DEX perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "RabbitX offers BTC/USDT perpetual futures with hourly funding rate settlements on Starknet, providing zero-gas trading for efficient arbitrage execution. The platform's off-chain matching engine enables fast execution while maintaining decentralized settlement, making it attractive for funding rate strategies requiring frequent position adjustments.",
+    "how_funding_works": "RabbitX calculates funding rates hourly using a time-weighted average of the premium between the perpetual price and index price. Funding payments occur every hour, with longs paying shorts when rates are positive and vice versa when negative. The platform's cross-margin system allows traders to optimize capital efficiency across multiple positions, while zero gas fees for trading reduce the cost of frequent position adjustments required for funding rate arbitrage.",
+    "why_this_pair": "BTC/USDT on RabbitX represents the platform's highest volume pair, ensuring adequate liquidity for large arbitrage positions. The pair's status as the primary crypto trading vehicle means funding rates often diverge from other exchanges due to RabbitX's smaller user base and unique DEX mechanics, creating profitable arbitrage opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BTC/USDT funding rates on RabbitX have shown significant volatility compared to centralized exchanges, with rates frequently exceeding ±0.1% during high volatility periods. The platform's smaller user base creates opportunities for rates to deviate substantially from market consensus, particularly during major price movements. Historical data shows funding rates tend to be more extreme during Asian trading hours when DEX activity is typically higher. The hourly settlement frequency, compared to 8-hour cycles on most CEXs, allows for more granular arbitrage opportunities but requires active position management."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "RabbitX's zero-gas trading environment makes it ideal for high-frequency funding rate arbitrage, as traders can adjust positions without incurring blockchain transaction fees. The platform's cross-margin system allows traders to maintain multiple arbitrage positions simultaneously while optimizing capital efficiency. Arbitrage opportunities often arise when RabbitX rates diverge from major CEXs like Binance or Bybit, particularly during periods of high volatility or when the DEX experiences concentrated directional trading. The off-chain matching engine ensures rapid execution, though traders should monitor for potential slippage during periods of low liquidity."
+      },
+      {
+        "heading": "Risk Management and Considerations",
+        "body": "Smart contract risk represents a primary concern when trading on RabbitX, as the platform uses relatively new Starknet technology and maintains a smaller audit history compared to established exchanges. The limited user base can result in poor liquidity during market stress, potentially trapping arbitrage positions or creating significant slippage. Cross-margin positions require careful monitoring to prevent cascade liquidations, especially given the platform's newer risk management systems. Traders should also consider counterparty risk from the DEX's novel settlement mechanisms and maintain diversified exposure across multiple exchanges to mitigate platform-specific risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are funding rates calculated on RabbitX BTC/USDT?",
+        "answer": "Funding rates are calculated and settled every hour on RabbitX, providing 24 funding intervals per day compared to the standard 8-hour cycles on most centralized exchanges. This higher frequency creates more arbitrage opportunities but requires active position management."
+      },
+      {
+        "question": "What are the trading fees for BTC/USDT perpetuals on RabbitX?",
+        "answer": "RabbitX charges 0.02% maker fees and 0.05% taker fees for BTC/USDT perpetuals, with no gas fees for trading due to the Starknet implementation. This fee structure makes frequent arbitrage strategies more cost-effective compared to other DEXs."
+      },
+      {
+        "question": "How does cross-margin work for funding rate arbitrage on RabbitX?",
+        "answer": "RabbitX's cross-margin system allows traders to use their entire account balance as collateral across multiple positions, improving capital efficiency for arbitrage strategies. This enables traders to maintain hedged positions on multiple pairs while minimizing margin requirements and maximizing funding rate collection opportunities."
+      },
+      {
+        "question": "What is the maximum leverage available for BTC/USDT on RabbitX?",
+        "answer": "RabbitX offers up to 20x leverage on BTC/USDT perpetuals, which is conservative compared to some centralized exchanges but provides a good balance between capital efficiency and risk management for funding rate arbitrage strategies. The platform's risk engine actively monitors positions to prevent excessive leverage during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "meme-usdt",
+    "arb-usdt",
+    "apt-usdt",
+    "ftm-usdt"
+  ]
+}

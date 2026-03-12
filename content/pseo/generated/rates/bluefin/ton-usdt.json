@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ton-usdt",
+    "base": "TON",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Bluefin TON/USDT Funding Rate - DEX Arbitrage Guide",
+    "description": "Track TON/USDT funding rates on Bluefin DEX. Hourly funding intervals and order book model create unique arbitrage opportunities on Sui ecosystem.",
+    "keywords": [
+      "bluefin funding rate",
+      "ton usdt perpetual",
+      "sui dex arbitrage",
+      "hourly funding interval",
+      "order book trading",
+      "dex funding rate",
+      "ton arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "Bluefin's TON/USDT perpetual operates on an hourly funding mechanism, creating more frequent arbitrage windows compared to 8-hour cycles on CEXs. As the leading perpetual DEX on Sui, Bluefin's institutional-grade matching engine enables sophisticated funding rate strategies for TON positions.",
+    "how_funding_works": "Bluefin calculates funding rates hourly using a time-weighted average of the mark price premium over the index price. The exchange's order book model allows for precise position sizing without AMM slippage concerns. Funding payments are automatically debited/credited to perpetual positions every hour at the top of the hour. The rate is determined by the 8-minute time-weighted average price (TWAP) difference between the perpetual and spot price leading up to the funding time.",
+    "why_this_pair": "TON/USDT on Bluefin benefits from the token's growing DeFi ecosystem and gaming applications, often creating sustained funding rate premiums. The pair's large volume relative to other Bluefin markets provides sufficient liquidity for meaningful arbitrage positions. Hourly funding intervals allow traders to capture rate discrepancies more frequently than traditional 8-hour cycles.",
+    "sections": [
+      {
+        "heading": "TON Funding Rate Patterns",
+        "body": "TON/USDT funding rates on Bluefin typically range from -0.05% to 0.15% per hour, with spikes during major TON ecosystem announcements or gaming token launches. Historical data shows consistent positive funding during TON mainnet upgrades and DeFi protocol launches. The pair exhibits higher volatility in funding rates compared to major L1 tokens due to TON's smaller market cap and concentrated holder base. Weekly patterns show elevated rates during Asian trading hours when TON gaming activity peaks."
+      },
+      {
+        "heading": "DEX Arbitrage Opportunities",
+        "body": "Bluefin's hourly funding creates arbitrage opportunities against CEXs with 8-hour cycles, allowing traders to capture rate differentials up to 8 times more frequently. The exchange's fast Sui settlement enables rapid position adjustments between funding periods. Cross-DEX arbitrage with other Sui-based perpetual platforms can yield additional alpha when funding rates diverge. Traders can exploit the premium/discount between Bluefin's order book pricing and AMM-based competitors during volatile periods."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Sui ecosystem concentration risk affects all Bluefin positions, making network outages or validator issues particularly impactful for TON arbitrage strategies. Lower overall DEX volume compared to major CEXs can create liquidity constraints during market stress, affecting position exit strategies. Smart contract risks inherent to DEX trading require additional capital allocation for potential protocol failures. The early stage of Sui's ecosystem means fewer arbitrage counterparties and potentially wider bid-ask spreads during volatile funding periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Bluefin's hourly funding affect TON arbitrage strategies?",
+        "answer": "Hourly funding on Bluefin creates 8x more arbitrage opportunities compared to traditional 8-hour cycles. Traders can capture smaller, more frequent rate differentials and adjust positions more dynamically based on TON ecosystem events."
+      },
+      {
+        "question": "What are the main risks of TON/USDT funding arbitrage on Bluefin?",
+        "answer": "Primary risks include Sui network dependency, smart contract vulnerabilities, and lower liquidity compared to CEXs. TON's price volatility can also create significant mark-to-market losses that offset funding gains."
+      },
+      {
+        "question": "How does Bluefin's order book model impact funding rate calculations?",
+        "answer": "The order book model provides more accurate price discovery compared to AMMs, leading to funding rates that better reflect true supply/demand imbalances. This creates more predictable arbitrage opportunities with tighter spreads."
+      },
+      {
+        "question": "What makes TON/USDT particularly suitable for Bluefin funding strategies?",
+        "answer": "TON's large volume on Bluefin, combined with its gaming and DeFi ecosystem growth, creates sustained funding premiums. The token's volatility and Asian market focus align well with Bluefin's user base and trading hours."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pyth-usdt",
+    "link-usdt",
+    "ordi-usdt",
+    "w-usdt",
+    "op-usdt"
+  ]
+}

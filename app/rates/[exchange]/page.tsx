@@ -9,7 +9,7 @@ interface Props {
   params: Promise<{ exchange: string }>
 }
 
-export const dynamicParams = true
+export const dynamicParams = false
 
 export async function generateStaticParams() {
   return getExchanges().map((e) => ({ exchange: e.slug }))
