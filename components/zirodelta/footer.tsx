@@ -17,6 +17,7 @@ const footerLinks = {
     { label: "Learn", href: "/learn" },
     { label: "Funding Rates", href: "/rates" },
     { label: "Compare Exchanges", href: "/compare" },
+    { label: "Tools", href: "/tools" },
     { label: "Documentation", href: "/docs" },
     { label: "GitHub", href: "https://github.com/zirodelta" },
   ],

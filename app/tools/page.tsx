@@ -1,0 +1,76 @@
+import type { Metadata } from "next"
+import Link from "next/link"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Navbar } from "@/components/zirodelta/navbar"
+import { Footer } from "@/components/zirodelta/footer"
+import { Calculator, TrendingUp, BarChart3 } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "Free Crypto Tools",
+  description: "Free funding rate calculator, APY estimator, and live spread scanner for crypto perpetual futures traders.",
+  openGraph: {
+    title: "Free Crypto Tools | Zirodelta",
+    description: "Free funding rate calculator, APY estimator, and live spread scanner for crypto perpetual futures traders.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Crypto Tools | Zirodelta",
+    description: "Free funding rate calculator, APY estimator, and live spread scanner for crypto perpetual futures traders.",
+  },
+}
+
+const tools = [
+  {
+    title: "Funding Rate Calculator",
+    description: "Calculate per-period, daily, weekly, monthly, and yearly earnings from funding rates. Includes entry/exit fee deductions.",
+    href: "/tools/funding-rate-calculator",
+    icon: Calculator,
+  },
+  {
+    title: "APY Estimator",
+    description: "Compare simple APR vs compounded APY across different funding rates and intervals. See 5 market scenarios side by side.",
+    href: "/tools/apy-estimator",
+    icon: TrendingUp,
+  },
+  {
+    title: "Spread Scanner",
+    description: "Live funding rate data from exchanges sorted by spread opportunity. Filter by pair and exchange.",
+    href: "/tools/spread-scanner",
+    icon: BarChart3,
+  },
+]
+
+export default function ToolsPage() {
+  return (
+    <>
+      <Navbar />
+      <main className="mx-auto max-w-5xl px-6 py-24 lg:px-8">
+        <h1
+          className="text-3xl font-bold tracking-tight sm:text-4xl"
+          style={{ fontFamily: "var(--font-montserrat)" }}
+        >
+          Tools
+        </h1>
+        <p className="mt-2 text-muted-foreground">
+          Free calculators and scanners for funding rate arbitrage.
+        </p>
+
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {tools.map((tool) => (
+            <Link key={tool.href} href={tool.href} className="group">
+              <Card className="h-full transition-colors hover:border-primary/50">
+                <CardHeader>
+                  <tool.icon className="size-5 text-primary mb-1" />
+                  <CardTitle className="text-base">{tool.title}</CardTitle>
+                  <CardDescription>{tool.description}</CardDescription>
+                </CardHeader>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </main>
+      <Footer />
+    </>
+  )
+}
