@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX PEPE/USDT Funding Rate - DEX Arbitrage Guide",
+    "description": "Track dYdX PEPE/USDT perpetual funding rates with 1-hour intervals. Learn meme coin funding arbitrage strategies on the leading decentralized exchange.",
+    "keywords": [
+      "dydx pepe funding rate",
+      "pepe usdt perpetual",
+      "meme coin arbitrage",
+      "decentralized funding rate",
+      "cosmos appchain trading",
+      "1 hour funding interval",
+      "dex perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "dYdX's PEPE/USDT perpetual offers unique funding rate arbitrage opportunities with 1-hour payment intervals on their Cosmos appchain. As one of the few decentralized exchanges supporting meme coin perpetuals, dYdX provides sovereignty and transparency for PEPE funding rate strategies.",
+    "how_funding_works": "dYdX calculates PEPE/USDT funding rates using a premium-based mechanism comparing the perpetual mark price to the underlying spot price. Funding payments occur every hour at minute zero, with rates typically ranging from -0.01% to +0.05% based on market sentiment. The decentralized nature means funding calculations are transparent and verifiable on-chain. Position holders pay or receive funding based on their side and the rate sign, with long positions paying when rates are positive.",
+    "why_this_pair": "PEPE's extreme volatility and retail-driven sentiment make it ideal for funding rate arbitrage, often showing persistent positive rates during meme season rallies. The pair's large trading volume on dYdX ensures sufficient liquidity for meaningful arbitrage positions. Hourly funding intervals provide more frequent profit realization compared to 8-hour standard intervals on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical PEPE Funding Patterns",
+        "body": "PEPE funding rates on dYdX have historically shown strong correlation with social media trends and broader meme coin cycles. During peak PEPE hype periods, funding rates consistently exceeded +0.02% hourly as retail traders maintained heavily leveraged long positions. The pair exhibits distinct funding patterns during different market phases: accumulation periods show neutral to slightly negative rates, while euphoric rallies drive rates to extreme positive territory. Monthly analysis reveals funding rate volatility peaks align with major PEPE price movements and Coinbase listing announcements."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "PEPE funding arbitrage opportunities emerge when dYdX rates diverge significantly from other exchanges offering PEPE perpetuals. The most profitable setups involve shorting PEPE on dYdX when funding exceeds +0.03% while hedging with spot purchases or longs on exchanges with lower rates. dYdX's Cosmos appchain enables faster settlement and lower gas costs compared to Ethereum-based alternatives. Successful arbitrageurs monitor funding rate differences between dYdX and major CEXes, executing when spreads justify transaction costs and slippage."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "PEPE's extreme volatility can quickly erode funding rate profits if proper risk management isn't implemented, with price moves of 20-50% common during volatile periods. Basis risk between dYdX perpetual prices and spot markets can create additional losses beyond funding collection. The relatively lower post-migration trading volume compared to major CEXes increases slippage risk for larger arbitrage positions. Smart contract risk exists despite dYdX's established track record, particularly given the complexity of the Cosmos appchain migration."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are PEPE funding rates calculated on dYdX?",
+        "answer": "dYdX calculates and applies PEPE/USDT funding rates every hour at the top of the hour. This frequent interval allows for more responsive funding rate arbitrage compared to traditional 8-hour cycles."
+      },
+      {
+        "question": "What makes dYdX's PEPE funding different from centralized exchanges?",
+        "answer": "dYdX operates as a decentralized exchange on its own Cosmos appchain, providing transparent on-chain funding calculations and eliminating counterparty risk. The hourly funding intervals and decentralized infrastructure offer unique advantages for sophisticated arbitrage strategies."
+      },
+      {
+        "question": "Can I collect funding without holding PEPE spot positions?",
+        "answer": "Yes, you can collect funding by holding short PEPE perpetual positions when rates are positive, though this exposes you to price risk. Most arbitrageurs hedge with spot PEPE or opposite positions on other exchanges to capture funding while minimizing directional exposure."
+      },
+      {
+        "question": "What are the typical funding rate ranges for PEPE on dYdX?",
+        "answer": "PEPE funding rates on dYdX typically range from -0.01% to +0.05% per hour during normal conditions. During extreme meme coin rallies, rates can exceed +0.1% hourly as retail demand drives excessive long positioning and funding premiums."
+      }
+    ]
+  },
+  "related_pairs": [
+    "rune-usdt",
+    "mkr-usdt",
+    "ftm-usdt",
+    "matic-usdt",
+    "floki-usdt"
+  ]
+}

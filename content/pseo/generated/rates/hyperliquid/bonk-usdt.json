@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rates on Hyperliquid DEX",
+    "description": "Track BONK/USDT funding rates on Hyperliquid's on-chain DEX. 1-hour funding intervals, fully on-chain order book, and real-time arbitrage opportunities.",
+    "keywords": [
+      "BONK funding rates",
+      "Hyperliquid DEX",
+      "on-chain perpetuals",
+      "meme coin funding",
+      "1-hour funding intervals",
+      "arbitrage opportunities",
+      "BONK futures",
+      "decentralized perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "BONK/USDT perpetual futures on Hyperliquid offer unique arbitrage opportunities through the DEX's 1-hour funding rate cycles and fully on-chain order book. As a meme coin with high volatility, BONK frequently exhibits significant funding rate premiums during trending periods.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the premium between perpetual and spot prices, with payments occurring at the top of each hour. The on-chain order book enables transparent rate calculations without centralized manipulation, while sub-second finality ensures immediate settlement. Funding rates are capped at ±0.75% per hour to prevent extreme scenarios, though BONK can still reach these limits during viral moments.",
+    "why_this_pair": "BONK's status as a popular Solana meme coin creates frequent funding rate imbalances, especially during social media-driven price movements. The 1-hour funding cycle on Hyperliquid allows traders to capture these premiums more frequently than traditional 8-hour cycles on centralized exchanges. Mid-tier volume provides sufficient liquidity for arbitrage while maintaining volatility that generates meaningful rate spreads.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK funding rates on Hyperliquid typically range from -0.1% to +0.3% per hour, with extreme spikes reaching the 0.75% cap during viral moments. Positive funding dominates during bull runs as retail traders heavily long meme coins, creating consistent arbitrage opportunities. Weekend periods often show reduced funding premiums due to lower retail participation. The 1-hour cycle captures intraday sentiment shifts that longer funding periods miss, particularly during Solana ecosystem news or broader meme coin rotations."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Hyperliquid and Binance or OKX becomes profitable when funding rate differentials exceed transaction costs and basis risk. The frequent hourly settlements allow for compound arbitrage strategies, reinvesting funding payments into larger positions. On-chain execution eliminates counterparty risk present in CEX arbitrage, though gas costs and slippage must be factored into profitability calculations. Delta-neutral strategies work best when BONK's implied volatility exceeds realized volatility by significant margins."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "BONK's meme coin nature introduces extreme volatility risk that can overwhelm funding rate profits if positions aren't properly hedged. Hyperliquid's USDC-only ecosystem requires additional currency exposure compared to USDT-native exchanges. The platform's relatively new status means less historical data for backtesting strategies and potential smart contract risks. Liquidity can deteriorate rapidly during market stress, making position exits challenging and increasing slippage costs for larger arbitrage operations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does BONK funding settle on Hyperliquid?",
+        "answer": "BONK funding rates settle every hour on Hyperliquid, at the top of each hour UTC. This creates 24 funding opportunities per day compared to 3 on most centralized exchanges with 8-hour cycles."
+      },
+      {
+        "question": "What's the maximum funding rate for BONK perpetuals?",
+        "answer": "Hyperliquid caps funding rates at ±0.75% per hour for all perpetuals including BONK. During extreme volatility, BONK frequently hits these caps, creating opportunities for contrarian funding strategies."
+      },
+      {
+        "question": "Can I arbitrage BONK funding rates without KYC on Hyperliquid?",
+        "answer": "Yes, Hyperliquid requires no KYC for trading, allowing anonymous funding rate arbitrage. However, you'll need to bridge assets to their L1 chain and work within their USDC ecosystem for settlements."
+      },
+      {
+        "question": "How does on-chain execution affect BONK arbitrage profitability?",
+        "answer": "On-chain execution eliminates exchange counterparty risk but introduces gas costs and potential MEV. For BONK arbitrage, the transparent order book provides better rate predictability, while sub-second finality enables rapid position adjustments during volatile periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "link-usdt",
+    "inj-usdt",
+    "render-usdt",
+    "pendle-usdt"
+  ]
+}

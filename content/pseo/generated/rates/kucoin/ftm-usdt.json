@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ftm-usdt",
+    "base": "FTM",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "KuCoin FTM/USDT Funding Rate Arbitrage Guide",
+    "description": "Analyze KuCoin FTM/USDT perpetual funding rates for arbitrage opportunities. 8-hour funding intervals with competitive maker fees at 0.02%.",
+    "keywords": [
+      "kucoin ftm funding rate",
+      "ftm usdt perpetual",
+      "fantom funding arbitrage",
+      "kucoin perpetual futures",
+      "ftm funding rate history",
+      "fantom perp trading",
+      "altcoin funding rates",
+      "layer 1 perp arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "KuCoin's FTM/USDT perpetual futures contract offers funding rate arbitrage opportunities on the Fantom ecosystem token with 8-hour settlement intervals. The exchange's altcoin-focused user base creates distinct funding patterns compared to larger exchanges, particularly during Fantom network developments and DeFi activity spikes.",
+    "how_funding_works": "KuCoin calculates FTM/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme rates during volatile periods. Long positions pay shorts when rates are positive, with payments processed automatically at settlement times. KuCoin's relatively smaller perpetual market size can lead to more pronounced funding rate movements compared to tier-1 exchanges.",
+    "why_this_pair": "FTM/USDT presents compelling arbitrage opportunities due to Fantom's active DeFi ecosystem and periodic network upgrades that drive speculative interest. The token's mid-tier market cap creates funding rate volatility that arbitrageurs can exploit, especially during ecosystem announcements or cross-chain integration updates. KuCoin's strong altcoin trader presence often results in persistent long bias during bullish Layer 1 cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FTM/USDT funding rates on KuCoin typically range from -0.3% to +0.4% during normal market conditions, with extreme rates reaching ±0.75% during major Fantom ecosystem events. The pair exhibits strong correlation with overall DeFi sentiment and tends to show elevated funding rates during Layer 1 rotation periods. Historically, funding rates spike positive during Andre Cronje announcements or major dApp launches on Fantom, while showing negative bias during broader altcoin selloffs. Weekly patterns show higher rates during Asian trading hours when KuCoin's user base is most active."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable FTM arbitrage opportunities occur during funding rate divergences between KuCoin and larger exchanges like Binance or OKX, which can persist for multiple 8-hour cycles. KuCoin's 0.02% maker fees make it cost-effective for arbitrageurs to maintain delta-neutral positions when funding rates exceed 0.10% per interval. Cross-exchange arbitrage is particularly effective when Fantom network congestion affects spot market efficiency, creating premium disparities. Traders often exploit the predictable funding spikes during Fantom Foundation announcements by pre-positioning ahead of rate settlements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "FTM's relatively lower liquidity on KuCoin compared to major tokens creates higher slippage risk during position entry and exit, particularly for larger arbitrage sizes above $50,000. The token's correlation with overall crypto markets means funding arbitrage profits can be offset by directional price movements during high volatility periods. KuCoin's regulatory uncertainties following SEC charges may impact withdrawal processes, requiring careful consideration of counterparty risk. Additionally, Fantom network upgrades or hard forks can create temporary trading halts that interrupt arbitrage strategies mid-cycle."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the maximum funding rate for FTM/USDT on KuCoin?",
+        "answer": "KuCoin caps FTM/USDT funding rates at ±0.75% per 8-hour interval. This translates to a maximum annualized rate of approximately ±820%, though such extreme rates are rare and typically occur only during major market dislocations or significant Fantom ecosystem events."
+      },
+      {
+        "question": "How does FTM funding compare to other Layer 1 tokens on KuCoin?",
+        "answer": "FTM generally shows higher funding rate volatility than established Layer 1s like ETH or ADA but lower than newer chains like NEAR or ARB. The funding rates tend to be more responsive to ecosystem-specific news compared to broader market sentiment, making it attractive for event-driven arbitrage strategies."
+      },
+      {
+        "question": "What minimum position size makes FTM funding arbitrage profitable on KuCoin?",
+        "answer": "Considering KuCoin's 0.02%/0.06% maker/taker fee structure, funding arbitrage becomes profitable with positions above $5,000 when rates exceed 0.08% per interval. This accounts for potential slippage and the need to overcome the bid-ask spread when establishing delta-neutral positions across spot and perpetual markets."
+      },
+      {
+        "question": "How often do FTM funding rates turn negative on KuCoin?",
+        "answer": "FTM funding rates turn negative approximately 25-30% of the time on KuCoin, typically during broader altcoin corrections or when Fantom faces ecosystem challenges. Negative rates often persist for 2-3 consecutive cycles during major market downturns, creating opportunities for long arbitrage positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "near-usdt",
+    "link-usdt",
+    "arb-usdt",
+    "ada-usdt",
+    "doge-usdt"
+  ]
+}

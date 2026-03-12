@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX ETH/USDT Funding Rate - 1-Hour DEX Perp Trading",
+    "description": "Track dYdX ETH/USDT perpetual funding rates with 1-hour intervals. Analyze arbitrage opportunities on the leading decentralized derivatives exchange.",
+    "keywords": [
+      "dydx funding rate",
+      "eth usdt perpetual",
+      "decentralized derivatives",
+      "cosmos appchain",
+      "1-hour funding",
+      "perp arbitrage",
+      "dex trading",
+      "ethereum futures"
+    ]
+  },
+  "content": {
+    "intro": "dYdX ETH/USDT perpetuals offer 1-hour funding rate intervals on a dedicated Cosmos appchain, providing frequent arbitrage opportunities for sophisticated traders. As the pioneer in decentralized perpetual futures, dYdX maintains competitive rates despite lower post-migration volumes.",
+    "how_funding_works": "dYdX calculates funding rates every hour using a time-weighted average price (TWAP) mechanism that compares the perpetual price to the underlying ETH spot price. The exchange applies a +/-0.05% funding rate cap per interval, with payments occurring at the top of each hour. Long positions pay short positions when funding is positive, incentivizing price convergence through market participant behavior. The Cosmos appchain architecture enables faster settlement compared to Ethereum-based competitors.",
+    "why_this_pair": "ETH/USDT represents the highest volume pair on dYdX, providing superior liquidity for large funding rate arbitrage positions. Ethereum's volatility creates frequent funding rate imbalances, especially during network congestion or DeFi activity spikes that affect spot-perp basis.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "dYdX ETH/USDT funding rates typically range from -0.01% to +0.03% per hour, with extreme periods reaching the ±0.05% cap during high volatility. Bullish market phases often see sustained positive funding as long positions dominate, while bear markets create opportunities for negative funding collection. The 1-hour frequency means daily funding exposure can reach ±1.2% compared to 8-hour exchanges at ±0.375%. Weekend periods often show reduced funding volatility due to lower institutional participation. Post-Cosmos migration, funding rates have shown increased stability due to improved price discovery mechanisms."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The 1-hour funding frequency creates 24 payment opportunities daily, allowing for granular arbitrage strategies between dYdX and 8-hour funding exchanges like Binance or OKX. Traders can capture basis differences when dYdX funding deviates significantly from CEX averages, particularly during Ethereum network events or DeFi yield farming cycles. Cross-margin trading enables efficient capital utilization when hedging ETH spot positions against dYdX perps. The decentralized nature means no geographic restrictions, though gas costs for on-chain interactions must be factored into profitability calculations."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Smart contract risk remains paramount despite dYdX's battle-tested protocol, with the recent Cosmos migration introducing new technical dependencies. Liquidity depth, while improving, remains below major CEXs, potentially causing slippage during large arbitrage unwinds. The 1-hour funding frequency amplifies both profit potential and loss exposure compared to traditional 8-hour cycles. Ethereum spot market correlation means funding rates can turn against positions rapidly during network congestion or major DeFi protocol events. Withdrawal delays to Layer 1 can impact arbitrage timing, requiring careful position sizing relative to available collateral."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does dYdX's 1-hour funding compare to other exchanges for ETH/USDT?",
+        "answer": "dYdX's hourly funding provides 3x more frequent opportunities than standard 8-hour cycles, with typical rates ranging -0.01% to +0.03% per hour. This creates more granular arbitrage windows but requires active monitoring compared to set-and-forget strategies on longer-cycle exchanges."
+      },
+      {
+        "question": "What are the main risks of funding rate arbitrage on dYdX ETH/USDT?",
+        "answer": "Primary risks include smart contract vulnerabilities, lower liquidity causing slippage, rapid funding rate reversals due to hourly frequency, and potential withdrawal delays affecting arbitrage timing. The Cosmos appchain migration also introduces new technical dependencies that traders must monitor."
+      },
+      {
+        "question": "How does dYdX calculate ETH/USDT funding rates?",
+        "answer": "dYdX uses a TWAP mechanism comparing perpetual prices to spot ETH prices, with rates capped at ±0.05% per hour. Calculations occur continuously with payments at each hour mark, using mark price instead of last traded price to prevent manipulation."
+      },
+      {
+        "question": "Can I efficiently arbitrage between dYdX and centralized exchanges?",
+        "answer": "Yes, the 1-hour vs 8-hour funding frequency difference creates natural arbitrage opportunities. However, consider withdrawal times to Layer 1, gas costs for transactions, and liquidity differences when sizing positions for cross-exchange strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "sui-usdt",
+    "btc-usdt",
+    "mkr-usdt",
+    "floki-usdt"
+  ]
+}

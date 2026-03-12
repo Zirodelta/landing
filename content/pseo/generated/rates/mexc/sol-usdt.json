@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "sol-usdt",
+    "base": "SOL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SOL/USDT Funding Rates on MEXC - Zero Maker Fees",
+    "description": "Track SOL/USDT perpetual funding rates on MEXC. Zero maker fees with 8-hour funding cycles. Analyze arbitrage opportunities and historical patterns.",
+    "keywords": [
+      "SOL MEXC funding rate",
+      "Solana perpetual futures",
+      "zero maker fees",
+      "funding rate arbitrage",
+      "SOL USDT perp",
+      "8 hour funding",
+      "MEXC perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "MEXC offers SOL/USDT perpetual futures with zero maker fees and 8-hour funding cycles at 00:00, 08:00, and 16:00 UTC. As a major altcoin with mega trading volumes, SOL often exhibits significant funding rate premiums during bull runs due to high leveraged long demand.",
+    "how_funding_works": "MEXC calculates SOL/USDT funding rates using a time-weighted average price between the perpetual contract and spot index over the 8-hour period. The exchange applies funding settlements automatically with zero maker fees on limit orders, making it cost-effective for delta-neutral strategies. Position holders pay or receive funding based on their position direction and the prevailing rate magnitude.",
+    "why_this_pair": "SOL/USDT on MEXC presents attractive funding opportunities due to Solana's retail popularity and MEXC's early listing advantage for SOL ecosystem tokens. The pair often shows elevated funding rates during DeFi seasons when SOL-based protocols gain traction, creating predictable arbitrage windows.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SOL/USDT funding rates on MEXC typically range from -0.05% to +0.15% per 8-hour cycle, with extreme spikes reaching +0.5% during major Solana ecosystem announcements. The pair exhibits strong correlation with Bitcoin funding rates but with amplified volatility during altcoin season. Historical data shows funding rates tend to normalize within 24-48 hours after major moves, creating mean reversion opportunities for arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create favorable conditions for funding rate arbitrage on SOL/USDT, especially when rates exceed 0.1% per cycle. Cross-exchange arbitrage works well between MEXC and Binance or Bybit, where SOL funding rates often diverge by 0.05-0.1%. The key advantage is capturing funding payments while maintaining delta neutrality through spot hedging or cross-exchange perpetual positions with tighter spreads."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEXC's thinner order books for SOL/USDT can create slippage issues during volatile periods, particularly for larger position sizes above $50,000. The exchange's aggressive listing strategy means SOL may experience additional volatility from new token launches in the Solana ecosystem. Traders should monitor MEXC's reported volumes carefully, as questionable volume reporting can affect funding rate accuracy during low liquidity periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical SOL/USDT funding rates on MEXC?",
+        "answer": "SOL/USDT funding rates on MEXC typically range from -0.05% to +0.15% per 8-hour cycle. During strong bullish momentum or major Solana ecosystem developments, rates can spike to +0.3% or higher before normalizing."
+      },
+      {
+        "question": "How do MEXC's zero maker fees affect SOL funding arbitrage?",
+        "answer": "Zero maker fees on MEXC significantly improve funding arbitrage profitability for SOL/USDT by eliminating entry/exit costs for limit orders. This allows traders to capture smaller funding rate differentials that would be unprofitable on exchanges with standard maker fees."
+      },
+      {
+        "question": "When do SOL funding rates peak on MEXC?",
+        "answer": "SOL funding rates typically peak during US trading hours (13:00-21:00 UTC) when retail demand for leveraged long positions increases. Rates also spike during major Solana ecosystem announcements, NFT market booms, or when SOL outperforms Bitcoin significantly."
+      },
+      {
+        "question": "What position sizes work best for SOL arbitrage on MEXC?",
+        "answer": "Position sizes between $5,000-$25,000 work optimally for SOL funding arbitrage on MEXC due to order book depth limitations. Larger positions may experience slippage during entry/exit, while smaller positions may not justify the monitoring overhead required for effective arbitrage execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "w-usdt",
+    "ton-usdt",
+    "sui-usdt",
+    "stx-usdt",
+    "bnb-usdt"
+  ]
+}

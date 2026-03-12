@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX DOGE/USDT Funding Rates | 1H Intervals on Cosmos",
+    "description": "Track DOGE/USDT perpetual funding rates on dYdX's Cosmos appchain. 1-hour funding intervals create unique arbitrage opportunities for meme coin trading.",
+    "keywords": [
+      "dYdX DOGE funding",
+      "DOGE perpetual futures",
+      "1 hour funding rates",
+      "Cosmos DEX arbitrage",
+      "DOGE/USDT perps",
+      "decentralized funding",
+      "meme coin futures",
+      "dYdX v4"
+    ]
+  },
+  "content": {
+    "intro": "dYdX's DOGE/USDT perpetual on their new Cosmos appchain offers unique funding rate dynamics with 1-hour payment intervals. The migration from StarkEx to a sovereign blockchain has created distinct trading patterns for this high-volume meme coin pair.",
+    "how_funding_works": "dYdX v4 calculates funding rates every hour using a TWAP of the premium between the perpetual and index prices. The 8-hour TWAP is divided by 8 to determine the hourly rate, typically ranging from -0.01% to +0.01% per hour. Funding payments occur automatically through the smart contract, with long positions paying shorts when rates are positive and vice versa. The Cosmos-based architecture enables faster settlement and reduced gas costs compared to traditional Layer 1 implementations.",
+    "why_this_pair": "DOGE/USDT represents one of the highest volume meme coin perpetuals, making it attractive for funding rate arbitrage due to tight spreads and deep liquidity. The hourly funding intervals on dYdX create more frequent arbitrage opportunities compared to the standard 8-hour cycles on centralized exchanges. High retail interest in DOGE often leads to pronounced funding rate premiums during momentum moves.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE/USDT funding rates on dYdX typically range from -0.005% to +0.015% per hour, with extreme rates reaching ±0.05% during major price movements. Bull market periods often see sustained positive funding as retail traders accumulate long positions, while bear markets can produce extended negative funding periods. The 1-hour intervals mean that 24-hour cumulative funding can reach 0.3-0.5% during volatile periods, significantly higher than traditional 8-hour cycle exchanges. Meme coin rallies driven by social media trends frequently create the most profitable funding rate arbitrage opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The hourly funding schedule creates multiple daily arbitrage windows, particularly when dYdX rates diverge from Binance or OKX's 8-hour rates. Cross-exchange arbitrage works best when dYdX shows consistently higher funding than CEXs due to retail-heavy positioning. Delta-neutral strategies can capture funding premiums by going long on dYdX while shorting equivalent amounts on centralized exchanges. The Cosmos-based settlement reduces execution risk compared to Ethereum-based perpetuals, though lower overall volume means position sizing must be carefully managed."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "dYdX v4's lower post-migration volume compared to major CEXs can create liquidity gaps during volatile periods, increasing slippage costs. Smart contract risks exist despite audited code, as the Cosmos appchain represents newer technology compared to battle-tested centralized platforms. Funding rate arbitrage requires active monitoring due to the hourly payment schedule, making automation essential for consistent profits. Cross-exchange arbitrage faces basis risk if price gaps between dYdX and reference exchanges exceed funding rate gains."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are DOGE/USDT funding rates calculated on dYdX?",
+        "answer": "Funding rates are calculated and paid every hour on dYdX v4. This creates 24 funding payments per day compared to the typical 3 payments on centralized exchanges, offering more frequent arbitrage opportunities."
+      },
+      {
+        "question": "What are typical DOGE funding rate ranges on dYdX?",
+        "answer": "Normal market conditions see rates between -0.005% to +0.015% per hour. During meme coin rallies or major DOGE price movements, rates can spike to ±0.05% per hour, creating significant arbitrage potential."
+      },
+      {
+        "question": "Can I arbitrage between dYdX and centralized exchanges?",
+        "answer": "Yes, cross-exchange arbitrage is possible by taking opposite positions when funding rates diverge significantly. The hourly dYdX schedule often creates opportunities against 8-hour CEX cycles, especially during trending markets."
+      },
+      {
+        "question": "What are the main risks of DOGE funding arbitrage on dYdX?",
+        "answer": "Primary risks include lower liquidity compared to major CEXs, smart contract risks from the new Cosmos appchain, and basis risk from price divergences. The hourly payment schedule also requires more active monitoring than traditional 8-hour cycles."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "uni-usdt",
+    "eth-usdt",
+    "stx-usdt",
+    "matic-usdt"
+  ]
+}

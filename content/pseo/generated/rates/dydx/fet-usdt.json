@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on dYdX - AI Token Arbitrage",
+    "description": "Track FET/USDT perpetual funding rates on dYdX DEX. Analyze Fetch.ai token funding patterns with 1-hour intervals for optimized arbitrage strategies.",
+    "keywords": [
+      "FET funding rate",
+      "dYdX perpetual",
+      "Fetch.ai arbitrage",
+      "DEX funding",
+      "AI token perps",
+      "dYdX v4",
+      "crypto arbitrage",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on dYdX offer unique arbitrage opportunities in the AI token sector with the exchange's distinctive 1-hour funding intervals. As a decentralized exchange operating on its own Cosmos appchain, dYdX provides sovereignty and reduced counterparty risk for Fetch.ai token arbitrage strategies.",
+    "how_funding_works": "dYdX v4 calculates funding rates every hour using a time-weighted average of the premium between perpetual and index prices over the previous hour. The funding rate is capped at ±0.75% per hour to prevent extreme rates during volatile periods. Payments are exchanged directly between long and short position holders without platform intermediation, maintaining the DEX's decentralized ethos. The 1-hour intervals provide more frequent arbitrage opportunities compared to traditional 8-hour cycles.",
+    "why_this_pair": "FET/USDT represents one of the prominent AI tokens available for perpetual trading on dYdX, offering exposure to the growing artificial intelligence and machine learning sector. The pair typically exhibits moderate volatility with funding rates that can shift significantly during AI sector sentiment changes or Fetch.ai ecosystem developments. This creates regular arbitrage opportunities for traders monitoring funding rate differentials across exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET funding rates on dYdX have shown correlation with broader AI token sentiment and Fetch.ai's development milestones. During periods of AI sector euphoria, FET often trades at persistent positive funding rates as long positions dominate, creating profitable opportunities for arbitrageurs to short on dYdX while hedging elsewhere. The 1-hour funding frequency means these premiums compound quickly, but also normalize faster than on traditional 8-hour platforms. Historical data shows FET funding rates ranging from -0.5% to +0.6% during volatile periods, with most stable periods maintaining rates between -0.1% to +0.2%."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable FET arbitrage strategies on dYdX involve monitoring funding rate differentials against centralized exchanges like Binance or OKX. When dYdX shows consistently positive funding (longs paying shorts), traders can short FET perpetuals on dYdX while longing on CEXs with negative or lower positive rates. The 1-hour funding cycle allows for rapid position adjustments and profit taking. Cross-DEX arbitrage opportunities also exist by comparing dYdX rates with other decentralized perpetual platforms, though liquidity considerations become more critical."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Key risks include dYdX's lower liquidity post-migration from StarkEx, which can lead to higher slippage during large position adjustments. The Cosmos appchain architecture, while providing sovereignty, introduces bridge risks when moving funds between ecosystems. FET's correlation with broader AI token movements means funding rates can shift rapidly during sector rotations. Smart contract risks remain despite dYdX's established track record, and the 0.02%/0.05% maker/taker fees must be factored into arbitrage profitability calculations. Position sizing should account for the potential for funding rate reversals within the 1-hour cycles."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes FET funding rates unique on dYdX compared to other exchanges?",
+        "answer": "dYdX's 1-hour funding intervals create more frequent payment cycles for FET, allowing arbitrageurs to capture funding premiums faster than traditional 8-hour systems. The decentralized nature also means direct peer-to-peer funding payments without platform intermediation."
+      },
+      {
+        "question": "How does dYdX's Cosmos migration affect FET arbitrage strategies?",
+        "answer": "The migration to dYdX Chain provides greater sovereignty but temporarily reduced liquidity for FET pairs. This creates both higher slippage risks and potentially more pronounced funding rate premiums due to lower trading volumes compared to the previous StarkEx version."
+      },
+      {
+        "question": "What position sizes are practical for FET funding arbitrage on dYdX?",
+        "answer": "Given dYdX's current liquidity, FET positions should typically remain under $50,000 to avoid significant slippage. Larger positions may need to be entered gradually or split across multiple exchanges to maintain arbitrage efficiency."
+      },
+      {
+        "question": "How do AI sector events impact FET funding rates on dYdX?",
+        "answer": "Major AI announcements or Fetch.ai partnerships often drive directional bias in FET perpetuals, creating sustained positive or negative funding rates. These events can provide extended arbitrage opportunities but require careful monitoring of sentiment shifts and position management."
+      }
+    ]
+  },
+  "related_pairs": [
+    "tia-usdt",
+    "ldo-usdt",
+    "floki-usdt",
+    "pendle-usdt",
+    "xrp-usdt"
+  ]
+}

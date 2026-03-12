@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate on dYdX - Perp Trading Analysis",
+    "description": "Analyze WLD/USDT funding rates on dYdX DEX. Track hourly funding intervals, arbitrage opportunities, and perpetual futures mechanics for Worldcoin trading.",
+    "keywords": [
+      "WLD funding rate",
+      "dYdX perpetual futures",
+      "Worldcoin arbitrage",
+      "DEX funding rates",
+      "WLD USDT perp",
+      "dYdX trading",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on dYdX offer unique funding rate opportunities with hourly settlement intervals on the platform's Cosmos appchain. The pair benefits from dYdX's decentralized infrastructure while maintaining competitive funding mechanics for AI-sector tokens.",
+    "how_funding_works": "dYdX calculates funding rates hourly based on the premium between perpetual price and mark price, settling every hour at the top of each hour. The platform uses a decentralized oracle system on its Cosmos appchain to determine fair value pricing for WLD. Funding payments occur automatically between long and short position holders, with rates capped at ±0.75% per funding period. Position holders pay or receive funding based on their side relative to the funding rate sign.",
+    "why_this_pair": "WLD represents a high-growth AI token with significant retail interest, creating frequent funding rate imbalances suitable for arbitrage strategies. The token's volatility and speculative trading patterns often generate substantial premiums or discounts relative to spot prices. dYdX's hourly funding settlements provide more frequent arbitrage opportunities compared to 8-hour cycles on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "WLD funding rates on dYdX typically range from -0.1% to +0.3% per hour during normal market conditions, with extreme rates reaching the ±0.75% cap during high volatility periods. The token shows strong correlation with AI sector sentiment, often displaying persistent positive funding during AI narrative cycles. Funding rates tend to spike during major Worldcoin announcements or broader AI token rallies. Weekend periods often see reduced funding rate volatility due to lower trading activity on the decentralized platform."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between dYdX and centralized exchanges like Binance or OKX frequently presents profitable opportunities due to funding rate timing differences. The hourly settlement on dYdX versus 8-hour cycles elsewhere creates temporary rate disparities exploitable by sophisticated traders. Delta-neutral strategies work effectively given WLD's moderate liquidity on dYdX, though position sizing must account for the platform's lower overall volume. Automated strategies benefit from dYdX's API accessibility and programmable smart contract interactions on the Cosmos appchain."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "dYdX's post-migration lower liquidity can result in wider spreads and increased slippage for larger WLD positions, impacting arbitrage profitability calculations. The Cosmos appchain introduces additional technical risks including potential validator issues or network congestion affecting trade execution. Smart contract risks exist on the decentralized platform, though dYdX has maintained strong security practices throughout its evolution. Market makers should monitor the platform's WLD inventory closely as funding rates can shift rapidly with limited liquidity depth compared to major centralized exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WLD funding rates calculated on dYdX?",
+        "answer": "dYdX calculates and settles WLD funding rates every hour at the top of each hour. This frequency is higher than most centralized exchanges which typically use 8-hour cycles, providing more granular arbitrage opportunities for active traders."
+      },
+      {
+        "question": "What's the maximum funding rate for WLD on dYdX?",
+        "answer": "The funding rate is capped at ±0.75% per hour on dYdX for all perpetual pairs including WLD/USDT. This cap helps prevent extreme funding costs during high volatility periods while still allowing market-driven price discovery mechanisms to function."
+      },
+      {
+        "question": "Can I access WLD funding rate data through dYdX's API?",
+        "answer": "Yes, dYdX provides comprehensive API access for funding rate data including historical rates, current rates, and predicted next funding for WLD/USDT. The API also includes mark price, index price, and premium data necessary for funding rate arbitrage strategies."
+      },
+      {
+        "question": "How does WLD liquidity on dYdX compare to centralized exchanges?",
+        "answer": "WLD liquidity on dYdX is generally lower than major centralized exchanges like Binance or OKX, particularly following the platform's migration to its own Cosmos chain. Traders should expect wider spreads and consider position sizing carefully when implementing funding rate arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "avax-usdt",
+    "near-usdt",
+    "ftm-usdt",
+    "doge-usdt"
+  ]
+}

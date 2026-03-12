@@ -1,0 +1,68 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "eth-usdt",
+    "base": "ETH",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ETH/USDT Funding Rate on Hyperliquid - 1h Intervals",
+    "description": "Track ETH/USDT funding rates on Hyperliquid DEX with 1-hour intervals. On-chain order book, 0.02% maker fees, and sub-second finality for arbitrage.",
+    "keywords": [
+      "hyperliquid funding rate",
+      "eth usdt perpetual",
+      "defi funding arbitrage",
+      "1 hour funding",
+      "on-chain derivatives",
+      "hyperliquid eth"
+    ]
+  },
+  "content": {
+    "intro": "ETH/USDT on Hyperliquid offers unique funding rate arbitrage opportunities through its fully on-chain order book and 1-hour funding intervals. As a native L1 DEX with CEX-grade performance, Hyperliquid processes ETH perpetuals with sub-second finality while maintaining complete transparency.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using a time-weighted average premium between the perpetual and spot price over the preceding hour. The exchange uses an 8-hour interest rate component of 0.01% plus the premium component to determine the final rate. Payments occur precisely at each hour mark, with long positions paying when rates are positive and receiving when negative. The on-chain settlement ensures immediate and verifiable funding transfers without custodial risk.",
+    "why_this_pair": "ETH/USDT represents the second-largest crypto derivative market and exhibits consistent funding rate patterns due to high institutional participation. The pair's deep liquidity on Hyperliquid enables significant position sizes without substantial slippage, making it ideal for funding rate arbitrage strategies. ETH's correlation with broader market sentiment often creates predictable funding rate cycles during trending markets.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ETH funding rates on Hyperliquid typically range from -0.1% to 0.3% annually, with extreme periods reaching ±1% during high volatility. Bull markets consistently show positive funding as leveraged longs dominate, while bear markets create negative rates from short bias. The 1-hour intervals create more frequent rate adjustments compared to 8-hour cycles, reducing extreme rate spikes but increasing transaction frequency for arbitrageurs. Weekend periods often show lower absolute rates due to reduced institutional activity and tighter spreads."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Hyperliquid's 1-hour funding creates 24 daily arbitrage windows versus 3 on traditional exchanges, multiplying profit opportunities but requiring active management. Cross-exchange arbitrage works well by longing ETH on Hyperliquid when rates are negative while shorting on Binance or OKX during positive rate periods. The DEX's 0.02% maker rebate effectively reduces funding arbitrage costs, while the lack of KYC enables rapid account setup for strategy deployment. On-chain transparency allows real-time monitoring of funding rate calculations and position flows."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Hyperliquid's single L1 ecosystem creates concentration risk if the network experiences downtime or congestion during volatile periods. USDC-only collateral limits hedging options compared to multi-asset margin systems, requiring external stablecoin exposure management. The exchange's newer operational history means less stress-testing during extreme market conditions compared to established venues. Bridge risks exist when moving capital between Hyperliquid and other chains for cross-exchange arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does ETH funding settle on Hyperliquid?",
+        "answer": "ETH funding settles every hour on Hyperliquid, creating 24 daily settlement periods. This frequent settlement reduces rate accumulation compared to 8-hour cycles but requires more active position management for arbitrage strategies."
+      },
+      {
+        "question": "Can I use leverage for ETH funding rate arbitrage on Hyperliquid?",
+        "answer": "Yes, Hyperliquid offers up to 50x leverage on ETH/USDT perpetuals. However, funding arbitrage typically uses lower leverage (2-5x) to maintain stable returns and reduce liquidation risk during volatile periods."
+      },
+      {
+        "question": "What's the minimum position size for ETH funding arbitrage?",
+        "answer": "Hyperliquid has no minimum position size, but funding arbitrage becomes economically viable around $1,000+ due to gas costs and spread considerations. The 0.02% maker rebate helps offset small position inefficiencies."
+      },
+      {
+        "question": "How does Hyperliquid's on-chain nature affect funding calculations?",
+        "answer": "All funding calculations are transparent and verifiable on-chain, eliminating counterparty risk in rate determination. The automated smart contract execution ensures precise hourly settlements without exchange intervention or potential manipulation."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "link-usdt",
+    "sol-usdt",
+    "apt-usdt",
+    "jto-usdt"
+  ]
+}

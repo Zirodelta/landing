@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on MEXC - Real-time Arbitrage Data",
+    "description": "Track JTO/USDT perpetual funding rates on MEXC exchange. Monitor 8-hour funding cycles, zero maker fees, and arbitrage opportunities for Jito governance token.",
+    "keywords": [
+      "JTO funding rate",
+      "MEXC perpetual futures",
+      "Jito arbitrage",
+      "DeFi funding rates",
+      "JTO USDT perps",
+      "funding rate arbitrage",
+      "MEXC zero fees",
+      "perpetual futures trading"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on MEXC offer unique arbitrage opportunities through the exchange's zero maker fee structure and 8-hour funding cycles. As Jito's governance token gains traction in the Solana DeFi ecosystem, funding rate dynamics provide insights into market sentiment and positioning.",
+    "how_funding_works": "MEXC calculates JTO/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, based on the premium between perpetual and spot prices. Long positions pay funding when rates are positive, while shorts receive payments during negative funding periods. The exchange's zero maker fee policy means arbitrageurs only pay the 0.03% taker fee when establishing positions, significantly reducing execution costs compared to traditional funding rate strategies.",
+    "why_this_pair": "JTO's role as Jito's governance token creates distinct funding patterns driven by staking yield expectations and MEV distribution mechanics. The pair's smaller trading volume on MEXC can lead to more pronounced funding rate deviations compared to major exchanges, presenting opportunities for sophisticated arbitrageurs who can navigate the thinner liquidity environment.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "JTO/USDT funding rates on MEXC have exhibited significant volatility since the token's launch, with rates ranging from -0.5% to +2.1% during periods of high Solana ecosystem activity. Positive funding dominates during Jito protocol updates and validator set expansions, as traders position for increased MEV rewards. Weekend periods typically show compressed funding ranges due to reduced institutional activity, while major Solana network events can trigger sustained funding rate spikes lasting multiple cycles."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "MEXC's zero maker fee structure creates favorable conditions for delta-neutral funding rate harvesting on JTO/USDT pairs. Arbitrageurs can establish positions 30-60 minutes before funding timestamps to capture rate differentials versus other exchanges like Binance or OKX. The optimal strategy involves monitoring cross-exchange funding rate spreads exceeding 0.1% after accounting for MEXC's 0.03% taker fees and potential slippage in the underlying spot market."
+      },
+      {
+        "heading": "Risk Considerations and Liquidity Factors",
+        "body": "JTO/USDT perpetuals on MEXC carry elevated risks due to limited order book depth and potential price manipulation during low-volume periods. Funding rate arbitrage requires careful position sizing as large orders can impact the underlying premium calculation. Additionally, MEXC's limited regulatory compliance creates counterparty risk, while the exchange's aggressive listing strategy means JTO liquidity may migrate to more established platforms over time, affecting long-term funding rate sustainability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the funding intervals for JTO/USDT on MEXC?",
+        "answer": "MEXC charges funding every 8 hours for JTO/USDT perpetuals at 00:00, 08:00, and 16:00 UTC. This tri-daily schedule allows for more frequent arbitrage opportunities compared to exchanges with longer funding cycles."
+      },
+      {
+        "question": "How do MEXC's zero maker fees affect JTO funding rate strategies?",
+        "answer": "Zero maker fees significantly improve funding rate arbitrage economics by eliminating one side of trading costs. Arbitrageurs only pay 0.03% taker fees when executing, making smaller funding rate differentials profitable compared to exchanges with standard maker/taker fee structures."
+      },
+      {
+        "question": "What is the typical JTO/USDT funding rate range on MEXC?",
+        "answer": "JTO/USDT funding rates on MEXC typically range from -0.2% to +0.8% during normal market conditions. Extreme events like Jito protocol upgrades or Solana network congestion can push rates beyond ±1.5% for multiple funding cycles."
+      },
+      {
+        "question": "How does JTO's small trading volume impact funding rate reliability?",
+        "answer": "Lower JTO trading volumes on MEXC can create more volatile funding rates due to limited arbitrage activity smoothing out premiums. This creates both opportunities for higher rate capture and risks of sudden rate reversals during thin market conditions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "sui-usdt",
+    "btc-usdt",
+    "ton-usdt",
+    "mkr-usdt"
+  ]
+}

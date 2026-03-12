@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "sei-usdt",
+    "base": "SEI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SEI/USDT Funding Rate on MEXC - Perpetual Futures Arbitrage",
+    "description": "Track SEI/USDT funding rates on MEXC exchange. Analyze 8-hour funding cycles with zero maker fees for perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "SEI funding rate",
+      "MEXC perpetual futures",
+      "SEI/USDT arbitrage",
+      "funding rate strategy",
+      "Layer 1 token funding",
+      "MEXC zero fees",
+      "crypto arbitrage",
+      "perpetual swap rates"
+    ]
+  },
+  "content": {
+    "intro": "SEI/USDT perpetual futures on MEXC offer funding rate arbitrage opportunities with 8-hour settlement cycles and zero maker fees. As a Layer 1 blockchain token with moderate trading volume, SEI exhibits periodic funding rate imbalances suitable for systematic arbitrage strategies.",
+    "how_funding_works": "MEXC calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC for SEI/USDT perpetuals. The rate is determined by the premium/discount between perpetual and spot prices, typically ranging from -0.375% to +0.375% per funding period. Traders holding long positions pay funding when rates are positive, while short position holders pay when rates are negative. MEXC's zero maker fee structure makes this pair particularly attractive for delta-neutral funding strategies.",
+    "why_this_pair": "SEI/USDT on MEXC presents compelling arbitrage opportunities due to the exchange's aggressive listing strategy and first-mover advantage for new L1 tokens. The moderate trading volume creates periodic funding rate inefficiencies, while MEXC's zero maker fees significantly improve arbitrage profitability compared to traditional exchanges charging 0.02-0.05% maker fees.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SEI/USDT funding rates on MEXC have shown distinct patterns correlating with broader L1 token sentiment and SEI ecosystem developments. During network upgrade announcements and partnership reveals, funding rates frequently spike above +0.2% as long interest increases. Conversely, during market downturns or ecosystem delays, rates often turn negative below -0.15%. The 8-hour settlement cycle creates opportunities to capture these rate swings, particularly during Asian trading hours when SEI volume peaks. Historical data shows funding rates exceeding ±0.25% occur approximately 15-20% of settlement periods, providing consistent arbitrage windows."
+      },
+      {
+        "heading": "Arbitrage Strategy Implementation",
+        "body": "Optimal SEI/USDT funding arbitrage on MEXC requires monitoring rate predictions 2-4 hours before settlement to identify profitable opportunities. Traders can execute delta-neutral strategies by longing perpetuals while shorting spot SEI on supporting exchanges, or vice versa depending on rate direction. MEXC's zero maker fees allow for frequent position adjustments without eroding profits from fee drag. The moderate liquidity requires careful position sizing, typically limiting single trades to $10,000-50,000 equivalent to avoid significant slippage. Risk management involves setting stop-losses at 2-3x the expected funding payment to protect against adverse price movements."
+      },
+      {
+        "heading": "Risk Factors and Considerations",
+        "body": "SEI/USDT arbitrage on MEXC carries several risks including MEXC's thinner order books compared to tier-1 exchanges, potentially causing slippage during volatile periods. The exchange's limited regulatory compliance creates counterparty risk for larger positions. SEI's moderate market cap makes it susceptible to sudden price gaps that can overwhelm funding profits. Additionally, MEXC's questionable volume reporting practices may lead to inflated funding rate calculations that don't reflect true market conditions. Traders should maintain strict position limits and avoid concentration risk during major SEI network events or broader market stress periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does SEI/USDT funding settle on MEXC?",
+        "answer": "SEI/USDT perpetual futures on MEXC settle funding every 8 hours at 00:00, 08:00, and 16:00 UTC. This 8-hour cycle provides three daily opportunities to collect or pay funding rates based on your position direction."
+      },
+      {
+        "question": "What are typical funding rates for SEI/USDT on MEXC?",
+        "answer": "SEI/USDT funding rates on MEXC typically range from -0.2% to +0.3% per 8-hour period, with extreme rates reaching ±0.375% during high volatility. The average absolute funding rate is approximately 0.08-0.12% per settlement period."
+      },
+      {
+        "question": "Does MEXC charge maker fees on SEI/USDT perpetuals?",
+        "answer": "No, MEXC offers zero maker fees on SEI/USDT perpetual futures, charging only 0.03% taker fees. This zero maker fee structure significantly improves funding rate arbitrage profitability compared to exchanges charging standard 0.02-0.05% maker fees."
+      },
+      {
+        "question": "What's the minimum position size for SEI/USDT funding arbitrage on MEXC?",
+        "answer": "MEXC allows minimum positions of 1 SEI for perpetual futures. However, for profitable funding arbitrage, positions should typically exceed $1,000-2,000 equivalent to overcome taker fees and potential slippage while generating meaningful funding payments."
+      }
+    ]
+  },
+  "related_pairs": [
+    "eth-usdt",
+    "bnb-usdt",
+    "atom-usdt",
+    "near-usdt",
+    "inj-usdt"
+  ]
+}

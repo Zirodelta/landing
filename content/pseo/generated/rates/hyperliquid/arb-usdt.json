@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "arb-usdt",
+    "base": "ARB",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ARB/USDT Funding Rate Arbitrage on Hyperliquid DEX",
+    "description": "Trade ARB/USDT perpetual futures on Hyperliquid DEX with 1-hour funding intervals. On-chain order book with sub-second finality for optimal arbitrage execution.",
+    "keywords": [
+      "ARB USDT funding rate",
+      "Hyperliquid perpetual futures",
+      "Arbitrum funding arbitrage",
+      "DEX funding rates",
+      "on-chain perp trading",
+      "L2 token arbitrage",
+      "USDC perpetuals",
+      "DeFi funding rates"
+    ]
+  },
+  "content": {
+    "intro": "ARB/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities through the platform's fully on-chain order book and 1-hour funding intervals. As Arbitrum's native token, ARB exhibits distinct funding rate patterns influenced by L2 ecosystem developments and DeFi activity cycles.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the premium/discount between the perpetual price and the underlying ARB spot price. The funding rate is determined by the 8-hour TWAP of the premium, capped at ±0.75% per funding period. Payments occur automatically at the top of each hour, with long positions paying short positions when the rate is positive. The on-chain settlement ensures transparent and tamper-proof funding rate calculations.",
+    "why_this_pair": "ARB/USDT is particularly attractive for funding rate arbitrage due to ARB's volatility during Arbitrum ecosystem announcements and governance events. The token's correlation with broader DeFi trends creates predictable funding rate cycles, especially during L2 narrative periods when retail interest drives positive funding rates.",
+    "sections": [
+      {
+        "heading": "ARB Funding Rate Patterns on Hyperliquid",
+        "body": "ARB funding rates on Hyperliquid typically range from -0.2% to +0.4% per funding period, with significant spikes during major Arbitrum ecosystem announcements. The 1-hour funding intervals allow for more responsive rate adjustments compared to traditional 8-hour cycles. Historical data shows ARB tends to maintain positive funding rates during DeFi bull cycles when users speculate on L2 adoption. The shorter funding cycles reduce the risk of rate reversals during volatile periods."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "ARB funding rates on Hyperliquid often diverge from CEX rates due to the platform's unique user base of DeFi-native traders. The absence of market makers from traditional finance creates opportunities when institutional flows on CEXs drive rates in opposite directions. USDC settlement on Hyperliquid versus USDT on most CEXs adds a slight basis consideration but rarely exceeds 0.01%. The 1-hour funding frequency allows for more frequent arbitrage captures compared to 8-hour cycles elsewhere."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading ARB perpetuals on Hyperliquid requires careful attention to on-chain risks including potential network congestion during high volatility periods. The platform's single L1 architecture means no cross-chain bridging risks, but positions are subject to Hyperliquid's specific liquidation mechanics. ARB's correlation with Ethereum gas prices and L2 activity can create unexpected volatility that affects funding rates. Position sizing should account for ARB's tendency to gap during major Arbitrum governance votes or ecosystem updates."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are ARB funding rates updated on Hyperliquid?",
+        "answer": "ARB funding rates are calculated and paid every hour on Hyperliquid, providing more frequent opportunities to capture rate changes compared to the standard 8-hour funding cycles on most centralized exchanges. This allows for more responsive arbitrage strategies during periods of ARB volatility."
+      },
+      {
+        "question": "What are typical ARB funding rates on Hyperliquid?",
+        "answer": "ARB funding rates typically range from -0.15% to +0.35% per hour on Hyperliquid, with rates trending positive during L2 narrative periods and DeFi bull markets. Rates can spike above 0.5% during major Arbitrum announcements or governance events when speculative interest increases."
+      },
+      {
+        "question": "How does USDC settlement affect ARB funding arbitrage?",
+        "answer": "Hyperliquid uses USDC for all settlements while most CEXs use USDT, creating a minor basis risk that typically remains under 0.01%. This difference rarely impacts funding arbitrage profitability but should be monitored during USDC depeg events or stablecoin market stress."
+      },
+      {
+        "question": "What risks are specific to ARB perpetuals on Hyperliquid?",
+        "answer": "Key risks include ARB's volatility during Arbitrum governance events, potential liquidations due to sub-second price updates, and the platform's newer track record compared to established CEXs. The on-chain nature means no counterparty risk but requires understanding of the L1's consensus mechanics and potential network congestion during high activity periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "ada-usdt",
+    "sei-usdt",
+    "xrp-usdt",
+    "imx-usdt"
+  ]
+}

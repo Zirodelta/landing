@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rates on Bitget - Arbitrage Guide",
+    "description": "Track FLOKI/USDT perpetual funding rates on Bitget. 8-hour cycles, 0.02% maker fees, and meme coin volatility create unique arbitrage opportunities.",
+    "keywords": [
+      "FLOKI funding rate",
+      "Bitget perpetual",
+      "meme coin arbitrage",
+      "FLOKI futures",
+      "funding rate trading",
+      "crypto arbitrage",
+      "USDT perpetual",
+      "Bitget fees"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Bitget offer funding rate arbitrage opportunities through 8-hour payment cycles and the token's meme coin volatility. Bitget's 0.02% maker fee structure and competitive funding rate calculations make this pair attractive for systematic arbitrage strategies.",
+    "how_funding_works": "Bitget calculates FLOKI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and index prices. The exchange applies a ±0.375% funding rate cap with automatic position adjustments. Funding payments occur automatically between long and short positions, with the direction determined by market sentiment and positioning imbalances.",
+    "why_this_pair": "FLOKI's meme coin characteristics create significant funding rate volatility due to retail sentiment swings and social media-driven trading patterns. The moderate trading volume on Bitget allows for meaningful position sizes while maintaining competitive spreads, making it suitable for both manual and algorithmic funding rate strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI/USDT funding rates on Bitget have shown extreme volatility during meme coin cycles, reaching maximum positive rates of +0.375% during retail FOMO periods and negative rates below -0.2% during market downturns. The pair typically exhibits higher funding rate variance compared to major cryptocurrencies, with average absolute rates of 0.05-0.15% per 8-hour period. Social media sentiment and Elon Musk-related news often trigger funding rate spikes that can last 24-72 hours. Weekend periods frequently show reduced volatility in funding rates due to lower retail participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable FLOKI funding rate arbitrage occurs during asymmetric positioning periods when retail traders heavily favor long positions, pushing funding rates to the +0.2% to +0.375% range. Cross-exchange arbitrage between Bitget and other venues like Binance or OKX can capture spread differences of 0.05-0.15% per cycle. Delta-neutral strategies work effectively due to FLOKI's high implied volatility, allowing traders to capture funding payments while hedging directional risk through spot holdings or options. The 8-hour payment frequency provides flexibility for position adjustments compared to daily funding cycles."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "FLOKI's meme coin nature introduces significant slippage risks during high volatility periods, potentially erasing funding rate profits through adverse execution. Bitget's newer market presence means lower liquidity depth compared to tier-1 exchanges, requiring careful position sizing to avoid market impact. Funding rate reversals can occur rapidly during sentiment shifts, turning profitable positions into losses within single 8-hour cycles. The lack of sophisticated risk management tools on Bitget compared to institutional platforms increases operational risk for larger arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FLOKI/USDT funding rates on Bitget?",
+        "answer": "FLOKI/USDT funding rates on Bitget typically range from -0.2% to +0.375% per 8-hour period, with average rates around 0.05-0.1% during normal market conditions. During meme coin rallies, rates frequently hit the maximum positive cap of 0.375%."
+      },
+      {
+        "question": "How does Bitget's FLOKI funding rate compare to other exchanges?",
+        "answer": "Bitget's FLOKI funding rates are generally competitive with major exchanges but can show 0.05-0.15% spreads during high volatility periods. The 8-hour cycle aligns with most major venues, making cross-exchange arbitrage feasible."
+      },
+      {
+        "question": "What minimum capital is needed for FLOKI funding rate arbitrage on Bitget?",
+        "answer": "Effective FLOKI funding rate arbitrage on Bitget typically requires $5,000-$10,000 minimum to overcome the 0.02%/0.06% trading fees and achieve meaningful returns. Smaller positions may struggle with the bid-ask spread impact on profitability."
+      },
+      {
+        "question": "Are there any Bitget-specific risks for FLOKI perpetual trading?",
+        "answer": "Bitget's newer exchange status means potential liquidity gaps during extreme volatility, and their customer support response times can be slower than established exchanges. The platform also has limited institutional-grade risk management tools compared to tier-1 venues."
+      }
+    ]
+  },
+  "related_pairs": [
+    "shib-usdt",
+    "xrp-usdt",
+    "sei-usdt",
+    "link-usdt",
+    "sol-usdt"
+  ]
+}

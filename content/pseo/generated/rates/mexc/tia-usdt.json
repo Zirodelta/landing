@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on MEXC - Celestia Perpetual Futures",
+    "description": "Track TIA/USDT funding rates on MEXC with 8-hour intervals. Zero maker fees make arbitrage profitable on Celestia perpetual futures with high leverage.",
+    "keywords": [
+      "TIA funding rate",
+      "MEXC perpetual futures",
+      "Celestia arbitrage",
+      "TIA/USDT funding",
+      "crypto funding rates",
+      "MEXC zero fees",
+      "TIA perp trading",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on MEXC offer funding rate arbitrage opportunities with 8-hour payment intervals and zero maker fees. MEXC's aggressive listing strategy positioned TIA among early perpetual offerings for Celestia's modular blockchain token.",
+    "how_funding_works": "MEXC calculates TIA/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. Long positions pay shorts when funding is positive, reflecting bullish sentiment. The exchange's zero maker fee structure enhances arbitrage profitability by eliminating one-sided trading costs. MEXC applies funding payments directly to account balances without additional transaction fees.",
+    "why_this_pair": "TIA represents Celestia's modular blockchain infrastructure, attracting significant speculation during market cycles focused on scalability solutions. The token's mid-tier volume and infrastructure narrative create funding rate volatility suitable for arbitrage strategies. MEXC's early listing advantage provides deeper liquidity compared to newer exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TIA/USDT funding rates on MEXC have exhibited high volatility during major Celestia network developments and modular blockchain narrative cycles. Positive funding rates often exceed 0.3% per 8-hour period during bull runs, as retail traders heavily favor long positions. Infrastructure tokens like TIA typically show funding rate spikes around testnet launches, mainnet upgrades, and partnership announcements. The 8-hour interval allows for strategic position timing around known catalysts and network milestones."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create unique arbitrage advantages for TIA/USDT funding rate strategies, eliminating half the trading costs compared to traditional exchanges. Delta-neutral strategies become profitable at lower funding thresholds due to reduced fee drag. The exchange's aggressive listing approach often results in higher funding premiums early in TIA's trading lifecycle. Cross-exchange arbitrage opportunities emerge when MEXC funding rates diverge significantly from Binance or OKX due to different user bases and liquidity sources."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEXC's regulatory uncertainties and occasional volume reporting inconsistencies pose counterparty risks for extended funding rate positions. TIA's infrastructure narrative creates basis risk during broader crypto market downturns when utility tokens underperform. The exchange's thinner order books compared to tier-1 venues may result in slippage during rapid position adjustments. Funding rate arbitrage requires monitoring Celestia network developments that could trigger asymmetric price movements independent of general market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical TIA/USDT funding rates on MEXC?",
+        "answer": "TIA/USDT funding rates on MEXC typically range from -0.1% to +0.5% per 8-hour period, with infrastructure narrative cycles driving rates above +0.3%. During major Celestia developments, rates can spike beyond +0.8% as retail traders heavily favor long positions."
+      },
+      {
+        "question": "How do MEXC's zero maker fees impact TIA funding arbitrage?",
+        "answer": "Zero maker fees eliminate one side of trading costs, making funding arbitrage profitable at lower rate thresholds. This fee structure allows delta-neutral strategies to capture funding payments more efficiently compared to exchanges charging 0.02-0.05% maker fees on both sides."
+      },
+      {
+        "question": "What risks are specific to TIA funding arbitrage on MEXC?",
+        "answer": "Key risks include MEXC's regulatory uncertainties, potential volume manipulation affecting funding calculations, and TIA's correlation with modular blockchain narrative cycles. The exchange's thinner liquidity may cause slippage during position adjustments, particularly during volatile periods."
+      },
+      {
+        "question": "How often are TIA funding payments calculated on MEXC?",
+        "answer": "TIA/USDT funding payments occur every 8 hours on MEXC at 00:00, 08:00, and 16:00 UTC. The rate is calculated 15 minutes before each payment based on the time-weighted average premium between perpetual and index prices."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sei-usdt",
+    "ton-usdt",
+    "btc-usdt",
+    "meme-usdt",
+    "ftm-usdt"
+  ]
+}

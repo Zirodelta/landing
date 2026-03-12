@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX RUNE/USDT Funding Rate - DeFi Perpetual Arbitrage",
+    "description": "Track RUNE/USDT funding rates on dYdX's decentralized perp exchange. Hourly funding intervals and Cosmos sovereignty create unique arbitrage opportunities.",
+    "keywords": [
+      "dYdX RUNE funding",
+      "RUNE perpetual futures",
+      "DeFi funding arbitrage",
+      "Cosmos appchain trading",
+      "RUNE/USDT rates",
+      "decentralized perps",
+      "THORChain trading",
+      "dYdX v4"
+    ]
+  },
+  "content": {
+    "intro": "dYdX's RUNE/USDT perpetual futures offer exposure to THORChain's native token through a fully decentralized exchange on its own Cosmos appchain. With hourly funding intervals and non-custodial trading, RUNE perps provide unique opportunities for funding rate arbitrage while maintaining DeFi principles.",
+    "how_funding_works": "dYdX v4 calculates RUNE/USDT funding rates hourly based on the 8-hour TWAP of the premium between perpetual and index prices. The funding payment occurs every hour at the top of each hour, with longs paying shorts when rates are positive. As a Cosmos appchain, dYdX maintains full sovereignty over its funding rate calculations without external dependencies. The exchange uses maker rebates of -0.02% and taker fees of 0.05% which can offset funding costs for market makers.",
+    "why_this_pair": "RUNE's role as THORChain's governance and security token creates unique funding dynamics driven by cross-chain DeFi activity and validator staking rewards. The mid-tier volume on dYdX means funding rates can be more volatile than major pairs, creating arbitrage opportunities for traders monitoring multiple exchanges. RUNE's correlation with broader DeFi sentiment often leads to sustained funding rate premiums during cross-chain activity surges.",
+    "sections": [
+      {
+        "heading": "RUNE Funding Rate Patterns",
+        "body": "RUNE/USDT funding rates on dYdX typically range from -0.01% to 0.03% but can spike during THORChain protocol upgrades or major cross-chain bridge integrations. The hourly funding schedule creates more frequent arbitrage windows compared to 8-hour exchanges, particularly during Asian trading hours when RUNE activity peaks. Historical data shows funding rates often turn negative during broader DeFi sell-offs, as short interest increases from yield farmers taking profits. The decentralized nature of dYdX means funding rates purely reflect trader positioning without centralized intervention."
+      },
+      {
+        "heading": "Arbitrage Strategy Considerations",
+        "body": "RUNE funding arbitrage on dYdX works best when combined with positions on centralized exchanges offering different funding schedules. The hourly payment system allows for precise timing of entries and exits, especially when rates diverge significantly from Binance or OKX 8-hour cycles. Traders should monitor THORChain's total value locked and validator set changes, as these fundamentals drive underlying demand for RUNE exposure. The Cosmos appchain architecture means potential network upgrades or governance votes can temporarily affect funding rate calculations."
+      },
+      {
+        "heading": "Risk Management Framework",
+        "body": "dYdX's non-custodial model eliminates counterparty risk but introduces smart contract risk specific to the v4 Cosmos implementation. RUNE's mid-tier liquidity means slippage can be significant during volatile periods, requiring careful position sizing for funding arbitrage strategies. Cross-chain bridge risks affecting THORChain can cause sudden RUNE price movements that overwhelm funding profits. Traders should maintain stop-losses and monitor dYdX's insurance fund levels, as the decentralized structure means no traditional exchange backstop during extreme market stress."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does dYdX pay RUNE funding rates?",
+        "answer": "dYdX pays RUNE/USDT funding rates every hour at the top of the hour. This hourly schedule provides more frequent arbitrage opportunities compared to most centralized exchanges that use 8-hour funding cycles."
+      },
+      {
+        "question": "What makes RUNE funding unique on dYdX compared to CEXs?",
+        "answer": "dYdX's decentralized structure means RUNE funding rates reflect pure market dynamics without exchange intervention. The Cosmos appchain architecture also allows for potential protocol-level optimizations specific to cross-chain DeFi tokens like RUNE."
+      },
+      {
+        "question": "Can I stake RUNE while trading perpetuals on dYdX?",
+        "answer": "No, dYdX perpetuals are cash-settled in USDC and don't involve holding actual RUNE tokens. However, you can maintain separate RUNE staking positions on THORChain while trading RUNE perps for funding rate arbitrage."
+      },
+      {
+        "question": "What's the minimum position size for RUNE funding arbitrage?",
+        "answer": "dYdX doesn't impose strict minimum sizes, but RUNE's mid-tier liquidity means positions under $1,000 may not generate meaningful funding profits after accounting for trading fees and gas costs on the Cosmos network."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ena-usdt",
+    "arb-usdt",
+    "btc-usdt",
+    "wld-usdt",
+    "ethfi-usdt"
+  ]
+}

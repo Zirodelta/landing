@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "sui-usdt",
+    "base": "SUI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "SUI/USDT Funding Rate on BingX - Arbitrage Analysis",
+    "description": "Track SUI/USDT perpetual funding rates on BingX every 8 hours. Analyze arbitrage opportunities with 0.02% maker fees and social trading features.",
+    "keywords": [
+      "SUI funding rate",
+      "BingX perpetuals",
+      "funding rate arbitrage",
+      "SUI USDT",
+      "8 hour funding",
+      "crypto arbitrage",
+      "perpetual futures",
+      "funding rate tracker"
+    ]
+  },
+  "content": {
+    "intro": "SUI/USDT perpetual futures on BingX offer funding rate arbitrage opportunities through 8-hour funding intervals and the platform's social trading ecosystem. BingX's copy trading focus creates unique funding rate patterns as retail traders follow popular strategies, often leading to predictable funding imbalances.",
+    "how_funding_works": "BingX calculates SUI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The platform applies a ±0.375% funding rate cap and uses a 0.1% interest rate component in the calculation. When funding rates are positive, long position holders pay shorts, and vice versa, with payments processed automatically at funding times.",
+    "why_this_pair": "SUI's L1 blockchain status creates significant volatility during network upgrades and ecosystem developments, leading to substantial funding rate swings on BingX. The mid-tier trading volume means funding rates can diverge more significantly from other exchanges compared to major pairs like BTC or ETH.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "SUI/USDT funding rates on BingX typically range from -0.2% to +0.3% per 8-hour period, with extreme rates reaching ±0.375% during major ecosystem announcements. The pair shows elevated funding rates during U.S. trading hours due to BingX's retail trader base following social trading signals. Negative funding rates frequently occur during broader crypto market corrections when short interest dominates. Weekend periods often see reduced funding rate volatility as copy trading activity decreases significantly."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable SUI funding arbitrage setups on BingX occur when rates exceed ±0.15% while other exchanges show neutral rates around 0.01%. BingX's copy trading features often create delayed reactions to funding rate changes compared to more institutional exchanges. Cross-exchange arbitrage works best by taking opposite positions on BingX versus Binance or OKX when funding rate differentials exceed 0.1%. The 0.02% maker fees allow for profitable arbitrage when funding differentials persist for multiple 8-hour cycles."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "BingX's lower liquidity for SUI/USDT means larger positions can face significant slippage during volatile periods, affecting arbitrage profitability. The platform's retail-focused user base can create unpredictable funding spikes during social media-driven SUI rallies or selloffs. Position size limits and BingX's relatively newer exchange status require careful risk management compared to established platforms. Copy trading algorithms can amplify funding rate movements suddenly, requiring quick position adjustments for successful arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical SUI/USDT funding rates on BingX?",
+        "answer": "SUI/USDT funding rates on BingX typically range from -0.1% to +0.2% per 8-hour period during normal market conditions. During high volatility or major SUI ecosystem events, rates can reach the maximum ±0.375% cap."
+      },
+      {
+        "question": "How does BingX's copy trading affect SUI funding rates?",
+        "answer": "Copy trading on BingX can create sudden funding rate spikes when popular traders take large SUI positions, as followers automatically replicate these trades. This often leads to temporary funding imbalances that normalize within 1-2 funding cycles."
+      },
+      {
+        "question": "Is SUI/USDT arbitrage profitable on BingX with 0.02% maker fees?",
+        "answer": "Yes, SUI funding arbitrage can be profitable on BingX when funding differentials exceed 0.05% compared to other exchanges. The 0.02% maker fees allow for positive net returns on multi-cycle arbitrage strategies, especially during elevated funding periods."
+      },
+      {
+        "question": "What's the maximum leverage for SUI/USDT perpetuals on BingX?",
+        "answer": "BingX offers up to 75x leverage for SUI/USDT perpetual futures, though funding arbitrage strategies typically use lower leverage (5-20x) to manage risk. Higher leverage increases funding payment amounts but also amplifies liquidation risk during volatile SUI price movements."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "rune-usdt",
+    "eth-usdt",
+    "inj-usdt",
+    "mkr-usdt"
+  ]
+}

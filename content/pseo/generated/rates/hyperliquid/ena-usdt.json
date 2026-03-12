@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "ena-usdt",
+    "base": "ENA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ENA/USDT Funding Rate on Hyperliquid DEX - 1h Intervals",
+    "description": "Track ENA/USDT perpetual funding rates on Hyperliquid's on-chain order book DEX. 1-hour funding intervals, 0.02% maker fees, no KYC required.",
+    "keywords": [
+      "ENA funding rate",
+      "Hyperliquid DEX",
+      "perpetual futures",
+      "funding rate arbitrage",
+      "on-chain trading",
+      "ENA/USDT",
+      "1-hour funding",
+      "DeFi derivatives"
+    ]
+  },
+  "content": {
+    "intro": "ENA/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities through the platform's native L1 blockchain and 1-hour funding intervals. As a fully on-chain order book DEX, Hyperliquid provides transparent funding rate calculations with sub-second finality for position adjustments.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using a time-weighted average of the premium between perpetual and spot prices. The funding rate is exchanged between long and short positions at the top of each hour, with payments processed automatically on-chain. Unlike traditional CEXs, all funding calculations are verifiable on Hyperliquid's L1, providing complete transparency. The 1-hour interval allows for more frequent arbitrage opportunities compared to 8-hour funding cycles on other exchanges.",
+    "why_this_pair": "ENA (Ethena) perpetuals exhibit significant funding rate volatility due to the token's role in synthetic dollar protocols and yield farming activities. The mid-tier trading volume creates opportunities for rate discrepancies between Hyperliquid and other venues. ENA's connection to stablecoin yields and delta-neutral strategies often drives funding rates into profitable arbitrage territories.",
+    "sections": [
+      {
+        "heading": "Historical ENA Funding Patterns",
+        "body": "ENA funding rates on Hyperliquid typically range from -0.01% to +0.03% per hour, with significant spikes during yield farming events and protocol updates. The token's relationship to USDe yields creates periodic funding rate cycles, often correlating with Ethena protocol announcements. During high-demand periods for ENA exposure, funding rates can reach +0.05% hourly, creating substantial arbitrage opportunities. The 1-hour funding frequency on Hyperliquid often shows different patterns compared to 8-hour cycles elsewhere, particularly during Asian trading hours."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between Hyperliquid and Binance/OKX often yields 0.1-0.3% daily returns during funding rate divergences. The key advantage is Hyperliquid's hourly funding versus competitors' 8-hour cycles, allowing for faster position adjustments. Traders can exploit temporary imbalances when ENA experiences sudden price movements or protocol-related news. The on-chain nature provides instant settlement without withdrawal delays, crucial for maintaining delta-neutral positions across venues."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Hyperliquid's single-chain ecosystem poses concentration risk, though the platform's sub-second finality reduces execution risk significantly. USDC-only settlements require additional consideration for USDT-based strategies, though stablecoin spreads are typically minimal. The newer platform has limited track record compared to established CEXs, requiring smaller initial position sizes. ENA's volatility can create liquidation risks during funding collection periods, particularly with leveraged arbitrage positions exceeding 5x."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does ENA funding rate update on Hyperliquid?",
+        "answer": "ENA funding rates on Hyperliquid update every hour at the top of the hour. This is more frequent than most exchanges which use 8-hour intervals, providing more arbitrage opportunities but requiring active monitoring."
+      },
+      {
+        "question": "What makes Hyperliquid's ENA funding different from CEXs?",
+        "answer": "Hyperliquid's fully on-chain order book means all funding calculations are transparent and verifiable. The 1-hour funding intervals and sub-second finality enable faster arbitrage strategies compared to traditional centralized exchanges."
+      },
+      {
+        "question": "Can I trade ENA perpetuals on Hyperliquid without KYC?",
+        "answer": "Yes, Hyperliquid requires no KYC verification for trading ENA perpetuals. You only need to connect a compatible wallet to access the platform's full trading functionality and funding rate opportunities."
+      },
+      {
+        "question": "What's the maximum leverage for ENA/USDT on Hyperliquid?",
+        "answer": "Hyperliquid typically offers up to 20x leverage for ENA/USDT perpetuals, though this can vary based on market conditions and liquidity. For funding rate arbitrage, most traders use 3-5x leverage to manage risk effectively."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "uni-usdt",
+    "ada-usdt",
+    "bnb-usdt",
+    "doge-usdt"
+  ]
+}

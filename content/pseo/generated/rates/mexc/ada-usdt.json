@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ada-usdt",
+    "base": "ADA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEXC ADA/USDT Funding Rate - Perpetual Futures Arbitrage",
+    "description": "Track ADA/USDT funding rates on MEXC for arbitrage opportunities. 8-hour intervals, zero maker fees, and high leverage options for perp trading.",
+    "keywords": [
+      "MEXC ADA funding rate",
+      "ADA USDT perpetual futures",
+      "Cardano funding arbitrage",
+      "MEXC perp trading",
+      "ADA funding rate history",
+      "MEXC zero maker fees",
+      "ADA USDT arbitrage",
+      "Cardano futures trading"
+    ]
+  },
+  "content": {
+    "intro": "ADA/USDT perpetual futures on MEXC offer funding rate arbitrage opportunities with 8-hour settlement intervals and zero maker fees. MEXC's aggressive listing strategy and growing perpetual volumes make it an attractive venue for Cardano futures trading.",
+    "how_funding_works": "MEXC calculates ADA/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium between the perpetual price and mark price. The funding rate is capped at ±2.0% per period to prevent extreme volatility. Long positions pay shorts when rates are positive, with settlements occurring automatically for open positions at funding times. Zero maker fees on MEXC allow for cost-effective position entry when capturing funding payments.",
+    "why_this_pair": "ADA/USDT represents a high-volume Layer 1 pair that frequently exhibits funding rate inefficiencies due to retail sentiment and staking yield considerations. Cardano's large market cap provides sufficient liquidity for meaningful arbitrage positions, while its periodic development updates create predictable funding rate patterns.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ADA/USDT funding rates on MEXC typically range between -0.5% to +1.5% per 8-hour period, with higher positive rates during ecosystem updates and parachain developments. During the Vasil hard fork period, rates consistently exceeded +0.8% for over two weeks. The pair shows strong correlation with broader smart contract platform sentiment, often following similar patterns to ETH and SOL funding rates. Weekend periods frequently see reduced volatility and more neutral funding rates around 0.01-0.05%."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create advantageous conditions for funding rate arbitrage on ADA/USDT, eliminating entry costs for market makers. Cross-exchange arbitrage opportunities emerge when MEXC rates deviate significantly from Binance or OKX, particularly during high volatility periods. The 8-hour funding interval allows for strategic position timing, with optimal entry typically 2-3 hours before funding to capture premium buildup. High leverage options up to 125x enable capital-efficient strategies, though position sizing should account for MEXC's sometimes thinner order books during volatile periods."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEXC's order book depth for ADA/USDT can be limited compared to tier-1 exchanges, creating slippage risk during rapid market movements or large position adjustments. The exchange's regulatory status and volume reporting practices introduce counterparty risk considerations for larger arbitrage operations. Funding rate calculations may be subject to manipulation during low-volume periods, and MEXC's aggressive delisting policies require monitoring for any changes to ADA/USDT availability. Auto-deleveraging risk increases during extreme market conditions due to potentially limited market maker participation."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are MEXC's funding rate caps for ADA/USDT?",
+        "answer": "MEXC caps ADA/USDT funding rates at ±2.0% per 8-hour period (±6.0% daily equivalent). This prevents extreme funding payments but can create arbitrage opportunities when other exchanges have different caps or uncapped rates during highly volatile periods."
+      },
+      {
+        "question": "How do zero maker fees affect ADA funding rate arbitrage?",
+        "answer": "Zero maker fees on MEXC eliminate entry costs for limit orders, improving arbitrage profitability by 0.03% per trade compared to exchanges charging maker fees. This advantage is particularly significant for high-frequency funding rate strategies where multiple position adjustments are required."
+      },
+      {
+        "question": "What's the minimum position size for ADA/USDT funding payments?",
+        "answer": "MEXC requires a minimum position value of $5 USDT to receive funding payments on ADA/USDT perpetuals. Positions below this threshold will not participate in funding rate settlements, making micro-arbitrage strategies impractical on this venue."
+      },
+      {
+        "question": "How reliable is ADA/USDT liquidity during funding periods?",
+        "answer": "ADA/USDT liquidity on MEXC can vary significantly, with best performance during Asian trading hours when volumes peak. Order book depth typically decreases 30-60 minutes before funding times as traders adjust positions, potentially creating temporary arbitrage opportunities but also increased slippage risk."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fet-usdt",
+    "xrp-usdt",
+    "stx-usdt",
+    "floki-usdt",
+    "w-usdt"
+  ]
+}

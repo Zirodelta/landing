@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Gate.io - AI Token Arbitrage",
+    "description": "Track WLD/USDT perpetual funding rates on Gate.io. Analyze 8-hour cycles, AI token volatility patterns, and arbitrage opportunities with 0.015% maker fees.",
+    "keywords": [
+      "WLD funding rates",
+      "Gate.io perpetual futures",
+      "AI token arbitrage",
+      "funding rate trading",
+      "WLD USDT",
+      "crypto arbitrage",
+      "perpetual swap rates",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Gate.io offer exposure to Worldcoin's funding rate dynamics across 8-hour cycles. As an AI-category token with mid-tier volume, WLD exhibits distinct funding patterns influenced by AI sector sentiment and speculative positioning.",
+    "how_funding_works": "Gate.io calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. Funding payments occur automatically between long and short position holders, with the side in excess paying the minority side. Gate.io's funding rate formula incorporates a base rate component and premium index, with rates typically ranging from -0.375% to +0.375% per cycle.",
+    "why_this_pair": "WLD's association with AI development and identity verification creates unique funding rate opportunities during sector rotations and news cycles. The token's mid-tier volume on Gate.io provides sufficient liquidity for arbitrage while maintaining enough volatility for meaningful rate differentials. AI token narratives often drive sustained directional bias, creating extended periods of consistently positive or negative funding rates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on Gate.io have shown strong correlation with broader AI token sentiment cycles, often spiking during OpenAI announcements or AI regulatory discussions. During bullish AI phases, funding rates frequently exceed +0.2% per 8-hour cycle as leveraged longs accumulate. Conversely, AI sector corrections typically drive funding rates negative as shorts dominate positioning. The token's relatively recent launch means historical data spans shorter periods, but patterns suggest higher volatility in funding rates compared to established DeFi tokens."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "WLD's funding rate arbitrage potential stems from its sensitivity to AI sector news flow and retail speculation patterns. Successful strategies often involve monitoring OpenAI development updates, Sam Altman's public statements, and broader AI investment trends that precede funding rate movements. Gate.io's 0.015% maker fees create favorable conditions for delta-neutral strategies when funding rates exceed 0.1% per cycle. Cross-exchange arbitrage opportunities frequently emerge between Gate.io and other venues during high-volatility periods when funding rate divergences widen significantly."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "WLD's AI token classification introduces sector-specific risks including regulatory uncertainty around digital identity projects and OpenAI's centralized control over Worldcoin development. The token's mid-tier volume can result in increased slippage during volatile periods, particularly affecting larger arbitrage positions. Funding rate strategies must account for WLD's tendency toward gap movements on AI-related news, which can create substantial mark-to-market risk in delta-neutral positions. Position sizing should reflect the token's higher volatility profile and potential for rapid sentiment shifts in the AI sector."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WLD funding rates calculated on Gate.io?",
+        "answer": "Gate.io calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. Payments are automatically processed between long and short position holders at these times based on the calculated rate."
+      },
+      {
+        "question": "What factors influence WLD funding rates most significantly?",
+        "answer": "WLD funding rates are primarily driven by AI sector sentiment, OpenAI announcements, and speculation around digital identity adoption. Leveraged positioning tends to spike during AI narrative cycles, creating sustained periods of elevated funding rates."
+      },
+      {
+        "question": "What are typical WLD funding rate ranges on Gate.io?",
+        "answer": "WLD funding rates typically range from -0.2% to +0.3% per 8-hour cycle under normal conditions. During high volatility AI sector events, rates can spike beyond ±0.4% as leveraged positioning becomes heavily skewed in one direction."
+      },
+      {
+        "question": "How does WLD's volume affect funding rate arbitrage execution?",
+        "answer": "WLD's mid-tier volume provides adequate liquidity for most arbitrage strategies while maintaining enough inefficiency for profitable opportunities. However, position sizes above $50,000 may experience increased slippage during volatile periods when bid-ask spreads widen."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "ftm-usdt",
+    "link-usdt",
+    "sol-usdt",
+    "apt-usdt"
+  ]
+}

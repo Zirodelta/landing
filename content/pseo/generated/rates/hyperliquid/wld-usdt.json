@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Hyperliquid - DEX Arbitrage",
+    "description": "Track WLD/USDT funding rates on Hyperliquid DEX with 1-hour intervals. Analyze AI token arbitrage opportunities with on-chain order book execution.",
+    "keywords": [
+      "wld funding rates",
+      "hyperliquid dex",
+      "worldcoin arbitrage",
+      "ai token funding",
+      "on-chain perpetuals",
+      "1-hour funding",
+      "defi arbitrage",
+      "wld perp trading"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetuals on Hyperliquid offer unique funding rate arbitrage opportunities through the platform's 1-hour funding intervals and fully on-chain order book. As Worldcoin's AI narrative drives retail interest, WLD frequently experiences elevated funding rates during momentum phases, creating profitable arbitrage windows for sophisticated traders.",
+    "how_funding_works": "Hyperliquid calculates WLD/USDT funding rates every hour based on the premium between perpetual and spot prices, with payments exchanged between long and short positions. The platform's on-chain order book ensures transparent price discovery without relying on external oracle feeds. Funding rates are applied continuously throughout each hour, with the rate fixed at the start of each interval. Hyperliquid's sub-second finality allows for precise entry and exit timing around funding payments.",
+    "why_this_pair": "WLD exhibits volatile funding patterns due to its connection to AI/ML narratives and retail trading activity around Worldcoin developments. The token's mid-tier volume on Hyperliquid creates opportunities for funding rate divergence from larger CEXes, especially during AI sector rotations. WLD's correlation with broader AI tokens makes it useful for sector-specific arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on Hyperliquid typically range from -0.05% to +0.15% per hour during normal market conditions, with extreme spikes reaching 0.30%+ during AI narrative-driven rallies. The token shows pronounced funding rate volatility around Worldcoin project milestones, protocol updates, and broader AI sector news cycles. Funding rates often turn negative during broader crypto downturns as leveraged longs get liquidated. The 1-hour funding frequency on Hyperliquid means WLD funding compounds more rapidly than traditional 8-hour systems, amplifying both costs and opportunities."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "WLD funding arbitrage opportunities emerge when Hyperliquid's rates diverge significantly from Binance, OKX, or Bybit due to different user bases and funding mechanisms. The DEX's smaller WLD open interest compared to major CEXes can create temporary rate dislocations, especially during high volatility periods. Cross-exchange arbitrage works well by shorting WLD on Hyperliquid during high positive funding while hedging long positions on CEXes with lower rates. The platform's instant settlement and no KYC requirements enable rapid position adjustments for funding rate scalping strategies."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WLD's AI token classification makes it susceptible to narrative-driven volatility that can overwhelm funding rate profits through adverse price movements. Hyperliquid's USDC-only ecosystem requires additional stablecoin conversion risks when arbitraging against USDT-based exchanges. The platform's newer track record and single L1 dependency present smart contract and infrastructure risks not found on established CEXes. Funding rate arbitrage positions may face liquidation risks during WLD's frequent price gaps around major AI sector developments or Worldcoin announcements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes WLD funding rates different on Hyperliquid compared to CEXes?",
+        "answer": "Hyperliquid's 1-hour funding intervals create more frequent rate adjustments compared to 8-hour CEX cycles, leading to higher rate volatility. The DEX's smaller user base and on-chain mechanics can cause funding rates to diverge significantly from major exchanges during high activity periods."
+      },
+      {
+        "question": "How do I monitor WLD funding rate arbitrage opportunities on Hyperliquid?",
+        "answer": "Track Hyperliquid's real-time funding rates through their native interface and compare against Binance, OKX rates using funding rate aggregators. Set up alerts for rate differentials exceeding 0.05% to identify profitable arbitrage windows, considering the 1-hour compounding effect."
+      },
+      {
+        "question": "What are the main risks when trading WLD perpetuals on Hyperliquid?",
+        "answer": "Key risks include WLD's high volatility around AI narrative cycles, Hyperliquid's single-chain dependency, and USDC ecosystem limitations. The platform's newer track record and concentrated liquidity also present risks during extreme market stress or technical issues."
+      },
+      {
+        "question": "Can I earn funding fees by holding WLD positions on Hyperliquid long-term?",
+        "answer": "Long-term funding collection is risky with WLD due to the token's volatility and changing narrative cycles. While short positions can collect funding during bullish periods, the strategy requires active management due to WLD's tendency for sharp price movements that can exceed funding income."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "jup-usdt",
+    "ethfi-usdt",
+    "sui-usdt",
+    "floki-usdt"
+  ]
+}

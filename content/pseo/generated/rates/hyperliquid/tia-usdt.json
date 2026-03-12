@@ -1,0 +1,68 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rate on Hyperliquid - Arbitrage Guide",
+    "description": "Track TIA/USDT funding rates on Hyperliquid DEX. Analyze 1-hour intervals, on-chain order book mechanics, and arbitrage opportunities for Celestia futures.",
+    "keywords": [
+      "TIA funding rate",
+      "Hyperliquid arbitrage",
+      "Celestia futures",
+      "DEX perpetuals",
+      "on-chain funding",
+      "1-hour rates"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT on Hyperliquid offers unique arbitrage opportunities through its 1-hour funding intervals and fully on-chain order book. As Celestia's modular blockchain narrative drives trading interest, funding rates often deviate from other exchanges due to Hyperliquid's distinct user base and mechanics.",
+    "how_funding_works": "Hyperliquid calculates TIA/USDT funding rates every hour based on the premium between perpetual and spot prices, with payments occurring at the top of each hour. The on-chain order book ensures transparent rate calculations without off-chain manipulation. Funding payments are settled instantly in USDC, with rates typically ranging from -0.01% to 0.01% per hour during normal market conditions.",
+    "why_this_pair": "TIA represents one of the most liquid infrastructure tokens on Hyperliquid, making it suitable for funding rate arbitrage. The pair benefits from Celestia's growing ecosystem adoption and modular blockchain development, creating consistent trading volume. Hyperliquid's 1-hour intervals provide more frequent arbitrage opportunities compared to traditional 8-hour funding cycles.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "TIA funding rates on Hyperliquid typically exhibit higher volatility than established assets due to its infrastructure token nature and news-driven price movements. During major Celestia network updates or ecosystem announcements, funding rates can spike above 0.05% hourly as traders position for momentum. The 1-hour intervals create more granular rate discovery, often showing intraday patterns where rates oscillate between positive and negative territory. Compared to 8-hour funding cycles on other exchanges, Hyperliquid's TIA rates tend to normalize faster after extreme market events."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The most profitable TIA arbitrage opportunities arise from rate divergence between Hyperliquid's hourly cycles and other exchanges' 8-hour cycles. Traders can exploit timing mismatches where Hyperliquid rates remain elevated while other venues reset to neutral. The on-chain settlement eliminates counterparty risk, making it safer to hold positions during volatile periods. Cross-DEX arbitrage with centralized exchanges becomes particularly attractive when Hyperliquid's rates exceed 0.02% hourly, equivalent to 0.48% daily if sustained."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "TIA's infrastructure token status creates correlation risks with broader blockchain development sentiment, potentially causing rapid funding rate reversals. Hyperliquid's single-chain architecture means network congestion during high volatility could impact position management and funding settlements. The USDC-only margin requirement creates additional currency risk for traders using other stablecoins. Limited order book depth compared to major CEX venues can lead to slippage during large arbitrage trades, especially during funding payment times when volume concentrates."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does TIA funding rate calculation work on Hyperliquid's on-chain system?",
+        "answer": "Hyperliquid calculates TIA funding rates using the time-weighted premium between the perpetual mark price and underlying spot price over each hour. The on-chain order book ensures transparent price discovery, with the funding rate capped at ±0.75% per hour to prevent extreme scenarios."
+      },
+      {
+        "question": "What makes TIA funding arbitrage different on Hyperliquid vs centralized exchanges?",
+        "answer": "Hyperliquid's 1-hour funding intervals provide 8x more frequent arbitrage opportunities compared to standard 8-hour cycles. The fully on-chain settlement eliminates custodial risk, while the DEX's unique trader composition often creates rate divergences from CEX venues."
+      },
+      {
+        "question": "How does Celestia ecosystem news impact TIA funding rates on Hyperliquid?",
+        "answer": "Major Celestia developments like network upgrades or new rollup integrations typically drive asymmetric funding rates as traders position directionally. Hyperliquid's 1-hour cycles allow faster rate normalization after news events compared to exchanges with longer funding periods."
+      },
+      {
+        "question": "What are the main risks when arbitraging TIA funding rates on Hyperliquid?",
+        "answer": "Key risks include TIA's correlation with infrastructure token sentiment, potential network congestion affecting settlements, and limited liquidity during volatile periods. The USDC margin requirement also creates basis risk for traders using other assets as collateral."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "jto-usdt",
+    "ordi-usdt",
+    "pepe-usdt",
+    "apt-usdt"
+  ]
+}

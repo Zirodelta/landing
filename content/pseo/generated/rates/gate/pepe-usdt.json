@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "Gate.io PEPE/USDT Funding Rates - Meme Coin Arbitrage",
+    "description": "Track PEPE/USDT perpetual funding rates on Gate.io. 8-hour funding intervals, 0.015% maker fees, and high volatility create arbitrage opportunities.",
+    "keywords": [
+      "PEPE funding rates",
+      "Gate.io perpetuals",
+      "meme coin arbitrage",
+      "PEPE USDT futures",
+      "8 hour funding",
+      "crypto arbitrage",
+      "Gate funding rates"
+    ]
+  },
+  "content": {
+    "intro": "Gate.io's PEPE/USDT perpetual futures feature 8-hour funding intervals with rates that often spike during meme coin rallies. The exchange's low 0.015% maker fees and broad token coverage make it attractive for funding rate arbitrage on volatile assets like PEPE.",
+    "how_funding_works": "Gate.io calculates PEPE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The funding rate is capped at ±2% per interval to prevent extreme rates. Long positions pay short positions when rates are positive, while shorts pay longs during negative funding periods. Settlement occurs automatically in USDT regardless of position size.",
+    "why_this_pair": "PEPE/USDT exhibits extreme funding rate volatility during meme coin cycles, often reaching the ±2% cap during viral social media events. Gate.io's extensive meme coin coverage allows for cross-pair arbitrage strategies using correlated tokens. The pair's large trading volume ensures sufficient liquidity for substantial arbitrage positions.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "PEPE funding rates on Gate.io show distinct patterns tied to social media sentiment and broader meme coin cycles. During the May 2023 PEPE surge, funding rates consistently hit the +2% cap for multiple 8-hour periods, generating substantial returns for short position holders. Weekend periods typically see reduced volatility but can experience sudden spikes during Asian trading hours. The correlation with other meme tokens like DOGE and SHIB creates predictable rate movements during sector-wide rallies."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Gate.io's PEPE funding rates often diverge significantly from other exchanges due to retail trader concentration and limited arbitrage capital. Cross-exchange spreads of 0.5-1.5% are common during high volatility periods. The 8-hour funding frequency creates opportunities for position timing around rate publication at UTC intervals. Gate.io's low maker fees (0.015%) allow for frequent position adjustments while maintaining profitability on smaller spreads."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "PEPE's extreme price volatility can quickly overwhelm funding rate profits, with 20-50% daily moves common during meme cycles. Gate.io's 2% funding rate cap limits maximum returns but also reduces extreme losses. Position sizing must account for potential margin calls during rapid price movements, as PEPE can gap significantly between funding periods. Correlation risk with other meme tokens can amplify losses during sector-wide selloffs, making diversification across asset classes essential."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What's the maximum funding rate for PEPE/USDT on Gate.io?",
+        "answer": "Gate.io caps PEPE/USDT funding rates at ±2% per 8-hour period. This translates to a maximum of ±6% daily if rates hit the cap consistently across all three funding intervals."
+      },
+      {
+        "question": "How does Gate.io calculate PEPE funding rates?",
+        "answer": "Gate.io uses a time-weighted average premium between the PEPE/USDT perpetual price and the underlying spot index over each 8-hour period. The calculation includes impact from the interest rate component, typically 0.01% for USDT pairs."
+      },
+      {
+        "question": "Can I hedge PEPE funding positions with spot holdings?",
+        "answer": "Yes, Gate.io offers PEPE spot trading with sufficient liquidity for hedging strategies. However, be aware that spot-perp arbitrage requires careful management of funding timing and potential basis risk during volatile periods."
+      },
+      {
+        "question": "What's the minimum position size for PEPE/USDT perpetuals?",
+        "answer": "Gate.io's PEPE/USDT perpetual has a minimum order size of 1,000 PEPE tokens. Given PEPE's low price, this represents a minimal capital requirement, making the pair accessible for smaller arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "sui-usdt",
+    "doge-usdt",
+    "imx-usdt",
+    "xrp-usdt"
+  ]
+}

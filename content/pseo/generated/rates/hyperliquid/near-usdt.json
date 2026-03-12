@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rate Arbitrage on Hyperliquid DEX",
+    "description": "Trade NEAR/USDT perpetuals on Hyperliquid with 1-hour funding intervals. Analyze funding rates for arbitrage opportunities on this L1 DEX platform.",
+    "keywords": [
+      "NEAR funding rate",
+      "Hyperliquid arbitrage",
+      "NEAR perpetual futures",
+      "DEX funding rates",
+      "1 hour funding",
+      "NEAR USDT trading",
+      "on-chain perpetuals",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetual futures on Hyperliquid offer unique arbitrage opportunities with 1-hour funding intervals and fully on-chain execution. As a Layer 1 protocol token, NEAR exhibits distinct funding rate patterns influenced by ecosystem developments and validator staking dynamics.",
+    "how_funding_works": "Hyperliquid calculates NEAR/USDT funding rates every hour using a weighted average of the premium between perpetual and spot prices. The fully on-chain order book ensures transparent rate determination without centralized manipulation. Funding payments occur at the top of each hour, with rates typically ranging from -0.01% to 0.01% per hour. The L1 DEX architecture means all funding calculations are verifiable on-chain, providing transparency not available on centralized exchanges.",
+    "why_this_pair": "NEAR's mid-tier trading volume creates sufficient liquidity for meaningful arbitrage positions while maintaining volatility that generates funding rate spreads. The token's correlation with broader L1 narratives and staking yields often creates predictable funding patterns during ecosystem announcements or protocol updates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on Hyperliquid typically trend positive during ecosystem growth phases, reflecting bullish sentiment toward the NEAR protocol. Rates often spike above 0.005% hourly during major Aurora or NEAR Foundation announcements. The 1-hour intervals create more granular arbitrage windows compared to traditional 8-hour funding cycles. Historical data shows increased volatility correlation with validator set changes and staking reward adjustments. Weekend funding rates tend to compress as institutional activity decreases."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The hourly funding schedule creates 24 distinct arbitrage windows daily, allowing for more precise position timing than traditional perpetual markets. NEAR's moderate volatility generates funding rate dislocations during rapid price movements, especially when correlated with broader L1 sector rotations. Cross-DEX arbitrage opportunities emerge when Hyperliquid's on-chain transparency attracts different trader demographics than CEX platforms. The USDC-only collateral requirement simplifies funding calculations and eliminates currency conversion complexities."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Hyperliquid's single-chain architecture creates concentration risk if the L1 experiences downtime or congestion during high-volatility periods. The newer platform lacks the multi-year track record of established exchanges, introducing counterparty risk considerations. NEAR's correlation with Ethereum ecosystem developments can create unexpected funding rate movements during broader market rotations. The DEX's USDC-only model creates additional conversion steps for traders holding other stablecoins. Limited institutional adoption compared to major CEXs may result in lower overall liquidity during stress events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does NEAR's staking yield affect funding rates on Hyperliquid?",
+        "answer": "NEAR's ~10% staking yield creates a natural positive bias in funding rates as traders demand compensation for opportunity cost. When staking yields increase, funding rates often trend higher as the cost of holding perpetual positions relative to staking increases."
+      },
+      {
+        "question": "What makes Hyperliquid's 1-hour funding better for NEAR arbitrage?",
+        "answer": "The hourly intervals allow traders to capitalize on NEAR's moderate volatility more precisely than 8-hour cycles. This is particularly valuable during NEAR ecosystem announcements when price movements and funding dislocations can be short-lived."
+      },
+      {
+        "question": "How does on-chain execution affect NEAR funding rate accuracy?",
+        "answer": "Hyperliquid's fully on-chain order book ensures funding rate calculations are transparent and manipulation-resistant. All NEAR price feed data and funding computations are verifiable on-chain, eliminating concerns about centralized rate manipulation."
+      },
+      {
+        "question": "What NEAR-specific events typically cause funding rate spikes?",
+        "answer": "Aurora network updates, NEAR Foundation grant announcements, and validator set changes often drive funding rate volatility. Ecosystem developments like new dApp launches or partnership announcements can create sustained positive funding periods lasting several days."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "fet-usdt",
+    "btc-usdt",
+    "sui-usdt",
+    "jup-usdt"
+  ]
+}

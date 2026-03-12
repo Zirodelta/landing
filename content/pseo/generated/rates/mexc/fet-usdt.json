@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on MEXC - Perp Arbitrage Guide",
+    "description": "Track FET/USDT perpetual funding rates on MEXC exchange. Zero maker fees with 8-hour funding cycles for AI token arbitrage opportunities.",
+    "keywords": [
+      "FET MEXC funding rates",
+      "FET USDT perpetual",
+      "AI token arbitrage",
+      "MEXC zero maker fees",
+      "Fetch.ai funding",
+      "crypto rate arbitrage",
+      "perpetual futures trading",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetuals on MEXC offer unique arbitrage opportunities due to the exchange's zero maker fee structure and aggressive AI token listings. The 8-hour funding cycle creates predictable rate patterns for this mid-cap AI token.",
+    "how_funding_works": "MEXC calculates FET/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The exchange uses a dampening mechanism to smooth extreme rate swings typical in AI tokens. Long positions pay short positions when rates are positive, with settlements occurring automatically in your USDT balance. Zero maker fees on MEXC mean you can enter positions cost-effectively when hunting funding rate premiums.",
+    "why_this_pair": "FET represents Fetch.ai, an AI agent platform that often experiences high volatility and funding rate premiums during AI narrative cycles. MEXC's first-to-list strategy means they often have exclusive FET perpetual access before larger exchanges, creating isolated arbitrage opportunities with less competition.",
+    "sections": [
+      {
+        "heading": "FET Funding Rate Patterns",
+        "body": "FET/USDT funding rates on MEXC typically range from -0.05% to +0.15% during normal market conditions, but can spike to +0.75% during AI hype cycles. Historical data shows rates tend to be most positive during Asian trading hours when retail FOMO peaks. The token's mid-cap status means funding rates are more volatile than major cryptocurrencies but less extreme than micro-caps. Rate reversals often occur when FET approaches psychological resistance levels like $0.50 or $1.00."
+      },
+      {
+        "heading": "MEXC Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create significant advantages for funding rate arbitrage on FET/USDT compared to exchanges charging 0.02-0.05% maker fees. The exchange's thinner order books mean larger position sizes can impact funding calculations more than on Binance or OKX. Cross-exchange arbitrage opportunities emerge when MEXC's FET perpetual trades at premiums to spot prices on Binance or Coinbase. However, MEXC's questionable volume reporting means actual liquidity may be lower than displayed, requiring careful position sizing."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FET's AI sector correlation means funding rates can shift rapidly during broader tech selloffs or AI narrative changes. MEXC's limited regulatory compliance creates counterparty risk that must be weighed against potential funding rate profits. The exchange's aggressive listing strategy means FET perpetual liquidity can be fragmented across multiple venues, affecting arbitrage execution. Position sizes should be limited to 2-5% of daily volume to avoid slippage, and stop-losses are crucial given FET's 20-40% daily volatility potential."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FET/USDT funding rates on MEXC?",
+        "answer": "FET/USDT funding rates on MEXC typically range from -0.05% to +0.15% during normal conditions, with spikes up to +0.75% during AI sector rallies. The 8-hour funding cycle means you can earn or pay these rates three times daily."
+      },
+      {
+        "question": "How do MEXC's zero maker fees affect FET arbitrage profitability?",
+        "answer": "Zero maker fees on MEXC significantly improve FET funding rate arbitrage returns since you avoid 0.02-0.05% entry costs charged by competitors. This means funding rates as low as +0.03% can be profitable after accounting for execution risks."
+      },
+      {
+        "question": "Is FET/USDT liquid enough for large arbitrage positions on MEXC?",
+        "answer": "FET/USDT on MEXC has moderate liquidity suitable for positions up to $50,000-100,000 without significant slippage. However, order book depth is thinner than on Binance, so larger arbitrage positions should be executed gradually."
+      },
+      {
+        "question": "What risks should I consider for FET funding rate arbitrage on MEXC?",
+        "answer": "Key risks include MEXC's regulatory uncertainty, FET's high volatility during AI narrative shifts, and potential liquidity issues during market stress. The exchange's volume reporting accuracy is also questioned, making actual trading conditions less predictable than major exchanges."
+      }
+    ]
+  },
+  "related_pairs": [
+    "fil-usdt",
+    "btc-usdt",
+    "trx-usdt",
+    "aave-usdt",
+    "eth-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "KuCoin PEPE/USDT Funding Rates - Perp Arbitrage Guide",
+    "description": "Track KuCoin PEPE/USDT perpetual funding rates every 8 hours. Find arbitrage opportunities with detailed analysis of meme coin perp dynamics.",
+    "keywords": [
+      "KuCoin funding rates",
+      "PEPE USDT perpetual",
+      "meme coin arbitrage",
+      "funding rate arbitrage",
+      "PEPE perp trading",
+      "KuCoin arbitrage",
+      "perpetual futures funding"
+    ]
+  },
+  "content": {
+    "intro": "KuCoin's PEPE/USDT perpetual futures contract offers funding rate arbitrage opportunities with 8-hour settlement intervals. As one of the most actively traded meme coin perpetuals, PEPE exhibits volatile funding dynamics driven by retail sentiment and speculative positioning.",
+    "how_funding_works": "KuCoin calculates PEPE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount to spot price. The funding fee is exchanged between long and short position holders based on the 8-hour rate, with KuCoin charging 0.02% maker and 0.06% taker fees. Position holders at settlement time pay or receive funding based on their position size and the prevailing rate.",
+    "why_this_pair": "PEPE/USDT on KuCoin presents compelling arbitrage opportunities due to frequent disconnects between perpetual and spot pricing during meme coin rallies. The pair's high volatility and retail-driven momentum create periods of elevated funding rates, particularly during viral social media cycles. KuCoin's decent PEPE perpetual liquidity and spot trading volume enable effective delta-neutral strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on KuCoin have ranged from -0.2% to +0.8% during major price movements, with positive rates dominating during meme coin rallies. The pair exhibits cyclical funding patterns aligned with broader meme coin sentiment cycles, typically showing elevated positive rates during weekend retail trading sessions. Historical data shows funding rates often spike above +0.1% during viral social media events or celebrity endorsements. Rate persistence tends to be lower than major cryptocurrencies, with mean reversion occurring within 24-48 hours of extreme readings."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Delta-neutral arbitrage becomes profitable when PEPE funding rates exceed 0.05% (equivalent to 13% APR), accounting for KuCoin's trading fees and potential slippage. Cross-exchange arbitrage opportunities emerge when KuCoin's rates diverge significantly from Binance or OKX, particularly during periods of high PEPE volatility. The optimal strategy involves shorting PEPE perpetuals on KuCoin while simultaneously buying spot PEPE, capturing funding payments while maintaining market-neutral exposure. Position sizing should account for PEPE's high volatility and potential margin requirements during adverse price movements."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "PEPE's extreme volatility can trigger margin calls on leveraged arbitrage positions, requiring careful risk management and adequate collateral buffers. KuCoin's moderate perpetual liquidity means large position adjustments may impact funding calculations or create execution slippage during volatile periods. Regulatory uncertainty around KuCoin following 2023 SEC charges adds counterparty risk for arbitrage strategies requiring extended position holding periods. Meme coin fundamentals remain speculative, creating tail risks where traditional arbitrage assumptions may not hold during extreme market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes PEPE funding rates on KuCoin different from other exchanges?",
+        "answer": "KuCoin's PEPE funding rates often trade at premiums to larger exchanges due to its retail-focused user base and strong altcoin trading culture. The exchange's 8-hour funding intervals and moderate liquidity can create temporary rate dislocations during high volatility periods."
+      },
+      {
+        "question": "How volatile are PEPE/USDT funding rates compared to major cryptocurrencies?",
+        "answer": "PEPE funding rates exhibit 3-5x higher volatility than BTC or ETH rates, frequently swinging from negative to positive within single funding periods. This volatility creates both opportunities and risks for arbitrage strategies requiring precise timing and risk management."
+      },
+      {
+        "question": "What position sizes are optimal for PEPE funding arbitrage on KuCoin?",
+        "answer": "Optimal position sizes typically range from $10,000-$50,000 per strategy to balance funding capture with liquidity constraints. Larger positions may impact KuCoin's funding rate calculations or face execution challenges during volatile meme coin trading sessions."
+      },
+      {
+        "question": "How does KuCoin's regulatory situation affect PEPE arbitrage strategies?",
+        "answer": "KuCoin's ongoing regulatory challenges may impact withdrawal processing or platform stability during extended arbitrage positions. Traders should maintain contingency plans and avoid concentrating large capital in single-exchange strategies for extended periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "matic-usdt",
+    "btc-usdt",
+    "blur-usdt",
+    "fil-usdt",
+    "eth-usdt"
+  ]
+}

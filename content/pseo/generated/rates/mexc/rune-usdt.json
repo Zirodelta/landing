@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEXC RUNE/USDT Funding Rate - Perp Futures Trading",
+    "description": "Track MEXC RUNE/USDT perpetual futures funding rates. 8-hour funding cycles with zero maker fees for DeFi token arbitrage opportunities.",
+    "keywords": [
+      "MEXC RUNE funding rate",
+      "RUNE perpetual futures",
+      "THORChain funding arbitrage",
+      "MEXC perp trading",
+      "RUNE USDT futures",
+      "DeFi funding rates",
+      "crypto arbitrage RUNE"
+    ]
+  },
+  "content": {
+    "intro": "MEXC's RUNE/USDT perpetual futures contract offers 8-hour funding rate cycles for THORChain's native token. The exchange's zero maker fee structure can significantly improve arbitrage profitability when combined with RUNE's moderate volatility and DeFi-driven price movements.",
+    "how_funding_works": "MEXC calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the time-weighted average premium between perpetual and spot prices. Funding payments are exchanged between long and short positions based on market sentiment, with rates typically ranging from -0.01% to 0.375% per cycle. The exchange's zero maker fee policy allows traders to capture funding payments while maintaining positions at minimal cost through limit orders.",
+    "why_this_pair": "RUNE exhibits distinct funding patterns due to its role in cross-chain DeFi and liquidity provision on THORChain. The token's price sensitivity to cross-chain volume and yield farming trends creates funding rate opportunities that differ from standard altcoins. MEXC's early listing advantage for DeFi tokens provides access to RUNE funding arbitrage before other major exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE/USDT funding rates on MEXC show strong correlation with THORChain ecosystem developments and cross-chain DeFi adoption cycles. During periods of high DEX volume or new protocol integrations, positive funding rates often exceed 0.1% per 8-hour cycle as speculators drive perpetual premiums. Conversely, market corrections in DeFi sectors frequently push funding rates negative as leveraged longs get squeezed. The token's relatively lower market cap compared to major altcoins creates more volatile funding swings, with rates occasionally reaching extreme levels of ±0.3% during ecosystem announcements."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Timing",
+        "body": "Optimal RUNE funding arbitrage windows typically occur during THORChain protocol updates, major exchange listings, or broader DeFi market rotations when spot-perp basis widens significantly. MEXC's zero maker fees allow for profitable arbitrage even during lower funding rate periods, as position entry/exit costs are minimized. The 8-hour funding cycle provides sufficient time to hedge positions across multiple venues, though traders should monitor RUNE's correlation with cross-chain bridge volumes and liquidity mining rewards. Peak arbitrage opportunities often align with Asia trading hours when retail DeFi speculation increases."
+      },
+      {
+        "heading": "Risk Considerations and Position Management",
+        "body": "RUNE's mid-cap status creates higher price volatility that can offset funding gains if positions aren't properly hedged across spot markets or other exchanges. MEXC's thinner order books for RUNE may cause slippage during rapid market moves, particularly important given the token's susceptibility to whale movements and protocol-related news. Traders should account for potential difficulties in unwinding large positions during volatile periods and monitor THORChain network health, as technical issues can cause sudden price gaps. The correlation between RUNE and broader DeFi sentiment requires careful attention to sector rotation risks."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical RUNE funding rates on MEXC during normal market conditions?",
+        "answer": "RUNE/USDT funding rates on MEXC typically range from -0.01% to 0.1% per 8-hour cycle during normal conditions. Rates tend to be slightly positive due to retail bias toward long positions in DeFi tokens, with occasional spikes during THORChain ecosystem developments."
+      },
+      {
+        "question": "How does MEXC's zero maker fee affect RUNE funding arbitrage profitability?",
+        "answer": "The zero maker fee structure significantly improves RUNE arbitrage margins by eliminating entry costs when using limit orders. This allows profitable arbitrage even during lower funding rate periods and enables more frequent position adjustments to capture smaller rate differentials that wouldn't be viable on fee-charging exchanges."
+      },
+      {
+        "question": "What's the minimum position size for RUNE perpetuals on MEXC?",
+        "answer": "MEXC typically sets minimum order sizes around 1 RUNE for perpetual contracts, making it accessible for smaller arbitrage strategies. However, traders should verify current minimum requirements as they may change based on token price movements and exchange policy updates."
+      },
+      {
+        "question": "How volatile are RUNE funding rates compared to major cryptocurrencies?",
+        "answer": "RUNE funding rates are significantly more volatile than BTC or ETH due to its smaller market cap and DeFi-specific use cases. Rates can swing from strongly negative to positive within single 8-hour cycles during THORChain news events, requiring more active monitoring than traditional crypto funding arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "imx-usdt",
+    "btc-usdt",
+    "inj-usdt",
+    "ada-usdt",
+    "ethfi-usdt"
+  ]
+}

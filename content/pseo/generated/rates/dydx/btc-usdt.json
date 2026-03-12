@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "dYdX BTC/USDT Funding Rates - 1h Arbitrage Trading",
+    "description": "Track dYdX BTC/USDT funding rates with 1-hour intervals. Analyze perpetual futures arbitrage opportunities on the Cosmos-based DEX platform.",
+    "keywords": [
+      "dydx funding rates",
+      "btc usdt perpetual",
+      "dex arbitrage",
+      "cosmos perpetuals",
+      "1 hour funding",
+      "decentralized derivatives",
+      "funding rate arbitrage",
+      "btc perp trading"
+    ]
+  },
+  "content": {
+    "intro": "dYdX's BTC/USDT perpetual futures offer unique funding rate arbitrage opportunities with 1-hour payment intervals on their Cosmos appchain. As the largest decentralized derivatives exchange, dYdX provides institutional-grade BTC perpetuals with competitive maker fees of 0.02%. The platform's migration to Cosmos has created distinct rate patterns compared to centralized exchanges.",
+    "how_funding_works": "dYdX calculates funding rates every hour using the time-weighted average price difference between the perpetual contract and spot index. Funding payments occur at the top of each hour, with rates determined by the 8-hour TWAP of the premium/discount relative to the index price. The decentralized nature means rates can deviate significantly from CEX counterparts, especially during high volatility periods. Position holders pay or receive funding based on whether they're long or short when rates are positive or negative respectively.",
+    "why_this_pair": "BTC/USDT on dYdX represents the highest volume trading pair on the platform, ensuring adequate liquidity for large arbitrage positions. The 1-hour funding frequency provides more granular arbitrage opportunities compared to traditional 8-hour cycles on centralized exchanges. dYdX's Cosmos-based architecture can create rate disconnects from other venues, particularly during network congestion or major market moves.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "dYdX BTC/USDT funding rates typically range from -0.1% to +0.3% annually, with extreme periods reaching ±1% during major market events. The 1-hour cycle creates more volatile short-term rates but smoother long-term averages compared to 8-hour systems. Post-Cosmos migration, rates have shown less correlation with centralized exchanges due to the isolated liquidity pool and different user base composition. During bull markets, rates tend to be persistently positive as retail users maintain long-biased positions."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "dYdX's decentralized structure often creates 10-50 basis point spreads versus major CEXs like Binance and OKX during volatile periods. The 1-hour funding cycle allows for more frequent arbitrage execution compared to traditional 8-hour cycles, potentially capturing 0.1-0.5% monthly returns. Arbitrageurs can exploit rate differentials by going long on dYdX when rates are significantly negative while shorting on CEXs with positive rates. However, gas costs for position management and potential slippage on dYdX must be factored into profitability calculations."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Key risks include dYdX's lower liquidity compared to tier-1 CEXs, which can cause higher slippage during position entries and exits. The Cosmos network dependency introduces smart contract and validator risks not present on centralized platforms. Bridge risks exist when moving collateral between dYdX and other venues for hedging positions. Funding rate convergence risk is significant as dYdX rates may take longer to align with broader market consensus due to its isolated liquidity pool."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does dYdX pay funding rates for BTC/USDT?",
+        "answer": "dYdX pays funding rates every hour for BTC/USDT perpetuals, calculated using an 8-hour TWAP methodology. Payments occur at the top of each hour based on your position size at that moment."
+      },
+      {
+        "question": "What's the maximum funding rate on dYdX BTC/USDT?",
+        "answer": "dYdX caps funding rates at ±0.75% per 8-hour period (equivalent to ±0.09375% per hour). During extreme market conditions, rates will hit these limits rather than continuing to compound."
+      },
+      {
+        "question": "How do dYdX funding rates compare to Binance for BTC?",
+        "answer": "dYdX rates often diverge 20-100 basis points from Binance due to isolated liquidity and different user composition. The 1-hour cycle creates more frequent but smaller individual payments compared to Binance's 8-hour system."
+      },
+      {
+        "question": "Can I avoid funding fees by closing positions before the hour?",
+        "answer": "Yes, you can avoid funding payments by closing your BTC/USDT position before the hourly funding timestamp. However, frequent position cycling may result in higher trading fees than simply paying the funding rate."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "matic-usdt",
+    "xrp-usdt",
+    "doge-usdt",
+    "sei-usdt"
+  ]
+}

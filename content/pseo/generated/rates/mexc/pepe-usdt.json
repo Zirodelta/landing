@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "pepe-usdt",
+    "base": "PEPE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEXC PEPE/USDT Funding Rate - Arbitrage Analysis",
+    "description": "MEXC PEPE/USDT perpetual futures funding rate data and arbitrage opportunities. Zero maker fees with 8-hour funding cycles for meme token trading.",
+    "keywords": [
+      "MEXC funding rate",
+      "PEPE perpetual futures",
+      "meme token arbitrage",
+      "USDT perps",
+      "8-hour funding",
+      "zero maker fees",
+      "crypto arbitrage",
+      "funding rate analysis"
+    ]
+  },
+  "content": {
+    "intro": "MEXC's PEPE/USDT perpetual futures contract offers unique arbitrage opportunities through its 8-hour funding cycles and zero maker fee structure. As one of the first exchanges to list PEPE perpetuals, MEXC has maintained significant market share for this volatile meme token.",
+    "how_funding_works": "MEXC calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium index. The exchange's zero maker fee policy means long-term position holders only pay funding when rates are negative for their position. MEXC's funding rate formula incorporates both premium and interest rate components, with the interest rate fixed at 0.03% for most pairs. During high volatility periods, MEXC may implement funding rate caps to prevent extreme payments.",
+    "why_this_pair": "PEPE/USDT on MEXC presents compelling arbitrage opportunities due to frequent funding rate imbalances against other major exchanges. The meme token's high volatility and retail-driven sentiment often create persistent funding premiums that sophisticated traders can exploit. MEXC's early listing advantage and substantial PEPE trading volumes make it a key venue for funding rate arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "PEPE/USDT funding rates on MEXC have shown distinct patterns correlating with social media trends and broader meme coin cycles. During peak hype phases, funding rates frequently exceeded +0.5% per 8-hour period, creating substantial costs for long positions. Conversely, during market downturns, negative funding rates below -0.2% have persisted for weeks, rewarding short position holders. The pair exhibits higher funding rate volatility compared to major cryptocurrencies, with coefficient of variation often exceeding 2.0. Weekend periods typically show reduced funding rate volatility as retail participation decreases."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "MEXC's PEPE funding rates often diverge significantly from Binance, OKX, and Bybit due to its retail-heavy user base and aggressive listing strategy. Arbitrageurs can exploit these differences by taking opposite positions across exchanges when funding rate spreads exceed 0.1% per cycle. MEXC's zero maker fees provide additional alpha for market makers managing inventory while capturing funding differentials. The exchange's 100x leverage capability enables capital-efficient arbitrage strategies, though liquidity constraints may limit position sizes during extreme volatility. Cross-exchange funding arbitrage works best during sustained directional moves when sentiment divergence between exchanges persists."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "Trading PEPE perpetuals on MEXC requires careful attention to liquidity risk, especially during major price movements when order book depth diminishes rapidly. The exchange's questionable volume reporting means actual liquidity may be lower than displayed, increasing slippage risk for larger positions. MEXC's limited regulatory compliance creates counterparty risk that must be factored into arbitrage calculations. Position sizing should account for the pair's extreme volatility, with many traders limiting exposure to 1-2% of portfolio value. Funding rate arbitrage strategies should include stop-losses and position monitoring given PEPE's tendency for sudden 50%+ moves that can quickly overwhelm funding profits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is MEXC's funding fee schedule for PEPE/USDT?",
+        "answer": "MEXC charges funding fees every 8 hours at 00:00, 08:00, and 16:00 UTC for PEPE/USDT perpetual contracts. The funding rate is calculated based on the premium between perpetual and spot prices, with payments made between long and short position holders. Funding fees are only charged if you hold a position at these specific times."
+      },
+      {
+        "question": "How do MEXC's zero maker fees affect PEPE funding arbitrage?",
+        "answer": "MEXC's zero maker fee structure provides a significant advantage for funding rate arbitrage on PEPE/USDT as it eliminates trading costs when entering and exiting positions via limit orders. This allows arbitrageurs to capture smaller funding rate differentials that would be unprofitable on exchanges charging 0.02-0.05% maker fees. The cost savings can add 0.04-0.10% to net arbitrage returns per round trip."
+      },
+      {
+        "question": "What are typical PEPE funding rate ranges on MEXC?",
+        "answer": "PEPE/USDT funding rates on MEXC typically range from -0.3% to +0.8% per 8-hour period, significantly higher than major cryptocurrencies. During viral social media events, rates can spike above +1.0%, while prolonged bear markets may see rates drop below -0.5%. The average absolute funding rate over the past year has been approximately 0.15% per cycle."
+      },
+      {
+        "question": "How does MEXC's PEPE liquidity compare to other exchanges?",
+        "answer": "MEXC's PEPE/USDT order book typically maintains 2-5 BTC worth of liquidity within 2% of mid-price, lower than Binance or OKX but sufficient for most retail strategies. During high volatility periods, liquidity can drop substantially, causing wider spreads and higher slippage. Traders should monitor real-time order book depth and consider using smaller position sizes during volatile sessions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pendle-usdt",
+    "apt-usdt",
+    "meme-usdt",
+    "tao-usdt",
+    "pyth-usdt"
+  ]
+}

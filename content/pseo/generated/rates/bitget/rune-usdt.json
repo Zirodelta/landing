@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rates on Bitget - Perpetual Futures",
+    "description": "Discover RUNE/USDT funding rate arbitrage opportunities on Bitget. 8-hour intervals, 0.02% maker fees. Track THORChain token funding patterns.",
+    "keywords": [
+      "RUNE funding rates",
+      "Bitget perpetual futures",
+      "THORChain arbitrage",
+      "RUNE/USDT funding",
+      "DeFi funding rates",
+      "crypto arbitrage",
+      "perpetual funding",
+      "RUNE derivatives"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Bitget offer funding rate arbitrage opportunities through 8-hour settlement intervals. As THORChain's native token experiences DeFi-driven volatility, funding rates often deviate significantly from the standard 0.01% baseline, creating profitable arbitrage windows.",
+    "how_funding_works": "Bitget calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme payments. When RUNE perpetuals trade above spot price, long positions pay shorts, and vice versa when trading below spot.",
+    "why_this_pair": "RUNE funding rates exhibit high volatility due to THORChain's cross-chain liquidity protocol driving speculative interest and yield farming activity. The token's mid-tier volume on Bitget creates opportunities for significant funding rate deviations, especially during DeFi market cycles when liquidity provision demand fluctuates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE funding rates on Bitget typically range from -0.3% to +0.4% per 8-hour period, with extreme spikes reaching the ±0.75% cap during major THORChain protocol updates or cross-chain bridge events. Positive funding dominates during DeFi bull runs when leveraged long positions increase, while negative funding occurs during market downturns or when arbitrageurs short overvalued perpetuals. Weekly analysis shows funding rate clustering around protocol upgrade announcements and major liquidity mining campaign launches."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RUNE funding arbitrage on Bitget benefits from the exchange's competitive 0.02% maker fees and growing derivatives volume. Cross-exchange arbitrage opportunities arise when Bitget's RUNE funding rates deviate significantly from Binance or OKX rates due to different trader sentiment and liquidity pools. Delta-neutral strategies work best when funding rates exceed 0.1% per interval, accounting for trading fees and potential slippage during position adjustments."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RUNE perpetual arbitrage on Bitget carries THORChain-specific risks including smart contract vulnerabilities, cross-chain bridge exploits, and regulatory uncertainty around decentralized liquidity protocols. Bitget's newer market presence means lower overall liquidity compared to established exchanges, potentially causing wider spreads during volatile periods. Position sizing should account for RUNE's correlation with broader DeFi tokens and potential cascade liquidations during market stress events."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical RUNE funding rates on Bitget?",
+        "answer": "RUNE funding rates on Bitget typically range from -0.2% to +0.3% per 8-hour interval, with higher volatility during THORChain protocol events. Extreme rates can reach the ±0.75% cap during major market movements or liquidity mining campaigns."
+      },
+      {
+        "question": "How does Bitget's RUNE liquidity compare to other exchanges?",
+        "answer": "Bitget's RUNE/USDT perpetual maintains moderate liquidity with growing open interest, though generally lower than tier-1 exchanges. This can create wider funding rate deviations but also higher arbitrage potential for experienced traders."
+      },
+      {
+        "question": "When do RUNE funding payments occur on Bitget?",
+        "answer": "RUNE/USDT funding payments on Bitget occur every 8 hours at 00:00, 08:00, and 16:00 UTC. The funding rate is calculated using the previous 8-hour time-weighted average of the perpetual-spot premium."
+      },
+      {
+        "question": "What affects RUNE funding rate volatility on Bitget?",
+        "answer": "RUNE funding rates are primarily influenced by THORChain protocol developments, cross-chain DeFi activity, and yield farming demand. Major announcements, liquidity mining campaigns, and broader DeFi market sentiment significantly impact funding rate patterns."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "wif-usdt",
+    "ordi-usdt",
+    "tao-usdt",
+    "near-usdt"
+  ]
+}

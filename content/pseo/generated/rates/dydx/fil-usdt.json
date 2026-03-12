@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rate on dYdX - Decentralized Perp Trading",
+    "description": "Track FIL/USDT funding rates on dYdX DEX with 1-hour intervals. Analyze Filecoin perpetual futures funding for arbitrage opportunities on Cosmos appchain.",
+    "keywords": [
+      "dydx fil funding rate",
+      "filecoin perpetual futures",
+      "dex funding arbitrage",
+      "fil usdt dydx",
+      "decentralized perp trading",
+      "cosmos appchain trading",
+      "filecoin funding intervals",
+      "dydx arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on dYdX offer unique decentralized funding rate opportunities with 1-hour settlement intervals. As one of the leading infrastructure tokens, Filecoin's funding patterns on dYdX's Cosmos appchain provide distinct arbitrage possibilities compared to centralized exchanges.",
+    "how_funding_works": "dYdX calculates FIL/USDT funding rates using a time-weighted premium index based on the 1-hour mark price versus spot reference. Funding payments occur every hour at minute 0, with rates determined by the 8-hour TWAP of the premium component. The decentralized nature means funding rates often diverge from CEX equivalents due to different liquidity dynamics. Long positions pay funding when rates are positive, while shorts receive payments, with settlements processed automatically through smart contracts.",
+    "why_this_pair": "FIL/USDT presents compelling funding arbitrage opportunities due to Filecoin's volatile storage demand cycles and dYdX's isolated liquidity pool. The infrastructure token's sensitivity to Web3 adoption creates funding rate spikes during storage network upgrades or major partnerships. dYdX's 1-hour intervals allow more responsive arbitrage compared to 8-hour CEX cycles, especially during Filecoin network events.",
+    "sections": [
+      {
+        "heading": "Historical FIL Funding Patterns on dYdX",
+        "body": "FIL funding rates on dYdX have shown distinct patterns during Filecoin network upgrades and storage deal announcements. Rates frequently spike above 0.1% hourly during major ecosystem developments like FVM launches or enterprise adoption news. The decentralized nature creates more volatile funding compared to Binance or OKX, with rates often remaining elevated for 4-6 hour periods. dYdX's isolated FIL liquidity means funding can stay disconnected from broader market trends during Filecoin-specific events."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "FIL funding arbitrage on dYdX benefits from the exchange's 1-hour settlement frequency and frequent rate disconnects from centralized venues. Optimal strategies involve shorting on dYdX during positive funding spikes while hedging long on lower-rate CEXs like Binance. The Cosmos appchain's lower gas costs make frequent position adjustments economical for small funding rate differentials. Cross-DEX arbitrage with Hyperliquid or Vertex can be profitable due to dYdX's isolated FIL market dynamics."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FIL arbitrage on dYdX carries specific risks including smart contract exposure and appchain validator dependencies. The exchange's isolated liquidity can create significant slippage during large position adjustments, especially during Filecoin volatility spikes. Migration-related technical issues periodically affect order execution, requiring careful position sizing and stop-loss planning. Cross-chain bridge risks exist when moving collateral between dYdX and other venues for delta-neutral strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does FIL funding settle on dYdX compared to other exchanges?",
+        "answer": "dYdX settles FIL funding every hour at the top of each hour, compared to 8-hour intervals on most centralized exchanges. This higher frequency allows for more responsive arbitrage opportunities and faster capital efficiency during funding rate spikes."
+      },
+      {
+        "question": "What makes FIL funding rates different on dYdX versus centralized exchanges?",
+        "answer": "dYdX's isolated FIL liquidity pool and decentralized price discovery often create funding rate disconnects from CEXs. The exchange's smaller FIL open interest makes rates more sensitive to individual large positions and Filecoin-specific news events."
+      },
+      {
+        "question": "Are there minimum position sizes for FIL funding arbitrage on dYdX?",
+        "answer": "dYdX has no strict minimum position sizes, but gas costs on the Cosmos appchain make positions under $1,000 less economical for frequent funding arbitrage. The exchange's tick sizes and isolated liquidity favor larger positions for optimal execution."
+      },
+      {
+        "question": "How do dYdX's FIL margin requirements compare for funding arbitrage?",
+        "answer": "FIL perpetuals on dYdX require 10% initial margin with 5% maintenance margin. The isolated margin system allows precise risk management for funding arbitrage strategies without affecting other positions."
+      }
+    ]
+  },
+  "related_pairs": [
+    "xrp-usdt",
+    "sol-usdt",
+    "ada-usdt",
+    "doge-usdt",
+    "pendle-usdt"
+  ]
+}

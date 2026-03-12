@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tao-usdt",
+    "base": "TAO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TAO/USDT Funding Rate Arbitrage on Hyperliquid DEX",
+    "description": "Track TAO/USDT perpetual funding rates on Hyperliquid's on-chain DEX. 1-hour intervals, fully decentralized orderbook, and sub-second finality for AI token arbitrage.",
+    "keywords": [
+      "TAO funding rate",
+      "Hyperliquid arbitrage",
+      "Bittensor perpetuals",
+      "on-chain futures",
+      "AI token trading",
+      "DEX funding rates",
+      "TAO USDT perps",
+      "1-hour funding"
+    ]
+  },
+  "content": {
+    "intro": "TAO/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities in the AI token sector. As Bittensor's native token, TAO exhibits significant volatility and funding rate fluctuations driven by AI market sentiment and network growth.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the premium/discount between perpetual and mark prices. The on-chain orderbook DEX uses a TWAP mechanism over the funding interval, with payments settled automatically in USDC. Long positions pay short positions when funding is positive, and vice versa when negative. The fully transparent on-chain settlement provides real-time visibility into funding calculations without relying on centralized exchange mechanics.",
+    "why_this_pair": "TAO perpetuals often show elevated funding rates due to strong directional bias from AI sector speculation and Bittensor ecosystem developments. The 1-hour funding frequency on Hyperliquid creates more frequent arbitrage opportunities compared to 8-hour intervals on centralized exchanges. TAO's mid-tier volume provides sufficient liquidity for meaningful positions while maintaining funding rate volatility.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "TAO funding rates on Hyperliquid typically range from -0.1% to +0.3% per hour during high volatility periods. The token shows strong positive funding bias during AI market rallies, often exceeding +0.05% hourly when Bittensor network updates or partnerships are announced. Negative funding periods usually coincide with broader crypto market corrections or AI sector rotation. The 1-hour intervals mean daily funding costs can reach 2-7% during extreme market conditions, creating substantial arbitrage opportunities for delta-neutral strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunity Assessment",
+        "body": "Optimal TAO funding arbitrage setups occur when Hyperliquid rates diverge significantly from Binance, OKX, or Bybit 8-hour rates. The hourly settlement allows for precise position sizing and frequent rebalancing compared to traditional 8-hour cycles. Best opportunities arise during Asian trading hours when TAO spot volume concentrates on specific exchanges, creating temporary funding rate dislocations. Cross-venue arbitrage requires monitoring both Hyperliquid's real-time funding and competing exchanges' predicted rates, with execution windows often lasting 2-4 hours."
+      },
+      {
+        "heading": "Risk Considerations and Execution",
+        "body": "Primary risks include Hyperliquid's single L1 ecosystem dependency and USDC-only settlements limiting hedging options. Network congestion during high volatility can affect order execution despite sub-second finality claims. TAO's correlation with AI token sector means funding rate convergence during broad AI selloffs, reducing arbitrage effectiveness. Position sizing should account for potential slippage in TAO spot markets and the risk of sustained one-directional funding that exceeds hedging costs across multiple hourly settlements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are TAO funding rates calculated on Hyperliquid?",
+        "answer": "Hyperliquid calculates and settles TAO funding rates every hour, providing 24 funding payments per day. This higher frequency compared to traditional 8-hour cycles creates more granular arbitrage opportunities but also requires active position management."
+      },
+      {
+        "question": "What's the typical funding rate range for TAO perpetuals?",
+        "answer": "TAO funding rates typically range from -0.05% to +0.15% per hour under normal conditions, but can spike to ±0.3% during major AI sector events or Bittensor network updates. The higher volatility reflects TAO's position as a leading AI infrastructure token."
+      },
+      {
+        "question": "Can I hedge TAO perpetual positions with spot on Hyperliquid?",
+        "answer": "Hyperliquid only supports perpetual futures, so TAO spot hedging must be executed on external exchanges like Binance or OKX. This introduces cross-venue settlement risk and requires careful timing due to the 1-hour funding intervals."
+      },
+      {
+        "question": "What makes TAO funding arbitrage different on a DEX versus CEX?",
+        "answer": "Hyperliquid's on-chain orderbook provides full transparency into funding calculations and settlements, eliminating counterparty risk from centralized exchanges. However, the USDC-only environment and single-chain architecture create unique liquidity and hedging constraints not present on multi-asset CEX platforms."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "render-usdt",
+    "atom-usdt",
+    "apt-usdt",
+    "op-usdt"
+  ]
+}

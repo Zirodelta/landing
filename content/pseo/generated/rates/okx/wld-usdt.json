@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate on OKX - Perpetual Futures Trading",
+    "description": "Track WLD/USDT funding rates on OKX. AI token with mid-tier volume offering steady arbitrage opportunities through OKX's 8-hour funding cycle and portfolio margin.",
+    "keywords": [
+      "WLD funding rate",
+      "OKX perpetual futures",
+      "WLD USDT",
+      "funding rate arbitrage",
+      "Worldcoin trading",
+      "AI crypto funding",
+      "OKX margin trading",
+      "perpetual swap rates"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on OKX provide exposure to Worldcoin's AI-driven identity verification project with consistent funding rate patterns. The 8-hour funding intervals on OKX create structured arbitrage windows, particularly during periods of heightened AI sector interest.",
+    "how_funding_works": "OKX calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index methodology. The exchange applies a base rate of 0.01% with adjustments based on the 8-hour time-weighted average premium between perpetual and spot prices. OKX's portfolio margin system allows cross-collateralization, reducing margin requirements for multi-leg arbitrage strategies. Funding payments occur automatically at settlement times with no manual intervention required.",
+    "why_this_pair": "WLD demonstrates unique funding rate behaviors due to its AI token categorization and retail-driven speculation around identity verification trends. The pair's mid-tier volume provides sufficient liquidity for medium-sized arbitrage positions while avoiding the extreme rate volatility seen in micro-cap tokens. OKX's institutional-grade infrastructure supports automated funding rate strategies through robust API connectivity.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT on OKX has exhibited predominantly positive funding rates averaging 0.015-0.025% per 8-hour period during AI sector rallies. The pair shows distinct weekend funding rate compression, often dropping below 0.005% due to reduced retail activity. Correlation analysis reveals WLD funding rates spike significantly during major AI announcements or ChatGPT-related news cycles, creating predictable arbitrage windows. The token's association with Sam Altman amplifies funding rate volatility around OpenAI developments, with rates occasionally exceeding 0.1% during peak speculation periods."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "OKX's portfolio margin mode enables efficient WLD funding rate arbitrage by reducing total margin requirements across perpetual and spot positions. The exchange's deep integration with multiple spot markets allows for seamless delta-neutral positioning using WLD spot holdings as collateral. Cross-exchange arbitrage opportunities frequently arise between OKX and Binance, particularly when OKX's funding rates deviate by more than 0.02% from competing venues. OKX's maker rebates of -0.02% can offset funding costs during extended arbitrage positions, improving strategy profitability. The platform's advanced order types, including conditional orders, facilitate automated entry and exit strategies based on funding rate thresholds."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WLD's AI token classification introduces sector-specific risks, including regulatory uncertainty around biometric data collection and identity verification protocols. The token's relatively recent launch means limited long-term funding rate data for backtesting strategies. OKX's automatic deleveraging (ADL) system prioritizes profit-and-loss ratios, requiring careful position sizing to avoid forced liquidations during funding rate spikes. Liquidity risks emerge during Asian trading hours when WLD volume typically decreases by 30-40% compared to US sessions. The pair's correlation with broader AI sentiment creates systematic risk where multiple AI tokens may experience simultaneous funding rate dislocations, reducing diversification benefits."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD/USDT funding rates on OKX?",
+        "answer": "WLD/USDT funding rates on OKX typically range from 0.005% to 0.025% per 8-hour period during normal market conditions. During AI sector rallies or Worldcoin-specific news events, rates can spike to 0.05-0.10% or occasionally turn negative during market corrections."
+      },
+      {
+        "question": "How does OKX's portfolio margin affect WLD funding arbitrage?",
+        "answer": "OKX's portfolio margin reduces total margin requirements by 20-40% for WLD arbitrage strategies through cross-collateralization. This allows larger position sizes and improved capital efficiency compared to isolated margin mode, particularly when holding offsetting spot WLD positions."
+      },
+      {
+        "question": "When do WLD funding payments occur on OKX?",
+        "answer": "WLD/USDT funding payments on OKX occur every 8 hours at 00:00, 08:00, and 16:00 UTC. Traders must hold positions at these exact times to pay or receive funding, with the rate calculated based on the 8-hour time-weighted average premium."
+      },
+      {
+        "question": "What's the minimum position size for WLD funding arbitrage on OKX?",
+        "answer": "OKX requires a minimum order size of 0.1 WLD for perpetual futures, making funding arbitrage accessible for smaller accounts. However, effective arbitrage strategies typically require positions of at least 100-500 WLD to overcome trading fees and funding rate fluctuations."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ada-usdt",
+    "shib-usdt",
+    "trx-usdt",
+    "op-usdt",
+    "bonk-usdt"
+  ]
+}

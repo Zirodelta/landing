@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "dot-usdt",
+    "base": "DOT",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "DOT/USDT Funding Rate Arbitrage on Bitget Exchange",
+    "description": "Track DOT/USDT funding rates on Bitget for perpetual futures arbitrage. 8-hour funding intervals with competitive 0.02% maker fees for optimal trading.",
+    "keywords": [
+      "DOT funding rate",
+      "Bitget perpetual futures",
+      "Polkadot arbitrage",
+      "USDT perpetuals",
+      "crypto funding rates",
+      "derivatives trading",
+      "8-hour funding",
+      "Bitget fees"
+    ]
+  },
+  "content": {
+    "intro": "DOT/USDT perpetual futures on Bitget offer funding rate arbitrage opportunities with 8-hour settlement intervals and competitive fee structure. Bitget's growing derivatives platform provides substantial liquidity for Polkadot positions, making it suitable for medium to large arbitrage strategies.",
+    "how_funding_works": "Bitget calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC for DOT/USDT perpetuals. The rate is determined by the premium/discount of the perpetual price relative to the spot index, with payments exchanged directly between long and short position holders. Bitget's funding rate formula incorporates a base rate component plus the 8-hour time-weighted average premium, capped at ±0.75% per funding period.",
+    "why_this_pair": "DOT/USDT on Bitget benefits from high trading volume and institutional interest in Polkadot's parachain ecosystem. The pair typically exhibits moderate funding rate volatility, creating consistent arbitrage opportunities without extreme rate spikes that can trap positions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOT/USDT funding rates on Bitget historically range between -0.1% to +0.3% per 8-hour period, with positive rates dominating during Polkadot ecosystem developments and parachain auctions. During bull markets, rates often sustain at +0.05% to +0.15% for weeks, creating favorable conditions for short arbitrage positions. Bear market periods see more volatile swings between negative and positive territories, requiring careful position sizing and timing."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategy",
+        "body": "The 8-hour funding interval on Bitget allows for three daily arbitrage collections, optimizing capital efficiency compared to exchanges with longer intervals. DOT's correlation with broader L1 tokens creates cross-exchange arbitrage opportunities, particularly when Bitget's rates diverge from Binance or OKX. Traders can exploit Bitget's competitive 0.02% maker fees by maintaining delta-neutral positions across the funding collection periods, with typical net yields of 0.03% to 0.08% per period after costs."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "DOT's price volatility can create significant unrealized P&L swings that may trigger margin calls before funding collection. Bitget's maintenance margin requirements for DOT/USDT typically sit around 0.5%, requiring careful leverage management to avoid liquidation during volatile periods. The relatively newer track record of Bitget compared to tier-1 exchanges introduces counterparty risk that should be factored into position sizing, particularly for large arbitrage operations exceeding $100,000 in notional value."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the typical funding rates for DOT/USDT on Bitget?",
+        "answer": "DOT/USDT funding rates on Bitget typically range from -0.05% to +0.20% per 8-hour period. During strong bullish sentiment for Polkadot, rates can reach +0.30%, while bearish periods may see negative rates of -0.10% or lower."
+      },
+      {
+        "question": "How does Bitget's DOT/USDT liquidity compare to other exchanges?",
+        "answer": "Bitget's DOT/USDT perpetual maintains solid liquidity with typical order book depth of $500K-1M within 1% of mid-price. While not as deep as Binance, it's sufficient for most arbitrage strategies and offers better rates than many tier-2 exchanges."
+      },
+      {
+        "question": "What's the minimum position size for meaningful funding rate arbitrage on DOT/USDT?",
+        "answer": "Given Bitget's fee structure and typical DOT funding rates, positions should exceed $10,000 notional to generate meaningful net profits after trading costs. Smaller positions may struggle to overcome the 0.02%-0.06% trading fees relative to funding collections."
+      },
+      {
+        "question": "Are there any special considerations for DOT funding rate arbitrage on Bitget?",
+        "answer": "Monitor Polkadot network events like parachain auctions or major upgrades, as these can cause sudden funding rate spikes. Bitget's copy trading features may amplify crowd behavior, creating temporary rate distortions that experienced arbitrageurs can exploit."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "fet-usdt",
+    "tao-usdt",
+    "sui-usdt",
+    "apt-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "fil-usdt",
+    "base": "FIL",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FIL/USDT Funding Rate Arbitrage on MEXC - Zero Maker Fees",
+    "description": "Track FIL/USDT perpetual funding rates on MEXC. Benefit from 8-hour intervals, zero maker fees, and infrastructure token volatility patterns.",
+    "keywords": [
+      "FIL funding rate",
+      "MEXC perpetual",
+      "Filecoin arbitrage",
+      "zero maker fees",
+      "infrastructure token futures",
+      "8-hour funding",
+      "FIL USDT perp"
+    ]
+  },
+  "content": {
+    "intro": "FIL/USDT perpetual futures on MEXC offer unique funding rate arbitrage opportunities through 8-hour settlement intervals and zero maker fees. As Filecoin represents critical blockchain infrastructure, its funding rates often diverge significantly from spot pricing during storage market developments and network upgrades.",
+    "how_funding_works": "MEXC calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and index prices. Long positions pay funding when rates are positive, while short positions receive payments when negative. The zero maker fee structure allows traders to establish positions without additional costs, maximizing funding rate capture. Settlement occurs automatically with funding payments debited or credited to account balances.",
+    "why_this_pair": "FIL exhibits distinct funding rate patterns tied to Filecoin's storage economy and infrastructure developments. Network upgrades, storage provider dynamics, and enterprise adoption announcements create sustained directional pressure that persists across multiple 8-hour funding periods. MEXC's aggressive listing strategy often results in higher volatility and more extreme funding rates compared to established exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FIL/USDT funding rates on MEXC have shown significant volatility around major Filecoin network events, particularly FVM launches and storage provider incentive programs. Positive funding rates frequently exceed 0.1% during bull market phases when retail traders heavily favor long positions on infrastructure tokens. Negative funding rates below -0.05% typically occur during broader crypto selloffs when leveraged longs are liquidated. The 8-hour interval structure allows for sustained funding rate arbitrage positions lasting multiple days during trending market conditions."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "Zero maker fees on MEXC enable profitable funding rate arbitrage with minimal entry costs for FIL/USDT positions. Cross-exchange arbitrage becomes viable when MEXC's funding rates diverge significantly from Binance or OKX due to different user bases and liquidity profiles. Delta-neutral strategies work effectively by pairing perpetual positions with spot holdings or options to isolate funding rate returns. The relatively lower liquidity compared to tier-1 exchanges can create more extreme funding rate opportunities but requires careful position sizing."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "MEXC's thinner order books for FIL/USDT increase slippage risk during volatile market conditions, particularly around Filecoin ecosystem news. Funding rate predictions become challenging due to MEXC's user base favoring high-leverage positions on trending tokens. Counterparty risk exists given MEXC's limited regulatory compliance compared to established exchanges. Position sizing should account for potential liquidity constraints and the exchange's aggressive delisting policies for underperforming tokens."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FIL/USDT funding rates calculated on MEXC?",
+        "answer": "MEXC calculates funding rates every 8 hours for FIL/USDT perpetuals at 00:00, 08:00, and 16:00 UTC. This longer interval compared to some exchanges allows for more sustained arbitrage opportunities when funding rates trend in one direction."
+      },
+      {
+        "question": "Do I pay maker fees when establishing funding rate arbitrage positions?",
+        "answer": "No, MEXC offers zero maker fees for FIL/USDT perpetual futures, allowing you to establish positions without additional trading costs. You only pay the 0.03% taker fee if using market orders, making limit orders optimal for funding rate strategies."
+      },
+      {
+        "question": "How does FIL's infrastructure token status affect funding rates?",
+        "answer": "As a blockchain infrastructure token, FIL experiences funding rate volatility tied to network developments, storage economy changes, and enterprise adoption news. These fundamental drivers often create sustained directional pressure lasting multiple funding periods."
+      },
+      {
+        "question": "What are the main risks of FIL funding rate arbitrage on MEXC?",
+        "answer": "Key risks include lower liquidity causing slippage during exits, MEXC's limited regulatory oversight, and potential extreme funding rates due to high-leverage retail trading. The exchange's aggressive token listing strategy can also lead to sudden policy changes affecting perpetual availability."
+      }
+    ]
+  },
+  "related_pairs": [
+    "blur-usdt",
+    "ena-usdt",
+    "uni-usdt",
+    "matic-usdt",
+    "doge-usdt"
+  ]
+}

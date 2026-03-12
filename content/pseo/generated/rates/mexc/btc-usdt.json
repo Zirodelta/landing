@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "btc-usdt",
+    "base": "BTC",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEXC BTC/USDT Funding Rate Analysis & Arbitrage Guide",
+    "description": "Track MEXC BTC/USDT perpetual funding rates for arbitrage opportunities. Zero maker fees, 8-hour intervals, up to 200x leverage on Bitcoin futures.",
+    "keywords": [
+      "MEXC funding rate",
+      "BTC USDT perpetual",
+      "Bitcoin funding arbitrage",
+      "MEXC perp futures",
+      "crypto funding rate",
+      "BTC perpetual swap",
+      "funding rate strategy",
+      "MEXC trading fees"
+    ]
+  },
+  "content": {
+    "intro": "MEXC's BTC/USDT perpetual futures offer funding rate arbitrage opportunities with zero maker fees and 8-hour funding intervals. As one of the highest-volume Bitcoin pairs on MEXC, it provides substantial liquidity despite the exchange's generally thinner order books compared to tier-1 platforms.",
+    "how_funding_works": "MEXC calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium index over the previous period. The exchange applies a funding fee cap of ±0.75% to prevent extreme rates during volatile periods. Long positions pay shorts when rates are positive, while shorts pay longs during negative funding periods, with payments occurring automatically at funding intervals.",
+    "why_this_pair": "BTC/USDT on MEXC typically exhibits higher funding rate volatility compared to major exchanges due to retail-heavy positioning and lower institutional presence. This creates frequent arbitrage windows, especially during Bitcoin's trending periods when retail sentiment diverges significantly from spot prices.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEXC BTC/USDT funding rates have shown distinct patterns correlating with Bitcoin's price momentum and retail sentiment cycles. During bull runs, rates frequently spike above 0.1% per 8-hour period as retail longs dominate, while bear markets often see sustained negative rates as short positions accumulate. The exchange's aggressive marketing to retail traders amplifies these sentiment-driven rate extremes compared to institutional-focused platforms. Weekend periods typically show reduced volatility in funding rates due to lower trading activity and reduced arbitrage participation from professional traders."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Execution",
+        "body": "MEXC's zero maker fees create advantageous conditions for delta-neutral funding rate strategies when combined with spot positions on other exchanges. The 8-hour funding intervals provide three daily opportunities to capture rate differentials, particularly effective when MEXC rates deviate significantly from Binance or Bybit. Traders should monitor the 30-minute period before funding collection when rates are finalized, as this often presents the highest probability setups. Position sizing should account for MEXC's occasionally wider bid-ask spreads during low liquidity periods, especially outside Asian trading hours."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "MEXC's questionable volume reporting and regulatory uncertainties pose counterparty risks that must be factored into funding rate strategies. The exchange's thinner order books can result in higher slippage during position entry and exit, particularly for larger position sizes exceeding $100,000. Auto-deleveraging risks increase during extreme market conditions due to the retail-heavy user base and potentially inadequate risk management compared to established exchanges. Withdrawal restrictions and KYC enforcement have become more stringent, potentially impacting the ability to quickly rebalance positions across multiple exchanges for optimal arbitrage execution."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does MEXC collect funding fees on BTC/USDT perpetuals?",
+        "answer": "MEXC collects funding fees every 8 hours at 00:00, 08:00, and 16:00 UTC. The rate is calculated using a time-weighted average of the premium index over the previous 8-hour period, with a maximum cap of ±0.75% per interval."
+      },
+      {
+        "question": "What are the trading fees for BTC/USDT perpetuals on MEXC?",
+        "answer": "MEXC charges 0.00% maker fees and 0.03% taker fees for BTC/USDT perpetual futures. The zero maker fee structure makes it particularly attractive for delta-neutral funding rate arbitrage strategies that require frequent position adjustments."
+      },
+      {
+        "question": "What leverage is available for BTC/USDT perpetuals on MEXC?",
+        "answer": "MEXC offers up to 200x leverage on BTC/USDT perpetual futures, though risk management best practices recommend much lower leverage for funding rate arbitrage strategies. Higher leverage increases liquidation risk and margin requirements during volatile periods."
+      },
+      {
+        "question": "How does MEXC's BTC funding rate compare to other major exchanges?",
+        "answer": "MEXC's BTC funding rates tend to be more volatile and often higher in absolute terms compared to Binance, Bybit, or OKX due to its retail-focused user base. This volatility creates arbitrage opportunities but also increases the risk of rapid rate changes between calculation and execution."
+      }
+    ]
+  },
+  "related_pairs": [
+    "mkr-usdt",
+    "rune-usdt",
+    "near-usdt",
+    "eth-usdt",
+    "wld-usdt"
+  ]
+}

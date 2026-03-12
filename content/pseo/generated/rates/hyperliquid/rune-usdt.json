@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rates on Hyperliquid - 1H Intervals",
+    "description": "Track RUNE/USDT perpetual funding rates on Hyperliquid DEX with 1-hour intervals. Analyze THORChain token arbitrage opportunities on-chain.",
+    "keywords": [
+      "RUNE funding rates",
+      "Hyperliquid arbitrage",
+      "THORChain perpetuals",
+      "on-chain futures",
+      "DeFi funding",
+      "1-hour intervals",
+      "perpetual swaps"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on Hyperliquid offer unique funding rate opportunities with hourly adjustments on a fully on-chain order book. As THORChain's native token, RUNE exhibits distinct funding patterns influenced by cross-chain liquidity dynamics and DeFi yield fluctuations.",
+    "how_funding_works": "Hyperliquid calculates RUNE/USDT funding rates every hour using the premium/discount between the perpetual price and mark price derived from external exchanges. The funding rate is paid between long and short positions at each hourly interval, with rates typically ranging from -0.01% to +0.02% per hour. Settlement occurs automatically through the protocol's native USDC collateral system, eliminating counterparty risk while maintaining sub-second execution speeds.",
+    "why_this_pair": "RUNE funding rates often diverge significantly from other DeFi tokens due to its unique role in cross-chain liquidity provision and THORChain's yield-generating mechanisms. The token's correlation with both Bitcoin and DeFi sector performance creates funding rate volatility that sophisticated arbitrageurs can exploit through delta-neutral strategies.",
+    "sections": [
+      {
+        "heading": "Historical RUNE Funding Patterns",
+        "body": "RUNE funding rates on Hyperliquid typically show higher volatility during THORChain network upgrades and liquidity pool rebalancing events. Positive funding rates of 0.01-0.02% per hour are common during DeFi bull runs when demand for cross-chain exposure increases. The hourly settlement frequency allows for more responsive rate adjustments compared to 8-hour systems, particularly beneficial during RUNE's characteristic volatility spikes. Historical data shows funding rates can spike to 0.05%+ during major THORChain announcements or network milestones."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "RUNE's funding rate arbitrage potential is enhanced by Hyperliquid's 1-hour intervals and the token's availability across multiple DEXs for spot hedging. Traders can exploit funding rate differentials between Hyperliquid and other exchanges by maintaining delta-neutral positions while collecting funding payments. The on-chain nature of Hyperliquid eliminates withdrawal delays, enabling rapid position adjustments when funding rates shift. Cross-DEX arbitrage opportunities frequently emerge when THORChain yield farming rewards affect spot demand differently than perpetual futures positioning."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "RUNE funding rate arbitrage on Hyperliquid carries specific risks including the protocol's relatively newer track record compared to established CEX platforms. Single-chain dependency means network issues could affect position management during critical funding periods. The USDC-only collateral system limits hedging options compared to multi-collateral exchanges, requiring careful consideration of USDC depeg risks. Additionally, RUNE's inherent volatility can create significant mark-to-market losses if delta-hedging isn't properly maintained during rapid price movements exceeding typical DeFi token ranges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do RUNE funding rates on Hyperliquid compare to centralized exchanges?",
+        "answer": "Hyperliquid's 1-hour funding intervals for RUNE typically result in more frequent but smaller rate adjustments compared to 8-hour CEX cycles. This creates arbitrage opportunities as rates can diverge significantly during volatile periods before the next CEX settlement."
+      },
+      {
+        "question": "What makes RUNE funding arbitrage unique on Hyperliquid's on-chain system?",
+        "answer": "The fully on-chain order book eliminates counterparty risk while maintaining CEX-like performance for RUNE perpetuals. Instant settlement and no KYC requirements allow for seamless arbitrage execution, particularly valuable during THORChain-specific events that affect RUNE pricing."
+      },
+      {
+        "question": "How does THORChain network activity affect RUNE funding rates?",
+        "answer": "Major THORChain updates, liquidity pool changes, or cross-chain volume spikes directly impact RUNE funding rates as they affect both spot demand and perpetual positioning. Network yield changes can create persistent funding rate biases lasting several days."
+      },
+      {
+        "question": "What are the optimal position sizes for RUNE funding arbitrage on Hyperliquid?",
+        "answer": "Position sizing should account for RUNE's typically higher volatility compared to major cryptocurrencies and the exchange's current liquidity depth. Given Hyperliquid's newer status, conservative sizing of 1-5% of total capital per position helps manage both market and protocol risks effectively."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "matic-usdt",
+    "sol-usdt",
+    "sei-usdt",
+    "pendle-usdt"
+  ]
+}

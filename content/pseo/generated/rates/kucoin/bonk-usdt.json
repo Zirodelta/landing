@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rate Arbitrage on KuCoin | Live Rates",
+    "description": "Track BONK/USDT perpetual funding rates on KuCoin. 8-hour cycles, 0.02% maker fees. Analyze meme coin funding arbitrage opportunities and risks.",
+    "keywords": [
+      "bonk funding rate",
+      "kucoin perpetual futures",
+      "meme coin arbitrage",
+      "bonk usdt perp",
+      "funding rate arbitrage",
+      "kucoin trading fees",
+      "bonk derivatives",
+      "cryptocurrency arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "KuCoin's BONK/USDT perpetual futures offer funding rate arbitrage opportunities with 8-hour settlement cycles. As a popular meme coin derivative, BONK perps experience significant funding rate volatility driven by retail sentiment and speculative activity.",
+    "how_funding_works": "KuCoin calculates BONK/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using premium index methodology. The rate is capped at ±0.75% per cycle with dynamic adjustments based on the 8-hour time-weighted premium between perpetual and spot prices. Funding exchanges occur automatically between long and short positions, with the exchange taking no cut from funding payments.",
+    "why_this_pair": "BONK's meme coin status creates extreme funding rate scenarios as retail traders heavily bias toward long positions during hype cycles. The pair's mid-tier liquidity on KuCoin allows for meaningful arbitrage positions while avoiding the overcrowded major pairs, though size limitations apply for larger capital deployments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on KuCoin exhibit extreme volatility, ranging from -2% to +2% annually during major market moves. During meme coin rallies, funding rates frequently hit the +0.75% cap for consecutive cycles as long bias dominates. Conversely, during market corrections, negative funding often persists for weeks as overleveraged longs get liquidated. The 8-hour cycle creates more frequent arbitrage windows compared to competitors using daily funding."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage works well when KuCoin's BONK funding deviates significantly from Binance or OKX rates. Delta-neutral strategies can capture funding payments by shorting BONK perps while holding spot BONK, though this requires careful position sizing due to KuCoin's moderate liquidity. Calendar spread arbitrage between different expiry months occasionally presents opportunities, particularly during high volatility periods when term structure becomes inverted."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "BONK's meme coin nature introduces substantial basis risk between spot and perpetual prices during extreme moves. KuCoin's position limits and margin requirements can force early exits during volatile periods, disrupting arbitrage strategies. Liquidity concerns emerge during Asian trading hours when BONK volume typically decreases. The 0.02% maker fee on entry/exit positions requires funding rates above 0.16% annually to break even, excluding funding received."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the minimum position size for BONK/USDT funding arbitrage on KuCoin?",
+        "answer": "KuCoin requires a minimum order of 1,000 BONK (~$0.02 at current prices) for perpetual futures. For meaningful arbitrage, positions of at least $1,000 are recommended to overcome the 0.02% maker fees and capture sufficient funding payments."
+      },
+      {
+        "question": "How volatile are BONK funding rates compared to major cryptocurrencies?",
+        "answer": "BONK funding rates are significantly more volatile than BTC or ETH, often hitting daily caps during meme coin rallies. The annualized funding rate standard deviation is approximately 400% higher than major cryptocurrencies due to retail-driven sentiment swings."
+      },
+      {
+        "question": "Can I hedge BONK perp positions with spot BONK on KuCoin?",
+        "answer": "Yes, KuCoin offers spot BONK trading, enabling delta-neutral arbitrage strategies. However, spot BONK liquidity is lower than perpetuals, so larger positions may experience slippage when establishing hedges during volatile periods."
+      },
+      {
+        "question": "What are KuCoin's margin requirements for BONK perpetual futures?",
+        "answer": "KuCoin typically requires 1-5% initial margin for BONK/USDT perps depending on position size, with maintenance margins around 0.5-2.5%. Margin requirements increase during high volatility periods, potentially affecting arbitrage position sizing and leverage ratios."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ldo-usdt",
+    "render-usdt",
+    "tia-usdt",
+    "mkr-usdt",
+    "op-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BingX DOGE/USDT Funding Rate Arbitrage | Perpetual Trading",
+    "description": "Track BingX DOGE/USDT perpetual funding rates updated every 8 hours. Analyze meme coin volatility patterns for funding rate arbitrage opportunities.",
+    "keywords": [
+      "BingX DOGE funding rate",
+      "DOGE perpetual futures",
+      "meme coin arbitrage",
+      "8-hour funding intervals",
+      "DOGE/USDT trading",
+      "BingX perpetuals",
+      "funding rate strategy"
+    ]
+  },
+  "content": {
+    "intro": "BingX offers DOGE/USDT perpetual futures with 8-hour funding intervals at 00:00, 08:00, and 16:00 UTC. The exchange's social trading focus attracts retail traders who often drive DOGE's characteristic funding rate spikes during meme coin rallies.",
+    "how_funding_works": "BingX calculates funding rates using a premium index based on the 1-minute TWAP difference between perpetual and spot prices over each 8-hour period. Positive rates mean longs pay shorts, while negative rates reverse the flow. The platform caps funding rates at ±2% per interval to prevent extreme scenarios. Settlement occurs precisely at funding times, with positions held through the timestamp automatically charged or credited.",
+    "why_this_pair": "DOGE's meme coin status creates predictable funding rate patterns on BingX, especially during social media-driven price movements. The large trading volume ensures sufficient liquidity for arbitrage execution, while retail trader concentration often leads to sustained directional bias in funding rates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "DOGE funding rates on BingX typically spike above 0.1% during viral social media events or celebrity endorsements, creating multi-day periods of elevated long funding. Weekend sessions often show reduced volatility with rates normalizing below 0.05%. Elon Musk tweets historically correlate with 12-24 hour periods of positive funding rates exceeding 0.15%. Bear market periods frequently see sustained negative funding as retail traders attempt to catch falling knives through leveraged long positions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage works best during DOGE pump phases when BingX rates exceed 0.08% while other exchanges remain below 0.03%. Delta-neutral strategies profit from BingX's retail-heavy user base creating persistent funding imbalances. Grid trading bots on BingX can capture funding payments while maintaining market exposure during trending periods. The 8-hour intervals provide enough time to adjust positions based on social sentiment analysis and funding rate predictions."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "DOGE's 24-hour volatility often exceeds 15%, creating significant mark-to-market risks that can overwhelm funding profits. BingX's lower overall liquidity compared to tier-1 exchanges increases slippage costs during volatile periods. Meme coin regulatory announcements can trigger sudden delisting fears, causing extreme basis movements. Weekend liquidity drops combined with social media-driven volatility spikes present the highest risk scenarios for funding rate arbitrageurs."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical DOGE funding rates on BingX during market rallies?",
+        "answer": "During major DOGE rallies, BingX funding rates commonly reach 0.1-0.2% per 8-hour interval due to heavy retail long positioning. These elevated rates can persist for 3-7 days depending on social media momentum and overall crypto market sentiment."
+      },
+      {
+        "question": "How does BingX's copy trading feature affect DOGE funding rates?",
+        "answer": "Copy trading amplifies funding rate movements as popular traders' positions get replicated by hundreds of followers simultaneously. When influencer traders go long DOGE, the cascading effect often pushes funding rates higher than fundamentals would suggest."
+      },
+      {
+        "question": "What's the minimum position size for DOGE funding rate arbitrage on BingX?",
+        "answer": "BingX requires minimum 10 USDT position sizes for DOGE perpetuals. For meaningful funding rate arbitrage, positions should exceed 1,000 USDT to overcome the 0.02% maker fees and capture sufficient funding payments during rate spikes."
+      },
+      {
+        "question": "How do BingX funding rates compare to other exchanges during DOGE volatility?",
+        "answer": "BingX typically shows 0.02-0.05% higher funding rates than Binance or OKX during DOGE pumps due to its retail trader concentration. This premium creates consistent arbitrage opportunities for traders willing to manage cross-exchange position risks."
+      }
+    ]
+  },
+  "related_pairs": [
+    "uni-usdt",
+    "sui-usdt",
+    "tia-usdt",
+    "imx-usdt",
+    "bonk-usdt"
+  ]
+}

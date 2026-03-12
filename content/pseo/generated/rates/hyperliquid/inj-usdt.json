@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "inj-usdt",
+    "base": "INJ",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "INJ/USDT Funding Rate on Hyperliquid - 1h Intervals",
+    "description": "Track INJ/USDT perpetual funding rates on Hyperliquid DEX. 1-hour intervals, on-chain order book, and sub-second finality for optimal arbitrage.",
+    "keywords": [
+      "INJ funding rate",
+      "Hyperliquid DEX",
+      "perpetual futures",
+      "funding arbitrage",
+      "on-chain trading",
+      "INJ perps",
+      "1-hour funding",
+      "Injective Protocol"
+    ]
+  },
+  "content": {
+    "intro": "INJ/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities with 1-hour payment intervals on a fully on-chain order book. Hyperliquid's native L1 provides CEX-grade performance with sub-second finality, making it ideal for time-sensitive funding rate strategies.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using a time-weighted average of the premium/discount between the perpetual price and the mark price. The 8-hour TWAP is divided into 8 equal payments, creating more frequent but smaller funding exchanges compared to traditional 8-hour intervals. Long positions pay funding when rates are positive, while shorts receive payments, with settlements occurring automatically at the top of each hour.",
+    "why_this_pair": "INJ/USDT presents compelling arbitrage opportunities due to Injective Protocol's role as a DeFi-focused blockchain with significant trading volume fluctuations. The pair often exhibits elevated funding rates during network upgrades, partnership announcements, or broader DeFi market movements, creating predictable patterns for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "INJ/USDT funding rates on Hyperliquid typically range from -0.05% to 0.15% per 8-hour equivalent, with notable spikes during Injective ecosystem developments. The pair shows strong correlation with DeFi sector momentum, often maintaining positive funding during bull markets as retail traders prefer long exposure. Funding rates tend to normalize faster than on CEXs due to the 1-hour interval structure, reducing extreme rate persistence. Weekly patterns show elevated rates during US trading hours when DeFi activity peaks."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The 1-hour funding interval creates unique arbitrage windows, especially when rates diverge significantly from other exchanges like Binance or Bybit. Traders can exploit rate differences by taking opposing positions across exchanges, with Hyperliquid's fast settlement enabling quick position adjustments. Cross-DEX arbitrage becomes particularly profitable during INJ ecosystem events when retail sentiment drives funding premiums on centralized exchanges while Hyperliquid rates remain more balanced. The on-chain nature allows for programmatic execution without traditional API limitations."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Hyperliquid's single-chain architecture concentrates smart contract risk, though the platform has demonstrated strong uptime since launch. USDC-only collateral limits hedging options compared to multi-asset margin systems, requiring careful position sizing for INJ's volatility. The newer exchange status means less historical data for pattern analysis, and liquidity can thin during extreme market conditions. Bridge risks exist when moving funds between Hyperliquid and other chains for cross-exchange arbitrage strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are INJ/USDT funding rates paid on Hyperliquid?",
+        "answer": "Funding payments occur every hour at the top of the hour. The rate is calculated as 1/8th of the traditional 8-hour funding rate, providing more frequent but smaller payments compared to other exchanges."
+      },
+      {
+        "question": "What makes Hyperliquid's INJ funding different from CEXs?",
+        "answer": "Hyperliquid's on-chain order book provides full transparency of funding rate calculations, while the 1-hour intervals create different arbitrage dynamics. The DEX structure also means no KYC requirements and direct wallet custody of positions."
+      },
+      {
+        "question": "Can I arbitrage INJ funding between Hyperliquid and Binance?",
+        "answer": "Yes, rate differences between Hyperliquid and CEXs create arbitrage opportunities. However, you must account for bridge times, gas costs, and the different funding intervals when calculating potential profits."
+      },
+      {
+        "question": "What's the maximum leverage for INJ/USDT on Hyperliquid?",
+        "answer": "Hyperliquid typically offers up to 20x leverage for INJ/USDT, though this can vary based on market conditions and position size. The platform uses cross-margin by default with isolated margin options available."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "stx-usdt",
+    "link-usdt",
+    "render-usdt",
+    "sei-usdt"
+  ]
+}

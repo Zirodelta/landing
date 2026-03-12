@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "near-usdt",
+    "base": "NEAR",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "NEAR/USDT Funding Rate on Gate.io - Arbitrage Guide",
+    "description": "Track NEAR/USDT funding rates on Gate.io. 8-hour intervals, 0.015% maker fees. Complete guide to NEAR Protocol perpetual futures arbitrage opportunities.",
+    "keywords": [
+      "NEAR funding rate",
+      "Gate.io perpetual futures",
+      "NEAR arbitrage",
+      "funding rate arbitrage",
+      "NEAR Protocol trading",
+      "Gate.io fees",
+      "perpetual swap NEAR",
+      "crypto funding rates"
+    ]
+  },
+  "content": {
+    "intro": "NEAR/USDT perpetual futures on Gate.io offer funding rate arbitrage opportunities with 8-hour payment intervals at 00:00, 08:00, and 16:00 UTC. Gate.io's competitive 0.015% maker fees and deep NEAR liquidity make it suitable for both delta-neutral strategies and directional trades on NEAR Protocol's Layer 1 ecosystem.",
+    "how_funding_works": "Gate.io calculates NEAR/USDT funding rates using the premium/discount between perpetual and spot prices, with payments occurring every 8 hours. Long positions pay short positions when funding is positive, reversing when negative. The exchange caps funding rates at ±2% per interval to prevent extreme scenarios. Settlement occurs automatically at funding timestamps, with the rate typically ranging between -0.5% to +0.5% daily during normal market conditions.",
+    "why_this_pair": "NEAR Protocol's mid-tier market cap and active DeFi ecosystem create regular funding rate imbalances on Gate.io, particularly during ecosystem updates or validator staking events. The pair's moderate volatility provides stable arbitrage windows without excessive slippage risk. Gate.io's extensive altcoin coverage attracts traders seeking NEAR exposure, generating consistent funding rate premiums during bullish sentiment.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "NEAR/USDT funding rates on Gate.io typically spike during protocol upgrades and ecosystem announcements, often reaching +0.3% per 8-hour period. During bear markets, rates frequently turn negative as shorts dominate, creating opportunities for long-biased arbitrageurs. The pair shows seasonal patterns aligned with NEAR's quarterly ecosystem updates and validator reward distributions. Weekly analysis reveals higher volatility on weekends when retail participation increases, particularly in Asian trading hours where Gate.io sees peak volume."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Delta-neutral strategies work effectively with NEAR/USDT by longing Gate.io perpetuals while shorting spot NEAR on exchanges like Binance or OKX. The 0.015% maker rebate helps offset funding costs during negative rate periods. Cross-exchange arbitrage opportunities emerge when Gate.io's NEAR funding diverges from Binance or Bybit rates by more than 0.1% per interval. Advanced traders exploit Gate.io's micro-cap token selection by hedging NEAR exposure through correlated NEAR ecosystem tokens when direct arbitrage spreads narrow."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Gate.io's NEAR/USDT perpetual faces reduced liquidity during major NEAR Protocol validator slashing events or network congestion, potentially widening bid-ask spreads beyond profitable arbitrage thresholds. The exchange's 100x maximum leverage increases liquidation risk during NEAR's occasional 20%+ daily moves, particularly around ecosystem milestones. Withdrawal delays may occur during high network congestion, affecting arbitrage position management. Traders should monitor NEAR's circulating supply changes due to staking rewards, which can impact funding rate calculations and perpetual-spot basis relationships."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical NEAR/USDT funding rates on Gate.io?",
+        "answer": "NEAR/USDT funding rates on Gate.io typically range from -0.2% to +0.4% per 8-hour period during normal conditions. Rates tend to spike above +0.5% during major NEAR ecosystem announcements or protocol upgrades, while bear market conditions often see sustained negative rates below -0.1%."
+      },
+      {
+        "question": "How does Gate.io's maker fee affect NEAR arbitrage profitability?",
+        "answer": "Gate.io's 0.015% maker rebate significantly improves NEAR arbitrage economics by reducing effective funding costs. For positions held multiple funding periods, the rebate can offset 10-30% of typical funding payments. However, the 0.05% taker fee applies when market ordering, requiring careful order management to maintain profitability."
+      },
+      {
+        "question": "What's the minimum position size for profitable NEAR funding arbitrage?",
+        "answer": "Profitable NEAR funding arbitrage on Gate.io typically requires minimum $10,000 positions to overcome transaction costs and withdrawal fees. Smaller positions under $5,000 face proportionally higher impact from Gate.io's fixed USDT withdrawal fees and potential slippage on position entries and exits."
+      },
+      {
+        "question": "How volatile are NEAR funding rates compared to major cryptocurrencies?",
+        "answer": "NEAR funding rates show 2-3x higher volatility than BTC/ETH pairs due to lower market cap and concentrated holder base. This volatility creates larger arbitrage opportunities but requires more active position management and tighter risk controls, particularly during NEAR Protocol governance events or validator set changes."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "w-usdt",
+    "btc-usdt",
+    "pyth-usdt",
+    "ftm-usdt"
+  ]
+}

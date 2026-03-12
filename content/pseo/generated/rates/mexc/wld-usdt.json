@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate Arbitrage on MEXC - Zero Maker Fees",
+    "description": "Exploit WLD/USDT funding rate arbitrage on MEXC with zero maker fees. Access Worldcoin perpetual futures with 8-hour funding cycles and aggressive pricing.",
+    "keywords": [
+      "WLD funding rate",
+      "MEXC arbitrage",
+      "Worldcoin perpetual futures",
+      "zero maker fees",
+      "8-hour funding cycle",
+      "AI token arbitrage",
+      "WLD/USDT perp"
+    ]
+  },
+  "content": {
+    "intro": "MEXC's WLD/USDT perpetual futures offer compelling funding rate arbitrage opportunities with zero maker fees and aggressive pricing for Worldcoin positions. The exchange's 8-hour funding cycle and early listing advantage provide unique entry points for AI token arbitrage strategies.",
+    "how_funding_works": "MEXC calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium/discount to spot prices across multiple exchanges. The exchange applies funding payments only to positions held at funding timestamps, allowing strategic position timing. MEXC's zero maker fee structure enables cost-effective delta hedging when combined with spot WLD positions on exchanges like Binance or OKX.",
+    "why_this_pair": "WLD exhibits elevated funding rate volatility due to its AI narrative appeal and limited exchange availability at launch. MEXC's first-to-list advantage often creates pricing inefficiencies as other major exchanges add WLD support later, generating arbitrage windows.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD funding rates on MEXC have shown pronounced cycles correlating with AI sector sentiment and Worldcoin ecosystem developments. During bullish AI narratives, funding rates frequently exceed +0.10% per 8-hour period, while bearish cycles see rates drop to -0.05% or lower. The token's retail-heavy trading base amplifies funding rate extremes compared to established DeFi tokens. Peak funding periods typically align with major partnership announcements or Sam Altman-related news cycles."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create asymmetric advantages for WLD arbitrage strategies, particularly when funding rates exceed ±0.08% per cycle. Cross-exchange arbitrage works effectively by shorting expensive WLD perps on MEXC while holding spot WLD on Binance during positive funding periods. The exchange's thinner order books can amplify funding rate divergence from larger venues, but also increase execution risk for larger position sizes. Optimal trade sizes typically range from $10K-50K to balance opportunity capture with liquidity constraints."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "MEXC's regulatory uncertainty and volume reporting controversies require enhanced counterparty risk assessment for WLD positions. The exchange's aggressive delisting policies could impact position unwinding if regulatory pressure increases on AI tokens. Funding rate arbitrage strategies should incorporate wider stop-losses due to MEXC's occasionally volatile spreads during high volatility periods. Position sizing should account for potential withdrawal delays during market stress, maintaining 2-3x normal margin buffers compared to tier-1 exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD funding rates on MEXC compared to other exchanges?",
+        "answer": "MEXC WLD funding rates typically trade 10-30 basis points higher than Binance due to retail sentiment and thinner liquidity. Rates commonly range from -0.10% to +0.15% per 8-hour cycle, with extreme periods reaching ±0.25%."
+      },
+      {
+        "question": "How does MEXC's zero maker fee affect WLD arbitrage profitability?",
+        "answer": "Zero maker fees eliminate 0.02-0.10% trading costs per leg, directly improving arbitrage margins. This advantage is most significant during moderate funding rate periods (0.05-0.08%) where fees would otherwise consume profits."
+      },
+      {
+        "question": "What position limits apply to WLD perpetuals on MEXC?",
+        "answer": "MEXC typically allows up to $500K notional WLD exposure per account with 20x leverage. Position limits may reduce during high volatility periods, requiring position monitoring and potential size adjustments."
+      },
+      {
+        "question": "How reliable is WLD settlement and funding payment timing on MEXC?",
+        "answer": "Funding payments process reliably at scheduled 8-hour intervals, though occasional 1-2 minute delays occur during high network congestion. Settlement mechanisms follow standard perpetual futures protocols with daily mark-to-market adjustments."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "link-usdt",
+    "sui-usdt",
+    "mkr-usdt",
+    "ethfi-usdt"
+  ]
+}

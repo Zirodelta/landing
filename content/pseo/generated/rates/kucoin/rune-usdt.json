@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "rune-usdt",
+    "base": "RUNE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "RUNE/USDT Funding Rates on KuCoin - Perpetual Arbitrage",
+    "description": "Track RUNE/USDT funding rates on KuCoin for perpetual futures arbitrage. 8-hour funding cycles with 0.02% maker fees. Analyze DeFi volatility patterns.",
+    "keywords": [
+      "RUNE funding rates",
+      "KuCoin perpetual futures",
+      "RUNE USDT arbitrage",
+      "THORChain funding",
+      "DeFi perp trading",
+      "crypto arbitrage",
+      "funding rate strategy",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "RUNE/USDT perpetual futures on KuCoin offer funding rate arbitrage opportunities within the THORChain ecosystem. KuCoin's 8-hour funding intervals and 0.02% maker fees provide favorable conditions for capturing rate differentials across exchanges.",
+    "how_funding_works": "KuCoin calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and index prices. The funding rate is capped at ±0.375% per interval with a dampening coefficient applied during high volatility. Positions held at funding time automatically exchange payments between longs and shorts, with no additional fees beyond the calculated rate.",
+    "why_this_pair": "RUNE's role as THORChain's native token creates unique funding dynamics driven by cross-chain liquidity events and validator staking cycles. The token's volatility and DeFi utility often generate significant funding premiums during network upgrades or major DEX integrations, making it attractive for rate arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "RUNE funding rates on KuCoin have shown pronounced cyclical behavior aligned with THORChain network events and broader DeFi sentiment. During the Ragnarok upgrade period, funding rates exceeded 0.3% per 8-hour cycle for several days as speculative interest drove perpetual premiums. Cross-chain integration announcements typically correlate with 2-4 day periods of elevated positive funding. The pair exhibits lower overnight funding volatility compared to major tokens, creating more predictable arbitrage windows for Asian trading sessions."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "RUNE perpetual funding rates often diverge significantly between KuCoin and other exchanges due to varying liquidity depths and user bases. KuCoin's strong Asian retail presence can create funding rate premiums of 0.1-0.2% relative to Western-focused exchanges during regional market hours. The exchange's competitive maker fees at 0.02% allow for profitable arbitrage even on smaller rate differentials. Traders can capitalize on KuCoin's efficient settlement system and deep RUNE spot market for delta-neutral strategies."
+      },
+      {
+        "heading": "Risk Factors and Mitigation",
+        "body": "RUNE's inherent volatility poses liquidation risks for leveraged arbitrage positions, particularly during THORChain governance events or major protocol updates. KuCoin's relatively moderate RUNE liquidity means large arbitrage positions can face slippage during rapid market moves. The exchange's 2023 regulatory challenges may impact withdrawal processing during high-stress periods. Effective risk management requires position sizing based on available liquidity, maintaining adequate margin buffers, and monitoring THORChain development roadmaps for potential volatility catalysts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does KuCoin calculate RUNE/USDT funding rates?",
+        "answer": "KuCoin calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. The rate is determined by the 8-hour time-weighted average premium between the perpetual contract price and the underlying index price, with payments automatically processed at each funding time."
+      },
+      {
+        "question": "What makes RUNE funding rates unique compared to other DeFi tokens?",
+        "answer": "RUNE funding rates reflect THORChain's cross-chain liquidity dynamics and validator economics, creating distinct patterns around network upgrades and integration events. The token's role in decentralized exchange infrastructure generates funding volatility that often diverges from broader DeFi market trends, offering specialized arbitrage opportunities."
+      },
+      {
+        "question": "Can I use KuCoin's trading bots for RUNE funding rate arbitrage?",
+        "answer": "KuCoin's trading bot marketplace includes funding rate monitoring tools, though most are designed for spot-perpetual arbitrage rather than cross-exchange funding strategies. Manual execution often proves more effective for RUNE arbitrage due to the need to react quickly to THORChain-specific events that impact funding dynamics."
+      },
+      {
+        "question": "What are the margin requirements for RUNE/USDT perpetual positions on KuCoin?",
+        "answer": "KuCoin requires a minimum initial margin of 1% for RUNE/USDT perpetual positions, with maintenance margin at 0.5%. Maximum leverage is typically 50x, though this may be reduced during high volatility periods. The exchange implements dynamic margin adjustments based on market conditions and position size."
+      }
+    ]
+  },
+  "related_pairs": [
+    "arb-usdt",
+    "tia-usdt",
+    "btc-usdt",
+    "trx-usdt",
+    "wif-usdt"
+  ]
+}

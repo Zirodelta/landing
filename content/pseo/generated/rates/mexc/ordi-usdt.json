@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rate | MEXC Perpetual Futures Trading",
+    "description": "Track ORDI/USDT funding rates on MEXC. Analyze 8-hour funding intervals, zero maker fees, and arbitrage opportunities for this BTC ecosystem token.",
+    "keywords": [
+      "ORDI funding rate",
+      "MEXC perpetual",
+      "BRC-20 futures",
+      "ORDI arbitrage",
+      "funding rate MEXC",
+      "ORDI USDT perp",
+      "BTC ecosystem trading",
+      "crypto funding rates"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on MEXC offer exposure to the first BRC-20 token with 8-hour funding intervals. As a prominent Bitcoin ecosystem token, ORDI exhibits volatile funding patterns driven by inscription market sentiment and BTC network activity.",
+    "how_funding_works": "MEXC calculates ORDI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. Long positions pay funding when rates are positive, while shorts receive payments when rates turn negative. The exchange applies a funding fee cap of ±0.75% per interval to prevent extreme rate spikes during high volatility periods.",
+    "why_this_pair": "ORDI's position as the flagship BRC-20 token creates unique funding dynamics tied to Bitcoin inscription trends and ordinals market cycles. The pair's relatively small trading volume on MEXC can lead to pronounced funding rate swings, offering arbitrage opportunities for traders monitoring inscription ecosystem developments.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI/USDT funding rates on MEXC have shown strong correlation with BRC-20 market cycles and Bitcoin network congestion. During inscription mania periods, funding rates frequently exceed +1% as retail traders rush to long ORDI perpetuals. Conversely, during market downturns, rates often turn deeply negative as leveraged longs get liquidated. The 8-hour funding schedule creates sustained rate trends lasting 24-72 hours during strong directional moves. MEXC's aggressive token listing strategy means ORDI was available early, capturing initial hype-driven funding spikes."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create favorable conditions for funding rate arbitrage on ORDI/USDT, though traders must account for the 0.03% taker fee when unwinding positions. Cross-exchange arbitrage opportunities emerge when MEXC's rates diverge significantly from larger exchanges like Binance or OKX. The exchange's thinner order books mean funding rates can spike more dramatically than on deeper markets, creating short-term arbitrage windows. However, execution risk increases during high volatility as MEXC's matching engine can experience latency during BRC-20 market surges."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading ORDI perpetuals on MEXC carries elevated counterparty risk due to limited regulatory oversight and questionable volume reporting practices. The exchange's smaller user base means ORDI positions face higher liquidation risk during rapid market moves when order book depth evaporates. Funding rate calculations may be less transparent than established exchanges, making rate prediction more challenging. Additionally, MEXC's aggressive delisting policies could impact ORDI trading if the token loses market interest, though its status as the primary BRC-20 token provides some protection."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical ORDI/USDT funding rates on MEXC?",
+        "answer": "ORDI funding rates on MEXC typically range from -0.5% to +1.5% during normal market conditions. During inscription market euphoria, rates can spike above +2% as retail traders heavily leverage long positions. The 8-hour intervals mean sustained trends can compound significantly over 24-hour periods."
+      },
+      {
+        "question": "How does MEXC's zero maker fee affect ORDI funding arbitrage?",
+        "answer": "Zero maker fees reduce the cost basis for funding rate arbitrage strategies on ORDI/USDT, making smaller rate differentials profitable. However, the 0.03% taker fee still applies when market-taking to close positions quickly. This fee structure favors patient arbitrageurs who can wait for favorable exit conditions using limit orders."
+      },
+      {
+        "question": "Why do ORDI funding rates vary more on MEXC than larger exchanges?",
+        "answer": "MEXC's smaller trading volumes and thinner order books amplify funding rate volatility for ORDI/USDT. The exchange attracts more speculative retail traders for newer tokens like ORDI, creating imbalanced long/short ratios. Limited institutional participation means less sophisticated funding rate arbitrage, allowing rates to persist at extreme levels longer."
+      },
+      {
+        "question": "What risks should I consider when trading ORDI perpetuals on MEXC?",
+        "answer": "Key risks include MEXC's limited regulatory compliance, potential order book manipulation, and higher counterparty risk compared to tier-1 exchanges. ORDI's volatility combined with MEXC's thinner liquidity increases slippage risk during rapid market moves. Always maintain appropriate position sizing and consider the exchange's delisting policies for newer tokens."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "mkr-usdt",
+    "trx-usdt",
+    "bonk-usdt",
+    "btc-usdt"
+  ]
+}

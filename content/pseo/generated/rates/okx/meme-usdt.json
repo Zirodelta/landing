@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "meme-usdt",
+    "base": "MEME",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX MEME/USDT Funding Rate Arbitrage Guide",
+    "description": "Track MEME/USDT perpetual funding rates on OKX. Learn arbitrage strategies, 8-hour funding mechanics, and risk management for meme token futures trading.",
+    "keywords": [
+      "MEME USDT funding rate",
+      "OKX perpetual futures",
+      "funding rate arbitrage",
+      "meme token trading",
+      "crypto futures strategy",
+      "perpetual swap rates",
+      "OKX trading fees",
+      "funding rate tracker"
+    ]
+  },
+  "content": {
+    "intro": "MEME/USDT perpetual futures on OKX offer funding rate arbitrage opportunities through the platform's 8-hour funding cycle and portfolio margin capabilities. OKX's robust API infrastructure enables efficient monitoring of funding rate fluctuations for this emerging meme token.",
+    "how_funding_works": "OKX calculates MEME/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The exchange's multi-tiered maker-taker fee structure (0.02%/0.05%) applies to position entries and exits. Portfolio margin mode allows cross-collateral efficiency when running delta-neutral strategies across multiple meme token positions.",
+    "why_this_pair": "MEME token's volatile nature and retail trader interest create significant funding rate premiums during trending periods. The smaller trading volume compared to major altcoins can lead to more pronounced funding rate imbalances, presenting arbitrage opportunities for sophisticated traders.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEME/USDT funding rates on OKX have shown extreme volatility, ranging from -0.75% to +2.1% during peak meme season periods. Positive funding rates dominate during viral social media cycles, often exceeding 0.5% per 8-hour period. Weekend periods typically show reduced funding premiums as retail participation decreases. The token's correlation with broader meme coin sentiment creates predictable funding spikes during coordinated rallies across DOGE, SHIB, and newer meme tokens."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Delta-neutral strategies work effectively with MEME/USDT due to consistent funding rate premiums during bullish phases. Cross-exchange arbitrage opportunities exist between OKX and lower-tier exchanges that often lag in funding rate adjustments. OKX's portfolio margin system enables efficient capital utilization when combining MEME positions with other meme token shorts. The 8-hour funding cycle provides multiple daily opportunities to capture rate premiums, particularly during Asian trading hours when retail activity peaks."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEME token's extreme price volatility can quickly erode funding profits if delta hedging isn't maintained properly. The token's susceptibility to sudden delisting or regulatory actions poses existential risk to open positions. Limited market depth creates significant slippage risk during volatile periods, potentially negating funding gains. OKX's forced liquidation mechanisms can trigger unexpectedly during flash crashes common in meme tokens, requiring conservative position sizing and frequent hedge rebalancing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical MEME/USDT funding rates on OKX?",
+        "answer": "MEME/USDT funding rates typically range from -0.2% to +1.5% per 8-hour period, with extreme spikes reaching +2%+ during viral social media events. Negative rates are rare and usually occur during broader market corrections."
+      },
+      {
+        "question": "How does OKX's portfolio margin affect MEME funding strategies?",
+        "answer": "Portfolio margin allows you to use cross-collateral when hedging MEME positions with other assets, improving capital efficiency. This enables running multiple meme token funding strategies simultaneously while reducing overall margin requirements."
+      },
+      {
+        "question": "What's the minimum position size for MEME/USDT perpetuals?",
+        "answer": "OKX sets the minimum order size at 1 MEME token, with tick size varying based on price levels. Position sizing should account for the token's high volatility and potential for rapid funding rate changes."
+      },
+      {
+        "question": "How reliable is MEME/USDT liquidity during funding periods?",
+        "answer": "Liquidity can thin significantly during funding payment times, especially around major social media events. Consider pre-positioning hedges and using limit orders to avoid slippage during the funding calculation window."
+      }
+    ]
+  },
+  "related_pairs": [
+    "avax-usdt",
+    "ton-usdt",
+    "ena-usdt",
+    "render-usdt",
+    "pepe-usdt"
+  ]
+}

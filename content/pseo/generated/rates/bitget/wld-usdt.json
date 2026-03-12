@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rates on Bitget - AI Token Arbitrage",
+    "description": "Monitor WLD/USDT perpetual futures funding rates on Bitget. AI token volatility creates frequent arbitrage opportunities with 8-hour funding cycles.",
+    "keywords": [
+      "WLD funding rates",
+      "Bitget perpetuals",
+      "AI token arbitrage",
+      "Worldcoin futures",
+      "funding rate arbitrage",
+      "WLD/USDT",
+      "crypto arbitrage",
+      "Bitget funding"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on Bitget offer compelling funding rate arbitrage opportunities driven by the AI narrative and speculative trading around Worldcoin's identity verification ecosystem. The pair exhibits elevated funding volatility typical of AI-category tokens, particularly during market-wide AI sentiment shifts.",
+    "how_funding_works": "Bitget calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The exchange applies a ±0.05% funding rate cap with dynamic adjustments based on the insurance fund ratio. Position holders pay or receive funding based on their long/short exposure, with settlements occurring automatically without affecting available balance until the next funding timestamp.",
+    "why_this_pair": "WLD's connection to OpenAI and artificial intelligence narratives creates pronounced funding rate imbalances during AI-related news cycles and broader tech sentiment shifts. The token's relatively lower market cap compared to major cryptocurrencies amplifies funding rate volatility, while Bitget's growing AI token trading volume provides sufficient liquidity for meaningful arbitrage positions.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT funding rates on Bitget have demonstrated significant volatility ranges from -0.1% to +0.375% during major AI narrative cycles. The pair typically exhibits positive funding bias during broader AI token rallies, with rates frequently exceeding +0.1% for extended periods. Funding rate spikes often coincide with OpenAI announcements, ChatGPT updates, or broader artificial intelligence sector developments. Weekend funding tends to normalize due to reduced institutional activity, creating predictable mean reversion opportunities for systematic arbitrageurs."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "The 8-hour funding cycle on Bitget creates multiple daily arbitrage windows, particularly effective when WLD funding rates diverge significantly from other major exchanges like Binance or OKX. Cross-exchange funding arbitrage becomes profitable when Bitget's rates exceed ±0.05% relative to competitors after accounting for trading fees and transfer costs. Bitget's competitive maker fees (0.02%) enhance arbitrage profitability, while the exchange's copy trading ecosystem can amplify funding rate movements through coordinated position flows. AI narrative-driven volatility often sustains elevated funding rates for 24-72 hour periods, providing extended arbitrage windows."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "WLD's AI token classification introduces correlation risks during broader tech sector corrections, potentially affecting both spot and perpetual prices simultaneously. Bitget's newer market presence requires careful monitoring of liquidity depth, particularly during high-volatility periods when funding rates are most attractive. Position sizing should account for WLD's higher volatility compared to major cryptocurrencies, with maximum exposure limits based on the token's beta to Bitcoin and broader market conditions. Funding rate arbitrage strategies must incorporate Bitget's settlement mechanics and potential delays during network congestion periods affecting USDT transfers."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does Bitget update WLD/USDT funding rates?",
+        "answer": "Bitget updates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. The rates are calculated using a time-weighted average of the premium between perpetual and spot prices over the preceding funding period, with automatic settlement occurring at each interval."
+      },
+      {
+        "question": "What makes WLD funding rates more volatile on Bitget?",
+        "answer": "WLD's classification as an AI token creates heightened sensitivity to artificial intelligence sector news and OpenAI developments. Bitget's growing user base often exhibits stronger sentiment-driven trading in AI tokens, while the exchange's copy trading features can amplify position flows and funding rate movements compared to more established exchanges."
+      },
+      {
+        "question": "Are there maximum funding rate limits for WLD/USDT on Bitget?",
+        "answer": "Yes, Bitget applies a ±0.375% maximum funding rate cap for WLD/USDT perpetuals. However, during extreme market conditions, the exchange may implement additional risk controls including position limits or temporary trading halts to protect market integrity and the insurance fund."
+      },
+      {
+        "question": "How do Bitget's WLD funding rates compare to other exchanges?",
+        "answer": "Bitget's WLD funding rates often trade at premiums to established exchanges during AI narrative cycles due to its younger, more speculative user base. The 8-hour funding cycle versus some competitors' variable schedules can create cross-exchange arbitrage opportunities, particularly when combined with Bitget's competitive trading fees."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "pendle-usdt",
+    "shib-usdt",
+    "inj-usdt",
+    "trx-usdt"
+  ]
+}

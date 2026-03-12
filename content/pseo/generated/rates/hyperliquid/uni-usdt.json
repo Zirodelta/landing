@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rate on Hyperliquid - 1h Intervals",
+    "description": "Track UNI/USDT perpetual funding rates on Hyperliquid DEX. 1-hour intervals, on-chain order book, and sub-second finality for optimal arbitrage opportunities.",
+    "keywords": [
+      "UNI funding rate",
+      "Hyperliquid DEX",
+      "DeFi perpetuals",
+      "1-hour funding",
+      "on-chain futures",
+      "UNI arbitrage",
+      "funding rate strategy",
+      "DEX derivatives"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on Hyperliquid offer unique funding rate opportunities through the platform's 1-hour funding intervals and fully on-chain order book. As Uniswap's governance token with moderate trading volume, UNI frequently experiences funding rate imbalances driven by DeFi sentiment and governance events.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using a premium-based methodology comparing perpetual prices to mark prices derived from oracle feeds. The on-chain settlement ensures transparent and immutable funding payments without counterparty risk. Positions are automatically adjusted at each hourly interval, with funding rates typically ranging from -0.1% to +0.1% but can spike during high volatility periods. The DEX's sub-second finality allows for precise entry and exit timing around funding rate changes.",
+    "why_this_pair": "UNI's dual role as both a DeFi governance token and protocol revenue generator creates distinct funding rate patterns tied to governance proposals and fee distribution announcements. The token's moderate volatility and established DeFi status make it suitable for funding rate strategies, while Hyperliquid's 1-hour intervals provide more frequent arbitrage opportunities compared to traditional 8-hour funding cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on Hyperliquid typically cluster between -0.02% and +0.03% during normal market conditions, with pronounced spikes during governance events and DeFi sector rotations. The 1-hour funding frequency creates 24 settlement periods daily, allowing for more granular rate analysis compared to 8-hour cycles. Historical data shows funding rates tend toward positive territory during DeFi bull runs when demand for UNI long exposure increases. Volatility spikes around quarterly governance proposals often drive funding rates beyond ±0.05% as traders position for potential token unlocks or protocol upgrades."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "The hourly funding cycle on Hyperliquid enables short-term arbitrage strategies that capitalize on temporary funding rate divergences from other exchanges. Cross-exchange arbitrage becomes particularly profitable when Hyperliquid's UNI funding rates deviate significantly from Binance or OKX rates due to isolated liquidity dynamics. Delta-neutral strategies work effectively by maintaining spot UNI positions while shorting perpetuals during high positive funding periods. The on-chain nature eliminates settlement risk, making it suitable for automated arbitrage bots that can react to funding rate announcements within seconds of each hourly calculation."
+      },
+      {
+        "heading": "Risk Considerations and Limitations",
+        "body": "Hyperliquid's single-chain architecture creates concentration risk, as network issues could impact position management during critical funding periods. The platform's USDC-only collateral requirement means traders must manage stablecoin exposure alongside funding rate positions. Lower overall liquidity compared to centralized exchanges can result in wider bid-ask spreads during volatile periods, potentially eroding funding arbitrage profits. The relatively new platform lacks extensive historical data for backtesting funding rate strategies, requiring conservative position sizing until performance patterns are established."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are UNI funding rates calculated on Hyperliquid?",
+        "answer": "Funding rates are calculated and settled every hour on Hyperliquid, providing 24 funding events per day. This frequent settlement creates more opportunities for short-term arbitrage compared to traditional 8-hour funding cycles on centralized exchanges."
+      },
+      {
+        "question": "What collateral can I use for UNI/USDT positions on Hyperliquid?",
+        "answer": "Hyperliquid currently accepts only USDC as collateral for all perpetual positions, including UNI/USDT. This creates additional exposure to USDC price stability and requires traders to manage stablecoin risk alongside their funding rate strategies."
+      },
+      {
+        "question": "Are there any KYC requirements for UNI funding rate arbitrage on Hyperliquid?",
+        "answer": "No, Hyperliquid operates as a fully decentralized exchange without KYC requirements. Users can access UNI/USDT perpetuals and funding rate opportunities by simply connecting a compatible wallet and depositing USDC collateral."
+      },
+      {
+        "question": "How do UNI funding rates on Hyperliquid compare to centralized exchanges?",
+        "answer": "Hyperliquid's hourly funding often shows different patterns from 8-hour rates on CEXs due to isolated liquidity and trader positioning. The shorter intervals can create temporary arbitrage opportunities, though overall funding trends generally align with broader market sentiment for UNI."
+      }
+    ]
+  },
+  "related_pairs": [
+    "trx-usdt",
+    "pyth-usdt",
+    "ldo-usdt",
+    "matic-usdt",
+    "btc-usdt"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rate Arbitrage on KuCoin - Live Rates",
+    "description": "Monitor WIF/USDT perpetual funding rates on KuCoin for arbitrage opportunities. 8-hour intervals, 0.02% maker fees. Track meme coin funding patterns.",
+    "keywords": [
+      "WIF funding rate",
+      "KuCoin perpetual",
+      "meme coin arbitrage",
+      "dogwifhat futures",
+      "8-hour funding",
+      "USDT perp trading"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on KuCoin offer funding rate arbitrage opportunities through 8-hour interval payments. KuCoin's meme coin perpetual markets often exhibit volatile funding rates due to retail speculation and trending patterns.",
+    "how_funding_works": "KuCoin calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC for WIF/USDT perpetuals. The rate is determined by the premium between perpetual price and spot index, with payments exchanged directly between long and short position holders. KuCoin applies a dampening mechanism when funding rates exceed ±0.75% to prevent extreme payments.",
+    "why_this_pair": "WIF (dogwifhat) perpetuals show significant funding rate volatility during meme coin cycles, creating arbitrage opportunities. The pair's correlation with Solana ecosystem trends and social media sentiment often leads to prolonged periods of positive or negative funding rates.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WIF/USDT funding rates on KuCoin have ranged from -0.5% to +1.2% during major price movements. Positive rates dominate during viral social media cycles, often lasting 3-7 days consecutively. Weekend trading typically shows reduced funding volatility as institutional participation decreases. The pair exhibits stronger correlation with Bitcoin during broader market downturns, leading to more predictable funding patterns."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Delta-neutral strategies work effectively when WIF funding rates exceed ±0.3% consistently across multiple 8-hour periods. Cross-exchange arbitrage between KuCoin and Binance often yields 0.1-0.4% per funding interval during high volatility. The 0.02% maker fee structure allows profitable arbitrage even at moderate funding rates of 0.15-0.25%. Position sizing should account for WIF's tendency toward gap movements during US trading hours."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WIF's meme coin nature creates significant basis risk when funding rates suddenly reverse due to sentiment shifts. KuCoin's moderate perpetual liquidity can cause slippage during rapid position adjustments, particularly for positions exceeding $50,000. Correlation breakdown between WIF spot and perpetual prices during extreme moves can invalidate delta-neutral assumptions. SEC regulatory concerns regarding KuCoin add counterparty risk considerations for larger arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WIF/USDT funding rates on KuCoin?",
+        "answer": "WIF/USDT funding rates typically range from -0.3% to +0.6% during normal market conditions. During meme coin rallies, rates can spike above +1% for extended periods, while bearish cycles may push rates to -0.4% or lower."
+      },
+      {
+        "question": "How does KuCoin's 8-hour funding schedule affect WIF arbitrage?",
+        "answer": "The 8-hour intervals (00:00, 08:00, 16:00 UTC) align well with global trading patterns for meme coins. This schedule often captures funding rate premiums during peak US and Asian trading hours when WIF speculation is highest."
+      },
+      {
+        "question": "What position sizes work best for WIF funding rate arbitrage on KuCoin?",
+        "answer": "Optimal position sizes range from $10,000-$100,000 to balance funding rate capture with liquidity constraints. Larger positions may face slippage issues during rapid WIF price movements or when adjusting delta-neutral hedges."
+      },
+      {
+        "question": "How do KuCoin's fees impact WIF funding rate profitability?",
+        "answer": "KuCoin's 0.02% maker fees allow profitable arbitrage when funding rates exceed 0.15% per 8-hour period. The fee structure is competitive for meme coin arbitrage compared to other exchanges offering WIF perpetuals."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "atom-usdt",
+    "imx-usdt",
+    "op-usdt",
+    "bnb-usdt"
+  ]
+}

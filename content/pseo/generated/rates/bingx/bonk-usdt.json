@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "BONK/USDT Funding Rate - BingX Perpetual Futures",
+    "description": "Track BONK/USDT funding rates on BingX. 8-hour settlement cycles, 0.02% maker fees. Copy trading integration for meme coin arbitrage strategies.",
+    "keywords": [
+      "BONK funding rate",
+      "BingX perpetual",
+      "meme coin arbitrage",
+      "BONK USDT futures",
+      "funding rate arbitrage",
+      "BingX copy trading",
+      "8-hour funding",
+      "meme token futures"
+    ]
+  },
+  "content": {
+    "intro": "BingX offers BONK/USDT perpetual futures with 8-hour funding rate settlements and integrated copy trading features. The exchange's social trading focus creates unique arbitrage opportunities through follower-driven positioning patterns.",
+    "how_funding_works": "BingX calculates BONK/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a premium index formula. The exchange applies a ±0.75% funding rate cap with automatic position adjustments for large imbalances. Copy trading activity can amplify funding rate movements as followers mirror popular trader positions, creating predictable rate patterns around settlement times.",
+    "why_this_pair": "BONK's meme coin volatility combined with BingX's copy trading ecosystem creates distinct funding rate patterns not seen on other exchanges. The pair experiences higher funding rate volatility during meme coin trend cycles, offering arbitrage opportunities for traders who understand crowd psychology dynamics.",
+    "sections": [
+      {
+        "heading": "Historical BONK Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on BingX typically range from -2% to +3% annually, with extreme spikes during viral meme cycles. Copy trading amplifies these movements as retail followers pile into trending positions simultaneously. Weekend sessions often show reduced funding volatility due to lower copy trading activity. The pair exhibits stronger funding rate correlation with social media sentiment compared to technical indicators."
+      },
+      {
+        "heading": "Copy Trading Impact on Arbitrage",
+        "body": "BingX's copy trading feature creates predictable funding rate movements when popular traders establish large BONK positions. Master traders with significant follower bases can trigger funding rate spikes within 30-60 minutes of position announcements. Smart arbitrageurs monitor top trader activity feeds to anticipate funding rate changes before they materialize. This social element provides additional alpha compared to pure technical arbitrage strategies."
+      },
+      {
+        "heading": "Risk Management for BONK Funding Arbitrage",
+        "body": "BONK's meme coin nature introduces extreme volatility that can exceed funding rate profits during adverse moves. Position sizing should account for potential 50%+ daily price swings that dwarf typical funding yields. BingX's limited liquidity compared to tier-1 exchanges can create slippage issues during rapid unwinding. Consider using grid trading bots to dollar-cost average entries and exits rather than single large positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does BingX's copy trading affect BONK funding rates?",
+        "answer": "Copy trading creates herding behavior that amplifies funding rate movements. When popular traders go long BONK, their followers automatically copy the position, driving up demand and funding rates. This effect is more pronounced for meme coins due to their retail appeal."
+      },
+      {
+        "question": "What are typical BONK funding rate ranges on BingX?",
+        "answer": "BONK funding rates typically range from -0.5% to +0.75% per 8-hour period during normal conditions. During meme coin rallies, rates can spike to the ±0.75% cap. Historical averages show slightly positive rates due to retail long bias."
+      },
+      {
+        "question": "How liquid is BONK/USDT for funding arbitrage on BingX?",
+        "answer": "BingX offers moderate liquidity for BONK/USDT with typical spreads of 0.02-0.05%. Mid-size positions ($10K-$50K) can be executed efficiently, but larger arbitrage positions may experience slippage during volatile periods."
+      },
+      {
+        "question": "What's the minimum position size for BONK funding arbitrage?",
+        "answer": "BingX requires minimum positions of approximately $10 worth of BONK. However, funding rate profits become meaningful only with positions above $1,000 due to the 0.02% maker fee structure and 8-hour settlement frequency."
+      }
+    ]
+  },
+  "related_pairs": [
+    "meme-usdt",
+    "eth-usdt",
+    "fil-usdt",
+    "jto-usdt",
+    "uni-usdt"
+  ]
+}

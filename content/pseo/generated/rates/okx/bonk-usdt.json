@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "bonk-usdt",
+    "base": "BONK",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX BONK/USDT Funding Rate - Perpetual Futures Arbitrage",
+    "description": "Track BONK/USDT funding rates on OKX every 8 hours. Analyze meme coin volatility patterns and arbitrage opportunities with OKX's portfolio margin mode.",
+    "keywords": [
+      "OKX BONK funding rate",
+      "BONK perpetual futures",
+      "meme coin arbitrage",
+      "OKX portfolio margin",
+      "BONK USDT funding",
+      "8 hour funding cycle",
+      "Solana meme tokens"
+    ]
+  },
+  "content": {
+    "intro": "OKX's BONK/USDT perpetual futures offer 8-hour funding rate cycles with mid-tier volume for this popular Solana meme token. The pair leverages OKX's portfolio margin system, allowing cross-collateralization between positions to optimize capital efficiency during funding rate arbitrage strategies.",
+    "how_funding_works": "OKX calculates BONK/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a premium index methodology. The platform's portfolio margin mode allows BONK positions to share margin with other assets, reducing overall margin requirements. Funding payments occur automatically with maker fees at 0.02% and taker fees at 0.05% applying to position adjustments. OKX's API provides real-time funding rate predictions 1 hour before settlement, crucial for timing arbitrage entries.",
+    "why_this_pair": "BONK's meme coin nature creates extreme sentiment swings that often result in elevated funding rates, particularly during Solana ecosystem rallies or social media-driven price movements. The token's mid-tier volume on OKX provides sufficient liquidity for arbitrage while avoiding the overcrowded competition seen in major pairs. BONK's correlation with SOL price action creates predictable funding rate patterns during broader Solana market cycles.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "BONK/USDT funding rates on OKX typically spike above 0.1% during meme coin rally periods, especially when social media sentiment drives retail FOMO. Negative funding rates frequently occur during broader crypto market downturns when short positions dominate. The pair shows strong correlation with GMT+8 trading hours due to significant Asian retail interest in meme tokens. Weekend funding rates tend to be more volatile due to reduced institutional participation and higher retail dominance."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "OKX's portfolio margin mode enables efficient BONK funding rate arbitrage by using SOL or other Solana ecosystem tokens as cross-collateral. Long funding rate positions benefit from OKX's competitive maker rebates when building spot hedge positions. The 8-hour cycle provides ample time to establish hedged positions, particularly useful given BONK's high intraday volatility. Arbitrage opportunities are strongest during US market hours when retail sentiment diverges most from institutional positioning."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "BONK's extreme volatility can quickly erode funding rate profits if spot-futures basis moves adversely, requiring tight position sizing and risk management. The token's relatively small market cap means large arbitrage positions can impact the funding rate calculation itself. OKX's portfolio margin system introduces cross-asset liquidation risks if other positions in the portfolio move against the trader. Meme coin regulatory scrutiny could lead to sudden delisting announcements, creating urgent position closure requirements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does OKX calculate BONK/USDT funding rates?",
+        "answer": "OKX uses a premium index methodology that compares the BONK perpetual price to the spot index every 8 hours. The funding rate equals the premium/discount averaged over the 8-hour period, with a maximum rate of ±0.75% per cycle to prevent extreme payments."
+      },
+      {
+        "question": "Can I use portfolio margin for BONK funding rate arbitrage on OKX?",
+        "answer": "Yes, OKX's portfolio margin mode allows BONK perpetual positions to share margin requirements with other crypto assets. This enables more capital-efficient arbitrage strategies, especially when hedging with SOL or other Solana ecosystem tokens as collateral."
+      },
+      {
+        "question": "What are the minimum position sizes for BONK/USDT perpetuals on OKX?",
+        "answer": "OKX sets the minimum BONK perpetual order at 1 USDT notional value. Given BONK's low unit price, this represents millions of BONK tokens, making the pair accessible to retail arbitrage traders while maintaining sufficient precision for larger institutional positions."
+      },
+      {
+        "question": "How do OKX's BONK funding rates compare to other exchanges?",
+        "answer": "OKX's 8-hour funding cycle for BONK typically shows higher volatility than Binance's similar cycle due to lower overall volume. However, OKX's portfolio margin system can make arbitrage more capital-efficient, potentially offsetting slightly less favorable base rates."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "inj-usdt",
+    "w-usdt",
+    "dot-usdt",
+    "ordi-usdt"
+  ]
+}

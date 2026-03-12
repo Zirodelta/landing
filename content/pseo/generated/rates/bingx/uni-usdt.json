@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "uni-usdt",
+    "base": "UNI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "UNI/USDT Funding Rates on BingX - Arbitrage Guide",
+    "description": "Track UNI/USDT funding rates on BingX for arbitrage opportunities. 8-hour funding cycles, 0.02% maker fees. DeFi token volatility creates funding opportunities.",
+    "keywords": [
+      "uni funding rate",
+      "bingx perpetual futures",
+      "uniswap funding arbitrage",
+      "defi funding rates",
+      "uni usdt perp",
+      "bingx funding rate",
+      "8 hour funding",
+      "defi arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "UNI/USDT perpetual futures on BingX operate on 8-hour funding cycles with rates typically ranging from -0.1% to 0.3% during normal market conditions. BingX's social trading focus creates unique funding patterns as copy traders often enter positions simultaneously, affecting funding equilibrium.",
+    "how_funding_works": "BingX calculates UNI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, based on the premium between perpetual price and index price. Long positions pay when rates are positive, short positions pay when negative. The platform applies a funding fee cap of ±0.375% per 8-hour period to prevent extreme rates. BingX sources its UNI index price from major spot exchanges including Binance and Coinbase, weighted by trading volume.",
+    "why_this_pair": "UNI exhibits distinct funding patterns due to its role as a major DeFi governance token with concentrated holder sentiment. During DeFi sector rotations and governance events, funding rates can swing dramatically as traders position for potential price movements. The token's mid-tier volume on BingX creates opportunities for funding arbitrage when rates deviate significantly from other exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "UNI/USDT funding rates on BingX have shown seasonal patterns correlating with broader DeFi market cycles and Uniswap protocol developments. During the 2023 DeFi summer, rates frequently exceeded 0.2% per 8-hour cycle as leveraged longs dominated positioning. Negative funding periods typically occur during general crypto market downturns or when DeFi narratives lose momentum. The token's governance schedule also influences funding, with rates often spiking before major proposal voting periods as traders position for potential price volatility."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "UNI funding arbitrage opportunities on BingX emerge when rates diverge from larger exchanges like Binance or OKX by more than 0.05%. BingX's copy trading features can amplify funding imbalances when popular traders enter large UNI positions, creating temporary arbitrage windows. The platform's lower liquidity compared to tier-1 exchanges means funding rates can remain elevated longer, extending profitable arbitrage periods. Traders should monitor the 4-hour mark before funding to capture optimal entry timing, as rates often normalize in the final hours."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "UNI's correlation with broader DeFi sentiment creates funding rate volatility that can quickly erode arbitrage profits if not properly managed. BingX's relatively lower liquidity means larger arbitrage positions may face slippage when unwinding, particularly during volatile DeFi market conditions. The platform's 0.05% taker fee can consume profits on smaller funding rate differentials, requiring spreads of at least 0.08% to remain profitable. Position sizing should account for UNI's tendency toward sharp price movements during DeFi sector rotations, which can trigger unexpected liquidations despite hedged positioning."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical UNI funding rates on BingX?",
+        "answer": "UNI funding rates on BingX typically range from -0.05% to 0.15% per 8-hour cycle during normal conditions. During DeFi rallies or major Uniswap developments, rates can spike to 0.3% or higher as leveraged positions accumulate."
+      },
+      {
+        "question": "How does BingX's copy trading affect UNI funding rates?",
+        "answer": "Copy trading can create funding rate imbalances when popular traders take large UNI positions, causing followers to simultaneously enter similar trades. This clustering effect can push funding rates above equilibrium for extended periods, creating arbitrage opportunities."
+      },
+      {
+        "question": "When do UNI funding rates get charged on BingX?",
+        "answer": "BingX charges UNI funding every 8 hours at 00:00, 08:00, and 16:00 UTC. Positions held at these exact times incur funding charges, while positions opened and closed between funding periods avoid fees entirely."
+      },
+      {
+        "question": "What's the minimum funding rate differential for profitable UNI arbitrage on BingX?",
+        "answer": "Given BingX's 0.05% taker fees, funding rate differentials should exceed 0.08% compared to other exchanges to ensure profitable arbitrage after transaction costs. Higher differentials of 0.12% or more provide comfortable profit margins accounting for slippage and execution risk."
+      }
+    ]
+  },
+  "related_pairs": [
+    "atom-usdt",
+    "fet-usdt",
+    "btc-usdt",
+    "matic-usdt",
+    "bonk-usdt"
+  ]
+}

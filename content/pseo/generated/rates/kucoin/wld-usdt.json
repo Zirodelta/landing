@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate Arbitrage on KuCoin | Live Rates",
+    "description": "Track WLD/USDT perpetual funding rates on KuCoin. Analyze 8-hour funding cycles and arbitrage opportunities for Worldcoin futures trading.",
+    "keywords": [
+      "WLD funding rate",
+      "KuCoin perpetual",
+      "Worldcoin arbitrage",
+      "funding rate strategy",
+      "WLD USDT futures",
+      "crypto arbitrage",
+      "8-hour funding",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on KuCoin offer funding rate arbitrage opportunities through 8-hour settlement cycles at 00:00, 08:00, and 16:00 UTC. KuCoin's 0.02% maker and 0.06% taker fees impact profitability calculations for this AI-sector token. The exchange's moderate liquidity for WLD requires careful position sizing to avoid slippage.",
+    "how_funding_works": "KuCoin calculates WLD/USDT funding rates using a Time-Weighted Average Price (TWAP) of the premium between perpetual and index prices over the 8-hour period. The funding rate is capped at ±0.75% per period to prevent extreme payments. Long positions pay short positions when funding is positive, reflecting market bullishness on Worldcoin. KuCoin applies funding payments automatically without requiring manual intervention, with the exact rate published 1 hour before each settlement.",
+    "why_this_pair": "WLD/USDT presents attractive funding arbitrage potential due to Worldcoin's volatility and retail trader sentiment around AI narratives. The token often experiences sustained directional bias, creating persistent positive or negative funding rates that arbitrageurs can exploit. KuCoin's decent WLD liquidity and competitive fees make it suitable for medium-sized funding rate strategies targeting this emerging AI sector play.",
+    "sections": [
+      {
+        "heading": "WLD Funding Rate Patterns on KuCoin",
+        "body": "WLD funding rates on KuCoin typically range from -0.3% to +0.4% per 8-hour period, with higher volatility during AI sector news cycles. Positive funding dominates during bullish AI market phases, often reaching the 0.75% cap during major announcements. Weekend periods frequently show reduced funding volatility as retail participation decreases. The token's connection to OpenAI and Sam Altman creates event-driven funding spikes that experienced arbitrageurs monitor closely. Historical analysis shows funding rates tend to mean-revert within 24-48 hours after extreme readings."
+      },
+      {
+        "heading": "Arbitrage Execution Strategies",
+        "body": "Effective WLD funding arbitrage on KuCoin requires monitoring the 1-hour pre-announcement window to position before rate publication. Delta-neutral strategies involve holding equal long spot WLD and short perpetual positions to capture funding without price exposure. Cross-exchange arbitrage becomes viable when KuCoin's WLD funding significantly diverges from Binance or OKX rates. Position sizing should account for KuCoin's moderate WLD liquidity, typically keeping individual trades under $50,000 to minimize market impact. Automated execution through KuCoin's API helps capture fleeting arbitrage windows during volatile periods."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "WLD's inherent volatility creates basis risk for funding arbitrageurs, particularly during unexpected AI sector developments or regulatory news. KuCoin's moderate perpetual liquidity can cause slippage during large position adjustments, eroding arbitrage profits. The exchange's regulatory challenges following 2023 SEC charges introduce counterparty risk that traders must evaluate. Funding rate caps at ±0.75% can limit upside during extreme market conditions while basis risk remains unlimited. Proper risk management includes position limits, stop-losses on basis expansion, and diversification across multiple funding rate strategies."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD funding rates on KuCoin compared to other exchanges?",
+        "answer": "WLD funding rates on KuCoin average 0.01-0.05% per 8-hour period, often trading at a slight premium to Binance due to retail sentiment. During AI sector rallies, rates can reach the 0.75% cap more frequently than on larger exchanges with deeper liquidity."
+      },
+      {
+        "question": "How does KuCoin's 8-hour funding cycle affect WLD arbitrage timing?",
+        "answer": "KuCoin's 8-hour cycles at 00:00, 08:00, and 16:00 UTC provide three daily opportunities to capture funding payments. The 1-hour advance notice allows strategic positioning, while the fixed schedule enables predictable arbitrage execution compared to variable funding intervals on some exchanges."
+      },
+      {
+        "question": "What position sizes work best for WLD funding arbitrage on KuCoin?",
+        "answer": "Optimal position sizes range from $10,000-$50,000 to balance profit potential with liquidity constraints. Larger positions may experience increased slippage due to KuCoin's moderate WLD perpetual depth, while smaller positions struggle to overcome the 0.06% taker fees."
+      },
+      {
+        "question": "How do KuCoin's fees impact WLD funding rate profitability?",
+        "answer": "KuCoin's 0.02% maker and 0.06% taker fees require funding rates above 0.08-0.12% per period for profitable arbitrage after accounting for entry/exit costs. Using limit orders to achieve maker rebates significantly improves strategy economics for frequent funding rate trades."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "trx-usdt",
+    "sol-usdt",
+    "dot-usdt",
+    "bonk-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "ordi-usdt",
+    "base": "ORDI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "ORDI/USDT Funding Rate Arbitrage on OKX | 8h Cycles",
+    "description": "Track ORDI/USDT funding rates on OKX with 8-hour cycles. Analyze BRC-20 token arbitrage opportunities with portfolio margin support.",
+    "keywords": [
+      "ORDI funding rate",
+      "OKX perpetual futures",
+      "BRC-20 arbitrage",
+      "Bitcoin Ordinals trading",
+      "funding rate cycles",
+      "perpetual swap arbitrage",
+      "ORDI/USDT futures",
+      "portfolio margin"
+    ]
+  },
+  "content": {
+    "intro": "ORDI/USDT perpetual futures on OKX offer funding rate arbitrage opportunities in the Bitcoin Ordinals ecosystem. As the first BRC-20 token with significant trading volume, ORDI often exhibits volatile funding rates during Bitcoin Ordinals narrative cycles. OKX's 8-hour funding intervals and portfolio margin support provide flexible strategies for arbitraging funding rate imbalances.",
+    "how_funding_works": "OKX calculates ORDI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. The funding rate is determined by the premium/discount between the perpetual price and the underlying index price. When long positions are overcrowded, positive funding rates charge longs and pay shorts. OKX's portfolio margin mode allows cross-collateralization with other positions, reducing margin requirements for arbitrage strategies. The exchange caps funding rates at ±0.75% to prevent extreme funding costs.",
+    "why_this_pair": "ORDI represents the largest BRC-20 token by market cap and often leads Bitcoin Ordinals sector momentum. During narrative-driven rallies, retail traders heavily favor long positions, creating consistently positive funding rates that benefit short arbitrageurs. The pair's moderate liquidity and high volatility generate frequent funding rate inefficiencies compared to major altcoins.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "ORDI/USDT funding rates on OKX typically range from -0.1% to +0.3% during normal market conditions. During Bitcoin Ordinals hype cycles in 2023, funding rates sustained +0.2% to +0.5% for weeks as speculation drove persistent long bias. Weekend periods often show elevated funding rates due to reduced arbitrage activity from institutional traders. The pair exhibits strong correlation with Bitcoin's funding rates but with amplified volatility during BRC-20 sector rotations."
+      },
+      {
+        "heading": "Arbitrage Strategy Considerations",
+        "body": "ORDI's limited spot market liquidity compared to perpetual volume creates challenges for traditional perp-spot arbitrage. Most arbitrageurs focus on cross-exchange funding rate differentials between OKX and Binance rather than spot arbitrage. The token's high volatility requires careful position sizing as unrealized PnL can quickly exceed funding rate profits. OKX's portfolio margin allows pairing ORDI shorts with Bitcoin longs to hedge directional risk while capturing funding premiums."
+      },
+      {
+        "heading": "Risk Management Factors",
+        "body": "ORDI's dependency on Bitcoin Ordinals narrative makes it susceptible to sudden sentiment shifts that can reverse funding rate trends rapidly. The token's relatively low market cap increases susceptibility to whale manipulation affecting both price and funding rates. Limited trading hours in some regions can create funding rate gaps during low-liquidity periods. Arbitrageurs should monitor Bitcoin network congestion and BRC-20 minting activity as these factors influence ORDI's underlying demand dynamics."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the typical funding rate range for ORDI/USDT on OKX?",
+        "answer": "ORDI/USDT funding rates on OKX typically range from -0.1% to +0.3% during normal conditions. During strong Bitcoin Ordinals narratives, rates can sustain +0.2% to +0.5% as retail speculation creates persistent long bias."
+      },
+      {
+        "question": "How does OKX's portfolio margin benefit ORDI funding rate arbitrage?",
+        "answer": "Portfolio margin allows cross-collateralization between ORDI shorts and other positions like Bitcoin longs, reducing overall margin requirements. This enables larger arbitrage positions while hedging directional risk exposure to the broader crypto market."
+      },
+      {
+        "question": "Why does ORDI often have positive funding rates compared to other altcoins?",
+        "answer": "ORDI benefits from Bitcoin Ordinals narrative-driven retail interest, creating persistent long bias during hype cycles. As the flagship BRC-20 token, it attracts speculative positioning that drives funding rates consistently positive during bullish sentiment phases."
+      },
+      {
+        "question": "What risks should traders consider when arbitraging ORDI funding rates?",
+        "answer": "Key risks include ORDI's high volatility potentially overwhelming funding profits, limited spot liquidity for traditional arbitrage, and dependency on Bitcoin Ordinals narrative sentiment. Sudden sentiment shifts can rapidly reverse funding rate trends and create significant unrealized losses."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pyth-usdt",
+    "ada-usdt",
+    "tia-usdt",
+    "imx-usdt",
+    "inj-usdt"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "tia-usdt",
+    "base": "TIA",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "TIA/USDT Funding Rates on dYdX - Celestia Perpetual Futures",
+    "description": "Track TIA/USDT funding rates on dYdX DEX with 1-hour intervals. Analyze Celestia perpetual futures arbitrage opportunities on Cosmos appchain.",
+    "keywords": [
+      "dYdX TIA funding",
+      "Celestia perpetual futures",
+      "TIA/USDT rates",
+      "dYdX arbitrage",
+      "Cosmos DEX trading",
+      "TIA funding rate",
+      "decentralized perps"
+    ]
+  },
+  "content": {
+    "intro": "TIA/USDT perpetual futures on dYdX offer unique funding rate arbitrage opportunities for Celestia's modular blockchain token. As dYdX operates on its own Cosmos appchain with 1-hour funding intervals, traders can capture more frequent rate adjustments compared to traditional 8-hour cycles.",
+    "how_funding_works": "dYdX calculates funding rates hourly using a time-weighted average price mechanism that compares the perpetual contract price to the underlying TIA spot price. The exchange applies funding payments every hour at the top of each hour, with rates typically ranging from -0.01% to 0.01% per hour. Long positions pay funding when rates are positive, while short positions pay when rates are negative, creating direct arbitrage opportunities between dYdX and CEX platforms with different funding schedules.",
+    "why_this_pair": "TIA represents Celestia's innovative modular blockchain infrastructure, creating significant interest from both retail and institutional traders focused on data availability solutions. The token's volatility and growing ecosystem adoption generate frequent funding rate imbalances on dYdX, particularly during major Celestia network updates or partnership announcements.",
+    "sections": [
+      {
+        "heading": "Historical TIA Funding Rate Patterns",
+        "body": "TIA funding rates on dYdX have shown distinct patterns correlating with Celestia ecosystem developments and broader modular blockchain narrative cycles. During TIA's initial listing period, funding rates frequently exceeded 0.005% hourly as speculative interest drove perpetual premiums above spot prices. The token experiences particularly volatile funding during mainnet milestones, validator set changes, and major partnership announcements with rollup projects. Analysis of 90-day historical data shows TIA funding rates tend to spike positive during Asian trading hours when retail speculation peaks, creating consistent arbitrage windows for sophisticated traders."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "dYdX's 1-hour funding intervals create unique arbitrage opportunities against CEX platforms like Binance and OKX that use 8-hour funding cycles for TIA perpetuals. Traders can exploit timing differences by opening opposite positions on dYdX and CEX platforms, capturing funding payments every hour on dYdX while only paying funding every 8 hours on traditional exchanges. The strategy works particularly well during periods of sustained directional bias in TIA price action. However, traders must account for dYdX's 0.05% taker fees and potential slippage when executing large positions on the DEX platform."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "TIA funding rate arbitrage on dYdX carries specific risks related to the token's infrastructure focus and dYdX's decentralized architecture. Celestia's price can experience sharp moves during technical updates or ecosystem announcements that may not be immediately reflected in funding rates, creating temporary losses before rates adjust. dYdX's migration to its own Cosmos appchain introduces additional considerations around network stability and potential downtime during major upgrades. Traders should monitor TIA's correlation with other modular blockchain tokens and maintain position sizes that account for the platform's lower liquidity compared to major CEX venues."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often does dYdX update TIA/USDT funding rates?",
+        "answer": "dYdX calculates and applies TIA/USDT funding rates every hour at the top of each hour. This frequent update cycle allows for more responsive rate adjustments compared to the 8-hour cycles used by most centralized exchanges."
+      },
+      {
+        "question": "What factors influence TIA funding rates on dYdX?",
+        "answer": "TIA funding rates are primarily driven by the premium or discount of the perpetual contract price relative to TIA spot prices, influenced by Celestia ecosystem developments, modular blockchain adoption trends, and overall market sentiment toward infrastructure tokens."
+      },
+      {
+        "question": "Can I arbitrage TIA funding rates between dYdX and centralized exchanges?",
+        "answer": "Yes, the 1-hour vs 8-hour funding interval difference creates arbitrage opportunities. However, you must account for dYdX's trading fees, potential slippage, and the risks associated with holding opposite positions across different platforms."
+      },
+      {
+        "question": "What are the typical TIA funding rate ranges on dYdX?",
+        "answer": "TIA funding rates on dYdX typically range from -0.01% to 0.01% per hour under normal market conditions. During high volatility periods or major Celestia announcements, rates can spike significantly higher in either direction."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "xrp-usdt",
+    "floki-usdt",
+    "wld-usdt",
+    "sui-usdt"
+  ]
+}

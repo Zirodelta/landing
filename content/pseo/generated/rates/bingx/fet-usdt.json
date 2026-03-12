@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on BingX - Perpetual Futures Data",
+    "description": "Track FET/USDT funding rates on BingX exchange for arbitrage opportunities. 8-hour funding cycles with AI token volatility analysis and trading insights.",
+    "keywords": [
+      "FET funding rates",
+      "BingX perpetual futures",
+      "FET/USDT arbitrage",
+      "AI token funding",
+      "cryptocurrency funding rates",
+      "Fetch.ai trading",
+      "perpetual swap rates",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on BingX offer funding rate arbitrage opportunities with 8-hour settlement cycles. As an AI-focused token, Fetch.ai exhibits distinctive funding patterns driven by sentiment around artificial intelligence developments and broader crypto market trends.",
+    "how_funding_works": "BingX calculates FET/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the difference between perpetual and spot prices. Long position holders pay short holders when funding is positive, reflecting premium perpetual pricing. The platform uses a time-weighted average of the premium over the 8-hour period, with funding capped at ±0.75% to prevent extreme scenarios. BingX's copy trading focus means funding rates can be influenced by popular traders' position biases.",
+    "why_this_pair": "FET/USDT provides compelling funding rate arbitrage potential due to its mid-tier liquidity and AI sector volatility. The token's correlation with AI hype cycles creates periodic funding rate spikes when retail sentiment drives perpetual premiums. BingX's social trading features often amplify these moves as copycat traders follow popular AI-focused strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET funding rates on BingX typically range from -0.1% to +0.3% during normal market conditions, with extreme readings reaching ±0.5% during AI sector rotations. Positive funding dominates during AI narrative bull runs as leveraged longs accumulate, while bear markets see intermittent negative rates. The 8-hour cycle creates predictable patterns around major AI announcements and Fetch.ai partnership reveals. Weekend periods often show reduced funding volatility due to lower institutional participation in AI tokens."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Delta-neutral arbitrage works effectively with FET/USDT when funding exceeds 0.15% per cycle (45% annualized), accounting for BingX's 0.02%-0.05% trading fees. The strategy involves longing FET spot while shorting an equivalent amount of perpetuals, collecting funding payments from longs. BingX's grid trading bots can automate rebalancing, though manual management often proves more profitable during volatile AI sector moves. Cross-exchange arbitrage opportunities emerge when BingX funding significantly diverges from other platforms due to its social trading user base."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "FET's AI sector classification introduces narrative-driven volatility that can overwhelm funding rate gains during adverse moves. Spot-perp basis risk exists if large divergences develop between markets, particularly during low liquidity periods on BingX. The platform's copy trading mechanics can create cascade liquidations that temporarily disrupt funding calculations. Position sizing should account for potential 20-30% daily moves during AI sector rotations, with stop losses essential despite the delta-neutral structure."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FET funding rates on BingX?",
+        "answer": "FET funding rates on BingX typically range from -0.1% to +0.3% per 8-hour cycle during normal conditions. During AI sector rallies, rates can spike to +0.5% as leveraged long interest increases significantly."
+      },
+      {
+        "question": "How does BingX's copy trading affect FET funding?",
+        "answer": "Copy trading amplifies funding rate movements as followers replicate popular traders' AI-focused strategies. This creates stronger perpetual premiums during bullish AI narratives and can lead to more extreme funding rates compared to other exchanges."
+      },
+      {
+        "question": "When is FET funding most profitable for arbitrage?",
+        "answer": "FET funding arbitrage is most profitable during AI sector rotation periods when rates exceed 0.15% per cycle. Major Fetch.ai announcements and broader AI developments often trigger these elevated funding environments."
+      },
+      {
+        "question": "What risks should I consider with FET funding strategies?",
+        "answer": "Key risks include FET's high volatility during AI narrative shifts, potential basis risk between spot and perpetual markets, and BingX's relatively lower liquidity compared to tier-1 exchanges. Position sizing should account for 20-30% daily moves."
+      }
+    ]
+  },
+  "related_pairs": [
+    "inj-usdt",
+    "shib-usdt",
+    "tao-usdt",
+    "op-usdt",
+    "ethfi-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wif-usdt",
+    "base": "WIF",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WIF/USDT Funding Rates on MEXC - Track Perpetual Futures",
+    "description": "Monitor WIF/USDT funding rates on MEXC exchange. Track 8-hour funding cycles, zero maker fees, and meme coin arbitrage opportunities for dogwifhat perps.",
+    "keywords": [
+      "WIF funding rates",
+      "MEXC perpetual futures",
+      "dogwifhat funding",
+      "meme coin arbitrage",
+      "MEXC WIF perp",
+      "funding rate arbitrage",
+      "WIF/USDT MEXC",
+      "perpetual futures funding"
+    ]
+  },
+  "content": {
+    "intro": "WIF/USDT perpetual futures on MEXC offer unique funding rate arbitrage opportunities in the volatile meme coin sector. With MEXC's zero maker fees and 8-hour funding intervals, traders can capitalize on dogwifhat's price volatility and funding rate swings.",
+    "how_funding_works": "MEXC calculates WIF/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index methodology. The exchange applies funding when the perpetual price deviates significantly from the spot price, with rates typically ranging from -2% to +2% in extreme conditions. Funding payments are exchanged directly between long and short position holders, with MEXC collecting no additional fees on these transfers.",
+    "why_this_pair": "WIF perpetuals exhibit high funding rate volatility due to meme coin speculation and retail trading patterns on MEXC. The zero maker fee structure makes this pair particularly attractive for high-frequency funding rate arbitrage strategies. MEXC's aggressive listing approach means WIF often sees early adoption and higher retail participation compared to other exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WIF/USDT funding rates on MEXC have shown extreme volatility, with rates exceeding 1% during major meme coin rallies and going deeply negative during corrections. The 8-hour funding cycle creates three daily arbitrage windows, with the 16:00 UTC session typically showing the highest rate volatility due to Western market overlap. Historical data indicates funding rates tend to spike during Solana ecosystem rallies and major social media trends affecting dogwifhat sentiment. Weekend sessions often exhibit lower funding rate volatility due to reduced institutional participation."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "MEXC's zero maker fees create favorable conditions for delta-neutral funding rate strategies using WIF perpetuals. Traders can exploit funding rate disparities between MEXC and other exchanges like Binance or OKX, where WIF funding rates may differ significantly. The exchange's thinner order books can lead to premium/discount situations that amplify funding rate opportunities but require careful position sizing. Cross-exchange arbitrage becomes profitable when funding rate differentials exceed transaction costs and withdrawal fees."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "WIF's high volatility creates substantial liquidation risks, especially given MEXC's reported issues with order book depth during extreme moves. The meme coin nature means funding rates can shift rapidly from positive to negative, requiring active position management. MEXC's regulatory uncertainties and questionable volume reporting add counterparty risk considerations for larger arbitrage positions. Slippage costs can be significant during volatile periods due to the exchange's smaller market maker presence compared to tier-1 exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are WIF/USDT funding rates calculated on MEXC?",
+        "answer": "MEXC calculates WIF/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC. Funding payments are automatically exchanged between long and short position holders at these times based on the calculated rate."
+      },
+      {
+        "question": "What are typical WIF funding rate ranges on MEXC?",
+        "answer": "WIF funding rates on MEXC typically range from -0.5% to +0.5% during normal market conditions, but can exceed ±2% during extreme meme coin volatility. The wide ranges reflect retail-heavy trading patterns and sentiment-driven price movements."
+      },
+      {
+        "question": "Does MEXC charge additional fees on WIF funding payments?",
+        "answer": "No, MEXC does not charge additional fees on funding rate payments for WIF/USDT perpetuals. The zero maker fee structure and direct peer-to-peer funding exchanges make it cost-effective for arbitrage strategies."
+      },
+      {
+        "question": "How does WIF order book depth affect funding arbitrage on MEXC?",
+        "answer": "MEXC's thinner WIF order books can create larger bid-ask spreads during volatile periods, increasing slippage costs for arbitrage entries and exits. However, this also creates opportunities for larger funding rate deviations compared to exchanges with deeper liquidity."
+      }
+    ]
+  },
+  "related_pairs": [
+    "pepe-usdt",
+    "pendle-usdt",
+    "avax-usdt",
+    "ethfi-usdt",
+    "imx-usdt"
+  ]
+}

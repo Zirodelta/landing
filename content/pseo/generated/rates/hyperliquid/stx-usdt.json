@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "stx-usdt",
+    "base": "STX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "STX/USDT Funding Rates on Hyperliquid - DEX Arbitrage",
+    "description": "Track STX/USDT perpetual funding rates on Hyperliquid DEX. 1-hour intervals, on-chain order book, and sub-second finality for optimal arbitrage opportunities.",
+    "keywords": [
+      "STX funding rates",
+      "Hyperliquid DEX",
+      "Stacks perpetual futures",
+      "DeFi funding arbitrage",
+      "on-chain derivatives",
+      "1-hour funding",
+      "Bitcoin ecosystem",
+      "USDT perpetuals"
+    ]
+  },
+  "content": {
+    "intro": "STX/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities within the Bitcoin ecosystem. As a fully on-chain DEX with 1-hour funding intervals, Hyperliquid provides transparent and frequent rate adjustments for Stacks token exposure. The platform's sub-second finality and CEX-grade performance enable efficient arbitrage execution without KYC requirements.",
+    "how_funding_works": "Hyperliquid calculates STX/USDT funding rates every hour using the 8-hour TWAP of the premium between perpetual and index prices. The platform's on-chain order book ensures transparent price discovery, while the L1 architecture provides immediate settlement. Funding payments occur hourly at the top of each hour, with rates typically ranging from -0.01% to 0.01% but can spike during high volatility periods. The fully collateralized system uses USDC as the only margin asset, simplifying risk calculations.",
+    "why_this_pair": "STX represents exposure to the Bitcoin ecosystem through Stacks' smart contract layer, making it attractive for Bitcoin-focused arbitrageurs. The pair often exhibits funding rate premiums during Bitcoin rallies as traders seek leveraged exposure to Bitcoin infrastructure plays. Hyperliquid's 1-hour funding frequency provides more granular arbitrage opportunities compared to traditional 8-hour intervals on centralized exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "STX/USDT funding rates on Hyperliquid typically correlate with Bitcoin price movements and broader crypto market sentiment. During Bitcoin bull runs, STX often trades at significant premiums due to its positioning as a Bitcoin Layer 2 play, resulting in positive funding rates ranging from 0.005% to 0.02% hourly. Bear markets tend to produce neutral to slightly negative rates as short interest increases. The 1-hour funding interval means rates can adjust more rapidly to changing market conditions compared to 8-hour systems. Volatility spikes during major Bitcoin upgrades or Stacks ecosystem developments often create temporary funding rate dislocations exceeding 0.05% hourly."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The primary arbitrage strategy involves exploiting funding rate differentials between Hyperliquid and centralized exchanges like Binance or OKX. Traders can go long STX perpetuals on Hyperliquid while shorting on CEXs when Hyperliquid shows negative funding, collecting positive rates on both sides. The 1-hour funding frequency creates 8x more collection opportunities than traditional exchanges. Cross-DEX arbitrage becomes profitable when funding rate spreads exceed combined trading fees of approximately 0.07% (0.02% maker + 0.05% taker on Hyperliquid plus CEX fees). The on-chain settlement eliminates counterparty risk but requires careful gas cost consideration during network congestion."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "Trading STX perpetuals on Hyperliquid carries several unique risks beyond standard funding arbitrage. The platform's single L1 architecture creates concentration risk, as network issues could affect position management during volatile periods. STX's correlation with Bitcoin means funding rates can shift rapidly during macro events, requiring active position monitoring. Hyperliquid's USDC-only collateral system eliminates multi-asset complexity but concentrates stablecoin risk. The DEX's relatively newer track record compared to established CEXs adds protocol risk, though the fully on-chain nature provides transparency. Liquidity can vary significantly from centralized exchanges, potentially affecting large position entries and exits during extreme market conditions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are STX/USDT funding rates updated on Hyperliquid?",
+        "answer": "Hyperliquid updates STX/USDT funding rates every hour at the top of the hour. This is significantly more frequent than the standard 8-hour intervals used by most centralized exchanges, providing more opportunities for rate collection and arbitrage."
+      },
+      {
+        "question": "What makes Hyperliquid different for STX perpetual trading?",
+        "answer": "Hyperliquid operates as a fully on-chain DEX with its own L1, offering sub-second finality and transparent order book mechanics. Unlike centralized exchanges, all STX perpetual trades settle on-chain immediately, and no KYC is required for trading."
+      },
+      {
+        "question": "Can I use other cryptocurrencies as collateral for STX positions?",
+        "answer": "No, Hyperliquid only accepts USDC as collateral for all perpetual positions, including STX/USDT. This simplifies margin calculations but requires converting other assets to USDC before trading."
+      },
+      {
+        "question": "What are the typical funding rate ranges for STX on Hyperliquid?",
+        "answer": "STX funding rates typically range from -0.01% to 0.01% hourly during normal market conditions. However, during high volatility or Bitcoin ecosystem developments, rates can spike to ±0.05% or higher as demand for leveraged STX exposure changes rapidly."
+      }
+    ]
+  },
+  "related_pairs": [
+    "shib-usdt",
+    "avax-usdt",
+    "wld-usdt",
+    "ada-usdt",
+    "ldo-usdt"
+  ]
+}

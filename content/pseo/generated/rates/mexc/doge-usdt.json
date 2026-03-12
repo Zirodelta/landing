@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "doge-usdt",
+    "base": "DOGE",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "MEXC DOGE/USDT Funding Rate - Perpetual Futures Arbitrage",
+    "description": "Track MEXC DOGE/USDT funding rates for perpetual futures arbitrage. Zero maker fees, 8-hour intervals, up to 125x leverage on MEXC exchange.",
+    "keywords": [
+      "MEXC funding rate",
+      "DOGE perpetual futures",
+      "MEXC arbitrage",
+      "DOGE funding rate",
+      "perpetual futures MEXC",
+      "DOGE USDT trading",
+      "meme coin funding"
+    ]
+  },
+  "content": {
+    "intro": "MEXC DOGE/USDT perpetual futures offer funding rate arbitrage opportunities with zero maker fees and 8-hour payment intervals. The pair benefits from MEXC's aggressive listing strategy and substantial meme coin trading volume.",
+    "how_funding_works": "MEXC calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium between perpetual and spot prices. Long positions pay funding when rates are positive, short positions pay when negative. Funding exchanges occur only if you hold positions at the exact funding timestamp. MEXC applies no additional fees beyond the calculated funding rate.",
+    "why_this_pair": "DOGE/USDT on MEXC exhibits volatile funding rates due to retail sentiment driving meme coin speculation. The zero maker fee structure makes delta-neutral arbitrage highly profitable during periods of extreme funding rates. MEXC's early listing advantage often creates unique arbitrage windows before other major exchanges.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "MEXC DOGE/USDT funding rates typically range from -0.75% to +2.1% during high volatility periods. Positive funding dominates during meme coin rallies as retail traders heavily favor long positions. Social media-driven pump events often push 8-hour rates above 0.5%, creating profitable short arbitrage opportunities. Weekend periods frequently show elevated funding as algorithmic arbitrage reduces while retail activity remains high."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Zero maker fees on MEXC enable profitable arbitrage at funding rates above 0.15% per 8-hour period. Delta-neutral strategies work best by shorting MEXC perpetuals while buying spot DOGE on Binance or OKX. The thin order books require careful position sizing to avoid significant slippage. Cross-exchange arbitrage becomes most profitable when MEXC funding exceeds 0.3% while other exchanges show negative or minimal rates."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "MEXC's thinner liquidity creates higher slippage risk during volatile periods, particularly for positions above $50,000. The exchange's regulatory uncertainty poses counterparty risk for large arbitrage operations. Auto-deleveraging during extreme market moves can force close profitable positions prematurely. Funding rate calculations may be less reliable during low-volume Asian trading hours when the premium index becomes unstable."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes MEXC DOGE funding rates different from other exchanges?",
+        "answer": "MEXC often shows more extreme funding rates due to its retail-heavy user base and aggressive meme coin marketing. The zero maker fee structure also reduces arbitrage competition, allowing rates to persist longer than on traditional exchanges."
+      },
+      {
+        "question": "How do I calculate profitable MEXC DOGE arbitrage thresholds?",
+        "answer": "Account for 0.03% taker fees, spot trading costs, and transfer fees between exchanges. Generally, funding rates above 0.2% per 8-hour period provide sufficient margin after all costs for delta-neutral arbitrage strategies."
+      },
+      {
+        "question": "What position sizes work best for MEXC DOGE funding arbitrage?",
+        "answer": "Positions between $10,000-$75,000 typically offer optimal balance between profit potential and slippage costs. Larger positions may struggle with MEXC's order book depth during volatile periods."
+      },
+      {
+        "question": "How reliable are MEXC funding rate predictions for DOGE?",
+        "answer": "MEXC funding rates correlate strongly with social media sentiment and can shift rapidly. Use shorter-term strategies rather than multi-day positions, as meme coin funding rates are inherently unpredictable beyond 24-hour periods."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ton-usdt",
+    "ethfi-usdt",
+    "meme-usdt",
+    "sol-usdt",
+    "jto-usdt"
+  ]
+}

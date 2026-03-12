@@ -1,0 +1,69 @@
+{
+  "exchange": {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "OKX FLOKI/USDT Funding Rate Arbitrage Guide",
+    "description": "Trade FLOKI/USDT perpetuals on OKX with 8-hour funding intervals. Analyze meme coin volatility patterns for profitable funding rate arbitrage strategies.",
+    "keywords": [
+      "FLOKI funding rate",
+      "OKX perpetual futures",
+      "meme coin arbitrage",
+      "FLOKI USDT trading",
+      "funding rate strategy",
+      "OKX trading fees",
+      "perpetual swap arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on OKX offer funding rate arbitrage opportunities every 8 hours at 00:00, 08:00, and 16:00 UTC. As a meme coin with significant retail interest, FLOKI exhibits pronounced funding rate imbalances during trending periods. OKX's robust API infrastructure and portfolio margin mode enable sophisticated arbitrage strategies across this volatile pair.",
+    "how_funding_works": "OKX calculates FLOKI/USDT funding rates using a time-weighted average of the premium between perpetual and index prices over the 8-hour period. The funding fee is exchanged between long and short position holders at each interval, with rates typically ranging from -2% to +2% annually. OKX's multi-tier fee structure applies 0.02% maker and 0.05% taker fees, which must be factored into arbitrage profitability calculations. Portfolio margin mode allows cross-collateralization, reducing capital requirements for hedge positions.",
+    "why_this_pair": "FLOKI's meme coin status creates significant funding rate volatility as retail sentiment drives position imbalances. During bullish meme coin cycles, FLOKI often maintains persistently positive funding rates as retail traders favor long positions. The pair's mid-tier volume on OKX provides sufficient liquidity for arbitrage while avoiding the overcrowded conditions of major pairs like BTC or ETH.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI funding rates on OKX demonstrate strong correlation with broader meme coin market cycles and social media sentiment spikes. During Q4 2023 and Q1 2024, rates frequently exceeded +1% annually during trending periods, creating profitable short arbitrage opportunities. The pair exhibits distinct patterns around major exchange listings and social media campaigns, with funding rates often spiking 4-6 hours before settlement times. Weekend periods typically show reduced volatility due to lower retail participation, resulting in more neutral funding environments."
+      },
+      {
+        "heading": "Arbitrage Opportunity Analysis",
+        "body": "Cross-exchange arbitrage between OKX and Binance FLOKI perpetuals can capture funding rate differentials, particularly during high volatility periods. OKX's 8-hour funding intervals versus Binance's provide temporal arbitrage windows when rate announcements diverge. The exchange's portfolio margin system enables capital-efficient delta-neutral strategies by using FLOKI spot holdings as collateral for short perpetual positions. Integration with OKX's multi-chain wallet facilitates rapid rebalancing across DeFi protocols offering FLOKI yield opportunities."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "FLOKI's meme coin volatility creates significant mark-to-market risk even in delta-neutral arbitrage positions due to basis risk between spot and perpetual prices. Sudden delisting announcements or regulatory concerns can create extreme funding rate spikes that exceed typical risk parameters. OKX's auto-deleveraging system may force position closures during extreme market stress, particularly problematic for meme coins with lower liquidity buffers. Position sizing should account for FLOKI's tendency toward gap movements during low-liquidity Asian trading hours when funding settlements occur."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical FLOKI funding rates on OKX during trending periods?",
+        "answer": "During strong upward price movements, FLOKI funding rates on OKX typically range from +0.5% to +1.5% annually, with extreme cases reaching +2%. Bearish periods usually see rates between -0.3% to -0.8% annually due to reduced retail long interest."
+      },
+      {
+        "question": "How does OKX's portfolio margin affect FLOKI arbitrage strategies?",
+        "answer": "Portfolio margin mode reduces capital requirements by up to 40% for delta-neutral FLOKI arbitrage positions. Cross-collateralization allows using other crypto holdings as margin, improving capital efficiency. However, correlation risk increases during market-wide stress events affecting all meme coins simultaneously."
+      },
+      {
+        "question": "What is the minimum position size for effective FLOKI funding arbitrage on OKX?",
+        "answer": "Positions should exceed $10,000 notional value to overcome OKX's 0.02%-0.05% trading fees and justify the operational complexity. Smaller positions often fail to generate meaningful profits after accounting for execution costs and funding rate volatility."
+      },
+      {
+        "question": "How do OKX's FLOKI funding rates compare to other major exchanges?",
+        "answer": "OKX FLOKI funding rates typically track 10-20 basis points higher than Binance during bullish periods due to its retail-heavy user base. Bybit often shows the most extreme rates, while OKX provides more stable, predictable funding cycles suitable for systematic arbitrage strategies."
+      }
+    ]
+  },
+  "related_pairs": [
+    "sol-usdt",
+    "meme-usdt",
+    "uni-usdt",
+    "bonk-usdt",
+    "pepe-usdt"
+  ]
+}

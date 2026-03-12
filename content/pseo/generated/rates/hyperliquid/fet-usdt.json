@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "fet-usdt",
+    "base": "FET",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FET/USDT Funding Rates on Hyperliquid DEX | 1h Intervals",
+    "description": "Track FET/USDT perpetual funding rates on Hyperliquid's on-chain order book. 1-hour intervals, 0.02% maker fees, fully decentralized trading for AI token arbitrage.",
+    "keywords": [
+      "FET funding rate",
+      "Hyperliquid perpetuals",
+      "AI token arbitrage",
+      "on-chain funding",
+      "FET/USDT perps",
+      "DEX funding rates",
+      "Fetch.ai arbitrage",
+      "1-hour funding"
+    ]
+  },
+  "content": {
+    "intro": "FET/USDT perpetual futures on Hyperliquid offer unique funding rate opportunities with 1-hour intervals on a fully on-chain order book. As an AI infrastructure token, FET exhibits distinct funding patterns driven by sentiment shifts in the artificial intelligence sector.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the premium between FET perpetual futures and spot prices. The exchange uses a time-weighted average price (TWAP) mechanism with its native on-chain order book providing real-time price discovery. Funding payments occur automatically at the top of each hour, with rates typically ranging from -0.1% to +0.1% but can spike during high volatility periods. The fully on-chain settlement ensures transparent and immediate funding transfers between long and short positions.",
+    "why_this_pair": "FET/USDT presents compelling arbitrage opportunities due to its mid-tier volume and AI sector correlation, which often creates funding rate imbalances. The hourly funding intervals on Hyperliquid provide more frequent arbitrage opportunities compared to 8-hour systems, allowing traders to capture smaller but more consistent rate differentials.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FET funding rates on Hyperliquid typically correlate with broader AI sector sentiment and Bitcoin movements. During AI hype cycles, FET often trades at a premium with positive funding rates averaging 0.02-0.05% hourly. The token shows increased funding volatility around major AI announcements, Fetch.ai protocol updates, and during broader crypto rallies. Negative funding rates frequently occur during market corrections when shorts dominate, creating opportunities for long-side arbitrage strategies."
+      },
+      {
+        "heading": "Arbitrage Opportunities and Strategies",
+        "body": "The 1-hour funding intervals create multiple daily arbitrage windows for FET/USDT positions. Cross-exchange arbitrage works effectively between Hyperliquid's on-chain rates and CEX rates on Binance or OKX, especially during periods of high funding divergence. Delta-neutral strategies perform well due to FET's moderate volatility and predictable funding patterns. The lack of KYC requirements on Hyperliquid enables quick position adjustments without regulatory friction, making it ideal for automated arbitrage systems targeting funding rate capture."
+      },
+      {
+        "heading": "Risk Considerations and Management",
+        "body": "FET's mid-tier liquidity on Hyperliquid can create slippage risks during volatile periods, particularly when unwinding large positions. The single-chain ecosystem means smart contract risk is concentrated, though Hyperliquid's proven track record mitigates this concern. USDC-only collateral creates additional conversion friction compared to USDT-native exchanges. Monitor funding rate caps and exchange-specific position limits, as Hyperliquid may implement dynamic risk controls during extreme market conditions that could affect arbitrage profitability."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FET funding rates updated on Hyperliquid?",
+        "answer": "Funding rates are calculated and paid every hour on Hyperliquid. This provides 24 funding opportunities per day, significantly more than traditional 8-hour intervals on centralized exchanges, allowing for more frequent arbitrage capture."
+      },
+      {
+        "question": "What makes FET funding rates unique on a DEX versus CEX?",
+        "answer": "Hyperliquid's on-chain order book provides transparent, real-time funding rate calculations without the opaque mechanisms of centralized exchanges. The fully decentralized nature means no counterparty risk from exchange insolvency, though smart contract risks apply instead."
+      },
+      {
+        "question": "Can I use leverage for FET funding rate arbitrage on Hyperliquid?",
+        "answer": "Yes, Hyperliquid supports leverage up to 50x for FET perpetuals. However, for funding rate arbitrage, lower leverage (2-5x) is recommended to minimize liquidation risk while still amplifying funding rate returns effectively."
+      },
+      {
+        "question": "How does FET liquidity on Hyperliquid compare for arbitrage?",
+        "answer": "FET maintains moderate liquidity on Hyperliquid with tighter spreads than many smaller DEXs but wider than major CEXs. This creates arbitrage opportunities but requires careful position sizing to avoid significant market impact, especially for positions above $50k."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "pyth-usdt",
+    "pendle-usdt",
+    "sol-usdt",
+    "atom-usdt"
+  ]
+}

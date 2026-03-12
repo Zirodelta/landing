@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "floki-usdt",
+    "base": "FLOKI",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "FLOKI/USDT Funding Rates on Hyperliquid | 1-Hour Intervals",
+    "description": "Track FLOKI/USDT perpetual futures funding rates on Hyperliquid DEX. 1-hour funding intervals, fully on-chain order book, and sub-second finality.",
+    "keywords": [
+      "FLOKI funding rates",
+      "Hyperliquid perpetuals",
+      "meme coin arbitrage",
+      "DEX funding",
+      "1-hour funding",
+      "FLOKI USDT",
+      "on-chain futures",
+      "funding rate arbitrage"
+    ]
+  },
+  "content": {
+    "intro": "FLOKI/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities through the platform's 1-hour funding intervals and fully on-chain order book. As a meme coin with volatile sentiment swings, FLOKI frequently experiences extreme funding rates that can exceed traditional altcoin pairs.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using the 1-hour TWAP difference between perpetual and spot prices. The on-chain order book ensures transparent price discovery without relying on external oracles for funding calculations. Payments occur automatically at each hourly settlement, with rates typically ranging from -0.01% to +0.01% but capable of reaching extreme levels during high volatility. The platform's sub-second finality allows for rapid position adjustments when funding rates shift dramatically.",
+    "why_this_pair": "FLOKI's meme coin status creates significant funding rate volatility due to retail sentiment and social media-driven price movements. The pair's mid-tier volume provides sufficient liquidity for arbitrage while avoiding the extremely tight spreads of major pairs that compress profit margins. Hyperliquid's 1-hour funding intervals, shorter than most exchanges' 8-hour cycles, create more frequent arbitrage opportunities.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "FLOKI funding rates on Hyperliquid exhibit extreme volatility correlated with social media trends and broader meme coin cycles. During bull runs, positive funding rates often exceed +0.1% hourly as retail traders maintain heavy long bias. Bear market periods show persistent negative funding of -0.05% to -0.1% as shorts dominate. The 1-hour interval amplifies these patterns, creating 24 daily settlement opportunities compared to traditional 8-hour cycles. Weekend periods typically show reduced volatility but can spike during viral social media events."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "FLOKI's funding rate premiums frequently diverge from other exchanges due to Hyperliquid's unique user base and 1-hour intervals. Cross-exchange arbitrage opportunities arise when Hyperliquid's rates deviate significantly from Binance or OKX 8-hour rates. The platform's 0.02% maker fee structure allows profitable arbitrage when funding rates exceed 0.08% hourly. Delta-neutral strategies work effectively by longing perpetuals during negative funding periods while shorting spot on other platforms. The absence of KYC requirements enables rapid capital deployment for time-sensitive opportunities."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "FLOKI's meme coin volatility can cause rapid price gaps that impact arbitrage positions before funding settlements. Hyperliquid's single L1 ecosystem creates smart contract risks not present on traditional CEX platforms. The platform's newer track record means less historical data for backtesting funding rate strategies. USDC-only settlements require additional conversion steps for traders preferring USDT exposure. Liquidity can thin rapidly during extreme market moves, potentially causing slippage on larger arbitrage positions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often are FLOKI funding rates calculated on Hyperliquid?",
+        "answer": "Hyperliquid calculates and settles FLOKI/USDT funding rates every hour, providing 24 settlement opportunities per day. This is significantly more frequent than most exchanges that use 8-hour intervals."
+      },
+      {
+        "question": "What makes FLOKI funding rates more volatile than other pairs?",
+        "answer": "As a meme coin, FLOKI experiences extreme sentiment swings driven by social media and retail trader behavior. This creates larger funding rate premiums as traders maintain heavily biased long or short positions during trending periods."
+      },
+      {
+        "question": "Can I arbitrage FLOKI funding rates between Hyperliquid and other exchanges?",
+        "answer": "Yes, cross-exchange arbitrage is possible due to different funding calculation methods and intervals. Hyperliquid's hourly settlements often create rate disparities with exchanges using 8-hour cycles, especially during volatile periods."
+      },
+      {
+        "question": "What are the main risks of FLOKI funding rate arbitrage on Hyperliquid?",
+        "answer": "Key risks include meme coin price volatility affecting positions before settlement, smart contract risks inherent to DEX platforms, and potential liquidity issues during extreme market conditions. The newer platform also has limited historical performance data."
+      }
+    ]
+  },
+  "related_pairs": [
+    "aave-usdt",
+    "inj-usdt",
+    "tia-usdt",
+    "matic-usdt",
+    "ada-usdt"
+  ]
+}

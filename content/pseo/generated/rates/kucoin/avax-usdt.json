@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "avax-usdt",
+    "base": "AVAX",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "KuCoin AVAX/USDT Funding Rate Arbitrage Guide",
+    "description": "Track AVAX/USDT funding rates on KuCoin for arbitrage opportunities. 8-hour cycles, 0.02% maker fees, and altcoin volatility patterns analyzed.",
+    "keywords": [
+      "AVAX funding rate",
+      "KuCoin perpetuals",
+      "AVAX arbitrage",
+      "funding rate trading",
+      "Avalanche futures",
+      "crypto arbitrage",
+      "perpetual swaps",
+      "funding fees"
+    ]
+  },
+  "content": {
+    "intro": "KuCoin's AVAX/USDT perpetual futures offer funding rate arbitrage opportunities through 8-hour settlement cycles with moderate liquidity depth. As a leading L1 blockchain token, AVAX exhibits distinct funding patterns influenced by network adoption cycles and DeFi activity on Avalanche.",
+    "how_funding_works": "KuCoin calculates AVAX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual and spot prices. The funding rate is capped at ±0.375% per 8-hour period with interest rate component typically set at 0.01%. Long positions pay when funding is positive, shorts pay when negative, with payments occurring automatically at settlement times. KuCoin's funding rate formula incorporates a 1-hour TWAP (Time Weighted Average Price) to smooth out price volatility.",
+    "why_this_pair": "AVAX/USDT funding rates often diverge from BTC patterns due to Avalanche's subnet launches, validator staking dynamics, and ecosystem announcements. The pair experiences higher funding volatility during subnet deployments and major DeFi protocol launches, creating arbitrage windows. KuCoin's competitive 0.02% maker fees and decent AVAX liquidity make it suitable for delta-neutral funding strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "AVAX/USDT funding rates on KuCoin typically range from -0.1% to +0.2% per 8-hour period, with spikes reaching ±0.3% during major Avalanche network events. Positive funding dominates during bull markets as traders leverage long positions expecting subnet announcements and ecosystem growth. Seasonal patterns emerge around Avalanche Summit conferences and major partnership announcements, often creating 2-3 day funding premium periods. The pair shows stronger correlation with SOL and MATIC funding rates compared to BTC, reflecting L1 competition dynamics."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage opportunities arise when KuCoin's AVAX funding rates diverge significantly from Binance or OKX rates by more than 0.05% per cycle. Delta-neutral strategies work best during AVAX ecosystem events when perpetual premiums spike but spot prices lag, creating sustained positive funding periods. Intra-cycle arbitrage becomes viable when funding predictions exceed ±0.15%, allowing for profitable position sizing despite KuCoin's 0.06% taker fees. Calendar spread arbitrage using KuCoin's quarterly AVAX futures alongside perpetuals can capture funding-delivery basis differences."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "AVAX funding arbitrage on KuCoin carries elevated risk due to the token's high volatility and correlation with broader L1 sector sentiment. Liquidity gaps can occur during Asia trading hours, potentially impacting exit strategies for large positions above $100K notional. Auto-deleveraging risk increases during AVAX price crashes when many long positions face liquidation simultaneously. KuCoin's 2023 regulatory challenges add counterparty risk considerations, though the exchange maintains adequate AVAX perpetual liquidity for most funding rate strategies under $500K notional."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical AVAX funding rates on KuCoin?",
+        "answer": "AVAX/USDT funding rates on KuCoin typically range from -0.05% to +0.15% per 8-hour cycle during normal market conditions. Rates can spike to ±0.3% during major Avalanche ecosystem announcements or subnet launches, creating arbitrage opportunities for traders."
+      },
+      {
+        "question": "How does KuCoin's AVAX liquidity compare for funding strategies?",
+        "answer": "KuCoin maintains $2-5M in AVAX/USDT perpetual order book depth within 1% of mid-price, sufficient for funding strategies up to $200K notional. While less liquid than Binance, KuCoin's competitive maker fees and 8-hour funding cycles provide adequate opportunities for smaller arbitrage operations."
+      },
+      {
+        "question": "When do AVAX funding rate spikes typically occur on KuCoin?",
+        "answer": "AVAX funding spikes often coincide with Avalanche subnet launches, major DeFi protocol deployments, or partnership announcements. These events can create 12-24 hour periods of elevated positive funding as traders increase long exposure, presenting arbitrage windows for prepared delta-neutral strategies."
+      },
+      {
+        "question": "What's the minimum position size for AVAX funding arbitrage on KuCoin?",
+        "answer": "Effective AVAX funding arbitrage on KuCoin typically requires minimum $10K positions to overcome the 0.02%/0.06% fee structure across multiple 8-hour cycles. Smaller positions may struggle to generate meaningful profits unless funding rates consistently exceed 0.1% per cycle."
+      }
+    ]
+  },
+  "related_pairs": [
+    "ftm-usdt",
+    "apt-usdt",
+    "atom-usdt",
+    "wld-usdt",
+    "btc-usdt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX"
+  },
+  "pair": {
+    "slug": "wld-usdt",
+    "base": "WLD",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "WLD/USDT Funding Rate - BingX Perpetual Futures Trading",
+    "description": "Track WLD/USDT funding rates on BingX every 8 hours. Analyze AI token funding patterns for arbitrage opportunities with 0.02% maker fees.",
+    "keywords": [
+      "WLD funding rate",
+      "BingX perpetuals",
+      "Worldcoin futures",
+      "AI token arbitrage",
+      "crypto funding arbitrage",
+      "WLD USDT",
+      "BingX trading",
+      "perpetual futures"
+    ]
+  },
+  "content": {
+    "intro": "WLD/USDT perpetual futures on BingX offer funding rate arbitrage opportunities in the AI token sector with 8-hour settlement intervals. BingX's social trading platform provides mid-tier liquidity for Worldcoin perpetuals, making it suitable for moderate position sizes in funding rate strategies.",
+    "how_funding_works": "BingX calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, using a time-weighted average of the premium between perpetual and index prices. The exchange applies a base rate of 0.01% with adjustments based on market sentiment and open interest imbalances. Funding payments are automatically settled between long and short position holders, with the exchange taking no cut from these transfers.",
+    "why_this_pair": "WLD exhibits significant funding rate volatility due to its AI narrative and retail sentiment swings, creating arbitrage opportunities when rates diverge from other exchanges. The token's association with Worldcoin's biometric verification project generates periodic hype cycles that drive funding rate premiums. BingX's copy trading community often amplifies directional bias, leading to sustained funding rate imbalances ideal for cross-exchange arbitrage strategies.",
+    "sections": [
+      {
+        "heading": "Historical Funding Rate Patterns",
+        "body": "WLD/USDT on BingX has shown funding rate spikes exceeding 0.1% during AI token rallies, particularly during Q3 2023 and early 2024. The pair typically exhibits negative funding rates during broader crypto downturns, with rates reaching -0.05% as shorts dominate. Weekend periods often see reduced volatility in funding rates due to lower trading volumes, while major AI-related news catalysts can trigger rapid funding rate changes within single 8-hour periods. Monthly analysis reveals funding rates tend to normalize around 0.01-0.03% during sideways market conditions."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "Cross-exchange arbitrage between BingX and tier-1 exchanges like Binance or OKX frequently yields 0.02-0.08% profit per funding period during volatile periods. BingX's smaller user base and copy trading mechanics often lag in price discovery, creating temporary funding rate disparities lasting 1-2 settlement cycles. The exchange's 0.02% maker fee structure makes arbitrage profitable when funding rate differences exceed 0.06% after accounting for transaction costs. Grid trading bots on BingX can be utilized to maintain delta-neutral positions while capturing funding rate differentials."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "BingX's lower liquidity for WLD/USDT means slippage risk increases significantly for positions exceeding $10,000, particularly during funding settlement periods. The exchange's reliance on copy trading creates clustering risk where multiple traders may unwind similar positions simultaneously, causing rapid price movements. Position sizing should account for BingX's 20x maximum leverage for WLD and potential margin call risks during volatile AI sector events. Funding rate arbitrage strategies must consider BingX's withdrawal limits and settlement delays when calculating capital efficiency across multiple exchanges."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are typical WLD funding rates on BingX compared to other exchanges?",
+        "answer": "BingX WLD funding rates typically range from -0.05% to +0.15% during volatile periods, often trading 0.01-0.03% higher than Binance due to retail bias. During neutral market conditions, rates normalize around 0.01-0.02%, similar to other major exchanges."
+      },
+      {
+        "question": "How does BingX's copy trading affect WLD funding rates?",
+        "answer": "Copy trading creates herding effects that amplify funding rate movements, as popular traders' positions get replicated across multiple accounts. This can sustain elevated funding rates longer than on exchanges with more sophisticated institutional flow, creating extended arbitrage windows."
+      },
+      {
+        "question": "What position size limits should I consider for WLD funding arbitrage on BingX?",
+        "answer": "Positions above $5,000-10,000 may experience significant slippage due to BingX's mid-tier liquidity for WLD. The exchange's order book depth typically supports smooth execution for smaller arbitrage positions but requires careful monitoring for larger strategies."
+      },
+      {
+        "question": "How reliable is WLD price data and funding calculations on BingX?",
+        "answer": "BingX uses standard index pricing methodology for WLD, sourcing from major spot exchanges. However, occasional data lag during high volatility can cause temporary funding rate calculation delays, making real-time monitoring essential for arbitrage timing."
+      }
+    ]
+  },
+  "related_pairs": [
+    "link-usdt",
+    "bonk-usdt",
+    "matic-usdt",
+    "doge-usdt",
+    "ethfi-usdt"
+  ]
+}

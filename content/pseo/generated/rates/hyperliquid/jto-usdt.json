@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jto-usdt",
+    "base": "JTO",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JTO/USDT Funding Rates on Hyperliquid DEX",
+    "description": "Track JTO/USDT perpetual funding rates on Hyperliquid's on-chain DEX. 1-hour intervals, no KYC, sub-second finality for DeFi token arbitrage opportunities.",
+    "keywords": [
+      "JTO funding rates",
+      "Hyperliquid DEX",
+      "on-chain perpetuals",
+      "DeFi funding arbitrage",
+      "1-hour funding",
+      "JTO USDT",
+      "decentralized derivatives",
+      "Jito token"
+    ]
+  },
+  "content": {
+    "intro": "JTO/USDT perpetual futures on Hyperliquid offer unique funding rate arbitrage opportunities through the platform's fully on-chain order book and 1-hour funding intervals. As Jito's governance token, JTO exhibits distinct funding patterns driven by Solana staking yield dynamics and liquid staking demand.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour using mark price deviation from index price, with payments occurring between long and short positions. The on-chain settlement ensures transparent rate calculation without centralized manipulation risk. Funding rates adjust based on the 8-hour TWAP of the premium/discount, providing more frequent rate updates than traditional 8-hour cycles. Position funding is automatically debited or credited to trader accounts at each hourly settlement.",
+    "why_this_pair": "JTO's funding rates often reflect Solana ecosystem sentiment and liquid staking adoption trends, creating predictable patterns during network upgrades or staking yield changes. The token's relatively smaller market cap compared to major cryptocurrencies can lead to more volatile funding rates, presenting enhanced arbitrage opportunities. Hyperliquid's no-KYC environment attracts DeFi-native traders, potentially creating funding rate inefficiencies versus CEX markets.",
+    "sections": [
+      {
+        "heading": "Historical JTO Funding Patterns",
+        "body": "JTO funding rates on Hyperliquid have shown strong correlation with Solana validator performance and MEV extraction yields from Jito's liquid staking protocol. During periods of high Solana network activity, long funding rates typically increase as traders anticipate higher staking rewards flowing to JTO holders. The 1-hour funding cycle captures intraday sentiment shifts more effectively than longer intervals, particularly during Solana ecosystem announcements or validator set changes. Historical data shows funding rates often spike during epoch boundaries when staking rewards are distributed to validators."
+      },
+      {
+        "heading": "Cross-Exchange Arbitrage Opportunities",
+        "body": "JTO funding rate differentials between Hyperliquid and centralized exchanges often exceed 0.1% annually due to the DEX's DeFi-focused user base and different trader demographics. The on-chain nature of Hyperliquid creates natural arbitrage opportunities when CEX funding rates lag behind on-chain sentiment. Traders can exploit these differentials by taking opposite positions across venues, capturing funding payments while maintaining delta-neutral exposure. The lack of position size limits on Hyperliquid compared to some CEX platforms enables larger arbitrage strategies for institutional participants."
+      },
+      {
+        "heading": "Risk Management Considerations",
+        "body": "JTO perpetuals carry heightened smart contract risk due to Hyperliquid's newer protocol status and single L1 dependency, requiring careful position sizing relative to total portfolio exposure. The USDC-only collateral requirement creates basis risk for traders holding other stablecoins or crypto assets. Liquidity depth for JTO remains limited compared to major cryptocurrencies, potentially causing slippage during large position adjustments or liquidation events. Oracle dependency for mark price calculation introduces potential manipulation risks during extreme market conditions or network congestion."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How often do JTO funding payments occur on Hyperliquid?",
+        "answer": "JTO funding payments on Hyperliquid occur every hour, providing 24 payment cycles per day compared to the standard 8-hour cycles on most exchanges. This higher frequency allows for more precise funding rate arbitrage and better capital efficiency for short-term strategies."
+      },
+      {
+        "question": "What drives JTO funding rate volatility on Hyperliquid?",
+        "answer": "JTO funding rates are primarily driven by Solana staking yield expectations, liquid staking adoption, and MEV extraction efficiency from Jito's validator network. Hyperliquid's DeFi-focused user base also creates unique demand patterns compared to traditional CEX markets."
+      },
+      {
+        "question": "Can I use leverage for JTO funding rate arbitrage on Hyperliquid?",
+        "answer": "Yes, Hyperliquid supports leveraged positions for JTO perpetuals, but funding rate arbitrage strategies should consider the amplified liquidation risk and margin requirements. The on-chain nature means margin calls execute automatically without manual intervention."
+      },
+      {
+        "question": "How does Hyperliquid's on-chain settlement affect JTO funding calculations?",
+        "answer": "On-chain settlement ensures transparent and manipulation-resistant funding rate calculations for JTO, with all mark price and index price data verifiable on the blockchain. This eliminates counterparty risk in funding payments but introduces smart contract execution risk."
+      }
+    ]
+  },
+  "related_pairs": [
+    "btc-usdt",
+    "matic-usdt",
+    "mkr-usdt",
+    "near-usdt",
+    "op-usdt"
+  ]
+}

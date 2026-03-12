@@ -1,0 +1,70 @@
+{
+  "exchange": {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX"
+  },
+  "pair": {
+    "slug": "jup-usdt",
+    "base": "JUP",
+    "quote": "USDT"
+  },
+  "seo": {
+    "title": "JUP/USDT Funding Rates on dYdX - Hourly Arbitrage",
+    "description": "Track JUP/USDT funding rates on dYdX's Cosmos appchain. Hourly funding intervals create unique arbitrage opportunities for Jupiter token perpetuals.",
+    "keywords": [
+      "JUP funding rates",
+      "dYdX perpetuals",
+      "Jupiter token",
+      "DEX funding arbitrage",
+      "Cosmos appchain",
+      "hourly funding",
+      "DeFi perps",
+      "JUP USDT"
+    ]
+  },
+  "content": {
+    "intro": "JUP/USDT perpetuals on dYdX offer unique funding rate arbitrage opportunities through the exchange's hourly funding cycle on its Cosmos appchain. As Jupiter's governance token gains traction in the Solana DeFi ecosystem, JUP perpetuals exhibit distinct funding patterns that differ from centralized exchanges.",
+    "how_funding_works": "dYdX calculates funding rates based on the 1-hour TWAP difference between the perpetual price and oracle price, with payments occurring every hour at the top of each hour. The decentralized nature means funding rates are determined purely by on-chain price divergence without manual intervention. Positions held at funding time automatically receive or pay the calculated rate, with settlement happening through the protocol's automated market maker system.",
+    "why_this_pair": "JUP's position as Jupiter DEX's governance token creates funding rate volatility during Solana ecosystem events and governance proposals. The hourly funding frequency on dYdX allows for more granular arbitrage strategies compared to the standard 8-hour cycles on centralized exchanges. This creates opportunities when JUP funding rates diverge significantly between dYdX and other venues.",
+    "sections": [
+      {
+        "heading": "Historical Rate Patterns",
+        "body": "JUP funding rates on dYdX typically range from -0.5% to +2% annually, with spikes during major Jupiter ecosystem announcements or Solana network developments. The hourly funding cycle creates more frequent rate adjustments, leading to less extreme outliers but more consistent directional trends. During JUP token launches and major DEX volume increases, funding rates have historically favored short positions as speculative buying drives perpetual premiums. The Cosmos appchain's isolation from Ethereum gas fees allows for more precise funding calculations without external cost interference."
+      },
+      {
+        "heading": "Arbitrage Opportunities",
+        "body": "The primary arbitrage opportunity emerges from funding rate differentials between dYdX's hourly cycle and other exchanges' 8-hour cycles, particularly during periods of sustained directional movement in JUP. Traders can capitalize on dYdX's more frequent rate resets by taking opposite positions when funding becomes extremely positive or negative. Cross-DEX arbitrage is also possible by comparing dYdX rates with other decentralized perpetual platforms that list JUP. The key advantage is dYdX's mature infrastructure allowing for reliable execution of funding-based strategies without the smart contract risks present in newer DEX protocols."
+      },
+      {
+        "heading": "Risk Considerations",
+        "body": "The main risk stems from dYdX's post-migration lower liquidity compared to its StarkEx days, potentially leading to higher slippage on larger JUP positions. The Cosmos appchain architecture introduces new technical risks including validator set changes and potential bridge security issues when moving funds. JUP's relatively recent token launch means limited historical data for predicting extreme funding scenarios, and correlation with broader Solana ecosystem events can lead to unexpected volatility. Position sizing must account for the lower overall volume in JUP perpetuals compared to major tokens, as liquidation risks increase during low-liquidity periods."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does dYdX's hourly funding affect JUP arbitrage strategies?",
+        "answer": "The hourly funding cycle allows for 24 daily funding events instead of 3, creating more opportunities to capture funding rate changes but requiring more active position management. This is particularly beneficial for JUP given its volatility around Jupiter ecosystem events."
+      },
+      {
+        "question": "What are the main risks of funding arbitrage with JUP on dYdX?",
+        "answer": "Key risks include lower post-migration liquidity leading to higher slippage, potential Cosmos appchain technical issues, and JUP's correlation with Solana network performance. The token's relative newness also means less predictable funding patterns compared to established cryptocurrencies."
+      },
+      {
+        "question": "How do dYdX's JUP funding rates compare to centralized exchanges?",
+        "answer": "dYdX's hourly funding typically shows less extreme rates but more frequent adjustments compared to 8-hour cycles elsewhere. This can create arbitrage opportunities when other exchanges have stale rates during rapid JUP price movements."
+      },
+      {
+        "question": "What position sizes work best for JUP funding strategies on dYdX?",
+        "answer": "Given JUP's mid-tier volume on dYdX, positions should typically stay under $50,000 equivalent to avoid significant slippage. The hourly funding frequency allows for smaller, more frequent captures rather than large directional bets."
+      }
+    ]
+  },
+  "related_pairs": [
+    "doge-usdt",
+    "sei-usdt",
+    "uni-usdt",
+    "floki-usdt",
+    "xrp-usdt"
+  ]
+}
