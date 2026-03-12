@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "binance",
+    "name": "Binance",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "8h",
+    "description": "Largest crypto exchange by volume with deep perpetual futures liquidity across 200+ pairs.",
+    "strengths": ["Deepest liquidity globally", "Tight spreads on majors", "Insurance fund over $1B"],
+    "weaknesses": ["Regulatory pressure in multiple jurisdictions", "Complex fee structure with BNB discounts", "Withdrawal delays during high volatility"]
+  },
+  {
+    "slug": "bybit",
+    "name": "Bybit",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.055%",
+    "rate_frequency": "8h",
+    "description": "Top-3 derivatives exchange known for reliable infrastructure and competitive funding rates.",
+    "strengths": ["Fast matching engine", "Strong derivatives focus", "Unified trading account"],
+    "weaknesses": ["Smaller spot market vs Binance", "Limited fiat on-ramps", "Restricted in US/UK"]
+  },
+  {
+    "slug": "okx",
+    "name": "OKX",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "8h",
+    "description": "Full-stack exchange with robust perpetual markets, on-chain wallet, and institutional-grade API.",
+    "strengths": ["Multi-chain wallet integration", "Portfolio margin mode", "Strong API infrastructure"],
+    "weaknesses": ["Complex product lineup", "Lower volume on alt pairs vs Binance", "Regulatory uncertainty"]
+  },
+  {
+    "slug": "bitget",
+    "name": "Bitget",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.06%",
+    "rate_frequency": "8h",
+    "description": "Fast-growing derivatives exchange with copy trading and competitive fee tiers.",
+    "strengths": ["Copy trading ecosystem", "Fast listing of new tokens", "Growing liquidity"],
+    "weaknesses": ["Newer exchange with shorter track record", "Customer support inconsistency", "Limited institutional tools"]
+  },
+  {
+    "slug": "gate",
+    "name": "Gate.io",
+    "type": "CEX",
+    "fee_tier": "0.015%/0.05%",
+    "rate_frequency": "8h",
+    "description": "Established exchange with 1,700+ spot pairs and broad perpetual coverage including micro-cap tokens.",
+    "strengths": ["Widest token selection", "Low maker fees", "Long operational history"],
+    "weaknesses": ["Lower liquidity on tail pairs", "UI complexity", "Ethereum-only for some deposit paths"]
+  },
+  {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.06%",
+    "rate_frequency": "8h",
+    "description": "Mid-tier exchange popular for altcoin perps with decent liquidity and global user base.",
+    "strengths": ["Good altcoin selection", "Trading bot marketplace", "Lending and earn products"],
+    "weaknesses": ["2023 SEC charges", "Moderate perpetual liquidity", "Slower new listing pace"]
+  },
+  {
+    "slug": "mexc",
+    "name": "MEXC",
+    "type": "CEX",
+    "fee_tier": "0.00%/0.03%",
+    "rate_frequency": "8h",
+    "description": "Zero maker fee exchange with aggressive listing strategy and growing perp volumes.",
+    "strengths": ["Zero maker fees", "First-to-list many tokens", "High leverage options"],
+    "weaknesses": ["Thinner order books", "Questionable volume reporting", "Limited regulatory compliance"]
+  },
+  {
+    "slug": "bingx",
+    "name": "BingX",
+    "type": "CEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "8h",
+    "description": "Social trading-focused exchange with copy trading and standard perpetual contracts.",
+    "strengths": ["Copy trading focus", "Simple UI", "Grid trading bots"],
+    "weaknesses": ["Lower overall liquidity", "Fewer trading pairs", "Limited advanced order types"]
+  },
+  {
+    "slug": "hyperliquid",
+    "name": "Hyperliquid",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "On-chain order book DEX on its own L1 with CEX-grade performance and 1-hour funding intervals.",
+    "strengths": ["Fully on-chain order book", "1-hour funding rate", "No KYC required", "Sub-second finality"],
+    "weaknesses": ["Single-chain ecosystem", "USDC only", "Newer with limited track record"]
+  },
+  {
+    "slug": "dydx",
+    "name": "dYdX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Pioneer decentralized perp DEX now on its own Cosmos appchain with 1-hour funding.",
+    "strengths": ["Established DEX brand", "Cosmos appchain sovereignty", "1-hour funding intervals"],
+    "weaknesses": ["Migration complexity from StarkEx", "Lower volume post-migration", "Limited pair selection"]
+  },
+  {
+    "slug": "gmx",
+    "name": "GMX",
+    "type": "DEX",
+    "fee_tier": "0.05%/0.07%",
+    "rate_frequency": "1h",
+    "description": "Oracle-based perpetual DEX on Arbitrum and Avalanche using GLP/GM liquidity pools.",
+    "strengths": ["No impermanent loss for LPs in traditional sense", "Arbitrum ecosystem leader", "Battle-tested since 2021"],
+    "weaknesses": ["Higher fees than order book DEXs", "Oracle dependency risk", "Price impact on large trades"]
+  },
+  {
+    "slug": "aevo",
+    "name": "Aevo",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Options and perps DEX on its own rollup with off-chain order book and on-chain settlement.",
+    "strengths": ["Options + perps combined", "Own rollup for performance", "Pre-launch token markets"],
+    "weaknesses": ["Smaller liquidity pool", "Complex product set", "Rollup centralization concerns"]
+  },
+  {
+    "slug": "vertex",
+    "name": "Vertex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.03%",
+    "rate_frequency": "1h",
+    "description": "Hybrid DEX on Arbitrum combining on-chain risk engine with off-chain sequencer for speed.",
+    "strengths": ["Very low taker fees", "Cross-margin by default", "Fast sequencer"],
+    "weaknesses": ["Concentrated on Arbitrum", "Lower brand recognition", "Sequencer centralization"]
+  },
+  {
+    "slug": "drift",
+    "name": "Drift",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Leading Solana perpetual DEX with vAMM and DLOB hybrid model and 1-hour funding.",
+    "strengths": ["Solana speed and low fees", "JIT liquidity auctions", "Insurance fund"],
+    "weaknesses": ["Solana network dependency", "Lower liquidity vs CEXs", "Complex liquidation mechanics"]
+  },
+  {
+    "slug": "rabbitx",
+    "name": "RabbitX",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "High-performance perp DEX using Starknet for settlement with off-chain matching.",
+    "strengths": ["Fast execution", "Zero gas for trading", "Cross-margin"],
+    "weaknesses": ["Small user base", "Limited pair selection", "Early-stage protocol"]
+  },
+  {
+    "slug": "bluefin",
+    "name": "Bluefin",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Sui-based perpetual DEX with order book model and institutional-grade matching engine.",
+    "strengths": ["Sui ecosystem leader", "Professional trading UI", "Fast settlement"],
+    "weaknesses": ["Sui ecosystem still early", "Limited pairs", "Low overall volume"]
+  },
+  {
+    "slug": "paradex",
+    "name": "Paradex",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Starknet appchain DEX built by former Jump Trading engineers with focus on institutional perps.",
+    "strengths": ["Jump Trading pedigree", "Self-custodial", "Portfolio margin"],
+    "weaknesses": ["Very early stage", "StarkNet complexity", "Minimal pair coverage"]
+  },
+  {
+    "slug": "orderly",
+    "name": "Orderly Network",
+    "type": "DEX",
+    "fee_tier": "0.02%/0.05%",
+    "rate_frequency": "1h",
+    "description": "Infrastructure layer providing shared order book across multiple DEX frontends on NEAR/EVM.",
+    "strengths": ["Shared liquidity layer", "Multi-chain", "White-label DEX infrastructure"],
+    "weaknesses": ["Indirect user experience", "Dependent on frontend partners", "Complex architecture"]
+  },
+  {
+    "slug": "phemex",
+    "name": "Phemex",
+    "type": "CEX",
+    "fee_tier": "0.01%/0.06%",
+    "rate_frequency": "8h",
+    "description": "Singapore-based derivatives exchange with contract trading focus and low maker fees.",
+    "strengths": ["Very low maker fees", "Clean trading UI", "Contract trading specialization"],
+    "weaknesses": ["Smaller user base", "Limited altcoin perps", "Occasional liquidity gaps"]
+  }
+]

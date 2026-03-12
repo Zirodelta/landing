@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "institutional",
+    "name": "Institutional Traders",
+    "pain_points": [
+      "Fragmented liquidity across exchanges",
+      "Manual funding rate monitoring at scale",
+      "Compliance and reporting overhead",
+      "Counterparty risk across multiple venues"
+    ],
+    "priorities": [
+      "Risk-adjusted returns",
+      "Execution reliability",
+      "Audit trail and transparency",
+      "Portfolio-level margin efficiency"
+    ],
+    "language_style": "Formal, data-driven, risk-aware. Emphasize Sharpe ratios, drawdown metrics, and compliance."
+  },
+  {
+    "slug": "defi-treasury",
+    "name": "DeFi Treasury Managers",
+    "pain_points": [
+      "Idle treasury capital earning sub-optimal yield",
+      "Smart contract risk from yield farming",
+      "Governance pressure to deploy capital productively",
+      "Lack of delta-neutral strategies accessible on-chain"
+    ],
+    "priorities": [
+      "Capital efficiency without directional exposure",
+      "On-chain verifiability of returns",
+      "Protocol-level risk management",
+      "Composability with existing DeFi stack"
+    ],
+    "language_style": "DeFi-native, protocol-literate. Reference TVL, APR vs APY, smart contract risk, and governance."
+  },
+  {
+    "slug": "retail-advanced",
+    "name": "Advanced Retail Traders",
+    "pain_points": [
+      "Funding rate alpha decays quickly when manual",
+      "Difficult to hedge across exchanges simultaneously",
+      "High fees erode thin funding rate margins",
+      "Information asymmetry vs institutional players"
+    ],
+    "priorities": [
+      "Automation and speed",
+      "Clear P&L tracking",
+      "Low minimum capital requirements",
+      "Educational content to improve edge"
+    ],
+    "language_style": "Direct, practical, example-heavy. Use concrete numbers, step-by-step explanations, and real scenarios."
+  },
+  {
+    "slug": "family-office",
+    "name": "Family Offices",
+    "pain_points": [
+      "Crypto allocation pressure from next-gen principals",
+      "Unfamiliarity with perpetual futures mechanics",
+      "Need for institutional custody and compliance",
+      "Volatility concerns for conservative mandates"
+    ],
+    "priorities": [
+      "Capital preservation first",
+      "Regulatory clarity and legal structure",
+      "Managed execution with full transparency",
+      "Downside protection and hedged exposure"
+    ],
+    "language_style": "Conservative, wealth-management tone. Emphasize risk mitigation, legal structure (Wyoming LLC), and fiduciary alignment."
+  },
+  {
+    "slug": "dao",
+    "name": "DAO Treasuries",
+    "pain_points": [
+      "Treasury diversification beyond native token",
+      "Governance bottlenecks for capital deployment",
+      "Lack of sustainable yield sources",
+      "Transparency requirements for token holders"
+    ],
+    "priorities": [
+      "On-chain proof of performance",
+      "Non-custodial or verifiable custody",
+      "Sustainable yield without token emissions",
+      "Simple governance integration"
+    ],
+    "language_style": "Community-oriented, governance-aware. Reference proposals, multisig, on-chain transparency, and token holder alignment."
+  }
+]
