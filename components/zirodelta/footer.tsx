@@ -15,9 +15,9 @@ const footerLinks = {
   ],
   Resources: [
     { label: "Learn", href: "/learn" },
+    { label: "Funding Rates", href: "/rates" },
+    { label: "Compare Exchanges", href: "/compare" },
     { label: "Documentation", href: "/docs" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Trust & Security", href: "#trust" },
     { label: "GitHub", href: "https://github.com/zirodelta" },
   ],
   Community: [
