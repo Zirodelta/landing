@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 import { Footer } from "@/components/zirodelta/footer"
+import { MermaidChart } from "@/components/mermaid-chart"
 
 function Phase({
   number,
@@ -299,36 +300,43 @@ export default function DocsPage() {
           <h2 className="text-xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Architecture
           </h2>
-          <div className="rounded-lg border border-border bg-card/30 p-6 font-mono text-xs leading-relaxed text-muted-foreground overflow-x-auto">
-            <pre>{`┌─────────────────────────────────────────────────────┐
-│                   Temporal Server                    │
-│                                                     │
-│  ┌──────────────┐  ┌──────────────────────────────┐ │
-│  │  heavy-queue  │  │         fast-queue            │ │
-│  │               │  │                              │ │
-│  │ • Settlement  │  │ • SpotPerpScan    (daily)    │ │
-│  │   (every 4h)  │  │ • Allocation      (daily)    │ │
-│  │ • Execution   │  │ • ExitScan        (daily)    │ │
-│  │               │  │ • DailyCheck      (daily)    │ │
-│  │               │  │ • FundingTracking (hourly)   │ │
-│  └──────┬───────┘  └──────────┬───────────────────┘ │
-│         │                     │                     │
-│         └─────────┬───────────┘                     │
-│                   │                                 │
-│         ┌─────────▼─────────┐                       │
-│         │    ClickHouse     │                       │
-│         │                   │                       │
-│         │ • 9.4M+           │                       │
-│         │   settlements     │                       │
-│         │ • opportunities   │                       │
-│         │ • executions      │                       │
-│         │ • spot_holdings   │                       │
-│         └───────────────────┘                       │
-└─────────────────────────────────────────────────────┘
+          <MermaidChart chart={`graph TD
+    subgraph Temporal["⏱ Temporal Server"]
+        direction TB
+        subgraph HQ["heavy-queue"]
+            Settlement["Settlement\n(every 4h)"]
+            Execution["Execution\n(on demand)"]
+        end
+        subgraph FQ["fast-queue"]
+            SpotPerpScan["SpotPerpScan\n(daily)"]
+            Allocation["Allocation\n(daily)"]
+            ExitScan["ExitScan\n(daily)"]
+            DailyCheck["DailyCheck\n(daily)"]
+            FundingTracking["FundingTracking\n(hourly)"]
+        end
+    end
 
-Exchange Connectors: Binance, Bybit, Gate, KuCoin,
-                     Hyperliquid + 25 more adapters`}</pre>
-          </div>
+    subgraph CH["🗄 ClickHouse"]
+        Settlements["9.4M+ settlements"]
+        Opportunities["opportunities"]
+        Executions["executions"]
+        SpotHoldings["spot_holdings"]
+    end
+
+    subgraph EX["🔌 Exchange Connectors"]
+        Binance["Binance"]
+        Bybit["Bybit"]
+        Gate["Gate"]
+        KuCoin["KuCoin"]
+        Hyperliquid["Hyperliquid"]
+        More["+ 25 more"]
+    end
+
+    HQ --> CH
+    FQ --> CH
+    HQ --> EX
+    FQ --> EX
+`} />
         </section>
 
         {/* Principles */}
