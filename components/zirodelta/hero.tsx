@@ -6,10 +6,7 @@ import { WaveSlices } from "./wave-slices"
 export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden">
-      {/* Animated Wave Slices Background */}
       <WaveSlices />
-
-      {/* Gradient overlay for text readability */}
       <div
         className="pointer-events-none absolute inset-0 z-[1]"
         style={{
@@ -18,36 +15,28 @@ export function Hero() {
         }}
         aria-hidden="true"
       />
-
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          {/* Protocol badge */}
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 backdrop-blur-sm px-4 py-1.5">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
             <span className="text-xs font-medium tracking-wider text-muted-foreground uppercase">
-              Protocol Live
+              Engine Live
             </span>
           </div>
-
-          {/* Main headline */}
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            A protocol that{" "}
-            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>earns</span>
+            Delta-neutral yield{" "}
+            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>from</span>
             <br className="hidden sm:block" />
-            {" "}<span className="text-gradient">before you deposit</span>
+            {" "}<span className="text-gradient">funding rates</span>
           </h1>
-
-          {/* Subheadline */}
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed md:text-xl" style={{ color: '#e8e8e8' }}>
-            Autonomous funding rate arbitrage across 19+ exchanges. Revenue
-            exists before users. We&apos;re an execution business, not a DeFi
-            app.
+            Buy spot. Short perp. Collect funding. Automated across 30+
+            exchanges, 874 symbols, 9.4M+ settlement records. 19% CAGR
+            stress-tested over 6 years.
           </p>
-
-          {/* CTAs */}
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href="https://transparency.zirodelta.ag"
@@ -55,22 +44,18 @@ export function Hero() {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-lg bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:brightness-110"
             >
-              View Engine Dashboard
+              View Live Dashboard
               <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
             <a
-              href="/whitepaper.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/docs"
               className="group inline-flex items-center gap-2 rounded-lg border border-border bg-background/30 backdrop-blur-sm px-7 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary/50 hover:text-primary"
             >
-              Read Whitepaper
-              <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              How It Works
+              <ArrowDown className="h-4 w-4 transition-transform duration-200 group-hover:translate-y-0.5" />
             </a>
           </div>
         </div>
-
-        {/* Scroll indicator */}
         <div className="mt-20 flex justify-center">
           <a
             href="#stats"

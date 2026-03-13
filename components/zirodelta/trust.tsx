@@ -196,7 +196,7 @@ function OnChainIllustration({ active }: { active: boolean }) {
       <text x="100" y="152" textAnchor="middle" fill={active ? "#009B88" : "#6D6E71"} fontSize="8" fontWeight="500" className="transition-all duration-700">VERIFIED</text>
 
       {/* Header label */}
-      <text x="100" y="38" textAnchor="middle" fill={active ? "#FFFFFF" : "#6D6E71"} fontSize="9" fontWeight="500" className="transition-all duration-700">IMMUTABLE LEDGER</text>
+      <text x="100" y="38" textAnchor="middle" fill={active ? "#FFFFFF" : "#6D6E71"} fontSize="9" fontWeight="500" className="transition-all duration-700">AUDIT TRAIL</text>
       <line x1="55" y1="43" x2="145" y2="43" stroke={active ? "#009B88" : "#222224"} strokeWidth="0.5" className="transition-all duration-700" />
     </svg>
   )
@@ -253,7 +253,7 @@ function DataDepthIllustration({ active }: { active: boolean }) {
 
       {/* Counter label - counts up */}
       <text x="100" y="152" textAnchor="middle" fill={active ? "#009B88" : "#6D6E71"} fontSize="11" fontWeight="700" fontFamily="monospace" className="transition-all duration-700">
-        {active ? `${count.toLocaleString()}+` : "1,660,000+"}
+        {active ? `${count.toLocaleString()}+` : "9400000+"}
       </text>
       <text x="100" y="18" textAnchor="middle" fill={active ? "#FFFFFF" : "#6D6E71"} fontSize="9" fontWeight="500" className="transition-all duration-700">FUNDING RATE RECORDS</text>
       <line x1="45" y1="23" x2="155" y2="23" stroke={active ? "#009B88" : "#222224"} strokeWidth="0.5" className="transition-all duration-700" />
@@ -285,19 +285,19 @@ const trustPoints = [
   {
     id: "onchain",
     Illustration: OnChainIllustration,
-    headline: "On-Chain Verifiable",
-    statement: "No black box. Audit us anytime.",
-    body: "All P&L is on-chain and verifiable. Every trade, every position, every funding payment is recorded immutably. Full transparency by default.",
+    headline: "Fully Auditable",
+    statement: "Full transparency. Audit us anytime.",
+    body: "Every trade, every position, every funding payment is recorded and publicly verifiable via our transparency dashboard. Full auditability by default.",
     metric: "100%",
-    metricLabel: "Verifiable trades",
+    metricLabel: "Auditable trades",
   },
   {
     id: "data",
     Illustration: DataDepthIllustration,
-    headline: "1.66M+ Data Points",
+    headline: "9.4M+ Data Points",
     statement: "Depth drives precision.",
-    body: "Our analytics engine has processed over 1.66 million funding rate records across all supported exchanges. Historical depth powers every execution decision.",
-    metric: "1.66M+",
+    body: "Our analytics engine has processed over 9.4 million funding rate settlement records across all supported exchanges. Historical depth powers every execution decision.",
+    metric: "9.4M+",
     metricLabel: "Records processed",
   },
 ]

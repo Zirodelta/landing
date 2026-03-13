@@ -56,14 +56,14 @@ export async function GET() {
     return NextResponse.json({
       success: true,
       data: {
-        symbol: "BTCUSDT",
-        long_exchange: "Hyperliquid",
-        short_exchange: "KuCoin",
-        long_rate: 0.00112,
-        short_rate: -0.00318,
-        spread: 0.0043,
-        spread_percent: "43.0",
-        expected_apr: 1576.95,
+        symbol: "JCTUSDT",
+        long_exchange: "Bybit (Spot)",
+        short_exchange: "Bybit (Perp)",
+        long_rate: 0.00107,
+        short_rate: -0.00107,
+        spread: 0.00107,
+        spread_percent: "0.64",
+        expected_apr: 234,
         updated_at: new Date().toISOString(),
       },
       meta: {

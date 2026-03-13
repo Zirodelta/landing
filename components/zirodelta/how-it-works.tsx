@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 
-/* ── Custom SVG icons (no lucide, no emoji) ── */
+/* ── Custom SVG icons ── */
 
 function ScanIcon({ className }: { className?: string }) {
   return (
@@ -17,7 +17,7 @@ function ScanIcon({ className }: { className?: string }) {
   )
 }
 
-function DetectIcon({ className }: { className?: string }) {
+function RankIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
       <path d="M8 36L16 20L24 28L34 12L40 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -49,7 +49,7 @@ function ExecuteIcon({ className }: { className?: string }) {
   )
 }
 
-function DistributeIcon({ className }: { className?: string }) {
+function CollectIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
       <circle cx="24" cy="24" r="16" stroke="currentColor" strokeWidth="2" />
@@ -68,37 +68,37 @@ const steps = [
     number: "01",
     title: "Scan",
     description:
-      "Monitor funding rates across CEX + DEX in real time. 19+ exchanges, thousands of pairs, updated every second.",
+      "Every day, score 874 symbols across 30+ exchanges by trailing funding rate. Filter by rate consistency, open interest, and spot availability.",
     Icon: ScanIcon,
-    metric: "19+ exchanges",
-    detail: "< 200ms latency",
+    metric: "874 symbols",
+    detail: "30+ exchanges",
   },
   {
     number: "02",
-    title: "Identify",
+    title: "Rank & Allocate",
     description:
-      "Detect cross-exchange rate deltas that exceed execution thresholds and risk parameters.",
-    Icon: DetectIcon,
-    metric: "43% spread",
-    detail: "Hyperliquid vs KuCoin",
+      "Rank by daily yield. Allocate capital to top opportunities — dynamically sized by open interest, equity concentration limits, and available capital.",
+    Icon: RankIcon,
+    metric: "Dynamic sizing",
+    detail: "OI-constrained",
   },
   {
     number: "03",
     title: "Execute",
     description:
-      "Open offsetting long/short across venues. Zero directional exposure. Every position is a hedge pair.",
+      "Buy spot + short perp on the same exchange. SmartEntry uses limit orders with market fallback. Every position is a delta-neutral hedge pair.",
     Icon: ExecuteIcon,
     metric: "0.00 exposure",
-    detail: "Market neutral",
+    detail: "Spot + short perp",
   },
   {
     number: "04",
-    title: "Distribute",
+    title: "Collect",
     description:
-      "Collect funding differential as yield. 60% flows to vault depositors. Automatically. Every 8 hours.",
-    Icon: DistributeIcon,
-    metric: "60% to vault",
-    detail: "Every 8 hours",
+      "Collect funding payments every 1-8 hours. The engine monitors rate decay, stop-loss triggers, and rotation opportunities daily. 10% of profit goes to insurance.",
+    Icon: CollectIcon,
+    metric: "19-44% APY",
+    detail: "Stress-tested",
   },
 ]
 
@@ -149,24 +149,21 @@ export function HowItWorks() {
       <div className="pointer-events-none absolute inset-0 bg-secondary/20" aria-hidden="true" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
           <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-            Mechanism
+            Engine Pipeline
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             How the engine works
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Four steps. Fully autonomous. Revenue flows whether you&apos;re
-            watching or not.
+            Four steps. Fully autonomous. Scan, rank, execute, collect — every day.
           </p>
         </div>
 
         {/* Desktop: Horizontal pipeline */}
         <div className="mt-20 hidden lg:block">
           <div className="relative">
-            {/* Connection line */}
             <div className="absolute left-0 right-0 top-[40px] z-0" aria-hidden="true">
               <div className="mx-16 h-px bg-border" />
               <div
@@ -186,7 +183,6 @@ export function HowItWorks() {
                     className="group relative flex flex-col items-center"
                     onMouseEnter={() => setActiveStep(index)}
                   >
-                    {/* Node */}
                     <div className="relative z-10">
                       <div
                         className={`relative flex h-20 w-20 items-center justify-center rounded-2xl border-2 transition-all duration-500 ${
@@ -206,8 +202,6 @@ export function HowItWorks() {
                               : "text-muted-foreground"
                           }`}
                         />
-
-                        {/* Scan effect on active */}
                         {isActive && (
                           <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-2xl">
                             <div
@@ -217,8 +211,6 @@ export function HowItWorks() {
                           </div>
                         )}
                       </div>
-
-                      {/* Ping ring */}
                       {isActive && (
                         <div
                           className="pointer-events-none absolute inset-0 rounded-2xl border-2 border-primary"
@@ -227,73 +219,32 @@ export function HowItWorks() {
                         />
                       )}
                     </div>
-
-                    {/* Number */}
-                    <span
-                      className={`mt-4 font-mono text-xs transition-colors duration-300 ${
-                        isActive ? "text-primary" : "text-muted-foreground"
-                      }`}
-                    >
+                    <span className={`mt-4 font-mono text-xs transition-colors duration-300 ${isActive ? "text-primary" : "text-muted-foreground"}`}>
                       {step.number}
                     </span>
-
-                    {/* Title */}
-                    <h3
-                      className={`mt-2 text-lg font-semibold transition-colors duration-300 ${
-                        isActive ? "text-foreground" : "text-muted-foreground"
-                      }`}
-                    >
+                    <h3 className={`mt-2 text-lg font-semibold transition-colors duration-300 ${isActive ? "text-foreground" : "text-muted-foreground"}`}>
                       {step.title}
                     </h3>
-
-                    {/* Metric */}
-                    <div
-                      className={`mt-3 rounded-full border px-3 py-1 transition-all duration-500 ${
-                        isActive ? "border-primary/30 bg-primary/10" : "border-border bg-card"
-                      }`}
-                    >
-                      <span
-                        className={`font-mono text-xs font-medium ${
-                          isActive ? "text-primary" : "text-muted-foreground"
-                        }`}
-                      >
+                    <div className={`mt-3 rounded-full border px-3 py-1 transition-all duration-500 ${isActive ? "border-primary/30 bg-primary/10" : "border-border bg-card"}`}>
+                      <span className={`font-mono text-xs font-medium ${isActive ? "text-primary" : "text-muted-foreground"}`}>
                         {step.metric}
                       </span>
                     </div>
-
-                    {/* Subtitle */}
-                    <span
-                      className={`mt-1.5 text-xs transition-all duration-500 ${
-                        isActive ? "text-muted-foreground opacity-100" : "opacity-0"
-                      }`}
-                    >
+                    <span className={`mt-1.5 text-xs transition-all duration-500 ${isActive ? "text-muted-foreground opacity-100" : "opacity-0"}`}>
                       {step.detail}
                     </span>
-
-                    {/* Description on active */}
-                    <div
-                      className={`mt-4 max-w-48 overflow-hidden text-center transition-all duration-500 ${
-                        isActive ? "max-h-32 opacity-100" : "max-h-0 opacity-0"
-                      }`}
-                    >
+                    <div className={`mt-4 max-w-48 overflow-hidden text-center transition-all duration-500 ${isActive ? "max-h-32 opacity-100" : "max-h-0 opacity-0"}`}>
                       <p className="text-sm leading-relaxed text-muted-foreground">
                         {step.description}
                       </p>
                     </div>
-
-                    {/* Active bar */}
-                    <div
-                      className={`absolute -bottom-4 h-0.5 w-12 rounded-full transition-all duration-500 ${
-                        isActive ? "bg-primary opacity-100" : "bg-transparent opacity-0"
-                      }`}
-                    />
+                    <div className={`absolute -bottom-4 h-0.5 w-12 rounded-full transition-all duration-500 ${isActive ? "bg-primary opacity-100" : "bg-transparent opacity-0"}`} />
                   </div>
                 )
               })}
             </div>
           </div>
 
-          {/* Progress */}
           <div className="mx-auto mt-12 max-w-md">
             <div className="flex gap-2">
               {steps.map((_, i) => (
@@ -303,15 +254,7 @@ export function HowItWorks() {
                   className="relative h-1 flex-1 overflow-hidden rounded-full bg-border"
                   aria-label={`Go to step ${i + 1}`}
                 >
-                  <div
-                    className={`absolute inset-y-0 left-0 rounded-full bg-primary transition-all duration-500 ${
-                      activeStep === i
-                        ? "w-full"
-                        : activeStep > i
-                        ? "w-full opacity-40"
-                        : "w-0"
-                    }`}
-                  />
+                  <div className={`absolute inset-y-0 left-0 rounded-full bg-primary transition-all duration-500 ${activeStep === i ? "w-full" : activeStep > i ? "w-full opacity-40" : "w-0"}`} />
                 </button>
               ))}
             </div>
@@ -322,20 +265,16 @@ export function HowItWorks() {
         <div className="mt-16 lg:hidden">
           <div className="relative">
             <div className="absolute bottom-0 left-8 top-0 w-px bg-border" aria-hidden="true" />
-
             <div className="space-y-12">
               {steps.map((step, index) => (
                 <div
                   key={step.number}
-                  className={`relative flex gap-6 transition-all duration-700 ${
-                    isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                  }`}
+                  className={`relative flex gap-6 transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
                   style={{ transitionDelay: `${index * 150}ms` }}
                 >
                   <div className="relative z-10 flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl border border-primary/30 bg-primary/10">
                     <step.Icon className="h-7 w-7 text-primary" />
                   </div>
-
                   <div className="flex-1 pb-2">
                     <div className="flex items-center gap-3">
                       <span className="font-mono text-xs text-primary">{step.number}</span>

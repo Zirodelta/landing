@@ -28,9 +28,9 @@ export async function GET() {
         average_roi: 0,
         total_funding_collected_24h: 0,
         active_opportunities: 0,
-        total_funding_records: 1660000,
-        exchanges_connected: 19,
-        symbols_tracked: 93,
+        total_funding_records: 9400000,
+        exchanges_connected: 30,
+        symbols_tracked: 874,
       },
       meta: {
         timestamp: new Date().toISOString(),

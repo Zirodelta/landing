@@ -4,4 +4,4 @@ compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
 [vars]
-ENGINE_API_URL = "https://enterprise.zirodelta.xyz"
+# ENGINE_API_URL = "" # API being rebuilt for v3

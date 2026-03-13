@@ -25,11 +25,11 @@ const services = [
     name: "Zirodelta Vault",
     tagline: "Deposit. Earn. Sleep.",
     description:
-      "Automated funding rate yield on your capital. Delta-neutral by design with zero directional exposure and no liquidation risk. The engine works while you don&apos;t.",
+      "Automated delta-neutral yield from funding rates. Buy spot, short perp — zero directional exposure, no liquidation risk. The engine runs 24/7.
     features: [
       "Automated yield generation",
       "Delta-neutral execution",
-      "19+ exchange coverage",
+      "30+ exchange coverage",
       "Withdraw anytime",
     ],
     cta: "Enter Vault",
