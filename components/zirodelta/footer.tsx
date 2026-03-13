@@ -14,6 +14,7 @@ const footerLinks = {
     { label: "Whitepaper", href: "/whitepaper.pdf" },
   ],
   Resources: [
+    { label: "Research", href: "/research" },
     { label: "Learn", href: "/learn" },
     { label: "Funding Rates", href: "/rates" },
     { label: "Compare Exchanges", href: "/compare" },

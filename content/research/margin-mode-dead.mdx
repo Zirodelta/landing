@@ -1,0 +1,82 @@
+---
+title: "Margin Mode: Why Negative Funding Doesn't Work"
+slug: "margin-mode-dead"
+description: "We tested borrowing spot to capture negative funding rates — the mirror image of our core strategy. It lost money on every trade."
+category: strategy-kill
+status: conclusive
+date: "2026-03-13"
+tags: [margin, borrow-rates, negative-funding, dead-strategy]
+keyFinding: "4 margin hedges opened, ALL lost money. Negative funding rates are transient spikes that mean-revert before borrow costs are covered."
+---
+
+## The Idea
+
+Our core strategy captures positive funding: buy spot + short perp. When rates are positive, shorts collect.
+
+The mirror: when rates are **negative**, longs collect. So borrow the spot token, sell it, and go long perp. You'd collect negative funding while paying borrow interest.
+
+If this works, the engine never goes idle — positive rates in bull markets, negative rates in bear markets. The theoretical CAGR jumped from 19.55% to ~35-40%.
+
+## The Data
+
+We collected real-time borrow rates from:
+- **Bybit:** 231 borrowable coins, 30 days of hourly history
+- **Binance:** 435 coins, 7 days of hourly history
+
+Cross-referenced 139 symbols with negative trailing funding against borrow costs:
+- **26 viable** after subtracting borrow rates (borrow rate < funding income)
+- **113 killed** by: no borrow pool (80+), or borrow rate exceeds funding rate
+
+Top candidates: KAVA (199% net APY), ICX (114%), ANKR (63%), AXS (39%).
+
+## The Backtest
+
+**Setup:** February 2026, $300K capital, 7-day rotation, top 10 opportunities.
+
+**Results:**
+
+| Trade | Symbol | Exchange | Result |
+|-------|--------|----------|--------|
+| 1 | ME | Bybit | -$583 |
+| 2 | DEGEN | Bybit | -$342 |
+| 3 | LA | KuCoin | -$1,425 |
+| 4 | ANIME | Bybit | -$298 |
+
+**4 trades. 0 wins. -$2,648 total (-0.88%).**
+
+## Why It Fails
+
+### The Asymmetry
+
+Positive funding rates are **structurally persistent**. In bull markets, traders pile into leveraged longs, creating sustained demand for short funding. This is the engine's edge.
+
+Negative funding rates are **transient spikes**. They occur during brief panic sells or delevering events, then revert to neutral or positive within hours to days.
+
+### The Cost Floor
+
+When you borrow a token:
+- **Borrow cost is stable** — you pay it continuously, every hour, regardless of what funding does
+- **Funding income is volatile** — the negative rate that looked attractive yesterday may be neutral today
+
+ME/Bybit example: scoring saw -0.12%/interval trailing rate. Over the hold period, actual rate averaged -0.002% — a 50× drop. Borrow cost: $411. Funding collected: $95.
+
+### The Structural Problem
+
+In traditional spot-vs-perp (positive funding), your costs are fixed (execution fees) and your income is persistent (funding from overleveraged longs).
+
+In margin mode, this inverts: your costs are persistent (borrow interest) and your income is transient (brief negative funding spikes). The math doesn't work.
+
+## Could It Ever Work?
+
+Possibly, with:
+1. **Extreme-only entry** — only enter when negative rate exceeds 5× borrow cost
+2. **Sub-day holds** — exit within hours, before mean-reversion kills the rate
+3. **As a signal, not a strategy** — extreme negative funding may predict short-term price bounces
+
+None of these are high priority. The core strategy (positive funding, spot-vs-perp) produces 19.55% CAGR without this complexity.
+
+## Conclusion
+
+**Strategy status: DEAD.**
+
+Negative funding ≠ inverse of positive funding. The asymmetry between structural persistence (positive) and transient spikes (negative) makes the mirror strategy fundamentally unprofitable with current entry filters.

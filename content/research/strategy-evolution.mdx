@@ -1,0 +1,115 @@
+---
+title: "Strategy Evolution: From Interval Arb to Spot-vs-Perp"
+slug: "strategy-evolution"
+description: "How we tested 10 strategy variants across 40+ experiments and arrived at v3 — the only approach that survives stress testing over 6 years of data."
+category: overview
+status: published
+date: "2026-03-13"
+tags: [strategy, backtest, v3, evolution]
+keyFinding: "Dynamic position sizing (v3) nearly doubled CAGR from 11% to 19.55% compared to fixed sizing (v2), by maximizing capital utilization."
+---
+
+## The Journey
+
+We didn't start with spot-vs-perp. We started with cross-exchange interval arbitrage in early 2025 — the idea that settlement frequency differences between exchanges (Binance 8h vs Hyperliquid 1h) could be exploited for profit.
+
+It couldn't. Not after fees.
+
+This document traces the full path from v1 to v3, every dead end included.
+
+## v1: Interval Arbitrage
+
+**The idea:** Collect funding on high-frequency exchanges (Hyperliquid 1h, KuCoin 4h) while hedging on low-frequency exchanges (Binance 8h). The extra settlements = edge.
+
+**The result:** ~2.5% CAGR with an 89% cost ratio. Fees ate nearly everything. The frequency differential exists but the spread per settlement is microscopic — fractions of a basis point. Hundreds of trades needed, each costing 30bps round-trip.
+
+**Verdict:** Dead. No parameter tuning saves it.
+
+## v2: Persistence Scoring
+
+**The idea:** Score symbols by how persistently they maintain positive funding rates over 365 days. Allocate fixed $20K positions to the top scorers. Monthly rotation.
+
+**The result:** ~11.4% CAGR. Decent, but most capital sat idle. Fixed $20K positions on a $300K account meant only 4-5 positions deployed at any time. Monthly rotation was too slow to capture short-lived opportunities.
+
+**What we learned:** The scoring logic was correct. The execution was wrong.
+
+## Cross-Exchange Spread Arbitrage
+
+**The idea:** Mean-reversion trading on funding rate spreads between exchanges. When Binance rate diverges from Bybit rate, trade the convergence.
+
+We ran a full cointegration analysis across 15 symbols with in-sample and out-of-sample validation.
+
+**The result:**
+
+| Cost | In-Sample Profitable | Out-of-Sample Profitable |
+|------|---------------------|-------------------------|
+| 0 bps | 100% | 100% |
+| 1 bps | 24% | 0% |
+| 2 bps | 2% | 0% |
+
+The edge is real (~0.6-0.85 bps/trade) but smaller than the cost to capture it. Published separately: [Cross-Exchange Spread Arb: The Verdict](/research/cross-exchange-spread-verdict).
+
+## Margin Mode (Negative Funding)
+
+**The idea:** Short spot (borrow + sell) and long perp to capture negative funding rates. This would let the engine earn in bear markets too.
+
+We collected borrow rates from Bybit (231 coins) and Binance (435 coins), cross-referenced against funding rates, and ran a backtest.
+
+**The result:** 4 trades, ALL lost money. 0% win rate. -$2,648 over the test period.
+
+**Root cause:** Negative funding rates are transient spikes that mean-revert before borrow costs are covered. Positive rates are structurally persistent (overleveraged longs). You can't flip the strategy. Published separately: [Margin Mode: Dead on Arrival](/research/margin-mode-dead).
+
+## v3: Spot-vs-Perp Dynamic Allocation
+
+Three changes from v2 that compounded into a 2× improvement:
+
+### 1. Dynamic Position Sizing
+
+Instead of fixed $20K:
+
+```
+size = min(
+    2% of open interest,
+    20% of equity,
+    20% of equity per symbol,
+    remaining capital
+)
+```
+
+Positions scale with equity (compounding). Capital utilization approaches 100%. This single change nearly doubled CAGR.
+
+### 2. Spot-vs-Perp Structure
+
+v2 used perp-vs-perp (long perp + short perp across exchanges) = double perp fees.
+v3 uses spot-vs-perp (buy spot + short perp on same exchange) = cheaper, captures absolute rate.
+
+### 3. 1-Day Lookback
+
+v2 used 365-day lookback for stability. v3 uses 1-day — maximum reactivity. We tested 1, 3, 7, 14, 30, and 365 days. 1-day was optimal.
+
+## The Number
+
+| Metric | v3 Stress-Tested |
+|--------|-----------------|
+| CAGR | 19.55% |
+| Sharpe | 3.74 |
+| Max DD | 3.48% |
+| Equity | $300K → $933K (6.35 years) |
+
+Stress test includes: spot pair filter (670/874 symbols tradeable), 10% insurance fund, 2× basis risk, 5bps execution timing slippage, 80% funding rate noise.
+
+## What We Tested (40+ Experiments)
+
+| Strategy | CAGR | Status |
+|----------|------|--------|
+| v3 spot-only stress | 19.55% | **Winner** |
+| v3 all-symbol stress | 21.62% | Includes untradeable symbols |
+| v3 + delta signal | 26.3% | Marginal improvement, more complex |
+| Hybrid (systematic + event) | 27.3% | Event slots cannibalize capital |
+| Event-driven only | 20.2% | Spikes too rare |
+| v2 fixed sizing | 11.4% | Capital underutilized |
+| Cross-exchange spread | 4.5% | 78.8% cost ratio |
+| Interval arb | 2.5% | 89% cost ratio |
+| Sniper (settlement-level) | -0.2% | Churn kills returns |
+
+All experiments ran on 9.4M funding rate settlements across 874 symbols on 4 exchanges (Binance, Bybit, KuCoin, Hyperliquid), spanning 2019-2026.

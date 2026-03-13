@@ -1,0 +1,60 @@
+---
+title: "Cross-Exchange Spread Arbitrage: The Verdict"
+slug: "cross-exchange-spread-verdict"
+description: "Full cointegration analysis of funding rate spreads across exchanges. The edge is real — but smaller than the cost to capture it."
+category: strategy-kill
+status: conclusive
+date: "2026-02-24"
+tags: [cointegration, spread-arb, dead-strategy, funding-rates]
+keyFinding: "Mean-reversion edge of 0.6-0.85 bps/trade is destroyed by any realistic transaction cost (1+ bps round-trip). 0% out-of-sample profitability at 1 bps cost."
+---
+
+## The Hypothesis
+
+Funding rates on the same symbol differ across exchanges. If Binance BTC funding is +0.01% and Bybit is +0.03%, go long Binance perp (pay less) and short Bybit perp (collect more). When rates converge, close both.
+
+The spread between exchange rates should mean-revert — it's driven by the same underlying market.
+
+## The Analysis
+
+We ran a full cointegration analysis on 15 major symbols across Binance, Bybit, KuCoin, and Hyperliquid. Two time windows: in-sample (Nov 2025 – Feb 2026) and out-of-sample (May – Aug 2025).
+
+### Mean-Reversion Is Real
+
+All 15 symbols confirm mean-reversion in both time windows:
+- Autocorrelation(1) positive for 15/15 symbols in both IS and OOS
+- Half-lives: 1-9 hours, stable across regimes
+- This is perhaps a physical law — arbitrageurs force convergence
+
+### But the Edge Is Too Small
+
+| Cost Scenario | In-Sample Profitable | Out-of-Sample Profitable |
+|---------------|---------------------|-------------------------|
+| 0 bps | 100% (45/45 pairs) | 100% (15/15 pairs) |
+| 1 bps RT | 24% (11/45) | **0% (0/15)** |
+| 2 bps RT | 2% (1/45) | 0% (0/15) |
+| 3 bps RT | 0% (0/45) | 0% (0/15) |
+
+Average raw edge: **+0.85 bps/trade** in-sample, **+0.60 bps/trade** out-of-sample.
+
+The only pair that barely survives 2 bps cost: OP Binance↔OKX (+0.36 bps/trade, 57 trades over 90 days). Not enough to build a strategy on.
+
+## Why It Fails
+
+1. **Funding rates settle infrequently** (every 1-8 hours), but you need to hold the position through settlement to collect. This limits trade frequency.
+
+2. **Both legs are perpetual futures**, so you pay fees twice — once on each exchange. Minimum realistic RT cost is ~2 bps with maker orders on both sides.
+
+3. **The spread is small by nature** — exchanges compete on rates, keeping them close. The very mechanism that creates mean-reversion (arbitrageurs) also compresses the edge.
+
+## What This Means
+
+The mean-reversion signal is useful as a **timing indicator** (when to enter/exit positions), but not as a standalone profit source. We use it in v3 for rotation decisions — switching between exchanges when a better rate appears.
+
+The core profit comes from the **absolute** funding rate (spot-vs-perp), not the **spread** between exchange rates.
+
+## Conclusion
+
+**Strategy status: DEAD.**
+
+Not revisitable without a fundamental change in fee structure (sub-0.5 bps maker on both legs) or a shift in market microstructure that widens rate differentials beyond 2 bps consistently.
