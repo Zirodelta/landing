@@ -1,9 +1,10 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { Navbar } from "@/components/zirodelta/navbar"
 import { Footer } from "@/components/zirodelta/footer"
-import { Calculator, TrendingUp, BarChart3 } from "lucide-react"
+import { Calculator, TrendingUp, BarChart3, Crosshair } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Free Crypto Tools",
@@ -21,6 +22,13 @@ export const metadata: Metadata = {
 }
 
 const tools = [
+  {
+    title: "Zidee — Funding Rate Sniper Bot",
+    description: "One-tap extreme funding rate scalps on Telegram. Scan 4 exchanges, enter delta-neutral, auto-close after settlement. Backed by 9.4M settlement backtest.",
+    href: "/tools/funding-rate-sniper-bot",
+    icon: Crosshair,
+    badge: "NEW",
+  },
   {
     title: "Funding Rate Calculator",
     description: "Calculate per-period, daily, weekly, monthly, and yearly earnings from funding rates. Includes entry/exit fee deductions.",
@@ -61,7 +69,12 @@ export default function ToolsPage() {
             <Link key={tool.href} href={tool.href} className="group">
               <Card className="h-full transition-colors hover:border-primary/50">
                 <CardHeader>
-                  <tool.icon className="size-5 text-primary mb-1" />
+                  <div className="flex items-center gap-2">
+                    <tool.icon className="size-5 text-primary" />
+                    {"badge" in tool && tool.badge && (
+                      <Badge variant="secondary" className="text-[10px] px-1.5 py-0">{tool.badge}</Badge>
+                    )}
+                  </div>
                   <CardTitle className="text-base">{tool.title}</CardTitle>
                   <CardDescription>{tool.description}</CardDescription>
                 </CardHeader>

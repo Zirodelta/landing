@@ -1,0 +1,146 @@
+---
+title: "Sniper Backtest: One-Settlement Scalps on Extreme Funding Rates"
+slug: "sniper-one-settlement-scalp-backtest"
+description: "We backtested one-settlement funding rate scalps across 9.4M settlements over 6 years. The strategy is profitable — but only above a 0.3% threshold."
+category: strategy-validation
+status: conclusive
+date: "2026-03-13"
+tags: [sniper, backtest, funding-rate, scalp, extreme-rates, delta-neutral]
+keyFinding: "15,489 extreme settlements (≥0.2%). 99.9% win rate after 0.2% RT costs. At ≥0.3% threshold: 2.4 opportunities/day, +0.279% net per snipe, 100% win rate."
+---
+
+## The Strategy
+
+When a funding rate spikes to extreme levels (≥0.3% per settlement period), enter a delta-neutral position: **buy spot + short perpetual**. Collect one funding payment at settlement. Close 30 minutes after.
+
+No overnight risk. No multi-day holds. One funding event, one collection, done.
+
+This is the opposite of Beta-X1's persistent position strategy (hold for days/weeks at moderate rates). The sniper targets short-lived extremes for quick extraction.
+
+## The Dataset
+
+| Metric | Value |
+|---|---|
+| Total settlements analyzed | 9,406,243 |
+| Exchanges | Binance, Bybit, KuCoin, Hyperliquid |
+| Time range | January 2020 — March 2026 |
+| Symbols | 874 perpetual contracts |
+| Source | Zirodelta's funding rate settlement database |
+
+## How Many Extreme Rates Exist?
+
+| Rate Threshold | Occurrences | Per Day (avg) | Avg Rate | Median Rate |
+|---|---|---|---|---|
+| ≥ 0.2% / settlement | 15,489 | 6.9 | 0.322% | 0.263% |
+| ≥ 0.3% / settlement | 5,368 | 2.4 | 0.479% | — |
+| ≥ 0.5% / settlement | 1,326 | 0.6 | 0.815% | 0.661% |
+| ≥ 1.0% / settlement | 271 | 0.1 | 1.481% | 1.275% |
+
+Extreme rates are not rare. Even at the ≥0.3% threshold, there are **2.4 opportunities per day** on average. In the last 6 months (Sep 2025 — Mar 2026), frequency jumped to **22 per day** across all thresholds.
+
+## The Critical Question: Do Extreme Rates Persist?
+
+Our [margin mode research](/research/margin-mode-dead) proved that extreme **negative** funding rates are transient spikes — they mean-revert before you can profit. Does the same apply to extreme positive rates?
+
+**No. Extreme positive rates persist.**
+
+| What happens after an extreme settlement | Percentage |
+|---|---|
+| Still extreme (≥0.2%) at next settlement | **39%** |
+| Still elevated (≥0.1%) at next settlement | **64.7%** |
+| Collapsed to normal (&lt;0.01%) | 17.1% |
+| Average rate retention | 51.9% of original |
+
+This is structurally different from negative rates. Extreme positive funding is driven by **leverage demand** — traders piling into long positions on trending tokens. This demand persists across multiple settlement periods. Negative rates (short squeezes) resolve within one settlement.
+
+**Key insight:** The sniper collects the extreme rate at settlement T. Even if the rate drops at T+1, you're already closed. The persistence data tells us entry timing is reliable — the rate you see is the rate you collect.
+
+## Profitability After Costs
+
+Cost assumption: **0.2% round-trip** (taker fees for entry + exit on both spot and perp).
+
+| Rate Bucket | Opportunities | Avg Rate | Net After Costs | Edge Over Cost |
+|---|---|---|---|---|
+| 0.2% — 0.3% | 10,121 | 0.239% | **+0.039%** | 20% |
+| 0.3% — 0.5% | 4,042 | 0.369% | **+0.169%** | 85% |
+| 0.5% — 1.0% | 1,055 | 0.644% | **+0.444%** | 222% |
+| 1.0%+ | 271 | 1.481% | **+1.281%** | 641% |
+
+At ≥0.2%: **99.9% win rate** (15,480 of 15,489 profitable after fees).
+
+At ≥0.3%: **100% win rate**, +0.279% average net per snipe.
+
+## Performance by Exchange
+
+| Exchange | Extreme Settlements | Avg Rate | Net Per Snipe |
+|---|---|---|---|
+| KuCoin | 7,351 | 0.343% | +0.143% |
+| Binance | 5,159 | 0.301% | +0.101% |
+| Bybit | 1,962 | 0.297% | +0.097% |
+| Hyperliquid | 1,017 | 0.332% | +0.132% |
+
+## Projected Annual Returns
+
+Based on recent 6-month data (Sep 2025 — Mar 2026):
+
+| Scenario | Snipes/Day | Projected APY |
+|---|---|---|
+| Conservative (1 best pick/day) | 1 | **~40—58%** |
+| Moderate (3/day) | 3 | **~173%** |
+| Aggressive (all available) | 22 | ~1,368% (capital-limited) |
+
+The conservative scenario assumes cherry-picking only the highest-rate opportunity each day. Even with a pessimistic 0.1% price drift haircut, the conservative APY holds at **~8—40%** depending on threshold.
+
+## Risk Factors
+
+This backtest has limitations. The following costs are **not** included in the numbers above:
+
+1. **Execution slippage.** Order book impact when entering/exiting. Small positions ($50—200) on liquid pairs have minimal slippage. Illiquid micro-cap alts could eat the entire edge.
+
+2. **Price drift during hold.** The position is held for ~1 hour (entry → settlement → 30min close delay). Delta-neutral hedging minimizes but doesn't eliminate basis movement. Estimated 0.05—0.1% adverse drift on volatile tokens.
+
+3. **Spot-perp spread at entry.** The basis between spot and perp varies. Entering when the spread is unfavorable adds hidden cost.
+
+4. **Funding rate prediction error.** The displayed "next funding rate" and the actually settled rate can differ slightly on some exchanges.
+
+### Stress Test: How Much Drift Kills the Edge?
+
+| Threshold | Net (fees only) | Net (+0.05% drift) | Net (+0.10% drift) |
+|---|---|---|---|
+| ≥ 0.2% | +0.122% | +0.071% | +0.021% (thin) |
+| ≥ 0.3% | +0.279% | +0.229% | **+0.179% (solid)** |
+| ≥ 0.5% | +0.615% | +0.565% | **+0.515% (fat)** |
+
+At ≥0.3%, the strategy survives even pessimistic cost assumptions. At 0.2%, it's marginal.
+
+## Why ≥0.3% Is the Right Threshold
+
+The 0.2—0.3% bucket contains 10,121 settlements (65% of all extremes) but nets only +0.039% per snipe after fees. Any real-world friction — slippage, drift, spread — can turn this bucket negative.
+
+At ≥0.3%:
+- 5,368 settlements over 6 years (2.4/day average)
+- +0.279% net per snipe (7x the 0.2% bucket)
+- 100% win rate after 0.2% RT costs
+- Survives 0.1% adverse drift with room to spare
+
+**We set Zidee's minimum threshold at 0.3%.**
+
+## Comparison With Other Strategies
+
+| Strategy | Status | Expected Return | Risk Profile |
+|---|---|---|---|
+| Beta-X1 (persistent positions) | ✅ Validated | 19.55% CAGR | Low — holds days to weeks |
+| **Sniper (one-settlement scalp)** | **✅ Validated** | **40—58% APY** | **Medium — ~1h exposure** |
+| Margin mode (negative funding) | ❌ Disproved | Negative | High — rates mean-revert |
+| Cross-exchange spread arb | ❌ Disproved | Negative after costs | Edge destroyed by fees |
+
+## Disclaimer
+
+This research is based on historical backtesting of funding rate settlement data. **Past performance does not guarantee future results.**
+
+- Backtested returns do not include all real-world costs (slippage, spread, price drift).
+- Actual trading involves risk of loss. Funding rates, market conditions, and exchange mechanics can change without notice.
+- The 99.9% win rate is based on historical data with simplified cost assumptions. Real-world win rates will be lower.
+- This is not financial advice. Do your own research before trading.
+- Zirodelta provides tools and data. You are solely responsible for your trading decisions and any resulting gains or losses.
+- Never trade with funds you cannot afford to lose.
