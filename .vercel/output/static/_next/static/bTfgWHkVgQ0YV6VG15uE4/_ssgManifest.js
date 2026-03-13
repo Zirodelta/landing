@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcompare\u002F[slug]","\u002Flearn\u002F[slug]","\u002Frates\u002F[exchange]","\u002Frates\u002F[exchange]\u002F[pair]","\u002Fresearch\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
