@@ -14,9 +14,7 @@ function Phase({
 }) {
   return (
     <div className="relative pl-8 pb-12 last:pb-0">
-      {/* Timeline line */}
       <div className="absolute left-[11px] top-8 bottom-0 w-px bg-border last:hidden" />
-      {/* Timeline dot */}
       <div className="absolute left-0 top-1 flex h-6 w-6 items-center justify-center rounded-full border border-primary/50 bg-primary/10 text-[10px] font-bold text-primary" style={{ fontFamily: 'var(--font-mono)' }}>
         {number}
       </div>
@@ -62,7 +60,6 @@ function PrincipleCard({
 export default function DocsPage() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Header — logo + whitepaper, no nav links */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-2.5" aria-label="Zirodelta Home">
@@ -87,194 +84,179 @@ export default function DocsPage() {
             Technical Documentation
           </p>
           <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            Engine Architecture
+            Engine Architecture — v3
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-            Zirodelta runs an autonomous funding rate arbitrage engine called{" "}
-            <Highlight>FarmingLoop</Highlight>. It continuously scans
-            exchanges for profitable funding rate spreads and
-            manages positions algorithmically.
+            Zirodelta runs an autonomous delta-neutral yield engine called{" "}
+            <Highlight>Beta-X1</Highlight>. It buys spot and shorts the
+            perpetual future on the same exchange, collecting funding rate
+            payments while maintaining zero market exposure.
           </p>
         </div>
 
-        {/* Pipeline */}
+        {/* Strategy overview */}
         <section className="mb-20">
+          <div className="rounded-lg border border-primary/20 bg-primary/5 p-6 mb-12">
+            <h2 className="text-lg font-bold text-foreground mb-3" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
+              The Strategy
+            </h2>
+            <p className="text-sm leading-relaxed text-muted-foreground mb-4">
+              When perpetual futures traders are net long (bullish), they pay a <Highlight>funding rate</Highlight> to
+              short holders. Zirodelta captures this by holding spot (long exposure) and shorting the perp (short exposure)
+              on the same exchange. The two legs cancel out — <Highlight>delta zero</Highlight> — while the funding
+              payments flow in.
+            </p>
+            <div className="grid grid-cols-3 gap-3 text-center">
+              <div className="rounded-md border border-border bg-background/50 p-3">
+                <p className="text-2xl font-bold text-primary">Δ = 0</p>
+                <p className="mt-1 text-xs text-muted-foreground">Net exposure</p>
+              </div>
+              <div className="rounded-md border border-border bg-background/50 p-3">
+                <p className="text-2xl font-bold text-foreground">19%</p>
+                <p className="mt-1 text-xs text-muted-foreground">Backtested CAGR</p>
+              </div>
+              <div className="rounded-md border border-border bg-background/50 p-3">
+                <p className="text-2xl font-bold text-foreground">3.48%</p>
+                <p className="mt-1 text-xs text-muted-foreground">Max drawdown</p>
+              </div>
+            </div>
+          </div>
+
           <h2 className="text-xl font-bold text-foreground mb-8" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Pipeline Overview
           </h2>
 
-          <Phase number="0" title="Collect">
+          <Phase number="1" title="Collect Funding Settlements">
             <p>
-              Connects to <Highlight>dozens of exchanges</Highlight> in parallel,
-              fetching current funding rates, payment intervals, and next funding
-              timestamps for every perpetual futures pair. Intervals are{" "}
-              <Highlight>fetched dynamically</Highlight> per pair — never
-              hardcoded. If an exchange changes a pair from 8h to 4h settlements,
-              the engine picks it up automatically.
+              Every 4 hours, the <Code>FundingSettlementWorkflow</Code> connects to{" "}
+              <Highlight>30+ exchanges</Highlight> in parallel and fetches actual funding rate
+              settlement data — not projected rates, but confirmed payments with real timestamps.
+            </p>
+            <p>
+              Over <Highlight>9.4 million settlement records</Highlight> across 874 symbols
+              power every scoring decision. Data is stored in ClickHouse with deduplication
+              via ReplacingMergeTree.
             </p>
           </Phase>
 
-          <Phase number="1" title="Scan & Score">
+          <Phase number="2" title="Scan & Score">
             <p>
-              Fetches market depth data — open interest, 24h volume, bid/ask
-              spread — and calculates maximum safe position sizes per pair per
-              exchange.
+              The daily <Code>SpotPerpScanWorkflow</Code> identifies symbols where funding
+              rates are persistently positive — meaning perp shorts consistently receive payments.
             </p>
-            <p>
-              Then computes cross-exchange delta opportunities with{" "}
-              <Highlight>settlement-aware scoring</Highlight>:
-            </p>
-
             <div className="mt-2 space-y-3 rounded-lg border border-border bg-card/30 p-4">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                  Matched Intervals
+                  Trailing Rate Filter
                 </p>
                 <p>
-                  Both exchanges pay on the same schedule. Standard spread
-                  calculation — the exchange with the higher rate becomes the
-                  short leg (collecting side).
+                  Only symbols with a trailing average rate above{" "}
+                  <Code>MIN_TRAILING_RATE</Code> (0.03%/interval) qualify.
+                  This filters out noise and ensures structural persistence.
                 </p>
               </div>
               <div className="border-t border-border pt-3">
                 <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                  Mismatched Intervals
+                  Spot Pair Verification
                 </p>
                 <p>
-                  Conservative spread estimation. The fastest-settling exchange
-                  is assigned to the <Highlight>collecting side</Highlight> — so
-                  you bank real money sooner and re-evaluate each epoch:
+                  Every opportunity must have a corresponding spot market on the
+                  same exchange. No spot pair = no hedge = no trade.
+                </p>
+              </div>
+              <div className="border-t border-border pt-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  Open Interest & Liquidity
+                </p>
+                <p>
+                  Position sizes are capped at 2% of open interest to avoid
+                  market impact. Symbols with insufficient OI are filtered out.
+                </p>
+              </div>
+            </div>
+          </Phase>
+
+          <Phase number="3" title="Allocate">
+            <p>
+              The <Code>SpotPerpAllocationWorkflow</Code> takes scored opportunities and
+              computes capital allocation with multiple safety layers:
+            </p>
+            <ul className="mt-2 space-y-1.5 pl-4 list-disc marker:text-primary/50">
+              <li><Highlight>Max 20 concurrent positions</Highlight> — diversification over concentration</li>
+              <li><Highlight>Max 20% per position</Highlight> — no single trade dominates</li>
+              <li><Highlight>Max 20% per symbol</Highlight> — even across exchanges</li>
+              <li><Highlight>10% reserve</Highlight> — always keep dry powder</li>
+              <li><Highlight>Insurance fund</Highlight> deducted from available capital</li>
+              <li><Highlight>Circuit breaker</Highlight> — halts trading if 7-day rolling DD exceeds threshold</li>
+            </ul>
+            <p className="mt-3">
+              Fresh open interest data is fetched inline before sizing — not stale snapshots.
+            </p>
+          </Phase>
+
+          <Phase number="4" title="Execute">
+            <p>
+              The <Code>ExecutionWorkflow</Code> opens both legs simultaneously:
+            </p>
+            <div className="mt-2 space-y-3 rounded-lg border border-border bg-card/30 p-4">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  SmartEntry
+                </p>
+                <p>
+                  Attempts limit orders first (maker fees ~2 bps) with a 10-second timeout.
+                  If not filled, falls back to market orders. Spread multiplier cap prevents
+                  execution in wide-spread conditions.
+                </p>
+              </div>
+              <div className="border-t border-border pt-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  Spot Buy + Perp Short
+                </p>
+                <p>
+                  Long leg: buy spot token. Short leg: open short perpetual future.
+                  Both on the <Highlight>same exchange</Highlight> — no cross-venue risk,
+                  no withdrawal delays, no bridge fees.
+                </p>
+              </div>
+            </div>
+          </Phase>
+
+          <Phase number="5" title="Monitor & Exit">
+            <p>
+              Two independent monitoring systems run continuously:
+            </p>
+            <div className="mt-2 space-y-3 rounded-lg border border-border bg-card/30 p-4">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
+                  ExitScanWorkflow (Daily)
+                </p>
+                <p>
+                  Evaluates every open position against four exit conditions:
                 </p>
                 <ul className="mt-2 space-y-1 pl-4 list-disc marker:text-primary/50">
-                  <li>Both rates positive → shorts collect → fastest = short</li>
-                  <li>Both rates negative → longs collect → fastest = long</li>
-                  <li>Mixed signs → both sides collect → best case scenario</li>
+                  <li><Highlight>Rate decay</Highlight> — funding rate dropped below exit threshold (original rate × decay factor)</li>
+                  <li><Highlight>Stop loss</Highlight> — position PnL breached 1% loss limit</li>
+                  <li><Highlight>Rotation</Highlight> — better opportunity found, and switching cost is recoverable</li>
+                  <li><Highlight>Insurance deduction</Highlight> — losses covered by insurance fund</li>
                 </ul>
               </div>
-            </div>
-            <p>
-              Each opportunity includes{" "}
-              <Highlight>break-even analysis</Highlight>: how many funding
-              sessions needed to recover entry fees.
-            </p>
-          </Phase>
-
-          <Phase number="2" title="Think">
-            <p>
-              Runs 6 sequential safety checks before committing capital:
-            </p>
-            <ol className="mt-2 space-y-1.5 pl-4 list-decimal marker:text-primary/50">
-              <li>Consecutive failure detection — back off after repeated failures</li>
-              <li>Existing position health — rebalance if spreads compressed</li>
-              <li>Opportunity availability — hold if no profitable deltas</li>
-              <li>Quality threshold — minimum annualized spread gate</li>
-              <li>Position count — concurrent hedge limits</li>
-              <li>Capital utilization — deployment ceiling</li>
-            </ol>
-            <p className="mt-3">
-              Decision output: <Code>enter</Code>, <Code>rebalance</Code>, or{" "}
-              <Code>hold</Code>.
-            </p>
-          </Phase>
-
-          <Phase number="3" title="Rebalance">
-            <p>If existing positions have deteriorated:</p>
-            <ul className="mt-2 space-y-1 pl-4 list-disc marker:text-primary/50">
-              <li>
-                <Highlight>Funding flip</Highlight> (spread went negative) →
-                urgency routing to emergency close
-              </li>
-              <li>
-                <Highlight>Spread compressed</Highlight> (below threshold) →
-                smart exit via TWAP
-              </li>
-            </ul>
-            <p className="mt-2">
-              Uses the same interval-aware spread formula as Phase 1 — no math
-              contradictions between entry and exit evaluation.
-            </p>
-
-            <div className="mt-3 rounded-lg border border-border bg-card/30 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                Minimum Hold Period
-              </p>
-              <p>
-                No position is closed until at least one{" "}
-                <Highlight>collecting-side settlement</Highlight> has occurred.
-                The collecting side is always the fastest-settling exchange — so
-                if the short leg settles hourly and the long leg every 8 hours,
-                the engine waits at least 1 hour before evaluating.
-              </p>
-              <p className="mt-2">
-                After collecting, if the spread looks bad: close{" "}
-                <Highlight>before</Highlight> the slow side pays — don&apos;t
-                wait to lose money. Emergency overrides (hard negative spreads)
-                bypass the hold period entirely.
-              </p>
-            </div>
-          </Phase>
-
-          <Phase number="4" title="Allocate">
-            <p>
-              <Highlight>Position-aware</Highlight> greedy knapsack allocation.
-              Before building a plan, the engine fetches all open hedges and
-              applies three layers of intelligence:
-            </p>
-
-            <div className="mt-2 space-y-3 rounded-lg border border-border bg-card/30 p-4">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                  Route Deduplication
-                </p>
-                <p>
-                  Won&apos;t open the same (symbol, short exchange, long exchange)
-                  twice. Different venue pairs for the same asset are allowed —
-                  they&apos;re independent routes with different risk profiles.
-                </p>
-              </div>
               <div className="border-t border-border pt-3">
                 <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                  Capacity Subtraction
+                  FundingTrackingWorkflow (Hourly)
                 </p>
                 <p>
-                  Deducts already-deployed capital from available exchange capacity
-                  before allocating new positions. Prevents over-concentration on
-                  a single exchange or symbol.
-                </p>
-              </div>
-              <div className="border-t border-border pt-3">
-                <p className="text-xs font-semibold uppercase tracking-wider text-foreground mb-1">
-                  Rotation Scoring
-                </p>
-                <p>
-                  When a better opportunity appears for the same asset on different
-                  venues, the engine calculates full rotation cost: exit fees +
-                  entry fees + withdrawal + deposit + bridge fees. Only rotates if
-                  the spread improvement recovers all costs within a defined
-                  payback period.
+                  Records actual funding payments received on all positions.
+                  Not projected — <Highlight>real settled cash</Highlight>. Feeds
+                  the daily check and circuit breaker with ground truth data.
                 </p>
               </div>
             </div>
-            <p className="mt-2">
-              The allocation is <Highlight>additive only</Highlight> — it fills
-              empty slots and proposes rotations. It never closes profitable
-              positions. Closing is exclusively handled by Rebalance and the
-              Real-Time Guard.
-            </p>
           </Phase>
 
-          <Phase number="5" title="Track">
+          <Phase number="6" title="Revenue Split">
             <p>
-              Records actual funding payments received on all open positions. Not
-              projected revenue —{" "}
-              <Highlight>real settled cash</Highlight>.
-            </p>
-          </Phase>
-
-          <Phase number="6" title="Split">
-            <p>
-              Revenue distribution depends on the{" "}
-              <Highlight>engine class</Highlight>:
+              Revenue distribution depends on the engine class:
             </p>
             <div className="mt-3 space-y-3">
               <div className="rounded-lg border border-primary/20 bg-primary/5 p-4">
@@ -310,75 +292,112 @@ export default function DocsPage() {
               </div>
             </div>
           </Phase>
-
-          <Phase number="7" title="Record">
-            <p>
-              Logs the complete cycle outcome — action taken, deltas found,
-              positions opened/closed, capital utilization, funding collected,
-              errors, duration. Feeds the failure detection in Phase 2 of the
-              next cycle.
-            </p>
-          </Phase>
         </section>
 
-        {/* Guard */}
+        {/* Architecture */}
         <section className="mb-20">
-          <div className="rounded-lg border border-primary/20 bg-primary/5 p-6">
-            <h2 className="text-lg font-bold text-foreground mb-3" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-              Real-Time Guard
-            </h2>
-            <p className="text-sm leading-relaxed text-muted-foreground">
-              Independent of the 30-minute loop,{" "}
-              <Highlight>FundingGuardService</Highlight> monitors all open
-              positions via exchange websockets in real-time. If a rate flips
-              between cycles, it triggers an immediate exit — no waiting for the
-              next scan.
-            </p>
+          <h2 className="text-xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
+            Architecture
+          </h2>
+          <div className="rounded-lg border border-border bg-card/30 p-6 font-mono text-xs leading-relaxed text-muted-foreground overflow-x-auto">
+            <pre>{`┌─────────────────────────────────────────────────────┐
+│                   Temporal Server                    │
+│                                                     │
+│  ┌──────────────┐  ┌──────────────────────────────┐ │
+│  │  heavy-queue  │  │         fast-queue            │ │
+│  │               │  │                              │ │
+│  │ • Settlement  │  │ • SpotPerpScan    (daily)    │ │
+│  │   (every 4h)  │  │ • Allocation      (daily)    │ │
+│  │ • Execution   │  │ • ExitScan        (daily)    │ │
+│  │               │  │ • DailyCheck      (daily)    │ │
+│  │               │  │ • FundingTracking (hourly)   │ │
+│  └──────┬───────┘  └──────────┬───────────────────┘ │
+│         │                     │                     │
+│         └─────────┬───────────┘                     │
+│                   │                                 │
+│         ┌─────────▼─────────┐                       │
+│         │    ClickHouse     │                       │
+│         │                   │                       │
+│         │ • 9.4M+           │                       │
+│         │   settlements     │                       │
+│         │ • opportunities   │                       │
+│         │ • executions      │                       │
+│         │ • spot_holdings   │                       │
+│         └───────────────────┘                       │
+└─────────────────────────────────────────────────────┘
+
+Exchange Connectors: Binance, Bybit, Gate, KuCoin,
+                     Hyperliquid + 25 more adapters`}</pre>
           </div>
         </section>
 
         {/* Principles */}
-        <section>
+        <section className="mb-20">
           <h2 className="text-xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Key Design Principles
           </h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <PrincipleCard title="Cash Flow Velocity > APR">
-              The engine prioritizes real money movement speed over annualized
-              rate projections. A lower rate with hourly settlement beats a
-              higher rate with 8-hour settlement because you collect cash sooner
-              and re-evaluate faster.
+            <PrincipleCard title="Same-Exchange Only">
+              Both legs of every hedge live on the same exchange. No cross-venue
+              risk, no withdrawal delays, no bridge fees. Simpler, safer, cheaper.
             </PrincipleCard>
-            <PrincipleCard title="Interval-Aware Spread Math">
-              When pairing exchanges with different payment schedules, rates
-              are normalized to a common timeframe before comparison. The engine
-              computes the actual net earning from each side of the hedge —
-              what the collecting side earns minus what the paying side costs.
+            <PrincipleCard title="Positive Funding Only">
+              We only enter when perp shorts receive funding — a structural condition
+              driven by leveraged long demand. Negative funding (transient spikes)
+              was tested and disproved by backtest.
             </PrincipleCard>
-            <PrincipleCard title="No Entry/Exit Contradictions">
-              All spread calculations — scoring, allocation, rebalance, guard —
-              use the identical interval-aware formula. The engine never enters a
-              position using one model and evaluates it with another.
+            <PrincipleCard title="Data Quality First">
+              9.4M+ real settlement records with actual timestamps from exchange APIs.
+              No synthetic data, no interpolation. Every scoring decision is grounded
+              in confirmed payments.
             </PrincipleCard>
-            <PrincipleCard title="Additive Allocation, Subtractive Exit">
-              The farming loop only adds new positions or rotates when the math
-              proves it. Closing positions is exclusively handled by rebalance
-              and the real-time guard. This separation prevents churn — the
-              engine never closes a profitable position to reopen the same thing.
+            <PrincipleCard title="Risk at the Architecture Level">
+              Position limits, circuit breakers, insurance fund, stop losses, and
+              rate decay exits are not optional add-ons — they are built into the
+              workflow pipeline. You cannot skip them.
             </PrincipleCard>
-            <PrincipleCard title="Rotation Must Pay for Itself">
-              Switching from one exchange route to another costs real money:
-              trading fees, withdrawal, deposit, and bridge costs. The engine
-              only rotates if the spread improvement recovers the full rotation
-              cost within a strict payback window. Small improvements are not
-              worth the friction.
+            <PrincipleCard title="SmartEntry Reduces Slippage">
+              Limit orders first (maker fees), market fallback after timeout.
+              Spread cap prevents execution in illiquid conditions. Every basis
+              point of entry cost matters at scale.
             </PrincipleCard>
-            <PrincipleCard title="Zero Hardcoded Assumptions">
-              Funding intervals, settlement schedules, and exchange parameters
-              are all fetched dynamically. The engine never assumes a pair pays
-              every 8 hours — it asks the exchange every cycle. Data quality at
-              the source is non-negotiable.
+            <PrincipleCard title="Full Auditability">
+              Every trade, position, funding payment, and exit decision is recorded
+              in ClickHouse with full timestamps. The transparency dashboard at{" "}
+              <a href="https://transparency.zirodelta.ag" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                transparency.zirodelta.ag
+              </a>{" "}
+              makes this public.
             </PrincipleCard>
+          </div>
+        </section>
+
+        {/* Research */}
+        <section>
+          <h2 className="text-xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
+            Research & Validation
+          </h2>
+          <p className="text-sm leading-relaxed text-muted-foreground mb-6">
+            v3 is the result of extensive backtesting, 40+ automated research experiments,
+            and multiple strategy kills. Read the full research at{" "}
+            <Link href="/research" className="text-primary hover:underline">/research</Link>.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="rounded-lg border border-border bg-card/50 p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-2">Backtest (6.35 years)</p>
+              <p className="text-sm text-muted-foreground">
+                $300K → $933K. CAGR 19.55%, Sharpe 3.74, Max DD 3.48%.
+                Stress-tested with basis risk and realistic execution costs.
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-card/50 p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-2">Dead Strategies</p>
+              <p className="text-sm text-muted-foreground">
+                Cross-exchange spread arb (killed: costs &gt; edge), margin mode / negative
+                funding (killed: 0% win rate in backtest), interval arbitrage (killed: no
+                statistical edge).
+              </p>
+            </div>
           </div>
         </section>
       </main>

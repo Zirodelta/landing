@@ -55,9 +55,9 @@ function HedgePairIllustration({ active }: { active: boolean }) {
   return (
     <svg viewBox="0 0 200 160" fill="none" className="w-full h-full" aria-hidden="true">
       <style>{animationStyles}</style>
-      {/* Left position - Long */}
+      {/* Left position - Spot */}
       <rect x="10" y="40" width="70" height="80" rx="8" stroke="#009B88" strokeWidth="1.5" opacity={active ? 1 : 0.3} className="transition-all duration-700" />
-      <text x="45" y="68" textAnchor="middle" fill="#009B88" fontSize="10" fontWeight="600" opacity={active ? 1 : 0.4} className="transition-all duration-700">LONG</text>
+      <text x="45" y="68" textAnchor="middle" fill="#009B88" fontSize="10" fontWeight="600" opacity={active ? 1 : 0.4} className="transition-all duration-700">SPOT</text>
       <rect x="22" y="78" width="46" height="4" rx="2" fill="#009B88" opacity={active ? 0.3 : 0.1} className="transition-all duration-700" />
       <rect x="22" y="88" width="32" height="4" rx="2" fill="#009B88" opacity={active ? 0.2 : 0.08} className="transition-all duration-700" />
       <rect x="22" y="98" width="40" height="4" rx="2" fill="#009B88" opacity={active ? 0.25 : 0.08} className="transition-all duration-700" />
@@ -66,9 +66,10 @@ function HedgePairIllustration({ active }: { active: boolean }) {
         <path d="M45 108 L45 115 L40 115 L45 122 L50 115 L45 115" fill="#009B88" opacity={active ? 0.5 : 0.15} className="transition-all duration-700" />
       </g>
 
-      {/* Right position - Short */}
+      {/* Right position - Short Perp */}
       <rect x="120" y="40" width="70" height="80" rx="8" stroke="#72B7B1" strokeWidth="1.5" opacity={active ? 1 : 0.3} className="transition-all duration-700" />
-      <text x="155" y="68" textAnchor="middle" fill="#72B7B1" fontSize="10" fontWeight="600" opacity={active ? 1 : 0.4} className="transition-all duration-700">SHORT</text>
+      <text x="155" y="64" textAnchor="middle" fill="#72B7B1" fontSize="9" fontWeight="600" opacity={active ? 1 : 0.4} className="transition-all duration-700">SHORT</text>
+      <text x="155" y="74" textAnchor="middle" fill="#72B7B1" fontSize="9" fontWeight="600" opacity={active ? 1 : 0.4} className="transition-all duration-700">PERP</text>
       <rect x="132" y="78" width="46" height="4" rx="2" fill="#72B7B1" opacity={active ? 0.3 : 0.1} className="transition-all duration-700" />
       <rect x="132" y="88" width="32" height="4" rx="2" fill="#72B7B1" opacity={active ? 0.2 : 0.08} className="transition-all duration-700" />
       <rect x="132" y="98" width="40" height="4" rx="2" fill="#72B7B1" opacity={active ? 0.25 : 0.08} className="transition-all duration-700" />
@@ -269,7 +270,7 @@ const trustPoints = [
     Illustration: HedgePairIllustration,
     headline: "Architecturally Hedged",
     statement: "Single-leg exposure is impossible.",
-    body: "Every position is a hedge pair -- long and short, always. Risk is eliminated at the protocol level, not managed after the fact.",
+    body: "Every position is a hedge pair — buy spot, short perp, same exchange. Delta-neutral by construction. Risk is eliminated at the protocol level, not managed after the fact.",
     metric: "0.00",
     metricLabel: "Net exposure",
   },
