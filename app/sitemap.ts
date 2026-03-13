@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next"
 import { getExchanges, getPairs, getAllComparisons } from "@/lib/pseo"
 import { getArticleSlugs } from "@/lib/learn"
+import { getAllResearch } from "@/lib/research"
 
 const BASE_URL = "https://zirodelta.com"
 
@@ -72,11 +73,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  // Research articles: /research and /research/[slug]
+  const researchArticles = getAllResearch()
+  const researchPages: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/research`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...researchArticles.map((article) => ({
+      url: `${BASE_URL}/research/${article.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ]
+
   return [
     ...staticPages,
     ...exchangePages,
     ...ratePages,
     ...comparisonPages,
     ...learnPages,
+    ...researchPages,
   ]
 }

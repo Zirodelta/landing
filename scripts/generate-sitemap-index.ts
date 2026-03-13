@@ -55,6 +55,14 @@ function getLearnSlugs(): string[] {
     .map(f => f.replace(/\.mdx?$/, ""))
 }
 
+function getResearchSlugs(): string[] {
+  const dir = path.join(process.cwd(), "content", "research")
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir)
+    .filter(f => f.endsWith(".mdx") || f.endsWith(".md"))
+    .map(f => f.replace(/\.mdx?$/, ""))
+}
+
 function xmlEscape(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }
@@ -92,10 +100,12 @@ ${entries}
 const exchanges = getExchangeSlugs()
 const comparisons = getComparisonSlugs()
 const learnSlugs = getLearnSlugs()
+const researchSlugs = getResearchSlugs()
 
 console.log(`Exchanges: ${exchanges.length}`)
 console.log(`Comparisons: ${comparisons.length}`)
 console.log(`Learn articles: ${learnSlugs.length}`)
+console.log(`Research articles: ${researchSlugs.length}`)
 
 // 1. Static sitemap (pages + tools + exchange indexes)
 const staticUrls = [
@@ -103,6 +113,7 @@ const staticUrls = [
   { url: `${BASE_URL}/rates`, changefreq: "daily", priority: 0.9 },
   { url: `${BASE_URL}/compare`, changefreq: "weekly", priority: 0.8 },
   { url: `${BASE_URL}/learn`, changefreq: "weekly", priority: 0.8 },
+  { url: `${BASE_URL}/research`, changefreq: "weekly", priority: 0.8 },
   { url: `${BASE_URL}/pact`, changefreq: "monthly", priority: 0.3 },
   { url: `${BASE_URL}/docs`, changefreq: "monthly", priority: 0.5 },
   { url: `${BASE_URL}/tools`, changefreq: "weekly", priority: 0.8 },
@@ -125,10 +136,12 @@ for (const ex of exchanges) {
 fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-rates.xml"), buildUrlset(rateUrls))
 console.log(`sitemap-rates.xml: ${rateUrls.length} URLs`)
 
-// 3. Compare + Learn sitemap
+// 3. Compare + Learn + Research sitemap
 const compareUrls = [
   ...comparisons.map(slug => ({ url: `${BASE_URL}/compare/${slug}`, changefreq: "weekly", priority: 0.7 })),
   ...learnSlugs.map(slug => ({ url: `${BASE_URL}/learn/${slug}`, changefreq: "monthly", priority: 0.8 })),
+  { url: `${BASE_URL}/research`, changefreq: "weekly", priority: 0.8 },
+  ...researchSlugs.map(slug => ({ url: `${BASE_URL}/research/${slug}`, changefreq: "monthly", priority: 0.8 })),
 ]
 fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-compare.xml"), buildUrlset(compareUrls))
 console.log(`sitemap-compare.xml: ${compareUrls.length} URLs`)
