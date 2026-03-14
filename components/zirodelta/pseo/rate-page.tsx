@@ -4,6 +4,10 @@ import { PseoBreadcrumb } from "./pseo-breadcrumb"
 import { PseoFaq } from "./pseo-faq"
 import { Badge } from "@/components/ui/badge"
 import { getAllComparisons, getAllPseoArticles } from "@/lib/pseo"
+import { FundingRateChart } from "./funding-rate-chart"
+import { PositiveRateGauge } from "./positive-rate-gauge"
+import { ExchangeComparisonBars } from "./exchange-comparison-bars"
+import { MonthlyHeatmap } from "./monthly-heatmap"
 
 export function RatePageRenderer({ page }: { page: FundingRatePage }) {
   const { exchange, pair, content, related_pairs } = page
@@ -61,6 +65,58 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
           {content.intro}
         </p>
       </header>
+
+      {/* Visual Data Components */}
+      {page.visualData && (
+        <section className="mb-16">
+          <h2
+            className="text-2xl font-extrabold tracking-tight text-foreground mb-8"
+            style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+          >
+            Data Insights
+          </h2>
+          
+          {/* Top row - Charts */}
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            {/* Monthly trend chart */}
+            {page.visualData.monthlyTrend && (
+              <FundingRateChart 
+                monthlyData={page.visualData.monthlyTrend}
+                className="col-span-full"
+              />
+            )}
+          </div>
+          
+          {/* Second row - Gauge and Comparison */}
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            {/* Positive rate gauge */}
+            <PositiveRateGauge 
+              positivePct={page.visualData.positivePct}
+              totalSettlements={page.visualData.totalSettlements}
+            />
+            
+            {/* Exchange comparison */}
+            {page.visualData.crossExchange && (
+              <ExchangeComparisonBars 
+                exchanges={page.visualData.crossExchange}
+              />
+            )}
+          </div>
+          
+          {/* Third row - Heatmap */}
+          {page.visualData.monthlyTrend && (
+            <MonthlyHeatmap 
+              months={page.visualData.monthlyTrend.map((m) => ({
+                month: m.month,
+                avgRatePct: m.annualizedPct / 365 * 30, // Approximate monthly rate
+                annualizedPct: m.annualizedPct,
+                positivePct: m.positivePct || 0
+              }))}
+              className="col-span-full"
+            />
+          )}
+        </section>
+      )}
 
       {/* Main content + sidebar */}
       <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">

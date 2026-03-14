@@ -73,6 +73,30 @@
       }
     ]
   },
+  "visualData": {
+    "monthlyTrend": [
+      {"month": "2025-04", "annualizedPct": 2.64, "positivePct": 73.3},
+      {"month": "2025-05", "annualizedPct": 5.08, "positivePct": 90.3},
+      {"month": "2025-06", "annualizedPct": 2.87, "positivePct": 80.0},
+      {"month": "2025-07", "annualizedPct": 8.58, "positivePct": 100.0},
+      {"month": "2025-08", "annualizedPct": 7.12, "positivePct": 96.8},
+      {"month": "2025-09", "annualizedPct": 5.32, "positivePct": 92.2},
+      {"month": "2025-10", "annualizedPct": 3.62, "positivePct": 74.2},
+      {"month": "2025-11", "annualizedPct": 5.44, "positivePct": 87.8},
+      {"month": "2025-12", "annualizedPct": 5.00, "positivePct": 89.2},
+      {"month": "2026-01", "annualizedPct": 5.39, "positivePct": 95.7},
+      {"month": "2026-02", "annualizedPct": -0.83, "positivePct": 46.4},
+      {"month": "2026-03", "annualizedPct": -1.46, "positivePct": 36.6}
+    ],
+    "positivePct": 86.5,
+    "totalSettlements": 7087,
+    "crossExchange": [
+      {"name": "Hyperliquid", "annualizedPct": 16.12, "settlements": 24331},
+      {"name": "Binance", "annualizedPct": 13.96, "settlements": 19214},
+      {"name": "Bybit", "annualizedPct": 11.77, "settlements": 10635},
+      {"name": "KuCoin", "annualizedPct": 7.62, "settlements": 8631}
+    ]
+  },
   "related_pairs": [
     "ena-usdt",
     "stx-usdt",

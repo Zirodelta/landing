@@ -10,8 +10,8 @@
     "quote": "USDT"
   },
   "seo": {
-    "title": "DOGE/USDT Funding Rate Arbitrage on Binance | Live Rates",
-    "description": "Monitor DOGE/USDT perpetual futures funding rates on Binance. Track 8-hour funding intervals and arbitrage opportunities with deep liquidity and tight spreads.",
+    "title": "Binance DOGE/USDT Funding Rate \u2014 6,220 Settlements Analyzed | Zirodelta",
+    "description": "DOGE/USDT funding rate on Binance: 13.15% annualized across 6,220 settlements (Jul 2020\u2013Mar 2026). 83.0% positive rate frequency. Real data from 9.4M+ records.",
     "keywords": [
       "DOGE funding rate",
       "Binance perpetual futures",
@@ -24,40 +24,50 @@
     ]
   },
   "content": {
-    "intro": "DOGE/USDT perpetual futures on Binance offer unique funding rate arbitrage opportunities due to the token's high retail sentiment and volatility. Binance's massive DOGE trading volume creates deep liquidity for both spot and perpetual contracts. The 8-hour funding intervals provide multiple daily opportunities to capitalize on rate differentials.",
-    "how_funding_works": "Binance calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a weighted average of the premium/discount between perpetual and mark price. The funding fee is exchanged directly between long and short position holders, with no fees going to Binance. Maximum funding rate is capped at ±2.5% per interval, though DOGE rarely reaches these extremes. Position holders only pay funding if holding positions during settlement times.",
+    "intro": "DOGE/USDT perpetual futures on Binance \u2014 analyzed across 6,220 funding rate settlements spanning Jul 2020 to March 2026 (5.7 years of data). Average funding rate: +0.012% per 8-hour settlement = 13.15% annualized. 83.0% of settlements are positive (shorts collect). All numbers from Zirodelta's 9.4M+ settlement record dataset \u2014 the deepest funding rate analysis available.",
+    "how_funding_works": "Binance calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a weighted average of the premium/discount between perpetual and mark price. The funding fee is exchanged directly between long and short position holders, with no fees going to Binance. Maximum funding rate is capped at \u00b12.5% per interval, though DOGE rarely reaches these extremes. Position holders only pay funding if holding positions during settlement times.",
     "why_this_pair": "DOGE/USDT exhibits frequent funding rate imbalances due to retail-driven sentiment waves and social media influence. The pair's large trading volume on Binance ensures minimal slippage when executing arbitrage strategies. Meme coin volatility creates more pronounced funding premiums compared to established cryptocurrencies, offering higher potential returns.",
     "sections": [
       {
-        "heading": "Historical Funding Rate Patterns",
-        "body": "DOGE/USDT funding rates on Binance typically range from -0.1% to +0.3% per 8-hour period, with occasional spikes during major price movements. Positive rates dominate during bull runs when retail demand drives excessive long positions, while negative rates emerge during corrections. Social media catalysts like Elon Musk tweets historically create funding rate volatility exceeding 0.5%. Weekend periods often show reduced funding volatility due to lower institutional participation. The pair exhibits stronger funding correlations with other meme tokens than with Bitcoin or Ethereum."
+        "heading": "Historical Data (6,220 Settlements)",
+        "body": "Our dataset contains 6,220 DOGE/USDT settlements on Binance over 5.7 years. Average rate: +0.012% per 8h (13.15% annualized). 83.0% of settlements are positive \u2014 meaning a delta-neutral short position collects funding roughly 5 out of every 7 settlement periods. Range spans from the Binance funding rate floor to ceiling, capturing multiple market cycles including bull runs, corrections, and sideways periods."
       },
       {
-        "heading": "Arbitrage Execution Strategies",
-        "body": "Optimal DOGE arbitrage involves monitoring funding rates across multiple 8-hour cycles to identify sustained directional bias. When funding exceeds +0.15%, consider shorting perpetuals while buying spot DOGE to collect premium payments. Binance's 0.02% maker fees and deep orderbook allow for efficient position establishment with minimal market impact. Risk management requires position sizing to account for DOGE's 30-50% daily volatility ranges. Exit strategies should target funding rate normalization below ±0.05% or predetermined profit/loss thresholds."
+        "heading": "Monthly Trends & Seasonality",
+        "body": "DOGE funding spikes dramatically during meme coin rallies. The 83% positive frequency on Binance makes it a reliable funding farm target."
       },
       {
-        "heading": "Risk Management Considerations",
-        "body": "DOGE's meme coin status creates unique risks including extreme price gaps during news events and potential liquidity issues during market stress. Binance's circuit breakers may halt trading during excessive volatility, trapping arbitrage positions. Social sentiment can sustain funding rate imbalances for extended periods, requiring adequate capital buffers. Position correlation risk exists as DOGE often moves with broader crypto markets despite its meme classification. Regulatory developments affecting meme coins pose additional risks to both spot and futures markets."
+        "heading": "Cross-Exchange Comparison: DOGE Across Venues",
+        "body": "Hyperliquid leads DOGE at 19.26% annualized (24,331 settlements, 78.7% positive). KuCoin at 18.21% (5,611 settlements). Binance at 13.15% (6,220 settlements). Bybit at 12.33% (5,401 settlements, 87% positive \u2014 highest positive frequency)."
+      },
+      {
+        "heading": "Delta-Neutral Strategy Application",
+        "body": "Buy DOGE spot + short DOGE perpetual = zero price exposure. Collect funding every 8 hours when positive (83.0% of the time on Binance). Zirodelta's engine automates this with smart venue routing \u2014 if Binance rates compress, it checks alternative exchanges for better rates. Cross-exchange routing (e.g., short perp on Binance, buy spot on another exchange) unlocks opportunities that single-exchange strategies miss."
       }
     ],
     "faq": [
       {
-        "question": "What are typical DOGE/USDT funding rates on Binance?",
-        "answer": "DOGE funding rates typically range from -0.1% to +0.3% per 8-hour period, though social media events can push rates above 0.5%. Positive rates are more common during bull markets when retail investors favor long positions."
+        "question": "What is the average DOGE/USDT funding rate on Binance?",
+        "answer": "Based on 6,220 settlements from Jul 2020 to March 2026, the average is +0.012% per 8h cycle (13.15% annualized). 83.0% of settlements are positive."
       },
       {
-        "question": "How does DOGE volatility affect funding arbitrage profits?",
-        "answer": "DOGE's high volatility can amplify both profits and losses in funding arbitrage. While higher volatility often leads to larger funding premiums, it also increases the risk of adverse price movements overwhelming funding income."
+        "question": "Which exchange has the best DOGE funding rate for arbitrage?",
+        "answer": "Hyperliquid leads DOGE at 19.26% annualized (24,331 settlements, 78.7% positive). KuCoin at 18.21% (5,611 settlements). Binance at 13.15% (6,220 settlements). Bybit at 12.33% (5,401 settlements, 87% positive \u2014 highest positive frequency)."
       },
       {
-        "question": "What position sizes work best for DOGE funding arbitrage?",
-        "answer": "Position sizes should account for DOGE's potential for 30-50% daily moves. Conservative sizing at 2-5x leverage allows for multiple adverse funding cycles while maintaining adequate margin. Larger positions require careful risk management due to volatility."
-      },
-      {
-        "question": "How quickly can I enter/exit DOGE positions on Binance?",
-        "answer": "Binance's deep DOGE liquidity typically allows immediate execution for positions up to $100,000+ with minimal slippage. Market orders execute instantly, while limit orders provide better pricing during normal market conditions."
+        "question": "How reliable is DOGE/USDT funding rate income on Binance?",
+        "answer": "83.0% of 6,220 settlements over 5.7 years were positive. This includes multiple bear markets, making DOGE/USDT on Binance one of the more consistent funding pairs. However, rates can turn negative during severe corrections."
       }
+    ]
+  },
+  "visualData": {
+    "positivePct": 83.0,
+    "totalSettlements": 6220,
+    "crossExchange": [
+      {"name": "Hyperliquid", "annualizedPct": 19.26, "settlements": 24331},
+      {"name": "KuCoin", "annualizedPct": 18.21, "settlements": 5611},
+      {"name": "Binance", "annualizedPct": 13.15, "settlements": 6220},
+      {"name": "Bybit", "annualizedPct": 12.33, "settlements": 5401}
     ]
   },
   "related_pairs": [

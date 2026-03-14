@@ -26,6 +26,25 @@ export interface FundingRatePageContent {
   faq: FundingRateFaq[]
 }
 
+export interface VisualDataMonth {
+  month: string
+  annualizedPct: number
+  positivePct?: number
+}
+
+export interface VisualDataExchange {
+  name: string
+  annualizedPct: number
+  settlements: number
+}
+
+export interface FundingRateVisualData {
+  monthlyTrend?: VisualDataMonth[]
+  positivePct: number
+  totalSettlements: number
+  crossExchange?: VisualDataExchange[]
+}
+
 export interface FundingRatePage {
   exchange: {
     slug: string
@@ -40,6 +59,7 @@ export interface FundingRatePage {
   seo: FundingRatePageSeo
   content: FundingRatePageContent
   related_pairs: string[]
+  visualData?: FundingRateVisualData
 }
 
 // --- Exchange Comparison Page ---
