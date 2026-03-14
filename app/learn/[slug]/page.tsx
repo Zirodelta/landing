@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { getArticle, getArticleSlugs, getAllArticles } from "@/lib/learn"
 import { DecisionPage } from "@/components/zirodelta/decision-page"
 import { ArticleContent } from "@/components/zirodelta/article-content"
+import { getExchanges } from "@/lib/pseo"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -54,7 +55,7 @@ export default async function ArticlePage({ params }: Props) {
 
   // Get related articles (same category, excluding current)
   const allArticles = getAllArticles()
-  const related = allArticles
+  const relatedArticles = allArticles
     .filter((a) => a.slug !== slug)
     .slice(0, 3)
     .map((a) => ({
@@ -62,6 +63,19 @@ export default async function ArticlePage({ params }: Props) {
       href: `/learn/${a.slug}`,
       category: categoryLabels[a.category] || a.category,
     }))
+  
+  // Add relevant exchange rate links if this is a funding rate related article
+  const exchanges = getExchanges()
+  const rateLinks = article.title.toLowerCase().includes('funding') || 
+                   article.title.toLowerCase().includes('arbitrage')
+    ? exchanges.slice(0, 2).map(ex => ({
+        title: `${ex.name} Funding Rates`,
+        href: `/rates/${ex.slug}`,
+        category: 'Explore Rates'
+      }))
+    : []
+  
+  const related = [...relatedArticles, ...rateLinks]
 
   return (
     <DecisionPage

@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Link from "next/link"
 
 interface StatItem {
   value: number
@@ -76,27 +77,36 @@ function AnimatedNumber({
 
 export function Stats() {
   const stats: StatItem[] = [
-    { value: 30, label: "Exchanges Connected", suffix: "+" },
-    { value: 9400000, label: "Funding Rate Settlements", suffix: "+" },
+    { value: 30, label: "Exchanges Connected", suffix: "+", linkTo: "/rates" },
+    { value: 9400000, label: "Funding Rate Settlements", suffix: "+", linkTo: "/research" },
     { value: 874, label: "Symbols Tracked" },
     { value: 19, label: "Stress-Tested CAGR", suffix: "%" },
-  ]
+  ] as Array<StatItem & { linkTo?: string }>
 
   return (
     <section id="stats" className="relative border-y border-border bg-secondary/30">
       <div className="glow-line absolute left-0 right-0 top-0 h-px" aria-hidden="true" />
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 lg:gap-12">
-          {stats.map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center gap-3 text-center">
-              <AnimatedNumber
-                value={stat.value}
-                prefix={stat.prefix}
-                suffix={stat.suffix}
-              />
-              <span className="text-sm text-muted-foreground">{stat.label}</span>
-            </div>
-          ))}
+          {stats.map((stat) => {
+            const StatWrapper = (stat as any).linkTo ? Link : 'div'
+            const wrapperProps = (stat as any).linkTo 
+              ? { href: (stat as any).linkTo, className: "flex flex-col items-center gap-3 text-center group transition-all duration-200 hover:scale-105" }
+              : { className: "flex flex-col items-center gap-3 text-center" }
+            
+            return (
+              <StatWrapper key={stat.label} {...wrapperProps}>
+                <AnimatedNumber
+                  value={stat.value}
+                  prefix={stat.prefix}
+                  suffix={stat.suffix}
+                />
+                <span className={`text-sm ${(stat as any).linkTo ? 'text-muted-foreground group-hover:text-primary transition-colors' : 'text-muted-foreground'}`}>
+                  {stat.label}
+                </span>
+              </StatWrapper>
+            )
+          })}
         </div>
       </div>
       <div className="glow-line absolute bottom-0 left-0 right-0 h-px" aria-hidden="true" />

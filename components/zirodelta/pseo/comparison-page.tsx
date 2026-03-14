@@ -2,6 +2,8 @@ import { PseoBreadcrumb } from "./pseo-breadcrumb"
 import { PseoFaq } from "./pseo-faq"
 import { Badge } from "@/components/ui/badge"
 import type { ExchangeComparisonPage } from "@/content/pseo/schemas/types"
+import Link from "next/link"
+import { getAllPseoArticles } from "@/lib/pseo"
 
 export function ComparisonPageRenderer({
   page,
@@ -10,6 +12,16 @@ export function ComparisonPageRenderer({
 }) {
   const { exchange_a, exchange_b, fee_comparison, rate_mechanics, verdict } =
     page
+    
+  // Get relevant learn articles
+  const allArticles = getAllPseoArticles()
+  const relatedArticles = allArticles
+    .filter(article => 
+      article.title.toLowerCase().includes('funding') || 
+      article.title.toLowerCase().includes('arbitrage') ||
+      article.title.toLowerCase().includes('rate')
+    )
+    .slice(0, 3)
 
   return (
     <article className="mx-auto max-w-5xl px-6 lg:px-8">
@@ -228,6 +240,70 @@ export function ComparisonPageRenderer({
 
       {/* FAQ */}
       <PseoFaq items={page.faq} />
+      
+      {/* Related Section */}
+      <section className="mt-16 pt-8 border-t border-border">
+        <h2
+          className="text-2xl font-extrabold tracking-tight text-foreground mb-6"
+          style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+        >
+          Related
+        </h2>
+        
+        <div className="mb-8">
+          <h3 className="text-lg font-bold text-foreground mb-4">
+            Exchange Rate Pages
+          </h3>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Link
+              href={`/rates/${exchange_a.slug}`}
+              className="group rounded-lg border border-border bg-card/50 p-4 transition-all duration-200 hover:border-muted-foreground/30"
+            >
+              <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                {exchange_a.name} Funding Rates
+              </h4>
+              <p className="text-xs text-muted-foreground mt-1">
+                View all funding rates on {exchange_a.name}
+              </p>
+            </Link>
+            <Link
+              href={`/rates/${exchange_b.slug}`}
+              className="group rounded-lg border border-border bg-card/50 p-4 transition-all duration-200 hover:border-muted-foreground/30"
+            >
+              <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                {exchange_b.name} Funding Rates
+              </h4>
+              <p className="text-xs text-muted-foreground mt-1">
+                View all funding rates on {exchange_b.name}
+              </p>
+            </Link>
+          </div>
+        </div>
+        
+        {relatedArticles.length > 0 && (
+          <div>
+            <h3 className="text-lg font-bold text-foreground mb-4">
+              Learn More
+            </h3>
+            <div className="grid gap-3 sm:grid-cols-3">
+              {relatedArticles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/learn/${article.slug}`}
+                  className="group rounded-lg border border-border bg-card/50 p-4 transition-all duration-200 hover:border-muted-foreground/30"
+                >
+                  <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                    {article.title}
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1">
+                    Learn article
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </section>
     </article>
   )
 }

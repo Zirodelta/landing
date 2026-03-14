@@ -2,6 +2,7 @@
 
 import { ArrowUpRight, ArrowDown } from "lucide-react"
 import { WaveSlices } from "./wave-slices"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -54,6 +55,14 @@ export function Hero() {
               How It Works
               <ArrowDown className="h-4 w-4 transition-transform duration-200 group-hover:translate-y-0.5" />
             </a>
+          </div>
+          <div className="mt-6 flex justify-center">
+            <Link
+              href="/rates"
+              className="text-sm text-muted-foreground transition-colors hover:text-primary"
+            >
+              Explore funding rates across 30+ exchanges →
+            </Link>
           </div>
         </div>
         <div className="mt-20 flex justify-center">

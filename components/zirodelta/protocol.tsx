@@ -1,6 +1,7 @@
 "use client"
 
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export function Protocol() {
   return (
@@ -22,17 +23,30 @@ export function Protocol() {
               the perp. Zero price exposure. Pure yield from the rate differential.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              At Ethena&apos;s scale ($2B+), you&apos;re limited to BTC and ETH.
-              At our scale, we access 874 symbols — including mid-caps with
+              At <Link href="/learn/zirodelta-vs-ethena" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">Ethena</Link>&apos;s scale ($2B+), you&apos;re limited to BTC and ETH.
+              At our scale, we access <Link href="/rates" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">874 symbols</Link> — including mid-caps with
               50-200%+ annualized funding that big funds can&apos;t touch.
             </p>
-            <a
-              href="#how-it-works"
-              className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-foreground"
-            >
-              See the engine pipeline
-              <ArrowRight className="h-4 w-4" />
-            </a>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <a
+                href="#how-it-works"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-foreground"
+              >
+                See the engine pipeline
+                <ArrowRight className="h-4 w-4" />
+              </a>
+              <Link
+                href="/compare"
+                className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                Compare exchanges →
+              </Link>
+            </div>
+            <p className="mt-4 text-sm text-muted-foreground">
+              <Link href="/learn" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">
+                Learn how we differ from Ethena, Pendle, and lending protocols →
+              </Link>
+            </p>
           </div>
 
           {/* Visual — Spot vs Perp Diagram */}

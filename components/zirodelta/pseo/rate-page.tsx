@@ -3,9 +3,26 @@ import type { FundingRatePage } from "@/content/pseo/schemas/types"
 import { PseoBreadcrumb } from "./pseo-breadcrumb"
 import { PseoFaq } from "./pseo-faq"
 import { Badge } from "@/components/ui/badge"
+import { getAllComparisons, getAllPseoArticles } from "@/lib/pseo"
 
 export function RatePageRenderer({ page }: { page: FundingRatePage }) {
   const { exchange, pair, content, related_pairs } = page
+  
+  // Get related comparisons involving this exchange
+  const allComparisons = getAllComparisons()
+  const relatedComparisons = allComparisons
+    .filter(comp => comp.slug.includes(exchange.slug))
+    .slice(0, 4)
+  
+  // Get relevant learn articles
+  const allArticles = getAllPseoArticles()
+  const relatedArticles = allArticles
+    .filter(article => 
+      article.title.toLowerCase().includes('funding') || 
+      article.title.toLowerCase().includes('arbitrage') ||
+      article.title.toLowerCase().includes('rate')
+    )
+    .slice(0, 3)
 
   return (
     <article className="mx-auto max-w-5xl px-6 lg:px-8">
@@ -91,6 +108,64 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
 
           {/* FAQ */}
           <PseoFaq items={content.faq} />
+          
+          {/* Related Section */}
+          <section className="mt-16 pt-8 border-t border-border">
+            <h2
+              className="text-2xl font-extrabold tracking-tight text-foreground mb-6"
+              style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+            >
+              Related
+            </h2>
+            
+            {relatedComparisons.length > 0 && (
+              <div className="mb-8">
+                <h3 className="text-lg font-bold text-foreground mb-4">
+                  Exchange Comparisons
+                </h3>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {relatedComparisons.map((comp) => (
+                    <Link
+                      key={comp.slug}
+                      href={`/compare/${comp.slug}`}
+                      className="group rounded-lg border border-border bg-card/50 p-4 transition-all duration-200 hover:border-muted-foreground/30"
+                    >
+                      <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                        {comp.exchange_a.name} vs {comp.exchange_b.name}
+                      </h4>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Compare fees and mechanics
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {relatedArticles.length > 0 && (
+              <div>
+                <h3 className="text-lg font-bold text-foreground mb-4">
+                  Learn More
+                </h3>
+                <div className="grid gap-3 sm:grid-cols-3">
+                  {relatedArticles.map((article) => (
+                    <Link
+                      key={article.slug}
+                      href={`/learn/${article.slug}`}
+                      className="group rounded-lg border border-border bg-card/50 p-4 transition-all duration-200 hover:border-muted-foreground/30"
+                    >
+                      <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                        {article.title}
+                      </h4>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Learn article
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
         </div>
 
         {/* Sidebar - related pairs */}
