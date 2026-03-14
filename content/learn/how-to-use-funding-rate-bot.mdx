@@ -1,0 +1,433 @@
+---
+title: "How to Use a Funding Rate Bot — Step-by-Step Guide (2026)"
+slug: "how-to-use-funding-rate-bot"
+description: "Complete guide to using Zidee funding rate bot on Telegram. Connect exchanges, scan rates, execute delta-neutral trades, collect funding, close positions. Start earning in 10 minutes."
+category: tutorial
+bestFor:
+  - "First-time funding rate arbitrage users needing a complete walkthrough"
+  - "Traders familiar with the strategy but new to automated execution"
+  - "Anyone wanting to start with minimal capital and risk"
+  - "Users preferring step-by-step instructions over technical documentation"
+notFor:
+  - "Experienced arbitrageurs who need advanced position management"
+  - "Traders wanting to build custom strategies or modify bot behavior"
+  - "Users uncomfortable sharing exchange API access with third-party tools"
+publishedDate: "2026-03-14"
+---
+
+## The Short Answer
+
+Using a funding rate bot is straightforward: connect your exchange accounts, wait for extreme rate alerts, execute the hedge with one tap, collect funding at settlement, then close the position. The entire cycle takes 1-8 hours depending on the exchange's funding schedule.
+
+**Zidee (@zidee_bot)** makes this accessible through Telegram. No downloads, no complex setup, no subscription fees. This guide walks through every step from first launch to your first profitable settlement.
+
+**Time investment:** 10 minutes setup, 30 seconds per trade, passive monitoring
+**Minimum capital:** $25 (exchange position limits)
+**Risk level:** Low to moderate (delta-neutral strategy with exchange counterparty risk)
+
+## Prerequisites
+
+Before starting, ensure you have:
+- **Telegram account** (obviously)
+- **Exchange accounts** on at least one of: Bybit, Binance, Gate, KuCoin, BingX
+- **Funded accounts** with at least $25 in USDT or equivalent
+- **API access enabled** on your chosen exchange(s)
+- **Basic understanding** of spot vs perpetual futures (recommended)
+
+### Exchange Account Setup
+
+Each exchange has slightly different API setup procedures:
+
+**Binance:**
+1. Account → API Management → Create API
+2. Enable "Enable Spot & Margin Trading"
+3. Restrict IP (optional but recommended)
+4. Never enable "Enable Withdrawals"
+
+**Bybit:**
+1. Account & Security → API → Create API Key
+2. Select "Trade" permissions
+3. Disable "Withdrawal" and "Transfer"
+4. Save API key and secret
+
+**Gate.io, KuCoin, BingX:** Similar process — enable trading, disable withdrawals.
+
+⚠️ **Security reminder:** Only grant trading permissions. Never enable withdrawal permissions for any trading bot.
+
+## Step 1: Start Zidee Bot
+
+Open Telegram and search for **@zidee_bot** or click [this link](https://t.me/zidee_bot).
+
+Send `/start` to activate the bot.
+
+**First message response:**
+```
+Welcome to Zidee — Free Funding Rate Bot
+
+🎯 Snipe 0.3%+ funding rates across 5 exchanges
+⚡ One-tap delta-neutral execution
+📊 100% win rate at threshold (9.4M settlements)
+
+Commands:
+/connect - Link exchange account
+/scan - Monitor funding rates
+/positions - View open trades
+/stats - Performance summary
+/help - Full command list
+
+Ready to start? Type /connect
+```
+
+## Step 2: Connect Your Exchange
+
+Type `/connect` to begin exchange integration.
+
+**Bot response:**
+```
+Select your exchange:
+
+🟡 Binance
+🟠 Bybit  
+🔵 Gate.io
+🟢 KuCoin
+🔴 BingX
+
+Choose one to start. You can add more later.
+```
+
+Tap your preferred exchange (e.g., **Binance**).
+
+**Next screen:**
+```
+Binance Connection Setup
+
+I need your API credentials to execute trades:
+1. Go to binance.com → Account → API Management
+2. Create new API key
+3. Enable: Spot & Margin Trading
+4. Disable: Withdrawals, Futures (we'll add futures permission separately)
+5. Send me: API_KEY:SECRET_KEY
+
+Format: ABC123:XYZ789
+```
+
+### API Key Security
+
+**What Zidee can do with your API:**
+- Place spot and futures trades
+- Check balances and positions
+- Cancel orders
+
+**What Zidee cannot do:**
+- Withdraw funds
+- Transfer to other accounts
+- Change account settings
+- Access personal information
+
+Enter your API credentials in the format: `API_KEY:SECRET_KEY`
+
+**Bot confirmation:**
+```
+✅ Binance connected successfully
+📊 Balance: 2,450 USDT
+📈 Spot available: 2,450 USDT
+📉 Futures available: 2,450 USDT
+
+Ready to scan for opportunities? Type /scan
+```
+
+## Step 3: Scan for Opportunities
+
+Type `/scan` to start monitoring funding rates.
+
+**Bot response:**
+```
+🔍 Scanning funding rates across 5 exchanges...
+
+Current extreme rates (≥0.3%):
+
+🔥 FLOW/USDT - Bybit: 0.47% (41.2% APY)
+   Settlement in: 2h 23m
+
+⚡ SAND/USDT - Gate: 0.35% (30.7% APY)  
+   Settlement in: 4h 12m
+
+🎯 No other pairs above threshold
+
+Auto-scan: ON (alerts every 15min)
+/stop to disable alerts
+```
+
+**Understanding the alert:**
+- **Asset pair:** FLOW/USDT (same pair on multiple exchanges)
+- **Exchange:** Bybit (where the extreme rate exists)
+- **Funding rate:** 0.47% per settlement
+- **APY equivalent:** 41.2% if rate stayed constant
+- **Settlement timing:** When funding gets paid
+
+### Alert Settings
+
+**Auto-scan enabled by default.** The bot checks rates every 15 minutes and sends alerts when any pair hits ≥0.3% on any exchange.
+
+**Customize alerts:**
+- `/threshold 0.5` - Only alert on rates ≥0.5%
+- `/threshold 0.2` - Alert on rates ≥0.2% (more frequent)
+- `/stop` - Disable auto-scanning
+- `/scan` - Manual one-time scan
+
+## Step 4: Execute the Hedge
+
+When Zidee alerts you to an extreme rate, you have a trading opportunity. Let's say FLOW/USDT shows 0.47% funding on Bybit.
+
+**Alert message:**
+```
+🚨 EXTREME RATE DETECTED
+
+💰 FLOW/USDT: 0.47% funding
+📍 Exchange: Bybit  
+⏰ Settlement: 2h 23m
+📈 APY equivalent: 41.2%
+
+Expected profit: $47 per $10K position
+
+[SNIPE NOW] [SKIP]
+```
+
+### Option 1: Tap "SNIPE NOW"
+
+The bot executes the delta-neutral hedge automatically:
+
+```
+⚡ Executing FLOW/USDT hedge...
+
+Step 1: Buying FLOW spot... ✅
+- Filled: 1,000 FLOW @ $2.50
+- Total: $2,500
+
+Step 2: Shorting FLOW perp... ✅
+- Shorted: 1,000 FLOW @ $2.51  
+- Margin used: $250 (10x leverage)
+
+✅ HEDGE COMPLETE
+🎯 Net exposure: $0 (delta-neutral)
+💰 Expected funding: $11.75 in 2h 23m
+📊 Position ID: #FL001
+```
+
+### Option 2: Tap "SKIP"
+
+Pass on this opportunity. The bot continues monitoring for other extreme rates.
+
+### Position Sizing
+
+**Default sizing:** Bot suggests position size based on account balance and risk settings.
+**Custom sizing:** Type dollar amount before hitting "Snipe" (e.g., type "500" then tap "Snipe" for $500 position)
+
+**Risk management:**
+- Maximum 20% of account per position
+- Minimum $25 per position (exchange limits)
+- Auto-stop if margin ratio falls below 150%
+
+## Step 5: Collect Funding
+
+**Nothing to do here.** Funding automatically credits to your exchange account at settlement time.
+
+**Settlement notification:**
+```
+💰 FUNDING SETTLEMENT - Position #FL001
+
+Funding received: $11.75
+Time held: 2h 23m
+ROI: 0.47%
+
+Position still open. Continue holding or close?
+
+[CLOSE POSITION] [HOLD LONGER]
+```
+
+### Understanding the Numbers
+
+- **Funding received:** $11.75 (0.47% of $2,500 position)
+- **Time held:** Duration from entry to settlement
+- **ROI:** Return on invested capital for this settlement period
+
+### Continue or Close?
+
+**Hold longer:** Keep the hedge open for next funding settlement (8 hours later)
+**Close now:** Exit both legs and realize profit
+
+Most traders close after first settlement to avoid funding rate reversal risk.
+
+## Step 6: Close Position
+
+Tap **"CLOSE POSITION"** to exit the hedge.
+
+```
+🔄 Closing FLOW/USDT hedge...
+
+Step 1: Selling FLOW spot... ✅
+- Sold: 1,000 FLOW @ $2.49
+- Proceeds: $2,490
+
+Step 2: Covering FLOW perp... ✅  
+- Covered: 1,000 FLOW @ $2.50
+- P&L: -$10 (slight loss on timing)
+
+✅ POSITION CLOSED
+💰 Net profit: $1.75
+📊 Trade complete in 2h 24m
+```
+
+### Profit Breakdown
+
+**Total profit:** $1.75
+- **Funding received:** +$11.75
+- **Spot trade:** -$10 (bought at $2.50, sold at $2.49)
+- **Perp trade:** -$0 (net neutral on futures)
+
+**Net result:** $1.75 profit on $2,500 deployed capital = 0.07% return in 2.4 hours.
+
+⚠️ **Reality check:** Small profits are normal. The strategy's advantage is consistency and safety, not huge individual returns.
+
+## Tips for Better Performance
+
+### 1. Start Small
+**First few trades:** Use minimum position sizes ($25-100) to understand the process
+**Risk management:** Never deploy more than 20% of account balance in a single position
+**Learning curve:** Master the mechanics before scaling up capital
+
+### 2. Cross-Exchange Arbitrage
+**Multiple exchanges:** Connect Binance, Bybit, and Gate for better coverage
+**Rate shopping:** Same asset, different funding rates across venues
+**Example:** ETH/USDT funding might be 0.1% on Binance but 0.4% on Bybit simultaneously
+
+### 3. Monitor Settlement Times
+**Exchange schedules:**
+- **Binance/Bybit:** Every 8 hours (00:00, 08:00, 16:00 UTC)
+- **Gate/KuCoin:** Every 8 hours (different offsets)
+- **BingX:** Every 4 hours
+
+**Strategy:** Time entries to capture multiple settlements without rate exposure
+
+### 4. Use /stats Regularly
+Track your performance with `/stats`:
+
+```
+📊 Your Performance Summary
+
+Total trades: 23
+Win rate: 91.3% (21 wins, 2 losses)
+Total profit: $127.34 USDT
+Average trade: $5.53 profit
+Best trade: $18.67 (MATIC/USDT, 0.52% funding)
+Time active: 16 days
+
+ROI: 2.13% on deployed capital
+Annualized: 48.7% (if maintained)
+```
+
+### 5. Risk Management Rules
+
+**Stop losses:** Bot automatically exits positions if margin ratio drops below safety threshold
+**Maximum exposure:** Never exceed 50% of total account across all positions
+**Exchange diversification:** Spread risk across multiple venues
+**Rate verification:** Double-check extreme rates (>1%) before execution — may indicate exchange errors
+
+## Common Issues and Solutions
+
+### "Insufficient Balance" Error
+**Cause:** Not enough USDT in spot or futures wallet
+**Solution:** Transfer funds between wallets or deposit more capital
+**Prevention:** Keep balance split 50/50 between spot and futures wallets
+
+### "API Permissions" Error
+**Cause:** API key lacks required trading permissions
+**Solution:** Recreate API key with spot and futures trading enabled
+**Check:** Verify IP whitelist if you enabled IP restrictions
+
+### "Rate Changed" Warning
+**Cause:** Funding rate moved significantly between alert and execution
+**Bot behavior:** Warns you and asks for confirmation before proceeding
+**Decision:** Proceed if still profitable, skip if rate compressed too much
+
+### "Partial Fill" Notification
+**Cause:** Large position split across multiple orders due to liquidity
+**Bot behavior:** Continues attempting to fill remaining size
+**Action:** Monitor progress, consider reducing position size for future trades
+
+### "Settlement Missed" Alert
+**Cause:** Position opened too close to settlement time
+**Risk:** Holding through next funding period with unknown rate
+**Strategy:** Only open positions with >30 minutes until settlement
+
+## Frequently Asked Questions
+
+### How much money do I need to start?
+**Minimum:** $25 (exchange position limits)
+**Recommended:** $100-500 for meaningful profits
+**Optimal:** $1,000+ for flexibility across multiple opportunities
+
+### Is this really risk-free?
+**No.** "Delta-neutral" means no directional price risk, but other risks exist:
+- Exchange counterparty risk (exchange insolvency)
+- Execution risk (timing delays between spot and perp orders)  
+- Funding rate reversal (rates can flip negative)
+- Technical risk (bot downtime, API issues)
+
+### How often do extreme rates appear?
+**Depends on volatility.** During calm markets: 0-2 opportunities per week. During volatile periods: multiple opportunities daily.
+**Historical average:** 3-5 profitable opportunities per week across all monitored exchanges.
+
+### Can I use multiple exchanges simultaneously?
+**Yes.** Connect all supported exchanges for maximum coverage. More exchanges = more opportunities to capture cross-exchange rate spreads.
+
+### What happens if funding rate goes negative?
+**Auto-exit:** Bot monitors rate changes and warns if funding flips negative before settlement
+**User choice:** Continue holding (now paying funding instead of receiving) or close position
+**Risk management:** Built-in stops prevent holding through severely negative funding
+
+### Do I pay taxes on funding rate profits?
+**Consult tax professional.** Generally treated as trading income in most jurisdictions. Keep records of all settlements for tax reporting.
+
+## Advanced Features
+
+### Custom Position Sizing
+Instead of default sizing, specify exact amounts:
+1. Type position size: "1000" 
+2. Tap "Snipe" 
+3. Bot executes $1,000 position
+
+### Multi-Exchange Hedges
+Advanced strategy: hedge same asset across different exchanges to capture rate spreads:
+- Long ETH spot on Binance (low funding)
+- Short ETH perp on Bybit (high funding)
+- Collect spread between venues
+
+### Performance Analytics
+Access detailed metrics through `/analytics`:
+- Win rate by exchange
+- Average profit per trade
+- Best performing asset pairs
+- Settlement timing analysis
+
+## The Bottom Line
+
+Using a funding rate bot is mechanically simple but requires understanding the underlying risks and market dynamics. Start small, learn the process, scale gradually.
+
+**Success factors:**
+1. **Consistent monitoring:** Enable auto-scan alerts
+2. **Quick execution:** Trade extreme rates before they compress  
+3. **Risk management:** Never overleverage or concentrate too much capital
+4. **Exchange diversification:** Use multiple venues for better coverage
+5. **Performance tracking:** Monitor your stats to improve over time
+
+**Realistic expectations:** Individual trades yield 0.1-0.5% profit over 1-8 hours. The strategy's strength is consistency and safety, not explosive returns. Properly executed, funding rate arbitrage provides steady market-neutral yield.
+
+**Getting started:** [@zidee_bot](https://t.me/zidee_bot) → `/start` → `/connect` → `/scan`. First profitable trade typically within 24-48 hours.
+
+## Sources
+
+1. [Binance API Documentation](https://binance-docs.github.io/apidocs/) — API setup and trading permissions  
+2. [Bybit API Guide](https://bybit-exchange.github.io/docs/v5/intro) — Account configuration and trading access
+3. [Telegram Bot Development Guide](https://core.telegram.org/bots) — Understanding bot interactions and security
+4. [Zirodelta Transparency Dashboard](https://zirodelta.xyz/stats) — Live funding rate data and historical performance metrics
