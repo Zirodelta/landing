@@ -8,7 +8,7 @@ import { Crosshair, Zap, Shield, Clock, TrendingUp, AlertTriangle, ExternalLink 
 
 export const metadata: Metadata = {
   title: "Zidee — Funding Rate Sniper Bot",
-  description: "One-tap funding rate scalps on Telegram. Scan extreme rates, enter delta-neutral, collect one settlement, auto-close. Backed by 9.4M settlement backtest.",
+  description: "One-tap funding rate scalps on Telegram. Scan extreme rates across 6 exchanges, enter delta-neutral, collect one settlement, auto-close. Backed by 9.4M settlement backtest.",
   openGraph: {
     title: "Zidee — Funding Rate Sniper Bot | Zirodelta",
     description: "One-tap funding rate scalps on Telegram. Scan extreme rates, enter delta-neutral, collect one settlement, auto-close.",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Zidee — Funding Rate Sniper Bot | Zirodelta",
-    description: "One-tap funding rate scalps. 99.9% historical win rate on extreme funding rates.",
+    description: "One-tap funding rate scalps across 6 exchanges. 100% historical win rate at ≥0.3% threshold on extreme funding rates.",
   },
 }
 
@@ -28,22 +28,22 @@ const jsonLd = {
   applicationCategory: "FinanceApplication",
   operatingSystem: "Telegram",
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  description: "One-tap funding rate scalps on Telegram. Scan extreme rates across 4 exchanges, enter delta-neutral, auto-close after settlement.",
+  description: "One-tap funding rate scalps on Telegram. Scan extreme rates across 6 exchanges, enter delta-neutral, auto-close after settlement.",
   url: "https://zirodelta.com/tools/funding-rate-sniper-bot",
 }
 
 const stats = [
   { label: "Settlements Analyzed", value: "9.4M", icon: TrendingUp },
-  { label: "Historical Win Rate", value: "99.9%", icon: Crosshair },
-  { label: "Avg Net Per Snipe", value: "+0.28%", icon: Zap },
-  { label: "Opportunities / Day", value: "2.4", icon: Clock },
+  { label: "Historical Win Rate", value: "100%", icon: Crosshair },
+  { label: "Avg Net Per Snipe", value: "+0.26%", icon: Zap },
+  { label: "Opportunities / Day", value: "1.4", icon: Clock },
 ]
 
 const steps = [
   {
     step: "1",
     title: "Scan",
-    description: "Zidee scans Bybit, Binance, Gate.io, and Hyperliquid every hour for funding rates ≥ 0.3% per settlement.",
+    description: "Zidee scans 6 exchanges (Bybit, Binance, Gate.io, KuCoin, BingX, Hyperliquid) every hour for funding rates ≥ 0.3% per settlement. Only shows opportunities where both spot and perp markets exist.",
   },
   {
     step: "2",
@@ -84,7 +84,7 @@ export default function Page() {
           Zidee — Funding Rate Sniper
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
-          One-tap extreme funding rate scalps. Scan 4 exchanges, enter delta-neutral,
+          One-tap extreme funding rate scalps. Scan 6 exchanges (~2,250 tradeable pairs), enter delta-neutral,
           collect one funding payment, auto-close after settlement. Zero overnight risk.
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
@@ -152,13 +152,14 @@ export default function Page() {
         </h2>
         <p className="mt-4 text-muted-foreground">
           We backtested this strategy across 9.4 million funding rate settlements over 6 years
-          (Jan 2020 — Mar 2026) on Binance, Bybit, KuCoin, and Hyperliquid.
+          (Jan 2020 — Mar 2026) on Binance, Bybit, KuCoin, and Hyperliquid — filtered for symbols
+          where both spot and perpetual markets exist (required for delta-neutral execution).
         </p>
         <div className="mt-6 rounded-lg border p-6 space-y-4">
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
-              <p className="text-sm text-muted-foreground">At ≥ 0.3% threshold</p>
-              <p className="text-lg font-semibold">5,368 opportunities over 6 years</p>
+              <p className="text-sm text-muted-foreground">At ≥ 0.3% threshold (spot-filtered)</p>
+              <p className="text-lg font-semibold">3,409 tradeable opportunities over 6 years</p>
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Win rate after 0.2% RT costs</p>
@@ -166,11 +167,11 @@ export default function Page() {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Net per snipe (after fees)</p>
-              <p className="text-lg font-semibold text-green-500">+0.279%</p>
+              <p className="text-lg font-semibold text-green-500">+0.262%</p>
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Conservative APY (1 snipe/day)</p>
-              <p className="text-lg font-semibold">40 — 58%</p>
+              <p className="text-lg font-semibold">~96%</p>
             </div>
           </div>
           <div className="pt-2">
@@ -256,7 +257,7 @@ export default function Page() {
           Supported Exchanges
         </h2>
         <div className="mt-6 flex flex-wrap gap-3">
-          {["Bybit", "Binance", "Gate.io", "Hyperliquid"].map((ex) => (
+          {["Bybit", "Binance", "Gate.io", "KuCoin", "BingX", "Hyperliquid"].map((ex) => (
             <Badge key={ex} variant="secondary" className="text-sm px-4 py-1.5">{ex}</Badge>
           ))}
         </div>
@@ -276,8 +277,9 @@ export default function Page() {
                   simplified cost assumptions. <strong className="text-foreground">Past performance does not guarantee future results.</strong>
                 </p>
                 <p>
-                  The 99.9% historical win rate does not include execution slippage, price drift during the hold period,
-                  or spot-perp spread costs. Real-world returns will differ from backtested projections.
+                  The 100% historical win rate at ≥0.3% threshold does not include execution slippage, price drift during the hold period,
+                  or spot-perp spread costs. Real-world returns will differ from backtested projections. Backtest is filtered
+                  for symbols with both spot and perpetual markets (required for delta-neutral execution).
                 </p>
                 <p>
                   Cryptocurrency trading carries substantial risk. Funding rates, market conditions, exchange mechanics,

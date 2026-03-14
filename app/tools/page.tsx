@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const tools = [
   {
     title: "Zidee — Funding Rate Sniper Bot",
-    description: "One-tap extreme funding rate scalps on Telegram. Scan 4 exchanges, enter delta-neutral, auto-close after settlement. Backed by 9.4M settlement backtest.",
+    description: "One-tap extreme funding rate scalps on Telegram. Scan 6 exchanges (~2,250 pairs), enter delta-neutral, auto-close after settlement. Backed by 9.4M settlement backtest.",
     href: "/tools/funding-rate-sniper-bot",
     icon: Crosshair,
     badge: "NEW",

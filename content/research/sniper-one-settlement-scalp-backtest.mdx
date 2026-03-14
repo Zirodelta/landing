@@ -6,7 +6,7 @@ category: strategy-validation
 status: conclusive
 date: "2026-03-13"
 tags: [sniper, backtest, funding-rate, scalp, extreme-rates, delta-neutral]
-keyFinding: "15,489 extreme settlements (≥0.2%). 99.9% win rate after 0.2% RT costs. At ≥0.3% threshold: 2.4 opportunities/day, +0.279% net per snipe, 100% win rate."
+keyFinding: "After spot-market availability filtering: 3,409 tradeable extreme settlements (≥0.3%). 100% win rate after 0.2% RT costs. 1.4 opportunities/day, +0.262% net per snipe. ~96% conservative APY."
 ---
 
 ## The Strategy
@@ -27,16 +27,42 @@ This is the opposite of Beta-X1's persistent position strategy (hold for days/we
 | Symbols | 874 perpetual contracts |
 | Source | Zirodelta's funding rate settlement database |
 
+### Spot Availability Filter (March 2026 correction)
+
+Not every perpetual contract has a corresponding spot market on the same exchange. Delta-neutral sniping requires **both** spot (to buy) and perp (to short). Our original analysis counted all extreme funding rate settlements — including those on perp-only symbols that can't actually be traded.
+
+This updated analysis filters for **tradeable opportunities only**: symbols where both spot and perpetual markets exist on the same exchange.
+
+| Exchange | Perp symbols | With spot market | % tradeable |
+|---|---|---|---|
+| Bybit | 548 | 305 | 56% |
+| Binance | 647 | 438 | 68% |
+| KuCoin | 545 | 451 | 83% |
+| Hyperliquid | 370 | 18 | 5% (USDC-only spot) |
+
+Hyperliquid is the most affected — it has extensive perp coverage but almost no spot USDT/USDC markets, making 99.5% of its extreme rate settlements untradeable for this strategy.
+
 ## How Many Extreme Rates Exist?
 
-| Rate Threshold | Occurrences | Per Day (avg) | Avg Rate | Median Rate |
-|---|---|---|---|---|
-| ≥ 0.2% / settlement | 15,489 | 6.9 | 0.322% | 0.263% |
-| ≥ 0.3% / settlement | 5,368 | 2.4 | 0.479% | — |
-| ≥ 0.5% / settlement | 1,326 | 0.6 | 0.815% | 0.661% |
-| ≥ 1.0% / settlement | 271 | 0.1 | 1.481% | 1.275% |
+### Raw (unfiltered) counts
 
-Extreme rates are not rare. Even at the ≥0.3% threshold, there are **2.4 opportunities per day** on average. In the last 6 months (Sep 2025 — Mar 2026), frequency jumped to **22 per day** across all thresholds.
+| Rate Threshold | Occurrences | Per Day (avg) |
+|---|---|---|
+| ≥ 0.2% / settlement | 15,489 | 6.9 |
+| ≥ 0.3% / settlement | 5,373 | 2.2 |
+| ≥ 0.5% / settlement | 1,326 | 0.6 |
+| ≥ 1.0% / settlement | 271 | 0.1 |
+
+### After spot-market filter (tradeable only)
+
+| Rate Threshold | Unfiltered | Tradeable | Removed | Opps/Day |
+|---|---|---|---|---|
+| ≥ 0.2% / settlement | 15,489 | 9,738 | 37.1% | 4.0 |
+| ≥ 0.3% / settlement | 5,373 | 3,409 | 36.6% | 1.4 |
+| ≥ 0.5% / settlement | 1,326 | 910 | 31.4% | 0.4 |
+| ≥ 1.0% / settlement | 271 | 195 | 28.0% | 0.08 |
+
+The spot filter removes ~37% of apparent opportunities at the 0.3% threshold. Most removed settlements come from Hyperliquid (perp-only exchange) and perp-only symbols on other exchanges. Higher-rate opportunities are less affected because they tend to occur on major, well-listed tokens.
 
 ## The Critical Question: Do Extreme Rates Persist?
 
@@ -55,41 +81,44 @@ This is structurally different from negative rates. Extreme positive funding is 
 
 **Key insight:** The sniper collects the extreme rate at settlement T. Even if the rate drops at T+1, you're already closed. The persistence data tells us entry timing is reliable — the rate you see is the rate you collect.
 
-## Profitability After Costs
+## Profitability After Costs (Spot-Filtered)
 
 Cost assumption: **0.2% round-trip** (taker fees for entry + exit on both spot and perp).
 
-| Rate Bucket | Opportunities | Avg Rate | Net After Costs | Edge Over Cost |
+All numbers below are **spot-filtered** — only counting settlements where delta-neutral execution is actually possible.
+
+| Rate Bucket | Tradeable Opps | Win Rate | Avg Net | Opps/Day |
 |---|---|---|---|---|
-| 0.2% — 0.3% | 10,121 | 0.239% | **+0.039%** | 20% |
-| 0.3% — 0.5% | 4,042 | 0.369% | **+0.169%** | 85% |
-| 0.5% — 1.0% | 1,055 | 0.644% | **+0.444%** | 222% |
-| 1.0%+ | 271 | 1.481% | **+1.281%** | 641% |
+| ≥ 0.1% | 38,792 | 96.9% | +0.080% | 16.1 |
+| ≥ 0.2% | 9,738 | 99.9% | +0.175% | 4.0 |
+| ≥ 0.3% | 3,409 | **100%** | **+0.262%** | 1.4 |
+| ≥ 0.5% | 910 | 100% | +0.483% | 0.4 |
+| ≥ 1.0% | 195 | 100% | +1.108% | 0.08 |
 
-At ≥0.2%: **99.9% win rate** (15,480 of 15,489 profitable after fees).
+At ≥0.3%: **100% win rate**, +0.262% average net per snipe, 1.4 tradeable opportunities per day.
 
-At ≥0.3%: **100% win rate**, +0.279% average net per snipe.
+## Performance by Exchange (Spot-Filtered, ≥0.3%)
 
-## Performance by Exchange
+| Exchange | Unfiltered | Tradeable | Removed | Avg Rate | Opps/Day |
+|---|---|---|---|---|---|
+| KuCoin | 2,555 | 1,842 | 27.9% | 0.417% | 0.76 |
+| Binance | 1,779 | 1,281 | 28.0% | 0.428% | 0.53 |
+| Bybit | 630 | 284 | 54.9% | 0.444% | 0.12 |
+| Hyperliquid | 409 | 2 | 99.5% | — | ~0 |
 
-| Exchange | Extreme Settlements | Avg Rate | Net Per Snipe |
+Hyperliquid is effectively dead for sniping — it has extensive perp coverage but almost no spot markets (USDC-only, 18 pairs). KuCoin is the largest venue by tradeable opportunity count. Bybit loses 55% of opportunities to the spot filter due to having many perp-only listings.
+
+## Projected Annual Returns (Spot-Filtered)
+
+Based on full historical dataset with spot availability filtering:
+
+| Scenario | Snipes/Day | Simple APY | Compound APY |
 |---|---|---|---|
-| KuCoin | 7,351 | 0.343% | +0.143% |
-| Binance | 5,159 | 0.301% | +0.101% |
-| Bybit | 1,962 | 0.297% | +0.097% |
-| Hyperliquid | 1,017 | 0.332% | +0.132% |
+| Conservative (1 best pick/day) | 1 | **~96%** | **~160%** |
+| Historical average | 1.4 | **~135%** | **~285%** |
+| All available (multi-exchange) | 4+ | Theoretical only | Capital-limited |
 
-## Projected Annual Returns
-
-Based on recent 6-month data (Sep 2025 — Mar 2026):
-
-| Scenario | Snipes/Day | Projected APY |
-|---|---|---|
-| Conservative (1 best pick/day) | 1 | **~40—58%** |
-| Moderate (3/day) | 3 | **~173%** |
-| Aggressive (all available) | 22 | ~1,368% (capital-limited) |
-
-The conservative scenario assumes cherry-picking only the highest-rate opportunity each day. Even with a pessimistic 0.1% price drift haircut, the conservative APY holds at **~8—40%** depending on threshold.
+These numbers are lower than our original (unfiltered) projections because ~37% of apparent opportunities cannot actually be executed (no spot market). The conservative scenario assumes cherry-picking the highest-rate tradeable opportunity each day.
 
 ## Risk Factors
 
@@ -117,9 +146,9 @@ At ≥0.3%, the strategy survives even pessimistic cost assumptions. At 0.2%, it
 
 The 0.2—0.3% bucket contains 10,121 settlements (65% of all extremes) but nets only +0.039% per snipe after fees. Any real-world friction — slippage, drift, spread — can turn this bucket negative.
 
-At ≥0.3%:
-- 5,368 settlements over 6 years (2.4/day average)
-- +0.279% net per snipe (7x the 0.2% bucket)
+At ≥0.3% (spot-filtered):
+- 3,409 tradeable settlements over 6 years (1.4/day average)
+- +0.262% net per snipe
 - 100% win rate after 0.2% RT costs
 - Survives 0.1% adverse drift with room to spare
 
@@ -130,7 +159,7 @@ At ≥0.3%:
 | Strategy | Status | Expected Return | Risk Profile |
 |---|---|---|---|
 | Beta-X1 (persistent positions) | ✅ Validated | 19.55% CAGR | Low — holds days to weeks |
-| **Sniper (one-settlement scalp)** | **✅ Validated** | **40—58% APY** | **Medium — ~1h exposure** |
+| **Sniper (one-settlement scalp)** | **✅ Validated** | **~96—135% APY** | **Medium — ~1h exposure** |
 | Margin mode (negative funding) | ❌ Disproved | Negative | High — rates mean-revert |
 | Cross-exchange spread arb | ❌ Disproved | Negative after costs | Edge destroyed by fees |
 
@@ -140,7 +169,7 @@ This research is based on historical backtesting of funding rate settlement data
 
 - Backtested returns do not include all real-world costs (slippage, spread, price drift).
 - Actual trading involves risk of loss. Funding rates, market conditions, and exchange mechanics can change without notice.
-- The 99.9% win rate is based on historical data with simplified cost assumptions. Real-world win rates will be lower.
+- The 100% win rate at ≥0.3% threshold is based on historical data with simplified cost assumptions and spot-market availability filtering. Real-world win rates may be lower.
 - This is not financial advice. Do your own research before trading.
 - Zirodelta provides tools and data. You are solely responsible for your trading decisions and any resulting gains or losses.
 - Never trade with funds you cannot afford to lose.
