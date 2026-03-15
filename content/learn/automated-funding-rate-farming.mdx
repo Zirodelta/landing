@@ -17,7 +17,7 @@ publishedDate: "2026-03-07"
 
 ## The Short Answer
 
-Funding rate farming works. The alpha is real — cross-exchange rate spreads routinely hit 20-100%+ annualized on individual pairs. But doing it manually means watching dozens of exchanges, calculating spreads, executing both legs of a hedge within seconds, managing margin across venues, and rotating when rates shift. Funding rates settle every 8 hours. Markets don't sleep. You do.
+Funding rate farming works. The alpha is real - cross-exchange rate spreads routinely hit 20-100%+ annualized on individual pairs. But doing it manually means watching dozens of exchanges, calculating spreads, executing both legs of a hedge within seconds, managing margin across venues, and rotating when rates shift. Funding rates settle every 8 hours. Markets don't sleep. You do.
 
 Zirodelta's Beta-X1 engine automates the entire cycle: scan → identify → execute → monitor → rotate → distribute. Every 15 minutes across 19+ exchanges. 24/7. No human in the loop.
 
@@ -38,7 +38,7 @@ That's 19 exchanges × hundreds of pairs × 3 settlements per day = tens of thou
 
 ### The Timing Problem
 
-The best spreads appear and disappear in minutes. A pair showing 80% annualized delta at settlement might compress to 5% within an hour. If you're asleep, at dinner, or just not looking at the right pair — you miss it.
+The best spreads appear and disappear in minutes. A pair showing 80% annualized delta at settlement might compress to 5% within an hour. If you're asleep, at dinner, or just not looking at the right pair - you miss it.
 
 Funding rate farming is a game of coverage: how many pairs can you monitor, how fast can you execute, and how consistently can you capture settlements. Humans cap out at watching 2-3 exchanges and a handful of pairs.
 
@@ -49,9 +49,9 @@ Opening a cross-exchange hedge requires:
 2. Simultaneous entry (or near-simultaneous) to avoid directional exposure
 3. Correct sizing to ensure delta neutrality
 4. Monitoring for margin health on both legs
-5. Knowing when to close — when spreads compress, when funding settles, when better opportunities appear elsewhere
+5. Knowing when to close - when spreads compress, when funding settles, when better opportunities appear elsewhere
 
-One mistake — one leg filled and the other rejected, one exchange lagging, one margin call you didn't see — and your "risk-free" arbitrage has directional exposure.
+One mistake - one leg filled and the other rejected, one exchange lagging, one margin call you didn't see - and your "risk-free" arbitrage has directional exposure.
 
 ### The Fistya Problem
 
@@ -67,7 +67,7 @@ Zirodelta exists because the alpha is real but the human bottleneck is real too.
 - **CEX:** Binance, OKX, Gate, Bybit, KuCoin, BitMEX, Deribit, BingX, and more
 - **DEX:** Hyperliquid, dYdX, GRVT
 
-The engine groups assets by base currency across exchanges, computes cross-exchange deltas, and ranks by `delta_score` — a composite metric that factors in rate differential, liquidity, historical stability, and margin requirements.
+The engine groups assets by base currency across exchanges, computes cross-exchange deltas, and ranks by `delta_score` - a composite metric that factors in rate differential, liquidity, historical stability, and margin requirements.
 
 Current coverage: 1.4M+ funding rate records stored in ClickHouse. [Over $150B in daily perpetual futures volume](https://www.bitget.site/academy/perpetual-futures) monitored across venues.
 
@@ -83,7 +83,7 @@ Instead of a human scanning for the best rate and rotating between exchanges, th
 
 ### Execute (Hedged-Only)
 
-Architectural rule: **every position is a hedge pair.** Long on Exchange A + short on Exchange B on the same asset. Single-leg exposure is architecturally impossible — the engine won't open one side without the other.
+Architectural rule: **every position is a hedge pair.** Long on Exchange A + short on Exchange B on the same asset. Single-leg exposure is architecturally impossible - the engine won't open one side without the other.
 
 Execution happens through exchange-specific adapters that handle:
 - Order type selection (limit vs market based on spread and urgency)
@@ -133,12 +133,12 @@ Being honest about limitations:
 
 - **Exchange risk remains.** Capital lives on exchanges. Automation doesn't prevent exchange insolvency. Diversification across 19+ venues is the mitigation, not elimination.
 - **Spread compression in calm markets.** Low volatility means lower rate dispersion. The engine can't create spreads that don't exist. Returns are variable.
-- **Smart contract and infrastructure risk.** The engine itself is software. Bugs, downtime, and connectivity issues are real operational risks. (This is why Zirodelta publishes a transparency dashboard — so you can see exactly what the engine is doing.)
+- **Smart contract and infrastructure risk.** The engine itself is software. Bugs, downtime, and connectivity issues are real operational risks. (This is why Zirodelta publishes a transparency dashboard - so you can see exactly what the engine is doing.)
 - **Collateral reflexivity.** $ZDLT price affects collateral value, which affects deployed capital, which affects revenue. The auto-deleverage system protects depositors, but the relationship exists.
 
 ## The Bottom Line
 
-Funding rate arbitrage is one of the few genuinely market-neutral yield strategies in crypto. The alpha comes from a structural feature of perpetual futures markets — the funding rate mechanism — that will exist as long as perps exist.
+Funding rate arbitrage is one of the few genuinely market-neutral yield strategies in crypto. The alpha comes from a structural feature of perpetual futures markets - the funding rate mechanism - that will exist as long as perps exist.
 
 The bottleneck has always been execution: monitoring enough exchanges, processing enough data, executing fast enough, and being awake for every settlement.
 
@@ -148,6 +148,6 @@ The question isn't whether funding rate farming works. Fistya proved that years 
 
 ## Sources
 
-1. [Bitget Academy, "Perpetual Futures Guide," Mar 2026](https://www.bitget.site/academy/perpetual-futures) — daily perpetual futures volume exceeds $150B
-2. [CoinGlass, Bitcoin Open Interest Data](https://www.coinglass.com/BitcoinOpenInterest) — live open interest tracking across exchanges
-3. Zirodelta Whitepaper v4.2 — Beta-X1 engine architecture, exchange adapters, delta scoring, revenue distribution
+1. [Bitget Academy, "Perpetual Futures Guide," Mar 2026](https://www.bitget.site/academy/perpetual-futures) - daily perpetual futures volume exceeds $150B
+2. [CoinGlass, Bitcoin Open Interest Data](https://www.coinglass.com/BitcoinOpenInterest) - live open interest tracking across exchanges
+3. Zirodelta Whitepaper v4.2 - Beta-X1 engine architecture, exchange adapters, delta scoring, revenue distribution

@@ -1,7 +1,7 @@
 ---
 title: "Sniper Backtest: One-Settlement Scalps on Extreme Funding Rates"
 slug: "sniper-one-settlement-scalp-backtest"
-description: "We backtested one-settlement funding rate scalps across 9.4M settlements over 6 years. The strategy is profitable — but only above a 0.3% threshold."
+description: "We backtested one-settlement funding rate scalps across 9.4M settlements over 6 years. The strategy is profitable - but only above a 0.3% threshold."
 category: strategy-validation
 status: conclusive
 date: "2026-03-13"
@@ -23,13 +23,13 @@ This is the opposite of Beta-X1's persistent position strategy (hold for days/we
 |---|---|
 | Total settlements analyzed | 9,406,243 |
 | Exchanges | Binance, Bybit, KuCoin, Hyperliquid |
-| Time range | January 2020 — March 2026 |
+| Time range | January 2020 - March 2026 |
 | Symbols | 874 perpetual contracts |
 | Source | Zirodelta's funding rate settlement database |
 
 ### Spot Availability Filter (March 2026 correction)
 
-Not every perpetual contract has a corresponding spot market on the same exchange. Delta-neutral sniping requires **both** spot (to buy) and perp (to short). Our original analysis counted all extreme funding rate settlements — including those on perp-only symbols that can't actually be traded.
+Not every perpetual contract has a corresponding spot market on the same exchange. Delta-neutral sniping requires **both** spot (to buy) and perp (to short). Our original analysis counted all extreme funding rate settlements - including those on perp-only symbols that can't actually be traded.
 
 This updated analysis filters for **tradeable opportunities only**: symbols where both spot and perpetual markets exist on the same exchange.
 
@@ -40,7 +40,7 @@ This updated analysis filters for **tradeable opportunities only**: symbols wher
 | KuCoin | 545 | 451 | 83% |
 | Hyperliquid | 370 | 18 | 5% (USDC-only spot) |
 
-Hyperliquid is the most affected — it has extensive perp coverage but almost no spot USDT/USDC markets, making 99.5% of its extreme rate settlements untradeable for this strategy.
+Hyperliquid is the most affected - it has extensive perp coverage but almost no spot USDT/USDC markets, making 99.5% of its extreme rate settlements untradeable for this strategy.
 
 ## How Many Extreme Rates Exist?
 
@@ -66,7 +66,7 @@ The spot filter removes ~37% of apparent opportunities at the 0.3% threshold. Mo
 
 ## The Critical Question: Do Extreme Rates Persist?
 
-Our [margin mode research](/research/margin-mode-dead) proved that extreme **negative** funding rates are transient spikes — they mean-revert before you can profit. Does the same apply to extreme positive rates?
+Our [margin mode research](/research/margin-mode-dead) proved that extreme **negative** funding rates are transient spikes - they mean-revert before you can profit. Does the same apply to extreme positive rates?
 
 **No. Extreme positive rates persist.**
 
@@ -77,15 +77,15 @@ Our [margin mode research](/research/margin-mode-dead) proved that extreme **neg
 | Collapsed to normal (&lt;0.01%) | 17.1% |
 | Average rate retention | 51.9% of original |
 
-This is structurally different from negative rates. Extreme positive funding is driven by **leverage demand** — traders piling into long positions on trending tokens. This demand persists across multiple settlement periods. Negative rates (short squeezes) resolve within one settlement.
+This is structurally different from negative rates. Extreme positive funding is driven by **leverage demand** - traders piling into long positions on trending tokens. This demand persists across multiple settlement periods. Negative rates (short squeezes) resolve within one settlement.
 
-**Key insight:** The sniper collects the extreme rate at settlement T. Even if the rate drops at T+1, you're already closed. The persistence data tells us entry timing is reliable — the rate you see is the rate you collect.
+**Key insight:** The sniper collects the extreme rate at settlement T. Even if the rate drops at T+1, you're already closed. The persistence data tells us entry timing is reliable - the rate you see is the rate you collect.
 
 ## Profitability After Costs (Spot-Filtered)
 
 Cost assumption: **0.2% round-trip** (taker fees for entry + exit on both spot and perp).
 
-All numbers below are **spot-filtered** — only counting settlements where delta-neutral execution is actually possible.
+All numbers below are **spot-filtered** - only counting settlements where delta-neutral execution is actually possible.
 
 | Rate Bucket | Tradeable Opps | Win Rate | Avg Net | Opps/Day |
 |---|---|---|---|---|
@@ -104,9 +104,9 @@ At ≥0.3%: **100% win rate**, +0.262% average net per snipe, 1.4 tradeable oppo
 | KuCoin | 2,555 | 1,842 | 27.9% | 0.417% | 0.76 |
 | Binance | 1,779 | 1,281 | 28.0% | 0.428% | 0.53 |
 | Bybit | 630 | 284 | 54.9% | 0.444% | 0.12 |
-| Hyperliquid | 409 | 2 | 99.5% | — | ~0 |
+| Hyperliquid | 409 | 2 | 99.5% | - | ~0 |
 
-Hyperliquid is effectively dead for sniping — it has extensive perp coverage but almost no spot markets (USDC-only, 18 pairs). KuCoin is the largest venue by tradeable opportunity count. Bybit loses 55% of opportunities to the spot filter due to having many perp-only listings.
+Hyperliquid is effectively dead for sniping - it has extensive perp coverage but almost no spot markets (USDC-only, 18 pairs). KuCoin is the largest venue by tradeable opportunity count. Bybit loses 55% of opportunities to the spot filter due to having many perp-only listings.
 
 ## Projected Annual Returns (Spot-Filtered)
 
@@ -144,7 +144,7 @@ At ≥0.3%, the strategy survives even pessimistic cost assumptions. At 0.2%, it
 
 ## Why ≥0.3% Is the Right Threshold
 
-The 0.2—0.3% bucket contains 10,121 settlements (65% of all extremes) but nets only +0.039% per snipe after fees. Any real-world friction — slippage, drift, spread — can turn this bucket negative.
+The 0.2—0.3% bucket contains 10,121 settlements (65% of all extremes) but nets only +0.039% per snipe after fees. Any real-world friction - slippage, drift, spread - can turn this bucket negative.
 
 At ≥0.3% (spot-filtered):
 - 3,409 tradeable settlements over 6 years (1.4/day average)
@@ -158,9 +158,9 @@ At ≥0.3% (spot-filtered):
 
 | Strategy | Status | Expected Return | Risk Profile |
 |---|---|---|---|
-| Beta-X1 (persistent positions) | ✅ Validated | 19.55% CAGR | Low — holds days to weeks |
-| **Sniper (one-settlement scalp)** | **✅ Validated** | **~96—135% APY** | **Medium — ~1h exposure** |
-| Margin mode (negative funding) | ❌ Disproved | Negative | High — rates mean-revert |
+| Beta-X1 (persistent positions) | ✅ Validated | 19.55% CAGR | Low - holds days to weeks |
+| **Sniper (one-settlement scalp)** | **✅ Validated** | **~96—135% APY** | **Medium - ~1h exposure** |
+| Margin mode (negative funding) | ❌ Disproved | Negative | High - rates mean-revert |
 | Cross-exchange spread arb | ❌ Disproved | Negative after costs | Edge destroyed by fees |
 
 ## Disclaimer

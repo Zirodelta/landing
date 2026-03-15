@@ -1,7 +1,7 @@
 ---
 title: "Strategy Evolution: From Interval Arb to Spot-vs-Perp"
 slug: "strategy-evolution"
-description: "How we tested 10 strategy variants across 40+ experiments and arrived at v3 — the only approach that survives stress testing over 6 years of data."
+description: "How we tested 10 strategy variants across 40+ experiments and arrived at v3 - the only approach that survives stress testing over 6 years of data."
 category: overview
 status: published
 date: "2026-03-13"
@@ -11,7 +11,7 @@ keyFinding: "Dynamic position sizing (v3) nearly doubled CAGR from 11% to 19.55%
 
 ## The Journey
 
-We didn't start with spot-vs-perp. We started with cross-exchange interval arbitrage in early 2025 — the idea that settlement frequency differences between exchanges (Binance 8h vs Hyperliquid 1h) could be exploited for profit.
+We didn't start with spot-vs-perp. We started with cross-exchange interval arbitrage in early 2025 - the idea that settlement frequency differences between exchanges (Binance 8h vs Hyperliquid 1h) could be exploited for profit.
 
 It couldn't. Not after fees.
 
@@ -21,7 +21,7 @@ This document traces the full path from v1 to v3, every dead end included.
 
 **The idea:** Collect funding on high-frequency exchanges (Hyperliquid 1h, KuCoin 4h) while hedging on low-frequency exchanges (Binance 8h). The extra settlements = edge.
 
-**The result:** ~2.5% CAGR with an 89% cost ratio. Fees ate nearly everything. The frequency differential exists but the spread per settlement is microscopic — fractions of a basis point. Hundreds of trades needed, each costing 30bps round-trip.
+**The result:** ~2.5% CAGR with an 89% cost ratio. Fees ate nearly everything. The frequency differential exists but the spread per settlement is microscopic - fractions of a basis point. Hundreds of trades needed, each costing 30bps round-trip.
 
 **Verdict:** Dead. No parameter tuning saves it.
 
@@ -85,7 +85,7 @@ v3 uses spot-vs-perp (buy spot + short perp on same exchange) = cheaper, capture
 
 ### 3. 1-Day Lookback
 
-v2 used 365-day lookback for stability. v3 uses 1-day — maximum reactivity. We tested 1, 3, 7, 14, 30, and 365 days. 1-day was optimal.
+v2 used 365-day lookback for stability. v3 uses 1-day - maximum reactivity. We tested 1, 3, 7, 14, 30, and 365 days. 1-day was optimal.
 
 ## The Number
 

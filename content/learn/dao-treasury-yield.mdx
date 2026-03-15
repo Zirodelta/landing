@@ -19,7 +19,7 @@ publishedDate: "2026-03-07"
 
 Most DAO treasuries are one of two things: idle or directionally exposed.
 
-The idle ones hold millions in USDC earning 1-3% on Aave. The directional ones hold their own governance token — which means treasury value crashes when the token crashes, exactly when the DAO needs resources most.
+The idle ones hold millions in USDC earning 1-3% on Aave. The directional ones hold their own governance token - which means treasury value crashes when the token crashes, exactly when the DAO needs resources most.
 
 Cross-exchange funding rate arbitrage offers a third option: **market-neutral yield on deployed capital, independent of token price, without selling governance tokens.** It's not a treasury solution for every DAO. But for those with idle stables or excess reserves, it's worth understanding.
 
@@ -28,15 +28,15 @@ Cross-exchange funding rate arbitrage offers a third option: **market-neutral yi
 ### Most Treasuries Are Broken
 
 A typical DAO treasury looks like this:
-- **60-80% in governance token** — value drops when the market drops, exactly when the DAO needs runway
-- **10-30% in stablecoins** — sitting in a multisig or earning 1-2% on a lending protocol
-- **5-10% in ETH/BTC** — directional exposure that compounds volatility
+- **60-80% in governance token** - value drops when the market drops, exactly when the DAO needs runway
+- **10-30% in stablecoins** - sitting in a multisig or earning 1-2% on a lending protocol
+- **5-10% in ETH/BTC** - directional exposure that compounds volatility
 
-The result: in a bear market, treasury value can drop 70%+ while operational costs stay constant. Teams cut contributors, pause development, and reduce grants — all because the treasury was exposed to the same market it was trying to serve.
+The result: in a bear market, treasury value can drop 70%+ while operational costs stay constant. Teams cut contributors, pause development, and reduce grants - all because the treasury was exposed to the same market it was trying to serve.
 
 ### Why Standard Yield Options Don't Work
 
-**Stablecoin lending (Aave, Compound):** 1-3% APY. Safe, but barely covers operational costs. A $10M treasury earning 2% generates $200K/year — not enough for most protocol teams.
+**Stablecoin lending (Aave, Compound):** 1-3% APY. Safe, but barely covers operational costs. A $10M treasury earning 2% generates $200K/year - not enough for most protocol teams.
 
 **Liquidity providing:** Impermanent loss on volatile pairs can exceed earned fees. Protocol-owned liquidity is better, but still directional.
 
@@ -53,7 +53,7 @@ The result: in a bear market, treasury value can drop 70%+ while operational cos
 1. DAO allocates a portion of stablecoin reserves to the strategy
 2. Capital deploys across exchanges to capture cross-exchange funding rate spreads
 3. Delta-neutral positions (long Exchange A, short Exchange B on same asset) earn the rate differential
-4. Revenue returns in stablecoins — no exposure to any volatile token
+4. Revenue returns in stablecoins - no exposure to any volatile token
 5. Position monitoring and rotation happen autonomously
 
 ### Why It Works for Treasuries
@@ -70,15 +70,15 @@ The result: in a bear market, treasury value can drop 70%+ while operational cos
 
 Zirodelta offers two paths for DAO capital:
 
-**Path 1 — $ZDLT vault deposits:**
+**Path 1 - $ZDLT vault deposits:**
 - DAO acquires $ZDLT and deposits as collateral
 - Protocol borrows USDT against it and farms
 - 60% of farming revenue distributed in USDT per 8-hour epoch
-- $ZDLT never sold — sits as collateral
+- $ZDLT never sold - sits as collateral
 - Benefits from 15% buyback and burn (deflationary pressure on $ZDLT holdings)
 - Tradeoff: exposed to $ZDLT price volatility on collateral
 
-**Path 2 — Direct USDT lending (Phase C):**
+**Path 2 - Direct USDT lending (Phase C):**
 - DAO deposits USDT into Zirodelta's lending pool
 - Protocol pays 12-15% APR on deposited stables
 - No token exposure required
@@ -95,7 +95,7 @@ Phase C (external USDT deposits) follows Phase B (investor capital), which requi
 
 **Smart contract risk:** The vault and lending pool are smart contract infrastructure. Standard audit and security review applies.
 
-**Liquidity timing:** Withdrawals process within 8-24 hours depending on position sizes (epoch-based). Not instant. DAOs need to plan for this — don't allocate funds you need accessible within minutes.
+**Liquidity timing:** Withdrawals process within 8-24 hours depending on position sizes (epoch-based). Not instant. DAOs need to plan for this - don't allocate funds you need accessible within minutes.
 
 **Opportunity cost:** Capital deployed to funding rate arbitrage isn't available for other uses (grants, liquidity incentives, strategic investments). Size the allocation accordingly.
 
@@ -141,10 +141,10 @@ Even at smaller scale, the diversification into a market-neutral strategy meanin
 
 DAO treasuries don't have to choose between idle stables and directional bets. Cross-exchange funding rate arbitrage offers a middle path: market-neutral, stablecoin-denominated yield from structural market inefficiencies.
 
-It's not risk-free — exchange counterparty risk is real, and yields vary with market conditions. But for treasuries sitting on stables earning 2% while operational costs eat into runway, it's worth evaluating whether a portion of that capital could work harder.
+It's not risk-free - exchange counterparty risk is real, and yields vary with market conditions. But for treasuries sitting on stables earning 2% while operational costs eat into runway, it's worth evaluating whether a portion of that capital could work harder.
 
 The best treasury strategies aren't about maximizing yield. They're about matching revenue to expenses: stablecoins in, stablecoins out, independent of what the market does.
 
 ## Sources
 
-1. Zirodelta Whitepaper v4.2 — vault mechanics, Phase B/C structure, revenue distribution, Beta-X1 engine architecture
+1. Zirodelta Whitepaper v4.2 - vault mechanics, Phase B/C structure, revenue distribution, Beta-X1 engine architecture

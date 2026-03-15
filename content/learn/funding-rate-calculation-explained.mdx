@@ -1,5 +1,5 @@
 ---
-title: "How Exchanges Calculate Funding Rates — The Math Explained"
+title: "How Exchanges Calculate Funding Rates - The Math Explained"
 slug: "funding-rate-calculation-explained"
 description: "Understand the funding rate formula: Premium Index + clamp(Interest Rate - Premium Index, -0.05%, 0.05%). Learn why Binance caps at ±0.375% and KuCoin settles 6x daily."
 category: general
@@ -28,7 +28,7 @@ Funding Rate = Premium Index + clamp(Interest Rate - Premium Index, -0.05%, 0.05
 - **Interest Rate:** Reflects cost of capital between base and quote currencies  
 - **clamp():** Limits the final rate within a specified range to prevent extreme outcomes
 
-This formula elegantly balances market forces while preventing funding rates from spiraling to levels that would instantly liquidate positions. The genius is in the clamping mechanism — it lets market pressure drive funding direction while maintaining systemic stability.
+This formula elegantly balances market forces while preventing funding rates from spiraling to levels that would instantly liquidate positions. The genius is in the clamping mechanism - it lets market pressure drive funding direction while maintaining systemic stability.
 
 Different exchanges implement variations of this core logic, leading to rate dispersion that creates arbitrage opportunities.
 
@@ -58,7 +58,7 @@ Premium Index = (Perpetual Price - Index Price) / Index Price
 - **Bybit:** Includes Coinbase Pro, Bitstamp, Kraken  
 - **KuCoin:** Uses Coinbase, Kraken, Bitstamp
 
-This multi-source indexing prevents single-exchange manipulation and provides more robust price discovery.
+This multi-source indexing prevents single-exchange manipulation and provides more reliable price discovery.
 
 ## Interest Rate Component
 
@@ -119,7 +119,7 @@ Cross-exchange arbitrageurs exploit differences in clamping policies. When one e
 **Formula:** Standard with ±0.375% clamp
 **Index sources:** Binance, Huobi, Kraken weighted average
 
-**Binance's innovation:** They publish predicted funding rates 2-4 hours before settlement, giving traders advance notice. This creates strategic opportunities — if predicted funding is high, arbitrageurs can enter early before the rate locks in.
+**Binance's innovation:** They publish predicted funding rates 2-4 hours before settlement, giving traders advance notice. This creates strategic opportunities - if predicted funding is high, arbitrageurs can enter early before the rate locks in.
 
 **Real settlement data (BTC/USDT, March 2026):**
 - 00:00 UTC: +0.0112% (41% annualized)  
@@ -275,8 +275,8 @@ Net Funding = (Exchange A Funding Rate × Position Size) - (Exchange B Funding R
 ## Tools for Deep Analysis
 
 **Essential calculators:**
-- [Zirodelta funding rate calculator](/tools/funding-rate-calculator) — Project yields and break-even analysis
-- [Live rate scanner](/rates) — Real-time monitoring across 19+ exchanges
+- [Zirodelta funding rate calculator](/tools/funding-rate-calculator) - Project yields and break-even analysis
+- [Live rate scanner](/rates) - Real-time monitoring across 19+ exchanges
 
 **Data sources for historical analysis:**
 - Exchange APIs for settlement history
@@ -295,7 +295,7 @@ The funding rate mechanism represents one of crypto's most elegant market design
 
 ## Further Reading
 
-- [What Is Funding Rate in Crypto](/learn/what-is-funding-rate-crypto) — Fundamentals and overview
-- [Funding Rate Arbitrage Strategy](/learn/funding-rate-arbitrage-strategy) — Execution guide
-- [Binance Funding Rate Arbitrage](/learn/binance-funding-rate-arbitrage) — Exchange-specific implementation
-- [Zirodelta Rate Scanner](/rates) — Live funding rate data across exchanges
+- [What Is Funding Rate in Crypto](/learn/what-is-funding-rate-crypto) - Fundamentals and overview
+- [Funding Rate Arbitrage Strategy](/learn/funding-rate-arbitrage-strategy) - Execution guide
+- [Binance Funding Rate Arbitrage](/learn/binance-funding-rate-arbitrage) - Exchange-specific implementation
+- [Zirodelta Rate Scanner](/rates) - Live funding rate data across exchanges

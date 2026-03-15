@@ -17,11 +17,11 @@ publishedDate: "2026-03-07"
 
 ## The Short Answer
 
-Most crypto yield sources are **pro-cyclical** — they work in bull markets and collapse in bear markets. Staking yields compress. DeFi farms dry up. Lending rates crater because nobody wants to borrow.
+Most crypto yield sources are **pro-cyclical** - they work in bull markets and collapse in bear markets. Staking yields compress. DeFi farms dry up. Lending rates crater because nobody wants to borrow.
 
 The yield sources that survive bear markets share one trait: **they profit from volatility or structural inefficiency, not from market direction.**
 
-Cross-exchange funding rate arbitrage is one of those sources. Volatility increases rate dispersion between exchanges. Bear markets don't kill the strategy — they often amplify it.
+Cross-exchange funding rate arbitrage is one of those sources. Volatility increases rate dispersion between exchanges. Bear markets don't kill the strategy - they often amplify it.
 
 ## Why Most Yield Dies in Bear Markets
 
@@ -34,9 +34,9 @@ Worse: staking yields are inflationary on most chains. The network prints tokens
 ### DeFi Farming
 
 DeFi yields come from three places:
-1. **Trading fees** — volumes drop 70-90% in bear markets. Fees collapse.
-2. **Token incentives** — governance tokens that were worth $50 are now worth $2. Your "200% APY" farm is paying in worthless tokens.
-3. **Lending interest** — borrowing demand evaporates. Nobody leverages long when prices are falling. Rates go to 0.1%.
+1. **Trading fees** - volumes drop 70-90% in bear markets. Fees collapse.
+2. **Token incentives** - governance tokens that were worth $50 are now worth $2. Your "200% APY" farm is paying in worthless tokens.
+3. **Lending interest** - borrowing demand evaporates. Nobody leverages long when prices are falling. Rates go to 0.1%.
 
 The 2022 bear market proved this brutally. According to [CoinDesk](https://www.coindesk.com/business/2026/02/03/defi-s-quiet-strength-tvl-holds-as-market-selloff-tests-traders), TVL across DeFi dropped from $142B to $52B during the 2022 crash. Farm after farm collapsed. Token incentive programs ended. Real yield on stablecoins dropped to 1-2%.
 
@@ -54,7 +54,7 @@ USDC lending on Aave dropped to 0.5-1% APY during the 2022 bear market.
 
 ### 1. Cross-Exchange Funding Rate Arbitrage
 
-**Why it survives:** Funding rates exist because perpetual futures need a mechanism to track spot prices. This mechanism doesn't stop in bear markets — it reverses direction. In bull markets, longs pay shorts. In bear markets, shorts pay longs.
+**Why it survives:** Funding rates exist because perpetual futures need a mechanism to track spot prices. This mechanism doesn't stop in bear markets - it reverses direction. In bull markets, longs pay shorts. In bear markets, shorts pay longs.
 
 **Why it can thrive:** Different exchanges respond to market pressure at different speeds. When panic hits, Binance funding might go to -30% annualized while Hyperliquid is still at +5% on the same pair. That's a 35% spread. Volatility increases dispersion, and dispersion is what cross-exchange arbitrage captures.
 
@@ -62,7 +62,7 @@ USDC lending on Aave dropped to 0.5-1% APY during the 2022 bear market.
 - 93+ active delta pairs above 3% annual spread in current conditions
 - 163% average annualized delta across monitored pairs
 - Funding rates differ across 19+ exchanges due to different trader populations, liquidity profiles, and market microstructure
-- The engine is market-neutral — no directional exposure. Profit comes from the spread, not from betting on price direction.
+- The engine is market-neutral - no directional exposure. Profit comes from the spread, not from betting on price direction.
 
 **Risks:** Exchange counterparty risk (capital on CEXs), execution timing risk, funding rate compression during very low volatility. These are operational risks, not directional risks.
 
@@ -82,7 +82,7 @@ Selling covered calls or cash-secured puts generates premium income regardless o
 
 Spot long + short perp to collect funding. Similar to what Ethena does. Works when funding is positive.
 
-**Catch:** In bear markets, funding frequently goes negative (shorts pay longs, not the other way). Single-exchange basis trading can lose money in sustained bear markets. This is why Ethena maintains a [reserve fund](https://docs.ethena.fi/solution-overview/risks/funding-risk) — to absorb negative funding periods.
+**Catch:** In bear markets, funding frequently goes negative (shorts pay longs, not the other way). Single-exchange basis trading can lose money in sustained bear markets. This is why Ethena maintains a [reserve fund](https://docs.ethena.fi/solution-overview/risks/funding-risk) - to absorb negative funding periods.
 
 Cross-exchange arbitrage doesn't have this problem because it captures the difference between exchanges, not the absolute rate on one exchange.
 
@@ -102,13 +102,13 @@ The structural reason: different exchanges have different trader bases, differen
 
 Zirodelta's Beta-X1 engine is designed specifically for market-condition-agnostic yield:
 
-1. **19+ exchanges monitored** — CEX and DEX (Binance, OKX, Hyperliquid, dYdX, Gate, Bybit, BitMEX, KuCoin, Deribit, and more)
+1. **19+ exchanges monitored** - CEX and DEX (Binance, OKX, Hyperliquid, dYdX, Gate, Bybit, BitMEX, KuCoin, Deribit, and more)
 2. **Every 15 minutes:** scan all funding rates, compute cross-exchange deltas
 3. **When spreads exceed threshold:** open delta-neutral hedge (long on one exchange, short on another)
 4. **8-hour epochs** synced with funding rate settlement cycles
 5. **Revenue split:** 60% to $ZDLT vault depositors (in USDT), 15% to buyback and burn, 25% to protocol growth
 
-The engine doesn't predict markets. It doesn't bet on direction. It captures the structural inefficiency of fragmented funding rate markets — an inefficiency that increases, not decreases, when markets get volatile.
+The engine doesn't predict markets. It doesn't bet on direction. It captures the structural inefficiency of fragmented funding rate markets - an inefficiency that increases, not decreases, when markets get volatile.
 
 ## The Portfolio View
 
@@ -126,11 +126,11 @@ Bear market resilience isn't about finding one magic strategy. It's about having
 
 ## Sources
 
-1. [Datawallet, "Ethereum Staking Statistics 2026," Jan 7, 2026](https://www.datawallet.com/crypto/ethereum-staking-statistics-and-trends) — 35.8M ETH staked, 28.91% of supply, 3.3% APY
-2. [Spoted Crypto, "Crypto Staking Guide 2026"](https://www.spotedcrypto.com/crypto-staking-guide-2026-real-yield/) — real yields 0-3% SOL, 2-3% ETH after inflation
-3. [CoinDesk, "DeFi's value holds up despite crypto sell-off," Feb 3, 2026](https://www.coindesk.com/business/2026/02/03/defi-s-quiet-strength-tvl-holds-as-market-selloff-tests-traders) — DeFi TVL decline data
-4. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) — reserve fund mechanics for negative funding periods
-5. Zirodelta Whitepaper v4.2 — Beta-X1 engine architecture, cross-exchange spread data, revenue distribution
+1. [Datawallet, "Ethereum Staking Statistics 2026," Jan 7, 2026](https://www.datawallet.com/crypto/ethereum-staking-statistics-and-trends) - 35.8M ETH staked, 28.91% of supply, 3.3% APY
+2. [Spoted Crypto, "Crypto Staking Guide 2026"](https://www.spotedcrypto.com/crypto-staking-guide-2026-real-yield/) - real yields 0-3% SOL, 2-3% ETH after inflation
+3. [CoinDesk, "DeFi's value holds up despite crypto sell-off," Feb 3, 2026](https://www.coindesk.com/business/2026/02/03/defi-s-quiet-strength-tvl-holds-as-market-selloff-tests-traders) - DeFi TVL decline data
+4. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) - reserve fund mechanics for negative funding periods
+5. Zirodelta Whitepaper v4.2 - Beta-X1 engine architecture, cross-exchange spread data, revenue distribution
 
 ## The Bottom Line
 

@@ -39,7 +39,7 @@ This is working as designed. The protocol protects itself by selling your assets
 
 1. Open a 10x long on BTC with $1,000 margin
 2. BTC drops 10%
-3. Your position is liquidated — $1,000 gone
+3. Your position is liquidated - $1,000 gone
 4. If you're unlucky, you owe additional fees
 
 Exchange liquidation engines are aggressive by design. They protect the exchange and other traders, not you.
@@ -68,10 +68,10 @@ This is where the architecture matters.
 
 **Zirodelta's approach:** If $ZDLT collateral value drops and the health factor degrades:
 
-1. **AutoDeleverageWorkflow activates** — continuous monitoring of collateral health
-2. **The protocol reduces farming positions** — closes some hedge pairs, returns USDT to the lending pool
-3. **The loan shrinks to match the new collateral value** — LTV stays conservative
-4. **Your $ZDLT is never touched** — you still own every token you deposited
+1. **AutoDeleverageWorkflow activates** - continuous monitoring of collateral health
+2. **The protocol reduces farming positions** - closes some hedge pairs, returns USDT to the lending pool
+3. **The loan shrinks to match the new collateral value** - LTV stays conservative
+4. **Your $ZDLT is never touched** - you still own every token you deposited
 
 The protocol absorbs the impact by scaling down its operations. Less farming capital deployed = less revenue generated = but your collateral is safe.
 
@@ -79,7 +79,7 @@ The protocol absorbs the impact by scaling down its operations. Less farming cap
 
 The key insight: **the farming positions are the flexible variable, not your collateral.**
 
-In traditional lending, collateral is the adjustment mechanism — when things go wrong, your collateral gets sold. In Zirodelta's architecture, the farming deployment is the adjustment mechanism — when things go wrong, positions get reduced.
+In traditional lending, collateral is the adjustment mechanism - when things go wrong, your collateral gets sold. In Zirodelta's architecture, the farming deployment is the adjustment mechanism - when things go wrong, positions get reduced.
 
 This is possible because:
 - **Farming positions are liquid.** Perpetual futures positions on exchanges can be closed within minutes.
@@ -90,20 +90,20 @@ This is possible because:
 
 Nothing is free. The tradeoff for no-liquidation architecture:
 
-- **Lower capital efficiency** — 40-50% LTV means only half of your collateral value is deployed. More aggressive protocols use 70-80% LTV, extracting more capital but introducing liquidation risk.
-- **Revenue reduction during drawdowns** — when positions are reduced, revenue decreases. You earn less during periods of $ZDLT price decline.
-- **Reflexivity risk** — reduced positions → less revenue → less buyback pressure → potentially more $ZDLT price decline. The protocol breaks this loop by maintaining reserves and having multiple revenue sources (agent-hire revenue doesn't depend on farming capital).
+- **Lower capital efficiency** - 40-50% LTV means only half of your collateral value is deployed. More aggressive protocols use 70-80% LTV, extracting more capital but introducing liquidation risk.
+- **Revenue reduction during drawdowns** - when positions are reduced, revenue decreases. You earn less during periods of $ZDLT price decline.
+- **Reflexivity risk** - reduced positions → less revenue → less buyback pressure → potentially more $ZDLT price decline. The protocol breaks this loop by maintaining reserves and having multiple revenue sources (agent-hire revenue doesn't depend on farming capital).
 
 ## Comparison: Liquidation Risk Across Strategies
 
 ### DeFi Lending Vaults
-- **Liquidation possible?** Yes — standard mechanic
+- **Liquidation possible?** Yes - standard mechanic
 - **What gets liquidated?** Your deposited collateral
 - **When?** When health factor drops below threshold (typically 1.0-1.2)
 - **Can you prevent it?** Only by adding more collateral or repaying the loan
 
 ### Leveraged Perp Trading
-- **Liquidation possible?** Yes — core exchange mechanic
+- **Liquidation possible?** Yes - core exchange mechanic
 - **What gets liquidated?** Your margin (entire position)
 - **When?** When margin ratio drops below maintenance level
 - **Can you prevent it?** Adding margin or reducing position size
@@ -114,7 +114,7 @@ Nothing is free. The tradeoff for no-liquidation architecture:
 - **What happens in stress?** Insurance fund absorbs losses. If fund depletes, USDe backing weakens.
 
 ### Zirodelta
-- **Liquidation of depositor collateral?** No — architecturally prevented
+- **Liquidation of depositor collateral?** No - architecturally prevented
 - **What happens instead?** Protocol reduces farming positions (auto-deleverage)
 - **When?** When $ZDLT collateral health degrades beyond safety threshold
 - **Your tokens?** Still yours. Still in the vault. Never sold.
@@ -131,11 +131,11 @@ Zirodelta operates farming positions at 5x leverage on exchanges. Does this intr
 - **Continuous monitoring:** FundingGuard monitors all open positions via WebSocket, triggering SmartExit before margin gets thin.
 - **Per-exchange caps:** No single exchange holds more than a set percentage of total farming capital. Exchange failure is isolated.
 
-**For depositors:** Even if an individual farming position were to be liquidated on an exchange (the delta-neutral structure makes this unlikely), it's the protocol's borrowed USDT at risk — not your $ZDLT collateral in the vault. The vault architecture separates depositor collateral from trading capital.
+**For depositors:** Even if an individual farming position were to be liquidated on an exchange (the delta-neutral structure makes this unlikely), it's the protocol's borrowed USDT at risk - not your $ZDLT collateral in the vault. The vault architecture separates depositor collateral from trading capital.
 
 ## The Bottom Line
 
-If you've been liquidated before — on Aave, on a perp exchange, in a DeFi vault — you know the feeling. It's not just the financial loss. It's that the system was designed to sell your assets to protect itself.
+If you've been liquidated before - on Aave, on a perp exchange, in a DeFi vault - you know the feeling. It's not just the financial loss. It's that the system was designed to sell your assets to protect itself.
 
 Zirodelta inverts this. When stress hits, the protocol protects your collateral by reducing its own operations. Positions shrink. Revenue may decrease temporarily. But your $ZDLT stays in the vault.
 
@@ -145,5 +145,5 @@ For many allocators, especially those managing other people's money, "your token
 
 ## Sources
 
-1. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) — reserve fund mechanics, stress scenarios
-2. Zirodelta Whitepaper v4.2 — AutoDeleverageWorkflow, vault architecture, collateral protection mechanics, SmartExit logic
+1. [Ethena docs, Funding Risk](https://docs.ethena.fi/solution-overview/risks/funding-risk) - reserve fund mechanics, stress scenarios
+2. Zirodelta Whitepaper v4.2 - AutoDeleverageWorkflow, vault architecture, collateral protection mechanics, SmartExit logic

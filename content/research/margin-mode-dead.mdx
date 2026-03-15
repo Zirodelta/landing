@@ -1,7 +1,7 @@
 ---
 title: "Margin Mode: Why Negative Funding Doesn't Work"
 slug: "margin-mode-dead"
-description: "We tested borrowing spot to capture negative funding rates — the mirror image of our core strategy. It lost money on every trade."
+description: "We tested borrowing spot to capture negative funding rates - the mirror image of our core strategy. It lost money on every trade."
 category: strategy-kill
 status: conclusive
 date: "2026-03-13"
@@ -15,7 +15,7 @@ Our core strategy captures positive funding: buy spot + short perp. When rates a
 
 The mirror: when rates are **negative**, longs collect. So borrow the spot token, sell it, and go long perp. You'd collect negative funding while paying borrow interest.
 
-If this works, the engine never goes idle — positive rates in bull markets, negative rates in bear markets. The theoretical CAGR jumped from 19.55% to ~35-40%.
+If this works, the engine never goes idle - positive rates in bull markets, negative rates in bear markets. The theoretical CAGR jumped from 19.55% to ~35-40%.
 
 ## The Data
 
@@ -55,10 +55,10 @@ Negative funding rates are **transient spikes**. They occur during brief panic s
 ### The Cost Floor
 
 When you borrow a token:
-- **Borrow cost is stable** — you pay it continuously, every hour, regardless of what funding does
-- **Funding income is volatile** — the negative rate that looked attractive yesterday may be neutral today
+- **Borrow cost is stable** - you pay it continuously, every hour, regardless of what funding does
+- **Funding income is volatile** - the negative rate that looked attractive yesterday may be neutral today
 
-ME/Bybit example: scoring saw -0.12%/interval trailing rate. Over the hold period, actual rate averaged -0.002% — a 50× drop. Borrow cost: $411. Funding collected: $95.
+ME/Bybit example: scoring saw -0.12%/interval trailing rate. Over the hold period, actual rate averaged -0.002% - a 50× drop. Borrow cost: $411. Funding collected: $95.
 
 ### The Structural Problem
 
@@ -69,9 +69,9 @@ In margin mode, this inverts: your costs are persistent (borrow interest) and yo
 ## Could It Ever Work?
 
 Possibly, with:
-1. **Extreme-only entry** — only enter when negative rate exceeds 5× borrow cost
-2. **Sub-day holds** — exit within hours, before mean-reversion kills the rate
-3. **As a signal, not a strategy** — extreme negative funding may predict short-term price bounces
+1. **Extreme-only entry** - only enter when negative rate exceeds 5× borrow cost
+2. **Sub-day holds** - exit within hours, before mean-reversion kills the rate
+3. **As a signal, not a strategy** - extreme negative funding may predict short-term price bounces
 
 None of these are high priority. The core strategy (positive funding, spot-vs-perp) produces 19.55% CAGR without this complexity.
 
