@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import { getExchanges } from "@/lib/pseo"
 import { RatesPageClient } from "@/components/zirodelta/rates-page-client"
 
@@ -37,6 +38,20 @@ export default function RatesIndexPage() {
           decentralized exchanges. Select an exchange to view pair-level rates
           and analysis.
         </p>
+        <div className="flex items-center gap-4 mt-4 text-sm">
+          <Link
+            href="/rates/leaderboard"
+            className="text-[#009B88] hover:underline"
+          >
+            Live Leaderboard →
+          </Link>
+          <Link
+            href="/rates/calendar"
+            className="text-[#009B88] hover:underline"
+          >
+            Settlement Calendar →
+          </Link>
+        </div>
       </header>
 
       {/* Filtered Content */}
