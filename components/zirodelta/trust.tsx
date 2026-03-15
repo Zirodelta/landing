@@ -268,9 +268,9 @@ const trustPoints = [
   {
     id: "hedge",
     Illustration: HedgePairIllustration,
-    headline: "Architecturally Hedged",
-    statement: "Single-leg exposure is impossible.",
-    body: "Every position is a hedge pair — buy spot, short perp, same exchange. Delta-neutral by construction. Risk is eliminated at the protocol level, not managed after the fact.",
+    headline: "Zero Price Risk",
+    statement: "Your money doesn't bet on prices.",
+    body: "Every position is a balanced pair. When one side goes up, the other goes down by the same amount. Your capital earns income from the rate difference - not from price movement.",
     metric: "0.00",
     metricLabel: "Net exposure",
   },
@@ -287,17 +287,17 @@ const trustPoints = [
     id: "onchain",
     Illustration: OnChainIllustration,
     headline: "Fully Auditable",
-    statement: "Full transparency. Audit us anytime.",
-    body: "Every trade, every position, every funding payment is recorded and publicly verifiable via our transparency dashboard. Full auditability by default.",
+    statement: "See every trade we make.",
+    body: "Every trade, every position, every funding payment is recorded and publicly visible on our transparency dashboard. Full accountability by default.",
     metric: "100%",
     metricLabel: "Auditable trades",
   },
   {
     id: "data",
     Illustration: DataDepthIllustration,
-    headline: "9.4M+ Data Points",
-    statement: "Depth drives precision.",
-    body: "Our analytics engine has processed over 9.4 million funding rate settlement records across all supported exchanges. Historical depth powers every execution decision.",
+    headline: "6+ Years of Data",
+    statement: "Battle-tested across every market condition.",
+    body: "Our strategy has been stress-tested against 6+ years of real market data - bull runs, crashes, and everything between. 9.4 million data points confirm it works.",
     metric: "9.4M+",
     metricLabel: "Records processed",
   },
@@ -339,7 +339,7 @@ export function Trust() {
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center mb-24 lg:mb-32">
           <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-            Trust & Security
+            Why It's Safe
           </span>
           <h2 className="text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Built for trust,{" "}

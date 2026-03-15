@@ -5,30 +5,30 @@ import { ArrowUpRight, BarChart3, Vault, Handshake } from "lucide-react"
 
 const services = [
   {
-    name: "Zirodelta Transparency",
-    tagline: "Our performance. Your audit.",
+    name: "Free Sniper Bot",
+    tagline: "One-tap income. Zero cost.",
     description:
-      "Full visibility into our own capital deployment. Every trade, every position, every P&L recorded on-chain and publicly verifiable in real time.",
+      "Scan the market for extreme funding rate opportunities and execute in one tap. Completely free - no signup, no token gate, no profit share. You keep 100%.",
     features: [
-      "Live P&L tracking",
-      "On-chain trade history",
-      "Funding rate capture metrics",
-      "Historical performance data",
+      "Scan 30+ exchanges instantly",
+      "One-tap execution",
+      "Free forever",
+      "Your own exchange keys",
     ],
-    cta: "View Dashboard",
-    ctaHref: "https://transparency.zirodelta.ag",
+    cta: "Open Bot on Telegram",
+    ctaHref: "https://t.me/zidee_bot",
     icon: BarChart3,
     accent: "#009B88",
     available: true,
   },
   {
-    name: "Zirodelta Vault",
+    name: "Managed Yield",
     tagline: "Deposit. Earn. Sleep.",
     description:
-      "Automated delta-neutral yield from funding rates. Buy spot, short perp. Zero directional exposure, no liquidation risk. The engine runs 24/7.",
+      "Deposit USDT and let the engine generate daily income automatically. Delta-neutral positions across 30+ exchanges. No directional risk, no active management required.",
     features: [
-      "Automated yield generation",
-      "Delta-neutral execution",
+      "Automated daily income",
+      "No price exposure",
       "30+ exchange coverage",
       "Withdraw anytime",
     ],
@@ -39,10 +39,10 @@ const services = [
     available: false,
   },
   {
-    name: "Zirodelta Pact",
-    tagline: "Institutional-grade. Custom terms.",
+    name: "Institutional",
+    tagline: "Custom scale. Custom terms.",
     description:
-      "Bespoke capital deployment for institutions, funds, and high-net-worth partners. Custom risk parameters, dedicated infrastructure, direct communication.",
+      "For funds, treasuries, and partners deploying serious capital. Custom risk parameters, dedicated infrastructure, and direct communication with the team.",
     features: [
       "Custom position sizing",
       "Dedicated exchange accounts",
@@ -89,10 +89,10 @@ export function Revenue() {
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             Three ways to{" "}
-            <span className="text-gradient">access the engine</span>
+            <span className="text-gradient">earn</span>
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Whether you want to watch, participate, or partner, there&apos;s a path built for you.
+            Start free, scale when ready, go institutional when it makes sense.
           </p>
         </div>
 

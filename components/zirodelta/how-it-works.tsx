@@ -66,38 +66,29 @@ function CollectIcon({ className }: { className?: string }) {
 const steps = [
   {
     number: "01",
-    title: "Scan",
+    title: "Deposit",
     description:
-      "Every day, score 874 symbols across 30+ exchanges by trailing funding rate. Filter by rate consistency, open interest, and spot availability.",
+      "Deposit USDT into the vault. Your capital is deployed across multiple exchanges to capture yield. Withdraw anytime.",
     Icon: ScanIcon,
-    metric: "874 symbols",
-    detail: "30+ exchanges",
+    metric: "USDT",
+    detail: "Any amount",
   },
   {
     number: "02",
-    title: "Rank & Allocate",
+    title: "Engine Runs",
     description:
-      "Rank by daily yield. Allocate capital to top opportunities — dynamically sized by open interest, equity concentration limits, and available capital.",
+      "Our engine scans hundreds of opportunities every day, picks the best ones, and executes balanced positions that earn income from derivatives markets.",
     Icon: RankIcon,
-    metric: "Dynamic sizing",
-    detail: "OI-constrained",
+    metric: "24/7",
+    detail: "Autonomous",
   },
   {
     number: "03",
-    title: "Execute",
+    title: "Collect Income",
     description:
-      "Buy spot + short perp on the same exchange. SmartEntry uses limit orders with market fallback. Every position is a delta-neutral hedge pair.",
+      "Income flows to your account every settlement period. No lock-ups, no penalties. 19% annual return stress-tested across 6 years of real market data.",
     Icon: ExecuteIcon,
-    metric: "0.00 exposure",
-    detail: "Spot + short perp",
-  },
-  {
-    number: "04",
-    title: "Collect",
-    description:
-      "Collect funding payments every 1-8 hours. The engine monitors rate decay, stop-loss triggers, and rotation opportunities daily. 10% of profit goes to insurance.",
-    Icon: CollectIcon,
-    metric: "19-44% APY",
+    metric: "19% APY",
     detail: "Stress-tested",
   },
 ]
@@ -154,10 +145,10 @@ export function HowItWorks() {
             Engine Pipeline
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            How the engine works
+            How you earn
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Four steps. Fully autonomous. Scan, rank, execute, collect — every day.
+            Three things happen. You don't have to do any of them.
           </p>
         </div>
 

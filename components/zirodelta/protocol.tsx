@@ -14,37 +14,33 @@ export function Protocol() {
               The Strategy
             </span>
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-              Collect funding rates{" "}
-              <span className="text-gradient">automatically</span>
+              Your crypto earns{" "}
+              <span className="text-gradient">while you sleep</span>
             </h2>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              Perpetual futures pay a &quot;funding rate&quot; every few hours — shorts
-              collect when rates are positive. We buy the spot token and short
-              the perp. Zero price exposure. Pure yield from the rate differential.
+              Every few hours, crypto derivatives markets pay a fee called a funding rate. When traders are bullish, they pay this fee to anyone on the other side. We capture this fee automatically - without betting on whether prices go up or down.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              At <Link href="/learn/zirodelta-vs-ethena" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">Ethena</Link>&apos;s scale ($2B+), you&apos;re limited to BTC and ETH.
-              At our scale, we access <Link href="/rates" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">874 symbols</Link> — including mid-caps with
-              50-200%+ annualized funding that big funds can&apos;t touch.
+              Most yield strategies expose you to price risk. Staking, lending, farming - they all depend on token prices going up. We don't. Our engine holds perfectly balanced positions that earn income regardless of market direction.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href="#how-it-works"
                 className="inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-foreground"
               >
-                See the engine pipeline
+                Learn how it works
                 <ArrowRight className="h-4 w-4" />
               </a>
               <Link
                 href="/compare"
                 className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
-                Compare exchanges →
+                Compare with other yield options →
               </Link>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
               <Link href="/learn" className="text-primary hover:text-foreground transition-colors underline decoration-1 underline-offset-2">
-                Learn how we differ from Ethena, Pendle, and lending protocols →
+                Learn about the strategy →
               </Link>
             </p>
           </div>
@@ -56,10 +52,10 @@ export function Protocol() {
               <div className="mb-8 flex items-center justify-between">
                 <div className="flex flex-col gap-1">
                   <span className="text-xs font-medium tracking-wider text-muted-foreground uppercase">
-                    Delta-Neutral Hedge
+                    How We Earn
                   </span>
                   <span className="font-mono text-xs text-muted-foreground">
-                    Same exchange, same symbol
+                    Balanced position = zero price risk
                   </span>
                 </div>
                 <span className="flex items-center gap-1.5">

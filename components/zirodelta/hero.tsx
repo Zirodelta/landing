@@ -28,15 +28,14 @@ export function Hero() {
             </span>
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            Delta-neutral yield{" "}
-            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>from</span>
+            Earn{" "}
+            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>daily</span>{" "}
+            income
             <br className="hidden sm:block" />
-            {" "}<span className="text-gradient">funding rates</span>
+            {" "}<span className="text-gradient">from your crypto</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed md:text-xl" style={{ color: '#e8e8e8' }}>
-            Buy spot. Short perp. Collect funding. Automated across 30+
-            exchanges, 874 symbols, 9.4M+ settlement records. 19% CAGR
-            stress-tested over 6 years.
+            Our engine captures yield from derivatives markets 24/7. You deposit, we generate income, you withdraw anytime. No trading required. No directional risk.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -52,17 +51,19 @@ export function Hero() {
               href="/docs"
               className="group inline-flex items-center gap-2 rounded-lg border border-border bg-background/30 backdrop-blur-sm px-7 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary/50 hover:text-primary"
             >
-              How It Works
+              See How It Works
               <ArrowDown className="h-4 w-4 transition-transform duration-200 group-hover:translate-y-0.5" />
             </a>
           </div>
           <div className="mt-6 flex justify-center">
-            <Link
-              href="/rates"
+            <a
+              href="https://t.me/zidee_bot"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-muted-foreground transition-colors hover:text-primary"
             >
-              Explore funding rates across 30+ exchanges →
-            </Link>
+              Try our free sniper bot →
+            </a>
           </div>
         </div>
         <div className="mt-20 flex justify-center">

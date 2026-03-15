@@ -31,11 +31,11 @@ const siteUrl = 'https://zirodelta.com'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Zirodelta | Autonomous Funding Rate Arbitrage',
+    default: 'Zirodelta | Earn Daily Income From Crypto',
     template: '%s | Zirodelta',
   },
   description:
-    'A protocol that earns before you deposit. Autonomous funding rate arbitrage across 19+ exchanges. Revenue-first. Delta-neutral. Zero exposure.',
+    'Consistent daily yield from crypto derivatives. No trading, no directional risk. 19% annual return stress-tested over 6 years. Start free with our sniper bot.',
   keywords: [
     'funding rate arbitrage',
     'crypto yield',
@@ -78,9 +78,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: 'Zirodelta',
-    title: 'Zirodelta | A Protocol That Earns Before You Deposit',
+    title: 'Zirodelta | Earn Daily Income From Crypto',
     description:
-      'Autonomous funding rate arbitrage across 19+ exchanges. Revenue-first. Delta-neutral. Zero exposure.',
+      'Consistent daily yield from crypto derivatives. No trading, no directional risk. 19% annual return stress-tested over 6 years.',
     images: [
       {
         url: '/og-image.jpg',
@@ -94,9 +94,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@zirodelta',
     creator: '@zirodelta',
-    title: 'Zirodelta | A Protocol That Earns Before You Deposit',
+    title: 'Zirodelta | Earn Daily Income From Crypto',
     description:
-      'Autonomous funding rate arbitrage across 19+ exchanges. Revenue-first. Delta-neutral. Zero exposure.',
+      'Consistent daily yield from crypto derivatives. No trading, no directional risk. 19% annual return stress-tested over 6 years.',
     images: ['/og-image.jpg'],
   },
 }

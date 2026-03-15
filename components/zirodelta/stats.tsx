@@ -77,10 +77,10 @@ function AnimatedNumber({
 
 export function Stats() {
   const stats: StatItem[] = [
-    { value: 30, label: "Exchanges Connected", suffix: "+", linkTo: "/rates" },
-    { value: 9400000, label: "Funding Rate Settlements", suffix: "+", linkTo: "/research" },
-    { value: 874, label: "Symbols Tracked" },
-    { value: 19, label: "Stress-Tested CAGR", suffix: "%" },
+    { value: 19, label: "Annual Return", suffix: "%" },
+    { value: 3.74, label: "Sharpe Ratio" },
+    { value: 6, label: "Years Stress-Tested", suffix: "+" },
+    { value: 0, label: "Lost to Market Direction", prefix: "$" },
   ] as Array<StatItem & { linkTo?: string }>
 
   return (
