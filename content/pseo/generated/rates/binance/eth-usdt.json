@@ -10,8 +10,8 @@
     "quote": "USDT"
   },
   "seo": {
-    "title": "Binance ETH/USDT Funding Rate \u2014 6,898 Settlements Analyzed | Zirodelta",
-    "description": "ETH/USDT funding rate on Binance: 14.74% annualized across 6,898 settlements (Nov 2019\u2013Mar 2026). 87.4% positive rate frequency. Real data from 9.4M+ records.",
+    "title": "Binance ETH/USDT Funding Rate — 6,898 Settlements Analyzed",
+    "description": "ETH/USDT funding rate on Binance: 14.74% annualized across 6,898 settlements (Nov 2019–Mar 2026). 87.4% positive rate frequency. Real data from 9.4M+ records.",
     "keywords": [
       "ETH USDT funding rate",
       "Binance perpetual futures",
@@ -24,17 +24,17 @@
     ]
   },
   "content": {
-    "intro": "ETH/USDT perpetual futures on Binance \u2014 analyzed across 6,898 funding rate settlements spanning Nov 2019 to March 2026 (6.3 years of data). Average funding rate: +0.0135% per 8-hour settlement = 14.74% annualized. 87.4% of settlements are positive (shorts collect). All numbers from Zirodelta's 9.4M+ settlement record dataset \u2014 the deepest funding rate analysis available.",
-    "how_funding_works": "Binance calculates ETH/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between the perpetual price and mark price. The funding rate is capped at \u00b10.75% per interval to prevent extreme payments. Long positions pay shorts when funding is positive, and vice versa when negative, with payments occurring automatically at funding time.",
+    "intro": "ETH/USDT perpetual futures on Binance — analyzed across 6,898 funding rate settlements spanning Nov 2019 to March 2026 (6.3 years of data). Average funding rate: +0.0135% per 8-hour settlement = 14.74% annualized. 87.4% of settlements are positive (shorts collect). All numbers from Zirodelta's 9.4M+ settlement record dataset — the deepest funding rate analysis available.",
+    "how_funding_works": "Binance calculates ETH/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between the perpetual price and mark price. The funding rate is capped at ±0.75% per interval to prevent extreme payments. Long positions pay shorts when funding is positive, and vice versa when negative, with payments occurring automatically at funding time.",
     "why_this_pair": "ETH/USDT represents the second-largest crypto perpetual market, offering exceptional liquidity depth and minimal slippage for large arbitrage positions. The pair's high institutional interest creates predictable funding rate patterns, especially during DeFi activity spikes and options expiry dates.",
     "sections": [
       {
         "heading": "Historical Data (6,898 Settlements)",
-        "body": "Our dataset contains 6,898 ETH/USDT settlements on Binance over 6.3 years. Average rate: +0.0135% per 8h (14.74% annualized). 87.4% of settlements are positive \u2014 meaning a delta-neutral short position collects funding roughly 6 out of every 7 settlement periods. Range spans from the Binance funding rate floor to ceiling, capturing multiple market cycles including bull runs, corrections, and sideways periods."
+        "body": "Our dataset contains 6,898 ETH/USDT settlements on Binance over 6.3 years. Average rate: +0.0135% per 8h (14.74% annualized). 87.4% of settlements are positive — meaning a delta-neutral short position collects funding roughly 6 out of every 7 settlement periods. Range spans from the Binance funding rate floor to ceiling, capturing multiple market cycles including bull runs, corrections, and sideways periods."
       },
       {
         "heading": "Monthly Trends & Seasonality",
-        "body": "July 2025 was strongest at 8.28% annualized (96.8% positive). Feb-Mar 2026 turned negative \u2014 ETH funding currently bearish at -4.01% and -1.70% annualized."
+        "body": "July 2025 was strongest at 8.28% annualized (96.8% positive). Feb-Mar 2026 turned negative — ETH funding currently bearish at -4.01% and -1.70% annualized."
       },
       {
         "heading": "Cross-Exchange Comparison: ETH Across Venues",
@@ -42,7 +42,7 @@
       },
       {
         "heading": "Delta-Neutral Strategy Application",
-        "body": "Buy ETH spot + short ETH perpetual = zero price exposure. Collect funding every 8 hours when positive (87.4% of the time on Binance). Zirodelta's engine automates this with smart venue routing \u2014 if Binance rates compress, it checks alternative exchanges for better rates. Cross-exchange routing (e.g., short perp on Binance, buy spot on another exchange) unlocks opportunities that single-exchange strategies miss."
+        "body": "Buy ETH spot + short ETH perpetual = zero price exposure. Collect funding every 8 hours when positive (87.4% of the time on Binance). Zirodelta's engine automates this with smart venue routing — if Binance rates compress, it checks alternative exchanges for better rates. Cross-exchange routing (e.g., short perp on Binance, buy spot on another exchange) unlocks opportunities that single-exchange strategies miss."
       }
     ],
     "faq": [
@@ -62,26 +62,90 @@
   },
   "visualData": {
     "monthlyTrend": [
-      {"month": "2025-04", "annualizedPct": 1.94, "positivePct": 58.9},
-      {"month": "2025-05", "annualizedPct": 6.10, "positivePct": 89.2},
-      {"month": "2025-06", "annualizedPct": 4.85, "positivePct": 87.8},
-      {"month": "2025-07", "annualizedPct": 8.28, "positivePct": 96.8},
-      {"month": "2025-08", "annualizedPct": 6.34, "positivePct": 92.5},
-      {"month": "2025-09", "annualizedPct": 3.40, "positivePct": 74.4},
-      {"month": "2025-10", "annualizedPct": 3.48, "positivePct": 81.7},
-      {"month": "2025-11", "annualizedPct": 5.15, "positivePct": 88.9},
-      {"month": "2025-12", "annualizedPct": 4.23, "positivePct": 86.0},
-      {"month": "2026-01", "annualizedPct": 4.83, "positivePct": 90.3},
-      {"month": "2026-02", "annualizedPct": -4.01, "positivePct": 34.5},
-      {"month": "2026-03", "annualizedPct": -1.70, "positivePct": 36.6}
+      {
+        "month": "2025-04",
+        "annualizedPct": 1.94,
+        "positivePct": 58.9
+      },
+      {
+        "month": "2025-05",
+        "annualizedPct": 6.1,
+        "positivePct": 89.2
+      },
+      {
+        "month": "2025-06",
+        "annualizedPct": 4.85,
+        "positivePct": 87.8
+      },
+      {
+        "month": "2025-07",
+        "annualizedPct": 8.28,
+        "positivePct": 96.8
+      },
+      {
+        "month": "2025-08",
+        "annualizedPct": 6.34,
+        "positivePct": 92.5
+      },
+      {
+        "month": "2025-09",
+        "annualizedPct": 3.4,
+        "positivePct": 74.4
+      },
+      {
+        "month": "2025-10",
+        "annualizedPct": 3.48,
+        "positivePct": 81.7
+      },
+      {
+        "month": "2025-11",
+        "annualizedPct": 5.15,
+        "positivePct": 88.9
+      },
+      {
+        "month": "2025-12",
+        "annualizedPct": 4.23,
+        "positivePct": 86
+      },
+      {
+        "month": "2026-01",
+        "annualizedPct": 4.83,
+        "positivePct": 90.3
+      },
+      {
+        "month": "2026-02",
+        "annualizedPct": -4.01,
+        "positivePct": 34.5
+      },
+      {
+        "month": "2026-03",
+        "annualizedPct": -1.7,
+        "positivePct": 36.6
+      }
     ],
     "positivePct": 87.4,
     "totalSettlements": 6898,
     "crossExchange": [
-      {"name": "Hyperliquid", "annualizedPct": 16.14, "settlements": 24331},
-      {"name": "KuCoin", "annualizedPct": 17.66, "settlements": 6334},
-      {"name": "Binance", "annualizedPct": 14.74, "settlements": 6898},
-      {"name": "Bybit", "annualizedPct": 11.72, "settlements": 5770}
+      {
+        "name": "Hyperliquid",
+        "annualizedPct": 16.14,
+        "settlements": 24331
+      },
+      {
+        "name": "KuCoin",
+        "annualizedPct": 17.66,
+        "settlements": 6334
+      },
+      {
+        "name": "Binance",
+        "annualizedPct": 14.74,
+        "settlements": 6898
+      },
+      {
+        "name": "Bybit",
+        "annualizedPct": 11.72,
+        "settlements": 5770
+      }
     ]
   },
   "related_pairs": [

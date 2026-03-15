@@ -47,8 +47,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title,
       description,
-      openGraph: { title: `${title} | Zirodelta`, description, type: "article" },
-      twitter: { card: "summary_large_image", title, description },
+      alternates: {
+        canonical: `https://zirodelta.com/rates/${exchange}/${pair}`,
+      },
+      openGraph: {
+        title: `${title} | Zirodelta`,
+        description,
+        type: "article",
+        images: [{ url: "https://zirodelta.com/og-image.jpg", width: 1200, height: 630, alt: "Zirodelta" }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+        images: ["https://zirodelta.com/og-image.jpg"],
+      },
     }
   }
 
@@ -56,15 +69,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: page.seo.title,
     description: page.seo.description,
     keywords: page.seo.keywords,
+    alternates: {
+      canonical: `https://zirodelta.com/rates/${exchange}/${pair}`,
+    },
     openGraph: {
       title: `${page.seo.title} | Zirodelta`,
       description: page.seo.description,
       type: "article",
+      images: [{ url: "https://zirodelta.com/og-image.jpg", width: 1200, height: 630, alt: "Zirodelta" }],
     },
     twitter: {
       card: "summary_large_image",
       title: page.seo.title,
       description: page.seo.description,
+      images: ["https://zirodelta.com/og-image.jpg"],
     },
   }
 }

@@ -4,7 +4,7 @@ import { Footer } from "@/components/zirodelta/footer"
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Zirodelta Rates",
+    template: "%s | Zirodelta",
     default: "Funding Rates | Zirodelta",
   },
   description:

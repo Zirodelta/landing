@@ -10,8 +10,8 @@
     "quote": "USDT"
   },
   "seo": {
-    "title": "Bybit BTC/USDT Funding Rate \u2014 10,635 Settlements Analyzed | Zirodelta",
-    "description": "BTC/USDT funding rate on Bybit: 11.77% annualized across 10,635 settlements (Mar 2021\u2013Mar 2026). 73.0% positive rate frequency. Real data from 9.4M+ records.",
+    "title": "Bybit BTC/USDT Funding Rate — 10,635 Settlements Analyzed",
+    "description": "BTC/USDT funding rate on Bybit: 11.77% annualized across 10,635 settlements (Mar 2021–Mar 2026). 73.0% positive rate frequency. Real data from 9.4M+ records.",
     "keywords": [
       "bybit funding rate",
       "btc usdt perpetual",
@@ -24,13 +24,13 @@
     ]
   },
   "content": {
-    "intro": "BTC/USDT perpetual futures on Bybit \u2014 analyzed across 10,635 funding rate settlements spanning Mar 2021 to March 2026 (5.0 years of data). Average funding rate: +0.0098% per 8-hour settlement = 11.77% annualized. 73.0% of settlements are positive (shorts collect). All numbers from Zirodelta's 9.4M+ settlement record dataset \u2014 the deepest funding rate analysis available.",
-    "how_funding_works": "Bybit calculates funding rates for BTC/USDT every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at \u00b10.75% per interval to prevent extreme volatility. Long positions pay short positions when the rate is positive (indicating perpetual trading above spot), while shorts pay longs during negative funding periods. Payments are automatically settled in USDT without affecting your position size.",
+    "intro": "BTC/USDT perpetual futures on Bybit — analyzed across 10,635 funding rate settlements spanning Mar 2021 to March 2026 (5.0 years of data). Average funding rate: +0.0098% per 8-hour settlement = 11.77% annualized. 73.0% of settlements are positive (shorts collect). All numbers from Zirodelta's 9.4M+ settlement record dataset — the deepest funding rate analysis available.",
+    "how_funding_works": "Bybit calculates funding rates for BTC/USDT every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme volatility. Long positions pay short positions when the rate is positive (indicating perpetual trading above spot), while shorts pay longs during negative funding periods. Payments are automatically settled in USDT without affecting your position size.",
     "why_this_pair": "BTC/USDT represents the highest volume perpetual contract globally, providing unmatched liquidity for large funding rate arbitrage positions. The pair's massive open interest ensures minimal slippage when entering or exiting positions. Bitcoin's established correlation patterns and funding rate predictability make this contract particularly suitable for systematic arbitrage strategies across multiple market cycles.",
     "sections": [
       {
         "heading": "Historical Data (10,635 Settlements)",
-        "body": "Our dataset contains 10,635 BTC/USDT settlements on Bybit over 5.0 years. Average rate: +0.0098% per 8h (11.77% annualized). 73.0% of settlements are positive \u2014 meaning a delta-neutral short position collects funding roughly 5 out of every 7 settlement periods. Range spans from the Binance funding rate floor to ceiling, capturing multiple market cycles including bull runs, corrections, and sideways periods."
+        "body": "Our dataset contains 10,635 BTC/USDT settlements on Bybit over 5.0 years. Average rate: +0.0098% per 8h (11.77% annualized). 73.0% of settlements are positive — meaning a delta-neutral short position collects funding roughly 5 out of every 7 settlement periods. Range spans from the Binance funding rate floor to ceiling, capturing multiple market cycles including bull runs, corrections, and sideways periods."
       },
       {
         "heading": "Monthly Trends & Seasonality",
@@ -42,7 +42,7 @@
       },
       {
         "heading": "Delta-Neutral Strategy Application",
-        "body": "Buy BTC spot + short BTC perpetual = zero price exposure. Collect funding every 8 hours when positive (73.0% of the time on Bybit). Zirodelta's engine automates this with smart venue routing \u2014 if Bybit rates compress, it checks alternative exchanges for better rates. Cross-exchange routing (e.g., short perp on Bybit, buy spot on another exchange) unlocks opportunities that single-exchange strategies miss."
+        "body": "Buy BTC spot + short BTC perpetual = zero price exposure. Collect funding every 8 hours when positive (73.0% of the time on Bybit). Zirodelta's engine automates this with smart venue routing — if Bybit rates compress, it checks alternative exchanges for better rates. Cross-exchange routing (e.g., short perp on Bybit, buy spot on another exchange) unlocks opportunities that single-exchange strategies miss."
       }
     ],
     "faq": [

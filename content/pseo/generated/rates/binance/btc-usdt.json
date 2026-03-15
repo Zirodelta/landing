@@ -10,8 +10,8 @@
     "quote": "USDT"
   },
   "seo": {
-    "title": "Binance BTC/USDT Funding Rate \u2014 7,087 Settlements Analyzed | Zirodelta",
-    "description": "BTC/USDT funding rate on Binance: 12.23% annualized across 7,087 settlements (Sep 2019\u2013Mar 2026). 86.5% positive rate frequency. Real data from 9.4M+ funding rate records.",
+    "title": "Binance BTC/USDT Funding Rate — 7,087 Settlements Analyzed",
+    "description": "BTC/USDT funding rate on Binance: 12.23% annualized across 7,087 settlements (Sep 2019–Mar 2026). 86.5% positive rate frequency. Real data from 9.4M+ funding rate records.",
     "keywords": [
       "binance btc funding rate",
       "btc usdt perpetual",
@@ -29,17 +29,17 @@
     ]
   },
   "content": {
-    "intro": "BTC/USDT on Binance is the most liquid perpetual futures market in crypto. We have analyzed 7,087 individual funding rate settlements spanning September 2019 to March 2026 \u2014 over 6.5 years of continuous data from our 9.4M+ settlement record dataset. The average funding rate is +0.0112% per 8-hour settlement, translating to 12.23% annualized yield for delta-neutral short positions. 86.5% of all settlements pay shorts (positive rate), making this one of the most consistent funding rate arbitrage opportunities in the market.",
-    "how_funding_works": "Binance calculates BTC/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a premium/discount index between the perpetual price and spot price. When the perp trades at a premium (bullish sentiment), the rate is positive and longs pay shorts. When it trades at a discount, shorts pay longs. Binance clamps the rate between -0.30% and +0.30% per settlement. Across our 7,087 recorded settlements, the average is +0.0112% \u2014 heavily skewed toward positive, meaning short positions have a structural edge.",
-    "why_this_pair": "BTC/USDT on Binance is the gold standard for funding rate arbitrage because of three factors our data confirms: (1) Highest liquidity \u2014 over $20B daily volume means negligible slippage on entry/exit. (2) Most consistent positive rates \u2014 86.5% positive frequency is the highest among BTC pairs across all exchanges we track. (3) Deepest history \u2014 7,087 settlements since Sep 2019 gives us 6.5 years of validated patterns. No other funding rate data source offers this depth of analysis.",
+    "intro": "BTC/USDT on Binance is the most liquid perpetual futures market in crypto. We have analyzed 7,087 individual funding rate settlements spanning September 2019 to March 2026 — over 6.5 years of continuous data from our 9.4M+ settlement record dataset. The average funding rate is +0.0112% per 8-hour settlement, translating to 12.23% annualized yield for delta-neutral short positions. 86.5% of all settlements pay shorts (positive rate), making this one of the most consistent funding rate arbitrage opportunities in the market.",
+    "how_funding_works": "Binance calculates BTC/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a premium/discount index between the perpetual price and spot price. When the perp trades at a premium (bullish sentiment), the rate is positive and longs pay shorts. When it trades at a discount, shorts pay longs. Binance clamps the rate between -0.30% and +0.30% per settlement. Across our 7,087 recorded settlements, the average is +0.0112% — heavily skewed toward positive, meaning short positions have a structural edge.",
+    "why_this_pair": "BTC/USDT on Binance is the gold standard for funding rate arbitrage because of three factors our data confirms: (1) Highest liquidity — over $20B daily volume means negligible slippage on entry/exit. (2) Most consistent positive rates — 86.5% positive frequency is the highest among BTC pairs across all exchanges we track. (3) Deepest history — 7,087 settlements since Sep 2019 gives us 6.5 years of validated patterns. No other funding rate data source offers this depth of analysis.",
     "sections": [
       {
         "heading": "Historical Funding Rate Data (7,087 Settlements)",
-        "body": "Our analysis of 7,087 Binance BTC/USDT settlements reveals an average rate of +0.0112% per 8h cycle (12.23% annualized). The median rate is +0.0100%, confirming the distribution skews positive. Rates range from -0.30% to +0.30% (Binance clamps at these extremes). Out of 7,087 settlements, 6,127 (86.5%) were positive and only 960 (13.5%) were negative \u2014 meaning shorts collect funding roughly 6 out of every 7 settlement periods."
+        "body": "Our analysis of 7,087 Binance BTC/USDT settlements reveals an average rate of +0.0112% per 8h cycle (12.23% annualized). The median rate is +0.0100%, confirming the distribution skews positive. Rates range from -0.30% to +0.30% (Binance clamps at these extremes). Out of 7,087 settlements, 6,127 (86.5%) were positive and only 960 (13.5%) were negative — meaning shorts collect funding roughly 6 out of every 7 settlement periods."
       },
       {
         "heading": "Monthly Rate Trends (Last 12 Months)",
-        "body": "Funding rates show clear seasonality. July 2025 was the strongest month with 100% positive settlements and 8.58% annualized return. January 2026 followed strong at 5.39% annualized (95.7% positive). However, March 2026 has turned negative at -1.46% annualized with only 36.6% positive settlements \u2014 reflecting the current bearish market sentiment. This cyclical pattern is exactly what our engine exploits: enter during positive rate regimes, exit when rates decay below threshold."
+        "body": "Funding rates show clear seasonality. July 2025 was the strongest month with 100% positive settlements and 8.58% annualized return. January 2026 followed strong at 5.39% annualized (95.7% positive). However, March 2026 has turned negative at -1.46% annualized with only 36.6% positive settlements — reflecting the current bearish market sentiment. This cyclical pattern is exactly what our engine exploits: enter during positive rate regimes, exit when rates decay below threshold."
       },
       {
         "heading": "Cross-Exchange Comparison: Where BTC Funding Pays Most",
@@ -47,7 +47,7 @@
       },
       {
         "heading": "Arbitrage Execution: How Zirodelta Captures This",
-        "body": "Zirodelta's engine automates the delta-neutral strategy on BTC/USDT: buy 1 BTC spot, short 1 BTC perpetual. Net exposure: zero. Every 8 hours when the rate is positive (86.5% of the time), the short position collects funding. Our engine routes across exchanges \u2014 if Binance rates compress, it checks Bybit, Hyperliquid, and KuCoin for better rates. Smart venue routing ensures we always capture the best available spread. Historical backtest over 6.35 years: 19.55% CAGR, Sharpe 3.74, max drawdown 3.48%."
+        "body": "Zirodelta's engine automates the delta-neutral strategy on BTC/USDT: buy 1 BTC spot, short 1 BTC perpetual. Net exposure: zero. Every 8 hours when the rate is positive (86.5% of the time), the short position collects funding. Our engine routes across exchanges — if Binance rates compress, it checks Bybit, Hyperliquid, and KuCoin for better rates. Smart venue routing ensures we always capture the best available spread. Historical backtest over 6.35 years: 19.55% CAGR, Sharpe 3.74, max drawdown 3.48%."
       }
     ],
     "faq": [
@@ -75,26 +75,90 @@
   },
   "visualData": {
     "monthlyTrend": [
-      {"month": "2025-04", "annualizedPct": 2.64, "positivePct": 73.3},
-      {"month": "2025-05", "annualizedPct": 5.08, "positivePct": 90.3},
-      {"month": "2025-06", "annualizedPct": 2.87, "positivePct": 80.0},
-      {"month": "2025-07", "annualizedPct": 8.58, "positivePct": 100.0},
-      {"month": "2025-08", "annualizedPct": 7.12, "positivePct": 96.8},
-      {"month": "2025-09", "annualizedPct": 5.32, "positivePct": 92.2},
-      {"month": "2025-10", "annualizedPct": 3.62, "positivePct": 74.2},
-      {"month": "2025-11", "annualizedPct": 5.44, "positivePct": 87.8},
-      {"month": "2025-12", "annualizedPct": 5.00, "positivePct": 89.2},
-      {"month": "2026-01", "annualizedPct": 5.39, "positivePct": 95.7},
-      {"month": "2026-02", "annualizedPct": -0.83, "positivePct": 46.4},
-      {"month": "2026-03", "annualizedPct": -1.46, "positivePct": 36.6}
+      {
+        "month": "2025-04",
+        "annualizedPct": 2.64,
+        "positivePct": 73.3
+      },
+      {
+        "month": "2025-05",
+        "annualizedPct": 5.08,
+        "positivePct": 90.3
+      },
+      {
+        "month": "2025-06",
+        "annualizedPct": 2.87,
+        "positivePct": 80
+      },
+      {
+        "month": "2025-07",
+        "annualizedPct": 8.58,
+        "positivePct": 100
+      },
+      {
+        "month": "2025-08",
+        "annualizedPct": 7.12,
+        "positivePct": 96.8
+      },
+      {
+        "month": "2025-09",
+        "annualizedPct": 5.32,
+        "positivePct": 92.2
+      },
+      {
+        "month": "2025-10",
+        "annualizedPct": 3.62,
+        "positivePct": 74.2
+      },
+      {
+        "month": "2025-11",
+        "annualizedPct": 5.44,
+        "positivePct": 87.8
+      },
+      {
+        "month": "2025-12",
+        "annualizedPct": 5,
+        "positivePct": 89.2
+      },
+      {
+        "month": "2026-01",
+        "annualizedPct": 5.39,
+        "positivePct": 95.7
+      },
+      {
+        "month": "2026-02",
+        "annualizedPct": -0.83,
+        "positivePct": 46.4
+      },
+      {
+        "month": "2026-03",
+        "annualizedPct": -1.46,
+        "positivePct": 36.6
+      }
     ],
     "positivePct": 86.5,
     "totalSettlements": 7087,
     "crossExchange": [
-      {"name": "Hyperliquid", "annualizedPct": 16.12, "settlements": 24331},
-      {"name": "Binance", "annualizedPct": 13.96, "settlements": 19214},
-      {"name": "Bybit", "annualizedPct": 11.77, "settlements": 10635},
-      {"name": "KuCoin", "annualizedPct": 7.62, "settlements": 8631}
+      {
+        "name": "Hyperliquid",
+        "annualizedPct": 16.12,
+        "settlements": 24331
+      },
+      {
+        "name": "Binance",
+        "annualizedPct": 13.96,
+        "settlements": 19214
+      },
+      {
+        "name": "Bybit",
+        "annualizedPct": 11.77,
+        "settlements": 10635
+      },
+      {
+        "name": "KuCoin",
+        "annualizedPct": 7.62,
+        "settlements": 8631
+      }
     ]
   },
   "related_pairs": [
