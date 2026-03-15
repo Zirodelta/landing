@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Free Crypto Tools",
   description: "Free funding rate calculator, APY estimator, and live spread scanner for crypto perpetual futures traders.",
   openGraph: {
+    images: [{ url: "/api/og?type=tools", width: 1200, height: 630 }],
     title: "Free Crypto Tools | Zirodelta",
     description: "Free funding rate calculator, APY estimator, and live spread scanner for crypto perpetual futures traders.",
     type: "website",

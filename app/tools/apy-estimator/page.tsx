@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "APY Estimator",
   description: "Compare simple APR vs compounded APY for crypto funding rates. Visualize 5 market scenarios across different funding intervals.",
   openGraph: {
+    images: [{ url: "/api/og?type=tool&title=APY+Estimator&subtitle=Compare+simple+APR+vs+compounded+APY", width: 1200, height: 630 }],
     title: "APY Estimator | Zirodelta",
     description: "Compare simple APR vs compounded APY for crypto funding rates across different intervals.",
     type: "website",

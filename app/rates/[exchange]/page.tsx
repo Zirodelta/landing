@@ -33,13 +33,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${title} | Zirodelta`,
       description,
-      images: [{ url: "https://zirodelta.com/og-image.jpg", width: 1200, height: 630, alt: "Zirodelta" }],
+      images: [{ url: `/api/og?type=exchange&exchange=${slug}`, width: 1200, height: 630, alt: "Zirodelta" }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["https://zirodelta.com/og-image.jpg"],
+      images: [`/api/og?type=exchange&exchange=${slug}`],
     },
   }
 }

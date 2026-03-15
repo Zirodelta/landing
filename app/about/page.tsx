@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "About",
   description: "Built on Data, Not Hype. Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage.",
   openGraph: {
+    images: [{ url: "/api/og?type=about", width: 1200, height: 630 }],
     title: "About | Zirodelta",
     description: "Built on Data, Not Hype. Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage.",
     type: "website",

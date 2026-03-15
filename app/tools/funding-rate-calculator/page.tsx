@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Funding Rate Calculator",
   description: "Calculate funding rate earnings and net profit after trading fees for crypto perpetual futures. Free, client-side, no sign-up required.",
   openGraph: {
+    images: [{ url: "/api/og?type=tool&title=Funding+Rate+Calculator", width: 1200, height: 630 }],
     title: "Funding Rate Calculator | Zirodelta",
     description: "Calculate funding rate earnings and net profit after trading fees for crypto perpetual futures.",
     type: "website",

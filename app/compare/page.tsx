@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "Side-by-side comparisons of perpetual futures funding rates, fees, and mechanics across major crypto exchanges.",
   openGraph: {
+    images: [{ url: "/api/og?type=compare", width: 1200, height: 630 }],
     title: "Compare Exchanges | Zirodelta",
     description:
       "Side-by-side comparisons of perpetual futures funding rates across exchanges.",

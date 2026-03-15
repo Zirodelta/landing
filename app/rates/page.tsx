@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "Compare perpetual futures funding rates across 19 exchanges. Live data for CEX and DEX platforms including Binance, Bybit, OKX, Hyperliquid, dYdX, and more.",
   openGraph: {
+    images: [{ url: "/api/og?type=rates", width: 1200, height: 630 }],
     title: "Funding Rates by Exchange | Zirodelta",
     description:
       "Compare perpetual futures funding rates across 19 exchanges. CEX and DEX platforms.",

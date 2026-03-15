@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Published quantitative research from Zirodelta — backtests, strategy analysis, and the evidence behind every decision we make.",
   openGraph: {
+    images: [{ url: "/api/og?type=research", width: 1200, height: 630 }],
     title: "Research | Zirodelta",
     description:
       "Backtests, strategy analysis, dead-end documentation, and stress tests. Every claim backed by data.",

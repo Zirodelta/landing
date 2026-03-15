@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Zidee — Funding Rate Sniper Bot",
   description: "One-tap funding rate scalps on Telegram. Scan extreme rates across 6 exchanges, enter delta-neutral, collect one settlement, auto-close. Backed by 9.4M settlement backtest.",
   openGraph: {
+    images: [{ url: "/api/og?type=tool&title=Zidee+—+Funding+Rate+Sniper&label=Telegram+Bot", width: 1200, height: 630 }],
     title: "Zidee — Funding Rate Sniper Bot | Zirodelta",
     description: "One-tap funding rate scalps on Telegram. Scan extreme rates, enter delta-neutral, collect one settlement, auto-close.",
     type: "website",

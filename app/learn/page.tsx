@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Guides, comparisons, and research on funding rate arbitrage, delta-neutral yield, and automated crypto strategies from Zirodelta.",
   openGraph: {
+    images: [{ url: "/api/og?type=learn", width: 1200, height: 630 }],
     title: "Learn | Zirodelta",
     description:
       "Guides, comparisons, and research on funding rate arbitrage, delta-neutral yield, and automated crypto strategies.",

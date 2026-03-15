@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     canonical: "https://zirodelta.com/rates/calendar",
   },
   openGraph: {
+    images: [{ url: "/api/og?type=calendar", width: 1200, height: 630 }],
     title: "Funding Rate Settlement Schedule — All Exchanges | Zirodelta",
     description:
       "Complete funding rate settlement calendar for Binance, Bybit, KuCoin, Hyperliquid, Gate, OKX, and 13 more exchanges.",
     url: "https://zirodelta.com/rates/calendar",
-    images: [{ url: "https://zirodelta.com/og-image.jpg" }],
   },
   twitter: {
     card: "summary_large_image",

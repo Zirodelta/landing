@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     canonical: "https://zirodelta.com/rates/leaderboard",
   },
   openGraph: {
+    images: [{ url: "/api/og?type=leaderboard", width: 1200, height: 630 }],
     title: "Highest Funding Rates Today — Live Crypto Leaderboard | Zirodelta",
     description:
       "Real-time funding rate leaderboard across Binance, Bybit, KuCoin, and Hyperliquid. See which perpetual futures have the highest rates right now.",
     url: "https://zirodelta.com/rates/leaderboard",
-    images: [{ url: "https://zirodelta.com/og-image.jpg" }],
   },
   twitter: {
     card: "summary_large_image",

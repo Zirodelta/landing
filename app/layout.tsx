@@ -83,7 +83,7 @@ export const metadata: Metadata = {
       'Consistent daily yield from crypto derivatives. No trading, no directional risk. 19% annual return stress-tested over 6 years.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/api/og?type=home',
         width: 1200,
         height: 630,
         alt: 'Zirodelta - Autonomous Funding Rate Arbitrage',
@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     title: 'Zirodelta | Daily Income That Ignores The Market',
     description:
       'Consistent daily yield from crypto derivatives. No trading, no directional risk. 19% annual return stress-tested over 6 years.',
-    images: ['/og-image.jpg'],
+    images: ['/api/og?type=home'],
   },
 }
 

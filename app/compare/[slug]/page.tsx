@@ -37,13 +37,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${page.seo.title} | Zirodelta`,
         description: page.seo.description,
         type: "article",
-        images: [{ url: "https://zirodelta.com/og-image.jpg", width: 1200, height: 630, alt: "Zirodelta" }],
+        images: [{ url: `/api/og?type=compare&slug=${slug}`, width: 1200, height: 630 }],
       },
       twitter: {
         card: "summary_large_image",
         title: page.seo.title,
         description: page.seo.description,
-        images: ["https://zirodelta.com/og-image.jpg"],
+        images: [`/api/og?type=compare&slug=${slug}`],
       },
     }
   }
@@ -67,13 +67,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           title: `${title} | Zirodelta`,
           description,
           type: "article",
-          images: [{ url: "https://zirodelta.com/og-image.jpg", width: 1200, height: 630, alt: "Zirodelta" }],
+          images: [{ url: `/api/og?type=compare&slug=${slug}`, width: 1200, height: 630 }],
         },
         twitter: {
           card: "summary_large_image",
           title,
           description,
-          images: ["https://zirodelta.com/og-image.jpg"],
+          images: [`/api/og?type=compare&slug=${slug}`],
         },
       }
     }

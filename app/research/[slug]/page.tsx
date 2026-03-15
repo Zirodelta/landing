@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: article.title,
     description: article.description,
     openGraph: {
+        images: [{ url: `/api/og?type=research&title=${encodeURIComponent(article.title)}`, width: 1200, height: 630 }],
       title: `${article.title} | Zirodelta Research`,
       description: article.description,
       type: "article",

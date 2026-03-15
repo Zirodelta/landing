@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Spread Scanner",
   description: "Live funding rate spread scanner across crypto exchanges. Find the highest funding rate arbitrage opportunities in real time.",
   openGraph: {
+    images: [{ url: "/api/og?type=tool&title=Live+Spread+Scanner", width: 1200, height: 630 }],
     title: "Spread Scanner | Zirodelta",
     description: "Live funding rate spread scanner across crypto exchanges. Find the highest arbitrage opportunities.",
     type: "website",
