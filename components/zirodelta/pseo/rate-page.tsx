@@ -8,6 +8,7 @@ import { FundingRateChart } from "./funding-rate-chart"
 import { PositiveRateGauge } from "./positive-rate-gauge"
 import { ExchangeComparisonBars } from "./exchange-comparison-bars"
 import { MonthlyHeatmap } from "./monthly-heatmap"
+import { LiveRateHero } from "./live-rate-hero"
 
 export function RatePageRenderer({ page }: { page: FundingRatePage }) {
   const { exchange, pair, content, related_pairs } = page
@@ -36,6 +37,14 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
           { label: exchange.name, href: `/rates/${exchange.slug}` },
           { label: `${pair.base}/${pair.quote}` },
         ]}
+      />
+
+      {/* Live Rate Hero */}
+      <LiveRateHero
+        exchange={exchange.slug}
+        pair={pair.slug}
+        exchangeName={exchange.name}
+        pairLabel={`${pair.base}/${pair.quote}`}
       />
 
       {/* Header */}
