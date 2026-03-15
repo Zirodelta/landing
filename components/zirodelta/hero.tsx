@@ -28,11 +28,10 @@ export function Hero() {
             </span>
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            Earn{" "}
-            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>daily</span>{" "}
-            income
+            Daily income that{" "}
+            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>ignores</span>
             <br className="hidden sm:block" />
-            {" "}<span className="text-gradient">from your crypto</span>
+            {" "}<span className="text-gradient">the market</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed md:text-xl" style={{ color: '#e8e8e8' }}>
             Our engine captures yield from derivatives markets 24/7. You deposit, we generate income, you withdraw anytime. No trading required. No directional risk.
