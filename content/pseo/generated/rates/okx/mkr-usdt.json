@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "MKR/USDT perpetual futures on OKX offer funding rate arbitrage opportunities within the DeFi governance token sector. OKX's 8-hour funding intervals and robust portfolio margin system enable efficient position management for MKR funding strategies.",
+    "intro": "MKR/USDT perpetual futures on OKX offer funding rate arbitrage opportunities within the DeFi governance token sector. OKX's 8-hour funding intervals and reliable portfolio margin system enable efficient position management for MKR funding strategies.",
     "how_funding_works": "OKX calculates MKR/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The exchange uses a time-weighted average price methodology with a ±0.05% funding rate cap to prevent extreme payments. OKX's portfolio margin mode allows cross-collateralization with other positions, reducing margin requirements for funding rate arbitrage strategies.",
     "why_this_pair": "MKR's role as the governance token for MakerDAO creates unique funding rate dynamics driven by DeFi protocol developments and DAI stability mechanisms. The token's mid-tier trading volume on OKX provides sufficient liquidity for arbitrage while often exhibiting higher funding rate volatility compared to major cryptocurrencies.",
     "sections": [

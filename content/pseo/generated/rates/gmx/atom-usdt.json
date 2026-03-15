@@ -26,7 +26,7 @@
   "content": {
     "intro": "ATOM/USDT perpetual futures on GMX offer unique funding rate arbitrage opportunities through the platform's oracle-based pricing and hourly funding settlements. As Arbitrum's leading perpetual DEX, GMX provides exposure to Cosmos Hub's native token with deep GLP-backed liquidity.",
     "how_funding_works": "GMX calculates ATOM/USDT funding rates hourly using Chainlink oracles and open interest imbalances between longs and shorts. The platform's GLP liquidity pool acts as the counterparty, eliminating traditional order book dynamics. Funding payments occur every hour at the top of each hour, with rates determined by the deviation between perpetual and spot prices plus an interest rate component.",
-    "why_this_pair": "ATOM's moderate volatility and consistent trading volume make it attractive for funding rate strategies on GMX's oracle-based system. The pair benefits from reduced price manipulation risk due to Chainlink's robust price feeds and GMX's anti-front-running mechanisms. Cosmos ecosystem developments often create sustained directional bias, generating predictable funding rate patterns.",
+    "why_this_pair": "ATOM's moderate volatility and consistent trading volume make it attractive for funding rate strategies on GMX's oracle-based system. The pair benefits from reduced price manipulation risk due to Chainlink's reliable price feeds and GMX's anti-front-running mechanisms. Cosmos ecosystem developments often create sustained directional bias, generating predictable funding rate patterns.",
     "sections": [
       {
         "heading": "Historical Funding Rate Patterns",

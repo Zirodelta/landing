@@ -34,7 +34,7 @@
       },
       {
         "heading": "Arbitrage Opportunities and Strategies",
-        "body": "OKX's portfolio margin mode enables delta-neutral strategies by shorting MATIC perps while holding spot MATIC across multiple wallets. The exchange's multi-chain wallet integration allows seamless MATIC transfers from Polygon mainnet for hedging purposes. Cross-exchange arbitrage opportunities emerge when OKX funding rates deviate significantly from Binance or Bybit rates. Basis trading strategies work effectively during periods of high implied volatility when futures trade at substantial premiums. Advanced traders can utilize OKX's API for automated funding rate monitoring and position management across multiple perpetual pairs."
+        "body": "OKX's portfolio margin mode enables delta-neutral strategies by shorting MATIC perps while holding spot MATIC across multiple wallets. The exchange's multi-chain wallet integration allows smooth MATIC transfers from Polygon mainnet for hedging purposes. Cross-exchange arbitrage opportunities emerge when OKX funding rates deviate significantly from Binance or Bybit rates. Basis trading strategies work effectively during periods of high implied volatility when futures trade at substantial premiums. Advanced traders can utilize OKX's API for automated funding rate monitoring and position management across multiple perpetual pairs."
       },
       {
         "heading": "Risk Management Considerations",

@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Considerations",
-        "body": "StarkNet's early-stage infrastructure presents execution risks during high volatility periods, particularly for time-sensitive funding arbitrage. Bridge delays between Ethereum L1 and StarkNet can impact capital efficiency when rapidly repositioning for rate opportunities. Paradex's limited trading pairs restrict hedging options compared to comprehensive CEX offerings, potentially increasing basis risk. Low liquidity in early stages may cause higher slippage costs that could offset funding rate advantages, particularly for larger position sizes."
+        "body": "StarkNet's early-stage infrastructure presents execution risks during high volatility periods, particularly for time-sensitive funding arbitrage. Bridge delays between Ethereum L1 and StarkNet can impact capital efficiency when rapidly repositioning for rate opportunities. Paradex's limited trading pairs restrict hedging options compared to complete CEX offerings, potentially increasing basis risk. Low liquidity in early stages may cause higher slippage costs that could offset funding rate advantages, particularly for larger position sizes."
       }
     ],
     "faq": [

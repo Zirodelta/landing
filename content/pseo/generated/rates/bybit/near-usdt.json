@@ -23,8 +23,8 @@
     ]
   },
   "content": {
-    "intro": "NEAR/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's robust derivatives infrastructure and competitive 0.02% maker fees make it attractive for NEAR Protocol traders seeking consistent funding income.",
-    "how_funding_works": "Bybit calculates NEAR/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. The exchange applies a dampening mechanism with ±0.375% boundaries around the interest rate component. Funding payments occur automatically between long and short position holders based on the 8-hour TWAP of the premium rate. Bybit's unified trading account allows seamless margin allocation across NEAR positions and other derivatives.",
+    "intro": "NEAR/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's reliable derivatives infrastructure and competitive 0.02% maker fees make it attractive for NEAR Protocol traders seeking consistent funding income.",
+    "how_funding_works": "Bybit calculates NEAR/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. The exchange applies a dampening mechanism with ±0.375% boundaries around the interest rate component. Funding payments occur automatically between long and short position holders based on the 8-hour TWAP of the premium rate. Bybit's unified trading account allows smooth margin allocation across NEAR positions and other derivatives.",
     "why_this_pair": "NEAR Protocol's mid-tier trading volume creates moderate funding rate volatility, often ranging from -0.2% to +0.3% during trending markets. The L1 blockchain's institutional adoption and developer activity generate sustained directional interest, leading to predictable funding patterns. NEAR's correlation with broader Layer 1 tokens provides diversification benefits for multi-pair funding strategies.",
     "sections": [
       {

@@ -23,7 +23,7 @@
     ]
   },
   "content": {
-    "intro": "RENDER/USDT perpetual futures on OKX offer funding rate arbitrage opportunities in the AI token sector with 8-hour funding intervals. OKX's portfolio margin mode and robust API infrastructure make it suitable for systematic funding rate strategies across AI-related perpetuals.",
+    "intro": "RENDER/USDT perpetual futures on OKX offer funding rate arbitrage opportunities in the AI token sector with 8-hour funding intervals. OKX's portfolio margin mode and reliable API infrastructure make it suitable for systematic funding rate strategies across AI-related perpetuals.",
     "how_funding_works": "OKX calculates RENDER/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium/discount between perpetual and spot prices. The funding rate is determined by the interest rate component (typically 0.01% per 8 hours) plus a premium index that reflects market sentiment. Long position holders pay funding when rates are positive, while short holders pay when rates are negative, with payments exchanged directly between traders.",
     "why_this_pair": "RENDER's volatility as an AI infrastructure token creates frequent funding rate imbalances on OKX, especially during AI market sentiment shifts. The pair's mid-tier volume provides adequate liquidity for funding arbitrage while maintaining higher rate volatility compared to major pairs like BTC or ETH.",
     "sections": [

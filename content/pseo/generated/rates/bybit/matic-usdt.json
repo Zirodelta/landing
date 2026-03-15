@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "Bybit's MATIC/USDT perpetual futures contract offers funding rate arbitrage opportunities on the Polygon ecosystem token. With 8-hour funding intervals and high trading volume, this pair presents consistent arbitrage potential for traders monitoring Layer 2 token market dynamics.",
-    "how_funding_works": "Bybit calculates MATIC/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and mark prices. The funding rate is capped at ±0.75% per interval, with payments exchanged directly between long and short position holders. Bybit's unified trading account allows seamless cross-margining between spot MATIC holdings and perpetual positions for efficient arbitrage execution.",
+    "how_funding_works": "Bybit calculates MATIC/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and mark prices. The funding rate is capped at ±0.75% per interval, with payments exchanged directly between long and short position holders. Bybit's unified trading account allows smooth cross-margining between spot MATIC holdings and perpetual positions for efficient arbitrage execution.",
     "why_this_pair": "MATIC perpetuals exhibit significant funding rate volatility due to speculative interest in Polygon's Layer 2 scaling solutions and DeFi ecosystem growth. The token's correlation with Ethereum network congestion and Layer 2 adoption cycles creates predictable funding rate patterns, particularly during network upgrade announcements or DeFi protocol integrations on Polygon.",
     "sections": [
       {

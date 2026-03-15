@@ -69,7 +69,7 @@
     },
     {
       "question": "Do both exchanges support automated funding rate strategies?",
-      "answer": "OKX offers superior API infrastructure with WebSocket feeds and lower latency for automated strategies. MEXC's API is functional but less robust for institutional-grade automated funding rate arbitrage."
+      "answer": "OKX offers superior API infrastructure with WebSocket feeds and lower latency for automated strategies. MEXC's API is functional but less reliable for institutional-grade automated funding rate arbitrage."
     }
   ],
   "seo": {

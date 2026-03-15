@@ -55,7 +55,7 @@
       },
       {
         "question": "Can I automate FTM funding rate strategies on Bitget?",
-        "answer": "Bitget provides REST and WebSocket APIs for automated trading, supporting funding rate data collection and position management. However, API rate limits and the exchange's newer infrastructure may require more robust error handling compared to established venues."
+        "answer": "Bitget provides REST and WebSocket APIs for automated trading, supporting funding rate data collection and position management. However, API rate limits and the exchange's newer infrastructure may require more reliable error handling compared to established venues."
       }
     ]
   },

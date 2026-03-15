@@ -56,7 +56,7 @@
       },
       {
         "question": "How reliable is Orderly Network's infrastructure for large AVAX positions?",
-        "answer": "Orderly's shared liquidity model provides better depth for large positions than typical DEX perpetuals, but remains less robust than major CEX platforms. The infrastructure is relatively new and dependent on multiple components including frontend partners and cross-chain bridges. Large position traders should consider splitting orders and monitoring frontend availability across different interfaces."
+        "answer": "Orderly's shared liquidity model provides better depth for large positions than typical DEX perpetuals, but remains less reliable than major CEX platforms. The infrastructure is relatively new and dependent on multiple components including frontend partners and cross-chain bridges. Large position traders should consider splitting orders and monitoring frontend availability across different interfaces."
       }
     ]
   },

@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "Both Hyperliquid and Aevo use standard 1-hour funding intervals with similar fee structures. Hyperliquid's fully on-chain order book provides transparent rate calculations directly on its L1, while Aevo uses off-chain order matching with on-chain settlement on its custom rollup. The key difference lies in Hyperliquid's real-time on-chain execution versus Aevo's hybrid approach combining options and perpetuals markets.",
-  "verdict": "Hyperliquid offers superior transparency and decentralization with its fully on-chain order book, making it ideal for funding rate arbitrageurs who value on-chain verification. Aevo provides a more comprehensive derivatives trading experience but with potentially less predictable funding mechanics due to its multi-product complexity.",
+  "verdict": "Hyperliquid offers superior transparency and decentralization with its fully on-chain order book, making it ideal for funding rate arbitrageurs who value on-chain verification. Aevo provides a more complete derivatives trading experience but with potentially less predictable funding mechanics due to its multi-product complexity.",
   "faq": [
     {
       "question": "Which exchange offers better funding rate transparency?",

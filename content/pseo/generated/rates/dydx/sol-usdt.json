@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Management Considerations",
-        "body": "Trading SOL funding rates on dYdX involves unique risks including potential validator downtime, bridge risks when transferring funds, and lower liquidity leading to wider spreads during volatile periods. The Cosmos appchain structure means traders must maintain USDC balances on dYdX rather than easily transferring between exchanges. Funding rate arbitrage positions require constant monitoring due to hourly settlements, and traders should maintain adequate collateral buffers given SOL's high volatility. The decentralized oracle system, while robust, can experience temporary pricing delays during extreme market conditions."
+        "body": "Trading SOL funding rates on dYdX involves unique risks including potential validator downtime, bridge risks when transferring funds, and lower liquidity leading to wider spreads during volatile periods. The Cosmos appchain structure means traders must maintain USDC balances on dYdX rather than easily transferring between exchanges. Funding rate arbitrage positions require constant monitoring due to hourly settlements, and traders should maintain adequate collateral buffers given SOL's high volatility. The decentralized oracle system, while reliable, can experience temporary pricing delays during extreme market conditions."
       }
     ],
     "faq": [

@@ -56,7 +56,7 @@
       },
       {
         "question": "Can I hedge XRP perpetual positions with Bybit's spot market?",
-        "answer": "Yes, Bybit's unified account allows seamless hedging between XRP/USDT spot and perpetual positions. However, spot liquidity is lower than perpetuals, so large positions may require partial hedging on external exchanges like Binance for optimal execution."
+        "answer": "Yes, Bybit's unified account allows smooth hedging between XRP/USDT spot and perpetual positions. However, spot liquidity is lower than perpetuals, so large positions may require partial hedging on external exchanges like Binance for optimal execution."
       }
     ]
   },

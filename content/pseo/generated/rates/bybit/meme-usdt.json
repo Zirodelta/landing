@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "MEME/USDT perpetual futures on Bybit offer unique funding rate arbitrage opportunities driven by the volatile nature of meme tokens and retail sentiment cycles. Bybit's 8-hour funding intervals and competitive 0.02% maker fees create favorable conditions for systematic arbitrage strategies.",
-    "how_funding_works": "Bybit calculates MEME/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and mark prices. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with extreme spikes during meme coin frenzies. Bybit's unified trading account allows seamless margin management across spot and derivatives positions for delta-neutral strategies.",
+    "how_funding_works": "Bybit calculates MEME/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and mark prices. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with extreme spikes during meme coin frenzies. Bybit's unified trading account allows smooth margin management across spot and derivatives positions for delta-neutral strategies.",
     "why_this_pair": "MEME tokens exhibit extreme funding rate volatility due to retail FOMO cycles and social media-driven price movements, creating frequent arbitrage windows. The relatively small trading volume compared to major cryptocurrencies means funding rates can spike dramatically during trending periods, offering higher potential returns for arbitrageurs willing to manage the inherent volatility risk.",
     "sections": [
       {

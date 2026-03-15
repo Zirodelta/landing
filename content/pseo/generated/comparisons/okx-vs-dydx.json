@@ -65,7 +65,7 @@
     },
     {
       "question": "Which platform is better for automated funding rate strategies?",
-      "answer": "OKX's robust API infrastructure and portfolio margin support complex automated strategies. dYdX's on-chain transparency and 1-hour funding intervals suit algorithmic approaches but require Cosmos ecosystem integration expertise."
+      "answer": "OKX's reliable API infrastructure and portfolio margin support complex automated strategies. dYdX's on-chain transparency and 1-hour funding intervals suit algorithmic approaches but require Cosmos ecosystem integration expertise."
     },
     {
       "question": "What are the main risks when arbitraging between these platforms?",

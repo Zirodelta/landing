@@ -44,7 +44,7 @@
     "faq": [
       {
         "question": "What makes JUP funding rates unique on OKX compared to other exchanges?",
-        "answer": "OKX's portfolio margin system allows JUP positions to be cross-collateralized with other Solana ecosystem tokens, reducing margin requirements. The exchange's robust API infrastructure also provides more precise funding rate data for algorithmic strategies."
+        "answer": "OKX's portfolio margin system allows JUP positions to be cross-collateralized with other Solana ecosystem tokens, reducing margin requirements. The exchange's reliable API infrastructure also provides more precise funding rate data for algorithmic strategies."
       },
       {
         "question": "How does Solana network performance affect JUP funding rates?",

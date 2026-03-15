@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "OKX's SOL/USDT perpetual futures contract offers 8-hour funding rate intervals with robust liquidity for arbitrage strategies. The exchange's portfolio margin mode allows efficient capital utilization across multiple positions.",
+    "intro": "OKX's SOL/USDT perpetual futures contract offers 8-hour funding rate intervals with reliable liquidity for arbitrage strategies. The exchange's portfolio margin mode allows efficient capital utilization across multiple positions.",
     "how_funding_works": "OKX calculates funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the mark price premium. The funding rate is exchanged between long and short position holders, with OKX taking no cut from the funding payments. Portfolio margin users can offset funding costs across correlated positions, reducing overall exposure.",
     "why_this_pair": "SOL/USDT represents one of OKX's most liquid alt-coin perpetual contracts with consistent funding rate volatility. The pair's strong correlation with broader DeFi sentiment creates predictable funding rate patterns during market cycles, making it ideal for systematic arbitrage strategies.",
     "sections": [

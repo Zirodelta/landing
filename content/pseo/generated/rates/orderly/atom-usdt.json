@@ -33,7 +33,7 @@
       },
       {
         "heading": "Arbitrage Opportunities",
-        "body": "Orderly's infrastructure enables arbitrage between funding rates across different frontend interfaces and against centralized exchanges like Binance or OKX. The 0.02% maker fee structure supports high-frequency funding rate strategies when hourly rates exceed 0.07%. Cross-chain arbitrage opportunities arise when ATOM rates diverge significantly from IBC-connected chains. Traders can leverage the shared order book to capture rate differences while maintaining consistent execution across multiple DEX frontends."
+        "body": "Orderly's infrastructure enables arbitrage between funding rates across different frontend interfaces and against centralized exchanges like Binance or OKX. The 0.02% maker fee structure supports high-frequency funding rate strategies when hourly rates exceed 0.07%. Cross-chain arbitrage opportunities arise when ATOM rates diverge significantly from IBC-connected chains. Traders can use the shared order book to capture rate differences while maintaining consistent execution across multiple DEX frontends."
       },
       {
         "heading": "Risk Considerations",

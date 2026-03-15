@@ -52,7 +52,7 @@
       },
       {
         "question": "Can Solana network issues affect FLOKI funding collection on Drift?",
-        "answer": "Yes, Solana network congestion can delay funding settlements and position management. However, Drift's robust infrastructure typically maintains functionality during most network stress events, though traders should monitor network status during high-volatility periods."
+        "answer": "Yes, Solana network congestion can delay funding settlements and position management. However, Drift's reliable infrastructure typically maintains functionality during most network stress events, though traders should monitor network status during high-volatility periods."
       },
       {
         "question": "How does FLOKI's volatility impact funding rates on Drift's system?",

@@ -65,7 +65,7 @@
     },
     {
       "question": "Which platform is better for automated funding arbitrage?",
-      "answer": "Bybit's robust API and faster execution make it preferred for automated strategies on liquid pairs. Gate.io's API works well but may experience higher latency during volatile periods, affecting time-sensitive arbitrage execution."
+      "answer": "Bybit's reliable API and faster execution make it preferred for automated strategies on liquid pairs. Gate.io's API works well but may experience higher latency during volatile periods, affecting time-sensitive arbitrage execution."
     },
     {
       "question": "What are the main risks when arbitraging between these exchanges?",

@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Considerations",
-        "body": "Bluefin's position within the early Sui ecosystem creates liquidity risks during volatile periods, potentially causing funding rates to diverge dramatically from other exchanges. The DEX's lower overall volume compared to major CEX platforms means large positions can significantly impact funding calculations. Bridge risks between Sui and other chains complicate hedging strategies, while smart contract risks inherent to DeFi protocols require careful position sizing. Additionally, Bluefin's limited trading pairs reduce hedging options compared to established exchanges with comprehensive derivatives offerings."
+        "body": "Bluefin's position within the early Sui ecosystem creates liquidity risks during volatile periods, potentially causing funding rates to diverge dramatically from other exchanges. The DEX's lower overall volume compared to major CEX platforms means large positions can significantly impact funding calculations. Bridge risks between Sui and other chains complicate hedging strategies, while smart contract risks inherent to DeFi protocols require careful position sizing. Additionally, Bluefin's limited trading pairs reduce hedging options compared to established exchanges with complete derivatives offerings."
       }
     ],
     "faq": [

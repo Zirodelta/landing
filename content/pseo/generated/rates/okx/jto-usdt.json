@@ -26,7 +26,7 @@
   "content": {
     "intro": "JTO/USDT perpetual futures on OKX offer funding rate arbitrage opportunities in the Solana DeFi ecosystem through Jito's liquid staking protocol. With 8-hour funding intervals and portfolio margin support, traders can optimize capital efficiency while accessing this emerging DeFi primitive.",
     "how_funding_works": "OKX calculates JTO/USDT funding rates every 8 hours using a time-weighted average premium index between perpetual and spot prices. The exchange applies portfolio margin netting across positions, reducing capital requirements for hedged strategies. Funding payments occur at 00:00, 08:00, and 16:00 UTC, with rates typically ranging from -0.1% to +0.3% depending on market sentiment toward Solana liquid staking.",
-    "why_this_pair": "JTO represents exposure to Solana's liquid staking narrative, creating funding rate patterns distinct from general DeFi tokens. Lower trading volumes compared to major alts can lead to more pronounced funding rate deviations during MEV extraction periods or Solana network events. The pair benefits from OKX's multi-chain wallet integration for seamless on-chain arbitrage execution.",
+    "why_this_pair": "JTO represents exposure to Solana's liquid staking narrative, creating funding rate patterns distinct from general DeFi tokens. Lower trading volumes compared to major alts can lead to more pronounced funding rate deviations during MEV extraction periods or Solana network events. The pair benefits from OKX's multi-chain wallet integration for smooth on-chain arbitrage execution.",
     "sections": [
       {
         "heading": "Historical Funding Rate Patterns",

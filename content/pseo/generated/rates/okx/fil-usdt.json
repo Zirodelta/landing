@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "FIL/USDT perpetual futures on OKX offer funding rate arbitrage opportunities through 8-hour settlement cycles. OKX's portfolio margin mode enables capital-efficient positions across multiple Filecoin-related instruments.",
-    "how_funding_works": "OKX calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium index. The funding fee is exchanged between long and short position holders, with rates typically ranging from -0.375% to +0.375% per funding interval. OKX's robust API infrastructure allows for automated funding rate monitoring and position management across their perpetual futures ecosystem.",
+    "how_funding_works": "OKX calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium index. The funding fee is exchanged between long and short position holders, with rates typically ranging from -0.375% to +0.375% per funding interval. OKX's reliable API infrastructure allows for automated funding rate monitoring and position management across their perpetual futures ecosystem.",
     "why_this_pair": "FIL/USDT represents mid-tier volume in the infrastructure token category, often exhibiting predictable funding rate patterns due to storage mining economics. Filecoin's utility-driven demand creates periodic imbalances between long and short interest, generating consistent arbitrage opportunities for traders monitoring cross-exchange funding differentials.",
     "sections": [
       {

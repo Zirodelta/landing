@@ -37,7 +37,7 @@
       },
       {
         "heading": "Risk Considerations",
-        "body": "ETHFI's correlation with ETH staking narratives creates concentrated risk during protocol-specific events like validator updates or staking reward changes. Lower liquidity compared to major perpetuals increases slippage risk during position management, especially for larger arbitrage sizes. The token's newer market status means historical funding patterns may not predict future behavior during market stress periods. Smart contract risks from the underlying Ether.fi protocol, though minimal for perpetual trading, should be considered for comprehensive risk assessment."
+        "body": "ETHFI's correlation with ETH staking narratives creates concentrated risk during protocol-specific events like validator updates or staking reward changes. Lower liquidity compared to major perpetuals increases slippage risk during position management, especially for larger arbitrage sizes. The token's newer market status means historical funding patterns may not predict future behavior during market stress periods. Smart contract risks from the underlying Ether.fi protocol, though minimal for perpetual trading, should be considered for complete risk assessment."
       }
     ],
     "faq": [

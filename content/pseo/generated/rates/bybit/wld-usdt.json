@@ -23,7 +23,7 @@
     ]
   },
   "content": {
-    "intro": "WLD/USDT perpetual swaps on Bybit offer compelling funding rate arbitrage opportunities due to the token's high volatility and growing institutional interest. Bybit's 8-hour funding intervals and robust derivatives infrastructure make it ideal for capturing rate differentials on this AI-focused token.",
+    "intro": "WLD/USDT perpetual swaps on Bybit offer compelling funding rate arbitrage opportunities due to the token's high volatility and growing institutional interest. Bybit's 8-hour funding intervals and reliable derivatives infrastructure make it ideal for capturing rate differentials on this AI-focused token.",
     "how_funding_works": "Bybit calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index between perpetual and spot prices. The exchange applies a dampening mechanism with ±0.05% bounds to prevent extreme rates. Funding payments occur automatically between long and short position holders, with Bybit's unified margin system allowing efficient capital allocation across positions.",
     "why_this_pair": "WLD exhibits significant funding rate volatility due to its relatively recent launch and AI narrative-driven trading patterns. The token's connection to Worldcoin's identity verification project creates periodic sentiment-driven price movements that often disconnect perpetual prices from spot, generating profitable funding rate premiums.",
     "sections": [

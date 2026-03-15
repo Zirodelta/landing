@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "Both exchanges implement hourly funding rate calculations using standard perpetual futures mechanics. Aevo's rates benefit from options flow correlation but suffer from limited liquidity depth. Paradex aims for institutional-grade rate stability through portfolio margining but lacks the trading volume for consistent rate discovery. Rate spreads tend to be wider on both platforms compared to major CEXs due to lower liquidity.",
-  "verdict": "Aevo offers more mature infrastructure with unique options-perps synergy, making it suitable for sophisticated strategies. Paradex shows promise with institutional-focused features but remains too early-stage for reliable funding rate arbitrage opportunities.",
+  "verdict": "Aevo offers more mature infrastructure with unique options-perps combination, making it suitable for sophisticated strategies. Paradex shows promise with institutional-focused features but remains too early-stage for reliable funding rate arbitrage opportunities.",
   "faq": [
     {
       "question": "Which exchange offers better funding rate opportunities?",

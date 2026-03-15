@@ -56,7 +56,7 @@
       },
       {
         "question": "Can I automate ENA funding rate strategies on Drift?",
-        "answer": "Drift supports automated trading through its SDK and WebSocket connections, enabling programmatic ENA funding rate strategies with sub-second execution times. However, automated systems must account for Solana RPC reliability and implement robust error handling for network interruptions or failed transactions."
+        "answer": "Drift supports automated trading through its SDK and WebSocket connections, enabling programmatic ENA funding rate strategies with sub-second execution times. However, automated systems must account for Solana RPC reliability and implement reliable error handling for network interruptions or failed transactions."
       }
     ]
   },

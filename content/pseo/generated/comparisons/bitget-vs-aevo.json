@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "Bitget calculates funding rates every 8 hours using traditional CEX methodology with mark price vs index price differentials. Aevo operates with 1-hour funding intervals on its custom rollup, allowing more responsive rate adjustments to market conditions. The hourly frequency on Aevo creates more arbitrage opportunities but requires active monitoring. Both use similar funding rate formulas but Aevo's rollup architecture enables faster settlement compared to Bitget's centralized system.",
-  "verdict": "Bitget offers more predictable 8-hour cycles suitable for longer-term strategies, while Aevo's hourly funding creates more frequent arbitrage windows. Choose Bitget for established liquidity and copy trading features, or Aevo for cutting-edge DeFi integration and rapid funding adjustments.",
+  "verdict": "Bitget offers more predictable 8-hour cycles suitable for longer-term strategies, while Aevo's hourly funding creates more frequent arbitrage windows. Choose Bitget for established liquidity and copy trading features, or Aevo for modern DeFi integration and rapid funding adjustments.",
   "faq": [
     {
       "question": "Which exchange has better funding rate arbitrage opportunities?",

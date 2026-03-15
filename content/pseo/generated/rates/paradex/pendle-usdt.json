@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "PENDLE/USDT perpetuals on Paradex offer unique funding rate dynamics due to PENDLE's role as a yield trading protocol token. Paradex's hourly funding settlements and institutional-grade infrastructure make it compelling for sophisticated arbitrage strategies targeting DeFi yield tokens.",
-    "how_funding_works": "Paradex calculates PENDLE/USDT funding rates hourly using a time-weighted average price (TWAP) mechanism that compares perpetual prices to spot rates. The exchange's StarkNet-based infrastructure enables precise rate calculations with minimal latency. Portfolio margin allows efficient capital utilization across correlated DeFi positions. Jump Trading's derivatives expertise ensures robust funding rate methodology even during volatile yield farming cycles.",
+    "how_funding_works": "Paradex calculates PENDLE/USDT funding rates hourly using a time-weighted average price (TWAP) mechanism that compares perpetual prices to spot rates. The exchange's StarkNet-based infrastructure enables precise rate calculations with minimal latency. Portfolio margin allows efficient capital utilization across correlated DeFi positions. Jump Trading's derivatives expertise ensures reliable funding rate methodology even during volatile yield farming cycles.",
     "why_this_pair": "PENDLE's unique position as a yield trading token creates distinctive funding rate patterns that often diverge from broader market trends. The token's correlation with DeFi yield cycles and protocol adoption creates arbitrage opportunities particularly during yield farming seasons. Paradex's institutional focus attracts sophisticated traders who understand PENDLE's mechanics, leading to more efficient price discovery.",
     "sections": [
       {

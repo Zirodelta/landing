@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "DOT/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's robust derivatives infrastructure and competitive maker fees (0.02%) make it attractive for sustained arbitrage positions on Polkadot.",
+    "intro": "DOT/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's reliable derivatives infrastructure and competitive maker fees (0.02%) make it attractive for sustained arbitrage positions on Polkadot.",
     "how_funding_works": "Bybit calculates DOT/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of premium and interest components. The funding payment occurs between long and short position holders based on the rate direction, with Bybit's mark price methodology reducing manipulation risk. Position holders pay or receive funding only if they maintain positions through the settlement timestamp, allowing tactical entry and exit around funding windows.",
     "why_this_pair": "DOT perpetuals typically exhibit moderate volatility with funding rates ranging from -0.01% to 0.05% during normal market conditions. As a major Layer 1 token with substantial institutional interest, DOT funding rates often diverge across exchanges during parachains auctions or ecosystem updates, creating cross-exchange arbitrage opportunities.",
     "sections": [

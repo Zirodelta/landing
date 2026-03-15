@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "Both Aevo and RabbitX use hourly funding rate calculations based on the premium between perpetual and spot prices. Aevo's custom rollup enables faster rate updates but may show higher volatility due to lower liquidity. RabbitX leverages Starknet's infrastructure for rate calculations, potentially offering more stable rates as it scales. Both platforms use off-chain order matching with on-chain settlement, affecting funding rate precision. The lack of gas fees on RabbitX may lead to more frequent arbitrage activity, keeping funding rates closer to theoretical values.",
-  "verdict": "Aevo offers a more comprehensive DeFi derivatives experience with options integration, making it suitable for sophisticated strategies. RabbitX focuses purely on perpetual futures with superior execution speed and zero gas costs, better for high-frequency funding rate arbitrage.",
+  "verdict": "Aevo offers a more complete DeFi derivatives experience with options integration, making it suitable for sophisticated strategies. RabbitX focuses purely on perpetual futures with superior execution speed and zero gas costs, better for high-frequency funding rate arbitrage.",
   "faq": [
     {
       "question": "Which platform offers better funding rate opportunities?",

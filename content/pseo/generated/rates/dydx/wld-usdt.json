@@ -51,7 +51,7 @@
       },
       {
         "question": "Can I access WLD funding rate data through dYdX's API?",
-        "answer": "Yes, dYdX provides comprehensive API access for funding rate data including historical rates, current rates, and predicted next funding for WLD/USDT. The API also includes mark price, index price, and premium data necessary for funding rate arbitrage strategies."
+        "answer": "Yes, dYdX provides complete API access for funding rate data including historical rates, current rates, and predicted next funding for WLD/USDT. The API also includes mark price, index price, and premium data necessary for funding rate arbitrage strategies."
       },
       {
         "question": "How does WLD liquidity on dYdX compare to centralized exchanges?",

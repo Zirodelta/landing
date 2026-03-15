@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "OKX uses traditional 8-hour funding intervals common among major CEXs, calculating rates based on perpetual-index price divergence and open interest imbalance. Orderly Network implements 1-hour funding cycles across its shared order book infrastructure, allowing for more frequent rate adjustments that can reduce funding cost accumulation. OKX's centralized settlement provides immediate funding transfers, while Orderly's on-chain execution may introduce slight delays during network congestion. The hourly frequency on Orderly can create better arbitrage opportunities but requires more active position management.",
-  "verdict": "OKX offers superior liquidity and established perpetual markets with robust API access, making it ideal for high-frequency funding arbitrage strategies. Orderly Network's innovative shared liquidity model and hourly funding provide unique arbitrage opportunities but requires navigating multiple frontend interfaces and understanding its infrastructure dependencies.",
+  "verdict": "OKX offers superior liquidity and established perpetual markets with reliable API access, making it ideal for high-frequency funding arbitrage strategies. Orderly Network's innovative shared liquidity model and hourly funding provide unique arbitrage opportunities but requires navigating multiple frontend interfaces and understanding its infrastructure dependencies.",
   "faq": [
     {
       "question": "How do funding intervals affect arbitrage opportunities between OKX and Orderly?",
@@ -61,7 +61,7 @@
     },
     {
       "question": "Which exchange offers better API access for automated funding strategies?",
-      "answer": "OKX provides institutional-grade REST and WebSocket APIs with comprehensive documentation and rate limits suitable for high-frequency trading. Orderly requires integration through frontend partners, adding complexity to direct API access."
+      "answer": "OKX provides institutional-grade REST and WebSocket APIs with complete documentation and rate limits suitable for high-frequency trading. Orderly requires integration through frontend partners, adding complexity to direct API access."
     },
     {
       "question": "How does settlement speed impact funding rate arbitrage between these platforms?",

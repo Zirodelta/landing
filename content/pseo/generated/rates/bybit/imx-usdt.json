@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "IMX/USDT perpetual futures on Bybit offer exposure to Immutable X's gaming ecosystem through 8-hour funding cycles. As a mid-tier gaming token, IMX frequently exhibits funding rate inefficiencies driven by retail sentiment around NFT gaming trends. Bybit's robust derivatives infrastructure makes it an optimal venue for capitalizing on these funding rate movements.",
+    "intro": "IMX/USDT perpetual futures on Bybit offer exposure to Immutable X's gaming ecosystem through 8-hour funding cycles. As a mid-tier gaming token, IMX frequently exhibits funding rate inefficiencies driven by retail sentiment around NFT gaming trends. Bybit's reliable derivatives infrastructure makes it an optimal venue for capitalizing on these funding rate movements.",
     "how_funding_works": "Bybit calculates IMX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC based on the premium between perpetual and spot prices. The platform uses a time-weighted average price methodology over the funding period to determine rates. Long positions pay shorts when rates are positive, while shorts pay longs during negative funding periods. Bybit caps funding rates at ±0.75% to prevent extreme scenarios during high volatility.",
     "why_this_pair": "IMX perpetuals exhibit pronounced funding rate cycles due to gaming sector sentiment and retail speculation around NFT marketplaces. The token's mid-tier liquidity creates opportunities for larger funding rate deviations compared to major cryptocurrencies. Gaming token narratives often drive sustained directional bias in perpetual positioning, creating predictable funding rate patterns for arbitrageurs.",
     "sections": [

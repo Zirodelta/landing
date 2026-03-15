@@ -29,11 +29,11 @@
     "sections": [
       {
         "heading": "Historical Funding Rate Patterns",
-        "body": "NEAR/USDT funding rates on OKX typically range from -0.01% to 0.05% during normal market conditions, with extreme rates reaching ±0.1% during major ecosystem announcements or market stress. The pair shows seasonal patterns aligned with NEAR Protocol development milestones and DeFi activity on the network. Monthly analysis reveals funding rates tend to be positive during ecosystem growth phases and negative during broader crypto market downturns. Portfolio margin traders can leverage these patterns by maintaining hedged positions across multiple funding cycles."
+        "body": "NEAR/USDT funding rates on OKX typically range from -0.01% to 0.05% during normal market conditions, with extreme rates reaching ±0.1% during major ecosystem announcements or market stress. The pair shows seasonal patterns aligned with NEAR Protocol development milestones and DeFi activity on the network. Monthly analysis reveals funding rates tend to be positive during ecosystem growth phases and negative during broader crypto market downturns. Portfolio margin traders can use these patterns by maintaining hedged positions across multiple funding cycles."
       },
       {
         "heading": "Arbitrage Opportunities and Setup",
-        "body": "Cross-exchange arbitrage between OKX NEAR/USDT perpetuals and Binance or Bybit often yields 2-15 basis points per funding period due to different user bases and trading patterns. OKX's portfolio margin system allows traders to maintain NEAR perpetual positions while hedging with spot NEAR or correlated Layer-1 tokens like ATOM or DOT. The exchange's robust API enables automated funding rate monitoring and position management, essential for capturing brief arbitrage windows. Risk-adjusted returns are enhanced by OKX's competitive maker fees of 0.02% for high-volume traders."
+        "body": "Cross-exchange arbitrage between OKX NEAR/USDT perpetuals and Binance or Bybit often yields 2-15 basis points per funding period due to different user bases and trading patterns. OKX's portfolio margin system allows traders to maintain NEAR perpetual positions while hedging with spot NEAR or correlated Layer-1 tokens like ATOM or DOT. The exchange's reliable API enables automated funding rate monitoring and position management, essential for capturing brief arbitrage windows. Risk-adjusted returns are enhanced by OKX's competitive maker fees of 0.02% for high-volume traders."
       },
       {
         "heading": "Risk Considerations and Management",

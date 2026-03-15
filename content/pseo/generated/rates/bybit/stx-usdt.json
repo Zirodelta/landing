@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "STX/USDT perpetual futures on Bybit offer exposure to Stacks, the leading Bitcoin layer-2 solution that enables smart contracts on Bitcoin. Bybit's 8-hour funding intervals and competitive maker fees of 0.02% make it attractive for funding rate arbitrage strategies. The exchange's strong derivatives focus and unified trading account provide efficient capital management for STX positions.",
-    "how_funding_works": "Bybit calculates STX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme scenarios. Long positions pay funding when rates are positive, while short positions pay when rates are negative. Bybit's unified trading account allows seamless movement between STX spot and perpetual positions for delta-neutral arbitrage.",
+    "how_funding_works": "Bybit calculates STX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding rate is capped at ±0.75% per interval to prevent extreme scenarios. Long positions pay funding when rates are positive, while short positions pay when rates are negative. Bybit's unified trading account allows smooth movement between STX spot and perpetual positions for delta-neutral arbitrage.",
     "why_this_pair": "STX exhibits unique funding rate patterns due to its correlation with Bitcoin network upgrades and DeFi activity on Stacks. As a Bitcoin ecosystem token with limited exchange listings, STX often shows funding rate inefficiencies that create arbitrage opportunities. The token's mid-tier volume provides sufficient liquidity while maintaining potential for rate volatility during Bitcoin halving cycles and Stacks protocol updates.",
     "sections": [
       {
@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Management and Market Dynamics",
-        "body": "STX funding arbitrage carries specific risks including low liquidity during Asian trading hours and correlation breakdown during Bitcoin network stress events. Position sizing should account for STX's higher volatility compared to major altcoins, with typical daily ranges of 8-15%. The token's exposure to Bitcoin mining dynamics and regulatory news affecting Bitcoin layer-2s requires constant monitoring. Bybit's insurance fund and robust risk engine help mitigate counterparty risk, but traders should maintain stop-losses due to STX's potential for gap movements during low-volume periods."
+        "body": "STX funding arbitrage carries specific risks including low liquidity during Asian trading hours and correlation breakdown during Bitcoin network stress events. Position sizing should account for STX's higher volatility compared to major altcoins, with typical daily ranges of 8-15%. The token's exposure to Bitcoin mining dynamics and regulatory news affecting Bitcoin layer-2s requires constant monitoring. Bybit's insurance fund and reliable risk engine help mitigate counterparty risk, but traders should maintain stop-losses due to STX's potential for gap movements during low-volume periods."
       }
     ],
     "faq": [

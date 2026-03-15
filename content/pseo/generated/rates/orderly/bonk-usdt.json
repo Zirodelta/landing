@@ -33,7 +33,7 @@
       },
       {
         "heading": "Arbitrage Opportunities Across DEX Frontends",
-        "body": "Orderly's infrastructure layer creates unique arbitrage dynamics where the same underlying liquidity pool serves multiple frontend interfaces, yet funding rates can vary slightly due to different user bases and trading behaviors on each platform. Sophisticated arbitrageurs monitor funding rate spreads between Orderly-powered platforms and centralized exchanges like Binance or OKX. The shared order book means position transfers between frontends are seamless, allowing rapid capital deployment when funding rate differentials exceed the 0.02% maker fee threshold."
+        "body": "Orderly's infrastructure layer creates unique arbitrage dynamics where the same underlying liquidity pool serves multiple frontend interfaces, yet funding rates can vary slightly due to different user bases and trading behaviors on each platform. Sophisticated arbitrageurs monitor funding rate spreads between Orderly-powered platforms and centralized exchanges like Binance or OKX. The shared order book means position transfers between frontends are smooth, allowing rapid capital deployment when funding rate differentials exceed the 0.02% maker fee threshold."
       },
       {
         "heading": "Risk Considerations for BONK Funding Arbitrage",

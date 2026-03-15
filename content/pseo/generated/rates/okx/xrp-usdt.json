@@ -33,7 +33,7 @@
       },
       {
         "heading": "Arbitrage Opportunities",
-        "body": "Cross-exchange funding arbitrage between OKX and Binance XRP/USDT perpetuals frequently yields 0.1-0.3% spreads during high volatility periods. OKX's portfolio margin system enables efficient delta-neutral strategies by using XRP spot holdings as collateral while shorting perpetuals during high positive funding periods. The exchange's robust API infrastructure supports automated funding rate capture strategies with sub-second execution capabilities."
+        "body": "Cross-exchange funding arbitrage between OKX and Binance XRP/USDT perpetuals frequently yields 0.1-0.3% spreads during high volatility periods. OKX's portfolio margin system enables efficient delta-neutral strategies by using XRP spot holdings as collateral while shorting perpetuals during high positive funding periods. The exchange's reliable API infrastructure supports automated funding rate capture strategies with sub-second execution capabilities."
       },
       {
         "heading": "Risk Considerations",

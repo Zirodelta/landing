@@ -26,7 +26,7 @@
   "content": {
     "intro": "APT/USDT perpetual futures on OKX offer structured funding rate opportunities through 8-hour cycles at 00:00, 08:00, and 16:00 UTC. OKX's Portfolio Margin system allows efficient capital utilization for funding rate arbitrage strategies across Aptos positions.",
     "how_funding_works": "OKX calculates APT/USDT funding rates using a time-weighted average of the premium between perpetual and spot prices over each 8-hour period. The exchange applies a dampening mechanism when rates exceed ±0.375% to prevent extreme funding costs. Portfolio Margin mode enables cross-margining between APT perpetuals and spot positions, reducing overall margin requirements for arbitrage strategies. OKX's institutional-grade API provides real-time funding rate data and position management capabilities for automated arbitrage systems.",
-    "why_this_pair": "APT represents Aptos, a high-performance L1 blockchain that often exhibits significant funding rate volatility due to its developing ecosystem and institutional interest. The mid-tier trading volume on OKX creates opportunities for sustained funding rate premiums without excessive slippage. OKX's multi-chain wallet integration facilitates efficient spot-perpetual arbitrage by enabling seamless APT transfers between on-chain positions and exchange accounts.",
+    "why_this_pair": "APT represents Aptos, a high-performance L1 blockchain that often exhibits significant funding rate volatility due to its developing ecosystem and institutional interest. The mid-tier trading volume on OKX creates opportunities for sustained funding rate premiums without excessive slippage. OKX's multi-chain wallet integration facilitates efficient spot-perpetual arbitrage by enabling smooth APT transfers between on-chain positions and exchange accounts.",
     "sections": [
       {
         "heading": "Historical Funding Rate Patterns",
@@ -34,7 +34,7 @@
       },
       {
         "heading": "Arbitrage Opportunities and Execution",
-        "body": "OKX's Portfolio Margin system enables efficient funding rate arbitrage by allowing traders to hold long spot APT positions while shorting perpetuals with reduced margin requirements. The exchange's robust API infrastructure supports automated arbitrage strategies that can capture funding payments while maintaining delta-neutral positions. Cross-margining benefits become particularly valuable when APT volatility increases, as the system calculates risk across the entire portfolio rather than individual positions. Arbitrageurs can also utilize OKX's on-chain wallet integration to quickly move APT between DeFi protocols and the exchange for yield optimization."
+        "body": "OKX's Portfolio Margin system enables efficient funding rate arbitrage by allowing traders to hold long spot APT positions while shorting perpetuals with reduced margin requirements. The exchange's reliable API infrastructure supports automated arbitrage strategies that can capture funding payments while maintaining delta-neutral positions. Cross-margining benefits become particularly valuable when APT volatility increases, as the system calculates risk across the entire portfolio rather than individual positions. Arbitrageurs can also utilize OKX's on-chain wallet integration to quickly move APT between DeFi protocols and the exchange for yield optimization."
       },
       {
         "heading": "Risk Management and Considerations",

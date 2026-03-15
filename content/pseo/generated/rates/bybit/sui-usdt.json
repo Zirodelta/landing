@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "SUI/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities through 8-hour settlement intervals. As a Layer 1 blockchain token, SUI exhibits distinct funding patterns influenced by network developments and market sentiment. Bybit's robust derivatives infrastructure provides reliable execution for funding rate strategies.",
+    "intro": "SUI/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities through 8-hour settlement intervals. As a Layer 1 blockchain token, SUI exhibits distinct funding patterns influenced by network developments and market sentiment. Bybit's reliable derivatives infrastructure provides reliable execution for funding rate strategies.",
     "how_funding_works": "Bybit calculates SUI/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and spot prices. The funding fee is exchanged directly between long and short position holders, with no exchange commission. Bybit caps funding rates at ±0.75% per interval to prevent extreme scenarios, though SUI rarely approaches these limits.",
     "why_this_pair": "SUI/USDT offers compelling funding arbitrage due to the token's volatility and growing ecosystem adoption. Layer 1 tokens like SUI often experience sustained directional bias during network upgrades or partnership announcements, creating persistent funding rate imbalances. The mid-tier trading volume provides sufficient liquidity while maintaining pricing inefficiencies that sophisticated arbitrageurs can exploit.",
     "sections": [

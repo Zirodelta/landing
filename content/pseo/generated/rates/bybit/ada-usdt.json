@@ -24,8 +24,8 @@
     ]
   },
   "content": {
-    "intro": "ADA/USDT perpetual futures on Bybit offer consistent funding rate arbitrage opportunities with 8-hour settlement cycles at 00:00, 08:00, and 16:00 UTC. Bybit's robust matching engine and deep liquidity make it ideal for capturing funding rate differentials on Cardano positions.",
-    "how_funding_works": "Bybit calculates funding rates using a time-weighted average of the premium between ADA perpetual and spot prices over the 8-hour period. The funding rate is capped at +/-0.75% per cycle to prevent extreme rates. When funding is positive, long positions pay shorts; when negative, shorts pay longs. Bybit's unified trading account allows seamless cross-margining between spot ADA and perpetual positions for delta-neutral arbitrage strategies.",
+    "intro": "ADA/USDT perpetual futures on Bybit offer consistent funding rate arbitrage opportunities with 8-hour settlement cycles at 00:00, 08:00, and 16:00 UTC. Bybit's reliable matching engine and deep liquidity make it ideal for capturing funding rate differentials on Cardano positions.",
+    "how_funding_works": "Bybit calculates funding rates using a time-weighted average of the premium between ADA perpetual and spot prices over the 8-hour period. The funding rate is capped at +/-0.75% per cycle to prevent extreme rates. When funding is positive, long positions pay shorts; when negative, shorts pay longs. Bybit's unified trading account allows smooth cross-margining between spot ADA and perpetual positions for delta-neutral arbitrage strategies.",
     "why_this_pair": "ADA/USDT shows consistent funding rate patterns due to Cardano's established market presence and steady retail interest. As a top-10 cryptocurrency with strong institutional backing, ADA maintains sufficient liquidity depth for large arbitrage positions. The pair's moderate volatility creates predictable funding premiums during trending markets while avoiding the extreme rates seen in smaller altcoins.",
     "sections": [
       {

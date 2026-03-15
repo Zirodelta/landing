@@ -26,7 +26,7 @@
   "content": {
     "intro": "WLD/USDT perpetual futures on OKX provide exposure to Worldcoin's AI-driven identity verification project with consistent funding rate patterns. The 8-hour funding intervals on OKX create structured arbitrage windows, particularly during periods of heightened AI sector interest.",
     "how_funding_works": "OKX calculates WLD/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index methodology. The exchange applies a base rate of 0.01% with adjustments based on the 8-hour time-weighted average premium between perpetual and spot prices. OKX's portfolio margin system allows cross-collateralization, reducing margin requirements for multi-leg arbitrage strategies. Funding payments occur automatically at settlement times with no manual intervention required.",
-    "why_this_pair": "WLD demonstrates unique funding rate behaviors due to its AI token categorization and retail-driven speculation around identity verification trends. The pair's mid-tier volume provides sufficient liquidity for medium-sized arbitrage positions while avoiding the extreme rate volatility seen in micro-cap tokens. OKX's institutional-grade infrastructure supports automated funding rate strategies through robust API connectivity.",
+    "why_this_pair": "WLD demonstrates unique funding rate behaviors due to its AI token categorization and retail-driven speculation around identity verification trends. The pair's mid-tier volume provides sufficient liquidity for medium-sized arbitrage positions while avoiding the extreme rate volatility seen in micro-cap tokens. OKX's institutional-grade infrastructure supports automated funding rate strategies through reliable API connectivity.",
     "sections": [
       {
         "heading": "Historical Funding Rate Patterns",
@@ -34,7 +34,7 @@
       },
       {
         "heading": "Arbitrage Opportunities",
-        "body": "OKX's portfolio margin mode enables efficient WLD funding rate arbitrage by reducing total margin requirements across perpetual and spot positions. The exchange's deep integration with multiple spot markets allows for seamless delta-neutral positioning using WLD spot holdings as collateral. Cross-exchange arbitrage opportunities frequently arise between OKX and Binance, particularly when OKX's funding rates deviate by more than 0.02% from competing venues. OKX's maker rebates of -0.02% can offset funding costs during extended arbitrage positions, improving strategy profitability. The platform's advanced order types, including conditional orders, facilitate automated entry and exit strategies based on funding rate thresholds."
+        "body": "OKX's portfolio margin mode enables efficient WLD funding rate arbitrage by reducing total margin requirements across perpetual and spot positions. The exchange's deep integration with multiple spot markets allows for smooth delta-neutral positioning using WLD spot holdings as collateral. Cross-exchange arbitrage opportunities frequently arise between OKX and Binance, particularly when OKX's funding rates deviate by more than 0.02% from competing venues. OKX's maker rebates of -0.02% can offset funding costs during extended arbitrage positions, improving strategy profitability. The platform's advanced order types, including conditional orders, facilitate automated entry and exit strategies based on funding rate thresholds."
       },
       {
         "heading": "Risk Management Considerations",

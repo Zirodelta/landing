@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Considerations and Management",
-        "body": "Solana network dependency creates execution risk during high congestion periods, potentially causing missed arbitrage opportunities or delayed position adjustments. Drift's complex liquidation mechanics using mark price and oracle feeds can trigger unexpected liquidations during TIA volatility spikes. The protocol's lower liquidity compared to major CEXs means larger arbitrage positions face increased slippage and market impact. Smart contract risk exists with Drift's vAMM and DLOB systems, though the protocol maintains comprehensive insurance coverage for technical failures."
+        "body": "Solana network dependency creates execution risk during high congestion periods, potentially causing missed arbitrage opportunities or delayed position adjustments. Drift's complex liquidation mechanics using mark price and oracle feeds can trigger unexpected liquidations during TIA volatility spikes. The protocol's lower liquidity compared to major CEXs means larger arbitrage positions face increased slippage and market impact. Smart contract risk exists with Drift's vAMM and DLOB systems, though the protocol maintains complete insurance coverage for technical failures."
       }
     ],
     "faq": [

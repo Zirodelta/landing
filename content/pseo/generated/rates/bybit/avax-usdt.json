@@ -24,8 +24,8 @@
     ]
   },
   "content": {
-    "intro": "AVAX/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's robust derivatives infrastructure ensures reliable rate calculations based on mark price deviation from spot, making it ideal for systematic arbitrage strategies.",
-    "how_funding_works": "Bybit calculates AVAX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and spot prices. The funding fee applies only to positions held at settlement time, with rates typically ranging from -0.375% to +0.375% daily. Bybit's unified account system allows seamless hedging across spot and derivatives markets within a single account.",
+    "intro": "AVAX/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities with 8-hour settlement intervals. Bybit's reliable derivatives infrastructure ensures reliable rate calculations based on mark price deviation from spot, making it ideal for systematic arbitrage strategies.",
+    "how_funding_works": "Bybit calculates AVAX/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and spot prices. The funding fee applies only to positions held at settlement time, with rates typically ranging from -0.375% to +0.375% daily. Bybit's unified account system allows smooth hedging across spot and derivatives markets within a single account.",
     "why_this_pair": "AVAX exhibits significant funding rate volatility due to its L1 blockchain narrative and institutional interest in Avalanche ecosystem projects. High trading volumes on Bybit ensure tight spreads and reliable arbitrage execution, while AVAX's correlation with broader DeFi trends creates predictable funding rate cycles during market momentum shifts.",
     "sections": [
       {
@@ -52,7 +52,7 @@
       },
       {
         "question": "Can I hedge AVAX perpetuals with spot on the same Bybit account?",
-        "answer": "Yes, Bybit's unified account allows you to hedge AVAX perpetual positions with AVAX spot holdings seamlessly. This enables delta-neutral funding rate arbitrage without transferring funds between different account types."
+        "answer": "Yes, Bybit's unified account allows you to hedge AVAX perpetual positions with AVAX spot holdings smoothly. This enables delta-neutral funding rate arbitrage without transferring funds between different account types."
       },
       {
         "question": "How does AVAX subnet activity affect funding rates on Bybit?",

@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "DOGE/USDT perpetual futures on Bybit offer unique funding rate arbitrage opportunities driven by meme coin market dynamics. With 8-hour funding intervals and Bybit's reliable infrastructure, traders can capitalize on DOGE's characteristic volatility patterns.",
-    "how_funding_works": "Bybit calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and spot prices. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with automatic payments between long and short positions. Bybit's unified trading account allows seamless hedging across spot and derivatives markets for DOGE arbitrage strategies.",
+    "how_funding_works": "Bybit calculates DOGE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount between perpetual and spot prices. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with automatic payments between long and short positions. Bybit's unified trading account allows smooth hedging across spot and derivatives markets for DOGE arbitrage strategies.",
     "why_this_pair": "DOGE exhibits extreme funding rate swings due to retail sentiment and social media influence, creating profitable arbitrage windows. The pair's large trading volume on Bybit ensures tight spreads and minimal slippage for funding rate strategies. Meme coin volatility often leads to sustained funding rate imbalances lasting multiple funding intervals.",
     "sections": [
       {
@@ -34,7 +34,7 @@
       },
       {
         "heading": "DOGE Arbitrage Opportunities on Bybit",
-        "body": "The most profitable DOGE funding rate arbitrage occurs when retail sentiment diverges from institutional positioning, creating sustained rate imbalances. Bybit's competitive maker fees (0.02%) make delta-neutral strategies viable even with smaller funding rate differentials. Cross-exchange arbitrage between Bybit and spot-heavy exchanges often yields additional profits during high volatility periods. The unified margin system allows efficient capital allocation between DOGE spot holdings and perpetual positions for seamless arbitrage execution."
+        "body": "The most profitable DOGE funding rate arbitrage occurs when retail sentiment diverges from institutional positioning, creating sustained rate imbalances. Bybit's competitive maker fees (0.02%) make delta-neutral strategies viable even with smaller funding rate differentials. Cross-exchange arbitrage between Bybit and spot-heavy exchanges often yields additional profits during high volatility periods. The unified margin system allows efficient capital allocation between DOGE spot holdings and perpetual positions for smooth arbitrage execution."
       },
       {
         "heading": "Risk Management for DOGE Funding Trades",

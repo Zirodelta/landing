@@ -33,7 +33,7 @@
       },
       {
         "heading": "Multi-Chain Arbitrage Opportunities",
-        "body": "Orderly's infrastructure enables unique cross-chain arbitrage strategies for MATIC funding rates, allowing traders to access positions from both NEAR and EVM environments. The shared order book creates opportunities to exploit funding differentials between Orderly and single-chain perpetual platforms. Arbitrageurs can leverage the platform's white-label frontend ecosystem to identify the most favorable entry points for funding strategies. Cross-chain bridge delays must be factored into arbitrage calculations, particularly for time-sensitive hourly funding captures."
+        "body": "Orderly's infrastructure enables unique cross-chain arbitrage strategies for MATIC funding rates, allowing traders to access positions from both NEAR and EVM environments. The shared order book creates opportunities to exploit funding differentials between Orderly and single-chain perpetual platforms. Arbitrageurs can use the platform's white-label frontend ecosystem to identify the most favorable entry points for funding strategies. Cross-chain bridge delays must be factored into arbitrage calculations, particularly for time-sensitive hourly funding captures."
       },
       {
         "heading": "Risk Management Considerations",

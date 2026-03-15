@@ -24,8 +24,8 @@
     ]
   },
   "content": {
-    "intro": "ATOM/USDT perpetual futures on Bybit offer strategic funding rate arbitrage opportunities for the Cosmos ecosystem's native token. With 8-hour funding intervals and Bybit's robust derivatives infrastructure, traders can capitalize on ATOM's funding rate fluctuations across market cycles.",
-    "how_funding_works": "Bybit calculates ATOM/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, based on the premium between perpetual and mark prices. The funding rate applies to notional position value, with longs paying shorts when positive and vice versa when negative. Bybit's unified trading account allows seamless cross-margin management across ATOM positions, while the exchange's fast matching engine ensures reliable execution during funding rate collection periods.",
+    "intro": "ATOM/USDT perpetual futures on Bybit offer strategic funding rate arbitrage opportunities for the Cosmos ecosystem's native token. With 8-hour funding intervals and Bybit's reliable derivatives infrastructure, traders can capitalize on ATOM's funding rate fluctuations across market cycles.",
+    "how_funding_works": "Bybit calculates ATOM/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC, based on the premium between perpetual and mark prices. The funding rate applies to notional position value, with longs paying shorts when positive and vice versa when negative. Bybit's unified trading account allows smooth cross-margin management across ATOM positions, while the exchange's fast matching engine ensures reliable execution during funding rate collection periods.",
     "why_this_pair": "ATOM exhibits distinct funding rate patterns due to its role in the Cosmos ecosystem and staking yield dynamics. The token's moderate volatility and consistent trading volume create predictable funding rate cycles, particularly during network upgrades or IBC expansion phases. ATOM's funding rates often diverge significantly from major assets, providing isolated arbitrage opportunities.",
     "sections": [
       {

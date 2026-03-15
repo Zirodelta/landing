@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "JUP/USDT perpetual futures on Hyperliquid offer unique arbitrage opportunities through the platform's 1-hour funding intervals and fully on-chain execution. As Jupiter's native token trades on Hyperliquid's L1 blockchain, funding rates often reflect DeFi market sentiment and Solana ecosystem dynamics.",
-    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the 8-hour TWAP difference between perpetual and mark prices. Unlike traditional CEXs, all calculations occur on Hyperliquid's L1 with sub-second finality, ensuring transparent rate determination. Funding payments are automatically settled in USDC with no manual intervention required, providing seamless position management for arbitrageurs.",
+    "how_funding_works": "Hyperliquid calculates funding rates every hour based on the 8-hour TWAP difference between perpetual and mark prices. Unlike traditional CEXs, all calculations occur on Hyperliquid's L1 with sub-second finality, ensuring transparent rate determination. Funding payments are automatically settled in USDC with no manual intervention required, providing smooth position management for arbitrageurs.",
     "why_this_pair": "JUP's role as Solana's leading DEX aggregator creates predictable funding patterns tied to DeFi activity and token utility demand. The pair often shows elevated funding rates during Solana ecosystem events and JUP governance activities, presenting consistent arbitrage windows for traders monitoring cross-chain rate differentials.",
     "sections": [
       {

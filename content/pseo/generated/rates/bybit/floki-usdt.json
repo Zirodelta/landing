@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "FLOKI/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour payment intervals at 00:00, 08:00, and 16:00 UTC. As a meme coin derivative, FLOKI typically experiences higher funding rate volatility compared to major cryptocurrencies, creating potential arbitrage scenarios.",
-    "how_funding_works": "Bybit calculates FLOKI/USDT funding rates using a time-weighted average of the premium between perpetual and mark prices over the 8-hour period. The exchange applies a 0.01% funding rate cap in either direction to prevent extreme rates. Funding payments are exchanged directly between long and short position holders, with Bybit acting as the intermediary. The unified trading account system allows seamless cross-collateralization across FLOKI perpetual and spot positions.",
+    "how_funding_works": "Bybit calculates FLOKI/USDT funding rates using a time-weighted average of the premium between perpetual and mark prices over the 8-hour period. The exchange applies a 0.01% funding rate cap in either direction to prevent extreme rates. Funding payments are exchanged directly between long and short position holders, with Bybit acting as the intermediary. The unified trading account system allows smooth cross-collateralization across FLOKI perpetual and spot positions.",
     "why_this_pair": "FLOKI/USDT presents unique arbitrage opportunities due to its meme coin status driving retail sentiment-based trading patterns. The pair often exhibits funding rate spikes during viral social media campaigns or major announcements. Mid-tier trading volume provides sufficient liquidity for arbitrage execution while maintaining the volatility needed for profitable rate differentials.",
     "sections": [
       {
@@ -56,7 +56,7 @@
       },
       {
         "question": "How reliable is Bybit's infrastructure during FLOKI volatility spikes?",
-        "answer": "Bybit maintains stable performance during FLOKI volatility with its robust matching engine handling high-frequency meme coin trading. The exchange rarely experiences downtime during viral meme coin events, though order book depth may thin during extreme price movements requiring careful position sizing."
+        "answer": "Bybit maintains stable performance during FLOKI volatility with its reliable matching engine handling high-frequency meme coin trading. The exchange rarely experiences downtime during viral meme coin events, though order book depth may thin during extreme price movements requiring careful position sizing."
       }
     ]
   },

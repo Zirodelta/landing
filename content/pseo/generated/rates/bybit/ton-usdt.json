@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "TON/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities for The Open Network's native token. With 8-hour funding intervals and competitive maker/taker fees of 0.02%/0.055%, traders can capitalize on funding rate fluctuations in this major L1 blockchain asset.",
-    "how_funding_works": "Bybit calculates TON/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a combination of interest rate differential and premium/discount to spot price. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with payments occurring between long and short position holders. Bybit's unified trading account allows seamless margin sharing across derivatives positions, optimizing capital efficiency for funding rate strategies.",
+    "how_funding_works": "Bybit calculates TON/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a combination of interest rate differential and premium/discount to spot price. The funding rate typically ranges from -0.375% to +0.375% per 8-hour period, with payments occurring between long and short position holders. Bybit's unified trading account allows smooth margin sharing across derivatives positions, optimizing capital efficiency for funding rate strategies.",
     "why_this_pair": "TON's growing ecosystem and telegram integration creates volatility that often leads to significant funding rate premiums during bullish phases. As a top-tier L1 blockchain token with substantial derivatives volume, TON/USDT provides reliable liquidity for executing funding rate arbitrage strategies. The pair's large trading volume on Bybit ensures minimal slippage when establishing or unwinding positions.",
     "sections": [
       {

@@ -47,7 +47,7 @@
       },
       {
         "question": "What makes RUNE funding arbitrage unique on Hyperliquid's on-chain system?",
-        "answer": "The fully on-chain order book eliminates counterparty risk while maintaining CEX-like performance for RUNE perpetuals. Instant settlement and no KYC requirements allow for seamless arbitrage execution, particularly valuable during THORChain-specific events that affect RUNE pricing."
+        "answer": "The fully on-chain order book eliminates counterparty risk while maintaining CEX-like performance for RUNE perpetuals. Instant settlement and no KYC requirements allow for smooth arbitrage execution, particularly valuable during THORChain-specific events that affect RUNE pricing."
       },
       {
         "question": "How does THORChain network activity affect RUNE funding rates?",

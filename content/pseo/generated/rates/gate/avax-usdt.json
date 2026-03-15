@@ -51,7 +51,7 @@
       },
       {
         "question": "Can I hedge AVAX perpetual positions with spot on Gate.io?",
-        "answer": "Yes, Gate.io offers robust AVAX/USDT spot trading with typically high liquidity, making it suitable for delta-neutral strategies. The exchange's unified margin system allows cross-collateralization between spot and perpetual positions for capital efficiency."
+        "answer": "Yes, Gate.io offers reliable AVAX/USDT spot trading with typically high liquidity, making it suitable for delta-neutral strategies. The exchange's unified margin system allows cross-collateralization between spot and perpetual positions for capital efficiency."
       },
       {
         "question": "What's the minimum position size for AVAX/USDT perpetuals on Gate.io?",

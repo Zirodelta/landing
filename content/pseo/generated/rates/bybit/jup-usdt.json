@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "JUP/USDT perpetuals on Bybit offer funding rate arbitrage opportunities for Jupiter Protocol's governance token. Bybit's robust derivatives infrastructure provides reliable 8-hour funding settlements with competitive maker fees of 0.02%. Jupiter's volatile nature as a Solana DeFi aggregator creates frequent funding rate imbalances suitable for arbitrage strategies.",
+    "intro": "JUP/USDT perpetuals on Bybit offer funding rate arbitrage opportunities for Jupiter Protocol's governance token. Bybit's reliable derivatives infrastructure provides reliable 8-hour funding settlements with competitive maker fees of 0.02%. Jupiter's volatile nature as a Solana DeFi aggregator creates frequent funding rate imbalances suitable for arbitrage strategies.",
     "how_funding_works": "Bybit calculates JUP/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the perpetual-spot basis. The exchange uses a dampening mechanism to smooth extreme rate fluctuations, typically capping rates at ±2.5% per interval. Position holders pay or receive funding based on their long/short exposure, with settlements occurring automatically without affecting margin requirements.",
     "why_this_pair": "Jupiter Protocol's role as Solana's leading DEX aggregator creates significant trading volume spikes during DeFi activity surges, often causing perpetual premiums. JUP's governance token status means retail speculation frequently drives perpetual demand above spot prices. This fundamental imbalance, combined with Bybit's deep liquidity for mid-cap DeFi tokens, creates consistent arbitrage opportunities between perpetual and spot markets.",
     "sections": [
@@ -48,7 +48,7 @@
       },
       {
         "question": "How does Bybit's unified margin affect JUP arbitrage?",
-        "answer": "Bybit's unified margin account allows seamless capital allocation between JUP spot and perpetual positions without separate funding requirements. This reduces capital efficiency barriers and enables larger arbitrage position sizes compared to exchanges requiring isolated margin accounts."
+        "answer": "Bybit's unified margin account allows smooth capital allocation between JUP spot and perpetual positions without separate funding requirements. This reduces capital efficiency barriers and enables larger arbitrage position sizes compared to exchanges requiring isolated margin accounts."
       },
       {
         "question": "When do JUP funding rate spikes typically occur?",

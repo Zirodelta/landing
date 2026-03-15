@@ -24,7 +24,7 @@
   },
   "content": {
     "intro": "NEAR/USDT perpetuals on Paradex offer self-custodial funding rate arbitrage with hourly settlements on StarkNet. Paradex's institutional-grade infrastructure provides transparent funding calculations without centralized custody risks.",
-    "how_funding_works": "Paradex calculates NEAR/USDT funding rates using a time-weighted average premium between perpetual and spot prices over the hour. Funding settlements occur every hour at the top of each hour, with rates paid between long and short holders. The exchange uses a robust oracle system and applies a dampening factor to prevent excessive rate volatility during high market stress.",
+    "how_funding_works": "Paradex calculates NEAR/USDT funding rates using a time-weighted average premium between perpetual and spot prices over the hour. Funding settlements occur every hour at the top of each hour, with rates paid between long and short holders. The exchange uses a reliable oracle system and applies a dampening factor to prevent excessive rate volatility during high market stress.",
     "why_this_pair": "NEAR Protocol's ecosystem development cycles create funding rate volatility ideal for arbitrage strategies. As a major L1 blockchain with significant DeFi activity, NEAR experiences regular sentiment shifts that manifest in perpetual funding premiums. The pair's mid-tier volume provides sufficient liquidity while maintaining rate inefficiencies that sophisticated arbitrageurs can exploit.",
     "sections": [
       {

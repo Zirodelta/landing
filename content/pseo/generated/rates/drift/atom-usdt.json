@@ -37,7 +37,7 @@
       },
       {
         "heading": "Risk Considerations for Drift ATOM Trading",
-        "body": "Solana network dependency represents the primary risk, as congestion or downtime can prevent timely position adjustments during volatile funding periods. Drift's liquidation mechanics involve a complex oracle system that may behave differently than CEX liquidations during extreme market stress. The exchange's lower liquidity compared to major centralized venues means large positions can significantly impact funding rate calculations. Insurance fund coverage, while robust, may face pressure during cascade liquidation events affecting ATOM positions across the Solana ecosystem."
+        "body": "Solana network dependency represents the primary risk, as congestion or downtime can prevent timely position adjustments during volatile funding periods. Drift's liquidation mechanics involve a complex oracle system that may behave differently than CEX liquidations during extreme market stress. The exchange's lower liquidity compared to major centralized venues means large positions can significantly impact funding rate calculations. Insurance fund coverage, while reliable, may face pressure during cascade liquidation events affecting ATOM positions across the Solana ecosystem."
       }
     ],
     "faq": [

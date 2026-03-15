@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "Both Gate.io and Phemex use 8-hour funding cycles with rates calculated from mark-index spread and premium/discount mechanisms. Gate.io applies funding across 1,700+ perpetual contracts including micro-cap tokens, creating diverse arbitrage opportunities but with varying liquidity depths. Phemex focuses on major pairs with tighter spreads due to their derivatives specialization, though their smaller user base can create temporary rate inefficiencies. Gate.io's broader market coverage often shows higher volatility in funding rates for altcoin perpetuals.",
-  "verdict": "Phemex offers superior maker fees (0.01% vs 0.015%) making it ideal for high-frequency funding arbitrage, while Gate.io provides vastly more trading pairs for diversified strategies. Choose Phemex for major pair arbitrage with minimal fees, or Gate.io for comprehensive altcoin coverage despite slightly higher costs.",
+  "verdict": "Phemex offers superior maker fees (0.01% vs 0.015%) making it ideal for high-frequency funding arbitrage, while Gate.io provides vastly more trading pairs for diversified strategies. Choose Phemex for major pair arbitrage with minimal fees, or Gate.io for complete altcoin coverage despite slightly higher costs.",
   "faq": [
     {
       "question": "Which exchange has better funding rate arbitrage opportunities?",

@@ -23,7 +23,7 @@
     ]
   },
   "content": {
-    "intro": "JTO/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the Solana DeFi sector with 8-hour settlement cycles. Bybit's robust derivatives infrastructure provides reliable execution for JTO funding strategies, though lower trading volumes may impact position sizing for larger arbitrageurs.",
+    "intro": "JTO/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the Solana DeFi sector with 8-hour settlement cycles. Bybit's reliable derivatives infrastructure provides reliable execution for JTO funding strategies, though lower trading volumes may impact position sizing for larger arbitrageurs.",
     "how_funding_works": "Bybit calculates JTO/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium/discount between perpetual and mark prices. The funding rate is capped at ±2% to prevent extreme payments, with actual rates typically ranging from -0.5% to +0.5% during normal market conditions. Traders holding long positions pay funding when rates are positive, while short position holders receive payments, creating systematic arbitrage opportunities.",
     "why_this_pair": "JTO represents Jito, a significant liquid staking protocol on Solana, making its funding rates responsive to both DeFi sector sentiment and Solana ecosystem developments. The pair's moderate volatility and growing institutional interest create funding rate inefficiencies that sophisticated traders can exploit. Bybit's strong derivatives focus ensures reliable funding calculations even during Solana network congestion events.",
     "sections": [

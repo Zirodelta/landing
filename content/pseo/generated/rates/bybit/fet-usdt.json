@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "FET/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities in the AI cryptocurrency sector. Bybit's 8-hour funding intervals and robust derivatives infrastructure make it ideal for capturing funding rate premiums on Fetch.ai token positions.",
+    "intro": "FET/USDT perpetual futures on Bybit offer compelling funding rate arbitrage opportunities in the AI cryptocurrency sector. Bybit's 8-hour funding intervals and reliable derivatives infrastructure make it ideal for capturing funding rate premiums on Fetch.ai token positions.",
     "how_funding_works": "Bybit calculates FET/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium between perpetual and mark price. The funding fee is exchanged directly between long and short position holders, with Bybit taking no cut from the funding mechanism. Rates typically range from -0.01% to 0.375% per funding period, automatically debited or credited to positions based on the funding direction.",
     "why_this_pair": "FET represents Fetch.ai's growing AI agent ecosystem, making it susceptible to sentiment-driven funding rate volatility that creates arbitrage opportunities. The token's mid-tier trading volume on Bybit provides sufficient liquidity for meaningful position sizes while maintaining the volatility needed for profitable funding rate spreads.",
     "sections": [

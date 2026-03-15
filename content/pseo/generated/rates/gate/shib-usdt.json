@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "Gate.io offers SHIB/USDT perpetual futures with 8-hour funding intervals and competitive 0.015% maker fees for high-volume traders. The platform's extensive meme coin coverage and robust infrastructure make it a key venue for Shiba Inu funding rate arbitrage.",
+    "intro": "Gate.io offers SHIB/USDT perpetual futures with 8-hour funding intervals and competitive 0.015% maker fees for high-volume traders. The platform's extensive meme coin coverage and reliable infrastructure make it a key venue for Shiba Inu funding rate arbitrage.",
     "how_funding_works": "Gate.io calculates SHIB/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average premium index. Rates are capped at ±0.75% per interval to prevent extreme volatility during meme coin pumps. Long positions pay shorts when rates are positive, while shorts pay longs during negative funding periods. Settlement occurs automatically without requiring manual intervention from traders.",
     "why_this_pair": "SHIB/USDT exhibits high funding rate volatility due to retail sentiment swings and speculative trading patterns common in meme coins. The pair's large trading volume on Gate.io ensures sufficient liquidity for arbitrage positions while minimizing slippage. Gate.io's wide token selection allows traders to hedge SHIB exposure across multiple perpetual pairs within the same platform.",
     "sections": [

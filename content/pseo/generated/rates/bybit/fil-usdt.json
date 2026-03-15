@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "FIL/USDT perpetual futures on Bybit offer consistent arbitrage opportunities through its 8-hour funding rate cycles. As a top-tier derivatives exchange with a robust matching engine, Bybit provides reliable execution for Filecoin funding rate strategies.",
+    "intro": "FIL/USDT perpetual futures on Bybit offer consistent arbitrage opportunities through its 8-hour funding rate cycles. As a top-tier derivatives exchange with a reliable matching engine, Bybit provides reliable execution for Filecoin funding rate strategies.",
     "how_funding_works": "Bybit calculates FIL/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the premium index method. The rate is applied to notional position values, with longs paying shorts when positive and vice versa. Bybit caps funding rates at ±2% per 8-hour period, though FIL typically stays within ±0.3% range during normal market conditions.",
     "why_this_pair": "FIL/USDT shows distinct funding patterns due to Filecoin's infrastructure token status and storage demand cycles. The pair often exhibits sustained funding rate trends during network upgrades or storage capacity changes, creating extended arbitrage windows. Mid-tier volume provides sufficient liquidity while avoiding the crowded funding dynamics of major pairs.",
     "sections": [

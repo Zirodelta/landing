@@ -54,7 +54,7 @@
       },
       {
         "question": "Can I use OKX's API for automated STX funding arbitrage?",
-        "answer": "Yes, OKX provides comprehensive REST and WebSocket APIs with real-time funding rate data, order management, and position monitoring. The institutional API tier offers enhanced rate limits and dedicated infrastructure for high-frequency funding strategies."
+        "answer": "Yes, OKX provides complete REST and WebSocket APIs with real-time funding rate data, order management, and position monitoring. The institutional API tier offers enhanced rate limits and dedicated infrastructure for high-frequency funding strategies."
       },
       {
         "question": "How do Bitcoin network events affect STX funding rates on OKX?",

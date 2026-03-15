@@ -33,7 +33,7 @@
       },
       {
         "heading": "Arbitrage Opportunities and Strategy",
-        "body": "Vertex's 0.02% taker fees create favorable conditions for funding rate arbitrage, requiring only 0.04% funding rate differential to break even on round-trip trades. The cross-margin system allows traders to hedge ADA perpetual positions with spot holdings across multiple assets without isolated margin requirements. Optimal arbitrage windows typically occur during Asian trading hours when funding rates diverge most significantly from other exchanges. Traders can leverage the fast sequencer for quick position adjustments while maintaining transparency through on-chain settlement verification."
+        "body": "Vertex's 0.02% taker fees create favorable conditions for funding rate arbitrage, requiring only 0.04% funding rate differential to break even on round-trip trades. The cross-margin system allows traders to hedge ADA perpetual positions with spot holdings across multiple assets without isolated margin requirements. Optimal arbitrage windows typically occur during Asian trading hours when funding rates diverge most significantly from other exchanges. Traders can use the fast sequencer for quick position adjustments while maintaining transparency through on-chain settlement verification."
       },
       {
         "heading": "Risk Management Considerations",

@@ -24,7 +24,7 @@
   },
   "content": {
     "intro": "RUNE/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities with 8-hour payment intervals and competitive maker/taker fees of 0.02%/0.055%. THORChain's native token exhibits volatile funding patterns due to its DeFi utility and cross-chain bridge functionality.",
-    "how_funding_works": "Bybit calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the Premium Index formula. The funding rate is capped at ±0.75% per payment to prevent extreme volatility. Long positions pay short positions when funding is positive, reflecting market sentiment toward RUNE's price direction. Bybit's unified trading account allows seamless capital allocation between spot RUNE holdings and perpetual positions for delta-neutral strategies.",
+    "how_funding_works": "Bybit calculates RUNE/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using the Premium Index formula. The funding rate is capped at ±0.75% per payment to prevent extreme volatility. Long positions pay short positions when funding is positive, reflecting market sentiment toward RUNE's price direction. Bybit's unified trading account allows smooth capital allocation between spot RUNE holdings and perpetual positions for delta-neutral strategies.",
     "why_this_pair": "RUNE exhibits higher funding rate volatility compared to major cryptocurrencies due to its smaller market cap and DeFi-focused use cases. THORChain's cross-chain liquidity protocol creates unique demand patterns that often disconnect perpetual futures pricing from spot markets. This divergence generates consistent arbitrage opportunities, particularly during network upgrades or yield farming events.",
     "sections": [
       {

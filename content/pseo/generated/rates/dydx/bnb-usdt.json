@@ -56,7 +56,7 @@
       },
       {
         "question": "Can I automate funding rate arbitrage on dYdX's BNB perpetual?",
-        "answer": "dYdX provides robust APIs for automated trading, but the hourly funding frequency requires sophisticated position management algorithms. Consider rate prediction models based on BNB ecosystem events and cross-exchange rate differentials for optimal automation strategies."
+        "answer": "dYdX provides reliable APIs for automated trading, but the hourly funding frequency requires sophisticated position management algorithms. Consider rate prediction models based on BNB ecosystem events and cross-exchange rate differentials for optimal automation strategies."
       }
     ]
   },

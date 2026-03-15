@@ -65,7 +65,7 @@
     },
     {
       "question": "Which platform has better API connectivity for automated funding arbitrage?",
-      "answer": "Both offer robust APIs, but OKX has lower latency and higher rate limits for institutional clients. Bybit's API is more straightforward for retail developers with better documentation and simpler authentication."
+      "answer": "Both offer reliable APIs, but OKX has lower latency and higher rate limits for institutional clients. Bybit's API is more straightforward for retail developers with better documentation and simpler authentication."
     },
     {
       "question": "Are there differences in funding rate calculation methods?",

@@ -38,7 +38,7 @@
       },
       {
         "heading": "Risk Considerations",
-        "body": "StarkNet's complexity introduces unique technical risks including potential network congestion during high activity periods. Paradex's early-stage development means limited trading pairs for hedging and reduced overall liquidity. Portfolio margin amplifies both gains and losses across correlated positions. Self-custody requires robust key management and understanding of StarkNet wallet interactions. The platform's institutional focus may result in sophisticated counterparties with advanced trading strategies."
+        "body": "StarkNet's complexity introduces unique technical risks including potential network congestion during high activity periods. Paradex's early-stage development means limited trading pairs for hedging and reduced overall liquidity. Portfolio margin amplifies both gains and losses across correlated positions. Self-custody requires reliable key management and understanding of StarkNet wallet interactions. The platform's institutional focus may result in sophisticated counterparties with advanced trading strategies."
       }
     ],
     "faq": [

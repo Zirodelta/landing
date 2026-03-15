@@ -24,7 +24,7 @@
     ]
   },
   "content": {
-    "intro": "TAO/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the AI token sector with 8-hour funding intervals. Bybit's robust derivatives infrastructure and competitive 0.02% maker fees make it suitable for systematic funding rate strategies. The exchange's unified trading account allows efficient cross-margining with other positions.",
+    "intro": "TAO/USDT perpetual futures on Bybit offer funding rate arbitrage opportunities in the AI token sector with 8-hour funding intervals. Bybit's reliable derivatives infrastructure and competitive 0.02% maker fees make it suitable for systematic funding rate strategies. The exchange's unified trading account allows efficient cross-margining with other positions.",
     "how_funding_works": "Bybit calculates TAO/USDT funding rates every 8 hours at 00:00, 08:00, and 16:00 UTC using a time-weighted average of the premium/discount to spot price. The funding rate is exchanged between long and short position holders, with positive rates paid by longs to shorts. Bybit caps funding rates at ±2.0% per interval to prevent extreme scenarios. The premium component uses the 1-minute TWAP of (Perpetual Price - Mark Price) / Mark Price over the 8-hour period.",
     "why_this_pair": "TAO represents Bittensor, a decentralized AI network, making it sensitive to AI sector sentiment and funding rate volatility. The token's mid-tier volume on Bybit creates opportunities for persistent funding rate imbalances during AI hype cycles. TAO's correlation with broader AI tokens allows for hedged funding strategies across the AI ecosystem.",
     "sections": [

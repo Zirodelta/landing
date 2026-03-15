@@ -56,7 +56,7 @@
       },
       {
         "question": "What are the risks of oracle-based funding on GMX?",
-        "answer": "Oracle dependency creates risks if Chainlink feeds experience delays, manipulation, or outages, potentially causing unexpected funding payments. However, GMX has operated reliably since 2021 with robust oracle infrastructure."
+        "answer": "Oracle dependency creates risks if Chainlink feeds experience delays, manipulation, or outages, potentially causing unexpected funding payments. However, GMX has operated reliably since 2021 with reliable oracle infrastructure."
       }
     ]
   },

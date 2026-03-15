@@ -25,7 +25,7 @@
   },
   "content": {
     "intro": "SEI/USDT perpetual futures on Bybit offer unique funding rate arbitrage opportunities within the Layer 1 ecosystem. With 8-hour funding intervals and competitive maker fees of 0.02%, this pair attracts both retail and institutional traders seeking exposure to Sei Network's DeFi-focused blockchain.",
-    "how_funding_works": "Bybit calculates SEI/USDT funding rates every 8 hours using the interest rate differential and premium/discount between the perpetual price and spot index. The funding fee is exchanged directly between long and short position holders, with no exchange commission. Bybit's unified trading account allows seamless margin management across spot and derivatives positions. The exchange uses a robust price discovery mechanism that incorporates multiple spot exchanges to ensure fair funding rate calculations.",
+    "how_funding_works": "Bybit calculates SEI/USDT funding rates every 8 hours using the interest rate differential and premium/discount between the perpetual price and spot index. The funding fee is exchanged directly between long and short position holders, with no exchange commission. Bybit's unified trading account allows smooth margin management across spot and derivatives positions. The exchange uses a reliable price discovery mechanism that incorporates multiple spot exchanges to ensure fair funding rate calculations.",
     "why_this_pair": "SEI represents a high-performance Layer 1 blockchain optimized for DeFi applications, making it attractive for funding rate arbitrage due to its moderate volatility and growing ecosystem adoption. The pair typically exhibits higher funding rates during bullish DeFi cycles and lower rates during market downturns. Bybit's strong derivatives infrastructure and competitive fees make it an optimal venue for capturing SEI funding rate premiums.",
     "sections": [
       {
@@ -52,7 +52,7 @@
       },
       {
         "question": "Can I use Bybit's unified account for SEI spot-perp arbitrage?",
-        "answer": "Yes, Bybit's unified trading account allows seamless execution of delta-neutral SEI strategies by holding spot SEI while shorting SEI/USDT perpetuals. The unified margin system automatically calculates net exposure and margin requirements across both positions."
+        "answer": "Yes, Bybit's unified trading account allows smooth execution of delta-neutral SEI strategies by holding spot SEI while shorting SEI/USDT perpetuals. The unified margin system automatically calculates net exposure and margin requirements across both positions."
       },
       {
         "question": "What minimum capital is recommended for SEI funding rate arbitrage on Bybit?",

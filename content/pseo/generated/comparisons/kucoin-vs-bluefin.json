@@ -53,7 +53,7 @@
     }
   },
   "rate_mechanics": "KuCoin calculates funding rates every 8 hours using traditional perpetual mechanics with interest and premium components. Bluefin employs hourly funding rate calculations on Sui blockchain, enabling more responsive rate adjustments to market conditions. The hourly frequency on Bluefin provides more granular arbitrage opportunities but requires active monitoring. KuCoin's 8-hour intervals offer predictable funding windows but may lag during volatile periods.",
-  "verdict": "KuCoin offers better liquidity and altcoin variety for traditional funding rate strategies, while Bluefin provides more frequent rate updates and blockchain transparency. Choose KuCoin for established perpetual trading with diverse pairs, or Bluefin for cutting-edge DeFi perpetuals with hourly opportunities.",
+  "verdict": "KuCoin offers better liquidity and altcoin variety for traditional funding rate strategies, while Bluefin provides more frequent rate updates and blockchain transparency. Choose KuCoin for established perpetual trading with diverse pairs, or Bluefin for modern DeFi perpetuals with hourly opportunities.",
   "faq": [
     {
       "question": "Which exchange offers better funding rate arbitrage opportunities?",
