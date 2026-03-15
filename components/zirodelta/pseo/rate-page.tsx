@@ -9,9 +9,14 @@ import { PositiveRateGauge } from "./positive-rate-gauge"
 import { ExchangeComparisonBars } from "./exchange-comparison-bars"
 import { MonthlyHeatmap } from "./monthly-heatmap"
 import { LiveRateHero } from "./live-rate-hero"
+import { CrossExchangeLinks, CrossExchangeLinksSidebar } from "./cross-exchange-links"
+import { getExchangesForPair } from "@/lib/pseo"
 
 export function RatePageRenderer({ page }: { page: FundingRatePage }) {
   const { exchange, pair, content, related_pairs } = page
+  
+  // Get all exchanges that have this pair
+  const exchangesForPair = getExchangesForPair(pair.slug)
   
   // Get related comparisons involving this exchange
   const allComparisons = getAllComparisons()
@@ -171,6 +176,14 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
             </section>
           ))}
 
+          {/* Cross-Exchange Links */}
+          <CrossExchangeLinks
+            currentExchangeSlug={exchange.slug}
+            pairSlug={pair.slug}
+            pairLabel={`${pair.base}/${pair.quote}`}
+            exchanges={exchangesForPair}
+          />
+
           {/* FAQ */}
           <PseoFaq items={content.faq} />
           
@@ -253,6 +266,14 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
                 </Link>
               ))}
             </div>
+
+            {/* Cross-exchange in sidebar */}
+            <CrossExchangeLinksSidebar
+              currentExchangeSlug={exchange.slug}
+              pairSlug={pair.slug}
+              pairLabel={`${pair.base}/${pair.quote}`}
+              exchanges={exchangesForPair}
+            />
           </div>
         </aside>
       </div>

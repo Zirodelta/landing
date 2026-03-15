@@ -127,6 +127,25 @@ export function getPseoArticle(slug: string): PseoLearnArticle | null {
   return JSON.parse(raw) as PseoLearnArticle
 }
 
+// --- Cross-exchange links ---
+
+export function getExchangesForPair(pairSlug: string): Exchange[] {
+  const dir = path.join(GENERATED_DIR, "rates")
+  if (!fs.existsSync(dir)) return []
+
+  const exchanges = getExchanges()
+  const exchangeMap = new Map(exchanges.map((e) => [e.slug, e]))
+
+  return fs
+    .readdirSync(dir)
+    .filter((exDir) => {
+      const filePath = path.join(dir, exDir, `${pairSlug}.json`)
+      return fs.existsSync(filePath)
+    })
+    .map((exDir) => exchangeMap.get(exDir))
+    .filter((e): e is Exchange => !!e)
+}
+
 // --- Static params helpers ---
 
 export function generateRatePageParams(): { exchange: string; pair: string }[] {
