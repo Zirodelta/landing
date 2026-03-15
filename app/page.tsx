@@ -1,3 +1,4 @@
+import { OrganizationSchema } from "@/components/zirodelta/pseo/dataset-schema"
 import { Navbar } from "@/components/zirodelta/navbar"
 import { Hero } from "@/components/zirodelta/hero"
 import { ExchangeTicker } from "@/components/zirodelta/exchange-ticker"
@@ -13,6 +14,7 @@ import { Reveal } from "@/components/zirodelta/reveal"
 export default function Page() {
   return (
     <main className="min-h-screen bg-background">
+      <OrganizationSchema />
       <Navbar />
       <Hero />
       <ExchangeTicker />

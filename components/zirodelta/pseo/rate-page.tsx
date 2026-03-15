@@ -10,6 +10,7 @@ import { ExchangeComparisonBars } from "./exchange-comparison-bars"
 import { MonthlyHeatmap } from "./monthly-heatmap"
 import { LiveRateHero } from "./live-rate-hero"
 import { CrossExchangeLinks, CrossExchangeLinksSidebar } from "./cross-exchange-links"
+import { DatasetSchema } from "./dataset-schema"
 import { getExchangesForPair } from "@/lib/pseo"
 
 export function RatePageRenderer({ page }: { page: FundingRatePage }) {
@@ -36,6 +37,15 @@ export function RatePageRenderer({ page }: { page: FundingRatePage }) {
 
   return (
     <article className="mx-auto max-w-5xl px-6 lg:px-8">
+      <DatasetSchema
+        exchangeName={exchange.name}
+        exchangeSlug={exchange.slug}
+        pairBase={pair.base}
+        pairQuote={pair.quote}
+        pairSlug={pair.slug}
+        settlementCount={page.visualData?.totalSettlements}
+        positiveFrequency={page.visualData?.positivePct}
+      />
       <PseoBreadcrumb
         items={[
           { label: "Funding Rates", href: "/rates" },
