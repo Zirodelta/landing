@@ -223,7 +223,7 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <span className="inline-block w-2 h-2 bg-primary rounded-full"></span>
-                    <span className="text-muted-foreground">We're building toward YC Fall 2026</span>
+                    <span className="text-muted-foreground">We're focused on building the best funding rate infrastructure in crypto</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="inline-block w-2 h-2 bg-primary rounded-full"></span>
