@@ -30,6 +30,9 @@ const siteUrl = 'https://zirodelta.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'Zirodelta | Daily Income That Ignores The Market',
     template: '%s | Zirodelta',
