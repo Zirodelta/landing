@@ -11,17 +11,17 @@ export function Protocol() {
           {/* Text content */}
           <div>
             <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-              The Strategy
+              The Products
             </span>
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-              Your crypto earns{" "}
-              <span className="text-gradient">while you sleep</span>
+              Funding rates, decoded —{" "}
+              <span className="text-gradient">and tradeable</span>
             </h2>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              Every few hours, crypto derivatives markets pay a fee called a funding rate. When traders are bullish, they pay this fee to anyone on the other side. We capture this fee automatically - without betting on whether prices go up or down.
+              Every few hours, crypto derivatives markets settle a fee called a funding rate. <strong className="text-foreground">Settled</strong> turns each settlement into a prediction market — bet YES or NO on whether the rate will be positive or negative before it locks.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Most yield strategies expose you to price risk. Staking, lending, farming - they all depend on token prices going up. We don't. Our engine holds perfectly balanced positions that earn income regardless of market direction.
+              Don't want to trade? Let <strong className="text-foreground">Zidee</strong> do it for you. Our free sniper bot scans exchanges for extreme funding rate opportunities and executes arbitrage automatically — using your own exchange keys, zero profit share.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
@@ -45,17 +45,17 @@ export function Protocol() {
             </p>
           </div>
 
-          {/* Visual — Spot vs Perp Diagram */}
+          {/* Visual — Product Overview */}
           <div className="relative">
             <div className="glass-card rounded-2xl p-8">
               {/* Header */}
               <div className="mb-8 flex items-center justify-between">
                 <div className="flex flex-col gap-1">
                   <span className="text-xs font-medium tracking-wider text-muted-foreground uppercase">
-                    How We Earn
+                    Live Products
                   </span>
                   <span className="font-mono text-xs text-muted-foreground">
-                    Balanced position = zero price risk
+                    Both available now
                   </span>
                 </div>
                 <span className="flex items-center gap-1.5">
@@ -63,16 +63,16 @@ export function Protocol() {
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
                   </span>
-                  <span className="font-mono text-xs text-primary">Active</span>
+                  <span className="font-mono text-xs text-primary">Live</span>
                 </span>
               </div>
 
-              {/* Hedge structure */}
+              {/* Product rows */}
               <div className="space-y-4">
                 <FlowRow
-                  side="SPOT"
-                  action="Buy"
-                  detail="Own the token"
+                  side="SETTLED"
+                  action="Trade"
+                  detail="Prediction markets on funding rates"
                   positive
                 />
                 <div className="flex items-center justify-center">
@@ -80,44 +80,44 @@ export function Protocol() {
                     <div className="h-px w-12 bg-border" />
                     <div className="rounded-full border border-primary/30 bg-primary/10 px-3 py-1">
                       <span className="font-mono text-xs font-semibold text-primary">
-                        Δ = 0
+                        OR
                       </span>
                     </div>
                     <div className="h-px w-12 bg-border" />
                   </div>
                 </div>
                 <FlowRow
-                  side="PERP"
-                  action="Short"
-                  detail="Collect funding"
+                  side="ZIDEE BOT"
+                  action="Automate"
+                  detail="Free funding rate arbitrage bot"
                   positive={false}
                 />
               </div>
 
-              {/* Result */}
+              {/* Stats */}
               <div className="mt-8 rounded-xl border border-border bg-background/50 p-4">
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-muted-foreground">
-                    Price exposure
-                  </span>
-                  <span className="font-mono text-sm text-foreground">
-                    0.00 (hedged)
-                  </span>
-                </div>
-                <div className="mt-2 flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">
-                    Funding income
+                    Active markets
                   </span>
                   <span className="font-mono text-sm text-primary">
-                    Every 1-8 hours
+                    7,000+
                   </span>
                 </div>
                 <div className="mt-2 flex items-center justify-between">
                   <span className="text-sm text-muted-foreground">
-                    Stress-tested APY
+                    Exchanges covered
+                  </span>
+                  <span className="font-mono text-sm text-foreground">
+                    5 live
+                  </span>
+                </div>
+                <div className="mt-2 flex items-center justify-between">
+                  <span className="text-sm text-muted-foreground">
+                    Cost to use
                   </span>
                   <span className="font-mono text-lg font-bold text-primary">
-                    19–44%
+                    Free
                   </span>
                 </div>
               </div>

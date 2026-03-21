@@ -7,9 +7,9 @@ import { PrivacyPolicyContent, TermsOfServiceContent, RiskDisclaimerContent } fr
 
 const footerLinks = {
   Products: [
-    { label: "Transparency", href: "https://transparency.zirodelta.ag" },
+    { label: "Settled", href: "https://settled.pro" },
+    { label: "Sniper Bot (@zidee_bot)", href: "https://t.me/zidee_bot" },
     { label: "$ZDLT Hub", href: "https://zirodelta.org" },
-    { label: "Vault", href: "https://zirodelta.ag" },
     { label: "Pact (Business)", href: "/pact" },
     { label: "Whitepaper", href: "/whitepaper.pdf" },
   ],
@@ -47,7 +47,7 @@ export function Footer() {
                 <Image src="/zirodelta-full-white.svg" alt="Zirodelta" width={140} height={28} className="h-7 w-auto" />
               </a>
               <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-                Autonomous funding rate arbitrage. Revenue before users.
+                The funding rate company. Trade them, explore them, automate them.
               </p>
             </div>
 

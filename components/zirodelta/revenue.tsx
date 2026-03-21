@@ -1,16 +1,34 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { ArrowUpRight, BarChart3, Vault, Handshake } from "lucide-react"
+import { ArrowUpRight, BarChart3, Vault, TrendingUp } from "lucide-react"
 
 const services = [
   {
-    name: "Free Sniper Bot",
-    tagline: "One-tap income. Zero cost.",
+    name: "Settled",
+    tagline: "Predict funding rates. Win on Solana.",
     description:
-      "Scan the market for extreme funding rate opportunities and execute in one tap. Completely free - no signup, no token gate, no profit share. You keep 100%.",
+      "Trade YES/NO prediction markets on crypto funding rates. 7,000+ markets across 5 exchanges, settling every 1–8 hours. Built on Solana. No deposit required on testnet.",
     features: [
-      "Scan 30+ exchanges instantly",
+      "7,000+ active markets",
+      "5 exchanges covered",
+      "Solana-native, fast settlement",
+      "Testnet available now",
+    ],
+    cta: "Trade on Settled",
+    ctaHref: "https://settled.pro",
+    icon: TrendingUp,
+    accent: "#009B88",
+    available: true,
+    badge: "Live",
+  },
+  {
+    name: "Zidee Sniper Bot",
+    tagline: "One-tap arbitrage. Zero cost.",
+    description:
+      "Scan the market for extreme funding rate opportunities and execute in one tap. Completely free — no signup, no token gate, no profit share. You keep 100%.",
+    features: [
+      "Scans multiple exchanges instantly",
       "One-tap execution",
       "Free forever",
       "Your own exchange keys",
@@ -18,42 +36,27 @@ const services = [
     cta: "Open Bot on Telegram",
     ctaHref: "https://t.me/zidee_bot",
     icon: BarChart3,
-    accent: "#009B88",
+    accent: "#00D1B2",
     available: true,
+    badge: "Free",
   },
   {
     name: "Managed Yield",
-    tagline: "Deposit. Earn. Sleep.",
+    tagline: "Automated yield. Coming soon.",
     description:
-      "Deposit USDT and let the engine generate daily income automatically. Delta-neutral positions across 30+ exchanges. No directional risk, no active management required.",
+      "Deposit USDT and let the engine generate daily income automatically. Delta-neutral positions across exchanges. No directional risk, no active management required.",
     features: [
       "Automated daily income",
       "No price exposure",
-      "30+ exchange coverage",
+      "Multi-exchange coverage",
       "Withdraw anytime",
     ],
-    cta: "Enter Vault",
-    ctaHref: "https://vault.zirodelta.com",
+    cta: "Coming Soon",
+    ctaHref: "",
     icon: Vault,
-    accent: "#00D1B2",
+    accent: "#6D6E71",
     available: false,
-  },
-  {
-    name: "Institutional",
-    tagline: "Custom scale. Custom terms.",
-    description:
-      "For funds, treasuries, and partners deploying serious capital. Custom risk parameters, dedicated infrastructure, and direct communication with the team.",
-    features: [
-      "Custom position sizing",
-      "Dedicated exchange accounts",
-      "Priority execution",
-      "Direct line to the team",
-    ],
-    cta: "Start a Conversation",
-    ctaHref: "/pact",
-    icon: Handshake,
-    accent: "#8B5CF6",
-    available: true,
+    badge: "Coming Soon",
   },
 ]
 
@@ -85,14 +88,14 @@ export function Revenue() {
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center mb-16 lg:mb-20">
           <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-            What We Offer
+            Our Products
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            Three ways to{" "}
-            <span className="text-gradient">earn</span>
+            Trade them. Automate them.{" "}
+            <span className="text-gradient">Free.</span>
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Start free, scale when ready, go institutional when it makes sense.
+            Two live products built around crypto funding rates. A third one coming.
           </p>
         </div>
 
@@ -117,14 +120,21 @@ export function Revenue() {
                 }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                {/* Coming soon badge */}
-                {!service.available && (
-                  <div className="absolute top-4 right-4 rounded-full border border-border bg-secondary px-3 py-1">
-                    <span className="text-[10px] font-semibold tracking-wider text-muted-foreground uppercase">
-                      Coming Soon
-                    </span>
-                  </div>
-                )}
+                {/* Status badge */}
+                <div
+                  className="absolute top-4 right-4 rounded-full px-3 py-1"
+                  style={{
+                    backgroundColor: service.available ? `${service.accent}15` : "transparent",
+                    border: `1px solid ${service.available ? service.accent + "40" : "#6D6E7140"}`,
+                  }}
+                >
+                  <span
+                    className="text-[10px] font-semibold tracking-wider uppercase"
+                    style={{ color: service.available ? service.accent : "#6D6E71" }}
+                  >
+                    {service.badge}
+                  </span>
+                </div>
 
                 <div className="p-8">
                   {/* Icon */}

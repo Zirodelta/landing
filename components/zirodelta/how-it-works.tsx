@@ -66,30 +66,30 @@ function CollectIcon({ className }: { className?: string }) {
 const steps = [
   {
     number: "01",
-    title: "Deposit",
+    title: "Market Opens",
     description:
-      "Deposit USDT into the vault. Your capital is deployed across multiple exchanges to capture yield. Withdraw anytime.",
+      "Before each funding settlement, Settled creates a YES/NO prediction market. Will the funding rate be positive or negative? Trade your position before the window closes.",
     Icon: ScanIcon,
-    metric: "USDT",
-    detail: "Any amount",
+    metric: "YES / NO",
+    detail: "Per settlement",
   },
   {
     number: "02",
-    title: "Engine Runs",
+    title: "Funding Settles",
     description:
-      "Our engine scans hundreds of opportunities every day, picks the best ones, and executes balanced positions that earn income from derivatives markets.",
+      "The exchange settles its funding rate on schedule. Settled reads the result directly from the exchange API — no oracle, no manipulation, just the raw settlement data.",
     Icon: RankIcon,
-    metric: "24/7",
-    detail: "Autonomous",
+    metric: "API",
+    detail: "On-chain verified",
   },
   {
     number: "03",
-    title: "Collect Income",
+    title: "Market Resolves",
     description:
-      "Income flows to your account every settlement period. No lock-ups, no penalties. 19% annual return stress-tested across 6 years of real market data.",
-    Icon: ExecuteIcon,
-    metric: "19% APY",
-    detail: "Stress-tested",
+      "Winners collect their payout. Every 1–8 hours, a new cycle begins across 7,000+ markets on 5 exchanges. The Zidee bot can automate the arbitrage side for you — free.",
+    Icon: CollectIcon,
+    metric: "1–8 hrs",
+    detail: "Cycle time",
   },
 ]
 
@@ -142,13 +142,13 @@ export function HowItWorks() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-            Engine Pipeline
+            How Settled Works
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            How you earn
+            Three steps, every settlement
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Three things happen. You don't have to do any of them.
+            A market opens, funding settles, winners collect. Repeats every 1–8 hours.
           </p>
         </div>
 

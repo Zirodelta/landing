@@ -6,17 +6,17 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Built on Data, Not Hype. Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage.",
+  description: "Built on Data, Not Hype. Zirodelta builds tools to trade, explore, and automate crypto funding rates. Settled is our live prediction market. Zidee is our free sniper bot.",
   openGraph: {
     images: [{ url: "/api/og?type=about", width: 1200, height: 630 }],
     title: "About | Zirodelta",
-    description: "Built on Data, Not Hype. Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage.",
+    description: "Built on Data, Not Hype. Zirodelta builds tools to trade, explore, and automate crypto funding rates. Settled is our live prediction market. Zidee is our free sniper bot.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "About | Zirodelta",
-    description: "Built on Data, Not Hype. Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage.",
+    description: "Built on Data, Not Hype. Zirodelta builds tools to trade, explore, and automate crypto funding rates. Settled is our live prediction market. Zidee is our free sniper bot.",
   },
 }
 
@@ -29,20 +29,20 @@ const stats = [
 
 const howItWorks = [
   {
-    title: "Delta-neutral strategy",
-    description: "Buy spot + short perp = zero price exposure"
+    title: "Settled — prediction markets",
+    description: "YES/NO markets on funding rates, settling every 1–8 hours across 5 exchanges"
   },
   {
-    title: "Cross-exchange routing", 
-    description: "When one venue's spread is bad, we check all others"
+    title: "Zidee — sniper bot",
+    description: "Free Telegram bot that scans exchanges for extreme funding rate opportunities"
   },
   {
-    title: "Smart venue selection",
-    description: "The engine picks the best exchange pair automatically"
+    title: "9.4M+ settlements analyzed",
+    description: "Our dataset spans September 2019 to present — every number is real"
   },
   {
-    title: "Automated 24/7",
-    description: "Scan, allocate, execute, collect funding, rotate"
+    title: "Managed Yield — coming soon",
+    description: "Automated delta-neutral yield product, in development"
   },
 ]
 
@@ -53,15 +53,15 @@ const trustSignals = [
   },
   {
     title: "Real data",
-    description: "Every rate page shows actual settlement records, not projections"
+    description: "Every rate page shows actual settlement records from ClickHouse, not projections"
   },
   {
-    title: "Transparency dashboard",
-    description: "Live at transparency.zirodelta.ag"
+    title: "1,800+ pages indexed by Google",
+    description: "Funding rate data for hundreds of symbols across all major exchanges"
   },
   {
     title: "Free tools",
-    description: "Zidee sniper bot is completely free - no token gate, no profit share"
+    description: "Zidee sniper bot is completely free — no token gate, no profit share"
   },
 ]
 
@@ -81,8 +81,9 @@ export default function AboutPage() {
               Built on Data, Not Hype
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Zirodelta is a quantitative trading protocol that automates cross-exchange funding rate arbitrage. 
-              We earn yield by exploiting rate differences between exchanges - not by making directional bets.
+              Zirodelta is the funding rate company. We build tools to trade, explore, and automate crypto funding rates.{" "}
+              <strong className="text-foreground">Settled</strong> is our live prediction market — 7,000+ markets on 5 exchanges, built on Solana.{" "}
+              <strong className="text-foreground">Zidee</strong> is our free sniper bot for funding rate arbitrage.
             </p>
           </div>
         </section>
@@ -159,7 +160,7 @@ export default function AboutPage() {
               className="text-3xl font-extrabold tracking-tight text-foreground mb-8"
               style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
             >
-              How We Work
+              What We Build
             </h2>
             <div className="grid gap-6 sm:grid-cols-2">
               {howItWorks.map((item, index) => (

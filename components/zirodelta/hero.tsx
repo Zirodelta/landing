@@ -24,26 +24,27 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
             <span className="text-xs font-medium tracking-wider text-muted-foreground uppercase">
-              Engine Live
+              Products Live
             </span>
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            Daily income that{" "}
-            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>ignores</span>
-            <br className="hidden sm:block" />
-            {" "}<span className="text-gradient">the market</span>
+            Bet on crypto funding rates.{" "}
+            <span className="text-gradient" style={{ fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic', fontWeight: 900 }}>Explore</span>
+            {" "}them.{" "}
+            <span className="text-gradient">Automate</span>
+            {" "}them.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed md:text-xl" style={{ color: '#e8e8e8' }}>
-            Our engine captures yield from derivatives markets 24/7. You deposit, we generate income, you withdraw anytime. No trading required. No directional risk.
+            Trade YES/NO prediction markets on funding rates with <strong>Settled</strong> — 7,000+ markets across 5 exchanges. Or let <strong>Zidee</strong>, our free sniper bot, automate arbitrage for you.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://transparency.zirodelta.ag"
+              href="https://settled.pro"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-lg bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:brightness-110"
             >
-              View Live Dashboard
+              Trade on Settled
               <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
             <a

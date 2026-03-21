@@ -11,6 +11,11 @@ const navLinks = [
   { label: "Trust", href: "#trust" },
 ]
 
+const externalLinks = [
+  { label: "Settled", href: "https://settled.pro" },
+  { label: "Sniper Bot", href: "https://t.me/zidee_bot" },
+]
+
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -45,16 +50,29 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
+          <div className="h-4 w-px bg-border" />
+          {externalLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors duration-200 hover:text-primary"
+            >
+              {link.label}
+              <ArrowUpRight className="h-3 w-3" />
+            </a>
+          ))}
         </div>
 
         <div className="hidden items-center md:flex">
           <a
-            href="/whitepaper.pdf"
+            href="https://settled.pro"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all duration-200 hover:brightness-110"
           >
-            Read Whitepaper
+            Trade on Settled
             <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
         </div>
@@ -83,14 +101,23 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <div className="mt-3 border-t border-border pt-3">
+            <div className="mt-3 border-t border-border pt-3 space-y-2">
               <a
-                href="/whitepaper.pdf"
+                href="https://settled.pro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:brightness-110"
               >
-                Read Whitepaper
+                Trade on Settled
+                <ArrowUpRight className="h-3.5 w-3.5" />
+              </a>
+              <a
+                href="https://t.me/zidee_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg border border-border px-4 py-2.5 text-sm font-medium text-foreground hover:border-primary/50 hover:text-primary"
+              >
+                Sniper Bot
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </a>
             </div>

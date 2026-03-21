@@ -21,31 +21,31 @@ export function CTA() {
 
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
         <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-          Start earning from{" "}
-          <span className="text-gradient">your crypto today.</span>
+          Start trading funding rates{" "}
+          <span className="text-gradient">today. Free.</span>
         </h2>
 
         <p className="mx-auto mt-6 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-          Join thousands of traders already using our free tools. When the vault launches, you'll be first in line.
+          Settled is live. Zidee bot is live. 9.4M+ settlements analyzed. No deposit required to start on testnet.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://t.me/zidee_bot"
+            href="https://settled.pro"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:brightness-110"
           >
-            Try Free Sniper Bot
+            Trade on Settled
             <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
           </a>
           <a
-            href="/whitepaper.pdf"
+            href="https://t.me/zidee_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-lg border border-border px-8 py-4 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary/50 hover:text-primary"
           >
-            Read Whitepaper
+            Run the Sniper Bot
             <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
           </a>
         </div>
@@ -71,19 +71,15 @@ export function CTA() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
           <span className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            Free to start
+            Free to use
           </span>
           <span className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            No directional risk
+            No deposit required (testnet)
           </span>
           <span className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            19% annual return
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            Withdraw anytime
+            9.4M+ settlements analyzed
           </span>
         </div>
       </div>

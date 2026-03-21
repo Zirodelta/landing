@@ -286,11 +286,11 @@ const trustPoints = [
   {
     id: "onchain",
     Illustration: OnChainIllustration,
-    headline: "Fully Auditable",
-    statement: "See every trade we make.",
-    body: "Every trade, every position, every funding payment is recorded and publicly visible on our transparency dashboard. Full accountability by default.",
-    metric: "100%",
-    metricLabel: "Auditable trades",
+    headline: "Open & Indexed",
+    statement: "1,800+ pages indexed by Google.",
+    body: "All research methodology is published at /research. Every rate page shows actual settlement records from ClickHouse — not projections. Real data, open access, no black boxes.",
+    metric: "1,800+",
+    metricLabel: "Pages indexed by Google",
   },
   {
     id: "data",
@@ -339,15 +339,14 @@ export function Trust() {
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center mb-24 lg:mb-32">
           <span className="mb-4 inline-block text-xs font-semibold tracking-widest text-primary uppercase">
-            Why It's Safe
+            Why Trust Us
           </span>
           <h2 className="text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            Built for trust,{" "}
+            Built on data,{" "}
             <span className="text-gradient">not hype</span>
           </h2>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Security isn&apos;t a feature we added. It&apos;s the architecture
-            everything else is built on.
+            Real numbers, open research, and free tools. No promises we can&apos;t keep.
           </p>
         </div>
 
