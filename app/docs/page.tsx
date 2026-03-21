@@ -113,12 +113,12 @@ export default function DocsPage() {
                 <p className="mt-1 text-xs text-muted-foreground">Net exposure</p>
               </div>
               <div className="rounded-md border border-border bg-background/50 p-3">
-                <p className="text-2xl font-bold text-foreground">19%</p>
-                <p className="mt-1 text-xs text-muted-foreground">Backtested CAGR</p>
+                <p className="text-2xl font-bold text-foreground">7,000+</p>
+                <p className="mt-1 text-xs text-muted-foreground">Active markets</p>
               </div>
               <div className="rounded-md border border-border bg-background/50 p-3">
-                <p className="text-2xl font-bold text-foreground">3.48%</p>
-                <p className="mt-1 text-xs text-muted-foreground">Max drawdown</p>
+                <p className="text-2xl font-bold text-foreground">5</p>
+                <p className="mt-1 text-xs text-muted-foreground">Exchanges live</p>
               </div>
             </div>
           </div>

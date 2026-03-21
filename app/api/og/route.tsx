@@ -254,8 +254,8 @@ export async function GET(request: NextRequest) {
       return makeImage({
         label: "About",
         title: "About Zirodelta",
-        subtitle: "Delta-neutral funding rate arbitrage protocol",
-        footer: "YC Fall 2026 Track · Jakarta, Indonesia",
+        subtitle: "The funding rate company — Settled + Zidee",
+        footer: "Jakarta, Indonesia",
       })
     case "rates":
       return makeImage({
@@ -296,21 +296,21 @@ export async function GET(request: NextRequest) {
               <div style={{ display: "flex", fontSize: 18, color: "#6b7280" }}>zirodelta.com</div>
             </div>
             <div style={{ display: "flex", flexDirection: "column", flex: 1, justifyContent: "center", gap: "12px" }}>
-              <div style={{ display: "flex", fontSize: 15, color: "#009B88", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.15em" }}>Quantitative Trading Protocol</div>
+              <div style={{ display: "flex", fontSize: 15, color: "#009B88", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.15em" }}>The Funding Rate Company</div>
               <div style={{ display: "flex", fontSize: 72, fontWeight: 700, color: "white", lineHeight: 1.05, letterSpacing: "-0.03em" }}>Zirodelta</div>
-              <div style={{ display: "flex", fontSize: 32, color: "#9ca3af", fontWeight: 400, lineHeight: 1.3 }}>Daily income that ignores the market</div>
+              <div style={{ display: "flex", fontSize: 32, color: "#9ca3af", fontWeight: 400, lineHeight: 1.3 }}>Predict. Explore. Automate.</div>
               <div style={{ display: "flex", gap: "32px", marginTop: "20px" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <div style={{ display: "flex", fontSize: 13, color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em" }}>Settlements</div>
                   <div style={{ display: "flex", fontSize: 24, color: "white", fontWeight: 700 }}>9.4M+</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <div style={{ display: "flex", fontSize: 13, color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em" }}>Exchanges</div>
-                  <div style={{ display: "flex", fontSize: 24, color: "white", fontWeight: 700 }}>19+</div>
+                  <div style={{ display: "flex", fontSize: 13, color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em" }}>Markets</div>
+                  <div style={{ display: "flex", fontSize: 24, color: "white", fontWeight: 700 }}>7,000+</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <div style={{ display: "flex", fontSize: 13, color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em" }}>Strategy</div>
-                  <div style={{ display: "flex", fontSize: 24, color: "white", fontWeight: 700 }}>Delta-Neutral</div>
+                  <div style={{ display: "flex", fontSize: 13, color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em" }}>Products</div>
+                  <div style={{ display: "flex", fontSize: 24, color: "white", fontWeight: 700 }}>Settled + Zidee</div>
                 </div>
               </div>
             </div>
