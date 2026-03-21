@@ -24,7 +24,7 @@ const stats = [
   { label: "Settlements analyzed", value: "9.4M+" },
   { label: "Symbols tracked", value: "876" },
   { label: "Years of data", value: "6+" },
-  { label: "Exchanges monitored", value: "30+" },
+  { label: "Exchanges live", value: "5" },
 ]
 
 const howItWorks = [
@@ -41,8 +41,8 @@ const howItWorks = [
     description: "Our dataset spans September 2019 to present — every number is real"
   },
   {
-    title: "Managed Yield — coming soon",
-    description: "Automated delta-neutral yield product, in development"
+    title: "7,000+ live markets",
+    description: "Covering Binance, Bybit, KuCoin, Gate, and Hyperliquid perpetual futures"
   },
 ]
 

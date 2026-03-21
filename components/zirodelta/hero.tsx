@@ -48,7 +48,7 @@ export function Hero() {
               <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
             <a
-              href="/docs"
+              href="#how-it-works"
               className="group inline-flex items-center gap-2 rounded-lg border border-border bg-background/30 backdrop-blur-sm px-7 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary/50 hover:text-primary"
             >
               See How It Works
