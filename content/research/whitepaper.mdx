@@ -1,0 +1,621 @@
+---
+title: "Zirodelta — The Funding Rate Company"
+slug: "whitepaper"
+description: "Three products. One data moat. Every edge in crypto funding rates — tradeable, automatable, and farmable. Whitepaper v5.1."
+category: whitepaper
+status: published
+date: "2026-03-26"
+updatedDate: "2026-03-26"
+tags: [whitepaper, protocol, settled, zdlt, vault, tokenomics]
+keyFinding: "Adaptive LMSR liquidity depth validated via Monte Carlo simulation — vault is profitable at every predictability level with a flat 1% fee."
+---
+**Version 5.1 — March 2026**
+
+---
+
+> **Three products. One data moat. Every edge in crypto funding rates — tradeable, automatable, and farmable.**
+
+---
+
+## Table of Contents
+
+1. [What Zirodelta Is](#1-what-zirodelta-is)
+2. [The Problem](#2-the-problem)
+3. [Settled — The Crypto Sentiment Market](#3-settled--the-crypto-sentiment-market)
+4. [Zidee & Crowdee — Free Ecosystem Tools](#4-zidee--crowdee--free-ecosystem-tools)
+5. [The Vault — BTC+ETH Funding Rate Farming](#5-the-vault--btceth-funding-rate-farming)
+6. [$ZDLT Token](#6-zdlt-token)
+7. [The Data Moat](#7-the-data-moat)
+8. [Revenue Model](#8-revenue-model)
+9. [Risks](#9-risks)
+10. [Roadmap](#10-roadmap)
+11. [Legal Notice](#11-legal-notice)
+- [Appendix A: Howey Test Analysis](#appendix-a-howey-test-analysis)
+
+---
+
+## §1 What Zirodelta Is
+
+Zirodelta is a funding rate company. Not a DeFi protocol. Not a yield aggregator. Not another prediction market for sports. A company built around one of the most persistent alpha sources in crypto: perpetual futures funding rates.
+
+Three products are live today:
+
+| Product | What It Does | Access |
+|---|---|---|
+| **Settled** ([settled.pro](https://settled.pro)) | Binary prediction markets on funding rate settlements | Open |
+| **Zidee** ([@zidee_bot](https://t.me/zidee_bot)) | Telegram bot for funding rate arbitrage execution | Free |
+| **Crowdee** ([@crowdee_bot](https://t.me/crowdee_bot)) | Crowd positioning signals and squeeze alerts | ZDLT holders only |
+
+One product is in development:
+
+| Product | What It Does | Status |
+|---|---|---|
+| **The Vault** | Delta-neutral BTC+ETH yield vault with altcoin rotation | Planned — Q3 2026 |
+
+All four products run on the same foundation: 9.4M+ historical funding rate settlements, a real-time snapshot pipeline ingesting 26,000 rows per hour, and a proprietary directional model trained on the full dataset.
+
+The $ZDLT token ties the ecosystem together. Hold it to pay lower fees on Settled, earn bigger yield in the Vault, access Crowdee signals, and earn higher affiliate commissions. 15% of all protocol revenue goes to buying ZDLT from the open market and burning it. No new issuance. Ever.
+
+---
+
+## §2 The Problem
+
+Two separate problems. Both worth solving. One already solved.
+
+### Problem 1: You Can't Trade Funding Rate Views Directly
+
+Funding rates move over $2 billion per day across perpetual futures markets. Every participant has an opinion on whether rates will be positive or negative at the next settlement. Nobody can express that opinion cleanly.
+
+Want to bet BTC funding will be negative at the next Binance settlement? Your only option is to go long BTC perp — which gives you BTC price exposure you didn't want, liquidation risk you didn't price, and margin requirements you may not have. You're not trading funding. You're trading price with a funding rate side effect.
+
+No product exists that lets you say: "I think BTC funding will be positive at 08:00 UTC. I want to bet on that. Nothing else." Until Settled.
+
+### Problem 2: Funding Rate Farming Is Dying
+
+The classic delta-neutral farming trade is simple: buy spot, short perp, collect funding. If BTC funding is 10% APR, you earn 10% on your capital with near-zero market exposure.
+
+The problem: exchanges now manipulate funding rates within settlement periods. The rate you see when you enter a position is not the rate that settles. Exchanges adjust rates intra-period in response to market conditions, their own liquidity needs, or competitive dynamics. The direction of the next settlement is predictable — across Binance data since 2019, 74% of BTC funding settlements are positive. The magnitude is not.
+
+This makes farming inefficient. High entry rates that don't materialize hurt Sharpe ratios. Strategies that appeared low-risk in backtests built on hourly snapshots fail in production because those snapshots missed intra-period manipulation.
+
+Here's the key insight: unpredictable magnitude + predictable direction = perfect prediction market. Settled exists because of this asymmetry.
+
+---
+
+## §3 Settled — The Crypto Sentiment Market
+
+**"Trade the crowd, not the price."**
+
+Settled is a binary prediction market with one question per market: **Will the funding rate be positive at the next settlement?**
+
+YES or NO. On-chain. Auto-created. Auto-resolved. Auto-paid.
+
+### Market Infrastructure
+
+- **Coverage**: 7,000+ active markets across Binance, Bybit, KuCoin, Gate.io, and Hyperliquid
+- **Settlement schedule**: Markets auto-create before each exchange settlement window (every 1–8 hours depending on exchange)
+- **Resolution**: Permissionless — anyone can submit a Switchboard oracle proof to resolve a market. No authority key required. The cryptographic proof IS the authorization.
+- **Conditional tokens**: Each market mints real Token-2022 (SPL) YES and NO tokens with on-chain metadata. Tokens are minted on buy, burned on sell or claim. Visible in any Solana wallet (Phantom, Solflare, Explorer).
+- **No manual intervention**: From market creation to payout, no human in the loop. Resolution is open-source — anyone can run the [resolver daemon](https://github.com/Zirodelta/resolver)
+
+### The AMM
+
+Settled uses an LMSR (Logarithmic Market Scoring Rule) automated market maker — the standard for prediction markets where binary outcomes need continuous liquidity.
+
+**Adaptive liquidity depth.** The LMSR `b` parameter (which controls how much capital backs each market) is set per-market using Shannon entropy of the OU model's directional prediction. Uncertain markets (p ≈ 50%) get deeper liquidity; predictable markets (p > 80%) get thin liquidity. This was validated via Monte Carlo simulation (100,000 markets per configuration) showing the vault is profitable at every predictability level when b scales with entropy. The result: vault fee coverage of 96–145% across all market types with a flat 1% fee.
+
+**OU model pricing.** The proprietary pricing layer is trained on 9.4M+ historical funding rate settlements going back to 2019. It calibrates opening odds to reflect actual base rates, not 50/50. When BTC funding settles positive 74% of the time historically, the AMM opens close to those odds — not at even money. Traders who disagree with the model can move the market; price discovery is genuine.
+
+Every trade on Settled generates a new labeled outcome. Settlement occurred or it didn't. The model learns from production data continuously. More volume → more outcome labels → better-calibrated prices → more sophisticated traders willing to trade larger size → more volume. This is the data flywheel.
+
+### Fee Structure
+
+| ZDLT Tier | Requirement | Trading Fee |
+|---|---|---|
+| None | 0 ZDLT | 1.00% |
+| Bronze | 1M ZDLT (0.1% supply) | 0.75% |
+| Silver | 3M ZDLT (0.3% supply) | 0.50% |
+| Gold | 5M ZDLT (0.5% supply) | 0.35% |
+| Diamond | 10M ZDLT (1%+ supply) | 0.25% |
+
+Fees are collected on-chain at trade time (buy or sell). ZDLT discount is applied automatically — the on-chain program reads your ZDLT wallet balance and applies the corresponding tier. No staking, no locking, no deposits. No withdrawal fee. No deposit fee.
+
+### Technical Stack
+
+- **Chain**: Solana — sub-second finality, sub-cent fees, necessary for 7,000+ markets at 1–8 hour cadence
+- **Token standard**: Token-2022 (SPL) with metadata extension — YES/NO conditional tokens with name, symbol, image, and market metadata stored directly on the mint account. No Metaplex dependency.
+- **Oracle**: Switchboard — decentralized oracle network with secp256k1 on-chain verification
+- **Resolution**: Permissionless via `resolve_market_permissionless` instruction. Anyone can submit a Switchboard oracle proof. Resolver earns 10 bps of market volume as a tip. Open-source resolver daemon: [github.com/Zirodelta/resolver](https://github.com/Zirodelta/resolver)
+- **Architecture**: Fully on-chain. Solana chain is the source of truth for all market state, trades, and settlements. Backend is a read-only indexer that syncs on-chain events to PostgreSQL for API serving. No deposits, no withdrawals, no platform balances — every trade is a direct wallet-to-vault Solana transaction.
+- **Wallet**: MWA (Mobile Wallet Adapter) + Seed Vault native on Solana Seeker. Standard Phantom/Solflare on desktop.
+- **Mobile**: Progressive Web App, installable on Solana Seeker. Swipe-to-bet interface optimized for mobile-first DeFi users.
+- **Monitoring**: Prometheus + Grafana + Alertmanager with 17 alert rules, self-healing fix buttons, BetterStack status page at [status.settled.pro](https://status.settled.pro)
+
+### Discovery Features
+
+- **Leaderboard**: Public ranking of traders by PnL, win rate, volume
+- **Trader profiles**: Public pages with historical trade record, shareable via link
+- **Share cards**: Auto-generated win/loss cards for Twitter/X with verified on-chain trade proof
+- **Market browser**: Filter by exchange, asset, settlement time, current implied probability
+
+Current deployment is on Solana devnet. Mainnet launch is Q2 2026, pending program audit.
+
+---
+
+## §4 Zidee & Crowdee — Free Ecosystem Tools
+
+Settled is the core product. Zidee and Crowdee are the distribution layer. Both are free (or free for token holders). Both funnel users to Settled.
+
+### Zidee — [@zidee_bot](https://t.me/zidee_bot)
+
+Zidee is a Telegram bot that monitors funding rates across exchanges and executes hedged spot+perp trades when rates hit configurable thresholds.
+
+**How it works:**
+
+1. User connects exchange API keys directly (Binance, Bybit, OKX supported)
+2. User sets parameters: minimum rate to act on, position size, target symbols or "scan all"
+3. Zidee scans for rate extremes, executes simultaneous spot buy + perp short when thresholds are met
+4. Alerts on entry, monitors position, alerts when to exit
+
+**Why it's free:** Zidee users are funding rate traders. They understand the space. When they hit the limitation of farming — entry rate ≠ settlement rate, Sharpe compression from mid-period manipulation — they want a cleaner way to express funding views. Settled exists for that. Zidee is the top of the funnel.
+
+**What free means:** No subscription, no ZDLT required, no API fees charged through the bot. Users connect their own exchange accounts. Zirodelta earns nothing directly from Zidee. The value is user acquisition into the ecosystem.
+
+### Crowdee — [@crowdee_bot](https://t.me/crowdee_bot)
+
+Crowdee is a Telegram bot that sends crowd positioning signals to ZDLT holders. It scans every 10 minutes.
+
+**Signals delivered:**
+
+- **L/S ratio**: Long/short positioning ratio across 867 symbols on Binance and Bybit
+- **Taker flow / CVD**: Cumulative volume delta to identify aggressive buying or selling pressure
+- **OI changes**: Open interest spikes and collapses as leading indicators
+- **Squeeze alerts**: Detects setups where crowd is heavily positioned against likely market direction
+
+**Example — SIREN alert**: 80% short positioning maintained for 5 consecutive days on a given symbol. Historical outcome for this setup in the dataset: 87% probability of a squeeze pump within 48 hours. Crowdee identifies this and alerts holders before it resolves.
+
+**Why ZDLT-gated:** Crowdee signals have real edge. Making them free would dilute the signal (crowded signals stop working) and would eliminate one of the primary utility drivers for holding ZDLT. The gate is genuine, not cosmetic.
+
+**Funnel to Settled:** Crowdee users see that 80% of the crowd is short. They want to bet on a squeeze. The clean way to do that without taking price exposure is to trade on Settled. The bot deep-links directly to the relevant market.
+
+---
+
+## §5 The Vault — BTC+ETH Funding Rate Farming
+
+**STATUS: PLANNED. Not built. Target launch Q3 2026.**
+
+The Vault is a delta-neutral yield product. It is not live. The numbers below are from backtests using our ClickHouse dataset with proper methodology (1-week lag, no look-ahead bias). Backtests are not guarantees. See §9 for risks.
+
+### Strategy
+
+Ethena-style delta-neutral execution:
+
+1. Accept USDC deposits
+2. Buy spot BTC and ETH on Hyperliquid
+3. Short equivalent BTC and ETH perps on Hyperliquid (same platform, minimizing cross-exchange counterparty risk)
+4. Collect funding payments from short perp positions
+5. Rotate a portion of capital into top-performing altcoin funding pairs selected by the proprietary model
+
+**Why Hyperliquid:** On-chain perp settlement, no centralized exchange custody risk for the perp side. Spot + perp on same venue eliminates cross-exchange settlement mismatch.
+
+### Yield Components
+
+| Source | APR (6-month avg, ClickHouse data) |
+|---|---|
+| BTC funding (Hyperliquid) | ~6.5% |
+| ETH funding (Hyperliquid) | ~6.5% |
+| ETH staking yield | ~3.5% |
+| Altcoin rotation (backtested, 1-week lag) | 28–31% |
+| **Blended gross (BTC+ETH base + rotation)** | **~31%** |
+
+The altcoin rotation component: the proprietary model selects the top-funding altcoin pairs weekly, with a 1-week entry lag to eliminate look-ahead bias. Backtested over 24 weeks on Hyperliquid data: 31.2% APR, with 1 negative week out of 24. Position sizing is capped to manage liquidity risk at scale.
+
+**Conservative yield estimates (BTC+ETH only, no rotation):** ~6.1% APR. This is the floor — what the vault earns even without any model alpha.
+
+### Fee Structure — One Vault, Tiered Fees
+
+Everyone deposits into the **same pool**, the **same strategy**, earning the **same gross yield**. The only difference is how much Zirodelta charges.
+
+**Performance fee** — charged as a percentage of positive returns only. No management fee. No deposit fee. No withdrawal fee. High-water mark: if the vault dips and recovers, no fee is charged on the recovery portion.
+
+| Tier | ZDLT (% supply) | Performance Fee | Net yield (at 31% gross) |
+|---|---|---|---|
+| **None** | 0% | 30% | **21.7%** |
+| **Bronze** | < 0.3% | 20% | **24.8%** |
+| **Silver** | < 0.5% | 15% | **26.4%** |
+| **Gold** | < 1% | 10% | **27.9%** |
+| **Diamond** | ≥ 1% | 5% | **29.5%** |
+
+See §6 for the full tier table — the same tiers apply across all products.
+
+**Why 30% base fee is fair:**
+
+- Base depositors still earn 21.7% net with zero token requirement. This exceeds Ethena's ~12–15%, Liminal's ~15%, and every money market protocol. No depositor is exploited.
+- Traditional hedge funds charge "2 and 20" (2% AUM + 20% performance). Zirodelta charges 0% management + 30% performance. Zirodelta only earns when depositors earn. Zero-yield months cost Zirodelta zero revenue.
+- The 30%→5% fee reduction creates a measurable, dollar-denominated reason to hold ZDLT. At $100K deposited and 31% gross yield, the difference between None (30% fee) and Diamond (5% fee) = **$7,750/year saved**. Real utility, not speculative.
+
+**ZDLT is not locked, not staked, not deposited.** It stays in your wallet. The vault checks your ZDLT balance on-chain at each fee accrual. Hold the tokens, pay less. Sell them, pay more. Simple.
+
+### What Flows From the Fee
+
+```
+Performance fee collected
+  → 70% to treasury (operations, infrastructure, team)
+  → 30% to ZDLT buyback & burn (on-chain, verifiable)
+```
+
+At $10M AUM with 20% average blended fee: $620K/year revenue. $186K/year in ZDLT buybacks. Real buy pressure from real income.
+
+---
+
+## §6 $ZDLT Token
+
+| Parameter | Value |
+|---|---|
+| Chain | Solana |
+| Standard | SPL Token |
+| Supply | 1,000,000,000 (fixed) |
+| Contract | `4PX31xRA1BaAyb2Js45ZKYp92VGWGp47yWeVs5CGVKbf` |
+| Launch type | Fair launch — no presale, no VC, no team allocation |
+| New issuance | Zero. Never. Confirmed at [zirodelta.org](https://zirodelta.org) |
+| Entity | Wyoming LLC |
+
+### Uniform Tier System
+
+One tier table. Applied consistently across every product. Based on percentage of total ZDLT supply held in your wallet.
+
+| Tier | ZDLT Held (% of supply) | ZDLT Amount |
+|---|---|---|
+| **None** | 0% | 0 |
+| **Bronze** | < 0.3% | < 3,000,000 |
+| **Silver** | < 0.5% | < 5,000,000 |
+| **Gold** | < 1% | < 10,000,000 |
+| **Diamond** | ≥ 1% | ≥ 10,000,000 |
+
+ZDLT is not locked, not staked, not deposited. It stays in your wallet. Every product checks your on-chain balance at the moment the benefit applies.
+
+### How Each Product Uses the Tiers
+
+**1. Settled — Trading Fee Discount**
+
+| Tier | Trading Fee |
+|---|---|
+| None | 1.00% |
+| Bronze | 0.75% |
+| Silver | 0.50% |
+| Gold | 0.35% |
+| Diamond | 0.25% |
+
+At Diamond, a trader doing $100K/month saves $750/month versus None. The math is obvious.
+
+**2. Vault — Performance Fee Discount** *(active at vault launch, Q3 2026)*
+
+Everyone deposits into the same pool, earns the same gross yield. ZDLT tier determines performance fee:
+
+| Tier | Performance Fee | Net yield (at 31% gross) |
+|---|---|---|
+| None | 30% | 21.7% |
+| Bronze | 20% | 24.8% |
+| Silver | 15% | 26.4% |
+| Gold | 10% | 27.9% |
+| Diamond | 5% | 29.5% |
+
+At $100K deposited, Diamond saves $7,750/year versus None. Highest-magnitude utility by dollar value.
+
+**3. Affiliate — Commission Boost**
+
+| Tier | Commission Rate |
+|---|---|
+| None | 15% |
+| Bronze | 20% |
+| Silver | 25% |
+| Gold | 30% |
+| Diamond | 35% |
+
+Affiliates — bloggers, CT accounts, YouTube creators — hold ZDLT to earn more from their traffic. Every referred trade drives volume, which drives burns.
+
+**4. Crowdee — Signal Access**
+
+| Tier | Access |
+|---|---|
+| None | ❌ No access |
+| Bronze+ | ✅ Full signals (squeeze alerts, L/S, CVD, liquidation cascades) |
+
+Any ZDLT holding unlocks Crowdee. The gate is on-chain — the bot reads your wallet balance before delivering signals.
+
+### Burn Mechanics
+
+**15% of ALL protocol revenue goes to buying ZDLT on the open market and sending it to a dead address.**
+
+Revenue sources feeding the burn:
+- Settled 1% trading fees on buy/sell (live from mainnet day one)
+- Vault 5–30% performance fee (starts at vault launch)
+- Affiliate commissions are paid from existing fee revenue (not additional cost)
+
+This is not redistribution. Not staking. Not dividends. ZDLT holders receive no direct payment. The mechanism is deflationary: supply shrinks as protocol revenue grows.
+
+At $1M monthly trading volume on Settled (conservative target for a platform with 7,000+ markets), the 1% fee is $10,000/month. 15% of that is $1,500/month in ZDLT buys and burns. At $10M monthly volume: $15,000/month in burns. The burn rate scales linearly with adoption.
+
+### The Flywheel
+
+This is not a theoretical flywheel. It is a series of independent economic decisions that compound:
+
+1. **Traders** hold ZDLT to reduce Settled fees (None 1% → Diamond 0.25%) → creates buy pressure
+2. **Vault depositors** hold ZDLT to reduce performance fees (None 30% → Diamond 5%) → creates buy pressure
+3. **Affiliates** hold ZDLT to maximize commissions (None 15% → Diamond 35%) → creates buy pressure
+4. **15% of all protocol revenue** goes to burning supply → reduces available tokens
+5. Lower supply + sustained buy pressure → rising price → more traders/depositors attracted → more volume → more burns
+
+Each participant type has independent rational motivation to hold ZDLT. None of them require the others to exist. All of them compound.
+
+---
+
+## §7 The Data Moat
+
+Product features can be copied in weeks. Data cannot be copied at all. Zirodelta's competitive moat is the dataset.
+
+### What We Have
+
+**Historical settlements**: 9.4M+ funding rate settlements across all major exchanges since 2019. Stored in ClickHouse. This is the training set for the AMM pricing model and the proprietary model used in vault rotation.
+
+**Snapshot pipeline**: Running every 10 minutes, the collector captures 26,000 rows per hour of intra-period state:
+- Current funding rate
+- Open interest
+- Long/short ratio
+- Cumulative volume delta (CVD)
+- Mark price
+
+This is the data that reveals mid-period manipulation. Standard exchange APIs show you hourly closes. Our pipeline captures what actually happened between those closes.
+
+**Interval change tracker**: 7,864 funding rate regime changes across 4 exchanges, tracked and labeled. A "regime change" is a material shift in the rate trajectory within a settlement period. No other public dataset tracks this. It is the foundation for detecting manipulation signals.
+
+**Positioning data**: L/S ratio and taker volume for 867 symbols across Binance and Bybit. Updated every 10 minutes. Feeding Crowdee alerts in real time.
+
+**proprietary model**: The proprietary pricing model achieves high directional accuracy validated on held-out test data. This is the same model used to price Settled markets and select vault rotation targets.
+
+### Why This Moat Is Real
+
+Any team with $50,000 and 3 months can build a binary prediction market UI. They cannot:
+- Reconstruct 7 years of historical settlement data with intra-period snapshots
+- Build the labeling infrastructure to identify regime changes retroactively
+- Calibrate a pricing model without the labeled outcome data from millions of settlements
+- Achieve comparable directional accuracy without the training data to support it
+
+By the time a competitor gathers comparable data, Settled will have 2–3 more years of production outcome data improving the model further. The gap widens, not narrows.
+
+Every trade on Settled is a free label: the market believed X, the settlement was Y. That's supervised learning data generated at no cost, at scale, automatically. Competitors start without this data. They cannot buy it. They must generate it from scratch, which requires volume, which requires a working product, which requires pricing they can't calibrate without data. The loop doesn't start.
+
+---
+
+## §8 Revenue Model
+
+Three revenue streams. Two active at mainnet launch. One at vault launch. No withdrawal fee. No deposit fee.
+
+### Stream 1: Settled Trading Fees
+
+**1% per trade** (0.75% / 0.50% / 0.35% / 0.25% for ZDLT holders).
+
+Fee is collected on-chain at trade time (buy or sell), deducted from the USDC amount before it enters the LMSR pool. All trades are direct wallet-to-vault Solana transactions. There are no deposits, withdrawals, or platform balances — USDC moves between the user's wallet and the vault atomically on every trade.
+
+Revenue scales directly with:
+- Number of active markets (grows automatically as new exchange pairs are added)
+- Trading volume per market (grows with model accuracy and user base)
+- Number of settlements per day (fixed by exchange schedule — roughly 3 per day per symbol)
+
+At 7,000+ markets, 3 settlements per day: each market needs less than $5 in daily volume to generate material aggregate fees. This is a volume game with low per-market requirements.
+
+### Stream 2: Vault Performance Fee *(Q3 2026)*
+
+**5–30% of positive returns**, tiered by ZDLT holdings. No management fee. No deposit or withdrawal fee.
+
+| AUM | Gross yield (31%) | Avg blended fee (~20%) | Annual revenue |
+|---|---|---|---|
+| $1M | $310K | $62K | $62K |
+| $10M | $3.1M | $620K | $620K |
+| $100M | $31M | $6.2M | $6.2M |
+
+The blended fee assumes a mix of Base (30%), Silver (20%), Gold (10%), and Diamond (5%) depositors. As more depositors hold ZDLT to reduce fees, the blended rate trends lower — but total revenue grows because AUM grows faster. ZDLT fee discounts incentivize depositors to hold tokens rather than exit, increasing AUM stability.
+
+### Stream 3: Affiliate Program *(Q2 2026)*
+
+Affiliates earn 20–30% of fees generated by referred users. Zirodelta retains 70–80%.
+
+Affiliates are motivated to:
+- Drive high-quality trader traffic (quality over quantity — they earn on volume)
+- Hold ZDLT to maximize their commission tier
+- Create content that improves SEO and domain authority
+
+This stream costs nothing to Zirodelta until revenue is generated. It scales organically.
+
+### Revenue Allocation
+
+All revenue streams flow into one pool, then split:
+
+| Allocation | Percentage | Source |
+|---|---|---|
+| ZDLT buyback & burn | 15% | All revenue (Settled fees + Vault performance fees + affiliates) |
+| Operations, development, treasury | 85% | Same |
+
+The 15% burn allocation is not discretionary. It applies to all protocol revenue from all streams. As the protocol grows, the burn grows proportionally.
+
+**Vault-specific split** (within the 85% treasury allocation): 30% of vault performance fees are dedicated to ZDLT buyback & burn (in addition to the global 15%). This means vault revenue effectively contributes ~40.5% to burns — reflecting the vault's higher revenue per user and the importance of rewarding ZDLT holders who enable fee discounts.
+
+---
+
+## §9 Risks
+
+Zirodelta is early-stage software operating in a high-risk environment. The following risks are real. Do not minimize them.
+
+### Exchange Counterparty Risk
+
+Zidee and the Vault interact with centralized exchanges (CEXes) via API. CEXes can freeze funds, halt withdrawals, change API behavior without notice, or become insolvent. FTX happened. It will happen again. Users connecting Zidee to their exchange accounts bear this risk directly. The Vault's design minimizes this by using Hyperliquid (on-chain perp settlement), but the spot leg introduces custody risk for the underlying assets.
+
+### Smart Contract Risk
+
+The Settled on-chain program handles real USDC. Solana programs can contain bugs. A bug could result in loss of funds, incorrect settlement payouts, or market manipulation. The program is currently on devnet. Mainnet launch is contingent on a third-party audit. Audit completion does not guarantee bug-free code — it reduces (not eliminates) the probability of critical vulnerabilities. Past audits from reputable firms have missed bugs. Users should not deposit funds they cannot afford to lose.
+
+### Oracle Risk
+
+Settled's settlement mechanism uses permissionless resolution: anyone can submit a Switchboard oracle proof containing a signed funding rate value. The on-chain program verifies the secp256k1 signature and determines the outcome. No authority key is required. However, if the Switchboard feed itself returns incorrect data — due to exchange API bugs, outages, or deliberate manipulation — the on-chain verification will pass with wrong data. A corrupted oracle feed could cause incorrect market resolution. Switchboard's decentralized design reduces this risk, but does not eliminate it. Exchange APIs have experienced outages during high-volatility periods — exactly when funding rate markets are most active. The authority-based fallback resolution path exists for emergency cases but introduces centralization.
+
+### Funding Rate Regime Risk
+
+All Zirodelta products assume funding rates have value. In a prolonged bear market with low leverage, funding rates compress toward zero. At near-zero rates, Settled markets have minimal trading volume (no edge to trade), the Vault earns minimal yield, and Zidee finds no actionable extremes. The base rate of positive BTC funding (74% historically) is not guaranteed to hold in future regimes. Extended bear markets with structural regime changes could materially impair all three product lines simultaneously.
+
+### Exchange Manipulation Risk
+
+The core insight behind Settled — direction predictable, magnitude not — depends on exchanges continuing to manipulate rates in the way they currently do. If exchanges changed settlement mechanics to make rates more predictable (or less manipulable), this would reduce the edge that Settled markets are built to exploit. Conversely, if manipulation becomes so extreme that direction itself becomes unpredictable, the AMM pricing model degrades. Both outcomes are possible.
+
+### Liquidity Risk (Vault)
+
+The altcoin rotation component of the Vault strategy is backtested at institutional scale but has not been validated in production. Altcoin perp markets have limited depth. Rotating into top-funding altcoins at significant AUM may move markets, reduce realized funding, or create entry/exit slippage that erodes the 28–31% backtested APR. The strategy may not scale past certain AUM thresholds. The Vault will impose deposit caps in early launch to manage this risk; caps will be raised as liquidity is validated at each tier.
+
+### Regulatory Risk
+
+Prediction markets occupy contested legal territory in most jurisdictions. Settled's binary markets on funding rate outcomes are structurally different from sports betting or equity prediction markets, but regulators may not make this distinction. Specific jurisdictions — including the United States — have prosecuted or restricted prediction market operators. Zirodelta operates via a Wyoming LLC. This provides structural clarity but not regulatory immunity. Users in restricted jurisdictions access the protocol at their own risk. The regulatory environment for on-chain prediction markets is evolving and could change materially.
+
+### Small Team Risk
+
+Zirodelta is currently operated by 5 people with AI assistance. This is a feature (speed, low overhead) and a risk (bus factor, execution capacity). A single critical team member becoming unavailable could halt development. There is no institutional backing, no large engineering team, no enterprise support contract. Users and holders should weight this appropriately.
+
+---
+
+## §10 Roadmap
+
+Status categories are factual. "Live" means running. "Planned" means not built.
+
+### Live Now (March 2026)
+
+| Item | Status |
+|---|---|
+| Settled prediction market ([settled.pro](https://settled.pro)) | Live — devnet, 7,000+ markets |
+| On-chain AMM with LMSR pricing | Live — devnet |
+| Conditional tokens (Token-2022 YES/NO with on-chain metadata) | Live — devnet |
+| Permissionless resolution (Switchboard secp256k1 proof) | Live — devnet |
+| Open-source resolver daemon ([Zirodelta/resolver](https://github.com/Zirodelta/resolver)) | Live — Apache-2.0 |
+| Adaptive b parameter (entropy-aware liquidity depth, Monte Carlo validated) | Live |
+| Fully on-chain architecture (chain indexer, no PG state machine) | Live |
+| ZDLT fee tiers (on-chain balance check, 5 tiers) | Live — devnet |
+| Switchboard oracle integration | Live — devnet |
+| Zidee sniper bot ([@zidee_bot](https://t.me/zidee_bot)) | Live — Telegram |
+| Crowdee signal bot ([@crowdee_bot](https://t.me/crowdee_bot)) | Live — ZDLT holders |
+| Snapshot data collector | Live — 26,000 rows/hour, every 10 minutes |
+| Prometheus + Grafana monitoring with 17 alert rules | Live |
+| BetterStack status page ([status.settled.pro](https://status.settled.pro)) | Live |
+| API documentation ([docs.settled.pro](https://docs.settled.pro)) | Live — 25 pages |
+| SEO infrastructure | Live — 15,000+ indexable pages, RES 100 |
+| Playwright E2E test suite + CI | Live — 19 tests |
+| Korean + Turkish localization | Live |
+| PWA (installable on Solana Seeker) | Live |
+| MWA + Seed Vault wallet integration | Live |
+
+### Q2 2026 — Mainnet
+
+| Item | Target |
+|---|---|
+| Solana program third-party audit | Q2 2026 |
+| Mainnet deployment of Settled | Q2 2026 |
+| Real USDC trading (no deposits/withdrawals — direct wallet-to-vault) | Q2 2026 |
+| Production faucet retirement | Q2 2026 |
+| Affiliate program launch | Q2 2026 |
+| Solana dApp Store listing (TWA/PWA) | Q2 2026 |
+| Switchboard feed expansion (KuCoin + OKX feeds) | Q2 2026 |
+| CoinMarketCap + DappRadar listings | Q2 2026 |
+
+### Q3 2026 — Vault + Token Utility
+
+| Item | Target |
+|---|---|
+| Vault smart contract development + audit | Q3 2026 |
+| Vault launch (BTC+ETH + altcoin rotation, Hyperliquid) | Q3 2026 |
+| ZDLT fee discount activation on-chain | Q3 2026 |
+| ZDLT vault boost activation on-chain | Q3 2026 |
+| Buyback & burn operations begin | Q3 2026 |
+
+### Future (No Fixed Date)
+
+| Item | Notes |
+|---|---|
+| Secondary token market | YES/NO tokens tradeable on Jupiter/Raydium (already Token-2022 compatible) |
+| LP composability | External protocols can build liquidity strategies on top of Settled markets |
+| Cross-chain expansion | Bridge to EVM chains for Settled access |
+| Sentiment markets | "Will L/S ratio flip bullish by Friday?" |
+| Institutional API access | Direct feed for quant funds |
+| Portfolio tracker integration | Step Finance, Sonar Watch auto-detect positions from token balances |
+
+---
+
+## §11 Legal Notice
+
+This document is for informational purposes only. It does not constitute an offer to sell, a solicitation to buy, or a recommendation to purchase any security, token, financial instrument, or investment product.
+
+**$ZDLT is a utility token.** It provides access to fee discounts on Settled, yield boost multipliers in the Vault, enhanced affiliate commission rates, and access to Crowdee signals. These are functional utilities. Holding ZDLT does not entitle the holder to any share of Zirodelta's revenues, profits, or assets. The buyback and burn mechanism is a protocol-level deflationary mechanic — it is not a distribution to token holders and confers no legal claim on protocol revenue.
+
+**Settled** is a prediction market platform that creates binary markets on public, verifiable data: funding rate settlement outcomes published by cryptocurrency exchanges. Markets resolve automatically based on oracle-verified exchange data. Settled does not create, manipulate, or influence the underlying data it resolves against. Users who trade on Settled bear the full risk of their positions.
+
+**The Vault** is a planned product. It is not live. Forward-looking statements about vault yield, AUM, or launch timelines are targets, not guarantees. Past data (including ClickHouse backtests) does not guarantee future performance.
+
+Zirodelta is a Wyoming Limited Liability Company. This document does not constitute legal or financial advice. Users are responsible for understanding the legal status of prediction markets, token trading, and yield products in their jurisdiction before using any Zirodelta product. Access to Zirodelta products may be restricted in certain jurisdictions, including but not limited to the United States.
+
+All numbers in this document derived from our ClickHouse dataset are based on historical data. The backtested figures for vault yield (28–31% APR altcoin rotation) use a 1-week entry lag and no look-ahead bias. Backtests are simulations. They are not evidence of future results.
+
+---
+
+## Appendix A: Howey Test Analysis
+
+The Howey test determines whether an instrument constitutes an investment contract under U.S. securities law. Four prongs must all be satisfied: (1) an investment of money, (2) in a common enterprise, (3) with an expectation of profit, (4) derived solely from the efforts of others.
+
+Zirodelta's position is that ZDLT does not satisfy this test as applied to the token's actual utility functions. The analysis follows.
+
+### Prong 1: Investment of Money
+
+ZDLT can be acquired on the open market. Secondary market purchases are not inherently an "investment of money" in the Howey sense unless the other prongs are satisfied. There was no ICO, no presale, no token sale. Zirodelta did not raise funds through ZDLT. The fair launch means no investor gave money to Zirodelta expecting returns.
+
+### Prong 2: Common Enterprise
+
+Holders of ZDLT do not participate in a common enterprise with Zirodelta. ZDLT utility is exercised individually: a trader uses their ZDLT to reduce their own fees on Settled. A vault depositor uses their ZDLT to boost their own yield. These are individual utility exercises, not pooled investment in a shared outcome. The burn mechanism reduces supply across all holders, but supply reduction is a passive protocol mechanic — not profit participation in a common enterprise.
+
+### Prong 3: Expectation of Profit
+
+ZDLT's designed utility is functional, not speculative. The fee discount on Settled reduces transaction costs for active users. The vault yield boost increases returns for depositors who provide capital to the vault strategy. The Crowdee access utility delivers information services. None of these utilities are designed to generate profit from holding ZDLT per se — they reduce costs or enhance returns on separate, active economic activities (trading, depositing, referring).
+
+The burn mechanism does not create an expectation of profit. Burns reduce supply but do not transfer economic value to holders. A token holder receives no payment, no coupon, no dividend, no claim on assets. Any price appreciation resulting from supply reduction is market-driven speculation, not a contractual or protocol-level profit mechanism.
+
+### Prong 4: Efforts of Others
+
+The most significant prong. ZDLT's utility is realized through the holder's own active choices:
+- A trader must actively trade on Settled to benefit from the fee discount
+- A vault depositor must actively deposit USDC and maintain a position to benefit from the yield boost
+- An affiliate must actively recruit users and generate volume to benefit from the commission boost
+- A Crowdee user must actively read and act on signals to derive value
+
+The value of ZDLT utility is not passive. It depends on the holder's own decisions and actions. This contrasts with profit-sharing arrangements where holders benefit solely from the management team's operations.
+
+Zirodelta's ongoing development does improve the value of the protocol and thus the potential utility of ZDLT. This is true of any software platform and does not satisfy "solely from the efforts of others" — courts have interpreted this prong to require that profits flow primarily, not solely, from promoter efforts, and the presence of significant holder activity weighs against classification.
+
+### Conclusion
+
+Based on this analysis, ZDLT exhibits the characteristics of a utility token: functional access rights, active utility requiring holder participation, and no contractual profit-sharing mechanism. However, this analysis is not legal advice, and securities law is jurisdiction-specific and fact-dependent. Zirodelta does not represent that ZDLT is definitively not a security in any jurisdiction. Holders and prospective holders should consult qualified legal counsel.
+
+The burn mechanism is specifically designed to avoid the profit-sharing characteristics that have led regulators to classify tokens as securities. Burns reduce supply — they do not transfer revenue to holders. This distinction is material.
+
+---
+
+---
+
+### Zirodelta Domains
+
+| Domain | Purpose |
+|---|---|
+| [zirodelta.com](https://zirodelta.com) | Company landing page |
+| [zirodelta.org](https://zirodelta.org) | $ZDLT token hub — supply, contract, burn tracker |
+| [zirodelta.ag](https://zirodelta.ag) | Vault (coming Q3 2026) |
+| [settled.pro](https://settled.pro) | Prediction market app |
+| [faucet.settled.pro](https://faucet.settled.pro) | Testnet faucet — claim $1,000 USDC |
+| [learn.settled.pro](https://learn.settled.pro) | Learn guides |
+| [docs.settled.pro](https://docs.settled.pro) | API documentation |
+| [@zidee_bot](https://t.me/zidee_bot) | Sniper bot (Telegram) |
+| [@crowdee_bot](https://t.me/crowdee_bot) | Crowd signals bot (Telegram) |
+| [@settled_pro](https://x.com/settled_pro) | X / Twitter |
+
+*Version 5.0 — March 2026*

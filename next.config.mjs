@@ -8,6 +8,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Whitepaper shortcut
+      { source: '/whitepaper', destination: '/research/whitepaper', permanent: false },
       // ── pSEO consolidation: all /rates/ → settled.pro ──
       // Individual rate pages: /rates/binance/btc-usdt → settled.pro/rates/binance-btc-usdt
       { source: '/rates/:exchange/:pair', destination: 'https://settled.pro/rates/:exchange-:pair', permanent: true },
